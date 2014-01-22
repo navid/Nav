@@ -1,0 +1,635 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /jmod.sur.multi.aux~ 99 1 /nav.munger~ 99 1 /fondu 99 1 /fonduEQ 99 1 /fonduLimit 99 1 /fonduGate 99 1 /crossfade~ 99 1 /crossfade~.1 99 1 /fonduVST 99 1 /MouthGate 99 1 /mouthLimit 99 1 /mouthEQ 99 1 /mouth1-2 99 1 /SF-in 99 1 /SFBrowser 99 1 /reverb 99 1 /vst 99 1 /nav.munger~.1 99 1 /nav.munger~.2 99 1 /JWoutput 99 1 /jmod.sur.multi.aux~.1 99 1 /jmod.sur.multi.aux~.2 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ # 
+ # Module /nav.munger~ 
+ # 
+ # Module /fondu 
+ # 
+ # Module /fonduEQ 
+ # 
+ # Module /fonduLimit 
+ # 
+ # Module /fonduGate 
+ # 
+ # Module /crossfade~ 
+ 	 	 	 	 /crossfade~/audio/bypass 0 
+ 	 	 	 	 /crossfade~/audio/gain 0.000000 
+ 	 	 	 	 /crossfade~/audio/mute 0 
+ 	 	 	 	 /crossfade~/mode FastMode 
+ 	 	 	 	 /crossfade~/position 1.000000 
+ 	 	 	 	 /crossfade~/shape EqualPowerFade 
+ 	 	 	 	 /crossfade~/view/color/border 0 
+ 	 	 	 	 /crossfade~/view/color/contentBackground 0 
+ 	 	 	 	 /crossfade~/view/color/toolbarBackground 0 
+ 	 	 	 	 /crossfade~/view/color/toolbarText 0 
+ 	 	 	 	 /crossfade~/view/freeze 0 
+ 	 	 	 	 /crossfade~/view/size 300 70 
+ # 
+ # Module /crossfade~.1 
+ 	 	 	 	 /crossfade~.1/audio/bypass 0 
+ 	 	 	 	 /crossfade~.1/audio/gain 0.000000 
+ 	 	 	 	 /crossfade~.1/audio/mute 0 
+ 	 	 	 	 /crossfade~.1/mode FastMode 
+ 	 	 	 	 /crossfade~.1/position 1.000000 
+ 	 	 	 	 /crossfade~.1/shape EqualPowerFade 
+ 	 	 	 	 /crossfade~.1/view/color/border 0 
+ 	 	 	 	 /crossfade~.1/view/color/contentBackground 0 
+ 	 	 	 	 /crossfade~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /crossfade~.1/view/color/toolbarText 0 
+ 	 	 	 	 /crossfade~.1/view/freeze 0 
+ 	 	 	 	 /crossfade~.1/view/size 300 70 
+ # 
+ # Module /fonduVST 
+ 	 	 	 	 /fonduVST/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /fonduVST/vst/program 0 
+ 	 	 	 	 /fonduVST/parameter/density 0.400000 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.045455 
+ 	 	 	 	 /fonduVST/parameter/filterfreq 1.000000 
+ 	 	 	 	 /fonduVST/parameter/grainsize 0.200000 
+ 	 	 	 	 /fonduVST/parameter/greversal 0.500000 
+ 	 	 	 	 /fonduVST/parameter/gsizevari 0.000000 
+ 	 	 	 	 /fonduVST/parameter/gstartvari 1.000000 
+ 	 	 	 	 /fonduVST/parameter/mix 0.727273 
+ 	 	 	 	 /fonduVST/parameter/octave 0.272727 
+ 	 	 	 	 /fonduVST/parameter/octvari 0.454545 
+ 	 	 	 	 /fonduVST/parameter/pitch1 1.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch10 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch11 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch12 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch2 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch3 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch4 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch5 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch6 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch7 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch8 0.000000 
+ 	 	 	 	 /fonduVST/parameter/pitch9 0.000000 
+ 	 	 	 	 /fonduVST/parameter/resonance 0.500000 
+ 	 	 	 	 /fonduVST/parameter/time 0.600000 
+ 	 	 	 	 /fonduVST/parameter/timelock 0.000000 
+ 	 	 	 	 /fonduVST/parameter/timevari 0.500000 
+ 	 	 	 	 /fonduVST/parameter/tuning 0.000000 
+ 	 	 	 	 /fonduVST/audio/bypass 0 
+ 	 	 	 	 /fonduVST/audio/gain 0.000000 
+ 	 	 	 	 /fonduVST/audio/mix 100.000000 
+ 	 	 	 	 /fonduVST/audio/mute 0 
+ 	 	 	 	 /fonduVST/view/color/border 0 
+ 	 	 	 	 /fonduVST/view/color/contentBackground 0 
+ 	 	 	 	 /fonduVST/view/color/toolbarBackground 0 
+ 	 	 	 	 /fonduVST/view/color/toolbarText 0 
+ 	 	 	 	 /fonduVST/view/freeze 0 
+ 	 	 	 	 /fonduVST/view/size 300 210 
+ # 
+ # Module /MouthGate 
+ 	 	 	 	 /MouthGate/attack 10 
+ 	 	 	 	 /MouthGate/audio/bypass 0 
+ 	 	 	 	 /MouthGate/audio/gain 100.000000 
+ 	 	 	 	 /MouthGate/audio/mix 100.000000 
+ 	 	 	 	 /MouthGate/audio/mute 0 
+ 	 	 	 	 /MouthGate/lookahead 10 
+ 	 	 	 	 /MouthGate/release 300 
+ 	 	 	 	 /MouthGate/threshold -43 
+ 	 	 	 	 /MouthGate/view/color/border 0 
+ 	 	 	 	 /MouthGate/view/color/contentBackground 0 
+ 	 	 	 	 /MouthGate/view/color/toolbarBackground 0 
+ 	 	 	 	 /MouthGate/view/color/toolbarText 0 
+ 	 	 	 	 /MouthGate/view/freeze 0 
+ 	 	 	 	 /MouthGate/view/size 300 70 
+ # 
+ # Module /mouthLimit 
+ 	 	 	 	 /mouthLimit/audio/bypass 0 
+ 	 	 	 	 /mouthLimit/audio/gain 100.000000 
+ 	 	 	 	 /mouthLimit/audio/mix 100.000000 
+ 	 	 	 	 /mouthLimit/audio/mute 0 
+ 	 	 	 	 /mouthLimit/lookahead 10 
+ 	 	 	 	 /mouthLimit/mode exponential 
+ 	 	 	 	 /mouthLimit/postamp 6.000000 
+ 	 	 	 	 /mouthLimit/preamp 6.000000 
+ 	 	 	 	 /mouthLimit/release 300.000000 
+ 	 	 	 	 /mouthLimit/threshold -6.000000 
+ 	 	 	 	 /mouthLimit/view/color/border 0 
+ 	 	 	 	 /mouthLimit/view/color/contentBackground 0 
+ 	 	 	 	 /mouthLimit/view/color/toolbarBackground 0 
+ 	 	 	 	 /mouthLimit/view/color/toolbarText 0 
+ 	 	 	 	 /mouthLimit/view/freeze 0 
+ 	 	 	 	 /mouthLimit/view/size 300 105 
+ # 
+ # Module /mouthEQ 
+ 	 	 	 	 /mouthEQ/bands 1 
+ 	 	 	 	 /mouthEQ/audio/bypass 0 
+ 	 	 	 	 /mouthEQ/audio/gain 100.000000 
+ 	 	 	 	 /mouthEQ/audio/mix 100.000000 
+ 	 	 	 	 /mouthEQ/audio/mute 0 
+ 	 	 	 	 /mouthEQ/filter.1/frequency 102.876778 
+ 	 	 	 	 /mouthEQ/filter.1/gain 0.327712 
+ 	 	 	 	 /mouthEQ/filter.1/q 0.859451 
+ 	 	 	 	 /mouthEQ/filter.1/type highpass 
+ 	 	 	 	 /mouthEQ/view/color/border 0 
+ 	 	 	 	 /mouthEQ/view/color/contentBackground 0 
+ 	 	 	 	 /mouthEQ/view/color/toolbarBackground 0 
+ 	 	 	 	 /mouthEQ/view/color/toolbarText 0 
+ 	 	 	 	 /mouthEQ/view/freeze 0 
+ 	 	 	 	 /mouthEQ/view/size 300 140 
+ # 
+ # Module /mouth1-2 
+ 	 	 	 	 /mouth1-2/audio/active 1 
+ 	 	 	 	 /mouth1-2/audio/gain 0.000000 
+ 	 	 	 	 /mouth1-2/balance 0.000000 
+ 	 	 	 	 /mouth1-2/ch.1 1 
+ 	 	 	 	 /mouth1-2/ch.2 2 
+ 	 	 	 	 /mouth1-2/clicktrain/rate 1.000005 
+ 	 	 	 	 /mouth1-2/soundfile/loop 0 
+ 	 	 	 	 /mouth1-2/soundfile/play 0 
+ 	 	 	 	 /mouth1-2/source live 
+ 	 	 	 	 /mouth1-2/view/color/border 0 
+ 	 	 	 	 /mouth1-2/view/color/contentBackground 0 
+ 	 	 	 	 /mouth1-2/view/color/toolbarBackground 0 
+ 	 	 	 	 /mouth1-2/view/color/toolbarText 0 
+ 	 	 	 	 /mouth1-2/view/freeze 0 
+ 	 	 	 	 /mouth1-2/view/size 300 140 
+ # 
+ # Module /SF-in 
+ 	 	 	 	 /SF-in/audio/active 1 
+ 	 	 	 	 /SF-in/audio/gain 0.000000 
+ 	 	 	 	 /SF-in/balance 0.000000 
+ 	 	 	 	 /SF-in/ch.1 1 
+ 	 	 	 	 /SF-in/ch.2 2 
+ 	 	 	 	 /SF-in/clicktrain/rate 1.000005 
+ 	 	 	 	 /SF-in/soundfile/loop 0 
+ 	 	 	 	 /SF-in/soundfile/open /Users/Lolita/Desktop/JourneyWithin/Composition/FIxedMedia/JW-Intro-.aif 
+ 	 	 	 	 /SF-in/soundfile/play 1 
+ 	 	 	 	 /SF-in/source soundfile 
+ 	 	 	 	 /SF-in/view/color/border 0 
+ 	 	 	 	 /SF-in/view/color/contentBackground 0 
+ 	 	 	 	 /SF-in/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-in/view/color/toolbarText 0 
+ 	 	 	 	 /SF-in/view/freeze 0 
+ 	 	 	 	 /SF-in/view/size 300 140 
+ # 
+ # Module /SFBrowser 
+ 	 	 	 	 /SFBrowser/type all 
+ 	 	 	 	 /SFBrowser/folder /Users/Lolita/Desktop/JourneyWithin/Composition/FIxedMedia/ 
+ 	 	 	 	 /SFBrowser/depth 1 
+ 	 	 	 	 /SFBrowser/file /Users/Lolita/Desktop/JourneyWithin/Composition/FIxedMedia/JW-Intro-.aif 
+ 	 	 	 	 /SFBrowser/view/color/border 0 
+ 	 	 	 	 /SFBrowser/view/color/contentBackground 0 
+ 	 	 	 	 /SFBrowser/view/color/toolbarBackground 0 
+ 	 	 	 	 /SFBrowser/view/color/toolbarText 0 
+ 	 	 	 	 /SFBrowser/view/freeze 0 
+ 	 	 	 	 /SFBrowser/view/size 300 70 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 6 
+ 	 	 	 	 /reverb/outputs 6 
+ 	 	 	 	 /reverb/audio/gain 100.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 732.000000 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/output.1/gain 100.000000 
+ 	 	 	 	 /reverb/output.10/gain 100.000000 
+ 	 	 	 	 /reverb/output.11/gain 100.000000 
+ 	 	 	 	 /reverb/output.12/gain 100.000000 
+ 	 	 	 	 /reverb/output.13/gain 100.000000 
+ 	 	 	 	 /reverb/output.14/gain 100.000000 
+ 	 	 	 	 /reverb/output.15/gain 100.000000 
+ 	 	 	 	 /reverb/output.16/gain 100.000000 
+ 	 	 	 	 /reverb/output.17/gain 100.000000 
+ 	 	 	 	 /reverb/output.18/gain 100.000000 
+ 	 	 	 	 /reverb/output.19/gain 100.000000 
+ 	 	 	 	 /reverb/output.2/gain 100.000000 
+ 	 	 	 	 /reverb/output.20/gain 100.000000 
+ 	 	 	 	 /reverb/output.21/gain 100.000000 
+ 	 	 	 	 /reverb/output.22/gain 100.000000 
+ 	 	 	 	 /reverb/output.23/gain 100.000000 
+ 	 	 	 	 /reverb/output.24/gain 100.000000 
+ 	 	 	 	 /reverb/output.3/gain 100.000000 
+ 	 	 	 	 /reverb/output.4/gain 100.000000 
+ 	 	 	 	 /reverb/output.5/gain 100.000000 
+ 	 	 	 	 /reverb/output.6/gain 100.000000 
+ 	 	 	 	 /reverb/output.7/gain 100.000000 
+ 	 	 	 	 /reverb/output.8/gain 100.000000 
+ 	 	 	 	 /reverb/output.9/gain 100.000000 
+ 	 	 	 	 /reverb/predelay 0.000000 
+ 	 	 	 	 /reverb/t60 1.700000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.060606 
+ 	 	 	 	 /vst/parameter/loopdepth 0.250000 
+ 	 	 	 	 /vst/parameter/mix 0.681818 
+ 	 	 	 	 /vst/parameter/octave 0.272727 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.257576 
+ 	 	 	 	 /vst/parameter/time 0.769697 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 0.000000 
+ 	 	 	 	 /vst/audio/mix 100.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 300 210 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 6 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 85.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 74.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.1/delayLength 719.638733 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.200000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.700000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 9.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 527.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 20.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 6 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 16 
+ # 
+ # Module /nav.munger~.2 
+ 	 	 	 	 /nav.munger~.2/numChannels 6 
+ 	 	 	 	 /nav.munger~.2/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.2/depth 0 
+ 	 	 	 	 /nav.munger~.2/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.2/audio/gain 87.000000 
+ 	 	 	 	 /nav.munger~.2/audio/mix 74.000000 
+ 	 	 	 	 /nav.munger~.2/audio/mute 0 
+ 	 	 	 	 /nav.munger~.2/buff/choice 0 
+ 	 	 	 	 /nav.munger~.2/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.2/buff/rand 0 
+ 	 	 	 	 /nav.munger~.2/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.2/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.2/delayLength 912.031616 
+ 	 	 	 	 /nav.munger~.2/direction 0 
+ 	 	 	 	 /nav.munger~.2/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.2/pan 0 
+ 	 	 	 	 /nav.munger~.2/params/pitch 0.479700 
+ 	 	 	 	 /nav.munger~.2/params/pitchVar 0.499300 
+ 	 	 	 	 /nav.munger~.2/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.2/params/rateVar 14.000000 
+ 	 	 	 	 /nav.munger~.2/params/size 488.000000 
+ 	 	 	 	 /nav.munger~.2/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~.2/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.2/ramp 6 
+ 	 	 	 	 /nav.munger~.2/sieves 0 
+ 	 	 	 	 /nav.munger~.2/tune 0 
+ 	 	 	 	 /nav.munger~.2/view/color/border 0 
+ 	 	 	 	 /nav.munger~.2/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.2/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.2/view/freeze 0 
+ 	 	 	 	 /nav.munger~.2/view/size 300 105 
+ 	 	 	 	 /nav.munger~.2/voices 16 
+ # 
+ # Module /JWoutput 
+ 	 	 	 	 /JWoutput/audio/active 1 
+ 	 	 	 	 /JWoutput/audio/mute 0 
+ 	 	 	 	 /JWoutput/limiter/active 1 
+ 	 	 	 	 /JWoutput/limiter/dcblocker/active 1 
+ 	 	 	 	 /JWoutput/limiter/lookahead 64 
+ 	 	 	 	 /JWoutput/limiter/mode exponential 
+ 	 	 	 	 /JWoutput/limiter/postamp 0.000000 
+ 	 	 	 	 /JWoutput/limiter/preamp 6.000000 
+ 	 	 	 	 /JWoutput/limiter/release 300.000000 
+ 	 	 	 	 /JWoutput/limiter/threshold 6.000000 
+ 	 	 	 	 /JWoutput/numSpeakers 6 
+ 	 	 	 	 /JWoutput/offset 0 
+ 	 	 	 	 /JWoutput/record/filetype default 
+ 	 	 	 	 /JWoutput/record/samptype default 
+ 	 	 	 	 /JWoutput/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /JWoutput/view/color/border 0 
+ 	 	 	 	 /JWoutput/view/color/contentBackground 0 
+ 	 	 	 	 /JWoutput/view/color/toolbarBackground 0 
+ 	 	 	 	 /JWoutput/view/color/toolbarText 0 
+ 	 	 	 	 /JWoutput/view/freeze 0 
+ 	 	 	 	 /JWoutput/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 6 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~.2 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.1/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/channels 6 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "play" ramp 3000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /SF-in/audio/gain 98.961037 ramp global 
+ 	 	 	 	 /SF-in/soundfile/play 1 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "chips" ramp 7000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.000000 ramp global 
+ 	 	 	 	 /fonduVST/parameter/mix 0.727273 ramp global 
+ 	 	 	 	 /fonduVST/audio/gain 98.000000 ramp global 
+ 	 	 	 	 /MouthGate/threshold -40 ramp global 
+ 	 	 	 	 /mouth1-2/audio/gain 95.662346 ramp global 
+ 	 	 	 	 /SF-in/audio/gain 0.824675 ramp global 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 ramp global 
+ 	 	 	 	 /vst/parameter/mix 0.681818 ramp global 
+ 	 	 	 	 /vst/audio/gain 95.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "chipsy" ramp 10000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.075758 ramp global 
+ 	 	 	 	 /fonduVST/parameter/time 0.660606 ramp global 
+ 	 	 	 	 /vst/parameter/feedback 0.121212 ramp global 
+ 	 	 	 	 /vst/parameter/time 0.875758 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "julian" ramp 7000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.181819 ramp global 
+ 	 	 	 	 /fonduVST/audio/gain 54.000000 ramp global 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.409091 ramp global 
+ 	 	 	 	 /vst/parameter/time 0.830303 ramp global 
+ 	 	 	 	 /vst/audio/gain 51.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "letus" ramp 6000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/gain 86.178574 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 89.202377 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "mLetus" ramp 10000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 18.142857 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 22.678572 ramp global 
+ 	 	 	 	 /vst/audio/gain 79.000000 ramp global 
+ 	 	 	 	 /fonduVST/audio/gain 83.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "fadeOut" ramp 10000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/gain 0.000000 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 48.380951 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 0.000000 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 43.845238 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/pitchVar 0.780000 ramp global 
+ 	 	 	 	 /vst/audio/gain 25.000000 ramp global 
+ 	 	 	 	 /reverb/t60 2.260000 ramp global 
+ 	 	 	 	 /SF-in/soundfile/play 0 
+ 	 	 	 	 /fonduVST/audio/gain 26.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Fondu" ramp 5000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 33.261906 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 39.309525 ramp global 
+ 	 	 	 	 /vst/parameter/feedback 0.060606 ramp global 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.287879 ramp global 
+ 	 	 	 	 /vst/audio/gain 90.000000 ramp global 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.090910 ramp global 
+ 	 	 	 	 /fonduVST/audio/gain 87.000000 ramp global 
+ 	 	 	 	 /crossfade~.1/audio/gain 100.000000 ramp global 
+ 	 	 	 	 /crossfade~/audio/gain 100.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "mFondu" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/gain 77.107124 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 72.571426 ramp global 
+ 	 	 	 	 /nav.munger~.2/audio/gain 89.000000 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/pitch 0.706000 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/pitchVar 0.290000 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/rateVar 22.000000 ramp global 
+ 	 	 	 	 /nav.munger~.2/voices 21 
+ 	 	 	 	 /nav.munger~.1/audio/gain 88.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.480000 ramp global 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 10.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/params/size 434.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/voices 23 
+ 	 	 	 	 /reverb/t60 1.990000 ramp global 
+ 	 	 	 	 /MouthGate/threshold -41 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Transform" ramp 69000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/gain 90.714256 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 0.000000 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 86.178535 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~.2/delayLength 1768.961670 
+ 	 	 	 	 /nav.munger~.2/params/pitch 0.200000 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/pitchVar 1.300000 ramp global 
+ 	 	 	 	 /nav.munger~.2/voices 20 
+ 	 	 	 	 /nav.munger~.1/delayLength 1891.107056 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 2.100000 ramp global 
+ 	 	 	 	 /nav.munger~.1/voices 19 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 ramp global 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.000000 ramp global 
+ 	 	 	 	 /crossfade~.1/position 2.000000 ramp global 
+ 	 	 	 	 /crossfade~/position 2.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "variance" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 52.916668 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 37.797630 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/pitch 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/pitchVar 2.500000 ramp global 
+ 	 	 	 	 /nav.munger~.2/voices 25 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 1.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/voices 23 
+ 	 	 	 	 /vst/parameter/feedback 0.166667 ramp global 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.469697 ramp global 
+ 	 	 	 	 /vst/audio/gain 95.000000 ramp global 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.181818 ramp global 
+ 	 	 	 	 /fonduVST/parameter/octave 0.257576 ramp global 
+ 	 	 	 	 /fonduVST/parameter/octvari 0.500000 ramp global 
+ 	 	 	 	 /fonduVST/audio/gain 93.000000 ramp global 
+ 	 	 	 	 /crossfade~.1/position 1.519031 ramp global 
+ 	 	 	 	 /crossfade~/position 1.512111 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "everything" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 68.035713 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 66.523811 ramp global 
+ 	 	 	 	 /nav.munger~.2/params/rateVar 11.000000 ramp global 
+ 	 	 	 	 /nav.munger~.2/voices 35 
+ 	 	 	 	 /nav.munger~.1/voices 30 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.863636 ramp global 
+ 	 	 	 	 /vst/parameter/time 0.875758 ramp global 
+ 	 	 	 	 /reverb/t60 2.080000 ramp global 
+ 	 	 	 	 /fonduVST/parameter/feedback 0.090909 ramp global 
+ 	 	 	 	 /fonduVST/parameter/octvari 1.000000 ramp global 
+ 	 	 	 	 /fonduVST/parameter/time 0.675758 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "Outro" ramp 9000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.2/gain 1.511905 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.2/aux.3/gain 0.000000 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 1.511905 ramp global 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 0.000000 ramp global 
+ 	 	 	 	 /vst/audio/gain 1.000000 ramp global 
+ 	 	 	 	 /SFBrowser/file /Users/Lolita/Desktop/JourneyWithin/Composition/FIxedMedia/JW-Outro.aif 
+ 	 	 	 	 /SF-in/audio/gain 100.610390 ramp global 
+ 	 	 	 	 /SF-in/soundfile/open /Users/Lolita/Desktop/JourneyWithin/Composition/FIxedMedia/JW-Outro.aif 
+ 	 	 	 	 /SF-in/soundfile/play 1 
+ 	 	 	 	 /fonduVST/audio/gain 0.000000 ramp global 
+ 	 	 	 	 /crossfade~.1/audio/gain 3.000000 ramp global 
+ 	 	 	 	 /crossfade~/audio/gain 5.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 

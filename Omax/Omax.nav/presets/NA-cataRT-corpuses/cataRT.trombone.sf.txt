@@ -1,0 +1,188 @@
+"improvised voice only.aif" "NavNavDrive:/SoundLibraries/Acoustic/Mouth-voice/roger-voice/improvised voice only.aif" 30.000000000000000000000000000000 32653.103515625000000000000000000
+"indian chanting only.aif" "NavNavDrive:/SoundLibraries/Acoustic/Mouth-voice/roger-voice/indian chanting only.aif" 30.000000000000000000000000000000 32653.103515625000000000000000000
+"indian chanting_with improvised voice.aif" "NavNavDrive:/SoundLibraries/Acoustic/Mouth-voice/roger-voice/indian chanting_with improvised voice.aif" 30.000000000000000000000000000000 32653.103515625000000000000000000
+"zeros& ones text.aif" "NavNavDrive:/SoundLibraries/Acoustic/Mouth-voice/roger-voice/zeros& ones text.aif" 30.000000000000000000000000000000 30000.000000000000000000000000000
+"06-percussiveClicks.aif" "NavNavDrive:/SoundLibraries/Acoustic/WuWei-clicks/06-percussiveClicks.aif" 30.000000000000000000000000000000 30000.000000000000000000000000000
+"11-clicks.aif" "NavNavDrive:/SoundLibraries/Acoustic/WuWei-clicks/11-clicks.aif" 30.000000000000000000000000000000 30000.000000000000000000000000000
+"Vc-pizz-sec-A#2-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#2-ff-3c.aif" 30.000000000000000000000000000000 1059.3750000000000000000000000000
+"Vc-pizz-sec-A#2-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#2-mf-3c.aif" 30.000000000000000000000000000000 1538.6041259765625000000000000000
+"Vc-pizz-sec-A#2-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#2-pp-3c.aif" 30.000000000000000000000000000000 950.60418701171875000000000000000
+"Vc-pizz-sec-A#3-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#3-ff-1c.aif" 30.000000000000000000000000000000 1366.7083740234375000000000000000
+"Vc-pizz-sec-A#3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#3-ff-2c.aif" 30.000000000000000000000000000000 1503.5416259765625000000000000000
+"Vc-pizz-sec-A#3-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#3-mf-1c.aif" 30.000000000000000000000000000000 1458.6458740234375000000000000000
+"Vc-pizz-sec-A#3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#3-mf-2c.aif" 30.000000000000000000000000000000 1122.0208740234375000000000000000
+"Vc-pizz-sec-A#3-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#3-pp-1c.aif" 30.000000000000000000000000000000 880.37500000000000000000000000000
+"Vc-pizz-sec-A#3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#3-pp-2c.aif" 30.000000000000000000000000000000 699.62500000000000000000000000000
+"Vc-pizz-sec-A#4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#4-ff-1c.aif" 30.000000000000000000000000000000 1706.1875000000000000000000000000
+"Vc-pizz-sec-A#4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#4-mf-1c.aif" 30.000000000000000000000000000000 1283.3125000000000000000000000000
+"Vc-pizz-sec-A#4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A#4-pp-1c.aif" 30.000000000000000000000000000000 666.27081298828125000000000000000
+"Vc-pizz-sec-A2-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A2-ff-3c.aif" 30.000000000000000000000000000000 924.93750000000000000000000000000
+"Vc-pizz-sec-A2-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A2-mf-3c.aif" 30.000000000000000000000000000000 819.91668701171875000000000000000
+"Vc-pizz-sec-A2-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A2-pp-3c.aif" 30.000000000000000000000000000000 688.89581298828125000000000000000
+"Vc-pizz-sec-A3-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A3-ff-1c.aif" 30.000000000000000000000000000000 1541.7916259765625000000000000000
+"Vc-pizz-sec-A3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A3-ff-2c.aif" 30.000000000000000000000000000000 801.10418701171875000000000000000
+"Vc-pizz-sec-A3-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A3-mf-1c.aif" 30.000000000000000000000000000000 1388.1041259765625000000000000000
+"Vc-pizz-sec-A3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A3-mf-2c.aif" 30.000000000000000000000000000000 1059.3541259765625000000000000000
+"Vc-pizz-sec-A3-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A3-pp-1c.aif" 30.000000000000000000000000000000 1008.5416870117187500000000000000
+"Vc-pizz-sec-A3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A3-pp-2c.aif" 30.000000000000000000000000000000 719.81250000000000000000000000000
+"Vc-pizz-sec-A4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A4-mf-1c.aif" 30.000000000000000000000000000000 1133.5833740234375000000000000000
+"Vc-pizz-sec-A4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-A4-pp-1c.aif" 30.000000000000000000000000000000 565.00000000000000000000000000000
+"Vc-pizz-sec-B2-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B2-ff-3c.aif" 30.000000000000000000000000000000 1111.2708740234375000000000000000
+"Vc-pizz-sec-B2-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B2-mf-3c.aif" 30.000000000000000000000000000000 1082.7500000000000000000000000000
+"Vc-pizz-sec-B2-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B2-pp-3c.aif" 30.000000000000000000000000000000 822.54168701171875000000000000000
+"Vc-pizz-sec-B3-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B3-ff-1c.aif" 30.000000000000000000000000000000 1387.0833740234375000000000000000
+"Vc-pizz-sec-B3-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B3-mf-1c.aif" 30.000000000000000000000000000000 984.25000000000000000000000000000
+"Vc-pizz-sec-B3-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B3-pp-1c.aif" 30.000000000000000000000000000000 626.97918701171875000000000000000
+"Vc-pizz-sec-B4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B4-ff-1c.aif" 30.000000000000000000000000000000 1592.7291259765625000000000000000
+"Vc-pizz-sec-B4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B4-mf-1c.aif" 30.000000000000000000000000000000 1261.6250000000000000000000000000
+"Vc-pizz-sec-B4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-B4-pp-1c.aif" 30.000000000000000000000000000000 744.66668701171875000000000000000
+"Vc-pizz-sec-C#2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#2-ff-4c.aif" 30.000000000000000000000000000000 1167.3333740234375000000000000000
+"Vc-pizz-sec-C#2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#2-mf-4c.aif" 30.000000000000000000000000000000 1053.3750000000000000000000000000
+"Vc-pizz-sec-C#2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#2-pp-4c.aif" 30.000000000000000000000000000000 940.35418701171875000000000000000
+"Vc-pizz-sec-C#3-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#3-ff-3c.aif" 30.000000000000000000000000000000 1300.6458740234375000000000000000
+"Vc-pizz-sec-C#3-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#3-mf-3c.aif" 30.000000000000000000000000000000 1064.1458740234375000000000000000
+"Vc-pizz-sec-C#3-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#3-pp-3c.aif" 30.000000000000000000000000000000 721.77081298828125000000000000000
+"Vc-pizz-sec-C#4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#4-ff-1c.aif" 30.000000000000000000000000000000 1393.4583740234375000000000000000
+"Vc-pizz-sec-C#4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#4-mf-1c.aif" 30.000000000000000000000000000000 1013.2916870117187500000000000000
+"Vc-pizz-sec-C#4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#4-pp-1c.aif" 30.000000000000000000000000000000 646.97918701171875000000000000000
+"Vc-pizz-sec-C#5-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#5-ff-1c.aif" 30.000000000000000000000000000000 1651.6250000000000000000000000000
+"Vc-pizz-sec-C#5-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#5-mf-1c.aif" 30.000000000000000000000000000000 1210.1875000000000000000000000000
+"Vc-pizz-sec-C#5-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C#5-pp-1c.aif" 30.000000000000000000000000000000 924.89581298828125000000000000000
+"Vc-pizz-sec-C2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C2-ff-4c.aif" 30.000000000000000000000000000000 912.81250000000000000000000000000
+"Vc-pizz-sec-C2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C2-mf-4c.aif" 30.000000000000000000000000000000 828.62500000000000000000000000000
+"Vc-pizz-sec-C2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C2-pp-4c.aif" 30.000000000000000000000000000000 541.72918701171875000000000000000
+"Vc-pizz-sec-C3-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C3-ff-3c.aif" 30.000000000000000000000000000000 1069.9791259765625000000000000000
+"Vc-pizz-sec-C3-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C3-mf-3c.aif" 30.000000000000000000000000000000 894.06250000000000000000000000000
+"Vc-pizz-sec-C3-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C3-pp-3c.aif" 30.000000000000000000000000000000 725.79168701171875000000000000000
+"Vc-pizz-sec-C4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C4-ff-1c.aif" 30.000000000000000000000000000000 1368.0625000000000000000000000000
+"Vc-pizz-sec-C4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C4-mf-1c.aif" 30.000000000000000000000000000000 1282.7083740234375000000000000000
+"Vc-pizz-sec-C4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C4-pp-1c.aif" 30.000000000000000000000000000000 906.47918701171875000000000000000
+"Vc-pizz-sec-C5-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C5-ff-1c.aif" 30.000000000000000000000000000000 1537.4791259765625000000000000000
+"Vc-pizz-sec-C5-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C5-mf-1c.aif" 30.000000000000000000000000000000 1379.3958740234375000000000000000
+"Vc-pizz-sec-C5-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-C5-pp-1c.aif" 30.000000000000000000000000000000 786.12500000000000000000000000000
+"Vc-pizz-sec-D#2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#2-ff-4c.aif" 30.000000000000000000000000000000 944.45831298828125000000000000000
+"Vc-pizz-sec-D#2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#2-mf-4c.aif" 30.000000000000000000000000000000 1114.7291259765625000000000000000
+"Vc-pizz-sec-D#2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#2-pp-4c.aif" 30.000000000000000000000000000000 1030.9166259765625000000000000000
+"Vc-pizz-sec-D#3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#3-ff-2c.aif" 30.000000000000000000000000000000 1365.6875000000000000000000000000
+"Vc-pizz-sec-D#3-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#3-ff-3c.aif" 30.000000000000000000000000000000 864.56250000000000000000000000000
+"Vc-pizz-sec-D#3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#3-mf-2c.aif" 30.000000000000000000000000000000 1093.0208740234375000000000000000
+"Vc-pizz-sec-D#3-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#3-mf-3c.aif" 30.000000000000000000000000000000 1033.2083740234375000000000000000
+"Vc-pizz-sec-D#3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#3-pp-2c.aif" 30.000000000000000000000000000000 727.79168701171875000000000000000
+"Vc-pizz-sec-D#3-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#3-pp-3c.aif" 30.000000000000000000000000000000 897.97918701171875000000000000000
+"Vc-pizz-sec-D#4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#4-ff-1c.aif" 30.000000000000000000000000000000 1432.2708740234375000000000000000
+"Vc-pizz-sec-D#4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#4-mf-1c.aif" 30.000000000000000000000000000000 1109.7083740234375000000000000000
+"Vc-pizz-sec-D#4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D#4-pp-1c.aif" 30.000000000000000000000000000000 1024.2083740234375000000000000000
+"Vc-pizz-sec-D2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D2-ff-4c.aif" 30.000000000000000000000000000000 1002.6875000000000000000000000000
+"Vc-pizz-sec-D2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D2-mf-4c.aif" 30.000000000000000000000000000000 889.08331298828125000000000000000
+"Vc-pizz-sec-D2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D2-pp-4c.aif" 30.000000000000000000000000000000 651.70831298828125000000000000000
+"Vc-pizz-sec-D3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D3-ff-2c.aif" 30.000000000000000000000000000000 1794.9166259765625000000000000000
+"Vc-pizz-sec-D3-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D3-ff-3c.aif" 30.000000000000000000000000000000 1234.2291259765625000000000000000
+"Vc-pizz-sec-D3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D3-mf-2c.aif" 30.000000000000000000000000000000 1193.4583740234375000000000000000
+"Vc-pizz-sec-D3-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D3-mf-3c.aif" 30.000000000000000000000000000000 1152.7291259765625000000000000000
+"Vc-pizz-sec-D3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D3-pp-2c.aif" 30.000000000000000000000000000000 813.87500000000000000000000000000
+"Vc-pizz-sec-D3-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D3-pp-3c.aif" 30.000000000000000000000000000000 1015.3333129882812500000000000000
+"Vc-pizz-sec-D4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D4-ff-1c.aif" 30.000000000000000000000000000000 1404.9583740234375000000000000000
+"Vc-pizz-sec-D4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D4-mf-1c.aif" 30.000000000000000000000000000000 1110.8541259765625000000000000000
+"Vc-pizz-sec-D4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D4-pp-1c.aif" 30.000000000000000000000000000000 969.27081298828125000000000000000
+"Vc-pizz-sec-D5-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D5-ff-1c.aif" 30.000000000000000000000000000000 1819.8125000000000000000000000000
+"Vc-pizz-sec-D5-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D5-mf-1c.aif" 30.000000000000000000000000000000 1070.6875000000000000000000000000
+"Vc-pizz-sec-D5-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-D5-pp-1c.aif" 30.000000000000000000000000000000 515.41668701171875000000000000000
+"Vc-pizz-sec-E2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E2-ff-4c.aif" 30.000000000000000000000000000000 959.16668701171875000000000000000
+"Vc-pizz-sec-E2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E2-mf-4c.aif" 30.000000000000000000000000000000 940.02081298828125000000000000000
+"Vc-pizz-sec-E2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E2-pp-4c.aif" 30.000000000000000000000000000000 805.12500000000000000000000000000
+"Vc-pizz-sec-E3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E3-ff-2c.aif" 30.000000000000000000000000000000 1271.1458740234375000000000000000
+"Vc-pizz-sec-E3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E3-mf-2c.aif" 30.000000000000000000000000000000 956.60418701171875000000000000000
+"Vc-pizz-sec-E3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E3-pp-2c.aif" 30.000000000000000000000000000000 666.52081298828125000000000000000
+"Vc-pizz-sec-E4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E4-ff-1c.aif" 30.000000000000000000000000000000 1451.5000000000000000000000000000
+"Vc-pizz-sec-E4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E4-mf-1c.aif" 30.000000000000000000000000000000 1145.0625000000000000000000000000
+"Vc-pizz-sec-E4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-E4-pp-1c.aif" 30.000000000000000000000000000000 937.54168701171875000000000000000
+"Vc-pizz-sec-F#2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#2-ff-4c.aif" 30.000000000000000000000000000000 1179.1666259765625000000000000000
+"Vc-pizz-sec-F#2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#2-mf-4c.aif" 30.000000000000000000000000000000 797.31250000000000000000000000000
+"Vc-pizz-sec-F#2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#2-pp-4c.aif" 30.000000000000000000000000000000 738.87500000000000000000000000000
+"Vc-pizz-sec-F#3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#3-ff-2c.aif" 30.000000000000000000000000000000 1451.1458740234375000000000000000
+"Vc-pizz-sec-F#3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#3-mf-2c.aif" 30.000000000000000000000000000000 1140.2083740234375000000000000000
+"Vc-pizz-sec-F#3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#3-pp-2c.aif" 30.000000000000000000000000000000 1059.1041259765625000000000000000
+"Vc-pizz-sec-F#4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#4-ff-1c.aif" 30.000000000000000000000000000000 1691.6250000000000000000000000000
+"Vc-pizz-sec-F#4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#4-mf-1c.aif" 30.000000000000000000000000000000 1381.3958740234375000000000000000
+"Vc-pizz-sec-F#4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F#4-pp-1c.aif" 30.000000000000000000000000000000 973.04168701171875000000000000000
+"Vc-pizz-sec-F2-ff-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F2-ff-4c.aif" 30.000000000000000000000000000000 1040.3750000000000000000000000000
+"Vc-pizz-sec-F2-mf-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F2-mf-4c.aif" 30.000000000000000000000000000000 972.70831298828125000000000000000
+"Vc-pizz-sec-F2-pp-4c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F2-pp-4c.aif" 30.000000000000000000000000000000 710.31250000000000000000000000000
+"Vc-pizz-sec-F3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F3-ff-2c.aif" 30.000000000000000000000000000000 1345.8958740234375000000000000000
+"Vc-pizz-sec-F3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F3-mf-2c.aif" 30.000000000000000000000000000000 977.29168701171875000000000000000
+"Vc-pizz-sec-F3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F3-pp-2c.aif" 30.000000000000000000000000000000 861.43750000000000000000000000000
+"Vc-pizz-sec-F4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F4-ff-1c.aif" 30.000000000000000000000000000000 1319.5833740234375000000000000000
+"Vc-pizz-sec-F4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F4-mf-1c.aif" 30.000000000000000000000000000000 1173.2916259765625000000000000000
+"Vc-pizz-sec-F4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-F4-pp-1c.aif" 30.000000000000000000000000000000 1213.9375000000000000000000000000
+"Vc-pizz-sec-G#2-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#2-ff-3c.aif" 30.000000000000000000000000000000 1364.3541259765625000000000000000
+"Vc-pizz-sec-G#2-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#2-mf-3c.aif" 30.000000000000000000000000000000 982.89581298828125000000000000000
+"Vc-pizz-sec-G#2-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#2-pp-3c.aif" 30.000000000000000000000000000000 769.62500000000000000000000000000
+"Vc-pizz-sec-G#3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#3-ff-2c.aif" 30.000000000000000000000000000000 1510.0416259765625000000000000000
+"Vc-pizz-sec-G#3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#3-mf-2c.aif" 30.000000000000000000000000000000 1021.3333129882812500000000000000
+"Vc-pizz-sec-G#3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#3-pp-2c.aif" 30.000000000000000000000000000000 763.27081298828125000000000000000
+"Vc-pizz-sec-G#4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#4-ff-1c.aif" 30.000000000000000000000000000000 1510.8333740234375000000000000000
+"Vc-pizz-sec-G#4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#4-mf-1c.aif" 30.000000000000000000000000000000 1410.1666259765625000000000000000
+"Vc-pizz-sec-G#4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G#4-pp-1c.aif" 30.000000000000000000000000000000 1154.7500000000000000000000000000
+"Vc-pizz-sec-G2-ff-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G2-ff-3c.aif" 30.000000000000000000000000000000 1082.4166259765625000000000000000
+"Vc-pizz-sec-G2-mf-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G2-mf-3c.aif" 30.000000000000000000000000000000 928.70831298828125000000000000000
+"Vc-pizz-sec-G2-pp-3c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G2-pp-3c.aif" 30.000000000000000000000000000000 657.39581298828125000000000000000
+"Vc-pizz-sec-G3-ff-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G3-ff-2c.aif" 30.000000000000000000000000000000 1224.4166259765625000000000000000
+"Vc-pizz-sec-G3-mf-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G3-mf-2c.aif" 30.000000000000000000000000000000 1180.8958740234375000000000000000
+"Vc-pizz-sec-G3-pp-2c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G3-pp-2c.aif" 30.000000000000000000000000000000 596.14581298828125000000000000000
+"Vc-pizz-sec-G4-ff-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G4-ff-1c.aif" 30.000000000000000000000000000000 1693.3541259765625000000000000000
+"Vc-pizz-sec-G4-mf-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G4-mf-1c.aif" 30.000000000000000000000000000000 1444.8125000000000000000000000000
+"Vc-pizz-sec-G4-pp-1c.aif" "NavNavDrive:/SoundLibraries/Acoustic/orchidee-forum/Strings/Violoncello/pizzicato-secco/Vc-pizz-sec-G4-pp-1c.aif" 30.000000000000000000000000000000 1413.3125000000000000000000000000
+"pizzi - monoFile.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi - monoFile.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi 1.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi 1.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi 1.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi 1.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi 2.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi 2.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi 2.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi 2.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi-bouncy monoFile.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi-bouncy monoFile.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi-sparse 1.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi-sparse 1.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"pizzi-sparse 1.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/pizzi-sparse 1.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"scratch1.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/scratch1.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"scratch1.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/scratch1.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"scratch2.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/scratch2.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"scratch2.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/scratch2.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"scratch2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/scratch2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"swirly 1.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/swirly 1.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"swirly 1.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/swirly 1.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+swirly-swish.aif NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/swirly-swish.aif 11.000000000000000000000000000000 11000.000000000000000000000000000
+swish-soft.aif NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/swish-soft.aif 11.000000000000000000000000000000 11000.000000000000000000000000000
+"swish-tone 1.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/swish-tone 1.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"swish-tone 1.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/swish-tone 1.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"tones 1.1.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/tones 1.1.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+"tones 1.2.aif" "NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/tones 1.2.aif" 11.000000000000000000000000000000 11000.000000000000000000000000000
+violin-meawo-monoFile.aif NavNavDrive:/SoundLibraries/Acoustic/Bozzini/stems/violin-meawo-monoFile.aif 11.000000000000000000000000000000 11000.000000000000000000000000000
+gam-intro-singles.aif "NavNavDrive:/Put into cataRT/Franky/gamelan/gam-intro-singles.aif" 14.000000000000000000000000000000 14000.000000000000000000000000000
+gam-outro.aif "NavNavDrive:/Put into cataRT/Franky/gamelan/gam-outro.aif" 14.000000000000000000000000000000 14000.000000000000000000000000000
+"Gamelan hacked short.aif" "NavNavDrive:/Put into cataRT/Franky/gamelan/Gamelan hacked short.aif" 14.000000000000000000000000000000 14000.000000000000000000000000000
+"gaml-loop2.aif" "NavNavDrive:/Put into cataRT/Franky/gamelan/gaml-loop2.aif" 14.000000000000000000000000000000 10545.208007812500000000000000000
+tabla.aif "NavNavDrive:/Put into cataRT/Franky/tabla.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+benderGongs.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/benderGongs.aif" 26.000000000000000000000000000000 3994.7500000000000000000000000000
+bongosAndToms.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/bongosAndToms.aif" 26.000000000000000000000000000000 6596.4790039062500000000000000000
+cupChimes.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/cupChimes.aif" 26.000000000000000000000000000000 6810.2500000000000000000000000000
+GogoBells-inWater.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/GogoBells-inWater.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+Gongs-Bowed.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/Gongs-Bowed.aif" 26.000000000000000000000000000000 20862.750000000000000000000000000
+Gongs-inWater.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/Gongs-inWater.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+invertedCupes-inWater.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/invertedCupes-inWater.aif" 26.000000000000000000000000000000 15763.104492187500000000000000000
+invertedSaladBowls-inWater.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/invertedSaladBowls-inWater.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+percussion_Lab.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/percussion_Lab.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+strainer-inWater.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/strainer-inWater.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+templeBlocks.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/templeBlocks.aif" 26.000000000000000000000000000000 1632.7708740234375000000000000000
+theWaterDrum.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/theWaterDrum.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+ThumbOnDrumSkin.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/ThumbOnDrumSkin.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+Tube-flipFlop.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/Tube-flipFlop.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+waterDrumming.aif "NavNavDrive:/Put into cataRT/Franky/Bev-TML/waterDrumming.aif" 26.000000000000000000000000000000 26000.000000000000000000000000000
+"184_harm1(forte-sus).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/184_harm1(forte-sus).aif" 22.000000000000000000000000000000 14425.000000000000000000000000000
+"184_perc1(harpthump).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/184_perc1(harpthump).aif" 22.000000000000000000000000000000 6000.0000000000000000000000000000
+"414a_harm1(forte-sus).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/414a_harm1(forte-sus).aif" 22.000000000000000000000000000000 14425.000000000000000000000000000
+"414a_perc1(harpthump).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/414a_perc1(harpthump).aif" 22.000000000000000000000000000000 6000.0000000000000000000000000000
+"414b_harm1(forte-sus).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/414b_harm1(forte-sus).aif" 22.000000000000000000000000000000 14425.000000000000000000000000000
+"414b_perc1(harpthump).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/414b_perc1(harpthump).aif" 22.000000000000000000000000000000 6000.0000000000000000000000000000
+"451_harm1(forte-sus).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/451_harm1(forte-sus).aif" 22.000000000000000000000000000000 14425.000000000000000000000000000
+"451_perc1(harpthump).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/451_perc1(harpthump).aif" 22.000000000000000000000000000000 6000.0000000000000000000000000000
+"ms_harm1(forte-sus).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/ms_harm1(forte-sus).aif" 22.000000000000000000000000000000 14425.000000000000000000000000000
+"ms_perc1(harpthump).aif" "NavNavDrive:/Put into cataRT/prep-piano (48k)/other/single/ms_perc1(harpthump).aif" 22.000000000000000000000000000000 6000.0000000000000000000000000000
+"080 Indian Basstabla 01.wav" "NavNavDrive:/SoundLibraries/Canned Sound/Percussion(world)/Indian Percussion/Bass Tabla/080 Indian Basstabla 01.wav" 22.000000000000000000000000000000 2992.3957519531250000000000000000
+"110 Indian Basstabla 01.wav" "NavNavDrive:/SoundLibraries/Canned Sound/Percussion(world)/Indian Percussion/Bass Tabla/110 Indian Basstabla 01.wav" 22.000000000000000000000000000000 4363.6875000000000000000000000000

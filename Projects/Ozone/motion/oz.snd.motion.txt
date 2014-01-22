@@ -1,0 +1,209 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /scale-enter 99 1 /door 99 1 /scale-table 99 1 /table 99 1 /scale-room 99 1 /whole 99 1 /scale-play 99 1 /play 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /scale-enter 
+ 	 	 	 	 /scale-enter/clip 1 
+ 	 	 	 	 /scale-enter/pre-slide/down 0 
+ 	 	 	 	 /scale-enter/pre-slide/up 1 
+ 	 	 	 	 /scale-enter/scale/input/max 0.094907 
+ 	 	 	 	 /scale-enter/scale/input/min 0.003600 
+ 	 	 	 	 /scale-enter/scale/max 1.000000 
+ 	 	 	 	 /scale-enter/scale/min 0.000000 
+ 	 	 	 	 /scale-enter/scale/mode 5 
+ 	 	 	 	 /scale-enter/scale/window 2000 
+ 	 	 	 	 /scale-enter/slide/down 2 
+ 	 	 	 	 /scale-enter/slide/up 0 
+ 	 	 	 	 /scale-enter/view/color/border 0 
+ 	 	 	 	 /scale-enter/view/color/contentBackground 0 
+ 	 	 	 	 /scale-enter/view/color/toolbarBackground 0 
+ 	 	 	 	 /scale-enter/view/color/toolbarText 0 
+ 	 	 	 	 /scale-enter/view/freeze 0 
+ 	 	 	 	 /scale-enter/view/size 300 70 
+ 	 	 	 	 /scale-enter/visualize 0 
+ # 
+ # Module /door 
+ 	 	 	 	 /door/centroid/color 0 255 255 
+ 	 	 	 	 /door/centroid/on 0 
+ 	 	 	 	 /door/centroid/size/on 0 
+ 	 	 	 	 /door/color 0 
+ 	 	 	 	 /door/contraction/color 0 255 255 
+ 	 	 	 	 /door/contraction/max/color 0 255 255 
+ 	 	 	 	 /door/contraction/max/on 0 
+ 	 	 	 	 /door/contraction/on 0 
+ 	 	 	 	 /door/contraction/slide 0.000000 
+ 	 	 	 	 /door/data/smoothing 0.000000 
+ 	 	 	 	 /door/edge/algorithm 0 
+ 	 	 	 	 /door/edge/threshold 0.100000 
+ 	 	 	 	 /door/inverse 0 
+ 	 	 	 	 /door/noise 1 
+ 	 	 	 	 /door/slide 6.000000 
+ 	 	 	 	 /door/threshold 0.070000 
+ 	 	 	 	 /door/trails 1 
+ 	 	 	 	 /door/video/bypass 0 
+ 	 	 	 	 /door/video/freeze 0 
+ 	 	 	 	 /door/video/mute 0 
+ 	 	 	 	 /door/video/preview 0 
+ 	 	 	 	 /door/view/color/border 0 
+ 	 	 	 	 /door/view/color/contentBackground 0 
+ 	 	 	 	 /door/view/color/toolbarBackground 0 
+ 	 	 	 	 /door/view/color/toolbarText 0 
+ 	 	 	 	 /door/view/freeze 0 
+ 	 	 	 	 /door/view/size 300 70 
+ # 
+ # Module /scale-table 
+ 	 	 	 	 /scale-table/clip 1 
+ 	 	 	 	 /scale-table/pre-slide/down 0 
+ 	 	 	 	 /scale-table/pre-slide/up 1 
+ 	 	 	 	 /scale-table/scale/input/max 0.086714 
+ 	 	 	 	 /scale-table/scale/input/min 0.000052 
+ 	 	 	 	 /scale-table/scale/max 1.000000 
+ 	 	 	 	 /scale-table/scale/min 0.000000 
+ 	 	 	 	 /scale-table/scale/mode 5 
+ 	 	 	 	 /scale-table/scale/window 2000 
+ 	 	 	 	 /scale-table/slide/down 2 
+ 	 	 	 	 /scale-table/slide/up 0 
+ 	 	 	 	 /scale-table/view/color/border 0 
+ 	 	 	 	 /scale-table/view/color/contentBackground 0 
+ 	 	 	 	 /scale-table/view/color/toolbarBackground 0 
+ 	 	 	 	 /scale-table/view/color/toolbarText 0 
+ 	 	 	 	 /scale-table/view/freeze 0 
+ 	 	 	 	 /scale-table/view/size 300 70 
+ 	 	 	 	 /scale-table/visualize 0 
+ # 
+ # Module /table 
+ 	 	 	 	 /table/centroid/color 0 255 255 
+ 	 	 	 	 /table/centroid/on 0 
+ 	 	 	 	 /table/centroid/size/on 0 
+ 	 	 	 	 /table/color 0 
+ 	 	 	 	 /table/contraction/color 0 255 255 
+ 	 	 	 	 /table/contraction/max/color 0 255 255 
+ 	 	 	 	 /table/contraction/max/on 0 
+ 	 	 	 	 /table/contraction/on 0 
+ 	 	 	 	 /table/contraction/slide 0.000000 
+ 	 	 	 	 /table/data/smoothing 0.000000 
+ 	 	 	 	 /table/edge/algorithm 0 
+ 	 	 	 	 /table/edge/threshold 0.100000 
+ 	 	 	 	 /table/inverse 0 
+ 	 	 	 	 /table/noise 1 
+ 	 	 	 	 /table/slide 6.000000 
+ 	 	 	 	 /table/threshold 0.090000 
+ 	 	 	 	 /table/trails 1 
+ 	 	 	 	 /table/video/bypass 0 
+ 	 	 	 	 /table/video/freeze 0 
+ 	 	 	 	 /table/video/mute 0 
+ 	 	 	 	 /table/video/preview 0 
+ 	 	 	 	 /table/view/color/border 0 
+ 	 	 	 	 /table/view/color/contentBackground 0 
+ 	 	 	 	 /table/view/color/toolbarBackground 0 
+ 	 	 	 	 /table/view/color/toolbarText 0 
+ 	 	 	 	 /table/view/freeze 0 
+ 	 	 	 	 /table/view/size 300 70 
+ # 
+ # Module /scale-room 
+ 	 	 	 	 /scale-room/clip 1 
+ 	 	 	 	 /scale-room/pre-slide/down 0 
+ 	 	 	 	 /scale-room/pre-slide/up 1 
+ 	 	 	 	 /scale-room/scale/input/max 0.030163 
+ 	 	 	 	 /scale-room/scale/input/min 0.000056 
+ 	 	 	 	 /scale-room/scale/max 1.000000 
+ 	 	 	 	 /scale-room/scale/min 0.000000 
+ 	 	 	 	 /scale-room/scale/mode 5 
+ 	 	 	 	 /scale-room/scale/window 2000 
+ 	 	 	 	 /scale-room/slide/down 2 
+ 	 	 	 	 /scale-room/slide/up 0 
+ 	 	 	 	 /scale-room/view/color/border 0 
+ 	 	 	 	 /scale-room/view/color/contentBackground 0 
+ 	 	 	 	 /scale-room/view/color/toolbarBackground 0 
+ 	 	 	 	 /scale-room/view/color/toolbarText 0 
+ 	 	 	 	 /scale-room/view/freeze 0 
+ 	 	 	 	 /scale-room/view/size 300 70 
+ 	 	 	 	 /scale-room/visualize 0 
+ # 
+ # Module /whole 
+ 	 	 	 	 /whole/centroid/color 0 255 255 
+ 	 	 	 	 /whole/centroid/on 0 
+ 	 	 	 	 /whole/centroid/size/on 0 
+ 	 	 	 	 /whole/color 0 
+ 	 	 	 	 /whole/contraction/color 0 255 255 
+ 	 	 	 	 /whole/contraction/max/color 0 255 255 
+ 	 	 	 	 /whole/contraction/max/on 0 
+ 	 	 	 	 /whole/contraction/on 0 
+ 	 	 	 	 /whole/contraction/slide 0.000000 
+ 	 	 	 	 /whole/data/smoothing 0.000000 
+ 	 	 	 	 /whole/edge/algorithm 0 
+ 	 	 	 	 /whole/edge/threshold 0.100000 
+ 	 	 	 	 /whole/inverse 0 
+ 	 	 	 	 /whole/noise 1 
+ 	 	 	 	 /whole/slide 6.000000 
+ 	 	 	 	 /whole/threshold 0.050000 
+ 	 	 	 	 /whole/trails 1 
+ 	 	 	 	 /whole/video/bypass 0 
+ 	 	 	 	 /whole/video/freeze 0 
+ 	 	 	 	 /whole/video/mute 0 
+ 	 	 	 	 /whole/video/preview 0 
+ 	 	 	 	 /whole/view/color/border 0 
+ 	 	 	 	 /whole/view/color/contentBackground 0 
+ 	 	 	 	 /whole/view/color/toolbarBackground 0 
+ 	 	 	 	 /whole/view/color/toolbarText 0 
+ 	 	 	 	 /whole/view/freeze 0 
+ 	 	 	 	 /whole/view/size 300 70 
+ # 
+ # Module /scale-play 
+ 	 	 	 	 /scale-play/clip 1 
+ 	 	 	 	 /scale-play/pre-slide/down 0 
+ 	 	 	 	 /scale-play/pre-slide/up 1 
+ 	 	 	 	 /scale-play/scale/input/max 0.026892 
+ 	 	 	 	 /scale-play/scale/input/min 0.000942 
+ 	 	 	 	 /scale-play/scale/max 1.000000 
+ 	 	 	 	 /scale-play/scale/min 0.000000 
+ 	 	 	 	 /scale-play/scale/mode 5 
+ 	 	 	 	 /scale-play/scale/window 2000 
+ 	 	 	 	 /scale-play/slide/down 2 
+ 	 	 	 	 /scale-play/slide/up 0 
+ 	 	 	 	 /scale-play/view/color/border 0 
+ 	 	 	 	 /scale-play/view/color/contentBackground 0 
+ 	 	 	 	 /scale-play/view/color/toolbarBackground 0 
+ 	 	 	 	 /scale-play/view/color/toolbarText 0 
+ 	 	 	 	 /scale-play/view/freeze 0 
+ 	 	 	 	 /scale-play/view/size 300 70 
+ 	 	 	 	 /scale-play/visualize 0 
+ # 
+ # Module /play 
+ 	 	 	 	 /play/centroid/color 0 255 255 
+ 	 	 	 	 /play/centroid/on 0 
+ 	 	 	 	 /play/centroid/size/on 0 
+ 	 	 	 	 /play/color 0 
+ 	 	 	 	 /play/contraction/color 0 255 255 
+ 	 	 	 	 /play/contraction/max/color 0 255 255 
+ 	 	 	 	 /play/contraction/max/on 0 
+ 	 	 	 	 /play/contraction/on 0 
+ 	 	 	 	 /play/contraction/slide 0.000000 
+ 	 	 	 	 /play/data/smoothing 0.000000 
+ 	 	 	 	 /play/edge/algorithm 0 
+ 	 	 	 	 /play/edge/threshold 0.930000 
+ 	 	 	 	 /play/inverse 0 
+ 	 	 	 	 /play/noise 1 
+ 	 	 	 	 /play/slide 6.000000 
+ 	 	 	 	 /play/threshold 0.050000 
+ 	 	 	 	 /play/trails 1 
+ 	 	 	 	 /play/video/bypass 0 
+ 	 	 	 	 /play/video/freeze 0 
+ 	 	 	 	 /play/video/mute 0 
+ 	 	 	 	 /play/video/preview 0 
+ 	 	 	 	 /play/view/color/border 0 
+ 	 	 	 	 /play/view/color/contentBackground 0 
+ 	 	 	 	 /play/view/color/toolbarBackground 0 
+ 	 	 	 	 /play/view/color/toolbarText 0 
+ 	 	 	 	 /play/view/freeze 0 
+ 	 	 	 	 /play/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 

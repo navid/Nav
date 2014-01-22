@@ -1,0 +1,164 @@
+
+ 
+ KEYCUE "double-low" 
+ 
+ 
+ 	 	 	 	 /CONFIG /1freq1 99 1 /1freq2 99 1 /1freq3 99 1 /1bandW 99 1 /1fundFreq 99 1 /1fund/ramp 99 1 /2freq1 99 1 /2freq3 99 1 /2fundFreq 99 1 /2freq2 99 1 /2bandW 99 1 /2fund/ramp 99 1 /fof~ 99 1 /fofOut~ 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /1freq1 
+ 	 	 	 	 /1freq1/interpolate 500 
+ 	 	 	 	 /1freq1/max 800.000000 
+ 	 	 	 	 /1freq1/min 100.000000 
+ 	 	 	 	 /1freq1/on 1 
+ 	 	 	 	 /1freq1/rate/max 1077 
+ 	 	 	 	 /1freq1/rate/min 73 
+ 	 	 	 	 /1freq1/view/freeze 0 
+ 	 	 	 	 /1freq1/view/highlight 0 
+ # 
+ # Module /1freq2 
+ 	 	 	 	 /1freq2/interpolate 340 
+ 	 	 	 	 /1freq2/max 1900.000000 
+ 	 	 	 	 /1freq2/min 500.000000 
+ 	 	 	 	 /1freq2/on 1 
+ 	 	 	 	 /1freq2/rate/max 2230 
+ 	 	 	 	 /1freq2/rate/min 180 
+ 	 	 	 	 /1freq2/view/freeze 0 
+ 	 	 	 	 /1freq2/view/highlight 0 
+ # 
+ # Module /1freq3 
+ 	 	 	 	 /1freq3/interpolate 1600 
+ 	 	 	 	 /1freq3/max 3000.000000 
+ 	 	 	 	 /1freq3/min 1400.000000 
+ 	 	 	 	 /1freq3/on 1 
+ 	 	 	 	 /1freq3/rate/max 5800 
+ 	 	 	 	 /1freq3/rate/min 172 
+ 	 	 	 	 /1freq3/view/freeze 0 
+ 	 	 	 	 /1freq3/view/highlight 0 
+ # 
+ # Module /1bandW 
+ 	 	 	 	 /1bandW/interpolate 3150 
+ 	 	 	 	 /1bandW/max 2400.000000 
+ 	 	 	 	 /1bandW/min 200.000000 
+ 	 	 	 	 /1bandW/on 1 
+ 	 	 	 	 /1bandW/rate/max 4000 
+ 	 	 	 	 /1bandW/rate/min 1000 
+ 	 	 	 	 /1bandW/view/freeze 0 
+ 	 	 	 	 /1bandW/view/highlight 0 
+ # 
+ # Module /1fundFreq 
+ 	 	 	 	 /1fundFreq/interpolate 612 
+ 	 	 	 	 /1fundFreq/max 62.000000 
+ 	 	 	 	 /1fundFreq/min 1.000000 
+ 	 	 	 	 /1fundFreq/on 1 
+ 	 	 	 	 /1fundFreq/rate/max 5700 
+ 	 	 	 	 /1fundFreq/rate/min 16 
+ 	 	 	 	 /1fundFreq/view/freeze 0 
+ 	 	 	 	 /1fundFreq/view/highlight 0 
+ # 
+ # Module /1fund/ramp 
+ # 
+ # Module /2freq1 
+ 	 	 	 	 /2freq1/interpolate 400 
+ 	 	 	 	 /2freq1/max 700.000000 
+ 	 	 	 	 /2freq1/min 120.000000 
+ 	 	 	 	 /2freq1/on 1 
+ 	 	 	 	 /2freq1/rate/max 2000 
+ 	 	 	 	 /2freq1/rate/min 500 
+ 	 	 	 	 /2freq1/view/freeze 0 
+ 	 	 	 	 /2freq1/view/highlight 0 
+ # 
+ # Module /2freq3 
+ 	 	 	 	 /2freq3/interpolate 250 
+ 	 	 	 	 /2freq3/max 1700.000000 
+ 	 	 	 	 /2freq3/min 400.000000 
+ 	 	 	 	 /2freq3/on 1 
+ 	 	 	 	 /2freq3/rate/max 2000 
+ 	 	 	 	 /2freq3/rate/min 500 
+ 	 	 	 	 /2freq3/view/freeze 0 
+ 	 	 	 	 /2freq3/view/highlight 0 
+ # 
+ # Module /2fundFreq 
+ 	 	 	 	 /2fundFreq/interpolate 8 
+ 	 	 	 	 /2fundFreq/max 66.000000 
+ 	 	 	 	 /2fundFreq/min 58.000000 
+ 	 	 	 	 /2fundFreq/on 1 
+ 	 	 	 	 /2fundFreq/rate/max 138 
+ 	 	 	 	 /2fundFreq/rate/min 1 
+ 	 	 	 	 /2fundFreq/view/freeze 0 
+ 	 	 	 	 /2fundFreq/view/highlight 0 
+ # 
+ # Module /2freq2 
+ 	 	 	 	 /2freq2/interpolate 2000 
+ 	 	 	 	 /2freq2/max 2400.000000 
+ 	 	 	 	 /2freq2/min 1300.000000 
+ 	 	 	 	 /2freq2/on 1 
+ 	 	 	 	 /2freq2/rate/max 2000 
+ 	 	 	 	 /2freq2/rate/min 500 
+ 	 	 	 	 /2freq2/view/freeze 0 
+ 	 	 	 	 /2freq2/view/highlight 0 
+ # 
+ # Module /2bandW 
+ 	 	 	 	 /2bandW/interpolate 3000 
+ 	 	 	 	 /2bandW/max 3000.000000 
+ 	 	 	 	 /2bandW/min 100.000000 
+ 	 	 	 	 /2bandW/on 1 
+ 	 	 	 	 /2bandW/rate/max 2000 
+ 	 	 	 	 /2bandW/rate/min 500 
+ 	 	 	 	 /2bandW/view/freeze 0 
+ 	 	 	 	 /2bandW/view/highlight 0 
+ # 
+ # Module /2fund/ramp 
+ # 
+ # Module /fof~ 
+ 	 	 	 	 /fof~/a_bang 0 
+ 	 	 	 	 /fof~/allocVoice 0 
+ 	 	 	 	 /fof~/audio/bypass 0 
+ 	 	 	 	 /fof~/audio/gain 59.000000 
+ 	 	 	 	 /fof~/audio/mute 0 
+ 	 	 	 	 /fof~/fof/1stAmp.1 0 
+ 	 	 	 	 /fof~/fof/1stAmp.2 0 
+ 	 	 	 	 /fof~/fof/1stFreq.1 564.138794 
+ 	 	 	 	 /fof~/fof/1stFreq.2 658.634644 
+ 	 	 	 	 /fof~/fof/2ndAmp.1 -15 
+ 	 	 	 	 /fof~/fof/2ndAmp.2 0 
+ 	 	 	 	 /fof~/fof/2ndFreq.1 1383.395386 
+ 	 	 	 	 /fof~/fof/2ndFreq.2 1954.721802 
+ 	 	 	 	 /fof~/fof/3rdAmp.1 -27 
+ 	 	 	 	 /fof~/fof/3rdAmp.2 0 
+ 	 	 	 	 /fof~/fof/3rdFreq.1 1553.955078 
+ 	 	 	 	 /fof~/fof/3rdFreq.2 10.000000 
+ 	 	 	 	 /fof~/fof/bandwith.1 1367.356689 
+ 	 	 	 	 /fof~/fof/bandwith.2 910.766968 
+ 	 	 	 	 /fof~/fof/fundFreq.1 24.837433 
+ 	 	 	 	 /fof~/fof/fundFreq.2 62.612915 
+ 	 	 	 	 /fof~/numVoices 2 
+ 	 	 	 	 /fof~/view/freeze 0 
+ 	 	 	 	 /fof~/view/highlight 0 
+ # 
+ # Module /fofOut~ 
+ 	 	 	 	 /fofOut~/audio/active 0 
+ 	 	 	 	 /fofOut~/audio/gain 0.000000 
+ 	 	 	 	 /fofOut~/balance 0.000000 
+ 	 	 	 	 /fofOut~/ch.1 1 
+ 	 	 	 	 /fofOut~/ch.2 2 
+ 	 	 	 	 /fofOut~/limiter/active 1 
+ 	 	 	 	 /fofOut~/limiter/dcblocker/active 1 
+ 	 	 	 	 /fofOut~/limiter/lookahead 64 
+ 	 	 	 	 /fofOut~/limiter/mode exponential 
+ 	 	 	 	 /fofOut~/limiter/postamp 0.000000 
+ 	 	 	 	 /fofOut~/limiter/preamp 6.000000 
+ 	 	 	 	 /fofOut~/limiter/release 300.000000 
+ 	 	 	 	 /fofOut~/limiter/threshold -1.000000 
+ 	 	 	 	 /fofOut~/record/filetype aiff 
+ 	 	 	 	 /fofOut~/record/samptype int24 
+ 	 	 	 	 /fofOut~/saturation/active 1 
+ 	 	 	 	 /fofOut~/saturation/depth 10.000000 
+ 	 	 	 	 /fofOut~/view/freeze 0 
+ 	 	 	 	 /fofOut~/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

@@ -1,0 +1,212 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /wacom 99 1 /fnc-ambicontrol2 99 1 /multi_input 99 1 /fnc-out 99 1 /fnc-doppler 99 1 /FNC-pan 99 1 /fnc-ambicontrol 99 1 /ilya.moodScape 99 1 /rogs~ 99 1 /rogsCrunch2.2 99 1 /rogsCrunch1.2 99 1 /rogsCrunch2 99 1 /rogsR~ 99 1 /sogs~ 99 1 /sogsDeath1 99 1 /rogsDeath3 99 1 /rogsCrunch 99 1 /sogsDeath2 99 1 /reverb 99 1 /ilyaManager 99 1 /nav.munger~ 99 1 /subFilter 99 1 /rogsDeath1 99 1 /rogsDeath2 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /wacom 
+ 	 	 	 	 /wacom/bgrd 0 
+ 	 	 	 	 /wacom/flusheventqueue 1 
+ 	 	 	 	 /wacom/menu 0 
+ 	 	 	 	 /wacom/nopointer 1 
+ 	 	 	 	 /wacom/on 1 
+ 	 	 	 	 /wacom/view/color/border 0 
+ 	 	 	 	 /wacom/view/color/contentBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarText 0 
+ 	 	 	 	 /wacom/view/freeze 0 
+ 	 	 	 	 /wacom/view/size 300 70 
+ 	 	 	 	 /wacom/xyrange 1 
+ # 
+ # Module /fnc-ambicontrol2 
+ 	 	 	 	 /fnc-ambicontrol2/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /fnc-ambicontrol2/clock/interval 100.000000 
+ 	 	 	 	 /fnc-ambicontrol2/clock/on 0 
+ 	 	 	 	 /fnc-ambicontrol2/clock/stepsize 3.000000 
+ 	 	 	 	 /fnc-ambicontrol2/connect paul 
+ 	 	 	 	 /fnc-ambicontrol2/directIndexControl 0 
+ 	 	 	 	 /fnc-ambicontrol2/index 0 
+ 	 	 	 	 /fnc-ambicontrol2/method 1 
+ 	 	 	 	 /fnc-ambicontrol2/points 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /fnc-ambicontrol2/randomStability 3000 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/adjust fit-to-box 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/fraction 0.000000 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/interpolate 0 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/method 0 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/original 0 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/point 1 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/rec 0 
+ 	 	 	 	 /fnc-ambicontrol2/trajectory/recall 0 
+ 	 	 	 	 /fnc-ambicontrol2/view/color/border 0 
+ 	 	 	 	 /fnc-ambicontrol2/view/color/contentBackground 0 
+ 	 	 	 	 /fnc-ambicontrol2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fnc-ambicontrol2/view/color/toolbarText 0 
+ 	 	 	 	 /fnc-ambicontrol2/view/freeze 0 
+ 	 	 	 	 /fnc-ambicontrol2/view/size 300 70 
+ 	 	 	 	 /fnc-ambicontrol2/volume/bound 1.500000 1.500000 0.000000 
+ 	 	 	 	 /fnc-ambicontrol2/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /fnc-ambicontrol2/volume/show 0 
+ 	 	 	 	 /fnc-ambicontrol2/volume/type 0 
+ # 
+ # Module /multi_input 
+ 	 	 	 	 /multi_input/channel_offset 0 
+ 	 	 	 	 /multi_input/view/color/border 0 
+ 	 	 	 	 /multi_input/view/color/contentBackground 0 
+ 	 	 	 	 /multi_input/view/color/toolbarBackground 0 
+ 	 	 	 	 /multi_input/view/color/toolbarText 0 
+ 	 	 	 	 /multi_input/view/freeze 0 
+ 	 	 	 	 /multi_input/view/size 300 35 
+ # 
+ # Module /fnc-out 
+ 	 	 	 	 /fnc-out/audio/active 0 
+ 	 	 	 	 /fnc-out/audio/mute 0 
+ 	 	 	 	 /fnc-out/limiter/active 1 
+ 	 	 	 	 /fnc-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /fnc-out/limiter/lookahead 6 
+ 	 	 	 	 /fnc-out/limiter/mode exponential 
+ 	 	 	 	 /fnc-out/limiter/postamp 0.000000 
+ 	 	 	 	 /fnc-out/limiter/preamp 6.000000 
+ 	 	 	 	 /fnc-out/limiter/release 300.000000 
+ 	 	 	 	 /fnc-out/limiter/threshold 6.000000 
+ 	 	 	 	 /fnc-out/numSpeakers 6 
+ 	 	 	 	 /fnc-out/offset 0 
+ 	 	 	 	 /fnc-out/record/filetype aiff 
+ 	 	 	 	 /fnc-out/record/samptype int24 
+ 	 	 	 	 /fnc-out/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /fnc-out/view/color/border 0 
+ 	 	 	 	 /fnc-out/view/color/contentBackground 0 
+ 	 	 	 	 /fnc-out/view/color/toolbarBackground 0 
+ 	 	 	 	 /fnc-out/view/color/toolbarText 0 
+ 	 	 	 	 /fnc-out/view/freeze 0 
+ 	 	 	 	 /fnc-out/view/size 300 70 
+ # 
+ # Module /fnc-doppler 
+ 	 	 	 	 /fnc-doppler/audio/mute 0 
+ 	 	 	 	 /fnc-doppler/metersPerUnit 2.600000 
+ 	 	 	 	 /fnc-doppler/numSources 6 
+ 	 	 	 	 /fnc-doppler/view/color/border 0 
+ 	 	 	 	 /fnc-doppler/view/color/contentBackground 0 
+ 	 	 	 	 /fnc-doppler/view/color/toolbarBackground 0 
+ 	 	 	 	 /fnc-doppler/view/color/toolbarText 0 
+ 	 	 	 	 /fnc-doppler/view/freeze 0 
+ 	 	 	 	 /fnc-doppler/view/size 300 70 
+ # 
+ # Module /FNC-pan 
+ 	 	 	 	 /FNC-pan/numSources 6 
+ 	 	 	 	 /FNC-pan/numSpeakers 6 
+ 	 	 	 	 /FNC-pan/audio/gain 0.000000 
+ 	 	 	 	 /FNC-pan/audio/mute 0 
+ 	 	 	 	 /FNC-pan/center/curve 0.500000 
+ 	 	 	 	 /FNC-pan/center/decay 7.000000 
+ 	 	 	 	 /FNC-pan/center/size 1.000000 
+ 	 	 	 	 /FNC-pan/interpolation 1 
+ 	 	 	 	 /FNC-pan/source.1/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.10/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.11/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.12/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.13/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.14/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.15/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.16/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.17/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.18/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.19/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.2/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.20/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.21/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.22/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.23/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.24/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.25/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.26/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.27/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.28/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.29/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.3/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.30/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.31/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.32/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.4/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.5/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.6/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.7/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.8/order 0.000000 
+ 	 	 	 	 /FNC-pan/source.9/order 0.000000 
+ 	 	 	 	 /FNC-pan/view/color/border 0 
+ 	 	 	 	 /FNC-pan/view/color/contentBackground 0 
+ 	 	 	 	 /FNC-pan/view/color/toolbarBackground 0 
+ 	 	 	 	 /FNC-pan/view/color/toolbarText 0 
+ 	 	 	 	 /FNC-pan/view/freeze 0 
+ 	 	 	 	 /FNC-pan/view/size 300 105 
+ # 
+ # Module /fnc-ambicontrol 
+ 	 	 	 	 /fnc-ambicontrol/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /fnc-ambicontrol/clock/interval 100.000000 
+ 	 	 	 	 /fnc-ambicontrol/clock/on 0 
+ 	 	 	 	 /fnc-ambicontrol/clock/stepsize 2.000000 
+ 	 	 	 	 /fnc-ambicontrol/connect paul 
+ 	 	 	 	 /fnc-ambicontrol/directIndexControl aed 1 50.072128 0.000000 0.012126 1 
+ 	 	 	 	 /fnc-ambicontrol/index 0 
+ 	 	 	 	 /fnc-ambicontrol/method 1 
+ 	 	 	 	 /fnc-ambicontrol/points 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /fnc-ambicontrol/randomStability 5000 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/adjust fit-to-box 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/fraction 0.000000 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/interpolate 0 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/method 0 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/original 0 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/point 1 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/rec 0 
+ 	 	 	 	 /fnc-ambicontrol/trajectory/recall 0 
+ 	 	 	 	 /fnc-ambicontrol/view/color/border 0 
+ 	 	 	 	 /fnc-ambicontrol/view/color/contentBackground 0 
+ 	 	 	 	 /fnc-ambicontrol/view/color/toolbarBackground 0 
+ 	 	 	 	 /fnc-ambicontrol/view/color/toolbarText 0 
+ 	 	 	 	 /fnc-ambicontrol/view/freeze 0 
+ 	 	 	 	 /fnc-ambicontrol/view/size 300 70 
+ 	 	 	 	 /fnc-ambicontrol/volume/bound 0.000000 140.000000 0.000000 
+ 	 	 	 	 /fnc-ambicontrol/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /fnc-ambicontrol/volume/show 0 
+ 	 	 	 	 /fnc-ambicontrol/volume/type 1 
+ # 
+ # Module /ilya.moodScape 
+ # 
+ # Module /rogs~ 
+ # 
+ # Module /rogsCrunch2.2 
+ # 
+ # Module /rogsCrunch1.2 
+ # 
+ # Module /rogsCrunch2 
+ # 
+ # Module /rogsR~ 
+ # 
+ # Module /sogs~ 
+ # 
+ # Module /sogsDeath1 
+ # 
+ # Module /rogsDeath3 
+ # 
+ # Module /rogsCrunch 
+ # 
+ # Module /sogsDeath2 
+ # 
+ # Module /reverb 
+ # 
+ # Module /ilyaManager 
+ # 
+ # Module /nav.munger~ 
+ # 
+ # Module /subFilter 
+ # 
+ # Module /rogsDeath1 
+ # 
+ # Module /rogsDeath2 
+ # 
+ ######################## 
+ 
+ 

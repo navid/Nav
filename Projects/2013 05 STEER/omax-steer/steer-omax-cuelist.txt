@@ -1,0 +1,335 @@
+
+ 
+ KEYCUE "steer-init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 1 /postLPCPitch 99 1 /LPC-wet-out 99 1 /au-rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 1 /outAu-dry 99 1 /myModule 99 1 /mungCloud 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 49.000000 
+ 	 	 	 	 /shpidel~/audio/mute 0 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 584 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 57.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 0 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/q 0.630000 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight 0 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 0 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 78 
+ 	 	 	 	 /LPC1/pGlide 120 
+ 	 	 	 	 /LPC1/pShift 11.028000 
+ 	 	 	 	 /LPC1/thresh 0.964957 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight 0 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight 0 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 4000 
+ 	 	 	 	 /lpc1-postPitch-rand/max -18.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -12.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight 0 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/audio/bypass 0 
+ 	 	 	 	 /lpcVerb/audio/gain 93.000000 
+ 	 	 	 	 /lpcVerb/audio/mix 62.000000 
+ 	 	 	 	 /lpcVerb/audio/mute 0 
+ 	 	 	 	 /lpcVerb/damping 20000.000000 
+ 	 	 	 	 /lpcVerb/decay 3.300000 
+ 	 	 	 	 /lpcVerb/delay 100.000000 
+ 	 	 	 	 /lpcVerb/earlyReflections/active 1 
+ 	 	 	 	 /lpcVerb/lowpass 15000.000000 
+ 	 	 	 	 /lpcVerb/moddepth 0.100000 
+ 	 	 	 	 /lpcVerb/modfreq 0.100000 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight 0 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2000 
+ 	 	 	 	 /lpc1/max 12.000000 
+ 	 	 	 	 /lpc1/min -48.000000 
+ 	 	 	 	 /lpc1/on 0 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/step 1.000000 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight 0 
+ # 
+ # Module /lpc-dryOUT 
+ 	 	 	 	 /lpc-dryOUT/audio/active 0 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 97.311691 
+ 	 	 	 	 /lpc-dryOUT/balance 0.000000 
+ 	 	 	 	 /lpc-dryOUT/ch.1 1 
+ 	 	 	 	 /lpc-dryOUT/ch.2 2 
+ 	 	 	 	 /lpc-dryOUT/limiter/active 0 
+ 	 	 	 	 /lpc-dryOUT/limiter/dcblocker/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/lookahead 64 
+ 	 	 	 	 /lpc-dryOUT/limiter/mode exponential 
+ 	 	 	 	 /lpc-dryOUT/limiter/postamp 0.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/preamp 6.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/release 300.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/threshold -6.000000 
+ 	 	 	 	 /lpc-dryOUT/record/filetype aiff 
+ 	 	 	 	 /lpc-dryOUT/record/samptype int24 
+ 	 	 	 	 /lpc-dryOUT/saturation/active 0 
+ 	 	 	 	 /lpc-dryOUT/saturation/depth 10.000000 
+ 	 	 	 	 /lpc-dryOUT/view/freeze 0 
+ 	 	 	 	 /lpc-dryOUT/view/highlight 0 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32.000000 
+ 	 	 	 	 /postLPCPitch/frequency/scale -11.752060 
+ 	 	 	 	 /postLPCPitch/frequency/shift 341.627014 
+ 	 	 	 	 /postLPCPitch/gain 90.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 69.000000 
+ 	 	 	 	 /postLPCPitch/mute 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight 0 
+ # 
+ # Module /LPC-wet-out 
+ 	 	 	 	 /LPC-wet-out/audio/active 0 
+ 	 	 	 	 /LPC-wet-out/audio/gain 96.487022 
+ 	 	 	 	 /LPC-wet-out/balance 0.000000 
+ 	 	 	 	 /LPC-wet-out/ch.1 1 
+ 	 	 	 	 /LPC-wet-out/ch.2 2 
+ 	 	 	 	 /LPC-wet-out/limiter/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/lookahead 64 
+ 	 	 	 	 /LPC-wet-out/limiter/mode exponential 
+ 	 	 	 	 /LPC-wet-out/limiter/postamp 0.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/preamp 6.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/release 300.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/threshold -6.000000 
+ 	 	 	 	 /LPC-wet-out/record/filetype aiff 
+ 	 	 	 	 /LPC-wet-out/record/samptype int24 
+ 	 	 	 	 /LPC-wet-out/saturation/active 1 
+ 	 	 	 	 /LPC-wet-out/saturation/depth 10.000000 
+ 	 	 	 	 /LPC-wet-out/view/freeze 0 
+ 	 	 	 	 /LPC-wet-out/view/highlight 0 
+ # 
+ # Module /au-rvrb 
+ 	 	 	 	 /au-rvrb/audio/bypass 0 
+ 	 	 	 	 /au-rvrb/audio/gain 85.000000 
+ 	 	 	 	 /au-rvrb/audio/mix 82.000000 
+ 	 	 	 	 /au-rvrb/audio/mute 0 
+ 	 	 	 	 /au-rvrb/damping 20000.000000 
+ 	 	 	 	 /au-rvrb/decay 8.000000 
+ 	 	 	 	 /au-rvrb/delay 98.000000 
+ 	 	 	 	 /au-rvrb/earlyReflections/active 1 
+ 	 	 	 	 /au-rvrb/lowpass 15000.000000 
+ 	 	 	 	 /au-rvrb/moddepth 0.100000 
+ 	 	 	 	 /au-rvrb/modfreq 0.100000 
+ 	 	 	 	 /au-rvrb/view/freeze 0 
+ 	 	 	 	 /au-rvrb/view/highlight 0 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/step 1.000000 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/highlight 0 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 2.000000 
+ 	 	 	 	 /au-pShift/min -2.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/step 1.000000 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/highlight 0 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10.000000 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale -0.026575 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 32.818508 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 75.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/highlight 0 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 50.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/highlight 0 
+ # 
+ # Module /outAu1 
+ 	 	 	 	 /outAu1/audio/active 0 
+ 	 	 	 	 /outAu1/audio/gain 0.000000 
+ 	 	 	 	 /outAu1/balance 0.000000 
+ 	 	 	 	 /outAu1/ch.1 1 
+ 	 	 	 	 /outAu1/ch.2 2 
+ 	 	 	 	 /outAu1/limiter/active 1 
+ 	 	 	 	 /outAu1/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu1/limiter/lookahead 64 
+ 	 	 	 	 /outAu1/limiter/mode exponential 
+ 	 	 	 	 /outAu1/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu1/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu1/limiter/release 300.000000 
+ 	 	 	 	 /outAu1/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu1/record/filetype aiff 
+ 	 	 	 	 /outAu1/record/samptype int24 
+ 	 	 	 	 /outAu1/saturation/active 1 
+ 	 	 	 	 /outAu1/saturation/depth 10.000000 
+ 	 	 	 	 /outAu1/view/freeze 0 
+ 	 	 	 	 /outAu1/view/highlight 0 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/alias /outAu-dry/alias/remove 
+ 	 	 	 	 /outAu-dry/audio/active 0 
+ 	 	 	 	 /outAu-dry/audio/gain 0.000000 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 1 
+ 	 	 	 	 /outAu-dry/ch.2 2 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/highlight 0 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/audio/active 0 
+ 	 	 	 	 /myModule/audio/gain 100.000000 
+ 	 	 	 	 /myModule/audio/mute 0 
+ 	 	 	 	 /myModule/limiter/active 1 
+ 	 	 	 	 /myModule/limiter/dcblocker/active 1 
+ 	 	 	 	 /myModule/limiter/lookahead 64 
+ 	 	 	 	 /myModule/limiter/mode exponential 
+ 	 	 	 	 /myModule/limiter/postamp 0.000000 
+ 	 	 	 	 /myModule/limiter/preamp 6.000000 
+ 	 	 	 	 /myModule/limiter/release 300.000000 
+ 	 	 	 	 /myModule/limiter/threshold -1.000000 
+ 	 	 	 	 /myModule/numSpeakers 2 
+ 	 	 	 	 /myModule/offset 0 
+ 	 	 	 	 /myModule/record/filetype default 
+ 	 	 	 	 /myModule/record/samptype default 
+ 	 	 	 	 /myModule/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/highlight 0 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 75.000000 
+ 	 	 	 	 /mungCloud/audio/mute 0 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 2 
+ 	 	 	 	 /mungCloud/mod/delay 2794.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 1.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 776.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 1 
+ 	 	 	 	 /mungCloud/param/delay 2124.356445 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 0.999900 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000100 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 2.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 239 
+ 	 	 	 	 /mungCloud/param/size 686 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 74 
+ 	 	 	 	 /mungCloud/sieves 0.000000 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/highlight 0 
+ 	 	 	 	 /mungCloud/voices 50 
+ # 
+ ######################## 
+ 
+ 

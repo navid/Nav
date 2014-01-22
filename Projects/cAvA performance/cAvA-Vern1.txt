@@ -1,0 +1,2683 @@
+
+ 
+ KEYCUE "Init_cue" 
+ 
+ 
+ 	 	 	 	 /CONFIG /playback.B-format.Files 99 1 /delay~ 99 1 /adjust 99 1 /fileBrowser1.1 99 1 /input~.1 99 1 /meters 99 1 /sur.speaker.distamp~ 99 1 /decode~ 99 1 /speakers 99 1 /input~ 99 1 /fileBrowser1 99 1 /filter~ 99 1 /filter~.1 99 1 /nav.munger~ 99 1 /jmod.sur.multi.aux~ 99 1 /nav.munger~.1 99 1 /jmod.sur.multi.aux~.1 99 1 /output 99 1 /reverb 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /adjust 
+ # 
+ # Module /fileBrowser1.1 
+ # 
+ # Module /input~.1 
+ # 
+ # Module /meters 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 0 
+ 	 	 	 	 /input~/audio/gain 99.785721 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000002 
+ 	 	 	 	 /input~/soundfile/loop 0 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/view/color/border 0 
+ 	 	 	 	 /input~/view/color/contentBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarText 0 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/size 300 140 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/navid/Desktop/Racine Gestures/ 
+ 	 	 	 	 /fileBrowser1/depth 1 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 100.000000 
+ 	 	 	 	 /filter~/audio/mix 84.000000 
+ 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/filtergain -0.173577 
+ 	 	 	 	 /filter~/filtertype highpass 
+ 	 	 	 	 /filter~/frequency 1021.334595 
+ 	 	 	 	 /filter~/q 0.523766 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /filter~.1 
+ 	 	 	 	 /filter~.1/audio/bypass 0 
+ 	 	 	 	 /filter~.1/audio/gain 102.000000 
+ 	 	 	 	 /filter~.1/audio/mix 89.000000 
+ 	 	 	 	 /filter~.1/audio/mute 0 
+ 	 	 	 	 /filter~.1/filtergain -0.173577 
+ 	 	 	 	 /filter~.1/filtertype highpass 
+ 	 	 	 	 /filter~.1/frequency 1084.843018 
+ 	 	 	 	 /filter~.1/q 0.622576 
+ 	 	 	 	 /filter~.1/view/color/border 0 
+ 	 	 	 	 /filter~.1/view/color/contentBackground 0 
+ 	 	 	 	 /filter~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~.1/view/color/toolbarText 0 
+ 	 	 	 	 /filter~.1/view/freeze 0 
+ 	 	 	 	 /filter~.1/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 4 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 0.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 416.185120 
+ 	 	 	 	 /nav.munger~/direction 0 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 0 
+ 	 	 	 	 /nav.munger~/params/pitch 0.200000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 15.000000 
+ 	 	 	 	 /nav.munger~/params/rate 22.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 170.000000 
+ 	 	 	 	 /nav.munger~/params/size 334.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 6 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 12 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 101.297600 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 4 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 4 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 0.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 69.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 1 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.020000 
+ 	 	 	 	 /nav.munger~.1/delayLength 416.185089 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.200000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.100000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 215.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 371.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 6 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 11 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 96.761902 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 99.785706 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 4 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 0 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 4 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 4 
+ 	 	 	 	 /reverb/outputs 4 
+ 	 	 	 	 /reverb/audio/gain 0.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 732.000000 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/predelay 0.200000 
+ 	 	 	 	 /reverb/t60 1.800000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Init_cue1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /filter~.1 99 1 /filter~ 99 1 /speakers 99 1 /decode~ 99 1 /sur.speaker.distamp~ 99 1 /meters 99 1 /adjust 99 1 /delay~ 99 1 /playback.B-format.Files 99 1 /input~.1 99 1 /midiin.1 99 1 /vst 99 1 /midiin 99 1 /input~ 99 1 /fileBrowser1 99 1 /nav.munger~ 99 1 /jmod.sur.multi.aux~ 99 1 /nav.munger~.1 99 1 /jmod.sur.multi.aux~.1 99 1 /output 99 1 /reverb 99 1 /vst.1 99 1 /fileBrowser1.1 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /meters 
+ # 
+ # Module /adjust 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /input~.1 
+ 	 	 	 	 /input~.1/audio/active 0 
+ 	 	 	 	 /input~.1/audio/gain 0.000000 
+ 	 	 	 	 /input~.1/balance 0.000000 
+ 	 	 	 	 /input~.1/ch.1 1 
+ 	 	 	 	 /input~.1/ch.2 2 
+ 	 	 	 	 /input~.1/clicktrain/rate 1.000001 
+ 	 	 	 	 /input~.1/soundfile/loop 1 
+ 	 	 	 	 /input~.1/soundfile/play 0 
+ 	 	 	 	 /input~.1/source soundfile 
+ 	 	 	 	 /input~.1/view/color/border 0 
+ 	 	 	 	 /input~.1/view/color/contentBackground 0 
+ 	 	 	 	 /input~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~.1/view/color/toolbarText 0 
+ 	 	 	 	 /input~.1/view/freeze 0 
+ 	 	 	 	 /input~.1/view/size 300 140 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.484848 
+ 	 	 	 	 /vst/parameter/loopdepth 0.401515 
+ 	 	 	 	 /vst/parameter/mix 0.878788 
+ 	 	 	 	 /vst/parameter/octave 0.272727 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.181818 
+ 	 	 	 	 /vst/parameter/time 0.330303 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 95.000000 
+ 	 	 	 	 /vst/audio/mix 100.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 0 
+ 	 	 	 	 /input~/audio/gain 99.785721 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000003 
+ 	 	 	 	 /input~/soundfile/loop 0 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/view/color/border 0 
+ 	 	 	 	 /input~/view/color/contentBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarText 0 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/size 300 140 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/navid/Desktop/Racine Gestures/ 
+ 	 	 	 	 /fileBrowser1/depth 1 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 74.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 30000.000000 
+ 	 	 	 	 /nav.munger~/direction 0 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 0 
+ 	 	 	 	 /nav.munger~/params/pitch 0.500000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 1.000000 
+ 	 	 	 	 /nav.munger~/params/rate 22.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 95.000000 
+ 	 	 	 	 /nav.munger~/params/size 334.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 6 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 14 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 101.297600 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 2 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 77.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 69.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 1 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.020000 
+ 	 	 	 	 /nav.munger~.1/delayLength 30000.000000 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.700000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.010000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 122.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 908.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 6 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 21 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 96.761902 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 99.785706 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 2 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 0 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 2 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 2 
+ 	 	 	 	 /reverb/outputs 2 
+ 	 	 	 	 /reverb/audio/gain 0.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 732.000000 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/predelay 0.200000 
+ 	 	 	 	 /reverb/t60 1.800000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.454546 
+ 	 	 	 	 /vst.1/parameter/loopdepth 0.295454 
+ 	 	 	 	 /vst.1/parameter/mix 0.893939 
+ 	 	 	 	 /vst.1/parameter/octave 0.863636 
+ 	 	 	 	 /vst.1/parameter/pitchfactor 0.166666 
+ 	 	 	 	 /vst.1/parameter/time 0.193940 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 92.000000 
+ 	 	 	 	 /vst.1/audio/mix 100.000000 
+ 	 	 	 	 /vst.1/audio/mute 0 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type all 
+ 	 	 	 	 /fileBrowser1.1/folder 16 
+ 	 	 	 	 /fileBrowser1.1/depth 1 
+ 	 	 	 	 /fileBrowser1.1/file 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "initCue1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /reverb 99 1 /input~ 99 1 /input~.1 99 1 /playback.B-format.Files 99 1 /delay~ 99 1 /adjust 99 1 /meters 99 1 /sur.speaker.distamp~ 99 1 /decode~ 99 1 /speakers 99 1 /filter~ 99 1 /filter~.1 99 1 /sampleplayer2 99 1 /samplePlayer~ 99 1 /fileBrowser1 99 1 /midiin 99 1 /vst 99 1 /midiin.1 99 1 /vst.1 99 1 /fileBrowser1.1 99 1 /nav.munger~ 99 1 /jmod.sur.multi.aux~ 99 1 /nav.munger~.1 99 1 /jmod.sur.multi.aux~.1 99 1 /output 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /reverb 
+ # 
+ # Module /input~ 
+ # 
+ # Module /input~.1 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /adjust 
+ # 
+ # Module /meters 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /sampleplayer2 
+ 	 	 	 	 /sampleplayer2/audio/gain 100.000000 
+ 	 	 	 	 /sampleplayer2/audio/mute 0 
+ 	 	 	 	 /sampleplayer2/loop 0 
+ 	 	 	 	 /sampleplayer2/loopsync/active 0 
+ 	 	 	 	 /sampleplayer2/loopsync/mode loop_time 
+ 	 	 	 	 /sampleplayer2/pitch/active 0 
+ 	 	 	 	 /sampleplayer2/pitch/ratio 0.000000 
+ 	 	 	 	 /sampleplayer2/reverse 0 
+ 	 	 	 	 /sampleplayer2/sample/start 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/stop 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/vzoom 1.000000 
+ 	 	 	 	 /sampleplayer2/speed/active 0 
+ 	 	 	 	 /sampleplayer2/speed/ratio 1.000000 
+ 	 	 	 	 /sampleplayer2/view/color/border 0 
+ 	 	 	 	 /sampleplayer2/view/color/contentBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarText 0 
+ 	 	 	 	 /sampleplayer2/view/freeze 0 
+ 	 	 	 	 /sampleplayer2/view/size 300 105 
+ # 
+ # Module /samplePlayer~ 
+ 	 	 	 	 /samplePlayer~/audio/gain 100.000000 
+ 	 	 	 	 /samplePlayer~/audio/mute 0 
+ 	 	 	 	 /samplePlayer~/loop 0 
+ 	 	 	 	 /samplePlayer~/loopsync/active 0 
+ 	 	 	 	 /samplePlayer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlayer~/reverse 0 
+ 	 	 	 	 /samplePlayer~/sample/start 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/stop 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlayer~/speed/active 0 
+ 	 	 	 	 /samplePlayer~/speed/ratio 1.000000 
+ 	 	 	 	 /samplePlayer~/view/color/border 0 
+ 	 	 	 	 /samplePlayer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlayer~/view/freeze 0 
+ 	 	 	 	 /samplePlayer~/view/size 300 105 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1/depth 7 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 
+ 	 	 	 	 /vst/parameter/loopdepth 0.250000 
+ 	 	 	 	 /vst/parameter/mix 0.500000 
+ 	 	 	 	 /vst/parameter/octave 0.500000 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.000000 
+ 	 	 	 	 /vst/parameter/time 0.300000 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 95.000000 
+ 	 	 	 	 /vst/audio/mix 87.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/density 0.400000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.000000 
+ 	 	 	 	 /vst.1/parameter/filterfreq 1.000000 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.200000 
+ 	 	 	 	 /vst.1/parameter/greversal 0.000000 
+ 	 	 	 	 /vst.1/parameter/gsizevari 0.000000 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/mix 1.000000 
+ 	 	 	 	 /vst.1/parameter/octave 0.500000 
+ 	 	 	 	 /vst.1/parameter/octvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch1 1.000000 
+ 	 	 	 	 /vst.1/parameter/pitch10 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch11 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch12 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch2 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch3 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch4 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch5 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch6 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch7 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch8 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch9 0.000000 
+ 	 	 	 	 /vst.1/parameter/resonance 0.500000 
+ 	 	 	 	 /vst.1/parameter/time 0.600000 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/parameter/timevari 0.500000 
+ 	 	 	 	 /vst.1/parameter/tuning 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 92.000000 
+ 	 	 	 	 /vst.1/audio/mix 80.000000 
+ 	 	 	 	 /vst.1/audio/mute 0 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type audio 
+ 	 	 	 	 /fileBrowser1.1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.1/depth 7 
+ 	 	 	 	 /fileBrowser1.1/file 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 74.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 10367.717773 
+ 	 	 	 	 /nav.munger~/direction 0 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 0 
+ 	 	 	 	 /nav.munger~/params/pitch 0.500000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 1.000000 
+ 	 	 	 	 /nav.munger~/params/rate 22.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 95.000000 
+ 	 	 	 	 /nav.munger~/params/size 386.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 6 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 14 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 101.297600 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 2 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 77.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 69.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 1 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.020000 
+ 	 	 	 	 /nav.munger~.1/delayLength 21943.996094 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.700000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.010000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 122.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 573.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 6 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 18 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 96.761902 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 99.785706 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 2 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 0 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 2 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "gallery" 
+ 
+ 
+ 	 	 	 	 /CONFIG /jmod.sur.multi.aux~.1 99 1 /jmod.sur.multi.aux~ 99 1 /filter~.1 99 1 /filter~ 99 1 /speakers 99 1 /decode~ 99 1 /sur.speaker.distamp~ 99 1 /meters 99 1 /adjust 99 1 /delay~ 99 1 /playback.B-format.Files 99 1 /input~.1 99 1 /reverb 99 1 /fileBrowser1 99 1 /input~ 99 1 /sampleplayer2 99 1 /samplePlayer~ 99 1 /fileBrowser1.1 99 1 /midiin 99 1 /vst 99 1 /midiin.1 99 1 /vst.1 99 1 /fileBrowser1.2 99 1 /nav.munger~ 99 1 /nav.munger~.1 99 1 /output 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /meters 
+ # 
+ # Module /adjust 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /input~.1 
+ # 
+ # Module /reverb 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1/depth 7 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 1 
+ 	 	 	 	 /input~/audio/gain 0.000000 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000001 
+ 	 	 	 	 /input~/soundfile/loop 1 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/view/color/border 0 
+ 	 	 	 	 /input~/view/color/contentBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarText 0 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/size 300 140 
+ # 
+ # Module /sampleplayer2 
+ 	 	 	 	 /sampleplayer2/audio/gain 100.000000 
+ 	 	 	 	 /sampleplayer2/audio/mute 0 
+ 	 	 	 	 /sampleplayer2/loop 0 
+ 	 	 	 	 /sampleplayer2/loopsync/active 0 
+ 	 	 	 	 /sampleplayer2/loopsync/mode loop_time 
+ 	 	 	 	 /sampleplayer2/pitch/active 0 
+ 	 	 	 	 /sampleplayer2/pitch/ratio 0.000000 
+ 	 	 	 	 /sampleplayer2/reverse 0 
+ 	 	 	 	 /sampleplayer2/sample/start 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/stop 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/vzoom 1.000000 
+ 	 	 	 	 /sampleplayer2/speed/active 0 
+ 	 	 	 	 /sampleplayer2/speed/ratio 1.000000 
+ 	 	 	 	 /sampleplayer2/view/color/border 0 
+ 	 	 	 	 /sampleplayer2/view/color/contentBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarText 0 
+ 	 	 	 	 /sampleplayer2/view/freeze 0 
+ 	 	 	 	 /sampleplayer2/view/size 300 105 
+ # 
+ # Module /samplePlayer~ 
+ 	 	 	 	 /samplePlayer~/audio/gain 100.000000 
+ 	 	 	 	 /samplePlayer~/audio/mute 0 
+ 	 	 	 	 /samplePlayer~/loop 0 
+ 	 	 	 	 /samplePlayer~/loopsync/active 0 
+ 	 	 	 	 /samplePlayer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlayer~/reverse 0 
+ 	 	 	 	 /samplePlayer~/sample/start 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/stop 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlayer~/speed/active 0 
+ 	 	 	 	 /samplePlayer~/speed/ratio 1.000000 
+ 	 	 	 	 /samplePlayer~/view/color/border 0 
+ 	 	 	 	 /samplePlayer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlayer~/view/freeze 0 
+ 	 	 	 	 /samplePlayer~/view/size 300 105 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type audio 
+ 	 	 	 	 /fileBrowser1.1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.1/depth 7 
+ 	 	 	 	 /fileBrowser1.1/file 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 
+ 	 	 	 	 /vst/parameter/loopdepth 0.462121 
+ 	 	 	 	 /vst/parameter/mix 0.681818 
+ 	 	 	 	 /vst/parameter/octave 0.742424 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.151515 
+ 	 	 	 	 /vst/parameter/time 0.300000 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 59.000000 
+ 	 	 	 	 /vst/audio/mix 48.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/density 0.400000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.000000 
+ 	 	 	 	 /vst.1/parameter/filterfreq 1.000000 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.200000 
+ 	 	 	 	 /vst.1/parameter/greversal 0.000000 
+ 	 	 	 	 /vst.1/parameter/gsizevari 0.000000 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/mix 1.000000 
+ 	 	 	 	 /vst.1/parameter/octave 0.500000 
+ 	 	 	 	 /vst.1/parameter/octvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch1 1.000000 
+ 	 	 	 	 /vst.1/parameter/pitch10 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch11 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch12 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch2 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch3 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch4 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch5 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch6 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch7 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch8 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch9 0.000000 
+ 	 	 	 	 /vst.1/parameter/resonance 0.500000 
+ 	 	 	 	 /vst.1/parameter/time 0.600000 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/parameter/timevari 0.500000 
+ 	 	 	 	 /vst.1/parameter/tuning 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 0.000000 
+ 	 	 	 	 /vst.1/audio/mix 0.000000 
+ 	 	 	 	 /vst.1/audio/mute 0 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.2 
+ 	 	 	 	 /fileBrowser1.2/type all 
+ 	 	 	 	 /fileBrowser1.2/depth 1 
+ 	 	 	 	 /fileBrowser1.2/file 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.2/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 62.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 15851.218750 
+ 	 	 	 	 /nav.munger~/direction 2 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 1 
+ 	 	 	 	 /nav.munger~/params/pitch 0.000000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 35.000000 
+ 	 	 	 	 /nav.munger~/params/rate 25.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 202.000000 
+ 	 	 	 	 /nav.munger~/params/size 477.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 4 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 17 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 81.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 64.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.1/delayLength 957.765259 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.006000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.400000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.100000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 127.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 684.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 45.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 4 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 19 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 0 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 2 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "gallery-dec17" 
+ 
+ 
+ 	 	 	 	 /CONFIG /input~.1 99 1 /playback.B-format.Files 99 1 /delay~ 99 1 /adjust 99 1 /meters 99 1 /sur.speaker.distamp~ 99 1 /decode~ 99 1 /speakers 99 1 /filter~ 99 1 /filter~.1 99 1 /reverb 99 1 /fileBrowser1 99 1 /input~ 99 1 /sampleplayer2 99 1 /samplePlayer~ 99 1 /fileBrowser1.1 99 1 /midiin 99 1 /vst 99 1 /midiin.1 99 1 /vst.1 99 1 /fileBrowser1.2 99 1 /nav.munger~ 99 1 /nav.munger~.1 99 1 /output 99 1 /jmod.sur.multi.aux~ 99 1 /jmod.sur.multi.aux~.1 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /input~.1 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /adjust 
+ # 
+ # Module /meters 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 1 
+ 	 	 	 	 /reverb/outputs 4 
+ 	 	 	 	 /reverb/audio/gain 73.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 732.000000 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/output.1/gain 100.000000 
+ 	 	 	 	 /reverb/output.10/gain 100.000000 
+ 	 	 	 	 /reverb/output.11/gain 100.000000 
+ 	 	 	 	 /reverb/output.12/gain 100.000000 
+ 	 	 	 	 /reverb/output.13/gain 100.000000 
+ 	 	 	 	 /reverb/output.14/gain 100.000000 
+ 	 	 	 	 /reverb/output.15/gain 100.000000 
+ 	 	 	 	 /reverb/output.16/gain 100.000000 
+ 	 	 	 	 /reverb/output.17/gain 100.000000 
+ 	 	 	 	 /reverb/output.18/gain 100.000000 
+ 	 	 	 	 /reverb/output.19/gain 100.000000 
+ 	 	 	 	 /reverb/output.2/gain 100.000000 
+ 	 	 	 	 /reverb/output.20/gain 100.000000 
+ 	 	 	 	 /reverb/output.21/gain 100.000000 
+ 	 	 	 	 /reverb/output.22/gain 100.000000 
+ 	 	 	 	 /reverb/output.23/gain 100.000000 
+ 	 	 	 	 /reverb/output.24/gain 100.000000 
+ 	 	 	 	 /reverb/output.3/gain 100.000000 
+ 	 	 	 	 /reverb/output.4/gain 100.000000 
+ 	 	 	 	 /reverb/output.5/gain 100.000000 
+ 	 	 	 	 /reverb/output.6/gain 100.000000 
+ 	 	 	 	 /reverb/output.7/gain 100.000000 
+ 	 	 	 	 /reverb/output.8/gain 100.000000 
+ 	 	 	 	 /reverb/output.9/gain 100.000000 
+ 	 	 	 	 /reverb/predelay 0.000000 
+ 	 	 	 	 /reverb/t60 8.000000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1/depth 7 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 1 
+ 	 	 	 	 /input~/audio/gain 0.000000 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000002 
+ 	 	 	 	 /input~/soundfile/loop 1 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/view/color/border 0 
+ 	 	 	 	 /input~/view/color/contentBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarText 0 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/size 300 140 
+ # 
+ # Module /sampleplayer2 
+ 	 	 	 	 /sampleplayer2/audio/gain 100.000000 
+ 	 	 	 	 /sampleplayer2/audio/mute 0 
+ 	 	 	 	 /sampleplayer2/loop 0 
+ 	 	 	 	 /sampleplayer2/loopsync/active 0 
+ 	 	 	 	 /sampleplayer2/loopsync/mode loop_time 
+ 	 	 	 	 /sampleplayer2/pitch/active 0 
+ 	 	 	 	 /sampleplayer2/pitch/ratio 0.000000 
+ 	 	 	 	 /sampleplayer2/reverse 0 
+ 	 	 	 	 /sampleplayer2/sample/start 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/stop 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/vzoom 1.000000 
+ 	 	 	 	 /sampleplayer2/speed/active 0 
+ 	 	 	 	 /sampleplayer2/speed/ratio 1.000000 
+ 	 	 	 	 /sampleplayer2/view/color/border 0 
+ 	 	 	 	 /sampleplayer2/view/color/contentBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarText 0 
+ 	 	 	 	 /sampleplayer2/view/freeze 0 
+ 	 	 	 	 /sampleplayer2/view/size 300 105 
+ # 
+ # Module /samplePlayer~ 
+ 	 	 	 	 /samplePlayer~/audio/gain 100.000000 
+ 	 	 	 	 /samplePlayer~/audio/mute 0 
+ 	 	 	 	 /samplePlayer~/loop 0 
+ 	 	 	 	 /samplePlayer~/loopsync/active 0 
+ 	 	 	 	 /samplePlayer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlayer~/reverse 0 
+ 	 	 	 	 /samplePlayer~/sample/start 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/stop 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlayer~/speed/active 0 
+ 	 	 	 	 /samplePlayer~/speed/ratio 1.000000 
+ 	 	 	 	 /samplePlayer~/view/color/border 0 
+ 	 	 	 	 /samplePlayer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlayer~/view/freeze 0 
+ 	 	 	 	 /samplePlayer~/view/size 300 105 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type audio 
+ 	 	 	 	 /fileBrowser1.1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.1/depth 7 
+ 	 	 	 	 /fileBrowser1.1/file 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 
+ 	 	 	 	 /vst/parameter/loopdepth 0.250000 
+ 	 	 	 	 /vst/parameter/mix 0.500000 
+ 	 	 	 	 /vst/parameter/octave 0.500000 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.000000 
+ 	 	 	 	 /vst/parameter/time 0.300000 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 49.000000 
+ 	 	 	 	 /vst/audio/mix 98.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/density 0.400000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.000000 
+ 	 	 	 	 /vst.1/parameter/filterfreq 1.000000 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.200000 
+ 	 	 	 	 /vst.1/parameter/greversal 0.000000 
+ 	 	 	 	 /vst.1/parameter/gsizevari 0.000000 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/mix 1.000000 
+ 	 	 	 	 /vst.1/parameter/octave 0.500000 
+ 	 	 	 	 /vst.1/parameter/octvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch1 1.000000 
+ 	 	 	 	 /vst.1/parameter/pitch10 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch11 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch12 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch2 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch3 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch4 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch5 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch6 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch7 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch8 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch9 0.000000 
+ 	 	 	 	 /vst.1/parameter/resonance 0.500000 
+ 	 	 	 	 /vst.1/parameter/time 0.600000 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/parameter/timevari 0.500000 
+ 	 	 	 	 /vst.1/parameter/tuning 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 0.000000 
+ 	 	 	 	 /vst.1/audio/mix 100.000000 
+ 	 	 	 	 /vst.1/audio/mute 0 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.2 
+ 	 	 	 	 /fileBrowser1.2/type all 
+ 	 	 	 	 /fileBrowser1.2/depth 1 
+ 	 	 	 	 /fileBrowser1.2/file 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.2/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 51.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 15851.218750 
+ 	 	 	 	 /nav.munger~/direction 2 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 1 
+ 	 	 	 	 /nav.munger~/params/pitch 0.000000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 40.000000 
+ 	 	 	 	 /nav.munger~/params/rate 25.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 202.000000 
+ 	 	 	 	 /nav.munger~/params/size 477.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 4 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 17 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 79.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 64.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.1/delayLength 957.765259 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.006000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.400000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.100000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 127.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 684.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 45.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 4 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 19 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 1 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 4 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 5 6 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 71.059532 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 83.154732 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 72.571411 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 81.642838 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Logan-Remix" 
+ 
+ 
+ 	 	 	 	 /CONFIG /filter~.1 99 1 /filter~ 99 1 /speakers 99 1 /decode~ 99 1 /sur.speaker.distamp~ 99 1 /meters 99 1 /adjust 99 1 /delay~ 99 1 /playback.B-format.Files 99 1 /input~.1 99 1 /reverb 99 1 /fileBrowser1 99 1 /input~ 99 1 /sampleplayer2 99 1 /samplePlayer~ 99 1 /fileBrowser1.1 99 1 /midiin 99 1 /vst 99 1 /midiin.1 99 1 /vst.1 99 1 /fileBrowser1.2 99 1 /nav.munger~ 99 1 /nav.munger~.1 99 1 /output 99 1 /jmod.sur.multi.aux~ 99 1 /jmod.sur.multi.aux~.1 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /meters 
+ # 
+ # Module /adjust 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /input~.1 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 1 
+ 	 	 	 	 /reverb/outputs 4 
+ 	 	 	 	 /reverb/audio/gain 76.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 732.000000 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/output.1/gain 100.000000 
+ 	 	 	 	 /reverb/output.10/gain 100.000000 
+ 	 	 	 	 /reverb/output.11/gain 100.000000 
+ 	 	 	 	 /reverb/output.12/gain 100.000000 
+ 	 	 	 	 /reverb/output.13/gain 100.000000 
+ 	 	 	 	 /reverb/output.14/gain 100.000000 
+ 	 	 	 	 /reverb/output.15/gain 100.000000 
+ 	 	 	 	 /reverb/output.16/gain 100.000000 
+ 	 	 	 	 /reverb/output.17/gain 100.000000 
+ 	 	 	 	 /reverb/output.18/gain 100.000000 
+ 	 	 	 	 /reverb/output.19/gain 100.000000 
+ 	 	 	 	 /reverb/output.2/gain 100.000000 
+ 	 	 	 	 /reverb/output.20/gain 100.000000 
+ 	 	 	 	 /reverb/output.21/gain 100.000000 
+ 	 	 	 	 /reverb/output.22/gain 100.000000 
+ 	 	 	 	 /reverb/output.23/gain 100.000000 
+ 	 	 	 	 /reverb/output.24/gain 100.000000 
+ 	 	 	 	 /reverb/output.3/gain 100.000000 
+ 	 	 	 	 /reverb/output.4/gain 100.000000 
+ 	 	 	 	 /reverb/output.5/gain 100.000000 
+ 	 	 	 	 /reverb/output.6/gain 100.000000 
+ 	 	 	 	 /reverb/output.7/gain 100.000000 
+ 	 	 	 	 /reverb/output.8/gain 100.000000 
+ 	 	 	 	 /reverb/output.9/gain 100.000000 
+ 	 	 	 	 /reverb/predelay 0.000000 
+ 	 	 	 	 /reverb/t60 1.700000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1/depth 7 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 1 
+ 	 	 	 	 /input~/audio/gain 0.000000 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000003 
+ 	 	 	 	 /input~/soundfile/loop 1 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/view/color/border 0 
+ 	 	 	 	 /input~/view/color/contentBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarText 0 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/size 300 140 
+ # 
+ # Module /sampleplayer2 
+ 	 	 	 	 /sampleplayer2/audio/gain 100.000000 
+ 	 	 	 	 /sampleplayer2/audio/mute 0 
+ 	 	 	 	 /sampleplayer2/loop 0 
+ 	 	 	 	 /sampleplayer2/loopsync/active 0 
+ 	 	 	 	 /sampleplayer2/loopsync/mode loop_time 
+ 	 	 	 	 /sampleplayer2/pitch/active 0 
+ 	 	 	 	 /sampleplayer2/pitch/ratio 0.000000 
+ 	 	 	 	 /sampleplayer2/reverse 0 
+ 	 	 	 	 /sampleplayer2/sample/start 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/stop 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/vzoom 1.000000 
+ 	 	 	 	 /sampleplayer2/speed/active 0 
+ 	 	 	 	 /sampleplayer2/speed/ratio 1.000000 
+ 	 	 	 	 /sampleplayer2/view/color/border 0 
+ 	 	 	 	 /sampleplayer2/view/color/contentBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarText 0 
+ 	 	 	 	 /sampleplayer2/view/freeze 0 
+ 	 	 	 	 /sampleplayer2/view/size 300 105 
+ # 
+ # Module /samplePlayer~ 
+ 	 	 	 	 /samplePlayer~/audio/gain 100.000000 
+ 	 	 	 	 /samplePlayer~/audio/mute 0 
+ 	 	 	 	 /samplePlayer~/loop 0 
+ 	 	 	 	 /samplePlayer~/loopsync/active 0 
+ 	 	 	 	 /samplePlayer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlayer~/reverse 0 
+ 	 	 	 	 /samplePlayer~/sample/start 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/stop 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlayer~/speed/active 0 
+ 	 	 	 	 /samplePlayer~/speed/ratio 1.000000 
+ 	 	 	 	 /samplePlayer~/view/color/border 0 
+ 	 	 	 	 /samplePlayer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlayer~/view/freeze 0 
+ 	 	 	 	 /samplePlayer~/view/size 300 105 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type audio 
+ 	 	 	 	 /fileBrowser1.1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.1/depth 7 
+ 	 	 	 	 /fileBrowser1.1/file 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.136364 
+ 	 	 	 	 /vst/parameter/loopdepth 0.560606 
+ 	 	 	 	 /vst/parameter/mix 1.000000 
+ 	 	 	 	 /vst/parameter/octave 0.515152 
+ 	 	 	 	 /vst/parameter/pitchfactor 1.000000 
+ 	 	 	 	 /vst/parameter/time 0.300000 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 98.000000 
+ 	 	 	 	 /vst/audio/mix 98.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/density 0.400000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.000000 
+ 	 	 	 	 /vst.1/parameter/filterfreq 1.000000 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.200000 
+ 	 	 	 	 /vst.1/parameter/greversal 0.000000 
+ 	 	 	 	 /vst.1/parameter/gsizevari 0.000000 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/mix 1.000000 
+ 	 	 	 	 /vst.1/parameter/octave 0.500000 
+ 	 	 	 	 /vst.1/parameter/octvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch1 1.000000 
+ 	 	 	 	 /vst.1/parameter/pitch10 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch11 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch12 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch2 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch3 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch4 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch5 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch6 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch7 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch8 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch9 0.000000 
+ 	 	 	 	 /vst.1/parameter/resonance 0.500000 
+ 	 	 	 	 /vst.1/parameter/time 0.600000 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/parameter/timevari 0.500000 
+ 	 	 	 	 /vst.1/parameter/tuning 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 0.000000 
+ 	 	 	 	 /vst.1/audio/mix 100.000000 
+ 	 	 	 	 /vst.1/audio/mute 1 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.2 
+ 	 	 	 	 /fileBrowser1.2/type all 
+ 	 	 	 	 /fileBrowser1.2/folder all 
+ 	 	 	 	 /fileBrowser1.2/depth 1 
+ 	 	 	 	 /fileBrowser1.2/file 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.2/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 63.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 15851.218750 
+ 	 	 	 	 /nav.munger~/direction 2 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 1 
+ 	 	 	 	 /nav.munger~/params/pitch 0.000000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 40.000000 
+ 	 	 	 	 /nav.munger~/params/rate 25.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 202.000000 
+ 	 	 	 	 /nav.munger~/params/size 477.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 4 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 17 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 78.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 64.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.1/delayLength 957.765259 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.006000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.400000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.100000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 127.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 684.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 45.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 4 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 19 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 1 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 4 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 5 6 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 77.107132 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 83.154732 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 69.547623 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 81.642838 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "w/logi-dec9" 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /fileBrowser1/file /Users/tml/Desktop/Sounds/Perform/beatz/090 Indian Ghatam 001.wav 
+ 	 	 	 	 /input~/audio/active 0 
+ 	 	 	 	 /input~/audio/gain 66.798698 ramp global 
+ 	 	 	 	 /input~/soundfile/open /Users/tml/Desktop/Sounds/Perform/beatz/090 Indian Ghatam 001.wav 
+ 	 	 	 	 /sampleplayer2/audio/gain 51.000000 ramp global 
+ 	 	 	 	 /sampleplayer2/loop 1 
+ 	 	 	 	 /sampleplayer2/pitch/active 1 
+ 	 	 	 	 /sampleplayer2/pitch/ratio -0.010000 ramp global 
+ 	 	 	 	 /sampleplayer2/sample/start 9790.916992 ramp global 
+ 	 	 	 	 /sampleplayer2/sample/stop 10148.562500 ramp global 
+ 	 	 	 	 /sampleplayer2/speed/active 1 
+ 	 	 	 	 /sampleplayer2/speed/ratio 0.000000 ramp global 
+ 	 	 	 	 /samplePlayer~/audio/gain 56.000000 ramp global 
+ 	 	 	 	 /samplePlayer~/loop 1 
+ 	 	 	 	 /samplePlayer~/sample/start 3243.129395 ramp global 
+ 	 	 	 	 /samplePlayer~/sample/stop 5175.329102 ramp global 
+ 	 	 	 	 /samplePlayer~/speed/active 1 
+ 	 	 	 	 /fileBrowser1.1/file /Users/tml/Desktop/Sounds/Perform/beatz/Tabla-shfr-loop.aif 
+ 	 	 	 	 /vst/parameter/loopdepth 0.310606 ramp global 
+ 	 	 	 	 /vst/audio/gain 51.000000 ramp global 
+ 	 	 	 	 /vst/audio/mix 100.000000 ramp global 
+ 	 	 	 	 /vst.1/parameter/density 0.384849 ramp global 
+ 	 	 	 	 /vst.1/parameter/feedback 0.166667 ramp global 
+ 	 	 	 	 /vst.1/parameter/filterfreq 0.909091 ramp global 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.396970 ramp global 
+ 	 	 	 	 /vst.1/parameter/greversal 0.363636 ramp global 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.590909 ramp global 
+ 	 	 	 	 /vst.1/parameter/mix 0.924242 ramp global 
+ 	 	 	 	 /vst.1/parameter/octave 0.469695 ramp global 
+ 	 	 	 	 /vst.1/parameter/octvari 0.045455 ramp global 
+ 	 	 	 	 /vst.1/parameter/resonance 0.272727 ramp global 
+ 	 	 	 	 /vst.1/parameter/time 0.363637 ramp global 
+ 	 	 	 	 /vst.1/parameter/timevari 0.848484 ramp global 
+ 	 	 	 	 /vst.1/audio/gain 63.000000 ramp global 
+ 	 	 	 	 /vst.1/audio/mix 59.000000 ramp global 
+ 	 	 	 	 /fileBrowser1.2/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.2/file /Users/tml/Desktop/Sounds/Perform/beatz/kzLoop.aif 
+ 	 	 	 	 /nav.munger~/audio/gain 1.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/audio/gain 68.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.500000 ramp global 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "step" 
+ 
+ 
+ 	 	 	 	 /CONFIG /input~.1 99 1 /playback.B-format.Files 99 1 /delay~ 99 1 /adjust 99 1 /meters 99 1 /sur.speaker.distamp~ 99 1 /decode~ 99 1 /speakers 99 1 /filter~ 99 1 /filter~.1 99 1 /reverb 99 1 /fileBrowser1 99 1 /input~ 99 1 /sampleplayer2 99 1 /samplePlayer~ 99 1 /fileBrowser1.1 99 1 /midiin 99 1 /vst 99 1 /midiin.1 99 1 /vst.1 99 1 /fileBrowser1.2 99 1 /nav.munger~ 99 1 /nav.munger~.1 99 1 /output 99 1 /jmod.sur.multi.aux~ 99 1 /jmod.sur.multi.aux~.1 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /input~.1 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /adjust 
+ # 
+ # Module /meters 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 2 
+ 	 	 	 	 /reverb/outputs 2 
+ 	 	 	 	 /reverb/audio/gain 85.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 358.267181 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/output.1/gain 100.000000 
+ 	 	 	 	 /reverb/output.10/gain 100.000000 
+ 	 	 	 	 /reverb/output.11/gain 100.000000 
+ 	 	 	 	 /reverb/output.12/gain 100.000000 
+ 	 	 	 	 /reverb/output.13/gain 100.000000 
+ 	 	 	 	 /reverb/output.14/gain 100.000000 
+ 	 	 	 	 /reverb/output.15/gain 100.000000 
+ 	 	 	 	 /reverb/output.16/gain 100.000000 
+ 	 	 	 	 /reverb/output.17/gain 100.000000 
+ 	 	 	 	 /reverb/output.18/gain 100.000000 
+ 	 	 	 	 /reverb/output.19/gain 100.000000 
+ 	 	 	 	 /reverb/output.2/gain 100.000000 
+ 	 	 	 	 /reverb/output.20/gain 100.000000 
+ 	 	 	 	 /reverb/output.21/gain 100.000000 
+ 	 	 	 	 /reverb/output.22/gain 100.000000 
+ 	 	 	 	 /reverb/output.23/gain 100.000000 
+ 	 	 	 	 /reverb/output.24/gain 100.000000 
+ 	 	 	 	 /reverb/output.3/gain 100.000000 
+ 	 	 	 	 /reverb/output.4/gain 100.000000 
+ 	 	 	 	 /reverb/output.5/gain 100.000000 
+ 	 	 	 	 /reverb/output.6/gain 100.000000 
+ 	 	 	 	 /reverb/output.7/gain 100.000000 
+ 	 	 	 	 /reverb/output.8/gain 100.000000 
+ 	 	 	 	 /reverb/output.9/gain 100.000000 
+ 	 	 	 	 /reverb/predelay 0.000000 
+ 	 	 	 	 /reverb/t60 10.000000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1/depth 7 
+ 	 	 	 	 /fileBrowser1/file /Users/tml/Desktop/Sounds/Perform/beatz/090 Indian Ghatam 001.wav 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 1 
+ 	 	 	 	 /input~/audio/gain 66.798698 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000002 
+ 	 	 	 	 /input~/soundfile/loop 1 
+ 	 	 	 	 /input~/soundfile/open /Users/tml/Desktop/Sounds/Perform/beatz/090 Indian Ghatam 001.wav 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/view/color/border 0 
+ 	 	 	 	 /input~/view/color/contentBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~/view/color/toolbarText 0 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/size 300 140 
+ # 
+ # Module /sampleplayer2 
+ 	 	 	 	 /sampleplayer2/audio/gain 51.000000 
+ 	 	 	 	 /sampleplayer2/audio/mute 0 
+ 	 	 	 	 /sampleplayer2/loop 1 
+ 	 	 	 	 /sampleplayer2/loopsync/active 0 
+ 	 	 	 	 /sampleplayer2/loopsync/mode loop_time 
+ 	 	 	 	 /sampleplayer2/pitch/active 1 
+ 	 	 	 	 /sampleplayer2/pitch/ratio -0.010000 
+ 	 	 	 	 /sampleplayer2/reverse 0 
+ 	 	 	 	 /sampleplayer2/sample/start 9790.916992 
+ 	 	 	 	 /sampleplayer2/sample/stop 10148.562500 
+ 	 	 	 	 /sampleplayer2/sample/vzoom 1.000000 
+ 	 	 	 	 /sampleplayer2/speed/active 1 
+ 	 	 	 	 /sampleplayer2/speed/ratio 0.000000 
+ 	 	 	 	 /sampleplayer2/view/color/border 0 
+ 	 	 	 	 /sampleplayer2/view/color/contentBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarText 0 
+ 	 	 	 	 /sampleplayer2/view/freeze 0 
+ 	 	 	 	 /sampleplayer2/view/size 300 105 
+ # 
+ # Module /samplePlayer~ 
+ 	 	 	 	 /samplePlayer~/audio/gain 56.000000 
+ 	 	 	 	 /samplePlayer~/audio/mute 0 
+ 	 	 	 	 /samplePlayer~/loop 1 
+ 	 	 	 	 /samplePlayer~/loopsync/active 0 
+ 	 	 	 	 /samplePlayer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlayer~/reverse 0 
+ 	 	 	 	 /samplePlayer~/sample/start 3243.129395 
+ 	 	 	 	 /samplePlayer~/sample/stop 5175.329102 
+ 	 	 	 	 /samplePlayer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlayer~/speed/active 1 
+ 	 	 	 	 /samplePlayer~/speed/ratio 1.000000 
+ 	 	 	 	 /samplePlayer~/view/color/border 0 
+ 	 	 	 	 /samplePlayer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlayer~/view/freeze 0 
+ 	 	 	 	 /samplePlayer~/view/size 300 105 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type audio 
+ 	 	 	 	 /fileBrowser1.1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.1/depth 7 
+ 	 	 	 	 /fileBrowser1.1/file /Users/tml/Desktop/Sounds/Perform/beatz/Tabla-shfr-loop.aif 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 
+ 	 	 	 	 /vst/parameter/loopdepth 0.250000 
+ 	 	 	 	 /vst/parameter/mix 0.500000 
+ 	 	 	 	 /vst/parameter/octave 0.500000 
+ 	 	 	 	 /vst/parameter/pitchfactor 0.000000 
+ 	 	 	 	 /vst/parameter/time 0.300000 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 51.000000 
+ 	 	 	 	 /vst/audio/mix 100.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/density 0.400000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.000000 
+ 	 	 	 	 /vst.1/parameter/filterfreq 1.000000 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.200000 
+ 	 	 	 	 /vst.1/parameter/greversal 0.000000 
+ 	 	 	 	 /vst.1/parameter/gsizevari 0.000000 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/mix 1.000000 
+ 	 	 	 	 /vst.1/parameter/octave 0.500000 
+ 	 	 	 	 /vst.1/parameter/octvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch1 1.000000 
+ 	 	 	 	 /vst.1/parameter/pitch10 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch11 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch12 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch2 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch3 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch4 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch5 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch6 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch7 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch8 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch9 0.000000 
+ 	 	 	 	 /vst.1/parameter/resonance 0.500000 
+ 	 	 	 	 /vst.1/parameter/time 0.600000 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/parameter/timevari 0.500000 
+ 	 	 	 	 /vst.1/parameter/tuning 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 63.000000 
+ 	 	 	 	 /vst.1/audio/mix 59.000000 
+ 	 	 	 	 /vst.1/audio/mute 0 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.2 
+ 	 	 	 	 /fileBrowser1.2/type all 
+ 	 	 	 	 /fileBrowser1.2/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.2/depth 1 
+ 	 	 	 	 /fileBrowser1.2/file /Users/tml/Desktop/Sounds/Perform/beatz/kzLoop.aif 
+ 	 	 	 	 /fileBrowser1.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.2/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 79.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 66.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 6238.167480 
+ 	 	 	 	 /nav.munger~/direction 2 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 1 
+ 	 	 	 	 /nav.munger~/params/pitch 0.600000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 0.400000 
+ 	 	 	 	 /nav.munger~/params/rate 25.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 202.000000 
+ 	 	 	 	 /nav.munger~/params/size 477.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 4 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 17 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 83.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 64.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.1/delayLength 957.765259 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.006000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.500000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.500000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 127.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 684.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 45.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 4 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 19 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 1 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 2 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 101.297585 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "ringmod" 
+ 
+ 
+ 	 	 	 	 /CONFIG /reverb 99 1 /playback.B-format.Files 99 1 /delay~ 99 1 /adjust 99 1 /meters 99 1 /sur.speaker.distamp~ 99 1 /decode~ 99 1 /speakers 99 1 /filter~ 99 1 /filter~.1 99 1 /sampleplayer2 99 1 /samplePlayer~ 99 1 /fileBrowser1 99 1 /midiin 99 1 /vst 99 1 /midiin.1 99 1 /vst.1 99 1 /fileBrowser1.1 99 1 /nav.munger~ 99 1 /nav.munger~.1 99 1 /output 99 1 /input~.2 99 1 /fileBrowser1.4 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /reverb 
+ # 
+ # Module /playback.B-format.Files 
+ # 
+ # Module /delay~ 
+ # 
+ # Module /adjust 
+ # 
+ # Module /meters 
+ # 
+ # Module /sur.speaker.distamp~ 
+ # 
+ # Module /decode~ 
+ # 
+ # Module /speakers 
+ # 
+ # Module /filter~ 
+ # 
+ # Module /filter~.1 
+ # 
+ # Module /sampleplayer2 
+ 	 	 	 	 /sampleplayer2/audio/gain 100.000000 
+ 	 	 	 	 /sampleplayer2/audio/mute 0 
+ 	 	 	 	 /sampleplayer2/loop 0 
+ 	 	 	 	 /sampleplayer2/loopsync/active 0 
+ 	 	 	 	 /sampleplayer2/loopsync/mode loop_time 
+ 	 	 	 	 /sampleplayer2/pitch/active 0 
+ 	 	 	 	 /sampleplayer2/pitch/ratio 0.000000 
+ 	 	 	 	 /sampleplayer2/reverse 0 
+ 	 	 	 	 /sampleplayer2/sample/start 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/stop 0.000000 
+ 	 	 	 	 /sampleplayer2/sample/vzoom 1.000000 
+ 	 	 	 	 /sampleplayer2/speed/active 0 
+ 	 	 	 	 /sampleplayer2/speed/ratio 1.000000 
+ 	 	 	 	 /sampleplayer2/view/color/border 0 
+ 	 	 	 	 /sampleplayer2/view/color/contentBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sampleplayer2/view/color/toolbarText 0 
+ 	 	 	 	 /sampleplayer2/view/freeze 0 
+ 	 	 	 	 /sampleplayer2/view/size 300 105 
+ # 
+ # Module /samplePlayer~ 
+ 	 	 	 	 /samplePlayer~/audio/gain 100.000000 
+ 	 	 	 	 /samplePlayer~/audio/mute 0 
+ 	 	 	 	 /samplePlayer~/loop 0 
+ 	 	 	 	 /samplePlayer~/loopsync/active 0 
+ 	 	 	 	 /samplePlayer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlayer~/reverse 0 
+ 	 	 	 	 /samplePlayer~/sample/start 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/stop 0.000000 
+ 	 	 	 	 /samplePlayer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlayer~/speed/active 0 
+ 	 	 	 	 /samplePlayer~/speed/ratio 1.000000 
+ 	 	 	 	 /samplePlayer~/view/color/border 0 
+ 	 	 	 	 /samplePlayer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlayer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlayer~/view/freeze 0 
+ 	 	 	 	 /samplePlayer~/view/size 300 105 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type audio 
+ 	 	 	 	 /fileBrowser1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1/depth 7 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /midiin 
+ 	 	 	 	 /midiin/device 0 
+ 	 	 	 	 /midiin/normalizeMidi 1 
+ 	 	 	 	 /midiin/view/color/border 0 
+ 	 	 	 	 /midiin/view/color/contentBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin/view/color/toolbarText 0 
+ 	 	 	 	 /midiin/view/freeze 0 
+ 	 	 	 	 /midiin/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/+pitchdelay.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/MIDItuning 0.000000 
+ 	 	 	 	 /vst/parameter/feedback 0.000000 
+ 	 	 	 	 /vst/parameter/loopdepth 0.416667 
+ 	 	 	 	 /vst/parameter/mix 0.500000 
+ 	 	 	 	 /vst/parameter/octave 0.742424 
+ 	 	 	 	 /vst/parameter/pitchfactor 1.000000 
+ 	 	 	 	 /vst/parameter/time 0.300000 
+ 	 	 	 	 /vst/parameter/timelock 0.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 95.000000 
+ 	 	 	 	 /vst/audio/mix 87.000000 
+ 	 	 	 	 /vst/audio/mute 0 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 150 70 
+ # 
+ # Module /midiin.1 
+ 	 	 	 	 /midiin.1/device 0 
+ 	 	 	 	 /midiin.1/normalizeMidi 1 
+ 	 	 	 	 /midiin.1/view/color/border 0 
+ 	 	 	 	 /midiin.1/view/color/contentBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /midiin.1/view/color/toolbarText 0 
+ 	 	 	 	 /midiin.1/view/freeze 0 
+ 	 	 	 	 /midiin.1/view/size 150 70 
+ # 
+ # Module /vst.1 
+ 	 	 	 	 /vst.1/vst/plug /Library/Audio/Plug-Ins/VST/+bubbler.vst 
+ 	 	 	 	 /vst.1/vst/program 0 
+ 	 	 	 	 /vst.1/parameter/density 0.400000 
+ 	 	 	 	 /vst.1/parameter/feedback 0.212121 
+ 	 	 	 	 /vst.1/parameter/filterfreq 1.000000 
+ 	 	 	 	 /vst.1/parameter/grainsize 0.457576 
+ 	 	 	 	 /vst.1/parameter/greversal 0.636364 
+ 	 	 	 	 /vst.1/parameter/gsizevari 0.000000 
+ 	 	 	 	 /vst.1/parameter/gstartvari 0.696970 
+ 	 	 	 	 /vst.1/parameter/mix 1.000000 
+ 	 	 	 	 /vst.1/parameter/octave 0.515151 
+ 	 	 	 	 /vst.1/parameter/octvari 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch1 1.000000 
+ 	 	 	 	 /vst.1/parameter/pitch10 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch11 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch12 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch2 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch3 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch4 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch5 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch6 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch7 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch8 0.000000 
+ 	 	 	 	 /vst.1/parameter/pitch9 0.000000 
+ 	 	 	 	 /vst.1/parameter/resonance 0.500000 
+ 	 	 	 	 /vst.1/parameter/time 0.296970 
+ 	 	 	 	 /vst.1/parameter/timelock 0.000000 
+ 	 	 	 	 /vst.1/parameter/timevari 1.000000 
+ 	 	 	 	 /vst.1/parameter/tuning 0.000000 
+ 	 	 	 	 /vst.1/audio/bypass 0 
+ 	 	 	 	 /vst.1/audio/gain 92.000000 
+ 	 	 	 	 /vst.1/audio/mix 80.000000 
+ 	 	 	 	 /vst.1/audio/mute 0 
+ 	 	 	 	 /vst.1/view/color/border 0 
+ 	 	 	 	 /vst.1/view/color/contentBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst.1/view/color/toolbarText 0 
+ 	 	 	 	 /vst.1/view/freeze 0 
+ 	 	 	 	 /vst.1/view/size 150 70 
+ # 
+ # Module /fileBrowser1.1 
+ 	 	 	 	 /fileBrowser1.1/type audio 
+ 	 	 	 	 /fileBrowser1.1/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.1/depth 7 
+ 	 	 	 	 /fileBrowser1.1/file 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.1/view/size 300 70 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/gain 0.000000 
+ 	 	 	 	 /nav.munger~/audio/mix 60.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 0 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~/delayLength 10367.717773 
+ 	 	 	 	 /nav.munger~/direction 0 
+ 	 	 	 	 /nav.munger~/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/pan 0 
+ 	 	 	 	 /nav.munger~/params/pitch 0.500000 
+ 	 	 	 	 /nav.munger~/params/pitchVar 1.000000 
+ 	 	 	 	 /nav.munger~/params/rate 22.000000 
+ 	 	 	 	 /nav.munger~/params/rateVar 95.000000 
+ 	 	 	 	 /nav.munger~/params/size 386.000000 
+ 	 	 	 	 /nav.munger~/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 6 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 14 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/gain 8.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mix 60.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 0 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.000000 
+ 	 	 	 	 /nav.munger~.1/delayLength 5899.684570 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/params/pitch 0.700000 
+ 	 	 	 	 /nav.munger~.1/params/pitchVar 0.090000 
+ 	 	 	 	 /nav.munger~.1/params/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/params/rateVar 122.000000 
+ 	 	 	 	 /nav.munger~.1/params/size 573.000000 
+ 	 	 	 	 /nav.munger~.1/params/sizeVar 42.000000 
+ 	 	 	 	 /nav.munger~.1/params/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 6 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 18 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 1 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 2 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /input~.2 
+ 	 	 	 	 /input~.2/audio/active 1 
+ 	 	 	 	 /input~.2/audio/gain 112.155884 
+ 	 	 	 	 /input~.2/balance 0.000000 
+ 	 	 	 	 /input~.2/ch.1 1 
+ 	 	 	 	 /input~.2/ch.2 2 
+ 	 	 	 	 /input~.2/clicktrain/rate 1.000001 
+ 	 	 	 	 /input~.2/soundfile/loop 1 
+ 	 	 	 	 /input~.2/soundfile/open /Users/tml/Desktop/Sounds/Perform/stochy/buildUp.amad 
+ 	 	 	 	 /input~.2/soundfile/play 1 
+ 	 	 	 	 /input~.2/source soundfile 
+ 	 	 	 	 /input~.2/view/color/border 0 
+ 	 	 	 	 /input~.2/view/color/contentBackground 0 
+ 	 	 	 	 /input~.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /input~.2/view/color/toolbarText 0 
+ 	 	 	 	 /input~.2/view/freeze 0 
+ 	 	 	 	 /input~.2/view/size 300 140 
+ # 
+ # Module /fileBrowser1.4 
+ 	 	 	 	 /fileBrowser1.4/type all 
+ 	 	 	 	 /fileBrowser1.4/folder /Users/tml/Desktop/Sounds/Perform/ 
+ 	 	 	 	 /fileBrowser1.4/depth 3 
+ 	 	 	 	 /fileBrowser1.4/file /Users/tml/Desktop/Sounds/Perform/stochy/buildUp.amad 
+ 	 	 	 	 /fileBrowser1.4/view/color/border 0 
+ 	 	 	 	 /fileBrowser1.4/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1.4/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1.4/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1.4/view/freeze 0 
+ 	 	 	 	 /fileBrowser1.4/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 

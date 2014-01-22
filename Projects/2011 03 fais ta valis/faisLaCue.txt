@@ -1,0 +1,428 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /fileBrowser-Nav2 99 1 /SF-nav2 99 1 /myModule 99 1 /wacom 99 1 /rogs3 99 1 /rogs2 99 1 /fileBrowser-Nav2.1 99 1 /SF-nav2.1 99 1 /MungMics1-2 99 1 /rogs1 99 1 /mic2 99 1 /mic1 99 1 /fileBrowser-Nav 99 1 /fileBrowser-kidz 99 1 /SF-nav 99 1 /samplePlyer~ 99 1 /output~ 99 1 /SF-kidz 99 1 /fileBrowser-Nav2.2 99 1 /SF-nav2.2 99 1 /fileBrowser-Nav2.3 99 1 /SF-nav2.3 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /fileBrowser-Nav2 
+ 	 	 	 	 /fileBrowser-Nav2/type all 
+ 	 	 	 	 /fileBrowser-Nav2/folder /Users/Lolita/Desktop/school/Samples/ 
+ 	 	 	 	 /fileBrowser-Nav2/depth 1 
+ 	 	 	 	 /fileBrowser-Nav2/file /Users/Lolita/Desktop/school/Samples/2-05 Persepolis Remix_ Construction Kit_ Glitché.aif 
+ 	 	 	 	 /fileBrowser-Nav2/view/color/border 0 
+ 	 	 	 	 /fileBrowser-Nav2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-Nav2/view/freeze 0 
+ 	 	 	 	 /fileBrowser-Nav2/view/size 300 70 
+ # 
+ # Module /SF-nav2 
+ 	 	 	 	 /SF-nav2/audio/active 0 
+ 	 	 	 	 /SF-nav2/audio/gain 0.000000 
+ 	 	 	 	 /SF-nav2/balance 0.000000 
+ 	 	 	 	 /SF-nav2/ch.1 1 
+ 	 	 	 	 /SF-nav2/ch.2 2 
+ 	 	 	 	 /SF-nav2/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-nav2/soundfile/loop 0 
+ 	 	 	 	 /SF-nav2/soundfile/open /Users/Lolita/Desktop/school/Samples/2-05 Persepolis Remix_ Construction Kit_ Glitché.aif 
+ 	 	 	 	 /SF-nav2/soundfile/play 0 
+ 	 	 	 	 /SF-nav2/source soundfile 
+ 	 	 	 	 /SF-nav2/testtone/frequency 1000 
+ 	 	 	 	 /SF-nav2/view/color/border 0 
+ 	 	 	 	 /SF-nav2/view/color/contentBackground 0 
+ 	 	 	 	 /SF-nav2/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-nav2/view/color/toolbarText 0 
+ 	 	 	 	 /SF-nav2/view/freeze 0 
+ 	 	 	 	 /SF-nav2/view/size 300 140 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/audio/active 0 
+ 	 	 	 	 /myModule/audio/gain 0.000000 
+ 	 	 	 	 /myModule/balance 0.000000 
+ 	 	 	 	 /myModule/ch.1 1 
+ 	 	 	 	 /myModule/ch.2 2 
+ 	 	 	 	 /myModule/clicktrain/rate 0.790000 
+ 	 	 	 	 /myModule/soundfile/loop 1 
+ 	 	 	 	 /myModule/soundfile/open /Users/Lolita/Desktop/school/sounds-modified/foot-sample.aif 
+ 	 	 	 	 /myModule/soundfile/play 0 
+ 	 	 	 	 /myModule/source clicktrain 
+ 	 	 	 	 /myModule/testtone/frequency 1000 
+ 	 	 	 	 /myModule/view/color/border 0 
+ 	 	 	 	 /myModule/view/color/contentBackground 0 
+ 	 	 	 	 /myModule/view/color/toolbarBackground 0 
+ 	 	 	 	 /myModule/view/color/toolbarText 0 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/size 300 140 
+ # 
+ # Module /wacom 
+ 	 	 	 	 /wacom/bgrd 0 
+ 	 	 	 	 /wacom/flusheventqueue 1 
+ 	 	 	 	 /wacom/menu 0 
+ 	 	 	 	 /wacom/nopointer 1 
+ 	 	 	 	 /wacom/on 1 
+ 	 	 	 	 /wacom/view/color/border 0 
+ 	 	 	 	 /wacom/view/color/contentBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarText 0 
+ 	 	 	 	 /wacom/view/freeze 0 
+ 	 	 	 	 /wacom/view/size 300 70 
+ 	 	 	 	 /wacom/xyrange 1 
+ # 
+ # Module /rogs3 
+ 	 	 	 	 /rogs3/audio/gain 20.000000 
+ 	 	 	 	 /rogs3/audio/mute 0 
+ 	 	 	 	 /rogs3/buffer/file Macintosh HD:/Users/Lolita/Desktop/school/sounds-modified/voices-right.wav 
+ 	 	 	 	 /rogs3/grain/duration 70.000000 
+ 	 	 	 	 /rogs3/grain/overlap 1 
+ 	 	 	 	 /rogs3/grain/trigger 1.400000 
+ 	 	 	 	 /rogs3/pitch/transpose 0.000000 
+ 	 	 	 	 /rogs3/pitch/variation 14.000000 
+ 	 	 	 	 /rogs3/position 39538.812500 
+ 	 	 	 	 /rogs3/position/onset_variation 90.000000 
+ 	 	 	 	 /rogs3/position/speed -0.300000 
+ 	 	 	 	 /rogs3/turn 0.000000 
+ 	 	 	 	 /rogs3/view/color/border 0 
+ 	 	 	 	 /rogs3/view/color/contentBackground 0 
+ 	 	 	 	 /rogs3/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogs3/view/color/toolbarText 0 
+ 	 	 	 	 /rogs3/view/freeze 0 
+ 	 	 	 	 /rogs3/view/size 300 140 
+ # 
+ # Module /rogs2 
+ 	 	 	 	 /rogs2/audio/gain 20.037981 
+ 	 	 	 	 /rogs2/audio/mute 0 
+ 	 	 	 	 /rogs2/buffer/file Macintosh HD:/Users/Lolita/Desktop/school/sounds-modified/voices.aif 
+ 	 	 	 	 /rogs2/grain/duration 70.211647 
+ 	 	 	 	 /rogs2/grain/overlap 1 
+ 	 	 	 	 /rogs2/grain/trigger 1.410838 
+ 	 	 	 	 /rogs2/pitch/transpose 0.000000 
+ 	 	 	 	 /rogs2/pitch/variation 0.000000 
+ 	 	 	 	 /rogs2/position 91135.398438 
+ 	 	 	 	 /rogs2/position/onset_variation 89.966942 
+ 	 	 	 	 /rogs2/position/speed -0.399337 
+ 	 	 	 	 /rogs2/turn 0.000000 
+ 	 	 	 	 /rogs2/view/color/border 0 
+ 	 	 	 	 /rogs2/view/color/contentBackground 0 
+ 	 	 	 	 /rogs2/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogs2/view/color/toolbarText 0 
+ 	 	 	 	 /rogs2/view/freeze 0 
+ 	 	 	 	 /rogs2/view/size 300 140 
+ # 
+ # Module /fileBrowser-Nav2.1 
+ 	 	 	 	 /fileBrowser-Nav2.1/type all 
+ 	 	 	 	 /fileBrowser-Nav2.1/folder /Users/Lolita/Desktop/school/Samples/ 
+ 	 	 	 	 /fileBrowser-Nav2.1/depth 1 
+ 	 	 	 	 /fileBrowser-Nav2.1/file /Users/Lolita/Desktop/school/Samples/bomb.aif 
+ 	 	 	 	 /fileBrowser-Nav2.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser-Nav2.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-Nav2.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser-Nav2.1/view/size 300 70 
+ # 
+ # Module /SF-nav2.1 
+ 	 	 	 	 /SF-nav2.1/audio/active 0 
+ 	 	 	 	 /SF-nav2.1/audio/gain 0.000000 
+ 	 	 	 	 /SF-nav2.1/balance 0.000000 
+ 	 	 	 	 /SF-nav2.1/ch.1 1 
+ 	 	 	 	 /SF-nav2.1/ch.2 2 
+ 	 	 	 	 /SF-nav2.1/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-nav2.1/soundfile/loop 0 
+ 	 	 	 	 /SF-nav2.1/soundfile/open /Users/Lolita/Desktop/school/Samples/bomb.aif 
+ 	 	 	 	 /SF-nav2.1/soundfile/play 0 
+ 	 	 	 	 /SF-nav2.1/source soundfile 
+ 	 	 	 	 /SF-nav2.1/testtone/frequency 1000 
+ 	 	 	 	 /SF-nav2.1/view/color/border 0 
+ 	 	 	 	 /SF-nav2.1/view/color/contentBackground 0 
+ 	 	 	 	 /SF-nav2.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-nav2.1/view/color/toolbarText 0 
+ 	 	 	 	 /SF-nav2.1/view/freeze 0 
+ 	 	 	 	 /SF-nav2.1/view/size 300 140 
+ # 
+ # Module /MungMics1-2 
+ 	 	 	 	 /MungMics1-2/numChannels 2 
+ 	 	 	 	 /MungMics1-2/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /MungMics1-2/depth 0 
+ 	 	 	 	 /MungMics1-2/audio/freeze 0 
+ 	 	 	 	 /MungMics1-2/audio/mix 50.000000 
+ 	 	 	 	 /MungMics1-2/audio/mute 0 
+ 	 	 	 	 /MungMics1-2/buff/choice 0 
+ 	 	 	 	 /MungMics1-2/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /MungMics1-2/buff/rand 0 
+ 	 	 	 	 /MungMics1-2/buff/scrub 0.000000 
+ 	 	 	 	 /MungMics1-2/buff/speed 1.000000 
+ 	 	 	 	 /MungMics1-2/direction 0 
+ 	 	 	 	 /MungMics1-2/maxDelay 10000 
+ 	 	 	 	 /MungMics1-2/mod/delay 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/gain 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/pitch 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/pitchVar 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/rate 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/rateVar 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/size 0.000000 
+ 	 	 	 	 /MungMics1-2/mod/sizeVar 0.000000 
+ 	 	 	 	 /MungMics1-2/pan 0 
+ 	 	 	 	 /MungMics1-2/param/delay 900.304443 
+ 	 	 	 	 /MungMics1-2/param/gainVar 0.000000 
+ 	 	 	 	 /MungMics1-2/param/gain 0.535714 
+ 	 	 	 	 /MungMics1-2/param/pitch 0.930000 
+ 	 	 	 	 /MungMics1-2/param/pitchVar 0.000000 
+ 	 	 	 	 /MungMics1-2/param/rate 0.000000 
+ 	 	 	 	 /MungMics1-2/param/rateVar 12.000000 
+ 	 	 	 	 /MungMics1-2/param/size 403.000000 
+ 	 	 	 	 /MungMics1-2/param/sizeVar 92.000000 
+ 	 	 	 	 /MungMics1-2/param/spread 1.000000 
+ 	 	 	 	 /MungMics1-2/ramp 6 
+ 	 	 	 	 /MungMics1-2/sieves 0 
+ 	 	 	 	 /MungMics1-2/tune 0 
+ 	 	 	 	 /MungMics1-2/view/color/border 0 
+ 	 	 	 	 /MungMics1-2/view/color/contentBackground 0 
+ 	 	 	 	 /MungMics1-2/view/color/toolbarBackground 0 
+ 	 	 	 	 /MungMics1-2/view/color/toolbarText 0 
+ 	 	 	 	 /MungMics1-2/view/freeze 0 
+ 	 	 	 	 /MungMics1-2/view/size 300 105 
+ 	 	 	 	 /MungMics1-2/voices 18 
+ # 
+ # Module /rogs1 
+ 	 	 	 	 /rogs1/audio/gain 20.211437 
+ 	 	 	 	 /rogs1/audio/mute 0 
+ 	 	 	 	 /rogs1/buffer/file Macintosh HD:/Users/Lolita/Desktop/school/sounds-modified/voices-left.wav 
+ 	 	 	 	 /rogs1/grain/duration 71.324883 
+ 	 	 	 	 /rogs1/grain/overlap 1 
+ 	 	 	 	 /rogs1/grain/trigger 1.469666 
+ 	 	 	 	 /rogs1/pitch/transpose 0.000000 
+ 	 	 	 	 /rogs1/pitch/variation 18.000000 
+ 	 	 	 	 /rogs1/position 40933.898438 
+ 	 	 	 	 /rogs1/position/onset_variation 89.802010 
+ 	 	 	 	 /rogs1/position/speed -0.196433 
+ 	 	 	 	 /rogs1/turn 0.000000 
+ 	 	 	 	 /rogs1/view/color/border 0 
+ 	 	 	 	 /rogs1/view/color/contentBackground 0 
+ 	 	 	 	 /rogs1/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogs1/view/color/toolbarText 0 
+ 	 	 	 	 /rogs1/view/freeze 0 
+ 	 	 	 	 /rogs1/view/size 300 140 
+ # 
+ # Module /mic2 
+ 	 	 	 	 /mic2/clip 1 
+ 	 	 	 	 /mic2/env/cutoff 800 
+ 	 	 	 	 /mic2/env/on 1 
+ 	 	 	 	 /mic2/env/period 10 
+ 	 	 	 	 /mic2/gain 100.000000 
+ 	 	 	 	 /mic2/pre-slide/down 27 
+ 	 	 	 	 /mic2/pre-slide/up 0 
+ 	 	 	 	 /mic2/scale/input/max 0.000000 
+ 	 	 	 	 /mic2/scale/input/min 0.000000 
+ 	 	 	 	 /mic2/scale/max 1.000000 
+ 	 	 	 	 /mic2/scale/min 0.000000 
+ 	 	 	 	 /mic2/scale/mode 2 
+ 	 	 	 	 /mic2/scale/window 1000 
+ 	 	 	 	 /mic2/slide/down 48 
+ 	 	 	 	 /mic2/slide/up 0 
+ 	 	 	 	 /mic2/view/color/border 0 
+ 	 	 	 	 /mic2/view/color/contentBackground 0 
+ 	 	 	 	 /mic2/view/color/toolbarBackground 0 
+ 	 	 	 	 /mic2/view/color/toolbarText 0 
+ 	 	 	 	 /mic2/view/freeze 0 
+ 	 	 	 	 /mic2/view/size 300 70 
+ 	 	 	 	 /mic2/visualize 1 
+ # 
+ # Module /mic1 
+ 	 	 	 	 /mic1/clip 1 
+ 	 	 	 	 /mic1/env/cutoff 800 
+ 	 	 	 	 /mic1/env/on 1 
+ 	 	 	 	 /mic1/env/period 10 
+ 	 	 	 	 /mic1/gain 100.000000 
+ 	 	 	 	 /mic1/pre-slide/down 28 
+ 	 	 	 	 /mic1/pre-slide/up 0 
+ 	 	 	 	 /mic1/scale/input/max 0.000000 
+ 	 	 	 	 /mic1/scale/input/min 0.000000 
+ 	 	 	 	 /mic1/scale/max 1.000000 
+ 	 	 	 	 /mic1/scale/min 0.000000 
+ 	 	 	 	 /mic1/scale/mode 2 
+ 	 	 	 	 /mic1/scale/window 1000 
+ 	 	 	 	 /mic1/slide/down 42 
+ 	 	 	 	 /mic1/slide/up 0 
+ 	 	 	 	 /mic1/view/color/border 0 
+ 	 	 	 	 /mic1/view/color/contentBackground 0 
+ 	 	 	 	 /mic1/view/color/toolbarBackground 0 
+ 	 	 	 	 /mic1/view/color/toolbarText 0 
+ 	 	 	 	 /mic1/view/freeze 0 
+ 	 	 	 	 /mic1/view/size 300 70 
+ 	 	 	 	 /mic1/visualize 1 
+ # 
+ # Module /fileBrowser-Nav 
+ 	 	 	 	 /fileBrowser-Nav/type all 
+ 	 	 	 	 /fileBrowser-Nav/folder /Users/Lolita/Desktop/school/Samples/ 
+ 	 	 	 	 /fileBrowser-Nav/depth 1 
+ 	 	 	 	 /fileBrowser-Nav/file /Users/Lolita/Desktop/school/Samples/whispers.aif 
+ 	 	 	 	 /fileBrowser-Nav/view/color/border 0 
+ 	 	 	 	 /fileBrowser-Nav/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-Nav/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-Nav/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-Nav/view/freeze 0 
+ 	 	 	 	 /fileBrowser-Nav/view/size 300 70 
+ # 
+ # Module /fileBrowser-kidz 
+ 	 	 	 	 /fileBrowser-kidz/type all 
+ 	 	 	 	 /fileBrowser-kidz/folder /Users/Lolita/Desktop/school/sounds-modified/ 
+ 	 	 	 	 /fileBrowser-kidz/depth 1 
+ 	 	 	 	 /fileBrowser-kidz/file /Users/Lolita/Desktop/school/sounds-modified/Music4.aif 
+ 	 	 	 	 /fileBrowser-kidz/view/color/border 0 
+ 	 	 	 	 /fileBrowser-kidz/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-kidz/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-kidz/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-kidz/view/freeze 0 
+ 	 	 	 	 /fileBrowser-kidz/view/size 300 70 
+ # 
+ # Module /SF-nav 
+ 	 	 	 	 /SF-nav/audio/active 0 
+ 	 	 	 	 /SF-nav/audio/gain 0.000000 
+ 	 	 	 	 /SF-nav/balance 0.000000 
+ 	 	 	 	 /SF-nav/ch.1 1 
+ 	 	 	 	 /SF-nav/ch.2 2 
+ 	 	 	 	 /SF-nav/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-nav/soundfile/loop 1 
+ 	 	 	 	 /SF-nav/soundfile/open /Users/Lolita/Desktop/school/Samples/whispers.aif 
+ 	 	 	 	 /SF-nav/soundfile/play 0 
+ 	 	 	 	 /SF-nav/source soundfile 
+ 	 	 	 	 /SF-nav/testtone/frequency 1000 
+ 	 	 	 	 /SF-nav/view/color/border 0 
+ 	 	 	 	 /SF-nav/view/color/contentBackground 0 
+ 	 	 	 	 /SF-nav/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-nav/view/color/toolbarText 0 
+ 	 	 	 	 /SF-nav/view/freeze 0 
+ 	 	 	 	 /SF-nav/view/size 300 140 
+ # 
+ # Module /samplePlyer~ 
+ 	 	 	 	 /samplePlyer~/audio/gain 72.000000 
+ 	 	 	 	 /samplePlyer~/audio/mute 0 
+ 	 	 	 	 /samplePlyer~/loop 0 
+ 	 	 	 	 /samplePlyer~/loopsync/active 0 
+ 	 	 	 	 /samplePlyer~/loopsync/mode loop_time 
+ 	 	 	 	 /samplePlyer~/reverse 0 
+ 	 	 	 	 /samplePlyer~/sample/start 0.000000 
+ 	 	 	 	 /samplePlyer~/sample/stop 0.000000 
+ 	 	 	 	 /samplePlyer~/sample/vzoom 1.000000 
+ 	 	 	 	 /samplePlyer~/speed/active 1 
+ 	 	 	 	 /samplePlyer~/speed/ratio 0.915789 
+ 	 	 	 	 /samplePlyer~/view/color/border 0 
+ 	 	 	 	 /samplePlyer~/view/color/contentBackground 0 
+ 	 	 	 	 /samplePlyer~/view/color/toolbarBackground 0 
+ 	 	 	 	 /samplePlyer~/view/color/toolbarText 0 
+ 	 	 	 	 /samplePlyer~/view/freeze 0 
+ 	 	 	 	 /samplePlyer~/view/size 300 105 
+ # 
+ # Module /output~ 
+ 	 	 	 	 /output~/audio/active 0 
+ 	 	 	 	 /output~/audio/gain 87.415581 
+ 	 	 	 	 /output~/balance 0.000000 
+ 	 	 	 	 /output~/ch.1 1 
+ 	 	 	 	 /output~/ch.2 2 
+ 	 	 	 	 /output~/limiter/active 1 
+ 	 	 	 	 /output~/limiter/dcblocker/active 1 
+ 	 	 	 	 /output~/limiter/lookahead 64 
+ 	 	 	 	 /output~/limiter/mode exponential 
+ 	 	 	 	 /output~/limiter/postamp 0.000000 
+ 	 	 	 	 /output~/limiter/preamp 6.000000 
+ 	 	 	 	 /output~/limiter/release 300.000000 
+ 	 	 	 	 /output~/limiter/threshold -6.000000 
+ 	 	 	 	 /output~/record/filetype aiff 
+ 	 	 	 	 /output~/record/samptype int24 
+ 	 	 	 	 /output~/saturation/active 1 
+ 	 	 	 	 /output~/saturation/depth 10.000000 
+ 	 	 	 	 /output~/view/color/border 0 
+ 	 	 	 	 /output~/view/color/contentBackground 0 
+ 	 	 	 	 /output~/view/color/toolbarBackground 0 
+ 	 	 	 	 /output~/view/color/toolbarText 0 
+ 	 	 	 	 /output~/view/freeze 0 
+ 	 	 	 	 /output~/view/size 300 140 
+ # 
+ # Module /SF-kidz 
+ 	 	 	 	 /SF-kidz/audio/active 0 
+ 	 	 	 	 /SF-kidz/audio/gain 0.000000 
+ 	 	 	 	 /SF-kidz/balance 0.000000 
+ 	 	 	 	 /SF-kidz/ch.1 1 
+ 	 	 	 	 /SF-kidz/ch.2 2 
+ 	 	 	 	 /SF-kidz/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-kidz/soundfile/loop 0 
+ 	 	 	 	 /SF-kidz/soundfile/open /Users/Lolita/Desktop/school/sounds-modified/Music4.aif 
+ 	 	 	 	 /SF-kidz/soundfile/play 0 
+ 	 	 	 	 /SF-kidz/source soundfile 
+ 	 	 	 	 /SF-kidz/testtone/frequency 1000 
+ 	 	 	 	 /SF-kidz/view/color/border 0 
+ 	 	 	 	 /SF-kidz/view/color/contentBackground 0 
+ 	 	 	 	 /SF-kidz/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-kidz/view/color/toolbarText 0 
+ 	 	 	 	 /SF-kidz/view/freeze 0 
+ 	 	 	 	 /SF-kidz/view/size 300 140 
+ # 
+ # Module /fileBrowser-Nav2.2 
+ 	 	 	 	 /fileBrowser-Nav2.2/type all 
+ 	 	 	 	 /fileBrowser-Nav2.2/folder /Users/Lolita/Desktop/school/Samples/ 
+ 	 	 	 	 /fileBrowser-Nav2.2/depth 1 
+ 	 	 	 	 /fileBrowser-Nav2.2/file /Users/Lolita/Desktop/school/Samples/nim-rumble.aif 
+ 	 	 	 	 /fileBrowser-Nav2.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser-Nav2.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-Nav2.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser-Nav2.2/view/size 300 70 
+ # 
+ # Module /SF-nav2.2 
+ 	 	 	 	 /SF-nav2.2/audio/active 0 
+ 	 	 	 	 /SF-nav2.2/audio/gain 0.000000 
+ 	 	 	 	 /SF-nav2.2/balance 0.000000 
+ 	 	 	 	 /SF-nav2.2/ch.1 1 
+ 	 	 	 	 /SF-nav2.2/ch.2 2 
+ 	 	 	 	 /SF-nav2.2/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-nav2.2/soundfile/loop 1 
+ 	 	 	 	 /SF-nav2.2/soundfile/open /Users/Lolita/Desktop/school/Samples/nim-rumble.aif 
+ 	 	 	 	 /SF-nav2.2/soundfile/play 0 
+ 	 	 	 	 /SF-nav2.2/source soundfile 
+ 	 	 	 	 /SF-nav2.2/testtone/frequency 1000 
+ 	 	 	 	 /SF-nav2.2/view/color/border 0 
+ 	 	 	 	 /SF-nav2.2/view/color/contentBackground 0 
+ 	 	 	 	 /SF-nav2.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-nav2.2/view/color/toolbarText 0 
+ 	 	 	 	 /SF-nav2.2/view/freeze 0 
+ 	 	 	 	 /SF-nav2.2/view/size 300 140 
+ # 
+ # Module /fileBrowser-Nav2.3 
+ 	 	 	 	 /fileBrowser-Nav2.3/type all 
+ 	 	 	 	 /fileBrowser-Nav2.3/folder /Users/Lolita/Desktop/school/Samples/ 
+ 	 	 	 	 /fileBrowser-Nav2.3/depth 1 
+ 	 	 	 	 /fileBrowser-Nav2.3/file /Users/Lolita/Desktop/school/Samples/ClickClip I.wav 
+ 	 	 	 	 /fileBrowser-Nav2.3/view/color/border 0 
+ 	 	 	 	 /fileBrowser-Nav2.3/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2.3/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-Nav2.3/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-Nav2.3/view/freeze 0 
+ 	 	 	 	 /fileBrowser-Nav2.3/view/size 300 70 
+ # 
+ # Module /SF-nav2.3 
+ 	 	 	 	 /SF-nav2.3/audio/active 0 
+ 	 	 	 	 /SF-nav2.3/audio/gain 0.000000 
+ 	 	 	 	 /SF-nav2.3/balance 0.000000 
+ 	 	 	 	 /SF-nav2.3/ch.1 1 
+ 	 	 	 	 /SF-nav2.3/ch.2 2 
+ 	 	 	 	 /SF-nav2.3/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-nav2.3/soundfile/loop 1 
+ 	 	 	 	 /SF-nav2.3/soundfile/open /Users/Lolita/Desktop/school/Samples/ClickClip I.wav 
+ 	 	 	 	 /SF-nav2.3/soundfile/play 0 
+ 	 	 	 	 /SF-nav2.3/source soundfile 
+ 	 	 	 	 /SF-nav2.3/testtone/frequency 1000 
+ 	 	 	 	 /SF-nav2.3/view/color/border 0 
+ 	 	 	 	 /SF-nav2.3/view/color/contentBackground 0 
+ 	 	 	 	 /SF-nav2.3/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-nav2.3/view/color/toolbarText 0 
+ 	 	 	 	 /SF-nav2.3/view/freeze 0 
+ 	 	 	 	 /SF-nav2.3/view/size 300 140 
+ # 
+ ######################## 
+ 
+ 

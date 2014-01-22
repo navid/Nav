@@ -1,0 +1,254 @@
+Piano-Gauth.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Piano-Gauth.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"Spectral Spheres 82b..wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/bells/Spectral Spheres 82b..wav" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"Chimes (mono).aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/bells/Chimes (mono).aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+cupChimes.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/bells/cupChimes.aif" 45.000000000000000000000000000000 6810.2500000000000000000000000000
+GogoBells-inWater.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/bells/GogoBells-inWater.aif" 45.000000000000000000000000000000 40495.687500000000000000000000000
+sharp-knives.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/bells/sharp-knives.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+breath-willia-fullOpen.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Breath/breath-willia-fullOpen.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+Premis-rvrb.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Breath/Premis-rvrb.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"PV-SpectralDelay--0.aiff" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Breath/PV-SpectralDelay--0.aiff" 45.000000000000000000000000000000 48979.625000000000000000000000000
+SoftBreathingSoo.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Breath/SoftBreathingSoo.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+waterSong-Gong.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Crunch/waterSong-Gong.aif" 45.000000000000000000000000000000 41029.375000000000000000000000000
+"RestlessQuarks (Snippet).wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Electricity/RestlessQuarks (Snippet).wav" 45.000000000000000000000000000000 20337.521484375000000000000000000
+"07 Ranryo ou_ Tokyoku-spctrlDronemaker-harsh.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Electricity/07 Ranryo ou_ Tokyoku-spctrlDronemaker-harsh.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+deftones-loop.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Electricity/deftones-loop.aif" 45.000000000000000000000000000000 21979.187500000000000000000000000
+Electricity-tool.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Electricity/Electricity-tool.aif" 45.000000000000000000000000000000 41328.042968750000000000000000000
+hum-chrip.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Electricity/hum-chrip.aif" 45.000000000000000000000000000000 12802.791992187500000000000000000
+"Microtonal Chicken Farm (EQ).wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Microtonal Chicken Farm (EQ).wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"01 Le Bal.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/01 Le Bal.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"01 Sirba De La Gaesti.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/01 Sirba De La Gaesti.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"03 Hora De Joc Tziganeasca.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/03 Hora De Joc Tziganeasca.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"04 Busigan (Shame)edit.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/04 Busigan (Shame)edit.aif" 45.000000000000000000000000000000 29983.875000000000000000000000000
+"07 Gending Sekar Gabund (Excerpt).aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/07 Gending Sekar Gabund (Excerpt).aif" 45.000000000000000000000000000000 40203.480468750000000000000000000
+"11 Terra Zona.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/11 Terra Zona.aif" 45.000000000000000000000000000000 35012.707031250000000000000000000
+"Bamboo-Is#2.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Bamboo-Is#2.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+Bamboo-Is.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Bamboo-Is.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+chatter-glss.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/chatter-glss.aif" 45.000000000000000000000000000000 23481.771484375000000000000000000
+"Coins Lots-short-edite.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Coins Lots-short-edite.aif" 45.000000000000000000000000000000 10349.729492187500000000000000000
+"Coins Lots-short.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Coins Lots-short.aif" 45.000000000000000000000000000000 7119.1250000000000000000000000000
+Coins-lots-low-short.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Coins-lots-low-short.aif" 45.000000000000000000000000000000 6512.2709960937500000000000000000
+"layered-wood bubbles.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/layered-wood bubbles.aif" 45.000000000000000000000000000000 28044.125000000000000000000000000
+lunchBub-short.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/lunchBub-short.aif" 45.000000000000000000000000000000 37546.207031250000000000000000000
+"rolling glass.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/rolling glass.aif" 45.000000000000000000000000000000 18299.083984375000000000000000000
+rolling-glass-wood.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/rolling-glass-wood.aif" 45.000000000000000000000000000000 26817.000000000000000000000000000
+"sauce1.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/sauce1.aif" 45.000000000000000000000000000000 14587.812500000000000000000000000
+"sauce2.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/sauce2.aif" 45.000000000000000000000000000000 8335.9375000000000000000000000000
+StochasticWaterRoller-climax.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/StochasticWaterRoller-climax.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+StochasticWaterRoller.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/StochasticWaterRoller.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"Water Boil.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/Water Boil.aif" 45.000000000000000000000000000000 1937.1666259765625000000000000000
+water-alive-purrBubble.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/water-alive-purrBubble.aif" 45.000000000000000000000000000000 29921.083984375000000000000000000
+water-Sand-Digg-droplets.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/water-Sand-Digg-droplets.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+water-tickBubbles.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/membrane3/water-tickBubbles.aif" 45.000000000000000000000000000000 21099.146484375000000000000000000
+"tom glace 7min-3.wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/tom glace 7min-3.wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"02 Vivaldi concerto mandolines.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/02 Vivaldi concerto mandolines.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"12 Bach air.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/12 Bach air.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+bang.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/bang.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"BB_adage_8's_impros.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/BB_adage_8's_impros.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"Derome-Le magasin1.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/Derome-Le magasin1.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"thread 2.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/thread 2.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+who's_street_extended_version.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/music/who's_street_extended_version.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+musiBox.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/musicBox/musiBox.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+bongosAndToms.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Percussive/bongosAndToms.aif" 45.000000000000000000000000000000 6596.4790039062500000000000000000
+invertedSaladBowls-inWater.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Percussive/invertedSaladBowls-inWater.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+Tube-flipFlop.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Percussive/Tube-flipFlop.aif" 45.000000000000000000000000000000 27022.646484375000000000000000000
+pizzi-bouncy-ABAB.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Pizzi-transients/pizzi-bouncy-ABAB.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+pizzi-bouncy.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Pizzi-transients/pizzi-bouncy.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+scratch-Dense-noise.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Pizzi-transients/scratch-Dense-noise.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+scratch-semi-sparse.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Pizzi-transients/scratch-semi-sparse.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+swinging-tones-swishing.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Pizzi-transients/swinging-tones-swishing.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+swishing-swirls.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Pizzi-transients/swishing-swirls.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+clickClip-snipped.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rhythmic/clickClip-snipped.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"kzLoop-EQ-highpass1.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rhythmic/kzLoop-EQ-highpass1.aif" 45.000000000000000000000000000000 24874.437500000000000000000000000
+Coins-Lots-short-edite.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Roll/Coins-Lots-short-edite.aif" 45.000000000000000000000000000000 10349.729492187500000000000000000
+theWaterDrum.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rust/theWaterDrum.aif" 45.000000000000000000000000000000 34091.562500000000000000000000000
+"Ambigiuas spaces (3rd master).wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/Ambigiuas spaces (3rd master).wav" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"Machiavelli's Wet Dream about llamas.wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/Machiavelli's Wet Dream about llamas.wav" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"2012 10 10 Air.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/2012 10 10 Air.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"2012 10 10 Lonesome Rust.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/2012 10 10 Lonesome Rust.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"Navid Navab- Alchemy of Food.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/Navid Navab- Alchemy of Food.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"Pneuma- Forest.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/Pneuma- Forest.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"Untiltled #Train (aprl 24).aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Shadows/Untiltled #Train (aprl 24).aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+child-crying.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Suffering/child-crying.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+Hens-distrubed.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Suffering/Hens-distrubed.aif" 45.000000000000000000000000000000 16831.916015625000000000000000000
+"KlangParade_90b_16br.wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/KlangParade_90b_16br.wav" 45.000000000000000000000000000000 42666.667968750000000000000000000
+Coins-Lots-short-edite.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/Coins-Lots-short-edite.aif" 45.000000000000000000000000000000 10349.729492187500000000000000000
+crushingGlass-OPCH.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/crushingGlass-OPCH.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+eaCrum-rogs.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/eaCrum-rogs.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+glassONglass-OPCH.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/glassONglass-OPCH.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+GlassStorm-rogs.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/GlassStorm-rogs.aif" 45.000000000000000000000000000000 37131.167968750000000000000000000
+Glitch-pers.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/Glitch-pers.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+grainyMetal-OPCH.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/grainyMetal-OPCH.aif" 45.000000000000000000000000000000 24738.687500000000000000000000000
+GuitarCraz-short.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/GuitarCraz-short.aif" 45.000000000000000000000000000000 29173.978515625000000000000000000
+MarbleOnDrum-OPCH.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/MarbleOnDrum-OPCH.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"Navid Navab- Alchemy of Food.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/Navid Navab- Alchemy of Food.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+slow-fireMetal-crackle.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/TT.rogs/slow-fireMetal-crackle.aif" 45.000000000000000000000000000000 48724.582031250000000000000000000
+"Liquid Pour 01.wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/Liquid Pour 01.wav" 45.000000000000000000000000000000 25511.146484375000000000000000000
+invertedCupes-inWater.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/invertedCupes-inWater.aif" 45.000000000000000000000000000000 15763.104492187500000000000000000
+"Ocean-increasing waves.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/Ocean-increasing waves.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+strainer-inWater.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/strainer-inWater.aif" 45.000000000000000000000000000000 37329.519531250000000000000000000
+water-alive-purrBubble.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/water-alive-purrBubble.aif" 45.000000000000000000000000000000 29921.083984375000000000000000000
+water-Sand-Digg-droplets.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/water-Sand-Digg-droplets.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+water-Sand-Digg.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/water-Sand-Digg.aif" 45.000000000000000000000000000000 35802.355468750000000000000000000
+water-thunder-rain.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/water-thunder-rain.aif" 45.000000000000000000000000000000 43397.625000000000000000000000000
+water-tickBubbles.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/water-tickBubbles.aif" 45.000000000000000000000000000000 21099.146484375000000000000000000
+waterDrumming.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Water/waterDrumming.aif" 45.000000000000000000000000000000 42486.019531250000000000000000000
+"D&B-Combo-10_F#m.wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rhythmic/rhythm-combos/D&B-Combo-10_F#m.wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"Dance-Combo-01_G.wav" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rhythmic/rhythm-combos/Dance-Combo-01_G.wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+HipHop-Combo_C.wav "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rhythmic/rhythm-combos/HipHop-Combo_C.wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+Reggae-Combo_G#.wav "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Rhythmic/rhythm-combos/Reggae-Combo_G#.wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"Arvo Pat - Summa.aiff" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/gregorian chants/Arvo Pat - Summa.aiff" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"gregorianChant - Gori.aiff" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/gregorian chants/gregorianChant - Gori.aiff" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"gregorianChant - SalveRegina.aiff" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/gregorian chants/gregorianChant - SalveRegina.aiff" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"gregorianChant - venite.aiff" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/gregorian chants/gregorianChant - venite.aiff" 45.000000000000000000000000000000 48979.625000000000000000000000000
+laugh-long-many.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Laugh/laugh-long-many.aif" 45.000000000000000000000000000000 32155.416015625000000000000000000
+"improvised voice only.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Roger/improvised voice only.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"indian chanting only.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Roger/indian chanting only.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"indian chanting_with improvised voice.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Roger/indian chanting_with improvised voice.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+David_McGimpsey.aif "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Speech/David_McGimpsey.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"zeros& ones text.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Speech/zeros& ones text.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"07-Migal-Elle-Gáren.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Vocal-tribal/07-Migal-Elle-Gáren.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"15-Solo-Voice.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Vocal-tribal/15-Solo-Voice.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"19-Gyütò-Tantra.aif" "Macintosh HD:/SoundLib/Buffer-Audio/Rogs/Voice/Vocal-tribal-Throat/19-Gyütò-Tantra.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+"170 D&B Drums 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/170 D&B Drums 01.wav" 45.000000000000000000000000000000 1411.7916259765625000000000000000
+"170 D&B Drums 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/170 D&B Drums 02.wav" 45.000000000000000000000000000000 1411.7916259765625000000000000000
+"170 D&B Drums 03.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/170 D&B Drums 03.wav" 45.000000000000000000000000000000 1411.7916259765625000000000000000
+"175 D&B Drums 04.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 04.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 05.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 05.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 06.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 06.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 07.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 07.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 08.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 08.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 09.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 09.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 10.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 10.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 11.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 11.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 12.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 12.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 13.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 13.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 14.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 14.wav" 45.000000000000000000000000000000 5485.7500000000000000000000000000
+"175 D&B Drums 15.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 15.wav" 45.000000000000000000000000000000 2742.9167480468750000000000000000
+"175 D&B Drums 16.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 16.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 17.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 17.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 18.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 18.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 19.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 19.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 20.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 20.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 21.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 21.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 22.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 22.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 23.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 23.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 24.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 24.wav" 45.000000000000000000000000000000 5485.7500000000000000000000000000
+"175 D&B Drums 25.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 25.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 26.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 26.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 27.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 27.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 28.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 28.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 29.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 29.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 30.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 30.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 31.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 31.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 32.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 32.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 33.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 33.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 34.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 34.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 35.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 35.wav" 45.000000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 36.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 36.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 37.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass/175 D&B Drums 37.wav" 45.000000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Combo 01_Abm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 01_Abm.wav" 45.000000000000000000000000000000 10972.458007812500000000000000000
+"175 D&B Combo 02_Bbm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 02_Bbm.wav" 45.000000000000000000000000000000 10971.354492187500000000000000000
+"175 D&B Combo 03_Bbm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 03_Bbm.wav" 45.000000000000000000000000000000 10970.083007812500000000000000000
+"175 D&B Combo 04_Bbm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 04_Bbm.wav" 45.000000000000000000000000000000 10970.395507812500000000000000000
+"175 D&B Combo 05_Bbm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 05_Bbm.wav" 45.000000000000000000000000000000 10974.270507812500000000000000000
+"175 D&B Combo 06_Cm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 06_Cm.wav" 45.000000000000000000000000000000 21942.896484375000000000000000000
+"175 D&B Combo 07_Ebm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 07_Ebm.wav" 45.000000000000000000000000000000 10974.083007812500000000000000000
+"175 D&B Combo 08_Ebm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 08_Ebm.wav" 45.000000000000000000000000000000 5484.8540039062500000000000000000
+"175 D&B Combo 09_F#m.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 09_F#m.wav" 45.000000000000000000000000000000 10971.208007812500000000000000000
+"175 D&B Combo 10_F#m.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 10_F#m.wav" 45.000000000000000000000000000000 10970.062500000000000000000000000
+"175 D&B Combo 11_F#m.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 11_F#m.wav" 45.000000000000000000000000000000 5480.8750000000000000000000000000
+"175 D&B Combo 12_F#m.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 12_F#m.wav" 45.000000000000000000000000000000 10966.854492187500000000000000000
+"175 D&B Combo 13_Gm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 13_Gm.wav" 45.000000000000000000000000000000 10971.458007812500000000000000000
+"175 D&B Combo 14_Gm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 14_Gm.wav" 45.000000000000000000000000000000 10970.208007812500000000000000000
+"175 D&B Combo 15_Gm.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Drum n Bass Combo/175 D&B Combo 15_Gm.wav" 45.000000000000000000000000000000 10969.958007812500000000000000000
+"134 Techno Kick 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/134 Techno Kick 02.wav" 45.000000000000000000000000000000 3582.1250000000000000000000000000
+"136 Techno Kick 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/136 Techno Kick 01.wav" 45.000000000000000000000000000000 3529.4375000000000000000000000000
+"136 Techno Kick Roll.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/136 Techno Kick Roll.wav" 45.000000000000000000000000000000 1764.7291259765625000000000000000
+"138 Dance Kick.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/138 Dance Kick.wav" 45.000000000000000000000000000000 3478.3332519531250000000000000000
+"138 Techno Kick Roll.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/138 Techno Kick Roll.wav" 45.000000000000000000000000000000 1739.1666259765625000000000000000
+"138 Techno Kick.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/138 Techno Kick.wav" 45.000000000000000000000000000000 3478.2707519531250000000000000000
+"142 Techno Kick 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/142 Techno Kick 01.wav" 45.000000000000000000000000000000 6760.6040039062500000000000000000
+"144 Techno Kick.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/144 Techno Kick.wav" 45.000000000000000000000000000000 6666.7084960937500000000000000000
+"146 Techno Kick 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/146 Techno Kick 01.wav" 45.000000000000000000000000000000 3287.6875000000000000000000000000
+"146 Techno Kick 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/146 Techno Kick 02.wav" 45.000000000000000000000000000000 6575.3750000000000000000000000000
+"148 Techno Kick.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/148 Techno Kick.wav" 45.000000000000000000000000000000 6486.5209960937500000000000000000
+"152 Techno Kick 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/152 Techno Kick 02.wav" 45.000000000000000000000000000000 3157.9167480468750000000000000000
+"164 Techno Kick 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/164 Techno Kick 02.wav" 45.000000000000000000000000000000 2926.8542480468750000000000000000
+"164 Techno Kick 03.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/164 Techno Kick 03.wav" 45.000000000000000000000000000000 1463.4583740234375000000000000000
+"164 Techno Reverse Kick.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/1Kick/164 Techno Reverse Kick.wav" 45.000000000000000000000000000000 2926.8542480468750000000000000000
+"080 Indian Basstabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Bass Tabla/080 Indian Basstabla 01.wav" 45.000000000000000000000000000000 2992.3957519531250000000000000000
+"110 Indian Basstabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Bass Tabla/110 Indian Basstabla 01.wav" 45.000000000000000000000000000000 4363.6875000000000000000000000000
+"080 Indian Basstabla 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/080 Indian Basstabla 02.wav" 45.000000000000000000000000000000 5999.8540039062500000000000000000
+"080 Indian Basstabla 03.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/080 Indian Basstabla 03.wav" 45.000000000000000000000000000000 6000.0415039062500000000000000000
+"080 Indian Tabla 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/080 Indian Tabla 02.wav" 45.000000000000000000000000000000 3000.0417480468750000000000000000
+"080 Indian Tabla 03.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/080 Indian Tabla 03.wav" 45.000000000000000000000000000000 6000.0415039062500000000000000000
+"090 Indian Basstabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/090 Indian Basstabla 01.wav" 45.000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Basstabla 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/090 Indian Basstabla 02.wav" 45.000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Tabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/090 Indian Tabla 01.wav" 45.000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Tabla 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/090 Indian Tabla 02.wav" 45.000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Tabla Fill.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/090 Indian Tabla Fill.wav" 45.000000000000000000000000000000 2666.7082519531250000000000000000
+"100 Indian Basstabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/100 Indian Basstabla 01.wav" 45.000000000000000000000000000000 4781.1040039062500000000000000000
+"100 Indian Tabla (Trp).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/100 Indian Tabla (Trp).wav" 45.000000000000000000000000000000 4800.0415039062500000000000000000
+"100 Indian Tabla 02.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/100 Indian Tabla 02.wav" 45.000000000000000000000000000000 4800.0415039062500000000000000000
+"100 Indian Tabla Fill.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/100 Indian Tabla Fill.wav" 45.000000000000000000000000000000 2400.0417480468750000000000000000
+"110 Indian Basstabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/110 Indian Basstabla 01.wav" 45.000000000000000000000000000000 4363.6875000000000000000000000000
+"110 Indian Tabla (Trp).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/110 Indian Tabla (Trp).wav" 45.000000000000000000000000000000 4363.6875000000000000000000000000
+"110 Indian Tabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/110 Indian Tabla 01.wav" 45.000000000000000000000000000000 4363.6875000000000000000000000000
+"120 Indian Basstabla.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/120 Indian Basstabla.wav" 45.000000000000000000000000000000 4000.0417480468750000000000000000
+"120 Indian Tabla 01.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla/120 Indian Tabla 01.wav" 45.000000000000000000000000000000 4000.0417480468750000000000000000
+"080 Indian Idakka.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/080 Indian Idakka.wav" 45.000000000000000000000000000000 6000.0415039062500000000000000000
+"080 Indian Khanjira Fill.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/080 Indian Khanjira Fill.wav" 45.000000000000000000000000000000 6000.0415039062500000000000000000
+"090 Indian Ghatam 001.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/090 Indian Ghatam 001.wav" 45.000000000000000000000000000000 1416.5208740234375000000000000000
+"120 Indian Idakka.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/120 Indian Idakka.wav" 45.000000000000000000000000000000 4000.0417480468750000000000000000
+"127 South American Cajon.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/127 South American Cajon.wav" 45.000000000000000000000000000000 19795.958984375000000000000000000
+"Tabla- Mukti (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/Tabla- Mukti (Snippet).wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"tabla-voice  (Snippet) 2.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/tabla-voice  (Snippet) 2.wav" 45.000000000000000000000000000000 11784.437500000000000000000000000
+"090 Indian Ghatam 001.aiff" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/090 Indian Ghatam 001.aiff" 45.000000000000000000000000000000 1155.0416259765625000000000000000
+"27-03 Bongos Latin Rhythm.aif" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/27-03 Bongos Latin Rhythm.aif" 45.000000000000000000000000000000 33826.707031250000000000000000000
+"Ghatam 001EQ.aif" "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/Ghatam 001EQ.aif" 45.000000000000000000000000000000 1155.0416259765625000000000000000
+Tabla-shfr-loop.aif "Macintosh HD:/SoundLib/Sounds4cataRT/2Tabla2/Tabla-shfr-loop.aif" 45.000000000000000000000000000000 13153.645507812500000000000000000
+"group2-snip.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3Cough/group2-snip.wav" 45.000000000000000000000000000000 23603.937500000000000000000000000
+"mouth-cough01.aif" "Macintosh HD:/SoundLib/Sounds4cataRT/3Cough/mouth-cough01.aif" 45.000000000000000000000000000000 1329.8333740234375000000000000000
+"tabla-voice  (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3TablaVoice/tabla-voice  (Snippet).wav" 45.000000000000000000000000000000 32134.750000000000000000000000000
+"Andre_Roy (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Andre_Roy (Snippet).wav" 45.000000000000000000000000000000 10760.750000000000000000000000000
+"Benat01.mono (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Benat01.mono (Snippet).wav" 45.000000000000000000000000000000 13430.645507812500000000000000000
+"Benat05.mono (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Benat05.mono (Snippet).wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"BenatText2-text.mono (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/BenatText2-text.mono (Snippet).wav" 45.000000000000000000000000000000 6142.8125000000000000000000000000
+"BH1.1.110206-002 (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/BH1.1.110206-002 (Snippet).wav" 45.000000000000000000000000000000 6350.1459960937500000000000000000
+"David_McGimpsey (Snippet) 2.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/David_McGimpsey (Snippet) 2.wav" 45.000000000000000000000000000000 12698.395507812500000000000000000
+"David_McGimpsey (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/David_McGimpsey (Snippet).wav" 45.000000000000000000000000000000 13815.416992187500000000000000000
+"H5.1.110204-005 (Snippet) 2.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/H5.1.110204-005 (Snippet) 2.wav" 45.000000000000000000000000000000 1177.3125000000000000000000000000
+"H5.1.110204-005 (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/H5.1.110204-005 (Snippet).wav" 45.000000000000000000000000000000 6675.3540039062500000000000000000
+"jason -angles (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/jason -angles (Snippet).wav" 45.000000000000000000000000000000 13546.958007812500000000000000000
+"Kat (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Kat (Snippet).wav" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"R8.1.110205-004 (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/R8.1.110205-004 (Snippet).wav" 45.000000000000000000000000000000 12336.583007812500000000000000000
+"Sep09 minimal voice Picked (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Sep09 minimal voice Picked (Snippet).wav" 45.000000000000000000000000000000 32842.832031250000000000000000000
+"sina - from slip 3.3 (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/sina - from slip 3.3 (Snippet).wav" 45.000000000000000000000000000000 4075.8750000000000000000000000000
+"Sina_Queyras.aif.aifc (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Sina_Queyras.aif.aifc (Snippet).wav" 45.000000000000000000000000000000 7784.5415039062500000000000000000
+"Stephanie_Bolster.aif.aifc (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/3voice-takattida/Stephanie_Bolster.aif.aifc (Snippet).wav" 45.000000000000000000000000000000 19832.103515625000000000000000000
+"group2 (Snippet) 2.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/group2 (Snippet) 2.wav" 45.000000000000000000000000000000 13213.229492187500000000000000000
+"one (Snippet) 2.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/one (Snippet) 2.wav" 45.000000000000000000000000000000 7143.8334960937500000000000000000
+"one (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/one (Snippet).wav" 45.000000000000000000000000000000 24639.041015625000000000000000000
+Breath-one-soo.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/Breath-one-soo.aif" 45.000000000000000000000000000000 19611.353515625000000000000000000
+breathInOut-Soo.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/breathInOut-Soo.aif" 45.000000000000000000000000000000 15395.604492187500000000000000000
+liselyn-BreathOut.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/liselyn-BreathOut.aif" 45.000000000000000000000000000000 14355.812500000000000000000000000
+softBreath.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/softBreath.aif" 45.000000000000000000000000000000 4314.2084960937500000000000000000
+SoftBreathingSoo.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4breath-cava/SoftBreathingSoo.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+breath-tonal-william.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4Breath-William/breath-tonal-william.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+breath-willia-fullOpen.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4Breath-William/breath-willia-fullOpen.aif" 45.000000000000000000000000000000 45000.000000000000000000000000000
+breath-william-smooth.aif "Macintosh HD:/SoundLib/Sounds4cataRT/4Breath-William/breath-william-smooth.aif" 45.000000000000000000000000000000 37496.542968750000000000000000000
+"09 Bamboo Is.L (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/09 Bamboo Is.L (Snippet).wav" 45.000000000000000000000000000000 35285.375000000000000000000000000
+"1-07 Hugh LeCaine_ Dripsody (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/1-07 Hugh LeCaine_ Dripsody (Snippet).wav" 45.000000000000000000000000000000 11141.187500000000000000000000000
+"122 Peruano Cuchara.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/122 Peruano Cuchara.wav" 45.000000000000000000000000000000 11808.020507812500000000000000000
+drip.wav "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/drip.wav" 45.000000000000000000000000000000 342.54165649414062500000000000000
+"slow-fireMetal-crackle (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/slow-fireMetal-crackle (Snippet).wav" 45.000000000000000000000000000000 5061.4165039062500000000000000000
+"Water Drops Single.wav" "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/Water Drops Single.wav" 45.000000000000000000000000000000 4656.8959960937500000000000000000
+reverse-egg-pentatone.aif "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/reverse-egg-pentatone.aif" 45.000000000000000000000000000000 7851.2084960937500000000000000000
+snibits.aif "Macintosh HD:/SoundLib/Sounds4cataRT/5pizzi-droplets/snibits.aif" 45.000000000000000000000000000000 2844.8957519531250000000000000000
+"Frogs at Night (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/Frogs at Night (Snippet).wav" 45.000000000000000000000000000000 1785.7291259765625000000000000000
+"theAttackisOn (Snippet).wav" "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/theAttackisOn (Snippet).wav" 45.000000000000000000000000000000 6681.8959960937500000000000000000
+"Chimpanzee Calls.aif" "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/Chimpanzee Calls.aif" 45.000000000000000000000000000000 2852.8750000000000000000000000000
+Forest.aif "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/Forest.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+Jungle.aif "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/Jungle.aif" 45.000000000000000000000000000000 48979.625000000000000000000000000
+"Loon Calls.aif" "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/Loon Calls.aif" 45.000000000000000000000000000000 20640.333984375000000000000000000
+Seagulls.aif "Macintosh HD:/SoundLib/Sounds4cataRT/Animals/Seagulls.aif" 45.000000000000000000000000000000 15730.437500000000000000000000000

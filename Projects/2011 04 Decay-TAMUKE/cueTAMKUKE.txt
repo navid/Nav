@@ -1,0 +1,245 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /subOut 99 1 /crossOver 99 1 /sf3 99 1 /sf2 99 1 /sf1 99 1 /Play 99 1 /low 99 1 /sustain 99 1 /output 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /subOut 
+ 	 	 	 	 /subOut/audio/active 0 
+ 	 	 	 	 /subOut/audio/gain 97.311699 
+ 	 	 	 	 /subOut/balance 0.000000 
+ 	 	 	 	 /subOut/ch.1 5 
+ 	 	 	 	 /subOut/ch.2 6 
+ 	 	 	 	 /subOut/limiter/active 1 
+ 	 	 	 	 /subOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /subOut/limiter/lookahead 64 
+ 	 	 	 	 /subOut/limiter/mode exponential 
+ 	 	 	 	 /subOut/limiter/postamp 0.000000 
+ 	 	 	 	 /subOut/limiter/preamp 6.000000 
+ 	 	 	 	 /subOut/limiter/release 300.000000 
+ 	 	 	 	 /subOut/limiter/threshold -6.000000 
+ 	 	 	 	 /subOut/record/filetype aiff 
+ 	 	 	 	 /subOut/record/samptype int24 
+ 	 	 	 	 /subOut/saturation/active 0 
+ 	 	 	 	 /subOut/saturation/depth 10.000000 
+ 	 	 	 	 /subOut/view/color/border 0 
+ 	 	 	 	 /subOut/view/color/contentBackground 0 
+ 	 	 	 	 /subOut/view/color/toolbarBackground 0 
+ 	 	 	 	 /subOut/view/color/toolbarText 0 
+ 	 	 	 	 /subOut/view/freeze 0 
+ 	 	 	 	 /subOut/view/size 300 140 
+ # 
+ # Module /crossOver 
+ 	 	 	 	 /crossOver/audio/bypass 0 
+ 	 	 	 	 /crossOver/audio/gain 77.000000 
+ 	 	 	 	 /crossOver/audio/mix 100.000000 
+ 	 	 	 	 /crossOver/audio/mute 0 
+ 	 	 	 	 /crossOver/filtergain -0.860000 
+ 	 	 	 	 /crossOver/filtertype lowpass 
+ 	 	 	 	 /crossOver/frequency 156.000000 
+ 	 	 	 	 /crossOver/q 1.010000 
+ 	 	 	 	 /crossOver/view/color/border 0 
+ 	 	 	 	 /crossOver/view/color/contentBackground 0 
+ 	 	 	 	 /crossOver/view/color/toolbarBackground 0 
+ 	 	 	 	 /crossOver/view/color/toolbarText 0 
+ 	 	 	 	 /crossOver/view/freeze 0 
+ 	 	 	 	 /crossOver/view/size 300 70 
+ # 
+ # Module /sf3 
+ 	 	 	 	 /sf3/audio/gain 0.000000 
+ 	 	 	 	 /sf3/audio/mute 0 
+ 	 	 	 	 /sf3/countdown 0 
+ 	 	 	 	 /sf3/loop 0 
+ 	 	 	 	 /sf3/view/color/border 0 
+ 	 	 	 	 /sf3/view/color/contentBackground 0 
+ 	 	 	 	 /sf3/view/color/toolbarBackground 0 
+ 	 	 	 	 /sf3/view/color/toolbarText 0 
+ 	 	 	 	 /sf3/view/freeze 0 
+ 	 	 	 	 /sf3/view/size 300 70 
+ # 
+ # Module /sf2 
+ 	 	 	 	 /sf2/audio/gain 0.000000 
+ 	 	 	 	 /sf2/audio/mute 0 
+ 	 	 	 	 /sf2/countdown 0 
+ 	 	 	 	 /sf2/loop 0 
+ 	 	 	 	 /sf2/view/color/border 0 
+ 	 	 	 	 /sf2/view/color/contentBackground 0 
+ 	 	 	 	 /sf2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sf2/view/color/toolbarText 0 
+ 	 	 	 	 /sf2/view/freeze 0 
+ 	 	 	 	 /sf2/view/size 300 70 
+ # 
+ # Module /sf1 
+ 	 	 	 	 /sf1/audio/gain 0.000000 
+ 	 	 	 	 /sf1/audio/mute 0 
+ 	 	 	 	 /sf1/countdown 0 
+ 	 	 	 	 /sf1/loop 0 
+ 	 	 	 	 /sf1/view/color/border 0 
+ 	 	 	 	 /sf1/view/color/contentBackground 0 
+ 	 	 	 	 /sf1/view/color/toolbarBackground 0 
+ 	 	 	 	 /sf1/view/color/toolbarText 0 
+ 	 	 	 	 /sf1/view/freeze 0 
+ 	 	 	 	 /sf1/view/size 300 70 
+ # 
+ # Module /Play 
+ 	 	 	 	 /Play/numChannels 4 
+ 	 	 	 	 /Play/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /Play/depth 0 
+ 	 	 	 	 /Play/audio/freeze 0 
+ 	 	 	 	 /Play/audio/mix 58.000000 
+ 	 	 	 	 /Play/audio/mute 0 
+ 	 	 	 	 /Play/buff/choice 0 
+ 	 	 	 	 /Play/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /Play/buff/rand 0 
+ 	 	 	 	 /Play/buff/scrub 0.000000 
+ 	 	 	 	 /Play/buff/speed 1.000000 
+ 	 	 	 	 /Play/direction 2 
+ 	 	 	 	 /Play/maxDelay 10000 
+ 	 	 	 	 /Play/mod/delay 7000.000000 
+ 	 	 	 	 /Play/mod/gain 0.000000 
+ 	 	 	 	 /Play/mod/pitch 0.000000 
+ 	 	 	 	 /Play/mod/pitchVar 30.000000 
+ 	 	 	 	 /Play/mod/rate 0.000000 
+ 	 	 	 	 /Play/mod/rateVar 0.000000 
+ 	 	 	 	 /Play/mod/size 0.000000 
+ 	 	 	 	 /Play/mod/sizeVar 0.000000 
+ 	 	 	 	 /Play/pan 1 
+ 	 	 	 	 /Play/param/delay 1250.293457 
+ 	 	 	 	 /Play/param/gainVar 0.000000 
+ 	 	 	 	 /Play/param/gain 0.000000 
+ 	 	 	 	 /Play/param/pitch 0.100000 
+ 	 	 	 	 /Play/param/pitchVar 0.000000 
+ 	 	 	 	 /Play/param/rate 0.000000 
+ 	 	 	 	 /Play/param/rateVar 12.000000 
+ 	 	 	 	 /Play/param/size 306.000000 
+ 	 	 	 	 /Play/param/sizeVar 100.000000 
+ 	 	 	 	 /Play/param/spread 1.000000 
+ 	 	 	 	 /Play/ramp 6 
+ 	 	 	 	 /Play/sieves 0 
+ 	 	 	 	 /Play/tune 0 
+ 	 	 	 	 /Play/view/color/border 0 
+ 	 	 	 	 /Play/view/color/contentBackground 0 
+ 	 	 	 	 /Play/view/color/toolbarBackground 0 
+ 	 	 	 	 /Play/view/color/toolbarText 0 
+ 	 	 	 	 /Play/view/freeze 0 
+ 	 	 	 	 /Play/view/size 300 105 
+ 	 	 	 	 /Play/voices 18 
+ # 
+ # Module /low 
+ 	 	 	 	 /low/numChannels 4 
+ 	 	 	 	 /low/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /low/depth 0 
+ 	 	 	 	 /low/audio/freeze 0 
+ 	 	 	 	 /low/audio/mix 60.000000 
+ 	 	 	 	 /low/audio/mute 0 
+ 	 	 	 	 /low/buff/choice 0 
+ 	 	 	 	 /low/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /low/buff/rand 0 
+ 	 	 	 	 /low/buff/scrub 0.000000 
+ 	 	 	 	 /low/buff/speed 1.000000 
+ 	 	 	 	 /low/direction 0 
+ 	 	 	 	 /low/maxDelay 10000 
+ 	 	 	 	 /low/mod/delay 7000.000000 
+ 	 	 	 	 /low/mod/gain 0.000000 
+ 	 	 	 	 /low/mod/pitch 0.000000 
+ 	 	 	 	 /low/mod/pitchVar 2.000000 
+ 	 	 	 	 /low/mod/rate 0.000000 
+ 	 	 	 	 /low/mod/rateVar 0.000000 
+ 	 	 	 	 /low/mod/size 0.000000 
+ 	 	 	 	 /low/mod/sizeVar 0.000000 
+ 	 	 	 	 /low/pan 0 
+ 	 	 	 	 /low/param/delay 1543.453613 
+ 	 	 	 	 /low/param/gainVar 0.000000 
+ 	 	 	 	 /low/param/gain 0.000000 
+ 	 	 	 	 /low/param/pitch 0.400000 
+ 	 	 	 	 /low/param/pitchVar 0.000000 
+ 	 	 	 	 /low/param/rate 0.000000 
+ 	 	 	 	 /low/param/rateVar 9.000000 
+ 	 	 	 	 /low/param/size 945.000000 
+ 	 	 	 	 /low/param/sizeVar 156.000000 
+ 	 	 	 	 /low/param/spread 1.000000 
+ 	 	 	 	 /low/ramp 18 
+ 	 	 	 	 /low/sieves 0 
+ 	 	 	 	 /low/tune 0 
+ 	 	 	 	 /low/view/color/border 0 
+ 	 	 	 	 /low/view/color/contentBackground 0 
+ 	 	 	 	 /low/view/color/toolbarBackground 0 
+ 	 	 	 	 /low/view/color/toolbarText 0 
+ 	 	 	 	 /low/view/freeze 0 
+ 	 	 	 	 /low/view/size 300 105 
+ 	 	 	 	 /low/voices 31 
+ # 
+ # Module /sustain 
+ 	 	 	 	 /sustain/numChannels 4 
+ 	 	 	 	 /sustain/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /sustain/depth 0 
+ 	 	 	 	 /sustain/audio/freeze 0 
+ 	 	 	 	 /sustain/audio/mix 60.000000 
+ 	 	 	 	 /sustain/audio/mute 0 
+ 	 	 	 	 /sustain/buff/choice 0 
+ 	 	 	 	 /sustain/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /sustain/buff/rand 0 
+ 	 	 	 	 /sustain/buff/scrub 0.000000 
+ 	 	 	 	 /sustain/buff/speed 1.000000 
+ 	 	 	 	 /sustain/direction 0 
+ 	 	 	 	 /sustain/maxDelay 10000 
+ 	 	 	 	 /sustain/mod/delay 7000.000000 
+ 	 	 	 	 /sustain/mod/gain 0.000000 
+ 	 	 	 	 /sustain/mod/pitch 0.000000 
+ 	 	 	 	 /sustain/mod/pitchVar 0.720000 
+ 	 	 	 	 /sustain/mod/rate 0.000000 
+ 	 	 	 	 /sustain/mod/rateVar 0.000000 
+ 	 	 	 	 /sustain/mod/size 0.000000 
+ 	 	 	 	 /sustain/mod/sizeVar -1.000000 
+ 	 	 	 	 /sustain/pan 0 
+ 	 	 	 	 /sustain/param/delay 1633.656738 
+ 	 	 	 	 /sustain/param/gainVar 0.000000 
+ 	 	 	 	 /sustain/param/gain 0.000000 
+ 	 	 	 	 /sustain/param/pitch 0.940000 
+ 	 	 	 	 /sustain/param/pitchVar 0.000200 
+ 	 	 	 	 /sustain/param/rate 0.000000 
+ 	 	 	 	 /sustain/param/rateVar 6.000000 
+ 	 	 	 	 /sustain/param/size 883.000000 
+ 	 	 	 	 /sustain/param/sizeVar 100.000000 
+ 	 	 	 	 /sustain/param/spread 1.000000 
+ 	 	 	 	 /sustain/ramp 12 
+ 	 	 	 	 /sustain/sieves 0 
+ 	 	 	 	 /sustain/tune 0 
+ 	 	 	 	 /sustain/view/color/border 0 
+ 	 	 	 	 /sustain/view/color/contentBackground 0 
+ 	 	 	 	 /sustain/view/color/toolbarBackground 0 
+ 	 	 	 	 /sustain/view/color/toolbarText 0 
+ 	 	 	 	 /sustain/view/freeze 0 
+ 	 	 	 	 /sustain/view/size 300 105 
+ 	 	 	 	 /sustain/voices 29 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 0 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 4 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype aiff 
+ 	 	 	 	 /output/record/samptype int24 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 

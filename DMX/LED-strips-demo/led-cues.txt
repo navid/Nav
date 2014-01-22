@@ -1,0 +1,245 @@
+
+ 
+ KEYCUE "Jungle" 
+ 
+ 
+ 	 	 	 	 /CONFIG /x 99 1 /y 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /x 
+ 	 	 	 	 /x/interpolate 1400 
+ 	 	 	 	 /x/max 0.370000 
+ 	 	 	 	 /x/min 0.220000 
+ 	 	 	 	 /x/on 1 
+ 	 	 	 	 /x/rate/max 4000 
+ 	 	 	 	 /x/rate/min 1000 
+ 	 	 	 	 /x/view/color/border 0 
+ 	 	 	 	 /x/view/color/contentBackground 0 
+ 	 	 	 	 /x/view/color/toolbarBackground 0 
+ 	 	 	 	 /x/view/color/toolbarText 0 
+ 	 	 	 	 /x/view/freeze 0 
+ 	 	 	 	 /x/view/size 150 70 
+ # 
+ # Module /y 
+ 	 	 	 	 /y/interpolate 853 
+ 	 	 	 	 /y/max 0.620000 
+ 	 	 	 	 /y/min -0.050000 
+ 	 	 	 	 /y/on 1 
+ 	 	 	 	 /y/rate/max 2000 
+ 	 	 	 	 /y/rate/min 748 
+ 	 	 	 	 /y/view/color/border 0 
+ 	 	 	 	 /y/view/color/contentBackground 0 
+ 	 	 	 	 /y/view/color/toolbarBackground 0 
+ 	 	 	 	 /y/view/color/toolbarText 0 
+ 	 	 	 	 /y/view/freeze 0 
+ 	 	 	 	 /y/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "AllOver" 
+ 
+ 
+ 	 	 	 	 /CONFIG /cataRT-OutPut 99 1 /Reverb1 99 1 /wacom 99 1 /y 99 1 /x 99 1 /y.1 99 1 /x.1 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /cataRT-OutPut 
+ 	 	 	 	 /cataRT-OutPut/audio/active 1 
+ 	 	 	 	 /cataRT-OutPut/audio/gain 98.136391 
+ 	 	 	 	 /cataRT-OutPut/balance 0.000000 
+ 	 	 	 	 /cataRT-OutPut/ch.1 1 
+ 	 	 	 	 /cataRT-OutPut/ch.2 2 
+ 	 	 	 	 /cataRT-OutPut/limiter/active 1 
+ 	 	 	 	 /cataRT-OutPut/limiter/dcblocker/active 1 
+ 	 	 	 	 /cataRT-OutPut/limiter/lookahead 64 
+ 	 	 	 	 /cataRT-OutPut/limiter/mode exponential 
+ 	 	 	 	 /cataRT-OutPut/limiter/postamp 0.000000 
+ 	 	 	 	 /cataRT-OutPut/limiter/preamp 6.000000 
+ 	 	 	 	 /cataRT-OutPut/limiter/release 300.000000 
+ 	 	 	 	 /cataRT-OutPut/limiter/threshold -6.000000 
+ 	 	 	 	 /cataRT-OutPut/record/filetype aiff 
+ 	 	 	 	 /cataRT-OutPut/record/samptype int24 
+ 	 	 	 	 /cataRT-OutPut/saturation/active 1 
+ 	 	 	 	 /cataRT-OutPut/saturation/depth 10.000000 
+ 	 	 	 	 /cataRT-OutPut/view/color/border 0 
+ 	 	 	 	 /cataRT-OutPut/view/color/contentBackground 0 
+ 	 	 	 	 /cataRT-OutPut/view/color/toolbarBackground 0 
+ 	 	 	 	 /cataRT-OutPut/view/color/toolbarText 0 
+ 	 	 	 	 /cataRT-OutPut/view/freeze 0 
+ 	 	 	 	 /cataRT-OutPut/view/size 300 140 
+ # 
+ # Module /Reverb1 
+ 	 	 	 	 /Reverb1/bypass 0 
+ 	 	 	 	 /Reverb1/damp 127 
+ 	 	 	 	 /Reverb1/decay 30 
+ 	 	 	 	 /Reverb1/dry 90 
+ 	 	 	 	 /Reverb1/gain 82.000000 
+ 	 	 	 	 /Reverb1/mix 100.000000 
+ 	 	 	 	 /Reverb1/mute 0 
+ 	 	 	 	 /Reverb1/view/color/border 0 
+ 	 	 	 	 /Reverb1/view/color/contentBackground 0 
+ 	 	 	 	 /Reverb1/view/color/toolbarBackground 0 
+ 	 	 	 	 /Reverb1/view/color/toolbarText 0 
+ 	 	 	 	 /Reverb1/view/freeze 0 
+ 	 	 	 	 /Reverb1/view/size 300 70 
+ 	 	 	 	 /Reverb1/wet 88 
+ 	 	 	 	 /Reverb1/width 127 
+ # 
+ # Module /wacom 
+ 	 	 	 	 /wacom/bgrd 0 
+ 	 	 	 	 /wacom/flusheventqueue 1 
+ 	 	 	 	 /wacom/menu 0 
+ 	 	 	 	 /wacom/nopointer 1 
+ 	 	 	 	 /wacom/on 1 
+ 	 	 	 	 /wacom/view/color/border 0 
+ 	 	 	 	 /wacom/view/color/contentBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarText 0 
+ 	 	 	 	 /wacom/view/freeze 0 
+ 	 	 	 	 /wacom/view/size 300 70 
+ 	 	 	 	 /wacom/xyrange 1 
+ # 
+ # Module /y 
+ 	 	 	 	 /y/interpolate 3000 
+ 	 	 	 	 /y/max 0.590000 
+ 	 	 	 	 /y/min 0.250000 
+ 	 	 	 	 /y/on 1 
+ 	 	 	 	 /y/rate/max 2000 
+ 	 	 	 	 /y/rate/min 654 
+ 	 	 	 	 /y/view/color/border 0 
+ 	 	 	 	 /y/view/color/contentBackground 0 
+ 	 	 	 	 /y/view/color/toolbarBackground 0 
+ 	 	 	 	 /y/view/color/toolbarText 0 
+ 	 	 	 	 /y/view/freeze 0 
+ 	 	 	 	 /y/view/size 150 70 
+ # 
+ # Module /x 
+ 	 	 	 	 /x/interpolate 2000 
+ 	 	 	 	 /x/max 1.000000 
+ 	 	 	 	 /x/min 0.000000 
+ 	 	 	 	 /x/on 1 
+ 	 	 	 	 /x/rate/max 4000 
+ 	 	 	 	 /x/rate/min 1000 
+ 	 	 	 	 /x/view/color/border 0 
+ 	 	 	 	 /x/view/color/contentBackground 0 
+ 	 	 	 	 /x/view/color/toolbarBackground 0 
+ 	 	 	 	 /x/view/color/toolbarText 0 
+ 	 	 	 	 /x/view/freeze 0 
+ 	 	 	 	 /x/view/size 150 70 
+ # 
+ # Module /y.1 
+ 	 	 	 	 /y.1/interpolate 4000 
+ 	 	 	 	 /y.1/max 0.550000 
+ 	 	 	 	 /y.1/min 0.250000 
+ 	 	 	 	 /y.1/on 1 
+ 	 	 	 	 /y.1/rate/max 2131 
+ 	 	 	 	 /y.1/rate/min 500 
+ 	 	 	 	 /y.1/view/color/border 0 
+ 	 	 	 	 /y.1/view/color/contentBackground 0 
+ 	 	 	 	 /y.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /y.1/view/color/toolbarText 0 
+ 	 	 	 	 /y.1/view/freeze 0 
+ 	 	 	 	 /y.1/view/size 150 70 
+ # 
+ # Module /x.1 
+ 	 	 	 	 /x.1/interpolate 2000 
+ 	 	 	 	 /x.1/max 1.000000 
+ 	 	 	 	 /x.1/min 0.000000 
+ 	 	 	 	 /x.1/on 1 
+ 	 	 	 	 /x.1/rate/max 5000 
+ 	 	 	 	 /x.1/rate/min 1200 
+ 	 	 	 	 /x.1/view/color/border 0 
+ 	 	 	 	 /x.1/view/color/contentBackground 0 
+ 	 	 	 	 /x.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /x.1/view/color/toolbarText 0 
+ 	 	 	 	 /x.1/view/freeze 0 
+ 	 	 	 	 /x.1/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Insane" 
+ 
+ 
+ 	 	 	 	 /CONFIG /x 99 1 /y 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /x 
+ 	 	 	 	 /x/interpolate 0 
+ 	 	 	 	 /x/max 1.000000 
+ 	 	 	 	 /x/min 0.000000 
+ 	 	 	 	 /x/on 1 
+ 	 	 	 	 /x/rate/max 500 
+ 	 	 	 	 /x/rate/min 7 
+ 	 	 	 	 /x/view/color/border 0 
+ 	 	 	 	 /x/view/color/contentBackground 0 
+ 	 	 	 	 /x/view/color/toolbarBackground 0 
+ 	 	 	 	 /x/view/color/toolbarText 0 
+ 	 	 	 	 /x/view/freeze 0 
+ 	 	 	 	 /x/view/size 150 70 
+ # 
+ # Module /y 
+ 	 	 	 	 /y/interpolate 0 
+ 	 	 	 	 /y/max 0.700000 
+ 	 	 	 	 /y/min -0.100000 
+ 	 	 	 	 /y/on 1 
+ 	 	 	 	 /y/rate/max 500 
+ 	 	 	 	 /y/rate/min 10 
+ 	 	 	 	 /y/view/color/border 0 
+ 	 	 	 	 /y/view/color/contentBackground 0 
+ 	 	 	 	 /y/view/color/toolbarBackground 0 
+ 	 	 	 	 /y/view/color/toolbarText 0 
+ 	 	 	 	 /y/view/freeze 0 
+ 	 	 	 	 /y/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Insane2" 
+ 
+ 
+ 	 	 	 	 /CONFIG /x 99 1 /y 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /x 
+ 	 	 	 	 /x/interpolate 4 
+ 	 	 	 	 /x/max 1.000000 
+ 	 	 	 	 /x/min 0.000000 
+ 	 	 	 	 /x/on 1 
+ 	 	 	 	 /x/rate/max 43 
+ 	 	 	 	 /x/rate/min 7 
+ 	 	 	 	 /x/view/color/border 0 
+ 	 	 	 	 /x/view/color/contentBackground 0 
+ 	 	 	 	 /x/view/color/toolbarBackground 0 
+ 	 	 	 	 /x/view/color/toolbarText 0 
+ 	 	 	 	 /x/view/freeze 0 
+ 	 	 	 	 /x/view/size 150 70 
+ # 
+ # Module /y 
+ 	 	 	 	 /y/interpolate 4 
+ 	 	 	 	 /y/max 1.100000 
+ 	 	 	 	 /y/min -0.200000 
+ 	 	 	 	 /y/on 1 
+ 	 	 	 	 /y/rate/max 104 
+ 	 	 	 	 /y/rate/min 8 
+ 	 	 	 	 /y/view/color/border 0 
+ 	 	 	 	 /y/view/color/contentBackground 0 
+ 	 	 	 	 /y/view/color/toolbarBackground 0 
+ 	 	 	 	 /y/view/color/toolbarText 0 
+ 	 	 	 	 /y/view/freeze 0 
+ 	 	 	 	 /y/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 

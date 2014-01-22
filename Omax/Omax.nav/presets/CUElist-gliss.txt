@@ -1,0 +1,552 @@
+
+ 
+ KEYCUE "gliss1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /vst 99 0 /speedMidi 99 1 /speedSP1 99 1 /speedSP2 99 1 /speedSP3 99 1 /speedSPsvp1 99 1 /speedSPsvp2 99 1 /speedRogs 99 1 /speedSogs 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /speedMidi 
+ 	 	 	 	 /speedMidi/interpolate 1200 
+ 	 	 	 	 /speedMidi/max 1.200000 
+ 	 	 	 	 /speedMidi/min 0.600000 
+ 	 	 	 	 /speedMidi/on 1 
+ 	 	 	 	 /speedMidi/rate/max 5000 
+ 	 	 	 	 /speedMidi/rate/min 1000 
+ 	 	 	 	 /speedMidi/view/color/border 0 
+ 	 	 	 	 /speedMidi/view/color/contentBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarText 0 
+ 	 	 	 	 /speedMidi/view/freeze 0 
+ 	 	 	 	 /speedMidi/view/size 150 70 
+ # 
+ # Module /speedSP1 
+ 	 	 	 	 /speedSP1/interpolate 2000 
+ 	 	 	 	 /speedSP1/max 1.100000 
+ 	 	 	 	 /speedSP1/min 0.800000 
+ 	 	 	 	 /speedSP1/on 1 
+ 	 	 	 	 /speedSP1/rate/max 10000 
+ 	 	 	 	 /speedSP1/rate/min 2000 
+ 	 	 	 	 /speedSP1/view/color/border 0 
+ 	 	 	 	 /speedSP1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP1/view/freeze 0 
+ 	 	 	 	 /speedSP1/view/size 150 70 
+ # 
+ # Module /speedSP2 
+ 	 	 	 	 /speedSP2/interpolate 1200 
+ 	 	 	 	 /speedSP2/max 1.000000 
+ 	 	 	 	 /speedSP2/min 0.500000 
+ 	 	 	 	 /speedSP2/on 1 
+ 	 	 	 	 /speedSP2/rate/max 10000 
+ 	 	 	 	 /speedSP2/rate/min 2000 
+ 	 	 	 	 /speedSP2/view/color/border 0 
+ 	 	 	 	 /speedSP2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP2/view/freeze 0 
+ 	 	 	 	 /speedSP2/view/size 150 70 
+ # 
+ # Module /speedSP3 
+ 	 	 	 	 /speedSP3/interpolate 1200 
+ 	 	 	 	 /speedSP3/max 1.000000 
+ 	 	 	 	 /speedSP3/min 0.800000 
+ 	 	 	 	 /speedSP3/on 1 
+ 	 	 	 	 /speedSP3/rate/max 5000 
+ 	 	 	 	 /speedSP3/rate/min 1200 
+ 	 	 	 	 /speedSP3/view/color/border 0 
+ 	 	 	 	 /speedSP3/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP3/view/freeze 0 
+ 	 	 	 	 /speedSP3/view/size 150 70 
+ # 
+ # Module /speedSPsvp1 
+ 	 	 	 	 /speedSPsvp1/interpolate 1200 
+ 	 	 	 	 /speedSPsvp1/max 3.000000 
+ 	 	 	 	 /speedSPsvp1/min 0.300000 
+ 	 	 	 	 /speedSPsvp1/on 1 
+ 	 	 	 	 /speedSPsvp1/rate/max 6000 
+ 	 	 	 	 /speedSPsvp1/rate/min 1200 
+ 	 	 	 	 /speedSPsvp1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 1200 
+ 	 	 	 	 /speedSPsvp2/max 2.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.250000 
+ 	 	 	 	 /speedSPsvp2/on 1 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 1800 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 2000 
+ 	 	 	 	 /speedRogs/max 1.000000 
+ 	 	 	 	 /speedRogs/min 0.080000 
+ 	 	 	 	 /speedRogs/on 1 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 2000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 1200 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 1 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 2000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /evelope 99 1 /mungCloud 99 1 /transRogs 99 1 /transSogs 99 1 /speedSPsvp2 99 1 /speedSPsvp1 99 1 /speedSogs 99 1 /speedRogs 99 1 /speedSPsvp2.1 99 1 /speedSPsvp1.1 99 1 /speedSP3 99 1 /speedSP2 99 1 /speedSP1 99 1 /speedMidi 99 1 /vst 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /evelope 
+ 	 	 	 	 /evelope/clip 1 
+ 	 	 	 	 /evelope/env/cutoff 800 
+ 	 	 	 	 /evelope/env/on 1 
+ 	 	 	 	 /evelope/env/period 10 
+ 	 	 	 	 /evelope/gain 100.000000 
+ 	 	 	 	 /evelope/pre-slide/down 2 
+ 	 	 	 	 /evelope/pre-slide/up 2 
+ 	 	 	 	 /evelope/scale/input/max 0.000000 
+ 	 	 	 	 /evelope/scale/input/min 0.000000 
+ 	 	 	 	 /evelope/scale/max 1.000000 
+ 	 	 	 	 /evelope/scale/min 0.000000 
+ 	 	 	 	 /evelope/scale/mode 1 
+ 	 	 	 	 /evelope/scale/window 1000 
+ 	 	 	 	 /evelope/slide/down 24 
+ 	 	 	 	 /evelope/slide/up 1 
+ 	 	 	 	 /evelope/view/color/border 0 
+ 	 	 	 	 /evelope/view/color/contentBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarText 0 
+ 	 	 	 	 /evelope/view/freeze 0 
+ 	 	 	 	 /evelope/view/size 300 70 
+ 	 	 	 	 /evelope/visualize 1 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/csdf 0.000000 
+ 	 	 	 	 /mungCloud/maxDelay 6000 
+ 	 	 	 	 /mungCloud/numChannels 6 
+ 	 	 	 	 /mungCloud/pan 0 
+ 	 	 	 	 /mungCloud/param/delay 506.913147 
+ 	 	 	 	 /mungCloud/param/sizeVar 101.000000 
+ 	 	 	 	 /mungCloud/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/param/pitch 0.660000 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/size 500.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 65.000000 
+ 	 	 	 	 /mungCloud/audio/mute 1 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay -100.000000 
+ 	 	 	 	 /mungCloud/mod/gain -0.100000 
+ 	 	 	 	 /mungCloud/mod/pitch 0.440000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 0.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 10.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gainVar 0.050000 
+ 	 	 	 	 /mungCloud/param/gain 0.642857 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 1.000000 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 13 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/color/border 0 
+ 	 	 	 	 /mungCloud/view/color/contentBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarText 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/size 300 105 
+ 	 	 	 	 /mungCloud/voices 25 
+ # 
+ # Module /transRogs 
+ 	 	 	 	 /transRogs/interpolate 800 
+ 	 	 	 	 /transRogs/max 1.000000 
+ 	 	 	 	 /transRogs/min 0.300000 
+ 	 	 	 	 /transRogs/on 1 
+ 	 	 	 	 /transRogs/rate/max 6000 
+ 	 	 	 	 /transRogs/rate/min 850 
+ 	 	 	 	 /transRogs/view/color/border 0 
+ 	 	 	 	 /transRogs/view/color/contentBackground 0 
+ 	 	 	 	 /transRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /transRogs/view/color/toolbarText 0 
+ 	 	 	 	 /transRogs/view/freeze 0 
+ 	 	 	 	 /transRogs/view/size 150 70 
+ # 
+ # Module /transSogs 
+ 	 	 	 	 /transSogs/interpolate 800 
+ 	 	 	 	 /transSogs/max 1.000000 
+ 	 	 	 	 /transSogs/min 0.300000 
+ 	 	 	 	 /transSogs/on 1 
+ 	 	 	 	 /transSogs/rate/max 3000 
+ 	 	 	 	 /transSogs/rate/min 797 
+ 	 	 	 	 /transSogs/view/color/border 0 
+ 	 	 	 	 /transSogs/view/color/contentBackground 0 
+ 	 	 	 	 /transSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /transSogs/view/color/toolbarText 0 
+ 	 	 	 	 /transSogs/view/freeze 0 
+ 	 	 	 	 /transSogs/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 1000 
+ 	 	 	 	 /speedSPsvp2/max 1.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.800000 
+ 	 	 	 	 /speedSPsvp2/on 1 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 4000 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedSPsvp1 
+ 	 	 	 	 /speedSPsvp1/interpolate 800 
+ 	 	 	 	 /speedSPsvp1/max 1.400000 
+ 	 	 	 	 /speedSPsvp1/min 0.600000 
+ 	 	 	 	 /speedSPsvp1/on 1 
+ 	 	 	 	 /speedSPsvp1/rate/max 6000 
+ 	 	 	 	 /speedSPsvp1/rate/min 4000 
+ 	 	 	 	 /speedSPsvp1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 0 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 1 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 4000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 0 
+ 	 	 	 	 /speedRogs/max 1.100000 
+ 	 	 	 	 /speedRogs/min 0.200000 
+ 	 	 	 	 /speedRogs/on 1 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 4000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSPsvp2.1 
+ 	 	 	 	 /speedSPsvp2.1/interpolate 0 
+ 	 	 	 	 /speedSPsvp2.1/max 1.400000 
+ 	 	 	 	 /speedSPsvp2.1/min 0.500000 
+ 	 	 	 	 /speedSPsvp2.1/on 1 
+ 	 	 	 	 /speedSPsvp2.1/rate/max 2000 
+ 	 	 	 	 /speedSPsvp2.1/rate/min 500 
+ 	 	 	 	 /speedSPsvp2.1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2.1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2.1/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.1 
+ 	 	 	 	 /speedSPsvp1.1/interpolate 0 
+ 	 	 	 	 /speedSPsvp1.1/max 1.400000 
+ 	 	 	 	 /speedSPsvp1.1/min 0.600000 
+ 	 	 	 	 /speedSPsvp1.1/on 1 
+ 	 	 	 	 /speedSPsvp1.1/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.1/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.1/view/size 150 70 
+ # 
+ # Module /speedSP3 
+ 	 	 	 	 /speedSP3/interpolate 0 
+ 	 	 	 	 /speedSP3/max 1.000000 
+ 	 	 	 	 /speedSP3/min 0.800000 
+ 	 	 	 	 /speedSP3/on 1 
+ 	 	 	 	 /speedSP3/rate/max 5000 
+ 	 	 	 	 /speedSP3/rate/min 4000 
+ 	 	 	 	 /speedSP3/view/color/border 0 
+ 	 	 	 	 /speedSP3/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP3/view/freeze 0 
+ 	 	 	 	 /speedSP3/view/size 150 70 
+ # 
+ # Module /speedSP2 
+ 	 	 	 	 /speedSP2/interpolate 0 
+ 	 	 	 	 /speedSP2/max 1.000000 
+ 	 	 	 	 /speedSP2/min 0.500000 
+ 	 	 	 	 /speedSP2/on 1 
+ 	 	 	 	 /speedSP2/rate/max 10000 
+ 	 	 	 	 /speedSP2/rate/min 4000 
+ 	 	 	 	 /speedSP2/view/color/border 0 
+ 	 	 	 	 /speedSP2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP2/view/freeze 0 
+ 	 	 	 	 /speedSP2/view/size 150 70 
+ # 
+ # Module /speedSP1 
+ 	 	 	 	 /speedSP1/interpolate 0 
+ 	 	 	 	 /speedSP1/max 1.100000 
+ 	 	 	 	 /speedSP1/min 0.800000 
+ 	 	 	 	 /speedSP1/on 1 
+ 	 	 	 	 /speedSP1/rate/max 10000 
+ 	 	 	 	 /speedSP1/rate/min 4000 
+ 	 	 	 	 /speedSP1/view/color/border 0 
+ 	 	 	 	 /speedSP1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP1/view/freeze 0 
+ 	 	 	 	 /speedSP1/view/size 150 70 
+ # 
+ # Module /speedMidi 
+ 	 	 	 	 /speedMidi/interpolate 0 
+ 	 	 	 	 /speedMidi/max 1.200000 
+ 	 	 	 	 /speedMidi/min 0.600000 
+ 	 	 	 	 /speedMidi/on 1 
+ 	 	 	 	 /speedMidi/rate/max 8000 
+ 	 	 	 	 /speedMidi/rate/min 4000 
+ 	 	 	 	 /speedMidi/view/color/border 0 
+ 	 	 	 	 /speedMidi/view/color/contentBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarText 0 
+ 	 	 	 	 /speedMidi/view/freeze 0 
+ 	 	 	 	 /speedMidi/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/Absynth 4 Stereo.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/Gain 1.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 68.000000 
+ 	 	 	 	 /vst/audio/mix 100.000000 
+ 	 	 	 	 /vst/audio/mute 1 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 300 210 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "mung-DownBoom" ramp 2000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /mungCloud/mod/delay 463.000000 
+ 	 	 	 	 /mungCloud/mod/pitch -0.700000 ramp global 
+ 	 	 	 	 /mungCloud/mod/pitchVar 0.050000 ramp global 
+ 	 	 	 	 /mungCloud/mod/rateVar 0.000000 ramp global 
+ 	 	 	 	 /mungCloud/mod/size 443.000000 ramp global 
+ 	 	 	 	 /mungCloud/param/delay 713.114868 
+ 	 	 	 	 /mungCloud/param/pitch 1.000010 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "subtle-direct-Clouds" ramp 2000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /mungCloud/csdf 0.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 100.000000 ramp global 
+ 	 	 	 	 /mungCloud/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/mod/delay 1332.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.350000 ramp global 
+ 	 	 	 	 /mungCloud/mod/pitch -0.120000 ramp global 
+ 	 	 	 	 /mungCloud/mod/size 455.000000 ramp global 
+ 	 	 	 	 /mungCloud/param/delay 659.029358 
+ 	 	 	 	 /mungCloud/param/gain 0.300000 ramp global 
+ 	 	 	 	 /mungCloud/param/rateVar 0.000000 ramp global 
+ 	 	 	 	 /mungCloud/voices 29 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "gliss-slow" 
+ 
+ 
+ 	 	 	 	 /CONFIG /vst 99 0 /speedMidi 99 1 /speedSP1 99 1 /speedSP2 99 1 /speedSP3 99 1 /speedSPsvp1 99 1 /speedSPsvp2 99 1 /speedRogs 99 1 /speedSogs 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /speedMidi 
+ 	 	 	 	 /speedMidi/interpolate 5000 
+ 	 	 	 	 /speedMidi/max 1.200000 
+ 	 	 	 	 /speedMidi/min 0.600000 
+ 	 	 	 	 /speedMidi/on 1 
+ 	 	 	 	 /speedMidi/rate/max 8000 
+ 	 	 	 	 /speedMidi/rate/min 4000 
+ 	 	 	 	 /speedMidi/view/color/border 0 
+ 	 	 	 	 /speedMidi/view/color/contentBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarText 0 
+ 	 	 	 	 /speedMidi/view/freeze 0 
+ 	 	 	 	 /speedMidi/view/size 150 70 
+ # 
+ # Module /speedSP1 
+ 	 	 	 	 /speedSP1/interpolate 5000 
+ 	 	 	 	 /speedSP1/max 1.100000 
+ 	 	 	 	 /speedSP1/min 0.800000 
+ 	 	 	 	 /speedSP1/on 1 
+ 	 	 	 	 /speedSP1/rate/max 10000 
+ 	 	 	 	 /speedSP1/rate/min 4000 
+ 	 	 	 	 /speedSP1/view/color/border 0 
+ 	 	 	 	 /speedSP1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP1/view/freeze 0 
+ 	 	 	 	 /speedSP1/view/size 150 70 
+ # 
+ # Module /speedSP2 
+ 	 	 	 	 /speedSP2/interpolate 5000 
+ 	 	 	 	 /speedSP2/max 1.000000 
+ 	 	 	 	 /speedSP2/min 0.500000 
+ 	 	 	 	 /speedSP2/on 1 
+ 	 	 	 	 /speedSP2/rate/max 10000 
+ 	 	 	 	 /speedSP2/rate/min 4000 
+ 	 	 	 	 /speedSP2/view/color/border 0 
+ 	 	 	 	 /speedSP2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP2/view/freeze 0 
+ 	 	 	 	 /speedSP2/view/size 150 70 
+ # 
+ # Module /speedSP3 
+ 	 	 	 	 /speedSP3/interpolate 5000 
+ 	 	 	 	 /speedSP3/max 1.000000 
+ 	 	 	 	 /speedSP3/min 0.800000 
+ 	 	 	 	 /speedSP3/on 1 
+ 	 	 	 	 /speedSP3/rate/max 5000 
+ 	 	 	 	 /speedSP3/rate/min 4000 
+ 	 	 	 	 /speedSP3/view/color/border 0 
+ 	 	 	 	 /speedSP3/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP3/view/freeze 0 
+ 	 	 	 	 /speedSP3/view/size 150 70 
+ # 
+ # Module /speedSPsvp1 
+ 	 	 	 	 /speedSPsvp1/interpolate 5000 
+ 	 	 	 	 /speedSPsvp1/max 3.000000 
+ 	 	 	 	 /speedSPsvp1/min 0.300000 
+ 	 	 	 	 /speedSPsvp1/on 1 
+ 	 	 	 	 /speedSPsvp1/rate/max 6000 
+ 	 	 	 	 /speedSPsvp1/rate/min 4000 
+ 	 	 	 	 /speedSPsvp1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 5000 
+ 	 	 	 	 /speedSPsvp2/max 2.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.250000 
+ 	 	 	 	 /speedSPsvp2/on 1 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 4000 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 5000 
+ 	 	 	 	 /speedRogs/max 1.000000 
+ 	 	 	 	 /speedRogs/min 0.080000 
+ 	 	 	 	 /speedRogs/on 1 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 4000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 5000 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 1 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 4000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 

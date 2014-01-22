@@ -1,0 +1,4536 @@
+
+ 
+ KEYCUE "init-1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /mdly.Velocity 99 0 /damp 99 0 /pBend 99 0 /mdlys.env~ 99 0 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 1 /postLPCPitch 99 1 /LPC-wet-out 99 1 /spectralShiftHelp~ 99 0 0.300000 99 1 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 1 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 /monitor.rvrb 99 1 /in 99 1 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 1 /outAu-dry 99 1 /randDecay1 99 1 /randDecay2 99 1 /evelope 99 1 /mungCloud 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 44.000000 
+ 	 	 	 	 /shpidel~/audio/mute 1 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 584 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/color/border 0 
+ 	 	 	 	 /shpidel~/view/color/contentBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarText 0 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/size 300 70 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 3.467675 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/q 0.616875 
+ 	 	 	 	 /LPCfilter~/view/color/border 0 
+ 	 	 	 	 /LPCfilter~/view/color/contentBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarText 0 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/size 300 70 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 70 
+ 	 	 	 	 /LPC1/pGlide 10 
+ 	 	 	 	 /LPC1/pShift 28.028046 
+ 	 	 	 	 /LPC1/thresh 0.300036 
+ 	 	 	 	 /LPC1/view/color/border 0 
+ 	 	 	 	 /LPC1/view/color/contentBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarText 0 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/size 150 70 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 0 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/size 150 70 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 4000 
+ 	 	 	 	 /lpc1-postPitch-rand/max -18.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -12.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 0 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/size 150 70 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 27 
+ 	 	 	 	 /lpcVerb/dry 115 
+ 	 	 	 	 /lpcVerb/gain 89.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 1 
+ 	 	 	 	 /lpcVerb/view/color/border 0 
+ 	 	 	 	 /lpcVerb/view/color/contentBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarText 0 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/size 300 70 
+ 	 	 	 	 /lpcVerb/wet 42 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2000 
+ 	 	 	 	 /lpc1/max 12.000000 
+ 	 	 	 	 /lpc1/min -75.000000 
+ 	 	 	 	 /lpc1/on 0 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/view/color/border 0 
+ 	 	 	 	 /lpc1/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/size 150 70 
+ # 
+ # Module /lpc-dryOUT 
+ 	 	 	 	 /lpc-dryOUT/audio/active 0 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 0.000000 
+ 	 	 	 	 /lpc-dryOUT/balance 0.000000 
+ 	 	 	 	 /lpc-dryOUT/ch.1 4 
+ 	 	 	 	 /lpc-dryOUT/ch.2 8 
+ 	 	 	 	 /lpc-dryOUT/limiter/active 0 
+ 	 	 	 	 /lpc-dryOUT/limiter/dcblocker/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/lookahead 64 
+ 	 	 	 	 /lpc-dryOUT/limiter/mode exponential 
+ 	 	 	 	 /lpc-dryOUT/limiter/postamp 0.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/preamp 6.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/release 300.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/threshold -6.000000 
+ 	 	 	 	 /lpc-dryOUT/record/filetype aiff 
+ 	 	 	 	 /lpc-dryOUT/record/samptype int24 
+ 	 	 	 	 /lpc-dryOUT/saturation/active 0 
+ 	 	 	 	 /lpc-dryOUT/saturation/depth 10.000000 
+ 	 	 	 	 /lpc-dryOUT/view/color/border 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/contentBackground 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/toolbarText 0 
+ 	 	 	 	 /lpc-dryOUT/view/freeze 0 
+ 	 	 	 	 /lpc-dryOUT/view/size 300 140 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 1 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32 
+ 	 	 	 	 /postLPCPitch/frequency/scale -8.238373 
+ 	 	 	 	 /postLPCPitch/frequency/shift 200.097656 
+ 	 	 	 	 /postLPCPitch/gain 90.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 69.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/color/border 0 
+ 	 	 	 	 /postLPCPitch/view/color/contentBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarText 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/size 300 70 
+ # 
+ # Module /LPC-wet-out 
+ 	 	 	 	 /LPC-wet-out/audio/active 0 
+ 	 	 	 	 /LPC-wet-out/audio/gain 0.000000 
+ 	 	 	 	 /LPC-wet-out/balance 0.000000 
+ 	 	 	 	 /LPC-wet-out/ch.1 1 
+ 	 	 	 	 /LPC-wet-out/ch.2 3 
+ 	 	 	 	 /LPC-wet-out/limiter/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/lookahead 64 
+ 	 	 	 	 /LPC-wet-out/limiter/mode exponential 
+ 	 	 	 	 /LPC-wet-out/limiter/postamp 0.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/preamp 6.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/release 300.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/threshold -6.000000 
+ 	 	 	 	 /LPC-wet-out/record/filetype aiff 
+ 	 	 	 	 /LPC-wet-out/record/samptype int24 
+ 	 	 	 	 /LPC-wet-out/saturation/active 1 
+ 	 	 	 	 /LPC-wet-out/saturation/depth 10.000000 
+ 	 	 	 	 /LPC-wet-out/view/color/border 0 
+ 	 	 	 	 /LPC-wet-out/view/color/contentBackground 0 
+ 	 	 	 	 /LPC-wet-out/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC-wet-out/view/color/toolbarText 0 
+ 	 	 	 	 /LPC-wet-out/view/freeze 0 
+ 	 	 	 	 /LPC-wet-out/view/size 300 140 
+ # 
+ # Module 0.300000 
+ # 
+ # Module /birdsOut 
+ 	 	 	 	 /birdsOut/audio/active 0 
+ 	 	 	 	 /birdsOut/audio/gain 0.000000 
+ 	 	 	 	 /birdsOut/audio/mute 1 
+ 	 	 	 	 /birdsOut/limiter/active 0 
+ 	 	 	 	 /birdsOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /birdsOut/limiter/lookahead 64 
+ 	 	 	 	 /birdsOut/limiter/mode exponential 
+ 	 	 	 	 /birdsOut/limiter/postamp 0.000000 
+ 	 	 	 	 /birdsOut/limiter/preamp 6.000000 
+ 	 	 	 	 /birdsOut/limiter/release 300.000000 
+ 	 	 	 	 /birdsOut/limiter/threshold 6.000000 
+ 	 	 	 	 /birdsOut/numSpeakers 8 
+ 	 	 	 	 /birdsOut/offset 0 
+ 	 	 	 	 /birdsOut/record/filetype default 
+ 	 	 	 	 /birdsOut/record/samptype default 
+ 	 	 	 	 /birdsOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /birdsOut/view/color/border 0 
+ 	 	 	 	 /birdsOut/view/color/contentBackground 0 
+ 	 	 	 	 /birdsOut/view/color/toolbarBackground 0 
+ 	 	 	 	 /birdsOut/view/color/toolbarText 0 
+ 	 	 	 	 /birdsOut/view/freeze 0 
+ 	 	 	 	 /birdsOut/view/size 300 70 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 8 
+ 	 	 	 	 /wetBirds/audio/gain 100.000000 
+ 	 	 	 	 /wetBirds/audio/mute 1 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 732.000000 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2548.000000 
+ 	 	 	 	 /wetBirds/input/q 0.606826 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 1.600000 
+ 	 	 	 	 /wetBirds/view/color/border 0 
+ 	 	 	 	 /wetBirds/view/color/contentBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarText 0 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/size 300 70 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 0.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 1 
+ 	 	 	 	 /filter~/filtergain 0.000000 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 1548.000000 
+ 	 	 	 	 /filter~/q 1.000000 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 2.000000 3.000000 5.000000 7.000000 11.000000 13.000000 17.000000 19.000000 
+ 	 	 	 	 /harmonicShifter~/gain 0.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 0 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp 0.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 250.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold 0.000000 
+ 	 	 	 	 /harmonicShifter~/mix 100.000000 
+ 	 	 	 	 /harmonicShifter~/mute 1 
+ 	 	 	 	 /harmonicShifter~/shifts 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/color/border 0 
+ 	 	 	 	 /harmonicShifter~/view/color/contentBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarText 0 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/size 300 70 
+ # 
+ # Module /monitor.rvrb 
+ 	 	 	 	 /monitor.rvrb/bypass 0 
+ 	 	 	 	 /monitor.rvrb/damp 127 
+ 	 	 	 	 /monitor.rvrb/decay 31 
+ 	 	 	 	 /monitor.rvrb/dry 127 
+ 	 	 	 	 /monitor.rvrb/gain 100.000000 
+ 	 	 	 	 /monitor.rvrb/mix 100.000000 
+ 	 	 	 	 /monitor.rvrb/mute 1 
+ 	 	 	 	 /monitor.rvrb/view/color/border 0 
+ 	 	 	 	 /monitor.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /monitor.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /monitor.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /monitor.rvrb/view/freeze 0 
+ 	 	 	 	 /monitor.rvrb/view/size 300 70 
+ 	 	 	 	 /monitor.rvrb/wet 39 
+ 	 	 	 	 /monitor.rvrb/width 127 
+ # 
+ # Module /in 
+ 	 	 	 	 /in/audio/bypass 0 
+ 	 	 	 	 /in/audio/gain 100.000000 
+ 	 	 	 	 /in/audio/mix 100.000000 
+ 	 	 	 	 /in/audio/mute 0 
+ 	 	 	 	 /in/filtergain 0.000000 
+ 	 	 	 	 /in/filtertype highpass 
+ 	 	 	 	 /in/frequency 80.000000 
+ 	 	 	 	 /in/q 0.800000 
+ 	 	 	 	 /in/view/color/border 0 
+ 	 	 	 	 /in/view/color/contentBackground 0 
+ 	 	 	 	 /in/view/color/toolbarBackground 0 
+ 	 	 	 	 /in/view/color/toolbarText 0 
+ 	 	 	 	 /in/view/freeze 0 
+ 	 	 	 	 /in/view/size 300 70 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 98 
+ 	 	 	 	 /au.rvrb/dry 37 
+ 	 	 	 	 /au.rvrb/gain 100.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 0 
+ 	 	 	 	 /au.rvrb/view/color/border 0 
+ 	 	 	 	 /au.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/size 300 70 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 0 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/color/border 0 
+ 	 	 	 	 /au-fShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/size 150 70 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 2.000000 
+ 	 	 	 	 /au-pShift/min -2.000000 
+ 	 	 	 	 /au-pShift/on 0 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/color/border 0 
+ 	 	 	 	 /au-pShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/size 150 70 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 1 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 0.835785 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift -23.343201 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 75.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/size 300 70 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/size 300 70 
+ # 
+ # Module /outAu1 
+ 	 	 	 	 /outAu1/audio/active 0 
+ 	 	 	 	 /outAu1/audio/gain 0.000000 
+ 	 	 	 	 /outAu1/balance 0.000000 
+ 	 	 	 	 /outAu1/ch.1 1 
+ 	 	 	 	 /outAu1/ch.2 3 
+ 	 	 	 	 /outAu1/limiter/active 1 
+ 	 	 	 	 /outAu1/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu1/limiter/lookahead 64 
+ 	 	 	 	 /outAu1/limiter/mode exponential 
+ 	 	 	 	 /outAu1/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu1/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu1/limiter/release 300.000000 
+ 	 	 	 	 /outAu1/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu1/record/filetype aiff 
+ 	 	 	 	 /outAu1/record/samptype int24 
+ 	 	 	 	 /outAu1/saturation/active 1 
+ 	 	 	 	 /outAu1/saturation/depth 10.000000 
+ 	 	 	 	 /outAu1/view/color/border 0 
+ 	 	 	 	 /outAu1/view/color/contentBackground 0 
+ 	 	 	 	 /outAu1/view/color/toolbarBackground 0 
+ 	 	 	 	 /outAu1/view/color/toolbarText 0 
+ 	 	 	 	 /outAu1/view/freeze 0 
+ 	 	 	 	 /outAu1/view/size 300 140 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/audio/active 1 
+ 	 	 	 	 /outAu-dry/audio/gain 0.000000 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 2 
+ 	 	 	 	 /outAu-dry/ch.2 7 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/color/border 0 
+ 	 	 	 	 /outAu-dry/view/color/contentBackground 0 
+ 	 	 	 	 /outAu-dry/view/color/toolbarBackground 0 
+ 	 	 	 	 /outAu-dry/view/color/toolbarText 0 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/size 300 140 
+ # 
+ # Module /randDecay1 
+ 	 	 	 	 /randDecay1/interpolate 0 
+ 	 	 	 	 /randDecay1/max 4.000000 
+ 	 	 	 	 /randDecay1/min 0.000000 
+ 	 	 	 	 /randDecay1/on 0 
+ 	 	 	 	 /randDecay1/rate/max 8356 
+ 	 	 	 	 /randDecay1/rate/min 500 
+ 	 	 	 	 /randDecay1/view/color/border 0 
+ 	 	 	 	 /randDecay1/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay1/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay1/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay1/view/freeze 0 
+ 	 	 	 	 /randDecay1/view/size 150 70 
+ # 
+ # Module /randDecay2 
+ 	 	 	 	 /randDecay2/interpolate 0 
+ 	 	 	 	 /randDecay2/max 60.000000 
+ 	 	 	 	 /randDecay2/min 0.000000 
+ 	 	 	 	 /randDecay2/on 0 
+ 	 	 	 	 /randDecay2/rate/max 10896 
+ 	 	 	 	 /randDecay2/rate/min 500 
+ 	 	 	 	 /randDecay2/view/color/border 0 
+ 	 	 	 	 /randDecay2/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay2/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay2/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay2/view/freeze 0 
+ 	 	 	 	 /randDecay2/view/size 150 70 
+ # 
+ # Module /evelope 
+ 	 	 	 	 /evelope/clip 1 
+ 	 	 	 	 /evelope/env/cutoff 850 
+ 	 	 	 	 /evelope/env/on 0 
+ 	 	 	 	 /evelope/env/period 20 
+ 	 	 	 	 /evelope/gain 100.000000 
+ 	 	 	 	 /evelope/pre-slide/down 2 
+ 	 	 	 	 /evelope/pre-slide/up 2 
+ 	 	 	 	 /evelope/scale/input/max 0.000000 
+ 	 	 	 	 /evelope/scale/input/min 0.000000 
+ 	 	 	 	 /evelope/scale/max 1.000000 
+ 	 	 	 	 /evelope/scale/min 0.000000 
+ 	 	 	 	 /evelope/scale/mode 1 
+ 	 	 	 	 /evelope/scale/window 1000 
+ 	 	 	 	 /evelope/slide/down 10 
+ 	 	 	 	 /evelope/slide/up 1 
+ 	 	 	 	 /evelope/view/color/border 0 
+ 	 	 	 	 /evelope/view/color/contentBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarText 0 
+ 	 	 	 	 /evelope/view/freeze 0 
+ 	 	 	 	 /evelope/view/size 300 70 
+ 	 	 	 	 /evelope/visualize 1 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 60.000000 
+ 	 	 	 	 /mungCloud/audio/mute 0 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay 4000.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 2.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 400.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 1 
+ 	 	 	 	 /mungCloud/param/delay 3796.005127 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 1.000000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000000 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 3.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 120 
+ 	 	 	 	 /mungCloud/param/size 550 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 12 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/color/border 0 
+ 	 	 	 	 /mungCloud/view/color/contentBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarText 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/size 300 105 
+ 	 	 	 	 /mungCloud/voices 40 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init-2" 
+ 
+ 
+ 	 	 	 	 /CONFIG /mdly.Velocity 99 0 /damp 99 0 /pBend 99 0 /mdlys.env~ 99 0 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /spectralShiftHelp~ 99 0 0.300000 99 1 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 0 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 /monitor.rvrb 99 1 /in 99 1 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 1 /randDecay1 99 1 /randDecay2 99 1 /evelope 99 1 /mungCloud 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 44.000000 
+ 	 	 	 	 /shpidel~/audio/mute 1 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 584 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/color/border 0 
+ 	 	 	 	 /shpidel~/view/color/contentBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarText 0 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/size 300 70 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 3.467675 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/q 0.616875 
+ 	 	 	 	 /LPCfilter~/view/color/border 0 
+ 	 	 	 	 /LPCfilter~/view/color/contentBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarText 0 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/size 300 70 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 70 
+ 	 	 	 	 /LPC1/pGlide 10 
+ 	 	 	 	 /LPC1/pShift 0.000000 
+ 	 	 	 	 /LPC1/thresh 0.300036 
+ 	 	 	 	 /LPC1/view/color/border 0 
+ 	 	 	 	 /LPC1/view/color/contentBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarText 0 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/size 150 70 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 0 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/size 150 70 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 4000 
+ 	 	 	 	 /lpc1-postPitch-rand/max -18.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -12.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 0 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/size 150 70 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 27 
+ 	 	 	 	 /lpcVerb/dry 115 
+ 	 	 	 	 /lpcVerb/gain 89.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 1 
+ 	 	 	 	 /lpcVerb/view/color/border 0 
+ 	 	 	 	 /lpcVerb/view/color/contentBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarText 0 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/size 300 70 
+ 	 	 	 	 /lpcVerb/wet 42 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2000 
+ 	 	 	 	 /lpc1/max 12.000000 
+ 	 	 	 	 /lpc1/min -75.000000 
+ 	 	 	 	 /lpc1/on 0 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/view/color/border 0 
+ 	 	 	 	 /lpc1/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/size 150 70 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 1 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32 
+ 	 	 	 	 /postLPCPitch/frequency/scale -12.000000 
+ 	 	 	 	 /postLPCPitch/frequency/shift 0.000000 
+ 	 	 	 	 /postLPCPitch/gain 90.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 69.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/color/border 0 
+ 	 	 	 	 /postLPCPitch/view/color/contentBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarText 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/size 300 70 
+ # 
+ # Module 0.300000 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 8 
+ 	 	 	 	 /wetBirds/audio/gain 100.000000 
+ 	 	 	 	 /wetBirds/audio/mute 1 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 732.000000 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2548.000000 
+ 	 	 	 	 /wetBirds/input/q 0.606826 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 1.600000 
+ 	 	 	 	 /wetBirds/view/color/border 0 
+ 	 	 	 	 /wetBirds/view/color/contentBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarText 0 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/size 300 70 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 0.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 1 
+ 	 	 	 	 /filter~/filtergain 0.000000 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 1548.000000 
+ 	 	 	 	 /filter~/q 1.000000 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 2.000000 3.000000 5.000000 7.000000 11.000000 13.000000 17.000000 19.000000 
+ 	 	 	 	 /harmonicShifter~/gain 0.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 0 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp 0.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 250.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold 0.000000 
+ 	 	 	 	 /harmonicShifter~/mix 100.000000 
+ 	 	 	 	 /harmonicShifter~/mute 1 
+ 	 	 	 	 /harmonicShifter~/shifts 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/color/border 0 
+ 	 	 	 	 /harmonicShifter~/view/color/contentBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarText 0 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/size 300 70 
+ # 
+ # Module /monitor.rvrb 
+ 	 	 	 	 /monitor.rvrb/bypass 0 
+ 	 	 	 	 /monitor.rvrb/damp 127 
+ 	 	 	 	 /monitor.rvrb/decay 31 
+ 	 	 	 	 /monitor.rvrb/dry 127 
+ 	 	 	 	 /monitor.rvrb/gain 100.000000 
+ 	 	 	 	 /monitor.rvrb/mix 100.000000 
+ 	 	 	 	 /monitor.rvrb/mute 1 
+ 	 	 	 	 /monitor.rvrb/view/color/border 0 
+ 	 	 	 	 /monitor.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /monitor.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /monitor.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /monitor.rvrb/view/freeze 0 
+ 	 	 	 	 /monitor.rvrb/view/size 300 70 
+ 	 	 	 	 /monitor.rvrb/wet 39 
+ 	 	 	 	 /monitor.rvrb/width 127 
+ # 
+ # Module /in 
+ 	 	 	 	 /in/audio/bypass 0 
+ 	 	 	 	 /in/audio/gain 100.000000 
+ 	 	 	 	 /in/audio/mix 100.000000 
+ 	 	 	 	 /in/audio/mute 0 
+ 	 	 	 	 /in/filtergain 0.000000 
+ 	 	 	 	 /in/filtertype highpass 
+ 	 	 	 	 /in/frequency 80.000000 
+ 	 	 	 	 /in/q 0.800000 
+ 	 	 	 	 /in/view/color/border 0 
+ 	 	 	 	 /in/view/color/contentBackground 0 
+ 	 	 	 	 /in/view/color/toolbarBackground 0 
+ 	 	 	 	 /in/view/color/toolbarText 0 
+ 	 	 	 	 /in/view/freeze 0 
+ 	 	 	 	 /in/view/size 300 70 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 98 
+ 	 	 	 	 /au.rvrb/dry 37 
+ 	 	 	 	 /au.rvrb/gain 100.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 0 
+ 	 	 	 	 /au.rvrb/view/color/border 0 
+ 	 	 	 	 /au.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/size 300 70 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 0 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/color/border 0 
+ 	 	 	 	 /au-fShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/size 150 70 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 2.000000 
+ 	 	 	 	 /au-pShift/min -2.000000 
+ 	 	 	 	 /au-pShift/on 0 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/color/border 0 
+ 	 	 	 	 /au-pShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/size 150 70 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 1 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 0.218628 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 16.577148 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 75.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/size 300 70 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/size 300 70 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/audio/active 1 
+ 	 	 	 	 /outAu-dry/audio/gain 0.000000 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 2 
+ 	 	 	 	 /outAu-dry/ch.2 7 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/color/border 0 
+ 	 	 	 	 /outAu-dry/view/color/contentBackground 0 
+ 	 	 	 	 /outAu-dry/view/color/toolbarBackground 0 
+ 	 	 	 	 /outAu-dry/view/color/toolbarText 0 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/size 300 140 
+ # 
+ # Module /randDecay1 
+ 	 	 	 	 /randDecay1/interpolate 0 
+ 	 	 	 	 /randDecay1/max 4.000000 
+ 	 	 	 	 /randDecay1/min 0.000000 
+ 	 	 	 	 /randDecay1/on 0 
+ 	 	 	 	 /randDecay1/rate/max 8356 
+ 	 	 	 	 /randDecay1/rate/min 500 
+ 	 	 	 	 /randDecay1/view/color/border 0 
+ 	 	 	 	 /randDecay1/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay1/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay1/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay1/view/freeze 0 
+ 	 	 	 	 /randDecay1/view/size 150 70 
+ # 
+ # Module /randDecay2 
+ 	 	 	 	 /randDecay2/interpolate 0 
+ 	 	 	 	 /randDecay2/max 60.000000 
+ 	 	 	 	 /randDecay2/min 0.000000 
+ 	 	 	 	 /randDecay2/on 0 
+ 	 	 	 	 /randDecay2/rate/max 10896 
+ 	 	 	 	 /randDecay2/rate/min 500 
+ 	 	 	 	 /randDecay2/view/color/border 0 
+ 	 	 	 	 /randDecay2/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay2/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay2/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay2/view/freeze 0 
+ 	 	 	 	 /randDecay2/view/size 150 70 
+ # 
+ # Module /evelope 
+ 	 	 	 	 /evelope/clip 1 
+ 	 	 	 	 /evelope/env/cutoff 850 
+ 	 	 	 	 /evelope/env/on 0 
+ 	 	 	 	 /evelope/env/period 20 
+ 	 	 	 	 /evelope/gain 100.000000 
+ 	 	 	 	 /evelope/pre-slide/down 2 
+ 	 	 	 	 /evelope/pre-slide/up 2 
+ 	 	 	 	 /evelope/scale/input/max 0.000000 
+ 	 	 	 	 /evelope/scale/input/min 0.000000 
+ 	 	 	 	 /evelope/scale/max 1.000000 
+ 	 	 	 	 /evelope/scale/min 0.000000 
+ 	 	 	 	 /evelope/scale/mode 1 
+ 	 	 	 	 /evelope/scale/window 1000 
+ 	 	 	 	 /evelope/slide/down 10 
+ 	 	 	 	 /evelope/slide/up 1 
+ 	 	 	 	 /evelope/view/color/border 0 
+ 	 	 	 	 /evelope/view/color/contentBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarText 0 
+ 	 	 	 	 /evelope/view/freeze 0 
+ 	 	 	 	 /evelope/view/size 300 70 
+ 	 	 	 	 /evelope/visualize 1 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 60.000000 
+ 	 	 	 	 /mungCloud/audio/mute 0 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay 4000.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 2.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 400.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 1 
+ 	 	 	 	 /mungCloud/param/delay 3796.005127 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 1.000000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000000 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 3.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 120 
+ 	 	 	 	 /mungCloud/param/size 550 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 12 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/color/border 0 
+ 	 	 	 	 /mungCloud/view/color/contentBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarText 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/size 300 105 
+ 	 	 	 	 /mungCloud/voices 40 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init-5.1-andAll" 
+ 
+ 
+ 	 	 	 	 /CONFIG /in 99 1 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 1 /mungCloud 99 1 /eggOut 99 1 /damp 99 0 /pBend 99 0 /nav.env~ 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /myModule 99 1 /linear-small 99 1 /linear-Big 99 1 /spectralShiftHelp~ 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 0 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /in 
+ 	 	 	 	 /in/audio/bypass 0 
+ 	 	 	 	 /in/audio/gain 100.000000 
+ 	 	 	 	 /in/audio/mix 100.000000 
+ 	 	 	 	 /in/audio/mute 0 
+ 	 	 	 	 /in/filtergain 0.000000 
+ 	 	 	 	 /in/filtertype highpass 
+ 	 	 	 	 /in/frequency 80.000000 
+ 	 	 	 	 /in/q 0.800000 
+ 	 	 	 	 /in/view/freeze 0 
+ 	 	 	 	 /in/view/highlight none 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 98 
+ 	 	 	 	 /au.rvrb/dry 37 
+ 	 	 	 	 /au.rvrb/gain 100.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 1 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/highlight none 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 0 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/highlight none 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 2.000000 
+ 	 	 	 	 /au-pShift/min -2.000000 
+ 	 	 	 	 /au-pShift/on 0 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/highlight none 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 1 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 0.218628 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 16.577148 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 75.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/highlight none 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/highlight none 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/audio/active 0 
+ 	 	 	 	 /outAu-dry/audio/gain 0.000000 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 3 
+ 	 	 	 	 /outAu-dry/ch.2 5 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/highlight none 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 76.000000 
+ 	 	 	 	 /mungCloud/audio/mute 1 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay 4000.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 2.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 400.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 0 
+ 	 	 	 	 /mungCloud/param/delay 3836.569092 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 1.000000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000000 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 3.030000 
+ 	 	 	 	 /mungCloud/param/sizeVar 120 
+ 	 	 	 	 /mungCloud/param/size 561 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 12 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/highlight none 
+ 	 	 	 	 /mungCloud/voices 30 
+ # 
+ # Module /eggOut 
+ 	 	 	 	 /eggOut/audio/active 0 
+ 	 	 	 	 /eggOut/audio/gain 0.000000 
+ 	 	 	 	 /eggOut/audio/mute 0 
+ 	 	 	 	 /eggOut/limiter/active 0 
+ 	 	 	 	 /eggOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /eggOut/limiter/lookahead 64 
+ 	 	 	 	 /eggOut/limiter/mode exponential 
+ 	 	 	 	 /eggOut/limiter/postamp 0.000000 
+ 	 	 	 	 /eggOut/limiter/preamp 6.000000 
+ 	 	 	 	 /eggOut/limiter/release 300.000000 
+ 	 	 	 	 /eggOut/limiter/threshold -1.000000 
+ 	 	 	 	 /eggOut/numSpeakers 4 
+ 	 	 	 	 /eggOut/offset 0 
+ 	 	 	 	 /eggOut/record/filetype default 
+ 	 	 	 	 /eggOut/record/samptype default 
+ 	 	 	 	 /eggOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /eggOut/view/freeze 0 
+ 	 	 	 	 /eggOut/view/highlight none 
+ # 
+ # Module /nav.env~ 
+ 	 	 	 	 /nav.env~/clip 1 
+ 	 	 	 	 /nav.env~/env/cutoff 850 
+ 	 	 	 	 /nav.env~/env/on 0 
+ 	 	 	 	 /nav.env~/env/period 20 
+ 	 	 	 	 /nav.env~/gain 100.000000 
+ 	 	 	 	 /nav.env~/pre-slide/down 2 
+ 	 	 	 	 /nav.env~/pre-slide/up 2 
+ 	 	 	 	 /nav.env~/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/max 1.000000 
+ 	 	 	 	 /nav.env~/scale/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/mode 3 
+ 	 	 	 	 /nav.env~/scale/window 1000 
+ 	 	 	 	 /nav.env~/slide/down 10 
+ 	 	 	 	 /nav.env~/slide/up 1 
+ 	 	 	 	 /nav.env~/view/freeze 0 
+ 	 	 	 	 /nav.env~/view/highlight none 
+ 	 	 	 	 /nav.env~/visualize 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 23.000000 
+ 	 	 	 	 /shpidel~/audio/mute 1 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 584 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 100.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 8.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 1548.000000 
+ 	 	 	 	 /LPCfilter~/q 1.000000 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight none 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 78 
+ 	 	 	 	 /LPC1/pGlide 11 
+ 	 	 	 	 /LPC1/pShift -40.026276 
+ 	 	 	 	 /LPC1/thresh 0.087815 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight none 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 0 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight none 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 4000 
+ 	 	 	 	 /lpc1-postPitch-rand/max 3.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -19.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 0 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight none 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 29 
+ 	 	 	 	 /lpcVerb/dry 112 
+ 	 	 	 	 /lpcVerb/gain 99.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 1 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight none 
+ 	 	 	 	 /lpcVerb/wet 68 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2000 
+ 	 	 	 	 /lpc1/max 24.000000 
+ 	 	 	 	 /lpc1/min -73.000000 
+ 	 	 	 	 /lpc1/on 0 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight none 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32 
+ 	 	 	 	 /postLPCPitch/frequency/scale -0.835419 
+ 	 	 	 	 /postLPCPitch/frequency/shift 0.000000 
+ 	 	 	 	 /postLPCPitch/gain 100.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 69.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight none 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/clip 1 
+ 	 	 	 	 /myModule/env/cutoff 850 
+ 	 	 	 	 /myModule/env/on 0 
+ 	 	 	 	 /myModule/env/period 20 
+ 	 	 	 	 /myModule/gain 100.000000 
+ 	 	 	 	 /myModule/pre-slide/down 2 
+ 	 	 	 	 /myModule/pre-slide/up 2 
+ 	 	 	 	 /myModule/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/scale/max 1.000000 
+ 	 	 	 	 /myModule/scale/min 0.000000 
+ 	 	 	 	 /myModule/scale/mode 3 
+ 	 	 	 	 /myModule/scale/window 1516 
+ 	 	 	 	 /myModule/slide/down 10 
+ 	 	 	 	 /myModule/slide/up 1 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/highlight none 
+ 	 	 	 	 /myModule/visualize 1 
+ # 
+ # Module /linear-small 
+ 	 	 	 	 /linear-small/audio/gain 58.000000 
+ 	 	 	 	 /linear-small/audio/mute 0 
+ 	 	 	 	 /linear-small/buffer/file dialog_box 
+ 	 	 	 	 /linear-small/grain/duration 146.000000 
+ 	 	 	 	 /linear-small/grain/overlap 45 
+ 	 	 	 	 /linear-small/grain/trigger 0.000000 
+ 	 	 	 	 /linear-small/mod/gain 20.000000 
+ 	 	 	 	 /linear-small/mod/onsetVar -149.000000 
+ 	 	 	 	 /linear-small/mod/pitch -532.000000 
+ 	 	 	 	 /linear-small/mod/pitchVar 10.000000 
+ 	 	 	 	 /linear-small/mod/position 0.000000 
+ 	 	 	 	 /linear-small/mod/size 370.000000 
+ 	 	 	 	 /linear-small/mod/speed 1.300000 
+ 	 	 	 	 /linear-small/mod/trigger 40.000000 
+ 	 	 	 	 /linear-small/mod/turn 5.000000 
+ 	 	 	 	 /linear-small/pitch/transpose 0.000000 
+ 	 	 	 	 /linear-small/pitch/variation 0.000000 
+ 	 	 	 	 /linear-small/position 0.730300 
+ 	 	 	 	 /linear-small/position/onset_variation 300.000000 
+ 	 	 	 	 /linear-small/position/speed 0.100000 
+ 	 	 	 	 /linear-small/turn 0.000000 
+ 	 	 	 	 /linear-small/view/freeze 0 
+ 	 	 	 	 /linear-small/view/highlight none 
+ # 
+ # Module /linear-Big 
+ 	 	 	 	 /linear-Big/audio/gain 0.000000 
+ 	 	 	 	 /linear-Big/audio/mute 0 
+ 	 	 	 	 /linear-Big/buffer/file dialog_box 
+ 	 	 	 	 /linear-Big/grain/duration 61.000000 
+ 	 	 	 	 /linear-Big/grain/overlap 45 
+ 	 	 	 	 /linear-Big/grain/trigger 0.000000 
+ 	 	 	 	 /linear-Big/mod/gain 20.000000 
+ 	 	 	 	 /linear-Big/mod/onsetVar 506.000000 
+ 	 	 	 	 /linear-Big/mod/pitch 0.000000 
+ 	 	 	 	 /linear-Big/mod/pitchVar 10.000000 
+ 	 	 	 	 /linear-Big/mod/position 0.000000 
+ 	 	 	 	 /linear-Big/mod/size 746.000000 
+ 	 	 	 	 /linear-Big/mod/speed -0.700000 
+ 	 	 	 	 /linear-Big/mod/trigger 39.000000 
+ 	 	 	 	 /linear-Big/mod/turn -6.000000 
+ 	 	 	 	 /linear-Big/pitch/transpose 0.000000 
+ 	 	 	 	 /linear-Big/pitch/variation 0.000000 
+ 	 	 	 	 /linear-Big/position 0.812185 
+ 	 	 	 	 /linear-Big/position/onset_variation 72.000000 
+ 	 	 	 	 /linear-Big/position/speed 1.000000 
+ 	 	 	 	 /linear-Big/turn 0.000000 
+ 	 	 	 	 /linear-Big/view/freeze 0 
+ 	 	 	 	 /linear-Big/view/highlight none 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 5 
+ 	 	 	 	 /wetBirds/audio/gain 100.000000 
+ 	 	 	 	 /wetBirds/audio/mute 1 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 732.000000 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2548.000000 
+ 	 	 	 	 /wetBirds/input/q 0.606826 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 2.000000 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/highlight none 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 0.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 1 
+ 	 	 	 	 /filter~/filtergain 0.000000 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 1548.000000 
+ 	 	 	 	 /filter~/q 1.000000 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/highlight none 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 2.000000 3.000000 5.000000 7.000000 11.000000 13.000000 17.000000 19.000000 
+ 	 	 	 	 /harmonicShifter~/gain 0.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 0 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp 0.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 250.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold 0.000000 
+ 	 	 	 	 /harmonicShifter~/mix 100.000000 
+ 	 	 	 	 /harmonicShifter~/mute 1 
+ 	 	 	 	 /harmonicShifter~/shifts 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/highlight none 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "5.1-cagibi-coat-init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /omaxVST1 99 1 /eggOut 99 1 /jmod.nav.mdlys.resonate~ 99 1 /damp 99 0 /pBend 99 0 /nav.env~ 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /spectralShiftHelp~ 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 0 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 /in 99 1 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 1 /mungCloud 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /omaxVST1 
+ 	 	 	 	 /omaxVST1/vst/plug /Library/Audio/Plug-Ins/VST/Absynth 4.vst 
+ 	 	 	 	 /omaxVST1/vst/program 0 
+ 	 	 	 	 /omaxVST1/parameter/Attack 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/Decay 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl1 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl10 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl11 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl12 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl13 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl14 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl2 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl3 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl4 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl5 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl6 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl7 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl8 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl9 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/PanFB 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/PanLR 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/Release 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/Sustain 0.500000 
+ 	 	 	 	 /omaxVST1/audio/bypass 0 
+ 	 	 	 	 /omaxVST1/audio/gain 0.000000 
+ 	 	 	 	 /omaxVST1/audio/mix 100.000000 
+ 	 	 	 	 /omaxVST1/audio/mute 1 
+ 	 	 	 	 /omaxVST1/view/freeze 0 
+ 	 	 	 	 /omaxVST1/view/highlight none 
+ # 
+ # Module /eggOut 
+ 	 	 	 	 /eggOut/audio/active 0 
+ 	 	 	 	 /eggOut/audio/gain 0.000000 
+ 	 	 	 	 /eggOut/audio/mute 1 
+ 	 	 	 	 /eggOut/limiter/active 0 
+ 	 	 	 	 /eggOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /eggOut/limiter/lookahead 64 
+ 	 	 	 	 /eggOut/limiter/mode exponential 
+ 	 	 	 	 /eggOut/limiter/postamp 0.000000 
+ 	 	 	 	 /eggOut/limiter/preamp 6.000000 
+ 	 	 	 	 /eggOut/limiter/release 300.000000 
+ 	 	 	 	 /eggOut/limiter/threshold -1.000000 
+ 	 	 	 	 /eggOut/numSpeakers 4 
+ 	 	 	 	 /eggOut/offset 0 
+ 	 	 	 	 /eggOut/record/filetype default 
+ 	 	 	 	 /eggOut/record/samptype default 
+ 	 	 	 	 /eggOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /eggOut/view/freeze 0 
+ 	 	 	 	 /eggOut/view/highlight none 
+ # 
+ # Module /jmod.nav.mdlys.resonate~ 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/resonator 5 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/matter 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pitch/detune 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pitch/midi 45 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pitch/ramp 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pitch/transp 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/audio/gain 0.000000 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/audio/input/gain 127 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/audio/mute 1 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/audio/preview 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/brightness 50.551186 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/damping 51.023632 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/excite/active 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/excite/rate 2900 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/excite/smooth 1000 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/excite/x1 25 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/excite/y1 75 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/inharm 0.000000 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/modes 80 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/active 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/rate 4000 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/smooth 1000 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/x1 25 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/x2 75 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/x3 25 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/x4 75 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/y1 53 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/y2 52 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/y3 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/pickup/y4 25 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/view/freeze 0 
+ 	 	 	 	 /jmod.nav.mdlys.resonate~/view/highlight none 
+ # 
+ # Module /nav.env~ 
+ 	 	 	 	 /nav.env~/clip 1 
+ 	 	 	 	 /nav.env~/env/cutoff 850 
+ 	 	 	 	 /nav.env~/env/on 0 
+ 	 	 	 	 /nav.env~/env/period 20 
+ 	 	 	 	 /nav.env~/gain 100.000000 
+ 	 	 	 	 /nav.env~/pre-slide/down 2 
+ 	 	 	 	 /nav.env~/pre-slide/up 2 
+ 	 	 	 	 /nav.env~/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/max 1.000000 
+ 	 	 	 	 /nav.env~/scale/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/mode 3 
+ 	 	 	 	 /nav.env~/scale/window 1000 
+ 	 	 	 	 /nav.env~/slide/down 10 
+ 	 	 	 	 /nav.env~/slide/up 1 
+ 	 	 	 	 /nav.env~/view/freeze 0 
+ 	 	 	 	 /nav.env~/view/highlight none 
+ 	 	 	 	 /nav.env~/visualize 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 29.000000 
+ 	 	 	 	 /shpidel~/audio/mute 1 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 584 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 100.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 66.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 1548.000000 
+ 	 	 	 	 /LPCfilter~/q 1.000000 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight none 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 78 
+ 	 	 	 	 /LPC1/pGlide 28 
+ 	 	 	 	 /LPC1/pShift -12.210347 
+ 	 	 	 	 /LPC1/thresh 0.087815 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight none 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 0 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight none 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 4000 
+ 	 	 	 	 /lpc1-postPitch-rand/max 3.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -19.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 0 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight none 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 29 
+ 	 	 	 	 /lpcVerb/dry 112 
+ 	 	 	 	 /lpcVerb/gain 94.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 1 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight none 
+ 	 	 	 	 /lpcVerb/wet 75 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2000 
+ 	 	 	 	 /lpc1/max 24.000000 
+ 	 	 	 	 /lpc1/min -73.000000 
+ 	 	 	 	 /lpc1/on 0 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight none 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32 
+ 	 	 	 	 /postLPCPitch/frequency/scale -0.835419 
+ 	 	 	 	 /postLPCPitch/frequency/shift 0.000000 
+ 	 	 	 	 /postLPCPitch/gain 100.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 69.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight none 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 5 
+ 	 	 	 	 /wetBirds/audio/gain 100.000000 
+ 	 	 	 	 /wetBirds/audio/mute 1 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 732.000000 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain 0.000000 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2548.000000 
+ 	 	 	 	 /wetBirds/input/q 0.606826 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 2.500000 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/highlight none 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 86.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 1 
+ 	 	 	 	 /filter~/filtergain -1.387835 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 1300.004761 
+ 	 	 	 	 /filter~/q 0.570456 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/highlight none 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 2.000000 3.000000 5.000000 7.000000 11.000000 13.000000 17.000000 19.000000 
+ 	 	 	 	 /harmonicShifter~/gain 95.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -60.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 0 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp 0.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 250.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold 0.000000 
+ 	 	 	 	 /harmonicShifter~/mix 100.000000 
+ 	 	 	 	 /harmonicShifter~/mute 1 
+ 	 	 	 	 /harmonicShifter~/shifts 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/highlight none 
+ # 
+ # Module /in 
+ 	 	 	 	 /in/audio/bypass 0 
+ 	 	 	 	 /in/audio/gain 100.000000 
+ 	 	 	 	 /in/audio/mix 100.000000 
+ 	 	 	 	 /in/audio/mute 0 
+ 	 	 	 	 /in/filtergain 0.000000 
+ 	 	 	 	 /in/filtertype highpass 
+ 	 	 	 	 /in/frequency 80.000000 
+ 	 	 	 	 /in/q 0.800000 
+ 	 	 	 	 /in/view/freeze 0 
+ 	 	 	 	 /in/view/highlight none 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 98 
+ 	 	 	 	 /au.rvrb/dry 37 
+ 	 	 	 	 /au.rvrb/gain 100.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 1 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/highlight none 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 0 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/highlight none 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 2.000000 
+ 	 	 	 	 /au-pShift/min -2.000000 
+ 	 	 	 	 /au-pShift/on 0 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/highlight none 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 1 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 0.000000 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 75.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/highlight none 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/highlight none 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/audio/active 0 
+ 	 	 	 	 /outAu-dry/audio/gain 0.000000 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 3 
+ 	 	 	 	 /outAu-dry/ch.2 5 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/highlight none 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 76.000000 
+ 	 	 	 	 /mungCloud/audio/mute 1 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay 4000.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 2.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 400.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 0 
+ 	 	 	 	 /mungCloud/param/delay 1091.715210 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 1.000000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000400 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 4.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 120 
+ 	 	 	 	 /mungCloud/param/size 561 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 40 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/highlight none 
+ 	 	 	 	 /mungCloud/voices 46 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Birds-dynamic" 
+ 
+ 
+ 	 	 	 	 /CONFIG /mdly.Velocity 99 1 /damp 99 1 /pBend 99 1 /mdlys.env~ 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /spectralShiftHelp~ 99 1 0.300000 99 1 /master-bird 99 1 /8-bird 99 1 /7-bird 99 1 /6-bird 99 1 /5-bird 99 1 /4-bird 99 1 /3-bird 99 1 /2-bird 99 1 /1-bird 99 1 /birdsOut 99 1 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 /monitor.rvrb 99 1 /in 99 1 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 1 /randDecay1 99 1 /randDecay2 99 1 /evelope 99 1 /mungCloud 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /mdly.Velocity 
+ 	 	 	 	 /mdly.Velocity/function linear 
+ 	 	 	 	 /mdly.Velocity/function/symmetry none 
+ 	 	 	 	 /mdly.Velocity/function/parameter2 0.000000 
+ 	 	 	 	 /mdly.Velocity/function/parameter1 1.145000 
+ 	 	 	 	 /mdly.Velocity/bypass 0 
+ 	 	 	 	 /mdly.Velocity/clip 1 
+ 	 	 	 	 /mdly.Velocity/mute 0 
+ 	 	 	 	 /mdly.Velocity/offset 0.000000 
+ 	 	 	 	 /mdly.Velocity/pre-slide/down 0 
+ 	 	 	 	 /mdly.Velocity/pre-slide/up 1 
+ 	 	 	 	 /mdly.Velocity/ramp 0 
+ 	 	 	 	 /mdly.Velocity/scale/input/max 0.000000 
+ 	 	 	 	 /mdly.Velocity/scale/input/min 0.000000 
+ 	 	 	 	 /mdly.Velocity/scale/max 1.000000 
+ 	 	 	 	 /mdly.Velocity/scale/min 0.000000 
+ 	 	 	 	 /mdly.Velocity/scale/mode 1 
+ 	 	 	 	 /mdly.Velocity/scale/window 2000 
+ 	 	 	 	 /mdly.Velocity/slide/down 2 
+ 	 	 	 	 /mdly.Velocity/slide/up 0 
+ 	 	 	 	 /mdly.Velocity/view/color/border 0 
+ 	 	 	 	 /mdly.Velocity/view/color/contentBackground 0 
+ 	 	 	 	 /mdly.Velocity/view/color/toolbarBackground 0 
+ 	 	 	 	 /mdly.Velocity/view/color/toolbarText 0 
+ 	 	 	 	 /mdly.Velocity/view/freeze 0 
+ 	 	 	 	 /mdly.Velocity/view/size 300 70 
+ 	 	 	 	 /mdly.Velocity/visualize 1 
+ # 
+ # Module /damp 
+ 	 	 	 	 /damp/function linear 
+ 	 	 	 	 /damp/function/symmetry none 
+ 	 	 	 	 /damp/function/parameter2 0.000000 
+ 	 	 	 	 /damp/function/parameter1 1.145000 
+ 	 	 	 	 /damp/bypass 0 
+ 	 	 	 	 /damp/clip 1 
+ 	 	 	 	 /damp/mute 0 
+ 	 	 	 	 /damp/offset 0.000000 
+ 	 	 	 	 /damp/pre-slide/down 3 
+ 	 	 	 	 /damp/pre-slide/up 2 
+ 	 	 	 	 /damp/ramp 15 
+ 	 	 	 	 /damp/scale/input/max 0.000000 
+ 	 	 	 	 /damp/scale/input/min 0.000000 
+ 	 	 	 	 /damp/scale/max 70.000000 
+ 	 	 	 	 /damp/scale/min 32.000000 
+ 	 	 	 	 /damp/scale/mode 2 
+ 	 	 	 	 /damp/scale/window 2000 
+ 	 	 	 	 /damp/slide/down 2 
+ 	 	 	 	 /damp/slide/up 0 
+ 	 	 	 	 /damp/view/color/border 0 
+ 	 	 	 	 /damp/view/color/contentBackground 0 
+ 	 	 	 	 /damp/view/color/toolbarBackground 0 
+ 	 	 	 	 /damp/view/color/toolbarText 0 
+ 	 	 	 	 /damp/view/freeze 0 
+ 	 	 	 	 /damp/view/size 300 70 
+ 	 	 	 	 /damp/visualize 0 
+ # 
+ # Module /pBend 
+ 	 	 	 	 /pBend/function linear 
+ 	 	 	 	 /pBend/function/symmetry none 
+ 	 	 	 	 /pBend/function/parameter2 0.000000 
+ 	 	 	 	 /pBend/function/parameter1 1.145000 
+ 	 	 	 	 /pBend/bypass 0 
+ 	 	 	 	 /pBend/clip 0 
+ 	 	 	 	 /pBend/mute 0 
+ 	 	 	 	 /pBend/offset 0.000000 
+ 	 	 	 	 /pBend/pre-slide/down 0 
+ 	 	 	 	 /pBend/pre-slide/up 20 
+ 	 	 	 	 /pBend/ramp 10 
+ 	 	 	 	 /pBend/scale/input/max 0.000000 
+ 	 	 	 	 /pBend/scale/input/min 0.000000 
+ 	 	 	 	 /pBend/scale/max -300.000000 
+ 	 	 	 	 /pBend/scale/min 0.000000 
+ 	 	 	 	 /pBend/scale/mode 2 
+ 	 	 	 	 /pBend/scale/window 2000 
+ 	 	 	 	 /pBend/slide/down 0 
+ 	 	 	 	 /pBend/slide/up 0 
+ 	 	 	 	 /pBend/view/color/border 0 
+ 	 	 	 	 /pBend/view/color/contentBackground 0 
+ 	 	 	 	 /pBend/view/color/toolbarBackground 0 
+ 	 	 	 	 /pBend/view/color/toolbarText 0 
+ 	 	 	 	 /pBend/view/freeze 0 
+ 	 	 	 	 /pBend/view/size 300 70 
+ 	 	 	 	 /pBend/visualize 0 
+ # 
+ # Module /mdlys.env~ 
+ 	 	 	 	 /mdlys.env~/clip 1 
+ 	 	 	 	 /mdlys.env~/env/cutoff 900 
+ 	 	 	 	 /mdlys.env~/env/on 1 
+ 	 	 	 	 /mdlys.env~/env/period 20 
+ 	 	 	 	 /mdlys.env~/gain 100.000000 
+ 	 	 	 	 /mdlys.env~/pre-slide/down 2 
+ 	 	 	 	 /mdlys.env~/pre-slide/up 2 
+ 	 	 	 	 /mdlys.env~/scale/input/max 0.000000 
+ 	 	 	 	 /mdlys.env~/scale/input/min 0.000000 
+ 	 	 	 	 /mdlys.env~/scale/max 1.000000 
+ 	 	 	 	 /mdlys.env~/scale/min 0.000000 
+ 	 	 	 	 /mdlys.env~/scale/mode 1 
+ 	 	 	 	 /mdlys.env~/scale/window 2000 
+ 	 	 	 	 /mdlys.env~/slide/down 0 
+ 	 	 	 	 /mdlys.env~/slide/up 0 
+ 	 	 	 	 /mdlys.env~/view/color/border 0 
+ 	 	 	 	 /mdlys.env~/view/color/contentBackground 0 
+ 	 	 	 	 /mdlys.env~/view/color/toolbarBackground 0 
+ 	 	 	 	 /mdlys.env~/view/color/toolbarText 0 
+ 	 	 	 	 /mdlys.env~/view/freeze 0 
+ 	 	 	 	 /mdlys.env~/view/size 300 70 
+ 	 	 	 	 /mdlys.env~/visualize 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 44.000000 
+ 	 	 	 	 /shpidel~/audio/mute 1 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 584 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/color/border 0 
+ 	 	 	 	 /shpidel~/view/color/contentBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarText 0 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/size 300 70 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 3.467675 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/q 0.616875 
+ 	 	 	 	 /LPCfilter~/view/color/border 0 
+ 	 	 	 	 /LPCfilter~/view/color/contentBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarText 0 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/size 300 70 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 70 
+ 	 	 	 	 /LPC1/pGlide 10 
+ 	 	 	 	 /LPC1/pShift 10.457504 
+ 	 	 	 	 /LPC1/thresh 0.300036 
+ 	 	 	 	 /LPC1/view/color/border 0 
+ 	 	 	 	 /LPC1/view/color/contentBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarText 0 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/size 150 70 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 0 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/size 150 70 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 4000 
+ 	 	 	 	 /lpc1-postPitch-rand/max -18.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -12.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 0 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/size 150 70 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 27 
+ 	 	 	 	 /lpcVerb/dry 115 
+ 	 	 	 	 /lpcVerb/gain 89.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 1 
+ 	 	 	 	 /lpcVerb/view/color/border 0 
+ 	 	 	 	 /lpcVerb/view/color/contentBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarText 0 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/size 300 70 
+ 	 	 	 	 /lpcVerb/wet 42 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2000 
+ 	 	 	 	 /lpc1/max 12.000000 
+ 	 	 	 	 /lpc1/min -75.000000 
+ 	 	 	 	 /lpc1/on 0 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/view/color/border 0 
+ 	 	 	 	 /lpc1/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/size 150 70 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 1 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32 
+ 	 	 	 	 /postLPCPitch/frequency/scale -12.000000 
+ 	 	 	 	 /postLPCPitch/frequency/shift 27.951050 
+ 	 	 	 	 /postLPCPitch/gain 90.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 69.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/color/border 0 
+ 	 	 	 	 /postLPCPitch/view/color/contentBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarText 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/size 300 70 
+ # 
+ # Module /spectralShiftHelp~ 
+ 	 	 	 	 /spectralShiftHelp~/bypass 0 
+ 	 	 	 	 /spectralShiftHelp~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftHelp~/feedback/time 10 
+ 	 	 	 	 /spectralShiftHelp~/frequency/scale -2.260000 
+ 	 	 	 	 /spectralShiftHelp~/frequency/shift -344.000000 
+ 	 	 	 	 /spectralShiftHelp~/gain 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftHelp~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftHelp~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftHelp~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/mix 100.000000 
+ 	 	 	 	 /spectralShiftHelp~/mute 1 
+ 	 	 	 	 /spectralShiftHelp~/view/color/border 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftHelp~/view/freeze 0 
+ 	 	 	 	 /spectralShiftHelp~/view/size 300 70 
+ # 
+ # Module 0.300000 
+ # 
+ # Module /master-bird 
+ 	 	 	 	 /master-bird/interpolate 0 
+ 	 	 	 	 /master-bird/max 928.000000 
+ 	 	 	 	 /master-bird/min 101.000000 
+ 	 	 	 	 /master-bird/on 1 
+ 	 	 	 	 /master-bird/rate/max 1846 
+ 	 	 	 	 /master-bird/rate/min 45 
+ 	 	 	 	 /master-bird/view/color/border 0 
+ 	 	 	 	 /master-bird/view/color/contentBackground 0 
+ 	 	 	 	 /master-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /master-bird/view/color/toolbarText 0 
+ 	 	 	 	 /master-bird/view/freeze 0 
+ 	 	 	 	 /master-bird/view/size 150 70 
+ # 
+ # Module /8-bird 
+ 	 	 	 	 /8-bird/interpolate 0 
+ 	 	 	 	 /8-bird/max 928.000000 
+ 	 	 	 	 /8-bird/min 101.000000 
+ 	 	 	 	 /8-bird/on 1 
+ 	 	 	 	 /8-bird/rate/max 1846 
+ 	 	 	 	 /8-bird/rate/min 45 
+ 	 	 	 	 /8-bird/view/color/border 0 
+ 	 	 	 	 /8-bird/view/color/contentBackground 0 
+ 	 	 	 	 /8-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /8-bird/view/color/toolbarText 0 
+ 	 	 	 	 /8-bird/view/freeze 0 
+ 	 	 	 	 /8-bird/view/size 150 70 
+ # 
+ # Module /7-bird 
+ 	 	 	 	 /7-bird/interpolate 0 
+ 	 	 	 	 /7-bird/max 928.000000 
+ 	 	 	 	 /7-bird/min 101.000000 
+ 	 	 	 	 /7-bird/on 1 
+ 	 	 	 	 /7-bird/rate/max 1846 
+ 	 	 	 	 /7-bird/rate/min 45 
+ 	 	 	 	 /7-bird/view/color/border 0 
+ 	 	 	 	 /7-bird/view/color/contentBackground 0 
+ 	 	 	 	 /7-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /7-bird/view/color/toolbarText 0 
+ 	 	 	 	 /7-bird/view/freeze 0 
+ 	 	 	 	 /7-bird/view/size 150 70 
+ # 
+ # Module /6-bird 
+ 	 	 	 	 /6-bird/interpolate 0 
+ 	 	 	 	 /6-bird/max 928.000000 
+ 	 	 	 	 /6-bird/min 101.000000 
+ 	 	 	 	 /6-bird/on 1 
+ 	 	 	 	 /6-bird/rate/max 1846 
+ 	 	 	 	 /6-bird/rate/min 45 
+ 	 	 	 	 /6-bird/view/color/border 0 
+ 	 	 	 	 /6-bird/view/color/contentBackground 0 
+ 	 	 	 	 /6-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /6-bird/view/color/toolbarText 0 
+ 	 	 	 	 /6-bird/view/freeze 0 
+ 	 	 	 	 /6-bird/view/size 150 70 
+ # 
+ # Module /5-bird 
+ 	 	 	 	 /5-bird/interpolate 0 
+ 	 	 	 	 /5-bird/max 928.000000 
+ 	 	 	 	 /5-bird/min 101.000000 
+ 	 	 	 	 /5-bird/on 1 
+ 	 	 	 	 /5-bird/rate/max 1846 
+ 	 	 	 	 /5-bird/rate/min 45 
+ 	 	 	 	 /5-bird/view/color/border 0 
+ 	 	 	 	 /5-bird/view/color/contentBackground 0 
+ 	 	 	 	 /5-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /5-bird/view/color/toolbarText 0 
+ 	 	 	 	 /5-bird/view/freeze 0 
+ 	 	 	 	 /5-bird/view/size 150 70 
+ # 
+ # Module /4-bird 
+ 	 	 	 	 /4-bird/interpolate 0 
+ 	 	 	 	 /4-bird/max 928.000000 
+ 	 	 	 	 /4-bird/min 101.000000 
+ 	 	 	 	 /4-bird/on 1 
+ 	 	 	 	 /4-bird/rate/max 1846 
+ 	 	 	 	 /4-bird/rate/min 45 
+ 	 	 	 	 /4-bird/view/color/border 0 
+ 	 	 	 	 /4-bird/view/color/contentBackground 0 
+ 	 	 	 	 /4-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /4-bird/view/color/toolbarText 0 
+ 	 	 	 	 /4-bird/view/freeze 0 
+ 	 	 	 	 /4-bird/view/size 150 70 
+ # 
+ # Module /3-bird 
+ 	 	 	 	 /3-bird/interpolate 0 
+ 	 	 	 	 /3-bird/max 928.000000 
+ 	 	 	 	 /3-bird/min 101.000000 
+ 	 	 	 	 /3-bird/on 1 
+ 	 	 	 	 /3-bird/rate/max 1846 
+ 	 	 	 	 /3-bird/rate/min 45 
+ 	 	 	 	 /3-bird/view/color/border 0 
+ 	 	 	 	 /3-bird/view/color/contentBackground 0 
+ 	 	 	 	 /3-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /3-bird/view/color/toolbarText 0 
+ 	 	 	 	 /3-bird/view/freeze 0 
+ 	 	 	 	 /3-bird/view/size 150 70 
+ # 
+ # Module /2-bird 
+ 	 	 	 	 /2-bird/interpolate 0 
+ 	 	 	 	 /2-bird/max 928.000000 
+ 	 	 	 	 /2-bird/min 101.000000 
+ 	 	 	 	 /2-bird/on 1 
+ 	 	 	 	 /2-bird/rate/max 1846 
+ 	 	 	 	 /2-bird/rate/min 45 
+ 	 	 	 	 /2-bird/view/color/border 0 
+ 	 	 	 	 /2-bird/view/color/contentBackground 0 
+ 	 	 	 	 /2-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /2-bird/view/color/toolbarText 0 
+ 	 	 	 	 /2-bird/view/freeze 0 
+ 	 	 	 	 /2-bird/view/size 150 70 
+ # 
+ # Module /1-bird 
+ 	 	 	 	 /1-bird/interpolate 0 
+ 	 	 	 	 /1-bird/max 928.000000 
+ 	 	 	 	 /1-bird/min 101.000000 
+ 	 	 	 	 /1-bird/on 1 
+ 	 	 	 	 /1-bird/rate/max 1846 
+ 	 	 	 	 /1-bird/rate/min 45 
+ 	 	 	 	 /1-bird/view/color/border 0 
+ 	 	 	 	 /1-bird/view/color/contentBackground 0 
+ 	 	 	 	 /1-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /1-bird/view/color/toolbarText 0 
+ 	 	 	 	 /1-bird/view/freeze 0 
+ 	 	 	 	 /1-bird/view/size 150 70 
+ # 
+ # Module /birdsOut 
+ 	 	 	 	 /birdsOut/audio/active 0 
+ 	 	 	 	 /birdsOut/audio/gain 58.000000 
+ 	 	 	 	 /birdsOut/audio/mute 0 
+ 	 	 	 	 /birdsOut/limiter/active 0 
+ 	 	 	 	 /birdsOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /birdsOut/limiter/lookahead 64 
+ 	 	 	 	 /birdsOut/limiter/mode exponential 
+ 	 	 	 	 /birdsOut/limiter/postamp 0.000000 
+ 	 	 	 	 /birdsOut/limiter/preamp 6.000000 
+ 	 	 	 	 /birdsOut/limiter/release 300.000000 
+ 	 	 	 	 /birdsOut/limiter/threshold 6.000000 
+ 	 	 	 	 /birdsOut/numSpeakers 8 
+ 	 	 	 	 /birdsOut/offset 0 
+ 	 	 	 	 /birdsOut/record/filetype default 
+ 	 	 	 	 /birdsOut/record/samptype default 
+ 	 	 	 	 /birdsOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /birdsOut/view/color/border 0 
+ 	 	 	 	 /birdsOut/view/color/contentBackground 0 
+ 	 	 	 	 /birdsOut/view/color/toolbarBackground 0 
+ 	 	 	 	 /birdsOut/view/color/toolbarText 0 
+ 	 	 	 	 /birdsOut/view/freeze 0 
+ 	 	 	 	 /birdsOut/view/size 300 70 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 8 
+ 	 	 	 	 /wetBirds/audio/gain 99.000000 
+ 	 	 	 	 /wetBirds/audio/mute 0 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain -0.078995 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 159.618591 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain -0.437817 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2999.039551 
+ 	 	 	 	 /wetBirds/input/q 0.449100 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 2.000000 
+ 	 	 	 	 /wetBirds/view/color/border 0 
+ 	 	 	 	 /wetBirds/view/color/contentBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarText 0 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/size 300 70 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 96.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/filtergain 1.040405 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 2236.400879 
+ 	 	 	 	 /filter~/q 0.379264 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 1.062500 1.058824 1.166667 3.076923 4.050000 4.050344 6.100000 7.142857 
+ 	 	 	 	 /harmonicShifter~/gain 83.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -18.770832 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -33.747478 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -38.374432 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -26.026325 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -32.894566 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -10.742744 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -4.700642 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -1.868437 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 1 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp -2.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 300.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold -0.500000 
+ 	 	 	 	 /harmonicShifter~/mix 94.000000 
+ 	 	 	 	 /harmonicShifter~/mute 0 
+ 	 	 	 	 /harmonicShifter~/shifts 0.000000 300.000000 0.000000 300.000000 0.000000 800.000000 0.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/color/border 0 
+ 	 	 	 	 /harmonicShifter~/view/color/contentBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarText 0 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/size 300 70 
+ # 
+ # Module /monitor.rvrb 
+ 	 	 	 	 /monitor.rvrb/bypass 0 
+ 	 	 	 	 /monitor.rvrb/damp 127 
+ 	 	 	 	 /monitor.rvrb/decay 31 
+ 	 	 	 	 /monitor.rvrb/dry 127 
+ 	 	 	 	 /monitor.rvrb/gain 100.000000 
+ 	 	 	 	 /monitor.rvrb/mix 100.000000 
+ 	 	 	 	 /monitor.rvrb/mute 1 
+ 	 	 	 	 /monitor.rvrb/view/color/border 0 
+ 	 	 	 	 /monitor.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /monitor.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /monitor.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /monitor.rvrb/view/freeze 0 
+ 	 	 	 	 /monitor.rvrb/view/size 300 70 
+ 	 	 	 	 /monitor.rvrb/wet 39 
+ 	 	 	 	 /monitor.rvrb/width 127 
+ # 
+ # Module /in 
+ 	 	 	 	 /in/audio/bypass 0 
+ 	 	 	 	 /in/audio/gain 100.000000 
+ 	 	 	 	 /in/audio/mix 100.000000 
+ 	 	 	 	 /in/audio/mute 0 
+ 	 	 	 	 /in/filtergain 0.000000 
+ 	 	 	 	 /in/filtertype highpass 
+ 	 	 	 	 /in/frequency 84.000000 
+ 	 	 	 	 /in/q 0.800000 
+ 	 	 	 	 /in/view/color/border 0 
+ 	 	 	 	 /in/view/color/contentBackground 0 
+ 	 	 	 	 /in/view/color/toolbarBackground 0 
+ 	 	 	 	 /in/view/color/toolbarText 0 
+ 	 	 	 	 /in/view/freeze 0 
+ 	 	 	 	 /in/view/size 300 70 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 70 
+ 	 	 	 	 /au.rvrb/dry 0 
+ 	 	 	 	 /au.rvrb/gain 96.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 0 
+ 	 	 	 	 /au.rvrb/view/color/border 0 
+ 	 	 	 	 /au.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/size 300 70 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/color/border 0 
+ 	 	 	 	 /au-fShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/size 150 70 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 3.000000 
+ 	 	 	 	 /au-pShift/min -3.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/color/border 0 
+ 	 	 	 	 /au-pShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/size 150 70 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 0.456633 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift -47.149944 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 100.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/size 300 70 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/size 300 70 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/audio/active 0 
+ 	 	 	 	 /outAu-dry/audio/gain 50.305206 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 5 
+ 	 	 	 	 /outAu-dry/ch.2 7 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/color/border 0 
+ 	 	 	 	 /outAu-dry/view/color/contentBackground 0 
+ 	 	 	 	 /outAu-dry/view/color/toolbarBackground 0 
+ 	 	 	 	 /outAu-dry/view/color/toolbarText 0 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/size 300 140 
+ # 
+ # Module /randDecay1 
+ 	 	 	 	 /randDecay1/interpolate 0 
+ 	 	 	 	 /randDecay1/max 4.000000 
+ 	 	 	 	 /randDecay1/min 0.000000 
+ 	 	 	 	 /randDecay1/on 0 
+ 	 	 	 	 /randDecay1/rate/max 8356 
+ 	 	 	 	 /randDecay1/rate/min 500 
+ 	 	 	 	 /randDecay1/view/color/border 0 
+ 	 	 	 	 /randDecay1/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay1/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay1/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay1/view/freeze 0 
+ 	 	 	 	 /randDecay1/view/size 150 70 
+ # 
+ # Module /randDecay2 
+ 	 	 	 	 /randDecay2/interpolate 0 
+ 	 	 	 	 /randDecay2/max 60.000000 
+ 	 	 	 	 /randDecay2/min 0.000000 
+ 	 	 	 	 /randDecay2/on 0 
+ 	 	 	 	 /randDecay2/rate/max 10896 
+ 	 	 	 	 /randDecay2/rate/min 500 
+ 	 	 	 	 /randDecay2/view/color/border 0 
+ 	 	 	 	 /randDecay2/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay2/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay2/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay2/view/freeze 0 
+ 	 	 	 	 /randDecay2/view/size 150 70 
+ # 
+ # Module /evelope 
+ 	 	 	 	 /evelope/clip 1 
+ 	 	 	 	 /evelope/env/cutoff 850 
+ 	 	 	 	 /evelope/env/on 0 
+ 	 	 	 	 /evelope/env/period 20 
+ 	 	 	 	 /evelope/gain 100.000000 
+ 	 	 	 	 /evelope/pre-slide/down 2 
+ 	 	 	 	 /evelope/pre-slide/up 2 
+ 	 	 	 	 /evelope/scale/input/max 0.000000 
+ 	 	 	 	 /evelope/scale/input/min 0.000000 
+ 	 	 	 	 /evelope/scale/max 1.000000 
+ 	 	 	 	 /evelope/scale/min 0.000000 
+ 	 	 	 	 /evelope/scale/mode 1 
+ 	 	 	 	 /evelope/scale/window 1000 
+ 	 	 	 	 /evelope/slide/down 10 
+ 	 	 	 	 /evelope/slide/up 1 
+ 	 	 	 	 /evelope/view/color/border 0 
+ 	 	 	 	 /evelope/view/color/contentBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarText 0 
+ 	 	 	 	 /evelope/view/freeze 0 
+ 	 	 	 	 /evelope/view/size 300 70 
+ 	 	 	 	 /evelope/visualize 1 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 60.000000 
+ 	 	 	 	 /mungCloud/audio/mute 1 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay 4000.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 2.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 400.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 1 
+ 	 	 	 	 /mungCloud/param/delay 3796.005127 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 1.000000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000000 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 3.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 120 
+ 	 	 	 	 /mungCloud/param/size 550 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 12 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/color/border 0 
+ 	 	 	 	 /mungCloud/view/color/contentBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarText 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/size 300 105 
+ 	 	 	 	 /mungCloud/voices 28 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Wonder" 
+ 
+ 
+ 	 	 	 	 /CONFIG /mdly.Velocity 99 0 /damp 99 0 /pBend 99 0 /mdlys.env~ 99 0 /shpidel~ 99 0 /LPCfilter~ 99 0 /LPC1 99 0 /lpc1-postFreq-rand 99 0 /lpc1-postPitch-rand 99 0 /lpcVerb 99 0 /lpc1 99 0 /lpc-dryOUT 99 0 /postLPCPitch 99 0 /LPC-wet-out 99 0 0.300000 99 0 /monitor.rvrb 99 0 /in 99 0 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 0 /randDecay1 99 0 /randDecay2 99 0 /evelope 99 0 /mungCloud 99 0 /spectralShiftHelp~ 99 1 /master-bird 99 1 /8-bird 99 1 /7-bird 99 1 /6-bird 99 1 /5-bird 99 1 /4-bird 99 1 /3-bird 99 1 /2-bird 99 1 /1-bird 99 1 /birdsOut 99 0 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 95 
+ 	 	 	 	 /au.rvrb/dry 49 
+ 	 	 	 	 /au.rvrb/gain 96.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 0 
+ 	 	 	 	 /au.rvrb/view/color/border 0 
+ 	 	 	 	 /au.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/size 300 70 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 799 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 6387 
+ 	 	 	 	 /au-fShift/rate/min 1962 
+ 	 	 	 	 /au-fShift/view/color/border 0 
+ 	 	 	 	 /au-fShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/size 150 70 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 2185 
+ 	 	 	 	 /au-pShift/max 3.000000 
+ 	 	 	 	 /au-pShift/min -3.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 1389 
+ 	 	 	 	 /au-pShift/view/color/border 0 
+ 	 	 	 	 /au-pShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/size 150 70 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale -2.970795 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift -36.776611 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 100.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/size 300 70 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/size 300 70 
+ # 
+ # Module /spectralShiftHelp~ 
+ 	 	 	 	 /spectralShiftHelp~/bypass 0 
+ 	 	 	 	 /spectralShiftHelp~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftHelp~/feedback/time 10 
+ 	 	 	 	 /spectralShiftHelp~/frequency/scale -12.000000 
+ 	 	 	 	 /spectralShiftHelp~/frequency/shift 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/gain 77.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftHelp~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftHelp~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftHelp~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/mix 100.000000 
+ 	 	 	 	 /spectralShiftHelp~/mute 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/border 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftHelp~/view/freeze 0 
+ 	 	 	 	 /spectralShiftHelp~/view/size 300 70 
+ # 
+ # Module /master-bird 
+ 	 	 	 	 /master-bird/interpolate 0 
+ 	 	 	 	 /master-bird/max 956.000000 
+ 	 	 	 	 /master-bird/min 117.000000 
+ 	 	 	 	 /master-bird/on 1 
+ 	 	 	 	 /master-bird/rate/max 3479 
+ 	 	 	 	 /master-bird/rate/min 127 
+ 	 	 	 	 /master-bird/view/color/border 0 
+ 	 	 	 	 /master-bird/view/color/contentBackground 0 
+ 	 	 	 	 /master-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /master-bird/view/color/toolbarText 0 
+ 	 	 	 	 /master-bird/view/freeze 0 
+ 	 	 	 	 /master-bird/view/size 150 70 
+ # 
+ # Module /8-bird 
+ 	 	 	 	 /8-bird/interpolate 0 
+ 	 	 	 	 /8-bird/max 956.000000 
+ 	 	 	 	 /8-bird/min 117.000000 
+ 	 	 	 	 /8-bird/on 1 
+ 	 	 	 	 /8-bird/rate/max 3479 
+ 	 	 	 	 /8-bird/rate/min 127 
+ 	 	 	 	 /8-bird/view/color/border 0 
+ 	 	 	 	 /8-bird/view/color/contentBackground 0 
+ 	 	 	 	 /8-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /8-bird/view/color/toolbarText 0 
+ 	 	 	 	 /8-bird/view/freeze 0 
+ 	 	 	 	 /8-bird/view/size 150 70 
+ # 
+ # Module /7-bird 
+ 	 	 	 	 /7-bird/interpolate 0 
+ 	 	 	 	 /7-bird/max 956.000000 
+ 	 	 	 	 /7-bird/min 117.000000 
+ 	 	 	 	 /7-bird/on 1 
+ 	 	 	 	 /7-bird/rate/max 3479 
+ 	 	 	 	 /7-bird/rate/min 127 
+ 	 	 	 	 /7-bird/view/color/border 0 
+ 	 	 	 	 /7-bird/view/color/contentBackground 0 
+ 	 	 	 	 /7-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /7-bird/view/color/toolbarText 0 
+ 	 	 	 	 /7-bird/view/freeze 0 
+ 	 	 	 	 /7-bird/view/size 150 70 
+ # 
+ # Module /6-bird 
+ 	 	 	 	 /6-bird/interpolate 0 
+ 	 	 	 	 /6-bird/max 956.000000 
+ 	 	 	 	 /6-bird/min 117.000000 
+ 	 	 	 	 /6-bird/on 1 
+ 	 	 	 	 /6-bird/rate/max 3479 
+ 	 	 	 	 /6-bird/rate/min 127 
+ 	 	 	 	 /6-bird/view/color/border 0 
+ 	 	 	 	 /6-bird/view/color/contentBackground 0 
+ 	 	 	 	 /6-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /6-bird/view/color/toolbarText 0 
+ 	 	 	 	 /6-bird/view/freeze 0 
+ 	 	 	 	 /6-bird/view/size 150 70 
+ # 
+ # Module /5-bird 
+ 	 	 	 	 /5-bird/interpolate 0 
+ 	 	 	 	 /5-bird/max 956.000000 
+ 	 	 	 	 /5-bird/min 117.000000 
+ 	 	 	 	 /5-bird/on 1 
+ 	 	 	 	 /5-bird/rate/max 3479 
+ 	 	 	 	 /5-bird/rate/min 127 
+ 	 	 	 	 /5-bird/view/color/border 0 
+ 	 	 	 	 /5-bird/view/color/contentBackground 0 
+ 	 	 	 	 /5-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /5-bird/view/color/toolbarText 0 
+ 	 	 	 	 /5-bird/view/freeze 0 
+ 	 	 	 	 /5-bird/view/size 150 70 
+ # 
+ # Module /4-bird 
+ 	 	 	 	 /4-bird/interpolate 0 
+ 	 	 	 	 /4-bird/max 956.000000 
+ 	 	 	 	 /4-bird/min 117.000000 
+ 	 	 	 	 /4-bird/on 1 
+ 	 	 	 	 /4-bird/rate/max 3479 
+ 	 	 	 	 /4-bird/rate/min 127 
+ 	 	 	 	 /4-bird/view/color/border 0 
+ 	 	 	 	 /4-bird/view/color/contentBackground 0 
+ 	 	 	 	 /4-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /4-bird/view/color/toolbarText 0 
+ 	 	 	 	 /4-bird/view/freeze 0 
+ 	 	 	 	 /4-bird/view/size 150 70 
+ # 
+ # Module /3-bird 
+ 	 	 	 	 /3-bird/interpolate 0 
+ 	 	 	 	 /3-bird/max 956.000000 
+ 	 	 	 	 /3-bird/min 117.000000 
+ 	 	 	 	 /3-bird/on 1 
+ 	 	 	 	 /3-bird/rate/max 3479 
+ 	 	 	 	 /3-bird/rate/min 127 
+ 	 	 	 	 /3-bird/view/color/border 0 
+ 	 	 	 	 /3-bird/view/color/contentBackground 0 
+ 	 	 	 	 /3-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /3-bird/view/color/toolbarText 0 
+ 	 	 	 	 /3-bird/view/freeze 0 
+ 	 	 	 	 /3-bird/view/size 150 70 
+ # 
+ # Module /2-bird 
+ 	 	 	 	 /2-bird/interpolate 0 
+ 	 	 	 	 /2-bird/max 956.000000 
+ 	 	 	 	 /2-bird/min 117.000000 
+ 	 	 	 	 /2-bird/on 1 
+ 	 	 	 	 /2-bird/rate/max 3479 
+ 	 	 	 	 /2-bird/rate/min 127 
+ 	 	 	 	 /2-bird/view/color/border 0 
+ 	 	 	 	 /2-bird/view/color/contentBackground 0 
+ 	 	 	 	 /2-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /2-bird/view/color/toolbarText 0 
+ 	 	 	 	 /2-bird/view/freeze 0 
+ 	 	 	 	 /2-bird/view/size 150 70 
+ # 
+ # Module /1-bird 
+ 	 	 	 	 /1-bird/interpolate 0 
+ 	 	 	 	 /1-bird/max 956.000000 
+ 	 	 	 	 /1-bird/min 117.000000 
+ 	 	 	 	 /1-bird/on 1 
+ 	 	 	 	 /1-bird/rate/max 3479 
+ 	 	 	 	 /1-bird/rate/min 127 
+ 	 	 	 	 /1-bird/view/color/border 0 
+ 	 	 	 	 /1-bird/view/color/contentBackground 0 
+ 	 	 	 	 /1-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /1-bird/view/color/toolbarText 0 
+ 	 	 	 	 /1-bird/view/freeze 0 
+ 	 	 	 	 /1-bird/view/size 150 70 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 8 
+ 	 	 	 	 /wetBirds/audio/gain 99.000000 
+ 	 	 	 	 /wetBirds/audio/mute 0 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain -0.078995 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 159.618591 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain -0.437817 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2999.039551 
+ 	 	 	 	 /wetBirds/input/q 0.449100 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 1.100000 
+ 	 	 	 	 /wetBirds/view/color/border 0 
+ 	 	 	 	 /wetBirds/view/color/contentBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarText 0 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/size 300 70 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 96.000000 
+ 	 	 	 	 /filter~/audio/mix 95.000000 
+ 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/filtergain -0.173577 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 2375.301514 
+ 	 	 	 	 /filter~/q 0.379264 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 1.100000 1.090909 10.000000 11.666667 2.243984 13.000000 7.111111 6.043478 
+ 	 	 	 	 /harmonicShifter~/gain 96.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -40.252251 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -3.543543 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -25.213213 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -35.111111 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -23.435434 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -8.876876 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain 2.030031 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -23.963963 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 1 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp -2.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 300.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold -0.500000 
+ 	 	 	 	 /harmonicShifter~/mix 94.000000 
+ 	 	 	 	 /harmonicShifter~/mute 0 
+ 	 	 	 	 /harmonicShifter~/shifts 0.000000 300.000000 0.000000 300.000000 0.000000 800.000000 0.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/color/border 0 
+ 	 	 	 	 /harmonicShifter~/view/color/contentBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarText 0 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Tranquillity" 
+ 
+ 
+ 	 	 	 	 /CONFIG /shpidel~ 99 0 /LPCfilter~ 99 0 /LPC1 99 0 /lpc1-postFreq-rand 99 0 /lpc1-postPitch-rand 99 0 /lpcVerb 99 0 /lpc1 99 0 /lpc-dryOUT 99 0 /postLPCPitch 99 0 /LPC-wet-out 99 0 /spectralShiftHelp~ 99 1 /master-bird 99 1 /8-bird 99 1 /7-bird 99 1 /6-bird 99 1 /5-bird 99 1 /4-bird 99 1 /3-bird 99 1 /2-bird 99 1 /1-bird 99 1 /birdsOut 99 0 /wetBirds 99 1 /filter~ 99 1 /harmonicShifter~ 99 1 /monitor.rvrb 99 0 /in 99 0 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 0 /randDecay1 99 0 /randDecay2 99 0 /evelope 99 0 /mungCloud 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /spectralShiftHelp~ 
+ 	 	 	 	 /spectralShiftHelp~/bypass 0 
+ 	 	 	 	 /spectralShiftHelp~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftHelp~/feedback/time 10 
+ 	 	 	 	 /spectralShiftHelp~/frequency/scale -12.000000 
+ 	 	 	 	 /spectralShiftHelp~/frequency/shift 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/gain 77.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftHelp~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftHelp~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftHelp~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/mix 100.000000 
+ 	 	 	 	 /spectralShiftHelp~/mute 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/border 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftHelp~/view/freeze 0 
+ 	 	 	 	 /spectralShiftHelp~/view/size 300 70 
+ # 
+ # Module /master-bird 
+ 	 	 	 	 /master-bird/interpolate 0 
+ 	 	 	 	 /master-bird/max 18000.000000 
+ 	 	 	 	 /master-bird/min 1200.000000 
+ 	 	 	 	 /master-bird/on 1 
+ 	 	 	 	 /master-bird/rate/max 13000 
+ 	 	 	 	 /master-bird/rate/min 3000 
+ 	 	 	 	 /master-bird/view/color/border 0 
+ 	 	 	 	 /master-bird/view/color/contentBackground 0 
+ 	 	 	 	 /master-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /master-bird/view/color/toolbarText 0 
+ 	 	 	 	 /master-bird/view/freeze 0 
+ 	 	 	 	 /master-bird/view/size 150 70 
+ # 
+ # Module /8-bird 
+ 	 	 	 	 /8-bird/interpolate 0 
+ 	 	 	 	 /8-bird/max 18000.000000 
+ 	 	 	 	 /8-bird/min 1200.000000 
+ 	 	 	 	 /8-bird/on 1 
+ 	 	 	 	 /8-bird/rate/max 13000 
+ 	 	 	 	 /8-bird/rate/min 3000 
+ 	 	 	 	 /8-bird/view/color/border 0 
+ 	 	 	 	 /8-bird/view/color/contentBackground 0 
+ 	 	 	 	 /8-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /8-bird/view/color/toolbarText 0 
+ 	 	 	 	 /8-bird/view/freeze 0 
+ 	 	 	 	 /8-bird/view/size 150 70 
+ # 
+ # Module /7-bird 
+ 	 	 	 	 /7-bird/interpolate 0 
+ 	 	 	 	 /7-bird/max 18000.000000 
+ 	 	 	 	 /7-bird/min 1200.000000 
+ 	 	 	 	 /7-bird/on 1 
+ 	 	 	 	 /7-bird/rate/max 13000 
+ 	 	 	 	 /7-bird/rate/min 3000 
+ 	 	 	 	 /7-bird/view/color/border 0 
+ 	 	 	 	 /7-bird/view/color/contentBackground 0 
+ 	 	 	 	 /7-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /7-bird/view/color/toolbarText 0 
+ 	 	 	 	 /7-bird/view/freeze 0 
+ 	 	 	 	 /7-bird/view/size 150 70 
+ # 
+ # Module /6-bird 
+ 	 	 	 	 /6-bird/interpolate 0 
+ 	 	 	 	 /6-bird/max 18000.000000 
+ 	 	 	 	 /6-bird/min 1200.000000 
+ 	 	 	 	 /6-bird/on 1 
+ 	 	 	 	 /6-bird/rate/max 13000 
+ 	 	 	 	 /6-bird/rate/min 3000 
+ 	 	 	 	 /6-bird/view/color/border 0 
+ 	 	 	 	 /6-bird/view/color/contentBackground 0 
+ 	 	 	 	 /6-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /6-bird/view/color/toolbarText 0 
+ 	 	 	 	 /6-bird/view/freeze 0 
+ 	 	 	 	 /6-bird/view/size 150 70 
+ # 
+ # Module /5-bird 
+ 	 	 	 	 /5-bird/interpolate 0 
+ 	 	 	 	 /5-bird/max 18000.000000 
+ 	 	 	 	 /5-bird/min 1200.000000 
+ 	 	 	 	 /5-bird/on 1 
+ 	 	 	 	 /5-bird/rate/max 13000 
+ 	 	 	 	 /5-bird/rate/min 3000 
+ 	 	 	 	 /5-bird/view/color/border 0 
+ 	 	 	 	 /5-bird/view/color/contentBackground 0 
+ 	 	 	 	 /5-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /5-bird/view/color/toolbarText 0 
+ 	 	 	 	 /5-bird/view/freeze 0 
+ 	 	 	 	 /5-bird/view/size 150 70 
+ # 
+ # Module /4-bird 
+ 	 	 	 	 /4-bird/interpolate 0 
+ 	 	 	 	 /4-bird/max 18000.000000 
+ 	 	 	 	 /4-bird/min 1200.000000 
+ 	 	 	 	 /4-bird/on 1 
+ 	 	 	 	 /4-bird/rate/max 13000 
+ 	 	 	 	 /4-bird/rate/min 3000 
+ 	 	 	 	 /4-bird/view/color/border 0 
+ 	 	 	 	 /4-bird/view/color/contentBackground 0 
+ 	 	 	 	 /4-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /4-bird/view/color/toolbarText 0 
+ 	 	 	 	 /4-bird/view/freeze 0 
+ 	 	 	 	 /4-bird/view/size 150 70 
+ # 
+ # Module /3-bird 
+ 	 	 	 	 /3-bird/interpolate 0 
+ 	 	 	 	 /3-bird/max 18000.000000 
+ 	 	 	 	 /3-bird/min 1200.000000 
+ 	 	 	 	 /3-bird/on 1 
+ 	 	 	 	 /3-bird/rate/max 13000 
+ 	 	 	 	 /3-bird/rate/min 3000 
+ 	 	 	 	 /3-bird/view/color/border 0 
+ 	 	 	 	 /3-bird/view/color/contentBackground 0 
+ 	 	 	 	 /3-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /3-bird/view/color/toolbarText 0 
+ 	 	 	 	 /3-bird/view/freeze 0 
+ 	 	 	 	 /3-bird/view/size 150 70 
+ # 
+ # Module /2-bird 
+ 	 	 	 	 /2-bird/interpolate 0 
+ 	 	 	 	 /2-bird/max 18000.000000 
+ 	 	 	 	 /2-bird/min 1200.000000 
+ 	 	 	 	 /2-bird/on 1 
+ 	 	 	 	 /2-bird/rate/max 13000 
+ 	 	 	 	 /2-bird/rate/min 3000 
+ 	 	 	 	 /2-bird/view/color/border 0 
+ 	 	 	 	 /2-bird/view/color/contentBackground 0 
+ 	 	 	 	 /2-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /2-bird/view/color/toolbarText 0 
+ 	 	 	 	 /2-bird/view/freeze 0 
+ 	 	 	 	 /2-bird/view/size 150 70 
+ # 
+ # Module /1-bird 
+ 	 	 	 	 /1-bird/interpolate 0 
+ 	 	 	 	 /1-bird/max 18000.000000 
+ 	 	 	 	 /1-bird/min 1200.000000 
+ 	 	 	 	 /1-bird/on 1 
+ 	 	 	 	 /1-bird/rate/max 13000 
+ 	 	 	 	 /1-bird/rate/min 3000 
+ 	 	 	 	 /1-bird/view/color/border 0 
+ 	 	 	 	 /1-bird/view/color/contentBackground 0 
+ 	 	 	 	 /1-bird/view/color/toolbarBackground 0 
+ 	 	 	 	 /1-bird/view/color/toolbarText 0 
+ 	 	 	 	 /1-bird/view/freeze 0 
+ 	 	 	 	 /1-bird/view/size 150 70 
+ # 
+ # Module /wetBirds 
+ 	 	 	 	 /wetBirds/numInputs 8 
+ 	 	 	 	 /wetBirds/numOutputs 8 
+ 	 	 	 	 /wetBirds/audio/gain 99.000000 
+ 	 	 	 	 /wetBirds/audio/mute 0 
+ 	 	 	 	 /wetBirds/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /wetBirds/fdn/filtergain -0.078995 
+ 	 	 	 	 /wetBirds/fdn/filtertype bandpass 
+ 	 	 	 	 /wetBirds/fdn/frequency 159.618591 
+ 	 	 	 	 /wetBirds/fdn/modulation/active 1 
+ 	 	 	 	 /wetBirds/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /wetBirds/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /wetBirds/fdn/q 0.054497 
+ 	 	 	 	 /wetBirds/input/filtergain -0.437817 
+ 	 	 	 	 /wetBirds/input/filtertype lowpass 
+ 	 	 	 	 /wetBirds/input/frequency 2999.039551 
+ 	 	 	 	 /wetBirds/input/q 0.449100 
+ 	 	 	 	 /wetBirds/interpolationtime 20.000000 
+ 	 	 	 	 /wetBirds/output.1/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.10/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.11/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.12/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.13/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.14/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.15/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.16/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.17/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.18/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.19/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.2/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.20/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.21/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.22/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.23/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.24/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.3/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.4/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.5/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.6/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.7/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.8/gain 100.000000 
+ 	 	 	 	 /wetBirds/output.9/gain 100.000000 
+ 	 	 	 	 /wetBirds/predelay 0.000000 
+ 	 	 	 	 /wetBirds/t60 0.850000 
+ 	 	 	 	 /wetBirds/view/color/border 0 
+ 	 	 	 	 /wetBirds/view/color/contentBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarBackground 0 
+ 	 	 	 	 /wetBirds/view/color/toolbarText 0 
+ 	 	 	 	 /wetBirds/view/freeze 0 
+ 	 	 	 	 /wetBirds/view/size 300 70 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 96.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/filtergain -0.173577 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 1152.291992 
+ 	 	 	 	 /filter~/q 0.379264 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /harmonicShifter~ 
+ 	 	 	 	 /harmonicShifter~/bypass 0 
+ 	 	 	 	 /harmonicShifter~/factors 1.062500 1.142402 1.083333 2.049268 2.100000 2.977529 7.430530 6.051891 
+ 	 	 	 	 /harmonicShifter~/gain 96.000000 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -14.391224 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -23.074230 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -23.513498 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -26.457821 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -21.188755 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -22.798145 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -27.589884 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -10.617097 
+ 	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 1 
+ 	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
+ 	 	 	 	 /harmonicShifter~/limiter/mode 0 
+ 	 	 	 	 /harmonicShifter~/limiter/postamp -2.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/preamp 6.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/release 300.000000 
+ 	 	 	 	 /harmonicShifter~/limiter/threshold -0.500000 
+ 	 	 	 	 /harmonicShifter~/mix 100.000000 
+ 	 	 	 	 /harmonicShifter~/mute 0 
+ 	 	 	 	 /harmonicShifter~/shifts 0.000000 0.000000 0.000000 0.000000 0.000000 800.000000 0.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/view/color/border 0 
+ 	 	 	 	 /harmonicShifter~/view/color/contentBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /harmonicShifter~/view/color/toolbarText 0 
+ 	 	 	 	 /harmonicShifter~/view/freeze 0 
+ 	 	 	 	 /harmonicShifter~/view/size 300 70 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 36 
+ 	 	 	 	 /au.rvrb/dry 84 
+ 	 	 	 	 /au.rvrb/gain 96.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 0 
+ 	 	 	 	 /au.rvrb/view/color/border 0 
+ 	 	 	 	 /au.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/size 300 70 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 3237 
+ 	 	 	 	 /au-fShift/max 100.000000 
+ 	 	 	 	 /au-fShift/min -100.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 6387 
+ 	 	 	 	 /au-fShift/rate/min 1962 
+ 	 	 	 	 /au-fShift/view/color/border 0 
+ 	 	 	 	 /au-fShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/size 150 70 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 4671 
+ 	 	 	 	 /au-pShift/max 3.000000 
+ 	 	 	 	 /au-pShift/min -3.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 1389 
+ 	 	 	 	 /au-pShift/view/color/border 0 
+ 	 	 	 	 /au-pShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/size 150 70 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 1.413701 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 31.420898 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 100.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/size 300 70 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Disgust" 
+ 
+ 
+ 	 	 	 	 /CONFIG /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 1 /postLPCPitch 99 1 /LPC-wet-out 99 1 /spectralShiftHelp~ 99 1 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 0 /wetBirds 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /monitor.rvrb 99 0 /in 99 0 /au.rvrb 99 0 /au-fShift 99 0 /au-pShift 99 0 /drone-Post-pitch 99 0 /drone-Pre-pitch 99 0 /outAu1 99 0 /outAu-dry 99 0 /randDecay1 99 0 /randDecay2 99 0 /evelope 99 0 /mungCloud 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 34.000000 
+ 	 	 	 	 /shpidel~/audio/mute 0 
+ 	 	 	 	 /shpidel~/delay/feedback 69 
+ 	 	 	 	 /shpidel~/delay/time 152 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 1 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/color/border 0 
+ 	 	 	 	 /shpidel~/view/color/contentBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarText 0 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/size 300 70 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 0 
+ 	 	 	 	 /LPCfilter~/filtergain -0.173577 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 4893.899414 
+ 	 	 	 	 /LPCfilter~/q 0.623193 
+ 	 	 	 	 /LPCfilter~/view/color/border 0 
+ 	 	 	 	 /LPCfilter~/view/color/contentBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarText 0 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/size 300 70 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 0 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 66 
+ 	 	 	 	 /LPC1/pGlide 0 
+ 	 	 	 	 /LPC1/pShift 5.021393 
+ 	 	 	 	 /LPC1/thresh 0.963893 
+ 	 	 	 	 /LPC1/view/color/border 0 
+ 	 	 	 	 /LPC1/view/color/contentBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarText 0 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/size 150 70 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 9 
+ 	 	 	 	 /lpc1-postFreq-rand/max -825.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 297.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/size 150 70 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 78 
+ 	 	 	 	 /lpc1-postPitch-rand/max 8.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -6.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/size 150 70 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 0 
+ 	 	 	 	 /lpcVerb/dry 126 
+ 	 	 	 	 /lpcVerb/gain 89.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 0 
+ 	 	 	 	 /lpcVerb/view/color/border 0 
+ 	 	 	 	 /lpcVerb/view/color/contentBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarText 0 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/size 300 70 
+ 	 	 	 	 /lpcVerb/wet 0 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 1083 
+ 	 	 	 	 /lpc1/max 6.000000 
+ 	 	 	 	 /lpc1/min -57.000000 
+ 	 	 	 	 /lpc1/on 1 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/view/color/border 0 
+ 	 	 	 	 /lpc1/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/size 150 70 
+ # 
+ # Module /lpc-dryOUT 
+ 	 	 	 	 /lpc-dryOUT/audio/active 1 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 100.610390 
+ 	 	 	 	 /lpc-dryOUT/balance 0.000000 
+ 	 	 	 	 /lpc-dryOUT/ch.1 4 
+ 	 	 	 	 /lpc-dryOUT/ch.2 8 
+ 	 	 	 	 /lpc-dryOUT/limiter/active 0 
+ 	 	 	 	 /lpc-dryOUT/limiter/dcblocker/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/lookahead 64 
+ 	 	 	 	 /lpc-dryOUT/limiter/mode exponential 
+ 	 	 	 	 /lpc-dryOUT/limiter/postamp 0.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/preamp 6.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/release 300.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/threshold -6.000000 
+ 	 	 	 	 /lpc-dryOUT/record/filetype aiff 
+ 	 	 	 	 /lpc-dryOUT/record/samptype int24 
+ 	 	 	 	 /lpc-dryOUT/saturation/active 0 
+ 	 	 	 	 /lpc-dryOUT/saturation/depth 10.000000 
+ 	 	 	 	 /lpc-dryOUT/view/color/border 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/contentBackground 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/toolbarText 0 
+ 	 	 	 	 /lpc-dryOUT/view/freeze 0 
+ 	 	 	 	 /lpc-dryOUT/view/size 300 140 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -60.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 20 
+ 	 	 	 	 /postLPCPitch/frequency/scale 7.842560 
+ 	 	 	 	 /postLPCPitch/frequency/shift 92.617126 
+ 	 	 	 	 /postLPCPitch/gain 90.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 47.000000 
+ 	 	 	 	 /postLPCPitch/mute 0 
+ 	 	 	 	 /postLPCPitch/view/color/border 0 
+ 	 	 	 	 /postLPCPitch/view/color/contentBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarText 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/size 300 70 
+ # 
+ # Module /LPC-wet-out 
+ 	 	 	 	 /LPC-wet-out/audio/active 1 
+ 	 	 	 	 /LPC-wet-out/audio/gain 100.610405 
+ 	 	 	 	 /LPC-wet-out/balance 0.000000 
+ 	 	 	 	 /LPC-wet-out/ch.1 1 
+ 	 	 	 	 /LPC-wet-out/ch.2 3 
+ 	 	 	 	 /LPC-wet-out/limiter/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/lookahead 64 
+ 	 	 	 	 /LPC-wet-out/limiter/mode exponential 
+ 	 	 	 	 /LPC-wet-out/limiter/postamp 0.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/preamp 6.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/release 300.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/threshold -6.000000 
+ 	 	 	 	 /LPC-wet-out/record/filetype aiff 
+ 	 	 	 	 /LPC-wet-out/record/samptype int24 
+ 	 	 	 	 /LPC-wet-out/saturation/active 1 
+ 	 	 	 	 /LPC-wet-out/saturation/depth 10.000000 
+ 	 	 	 	 /LPC-wet-out/view/color/border 0 
+ 	 	 	 	 /LPC-wet-out/view/color/contentBackground 0 
+ 	 	 	 	 /LPC-wet-out/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC-wet-out/view/color/toolbarText 0 
+ 	 	 	 	 /LPC-wet-out/view/freeze 0 
+ 	 	 	 	 /LPC-wet-out/view/size 300 140 
+ # 
+ # Module /spectralShiftHelp~ 
+ 	 	 	 	 /spectralShiftHelp~/bypass 0 
+ 	 	 	 	 /spectralShiftHelp~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftHelp~/feedback/time 10 
+ 	 	 	 	 /spectralShiftHelp~/frequency/scale -12.000000 
+ 	 	 	 	 /spectralShiftHelp~/frequency/shift 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/gain 77.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftHelp~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftHelp~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftHelp~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/mix 100.000000 
+ 	 	 	 	 /spectralShiftHelp~/mute 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/border 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftHelp~/view/freeze 0 
+ 	 	 	 	 /spectralShiftHelp~/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "LPC-Comedy" 
+ 
+ 
+ 	 	 	 	 /CONFIG /mdly.Velocity 99 1 /damp 99 1 /pBend 99 1 /mdlys.env~ 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 1 /postLPCPitch 99 1 /LPC-wet-out 99 1 /spectralShiftHelp~ 99 1 0.300000 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 0 /wetBirds 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /monitor.rvrb 99 0 /in 99 0 /au.rvrb 99 0 /au-fShift 99 0 /au-pShift 99 0 /drone-Post-pitch 99 0 /drone-Pre-pitch 99 0 /outAu1 99 0 /outAu-dry 99 0 /randDecay1 99 0 /randDecay2 99 0 /evelope 99 0 /mungCloud 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /mdly.Velocity 
+ 	 	 	 	 /mdly.Velocity/function linear 
+ 	 	 	 	 /mdly.Velocity/function/symmetry none 
+ 	 	 	 	 /mdly.Velocity/function/parameter2 0.000000 
+ 	 	 	 	 /mdly.Velocity/function/parameter1 1.145000 
+ 	 	 	 	 /mdly.Velocity/bypass 0 
+ 	 	 	 	 /mdly.Velocity/clip 1 
+ 	 	 	 	 /mdly.Velocity/mute 0 
+ 	 	 	 	 /mdly.Velocity/offset 0.000000 
+ 	 	 	 	 /mdly.Velocity/pre-slide/down 0 
+ 	 	 	 	 /mdly.Velocity/pre-slide/up 1 
+ 	 	 	 	 /mdly.Velocity/ramp 0 
+ 	 	 	 	 /mdly.Velocity/scale/input/max 0.000000 
+ 	 	 	 	 /mdly.Velocity/scale/input/min 0.000000 
+ 	 	 	 	 /mdly.Velocity/scale/max 1.000000 
+ 	 	 	 	 /mdly.Velocity/scale/min 0.000000 
+ 	 	 	 	 /mdly.Velocity/scale/mode 1 
+ 	 	 	 	 /mdly.Velocity/scale/window 2000 
+ 	 	 	 	 /mdly.Velocity/slide/down 2 
+ 	 	 	 	 /mdly.Velocity/slide/up 0 
+ 	 	 	 	 /mdly.Velocity/view/color/border 0 
+ 	 	 	 	 /mdly.Velocity/view/color/contentBackground 0 
+ 	 	 	 	 /mdly.Velocity/view/color/toolbarBackground 0 
+ 	 	 	 	 /mdly.Velocity/view/color/toolbarText 0 
+ 	 	 	 	 /mdly.Velocity/view/freeze 0 
+ 	 	 	 	 /mdly.Velocity/view/size 300 70 
+ 	 	 	 	 /mdly.Velocity/visualize 1 
+ # 
+ # Module /damp 
+ 	 	 	 	 /damp/function linear 
+ 	 	 	 	 /damp/function/symmetry none 
+ 	 	 	 	 /damp/function/parameter2 0.000000 
+ 	 	 	 	 /damp/function/parameter1 1.145000 
+ 	 	 	 	 /damp/bypass 0 
+ 	 	 	 	 /damp/clip 1 
+ 	 	 	 	 /damp/mute 0 
+ 	 	 	 	 /damp/offset 0.000000 
+ 	 	 	 	 /damp/pre-slide/down 3 
+ 	 	 	 	 /damp/pre-slide/up 2 
+ 	 	 	 	 /damp/ramp 15 
+ 	 	 	 	 /damp/scale/input/max 0.000000 
+ 	 	 	 	 /damp/scale/input/min 0.000000 
+ 	 	 	 	 /damp/scale/max 68.000000 
+ 	 	 	 	 /damp/scale/min 31.200001 
+ 	 	 	 	 /damp/scale/mode 1 
+ 	 	 	 	 /damp/scale/window 2000 
+ 	 	 	 	 /damp/slide/down 2 
+ 	 	 	 	 /damp/slide/up 0 
+ 	 	 	 	 /damp/view/color/border 0 
+ 	 	 	 	 /damp/view/color/contentBackground 0 
+ 	 	 	 	 /damp/view/color/toolbarBackground 0 
+ 	 	 	 	 /damp/view/color/toolbarText 0 
+ 	 	 	 	 /damp/view/freeze 0 
+ 	 	 	 	 /damp/view/size 300 70 
+ 	 	 	 	 /damp/visualize 0 
+ # 
+ # Module /pBend 
+ 	 	 	 	 /pBend/function linear 
+ 	 	 	 	 /pBend/function/symmetry none 
+ 	 	 	 	 /pBend/function/parameter2 0.000000 
+ 	 	 	 	 /pBend/function/parameter1 1.145000 
+ 	 	 	 	 /pBend/bypass 0 
+ 	 	 	 	 /pBend/clip 0 
+ 	 	 	 	 /pBend/mute 0 
+ 	 	 	 	 /pBend/offset 0.000000 
+ 	 	 	 	 /pBend/pre-slide/down 0 
+ 	 	 	 	 /pBend/pre-slide/up 20 
+ 	 	 	 	 /pBend/ramp 82 
+ 	 	 	 	 /pBend/scale/input/max 0.000000 
+ 	 	 	 	 /pBend/scale/input/min 0.000000 
+ 	 	 	 	 /pBend/scale/max -442.000000 
+ 	 	 	 	 /pBend/scale/min 0.000000 
+ 	 	 	 	 /pBend/scale/mode 1 
+ 	 	 	 	 /pBend/scale/window 2000 
+ 	 	 	 	 /pBend/slide/down 0 
+ 	 	 	 	 /pBend/slide/up 0 
+ 	 	 	 	 /pBend/view/color/border 0 
+ 	 	 	 	 /pBend/view/color/contentBackground 0 
+ 	 	 	 	 /pBend/view/color/toolbarBackground 0 
+ 	 	 	 	 /pBend/view/color/toolbarText 0 
+ 	 	 	 	 /pBend/view/freeze 0 
+ 	 	 	 	 /pBend/view/size 300 70 
+ 	 	 	 	 /pBend/visualize 1 
+ # 
+ # Module /mdlys.env~ 
+ 	 	 	 	 /mdlys.env~/clip 1 
+ 	 	 	 	 /mdlys.env~/env/cutoff 900 
+ 	 	 	 	 /mdlys.env~/env/on 1 
+ 	 	 	 	 /mdlys.env~/env/period 20 
+ 	 	 	 	 /mdlys.env~/gain 100.000000 
+ 	 	 	 	 /mdlys.env~/pre-slide/down 2 
+ 	 	 	 	 /mdlys.env~/pre-slide/up 2 
+ 	 	 	 	 /mdlys.env~/scale/input/max 0.000000 
+ 	 	 	 	 /mdlys.env~/scale/input/min 0.000000 
+ 	 	 	 	 /mdlys.env~/scale/max 1.000000 
+ 	 	 	 	 /mdlys.env~/scale/min 0.000000 
+ 	 	 	 	 /mdlys.env~/scale/mode 1 
+ 	 	 	 	 /mdlys.env~/scale/window 2000 
+ 	 	 	 	 /mdlys.env~/slide/down 0 
+ 	 	 	 	 /mdlys.env~/slide/up 0 
+ 	 	 	 	 /mdlys.env~/view/color/border 0 
+ 	 	 	 	 /mdlys.env~/view/color/contentBackground 0 
+ 	 	 	 	 /mdlys.env~/view/color/toolbarBackground 0 
+ 	 	 	 	 /mdlys.env~/view/color/toolbarText 0 
+ 	 	 	 	 /mdlys.env~/view/freeze 0 
+ 	 	 	 	 /mdlys.env~/view/size 300 70 
+ 	 	 	 	 /mdlys.env~/visualize 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 28.000000 
+ 	 	 	 	 /shpidel~/audio/mute 0 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 508 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/color/border 0 
+ 	 	 	 	 /shpidel~/view/color/contentBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarBackground 0 
+ 	 	 	 	 /shpidel~/view/color/toolbarText 0 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/size 300 70 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 0 
+ 	 	 	 	 /LPCfilter~/filtergain 3.467675 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/q 0.616875 
+ 	 	 	 	 /LPCfilter~/view/color/border 0 
+ 	 	 	 	 /LPCfilter~/view/color/contentBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPCfilter~/view/color/toolbarText 0 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/size 300 70 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 90.000000 
+ 	 	 	 	 /LPC1/audio/mute 0 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 90 
+ 	 	 	 	 /LPC1/pGlide 204 
+ 	 	 	 	 /LPC1/pShift 20.977646 
+ 	 	 	 	 /LPC1/thresh 0.157901 
+ 	 	 	 	 /LPC1/view/color/border 0 
+ 	 	 	 	 /LPC1/view/color/contentBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC1/view/color/toolbarText 0 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/size 150 70 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/size 150 70 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 1736 
+ 	 	 	 	 /lpc1-postPitch-rand/max -4.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min 4.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/border 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/size 150 70 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 27 
+ 	 	 	 	 /lpcVerb/dry 115 
+ 	 	 	 	 /lpcVerb/gain 89.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 0 
+ 	 	 	 	 /lpcVerb/view/color/border 0 
+ 	 	 	 	 /lpcVerb/view/color/contentBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpcVerb/view/color/toolbarText 0 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/size 300 70 
+ 	 	 	 	 /lpcVerb/wet 68 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2323 
+ 	 	 	 	 /lpc1/max 48.000000 
+ 	 	 	 	 /lpc1/min -5.000000 
+ 	 	 	 	 /lpc1/on 1 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1048 
+ 	 	 	 	 /lpc1/view/color/border 0 
+ 	 	 	 	 /lpc1/view/color/contentBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc1/view/color/toolbarText 0 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/size 150 70 
+ # 
+ # Module /lpc-dryOUT 
+ 	 	 	 	 /lpc-dryOUT/audio/active 1 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 103.909081 
+ 	 	 	 	 /lpc-dryOUT/balance 0.000000 
+ 	 	 	 	 /lpc-dryOUT/ch.1 4 
+ 	 	 	 	 /lpc-dryOUT/ch.2 8 
+ 	 	 	 	 /lpc-dryOUT/limiter/active 0 
+ 	 	 	 	 /lpc-dryOUT/limiter/dcblocker/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/lookahead 64 
+ 	 	 	 	 /lpc-dryOUT/limiter/mode exponential 
+ 	 	 	 	 /lpc-dryOUT/limiter/postamp 0.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/preamp 6.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/release 300.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/threshold -6.000000 
+ 	 	 	 	 /lpc-dryOUT/record/filetype aiff 
+ 	 	 	 	 /lpc-dryOUT/record/samptype int24 
+ 	 	 	 	 /lpc-dryOUT/saturation/active 0 
+ 	 	 	 	 /lpc-dryOUT/saturation/depth 10.000000 
+ 	 	 	 	 /lpc-dryOUT/view/color/border 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/contentBackground 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/toolbarBackground 0 
+ 	 	 	 	 /lpc-dryOUT/view/color/toolbarText 0 
+ 	 	 	 	 /lpc-dryOUT/view/freeze 0 
+ 	 	 	 	 /lpc-dryOUT/view/size 300 140 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 32 
+ 	 	 	 	 /postLPCPitch/frequency/scale 1.658112 
+ 	 	 	 	 /postLPCPitch/frequency/shift 95.853424 
+ 	 	 	 	 /postLPCPitch/gain 94.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 51.000000 
+ 	 	 	 	 /postLPCPitch/mute 0 
+ 	 	 	 	 /postLPCPitch/view/color/border 0 
+ 	 	 	 	 /postLPCPitch/view/color/contentBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /postLPCPitch/view/color/toolbarText 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/size 300 70 
+ # 
+ # Module /LPC-wet-out 
+ 	 	 	 	 /LPC-wet-out/audio/active 1 
+ 	 	 	 	 /LPC-wet-out/audio/gain 107.207794 
+ 	 	 	 	 /LPC-wet-out/balance 0.000000 
+ 	 	 	 	 /LPC-wet-out/ch.1 1 
+ 	 	 	 	 /LPC-wet-out/ch.2 3 
+ 	 	 	 	 /LPC-wet-out/limiter/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/lookahead 64 
+ 	 	 	 	 /LPC-wet-out/limiter/mode exponential 
+ 	 	 	 	 /LPC-wet-out/limiter/postamp 0.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/preamp 6.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/release 300.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/threshold -6.000000 
+ 	 	 	 	 /LPC-wet-out/record/filetype aiff 
+ 	 	 	 	 /LPC-wet-out/record/samptype int24 
+ 	 	 	 	 /LPC-wet-out/saturation/active 1 
+ 	 	 	 	 /LPC-wet-out/saturation/depth 10.000000 
+ 	 	 	 	 /LPC-wet-out/view/color/border 0 
+ 	 	 	 	 /LPC-wet-out/view/color/contentBackground 0 
+ 	 	 	 	 /LPC-wet-out/view/color/toolbarBackground 0 
+ 	 	 	 	 /LPC-wet-out/view/color/toolbarText 0 
+ 	 	 	 	 /LPC-wet-out/view/freeze 0 
+ 	 	 	 	 /LPC-wet-out/view/size 300 140 
+ # 
+ # Module /spectralShiftHelp~ 
+ 	 	 	 	 /spectralShiftHelp~/bypass 0 
+ 	 	 	 	 /spectralShiftHelp~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftHelp~/feedback/time 10 
+ 	 	 	 	 /spectralShiftHelp~/frequency/scale -12.000000 
+ 	 	 	 	 /spectralShiftHelp~/frequency/shift 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/gain 77.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftHelp~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftHelp~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftHelp~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftHelp~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftHelp~/mix 100.000000 
+ 	 	 	 	 /spectralShiftHelp~/mute 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/border 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftHelp~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftHelp~/view/freeze 0 
+ 	 	 	 	 /spectralShiftHelp~/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Karuna" 
+ 
+ 
+ 	 	 	 	 /CONFIG /mdly.Velocity 99 0 /damp 99 0 /pBend 99 0 /mdlys.env~ 99 0 /nav.rand 99 0 /nav.rand.1 99 0 /nav.rand.2 99 0 /nav.rand.3 99 0 /shpidel~ 99 0 /LPCfilter~ 99 0 /LPC1 99 0 /lpc1-postFreq-rand 99 0 /lpc1-postPitch-rand 99 0 /lpcVerb 99 0 /lpc1 99 0 /lpc-dryOUT 99 0 /postLPCPitch 99 0 /LPC-wet-out 99 0 /spectralShiftHelp~ 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /birdsOut 99 0 /wetBirds 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /monitor.rvrb 99 0 /in 99 0 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 1 /outAu-dry 99 1 /randDecay1 99 0 /randDecay2 99 0 /evelope 99 0 /mungCloud 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 98 
+ 	 	 	 	 /au.rvrb/dry 37 
+ 	 	 	 	 /au.rvrb/gain 100.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 0 
+ 	 	 	 	 /au.rvrb/view/color/border 0 
+ 	 	 	 	 /au.rvrb/view/color/contentBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarBackground 0 
+ 	 	 	 	 /au.rvrb/view/color/toolbarText 0 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/size 300 70 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 90.000000 
+ 	 	 	 	 /au-fShift/min -90.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/color/border 0 
+ 	 	 	 	 /au-fShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-fShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/size 150 70 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 3.000000 
+ 	 	 	 	 /au-pShift/min -3.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/color/border 0 
+ 	 	 	 	 /au-pShift/view/color/contentBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarBackground 0 
+ 	 	 	 	 /au-pShift/view/color/toolbarText 0 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/size 150 70 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale -0.173865 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 40.073200 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 100.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Post-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/size 300 70 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 53.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/border 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/contentBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /drone-Pre-pitch/view/color/toolbarText 0 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/size 300 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init-5.1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /in 99 1 /au.rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 1 /outAu-dry 99 1 /mungCloud 99 1 /eggOut 99 1 /damp 99 1 /pBend 99 1 /nav.env~ 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 1 /postLPCPitch 99 1 /LPC-wet-out 99 1 /myModule 99 1 /linear-small 99 1 /linear-Big 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /in 
+ 	 	 	 	 /in/audio/bypass 0 
+ 	 	 	 	 /in/audio/gain 100.000000 
+ 	 	 	 	 /in/audio/mix 100.000000 
+ 	 	 	 	 /in/audio/mute 0 
+ 	 	 	 	 /in/filtergain 0.000000 
+ 	 	 	 	 /in/filtertype highpass 
+ 	 	 	 	 /in/frequency 80.000000 
+ 	 	 	 	 /in/q 0.800000 
+ 	 	 	 	 /in/view/freeze 0 
+ 	 	 	 	 /in/view/highlight none 
+ # 
+ # Module /au.rvrb 
+ 	 	 	 	 /au.rvrb/bypass 0 
+ 	 	 	 	 /au.rvrb/damp 127 
+ 	 	 	 	 /au.rvrb/decay 98 
+ 	 	 	 	 /au.rvrb/dry 37 
+ 	 	 	 	 /au.rvrb/gain 100.000000 
+ 	 	 	 	 /au.rvrb/mix 100.000000 
+ 	 	 	 	 /au.rvrb/mute 1 
+ 	 	 	 	 /au.rvrb/view/freeze 0 
+ 	 	 	 	 /au.rvrb/view/highlight none 
+ 	 	 	 	 /au.rvrb/wet 127 
+ 	 	 	 	 /au.rvrb/width 127 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 10000 
+ 	 	 	 	 /au-fShift/max 80.000000 
+ 	 	 	 	 /au-fShift/min -80.000000 
+ 	 	 	 	 /au-fShift/on 0 
+ 	 	 	 	 /au-fShift/rate/max 9000 
+ 	 	 	 	 /au-fShift/rate/min 5000 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/highlight none 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 10000 
+ 	 	 	 	 /au-pShift/max 2.000000 
+ 	 	 	 	 /au-pShift/min -2.000000 
+ 	 	 	 	 /au-pShift/on 0 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 3000 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/highlight none 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 1 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale -1.964996 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift -0.947266 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 75.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/highlight none 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/highlight none 
+ # 
+ # Module /outAu1 
+ 	 	 	 	 /outAu1/audio/active 0 
+ 	 	 	 	 /outAu1/audio/gain 0.000000 
+ 	 	 	 	 /outAu1/balance 0.000000 
+ 	 	 	 	 /outAu1/ch.1 1 
+ 	 	 	 	 /outAu1/ch.2 2 
+ 	 	 	 	 /outAu1/limiter/active 1 
+ 	 	 	 	 /outAu1/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu1/limiter/lookahead 64 
+ 	 	 	 	 /outAu1/limiter/mode exponential 
+ 	 	 	 	 /outAu1/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu1/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu1/limiter/release 300.000000 
+ 	 	 	 	 /outAu1/limiter/threshold -1.000000 
+ 	 	 	 	 /outAu1/record/filetype aiff 
+ 	 	 	 	 /outAu1/record/samptype int24 
+ 	 	 	 	 /outAu1/saturation/active 1 
+ 	 	 	 	 /outAu1/saturation/depth 10.000000 
+ 	 	 	 	 /outAu1/view/freeze 0 
+ 	 	 	 	 /outAu1/view/highlight none 
+ # 
+ # Module /outAu-dry 
+ 	 	 	 	 /outAu-dry/audio/active 0 
+ 	 	 	 	 /outAu-dry/audio/gain 0.000000 
+ 	 	 	 	 /outAu-dry/balance 0.000000 
+ 	 	 	 	 /outAu-dry/ch.1 2 
+ 	 	 	 	 /outAu-dry/ch.2 5 
+ 	 	 	 	 /outAu-dry/limiter/active 1 
+ 	 	 	 	 /outAu-dry/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu-dry/limiter/lookahead 64 
+ 	 	 	 	 /outAu-dry/limiter/mode exponential 
+ 	 	 	 	 /outAu-dry/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu-dry/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu-dry/limiter/release 300.000000 
+ 	 	 	 	 /outAu-dry/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu-dry/record/filetype aiff 
+ 	 	 	 	 /outAu-dry/record/samptype int24 
+ 	 	 	 	 /outAu-dry/saturation/active 1 
+ 	 	 	 	 /outAu-dry/saturation/depth 10.000000 
+ 	 	 	 	 /outAu-dry/view/freeze 0 
+ 	 	 	 	 /outAu-dry/view/highlight none 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder 1.000000 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 76.000000 
+ 	 	 	 	 /mungCloud/audio/mute 1 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file 0 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/mod/delay 4000.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.000000 
+ 	 	 	 	 /mungCloud/mod/pitch 1.000000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 2.000000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 400.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/pan 1 
+ 	 	 	 	 /mungCloud/param/delay 3796.005127 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.000000 
+ 	 	 	 	 /mungCloud/param/pitch 1.000010 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000010 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 3.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 120 
+ 	 	 	 	 /mungCloud/param/size 596 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 14 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/highlight none 
+ 	 	 	 	 /mungCloud/voices 40 
+ # 
+ # Module /eggOut 
+ 	 	 	 	 /eggOut/audio/active 0 
+ 	 	 	 	 /eggOut/audio/gain 0.000000 
+ 	 	 	 	 /eggOut/audio/mute 0 
+ 	 	 	 	 /eggOut/limiter/active 0 
+ 	 	 	 	 /eggOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /eggOut/limiter/lookahead 64 
+ 	 	 	 	 /eggOut/limiter/mode exponential 
+ 	 	 	 	 /eggOut/limiter/postamp 0.000000 
+ 	 	 	 	 /eggOut/limiter/preamp 6.000000 
+ 	 	 	 	 /eggOut/limiter/release 300.000000 
+ 	 	 	 	 /eggOut/limiter/threshold -1.000000 
+ 	 	 	 	 /eggOut/numSpeakers 4 
+ 	 	 	 	 /eggOut/offset 0 
+ 	 	 	 	 /eggOut/record/filetype default 
+ 	 	 	 	 /eggOut/record/samptype default 
+ 	 	 	 	 /eggOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /eggOut/view/freeze 0 
+ 	 	 	 	 /eggOut/view/highlight none 
+ # 
+ # Module /damp 
+ 	 	 	 	 /damp/function linear 
+ 	 	 	 	 /damp/function/symmetry none 
+ 	 	 	 	 /damp/function/parameter2 0.000000 
+ 	 	 	 	 /damp/function/parameter1 1.145000 
+ 	 	 	 	 /damp/bypass 0 
+ 	 	 	 	 /damp/clip 1 
+ 	 	 	 	 /damp/mute 0 
+ 	 	 	 	 /damp/offset 0.000000 
+ 	 	 	 	 /damp/pre-slide/down 3 
+ 	 	 	 	 /damp/pre-slide/up 2 
+ 	 	 	 	 /damp/ramp 15 
+ 	 	 	 	 /damp/scale/input/max 0.000000 
+ 	 	 	 	 /damp/scale/input/min 0.000000 
+ 	 	 	 	 /damp/scale/max 69.999001 
+ 	 	 	 	 /damp/scale/min 32.000000 
+ 	 	 	 	 /damp/scale/mode 3 
+ 	 	 	 	 /damp/scale/window 1745 
+ 	 	 	 	 /damp/slide/down 2 
+ 	 	 	 	 /damp/slide/up 0 
+ 	 	 	 	 /damp/view/freeze 0 
+ 	 	 	 	 /damp/view/highlight none 
+ 	 	 	 	 /damp/visualize 0 
+ # 
+ # Module /pBend 
+ 	 	 	 	 /pBend/function linear 
+ 	 	 	 	 /pBend/function/symmetry 0 
+ 	 	 	 	 /pBend/function/parameter2 0.000000 
+ 	 	 	 	 /pBend/function/parameter1 1.145000 
+ 	 	 	 	 /pBend/bypass 0 
+ 	 	 	 	 /pBend/clip 0 
+ 	 	 	 	 /pBend/mute 0 
+ 	 	 	 	 /pBend/offset 0.000000 
+ 	 	 	 	 /pBend/pre-slide/down 0 
+ 	 	 	 	 /pBend/pre-slide/up 20 
+ 	 	 	 	 /pBend/ramp 10 
+ 	 	 	 	 /pBend/scale/input/max 0.000000 
+ 	 	 	 	 /pBend/scale/input/min 0.000000 
+ 	 	 	 	 /pBend/scale/max -299.000000 
+ 	 	 	 	 /pBend/scale/min 0.000000 
+ 	 	 	 	 /pBend/scale/mode 3 
+ 	 	 	 	 /pBend/scale/window 486 
+ 	 	 	 	 /pBend/slide/down 0 
+ 	 	 	 	 /pBend/slide/up 0 
+ 	 	 	 	 /pBend/view/freeze 0 
+ 	 	 	 	 /pBend/view/highlight none 
+ 	 	 	 	 /pBend/visualize 0 
+ # 
+ # Module /nav.env~ 
+ 	 	 	 	 /nav.env~/clip 1 
+ 	 	 	 	 /nav.env~/env/cutoff 850 
+ 	 	 	 	 /nav.env~/env/on 1 
+ 	 	 	 	 /nav.env~/env/period 20 
+ 	 	 	 	 /nav.env~/gain 100.000000 
+ 	 	 	 	 /nav.env~/pre-slide/down 2 
+ 	 	 	 	 /nav.env~/pre-slide/up 2 
+ 	 	 	 	 /nav.env~/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/max 1.000000 
+ 	 	 	 	 /nav.env~/scale/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/mode 3 
+ 	 	 	 	 /nav.env~/scale/window 1000 
+ 	 	 	 	 /nav.env~/slide/down 10 
+ 	 	 	 	 /nav.env~/slide/up 1 
+ 	 	 	 	 /nav.env~/view/freeze 0 
+ 	 	 	 	 /nav.env~/view/highlight none 
+ 	 	 	 	 /nav.env~/visualize 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 100.000000 
+ 	 	 	 	 /shpidel~/audio/mute 0 
+ 	 	 	 	 /shpidel~/delay/feedback 67 
+ 	 	 	 	 /shpidel~/delay/time 685 
+ 	 	 	 	 /shpidel~/loopDepth 10 
+ 	 	 	 	 /shpidel~/pitch/factor 16 
+ 	 	 	 	 /shpidel~/pitch/octave 0 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/alias /LPCfilter~/alias/remove 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 100.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 1548.000000 
+ 	 	 	 	 /LPCfilter~/q 1.000000 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight none 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 60 
+ 	 	 	 	 /LPC1/pGlide 10 
+ 	 	 	 	 /LPC1/pShift -0.196161 
+ 	 	 	 	 /LPC1/thresh 0.400000 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight none 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max 1.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min -1.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 2000 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight none 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postPitch-rand/max 1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 2000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight none 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/bypass 0 
+ 	 	 	 	 /lpcVerb/damp 127 
+ 	 	 	 	 /lpcVerb/decay 0 
+ 	 	 	 	 /lpcVerb/dry 127 
+ 	 	 	 	 /lpcVerb/gain 0.000000 
+ 	 	 	 	 /lpcVerb/mix 100.000000 
+ 	 	 	 	 /lpcVerb/mute 0 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight none 
+ 	 	 	 	 /lpcVerb/wet 0 
+ 	 	 	 	 /lpcVerb/width 127 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 200 
+ 	 	 	 	 /lpc1/max 1.000000 
+ 	 	 	 	 /lpc1/min -1.000000 
+ 	 	 	 	 /lpc1/on 1 
+ 	 	 	 	 /lpc1/rate/max 2000 
+ 	 	 	 	 /lpc1/rate/min 500 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight none 
+ # 
+ # Module /lpc-dryOUT 
+ 	 	 	 	 /lpc-dryOUT/audio/active 0 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 0.000000 
+ 	 	 	 	 /lpc-dryOUT/balance 0.000000 
+ 	 	 	 	 /lpc-dryOUT/ch.1 1 
+ 	 	 	 	 /lpc-dryOUT/ch.2 2 
+ 	 	 	 	 /lpc-dryOUT/limiter/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/dcblocker/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/lookahead 64 
+ 	 	 	 	 /lpc-dryOUT/limiter/mode exponential 
+ 	 	 	 	 /lpc-dryOUT/limiter/postamp 0.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/preamp 6.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/release 300.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/threshold -1.000000 
+ 	 	 	 	 /lpc-dryOUT/record/filetype aiff 
+ 	 	 	 	 /lpc-dryOUT/record/samptype int24 
+ 	 	 	 	 /lpc-dryOUT/saturation/active 1 
+ 	 	 	 	 /lpc-dryOUT/saturation/depth 10.000000 
+ 	 	 	 	 /lpc-dryOUT/view/freeze 0 
+ 	 	 	 	 /lpc-dryOUT/view/highlight none 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -60.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 10 
+ 	 	 	 	 /postLPCPitch/frequency/scale 0.227112 
+ 	 	 	 	 /postLPCPitch/frequency/shift -0.471283 
+ 	 	 	 	 /postLPCPitch/gain 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 100.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight none 
+ # 
+ # Module /LPC-wet-out 
+ 	 	 	 	 /LPC-wet-out/audio/active 0 
+ 	 	 	 	 /LPC-wet-out/audio/gain 0.000000 
+ 	 	 	 	 /LPC-wet-out/balance 0.000000 
+ 	 	 	 	 /LPC-wet-out/ch.1 1 
+ 	 	 	 	 /LPC-wet-out/ch.2 2 
+ 	 	 	 	 /LPC-wet-out/limiter/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/lookahead 64 
+ 	 	 	 	 /LPC-wet-out/limiter/mode exponential 
+ 	 	 	 	 /LPC-wet-out/limiter/postamp 0.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/preamp 6.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/release 300.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/threshold -1.000000 
+ 	 	 	 	 /LPC-wet-out/record/filetype aiff 
+ 	 	 	 	 /LPC-wet-out/record/samptype int24 
+ 	 	 	 	 /LPC-wet-out/saturation/active 1 
+ 	 	 	 	 /LPC-wet-out/saturation/depth 10.000000 
+ 	 	 	 	 /LPC-wet-out/view/freeze 0 
+ 	 	 	 	 /LPC-wet-out/view/highlight none 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/alias /myModule/alias/remove 
+ 	 	 	 	 /myModule/clip 1 
+ 	 	 	 	 /myModule/env/cutoff 850 
+ 	 	 	 	 /myModule/env/on 1 
+ 	 	 	 	 /myModule/env/period 20 
+ 	 	 	 	 /myModule/gain 100.000000 
+ 	 	 	 	 /myModule/pre-slide/down 2 
+ 	 	 	 	 /myModule/pre-slide/up 2 
+ 	 	 	 	 /myModule/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/scale/max 1.000000 
+ 	 	 	 	 /myModule/scale/min 0.000000 
+ 	 	 	 	 /myModule/scale/mode 3 
+ 	 	 	 	 /myModule/scale/window 1516 
+ 	 	 	 	 /myModule/slide/down 10 
+ 	 	 	 	 /myModule/slide/up 1 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/highlight none 
+ 	 	 	 	 /myModule/visualize 1 
+ # 
+ # Module /linear-small 
+ 	 	 	 	 /linear-small/audio/gain 58.000000 
+ 	 	 	 	 /linear-small/audio/mute 0 
+ 	 	 	 	 /linear-small/buffer/file dialog_box 
+ 	 	 	 	 /linear-small/grain/duration 146.000000 
+ 	 	 	 	 /linear-small/grain/overlap 45 
+ 	 	 	 	 /linear-small/grain/trigger 0.000000 
+ 	 	 	 	 /linear-small/mod/gain 20.000000 
+ 	 	 	 	 /linear-small/mod/onsetVar -149.000000 
+ 	 	 	 	 /linear-small/mod/pitch -532.000000 
+ 	 	 	 	 /linear-small/mod/pitchVar 10.000000 
+ 	 	 	 	 /linear-small/mod/position 0.000000 
+ 	 	 	 	 /linear-small/mod/size 370.000000 
+ 	 	 	 	 /linear-small/mod/speed 1.300000 
+ 	 	 	 	 /linear-small/mod/trigger 40.000000 
+ 	 	 	 	 /linear-small/mod/turn 5.000000 
+ 	 	 	 	 /linear-small/pitch/transpose 0.000000 
+ 	 	 	 	 /linear-small/pitch/variation 0.000000 
+ 	 	 	 	 /linear-small/position 0.000000 
+ 	 	 	 	 /linear-small/position/onset_variation 300.000000 
+ 	 	 	 	 /linear-small/position/speed 0.100000 
+ 	 	 	 	 /linear-small/turn 0.000000 
+ 	 	 	 	 /linear-small/view/freeze 0 
+ 	 	 	 	 /linear-small/view/highlight none 
+ # 
+ # Module /linear-Big 
+ 	 	 	 	 /linear-Big/audio/gain 0.000000 
+ 	 	 	 	 /linear-Big/audio/mute 0 
+ 	 	 	 	 /linear-Big/buffer/file dialog_box 
+ 	 	 	 	 /linear-Big/grain/duration 61.000000 
+ 	 	 	 	 /linear-Big/grain/overlap 45 
+ 	 	 	 	 /linear-Big/grain/trigger 0.000000 
+ 	 	 	 	 /linear-Big/mod/gain 20.000000 
+ 	 	 	 	 /linear-Big/mod/onsetVar 506.000000 
+ 	 	 	 	 /linear-Big/mod/pitch 0.000000 
+ 	 	 	 	 /linear-Big/mod/pitchVar 10.000000 
+ 	 	 	 	 /linear-Big/mod/position 0.000000 
+ 	 	 	 	 /linear-Big/mod/size 746.000000 
+ 	 	 	 	 /linear-Big/mod/speed -0.700000 
+ 	 	 	 	 /linear-Big/mod/trigger 39.000000 
+ 	 	 	 	 /linear-Big/mod/turn -6.000000 
+ 	 	 	 	 /linear-Big/pitch/transpose 0.000000 
+ 	 	 	 	 /linear-Big/pitch/variation 0.000000 
+ 	 	 	 	 /linear-Big/position 0.000000 
+ 	 	 	 	 /linear-Big/position/onset_variation 72.000000 
+ 	 	 	 	 /linear-Big/position/speed 1.000000 
+ 	 	 	 	 /linear-Big/turn 0.000000 
+ 	 	 	 	 /linear-Big/view/freeze 0 
+ 	 	 	 	 /linear-Big/view/highlight none 
+ # 
+ ######################## 
+ 
+ 

@@ -1,0 +1,472 @@
+
+ 
+ KEYCUE "ecology1-take1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /myUes 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /myUes 
+ 	 	 	 	 /myUes/view/freeze 0 
+ 	 	 	 	 /myUes/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Fliker-sync1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /myUes 99 1 /nav.oscroute.1 99 1 /nav.oscroute.2 99 1 /nav.oscroute.3 99 1 /nav.oscroute.4 99 1 /JR-speed 99 1 /ED-rogs-6 99 1 /nav.oscroute.5 99 1 /move 99 1 /Y1 99 1 /X1 99 1 /env1 99 1 /alg1 99 1 /position 99 1 /sources 99 1 /spatOut 99 1 /ambicontrol1 99 1 /nav.oscroute.6 99 1 /nav.oscroute.7 99 1 /JR-bang 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /myUes 
+ 	 	 	 	 /myUes/view/freeze 0 
+ 	 	 	 	 /myUes/view/highlight 0 
+ # 
+ # Module /nav.oscroute.1 
+ # 
+ # Module /nav.oscroute.2 
+ # 
+ # Module /nav.oscroute.3 
+ # 
+ # Module /nav.oscroute.4 
+ # 
+ # Module /JR-speed 
+ 	 	 	 	 /JR-speed/in/module/name 0 
+ 	 	 	 	 /JR-speed/in/module/instance 0 
+ 	 	 	 	 /JR-speed/function linear 
+ 	 	 	 	 /JR-speed/function/symmetry 0 
+ 	 	 	 	 /JR-speed/function/parameter2 0.000000 
+ 	 	 	 	 /JR-speed/function/parameter1 0.000000 
+ 	 	 	 	 /JR-speed/in/module/parameter 0 
+ 	 	 	 	 /JR-speed/in/direct 0.781250 
+ 	 	 	 	 /JR-speed/in/module/listindex 1 
+ 	 	 	 	 /JR-speed/mute 0 
+ 	 	 	 	 /JR-speed/offset 0.000000 
+ 	 	 	 	 /JR-speed/ramp/time 0 
+ 	 	 	 	 /JR-speed/scale/bypass 1 
+ 	 	 	 	 /JR-speed/scale/input/max 0.000000 
+ 	 	 	 	 /JR-speed/scale/input/min 65556.000000 
+ 	 	 	 	 /JR-speed/scale/max 1.000000 
+ 	 	 	 	 /JR-speed/scale/min 0.000000 
+ 	 	 	 	 /JR-speed/scale/mode 0 
+ 	 	 	 	 /JR-speed/slide/down 0 
+ 	 	 	 	 /JR-speed/slide/up 0 
+ 	 	 	 	 /JR-speed/view/freeze 0 
+ # 
+ # Module /ED-rogs-6 
+ 	 	 	 	 /ED-rogs-6/grain/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/pVar/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/pitch/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/position/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/size/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/speed/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/trig/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/turn/in/module/instance 0 
+ 	 	 	 	 /ED-rogs-6/grain/function 0 
+ 	 	 	 	 /ED-rogs-6/grain/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/function 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/pVar/function 0 
+ 	 	 	 	 /ED-rogs-6/pVar/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/pitch/function 0 
+ 	 	 	 	 /ED-rogs-6/pitch/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/position/function 0 
+ 	 	 	 	 /ED-rogs-6/position/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/size/function 0 
+ 	 	 	 	 /ED-rogs-6/size/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/speed/function 0 
+ 	 	 	 	 /ED-rogs-6/speed/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/trig/function 0 
+ 	 	 	 	 /ED-rogs-6/trig/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/turn/function 0 
+ 	 	 	 	 /ED-rogs-6/turn/function/symmetry 0 
+ 	 	 	 	 /ED-rogs-6/grain/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/position/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/size/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/speed/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/trig/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/function/parameter2 0.000000 
+ 	 	 	 	 /ED-rogs-6/grain/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/position/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/size/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/speed/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/trig/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/function/parameter1 0.000000 
+ 	 	 	 	 /ED-rogs-6/grain/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/pVar/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/pitch/in/module/parameter /in/direct 
+ 	 	 	 	 /ED-rogs-6/position/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/size/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/speed/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/trig/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/turn/in/module/parameter 0 
+ 	 	 	 	 /ED-rogs-6/audio/gain 108.000000 
+ 	 	 	 	 /ED-rogs-6/audio/mute 0 
+ 	 	 	 	 /ED-rogs-6/buffer/file /SoundLib/Buffer-Audio/Rogs/Crunch/waterSong-Gong.aif 
+ 	 	 	 	 /ED-rogs-6/grain/duration 203.000000 
+ 	 	 	 	 /ED-rogs-6/grain/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/grain/mute 0 
+ 	 	 	 	 /ED-rogs-6/grain/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/grain/overlap 50 
+ 	 	 	 	 /ED-rogs-6/grain/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/grain/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/grain/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/grain/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/grain/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/grain/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/grain/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/grain/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/grain/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/grain/trigger 0.000000 
+ 	 	 	 	 /ED-rogs-6/mapperGate/gain 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/onserVar 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/pitch 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/pitchVar 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/position 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/size 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/speed 0 
+ 	 	 	 	 /ED-rogs-6/mapperGate/trigger 1 
+ 	 	 	 	 /ED-rogs-6/mapperGate/turn 0 
+ 	 	 	 	 /ED-rogs-6/mod/gain 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/onsetVar 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/pitch 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/pitchVar 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/position 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/size 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/speed 0.000000 
+ 	 	 	 	 /ED-rogs-6/mod/trigger 48.000000 
+ 	 	 	 	 /ED-rogs-6/mod/turn 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/onsetVar/mute 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/onsetVar/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/onsetVar/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/onsetVar/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/pVar/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/pVar/mute 0 
+ 	 	 	 	 /ED-rogs-6/pVar/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/pVar/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/pVar/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/pVar/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/pVar/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/pVar/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/pitch/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/pitch/mute 1 
+ 	 	 	 	 /ED-rogs-6/pitch/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/pitch/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/pitch/scale/input/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/pitch/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/pitch/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/pitch/transpose 0.000000 
+ 	 	 	 	 /ED-rogs-6/pitch/variation 0.000000 
+ 	 	 	 	 /ED-rogs-6/position 6762.146973 
+ 	 	 	 	 /ED-rogs-6/position/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/position/mute 0 
+ 	 	 	 	 /ED-rogs-6/position/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/position/onset_variation 5.000000 
+ 	 	 	 	 /ED-rogs-6/position/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/position/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/position/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/position/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/position/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/position/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/position/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/position/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/position/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/position/speed 1.000000 
+ 	 	 	 	 /ED-rogs-6/size/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/size/mute 0 
+ 	 	 	 	 /ED-rogs-6/size/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/size/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/size/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/size/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/size/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/size/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/size/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/size/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/size/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/size/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/speed/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/speed/mute 0 
+ 	 	 	 	 /ED-rogs-6/speed/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/speed/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/speed/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/speed/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/speed/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/speed/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/speed/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/speed/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/speed/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/speed/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/trig/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/trig/mute 0 
+ 	 	 	 	 /ED-rogs-6/trig/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/trig/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/trig/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/trig/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/trig/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/trig/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/trig/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/trig/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/trig/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/trig/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/turn 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/in/module/listindex 1 
+ 	 	 	 	 /ED-rogs-6/turn/mute 0 
+ 	 	 	 	 /ED-rogs-6/turn/offset 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/ramp/time 0 
+ 	 	 	 	 /ED-rogs-6/turn/randomness 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/scale/bypass 1 
+ 	 	 	 	 /ED-rogs-6/turn/scale/input/max 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/scale/input/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/scale/max 1.000000 
+ 	 	 	 	 /ED-rogs-6/turn/scale/min 0.000000 
+ 	 	 	 	 /ED-rogs-6/turn/scale/mode 0 
+ 	 	 	 	 /ED-rogs-6/turn/slide/down 0 
+ 	 	 	 	 /ED-rogs-6/turn/slide/up 0 
+ 	 	 	 	 /ED-rogs-6/view/freeze 0 
+ 	 	 	 	 /ED-rogs-6/view/highlight 0 
+ # 
+ # Module /nav.oscroute.5 
+ # 
+ # Module /move 
+ 	 	 	 	 /move/in/module/name 0 
+ 	 	 	 	 /move/in/module/instance 0 
+ 	 	 	 	 /move/function linear 
+ 	 	 	 	 /move/function/symmetry 0 
+ 	 	 	 	 /move/function/parameter2 0.000000 
+ 	 	 	 	 /move/function/parameter1 0.000000 
+ 	 	 	 	 /move/in/module/parameter 0 
+ 	 	 	 	 /move/in/direct 0 
+ 	 	 	 	 /move/in/module/listindex 1 
+ 	 	 	 	 /move/mute 0 
+ 	 	 	 	 /move/offset 0.000000 
+ 	 	 	 	 /move/ramp/time 0 
+ 	 	 	 	 /move/scale/bypass 1 
+ 	 	 	 	 /move/scale/input/max 0.000000 
+ 	 	 	 	 /move/scale/input/min 65556.000000 
+ 	 	 	 	 /move/scale/max 1.000000 
+ 	 	 	 	 /move/scale/min 0.000000 
+ 	 	 	 	 /move/scale/mode 0 
+ 	 	 	 	 /move/slide/down 0 
+ 	 	 	 	 /move/slide/up 0 
+ 	 	 	 	 /move/view/freeze 0 
+ # 
+ # Module /Y1 
+ 	 	 	 	 /Y1/interpolate 10 
+ 	 	 	 	 /Y1/max 1.000000 
+ 	 	 	 	 /Y1/min -1.000000 
+ 	 	 	 	 /Y1/on 0 
+ 	 	 	 	 /Y1/rate/max 25 
+ 	 	 	 	 /Y1/rate/min 10 
+ 	 	 	 	 /Y1/step 0.070000 
+ 	 	 	 	 /Y1/view/freeze 0 
+ 	 	 	 	 /Y1/view/highlight 0 
+ # 
+ # Module /X1 
+ 	 	 	 	 /X1/interpolate 10 
+ 	 	 	 	 /X1/max 1.000000 
+ 	 	 	 	 /X1/min -1.000000 
+ 	 	 	 	 /X1/on 0 
+ 	 	 	 	 /X1/rate/max 25 
+ 	 	 	 	 /X1/rate/min 10 
+ 	 	 	 	 /X1/step 0.070000 
+ 	 	 	 	 /X1/view/freeze 0 
+ 	 	 	 	 /X1/view/highlight 0 
+ # 
+ # Module /env1 
+ 	 	 	 	 /env1/clip 1 
+ 	 	 	 	 /env1/env/cutoff 850 
+ 	 	 	 	 /env1/env/on 1 
+ 	 	 	 	 /env1/env/period 20 
+ 	 	 	 	 /env1/gain 100.000000 
+ 	 	 	 	 /env1/pre-slide/down 2 
+ 	 	 	 	 /env1/pre-slide/up 2 
+ 	 	 	 	 /env1/scale/input/max 0.000000 
+ 	 	 	 	 /env1/scale/input/min 0.000000 
+ 	 	 	 	 /env1/scale/max 1.000000 
+ 	 	 	 	 /env1/scale/min 0.000000 
+ 	 	 	 	 /env1/scale/mode 1 
+ 	 	 	 	 /env1/scale/window 1000 
+ 	 	 	 	 /env1/slide/down 10 
+ 	 	 	 	 /env1/slide/up 1 
+ 	 	 	 	 /env1/view/freeze 0 
+ 	 	 	 	 /env1/view/highlight 0 
+ 	 	 	 	 /env1/visualize 1 
+ # 
+ # Module /alg1 
+ 	 	 	 	 /alg1/freq1 7.000000 
+ 	 	 	 	 /alg1/freq2 8.500000 
+ 	 	 	 	 /alg1/method 1 
+ 	 	 	 	 /alg1/metro 20 
+ 	 	 	 	 /alg1/on 0 
+ 	 	 	 	 /alg1/scale 1.000000 
+ 	 	 	 	 /alg1/smooth 0 
+ 	 	 	 	 /alg1/view/freeze 0 
+ 	 	 	 	 /alg1/view/highlight 0 
+ # 
+ # Module /position 
+ 	 	 	 	 /position/offset 0 
+ 	 	 	 	 /position/source.1/blur 0.000000 
+ 	 	 	 	 /position/source.1/position 0.750000 0.750000 0.000500 
+ 	 	 	 	 /position/source.2/blur 0.000000 
+ 	 	 	 	 /position/source.2/position -0.146042 -0.114638 -0.000500 
+ 	 	 	 	 /position/source.3/blur 0.000000 
+ 	 	 	 	 /position/source.3/position -0.523695 -0.634908 0.000500 
+ 	 	 	 	 /position/source.4/blur 0.000000 
+ 	 	 	 	 /position/source.4/position -0.009649 0.696422 0.000500 
+ 	 	 	 	 /position/source.5/blur 0.000000 
+ 	 	 	 	 /position/source.5/position -0.068281 -0.324873 0.000500 
+ 	 	 	 	 /position/source.6/blur 0.000000 
+ 	 	 	 	 /position/source.6/position -0.402851 0.591719 -0.000500 
+ 	 	 	 	 /position/source.7/blur 0.000000 
+ 	 	 	 	 /position/source.7/position 0.053763 0.729583 0.000500 
+ 	 	 	 	 /position/source.8/blur 0.000000 
+ 	 	 	 	 /position/source.8/position 0.020000 0.070000 0.000000 
+ 	 	 	 	 /position/view/freeze 0 
+ 	 	 	 	 /position/view/highlight 0 
+ # 
+ # Module /sources 
+ 	 	 	 	 /sources/alias /sources/alias/remove 
+ 	 	 	 	 /sources/type source 
+ 	 	 	 	 /sources/numChannels 8 
+ 	 	 	 	 /sources/source.1/position 3.900000 1.700000 0.000000 
+ 	 	 	 	 /sources/source.2/position -0.200000 -7.300000 0.000000 
+ 	 	 	 	 /sources/source.3/position 6.600000 -2.700000 0.000000 
+ 	 	 	 	 /sources/source.4/position -4.300000 8.500000 0.000000 
+ 	 	 	 	 /sources/source.5/position 4.700000 -9.000000 0.000000 
+ 	 	 	 	 /sources/source.6/position -10.000000 -7.900000 0.000000 
+ 	 	 	 	 /sources/source.7/position 1.600000 2.000000 0.000000 
+ 	 	 	 	 /sources/source.8/position 0.200000 0.700000 0.000000 
+ 	 	 	 	 /sources/source.9/position 3.000000 -2.200000 0.000000 
+ 	 	 	 	 /sources/source.10/position 6.700000 5.100000 0.000000 
+ 	 	 	 	 /sources/source.11/position 3.900000 5.300000 0.000000 
+ 	 	 	 	 /sources/source.12/position 7.100000 -5.400000 0.000000 
+ 	 	 	 	 /sources/source.13/position -4.600000 0.200000 0.000000 
+ 	 	 	 	 /sources/source.14/position -7.600000 3.800000 0.000000 
+ 	 	 	 	 /sources/source.15/position -1.900000 4.100000 0.000000 
+ 	 	 	 	 /sources/source.16/position -2.300000 -0.200000 0.000000 
+ 	 	 	 	 /sources/source.17/position 8.400000 -2.000000 0.000000 
+ 	 	 	 	 /sources/source.18/position 5.100000 0.600000 0.000000 
+ 	 	 	 	 /sources/source.19/position -2.100000 8.900000 0.000000 
+ 	 	 	 	 /sources/source.20/position 1.800000 6.400000 0.000000 
+ 	 	 	 	 /sources/source.21/position -5.000000 1.800000 0.000000 
+ 	 	 	 	 /sources/source.22/position 4.300000 6.300000 0.000000 
+ 	 	 	 	 /sources/source.23/position -3.600000 -5.600000 0.000000 
+ 	 	 	 	 /sources/source.24/position -4.000000 -9.800000 0.000000 
+ 	 	 	 	 /sources/source.25/position -4.100000 -6.400000 0.000000 
+ 	 	 	 	 /sources/source.26/position -4.000000 8.600000 0.000000 
+ 	 	 	 	 /sources/source.27/position -0.600000 -8.800000 0.000000 
+ 	 	 	 	 /sources/source.28/position 1.100000 1.600000 0.000000 
+ 	 	 	 	 /sources/source.29/position -5.000000 -2.400000 0.000000 
+ 	 	 	 	 /sources/source.30/position -3.400000 -6.000000 0.000000 
+ 	 	 	 	 /sources/source.31/position -9.100000 -1.200000 0.000000 
+ 	 	 	 	 /sources/source.32/position 7.400000 -9.100000 0.000000 
+ 	 	 	 	 /sources/view/freeze 0 
+ 	 	 	 	 /sources/view/highlight none 
+ # 
+ # Module /spatOut 
+ 	 	 	 	 /spatOut/audio/active 0 
+ 	 	 	 	 /spatOut/audio/gain 105.000000 
+ 	 	 	 	 /spatOut/audio/mute 0 
+ 	 	 	 	 /spatOut/limiter/active 1 
+ 	 	 	 	 /spatOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /spatOut/limiter/lookahead 64 
+ 	 	 	 	 /spatOut/limiter/mode exponential 
+ 	 	 	 	 /spatOut/limiter/postamp 0.000000 
+ 	 	 	 	 /spatOut/limiter/preamp 6.000000 
+ 	 	 	 	 /spatOut/limiter/release 300.000000 
+ 	 	 	 	 /spatOut/limiter/threshold -1.000000 
+ 	 	 	 	 /spatOut/numSpeakers 8 
+ 	 	 	 	 /spatOut/offset 0 
+ 	 	 	 	 /spatOut/record/filetype default 
+ 	 	 	 	 /spatOut/record/samptype default 
+ 	 	 	 	 /spatOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /spatOut/view/freeze 0 
+ 	 	 	 	 /spatOut/view/highlight 0 
+ # 
+ # Module /ambicontrol1 
+ 	 	 	 	 /ambicontrol1/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /ambicontrol1/clock/interval 100.000000 
+ 	 	 	 	 /ambicontrol1/clock/on 1 
+ 	 	 	 	 /ambicontrol1/clock/stepsize 7.000000 
+ 	 	 	 	 /ambicontrol1/connect paul 
+ 	 	 	 	 /ambicontrol1/directIndexControl 0 
+ 	 	 	 	 /ambicontrol1/index 0 
+ 	 	 	 	 /ambicontrol1/method 2 
+ 	 	 	 	 /ambicontrol1/points 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /ambicontrol1/randomStability 3000 
+ 	 	 	 	 /ambicontrol1/trajectory/adjust fit-to-box 
+ 	 	 	 	 /ambicontrol1/trajectory/fraction 0.000000 
+ 	 	 	 	 /ambicontrol1/trajectory/interpolate 0 
+ 	 	 	 	 /ambicontrol1/trajectory/method 0 
+ 	 	 	 	 /ambicontrol1/trajectory/original 0 
+ 	 	 	 	 /ambicontrol1/trajectory/point 1 
+ 	 	 	 	 /ambicontrol1/trajectory/rec 0 
+ 	 	 	 	 /ambicontrol1/trajectory/recall 0 
+ 	 	 	 	 /ambicontrol1/view/freeze 0 
+ 	 	 	 	 /ambicontrol1/view/highlight 0 
+ 	 	 	 	 /ambicontrol1/volume/bound 1.500000 1.500000 0.000000 
+ 	 	 	 	 /ambicontrol1/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /ambicontrol1/volume/show 0 
+ 	 	 	 	 /ambicontrol1/volume/type 0 
+ # 
+ # Module /nav.oscroute.6 
+ # 
+ # Module /nav.oscroute.7 
+ # 
+ # Module /JR-bang 
+ 	 	 	 	 /JR-bang/in/module/name 0 
+ 	 	 	 	 /JR-bang/in/module/instance 0 
+ 	 	 	 	 /JR-bang/function linear 
+ 	 	 	 	 /JR-bang/function/symmetry 0 
+ 	 	 	 	 /JR-bang/function/parameter2 0.000000 
+ 	 	 	 	 /JR-bang/function/parameter1 0.000000 
+ 	 	 	 	 /JR-bang/in/module/parameter 0 
+ 	 	 	 	 /JR-bang/in/direct 0.333333 
+ 	 	 	 	 /JR-bang/in/module/listindex 1 
+ 	 	 	 	 /JR-bang/mute 0 
+ 	 	 	 	 /JR-bang/offset 0.000000 
+ 	 	 	 	 /JR-bang/ramp/time 0 
+ 	 	 	 	 /JR-bang/scale/bypass 1 
+ 	 	 	 	 /JR-bang/scale/input/max 0.000000 
+ 	 	 	 	 /JR-bang/scale/input/min 65556.000000 
+ 	 	 	 	 /JR-bang/scale/max 1.000000 
+ 	 	 	 	 /JR-bang/scale/min 0.000000 
+ 	 	 	 	 /JR-bang/scale/mode 0 
+ 	 	 	 	 /JR-bang/slide/down 0 
+ 	 	 	 	 /JR-bang/slide/up 0 
+ 	 	 	 	 /JR-bang/view/freeze 0 
+ # 
+ ######################## 
+ 
+ 

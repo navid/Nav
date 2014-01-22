@@ -1,0 +1,1498 @@
+
+ 
+ KEYCUE "gliss1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /vst 99 0 /speedMidi 99 1 /speedSP1 99 1 /speedSP2 99 1 /speedSP3 99 1 /speedSPsvp1 99 1 /speedSPsvp2 99 1 /speedRogs 99 1 /speedSogs 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /speedMidi 
+ 	 	 	 	 /speedMidi/interpolate 1200 
+ 	 	 	 	 /speedMidi/max 1.200000 
+ 	 	 	 	 /speedMidi/min 0.600000 
+ 	 	 	 	 /speedMidi/on 1 
+ 	 	 	 	 /speedMidi/rate/max 5000 
+ 	 	 	 	 /speedMidi/rate/min 1000 
+ 	 	 	 	 /speedMidi/view/color/border 0 
+ 	 	 	 	 /speedMidi/view/color/contentBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarText 0 
+ 	 	 	 	 /speedMidi/view/freeze 0 
+ 	 	 	 	 /speedMidi/view/size 150 70 
+ # 
+ # Module /speedSP1 
+ 	 	 	 	 /speedSP1/interpolate 2000 
+ 	 	 	 	 /speedSP1/max 1.100000 
+ 	 	 	 	 /speedSP1/min 0.800000 
+ 	 	 	 	 /speedSP1/on 1 
+ 	 	 	 	 /speedSP1/rate/max 10000 
+ 	 	 	 	 /speedSP1/rate/min 2000 
+ 	 	 	 	 /speedSP1/view/color/border 0 
+ 	 	 	 	 /speedSP1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP1/view/freeze 0 
+ 	 	 	 	 /speedSP1/view/size 150 70 
+ # 
+ # Module /speedSP2 
+ 	 	 	 	 /speedSP2/interpolate 1200 
+ 	 	 	 	 /speedSP2/max 1.000000 
+ 	 	 	 	 /speedSP2/min 0.500000 
+ 	 	 	 	 /speedSP2/on 1 
+ 	 	 	 	 /speedSP2/rate/max 10000 
+ 	 	 	 	 /speedSP2/rate/min 2000 
+ 	 	 	 	 /speedSP2/view/color/border 0 
+ 	 	 	 	 /speedSP2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP2/view/freeze 0 
+ 	 	 	 	 /speedSP2/view/size 150 70 
+ # 
+ # Module /speedSP3 
+ 	 	 	 	 /speedSP3/interpolate 1200 
+ 	 	 	 	 /speedSP3/max 1.000000 
+ 	 	 	 	 /speedSP3/min 0.800000 
+ 	 	 	 	 /speedSP3/on 1 
+ 	 	 	 	 /speedSP3/rate/max 5000 
+ 	 	 	 	 /speedSP3/rate/min 1200 
+ 	 	 	 	 /speedSP3/view/color/border 0 
+ 	 	 	 	 /speedSP3/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP3/view/freeze 0 
+ 	 	 	 	 /speedSP3/view/size 150 70 
+ # 
+ # Module /speedSPsvp1 
+ 	 	 	 	 /speedSPsvp1/interpolate 1200 
+ 	 	 	 	 /speedSPsvp1/max 3.000000 
+ 	 	 	 	 /speedSPsvp1/min 0.300000 
+ 	 	 	 	 /speedSPsvp1/on 1 
+ 	 	 	 	 /speedSPsvp1/rate/max 6000 
+ 	 	 	 	 /speedSPsvp1/rate/min 1200 
+ 	 	 	 	 /speedSPsvp1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 1200 
+ 	 	 	 	 /speedSPsvp2/max 2.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.250000 
+ 	 	 	 	 /speedSPsvp2/on 1 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 1800 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 2000 
+ 	 	 	 	 /speedRogs/max 1.000000 
+ 	 	 	 	 /speedRogs/min 0.080000 
+ 	 	 	 	 /speedRogs/on 1 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 2000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 1200 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 1 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 2000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /SF-Output 99 1 /SF-input 99 1 /rand-PhaseSlope 99 1 /rand-PhaseRate 99 1 /spectralShiftOmax~ 99 1 /NATIVEtremolo~ 99 1 /randDecay 99 1 /AU-GandH 99 1 /out-AU2 99 1 /AU-droneMaker 99 1 /outAu1 99 1 /randDecay.1 99 1 /randDecay.2 99 1 /pitch2 99 1 /pitch 99 1 /evelope 99 1 /mungCloud 99 1 /transRogs 99 1 /transSogs 99 1 /speedSPsvp2 99 1 /speedSPsvp1.4 99 1 /speedSogs 99 1 /speedRogs 99 1 /speedSPsvp2.1 99 1 /speedSPsvp1.5 99 1 /Omax-VST2 99 1 /omaxVST1 99 1 /svp2-ramp 99 1 /svp1-ramp 99 1 /svp1-range 99 1 /svp2-range 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /SF-Output 
+ 	 	 	 	 /SF-Output/audio/active 0 
+ 	 	 	 	 /SF-Output/audio/gain 0.000000 
+ 	 	 	 	 /SF-Output/balance 0.000000 
+ 	 	 	 	 /SF-Output/ch.1 1 
+ 	 	 	 	 /SF-Output/ch.2 2 
+ 	 	 	 	 /SF-Output/limiter/active 1 
+ 	 	 	 	 /SF-Output/limiter/dcblocker/active 1 
+ 	 	 	 	 /SF-Output/limiter/lookahead 64 
+ 	 	 	 	 /SF-Output/limiter/mode exponential 
+ 	 	 	 	 /SF-Output/limiter/postamp 0.000000 
+ 	 	 	 	 /SF-Output/limiter/preamp 6.000000 
+ 	 	 	 	 /SF-Output/limiter/release 300.000000 
+ 	 	 	 	 /SF-Output/limiter/threshold -6.000000 
+ 	 	 	 	 /SF-Output/record/filetype aiff 
+ 	 	 	 	 /SF-Output/record/samptype int24 
+ 	 	 	 	 /SF-Output/saturation/active 1 
+ 	 	 	 	 /SF-Output/saturation/depth 10.000000 
+ 	 	 	 	 /SF-Output/view/color/border 0 
+ 	 	 	 	 /SF-Output/view/color/contentBackground 0 
+ 	 	 	 	 /SF-Output/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-Output/view/color/toolbarText 0 
+ 	 	 	 	 /SF-Output/view/freeze 0 
+ 	 	 	 	 /SF-Output/view/size 300 140 
+ # 
+ # Module /SF-input 
+ 	 	 	 	 /SF-input/audio/active 0 
+ 	 	 	 	 /SF-input/audio/gain 0.000000 
+ 	 	 	 	 /SF-input/balance 0.000000 
+ 	 	 	 	 /SF-input/ch.1 1 
+ 	 	 	 	 /SF-input/ch.2 2 
+ 	 	 	 	 /SF-input/clicktrain/rate 1.000001 
+ 	 	 	 	 /SF-input/soundfile/loop 1 
+ 	 	 	 	 /SF-input/soundfile/play 0 
+ 	 	 	 	 /SF-input/source none 
+ 	 	 	 	 /SF-input/testtone/frequency 1000 
+ 	 	 	 	 /SF-input/view/color/border 0 
+ 	 	 	 	 /SF-input/view/color/contentBackground 0 
+ 	 	 	 	 /SF-input/view/color/toolbarBackground 0 
+ 	 	 	 	 /SF-input/view/color/toolbarText 0 
+ 	 	 	 	 /SF-input/view/freeze 0 
+ 	 	 	 	 /SF-input/view/size 300 140 
+ # 
+ # Module /rand-PhaseSlope 
+ 	 	 	 	 /rand-PhaseSlope/interpolate 500 
+ 	 	 	 	 /rand-PhaseSlope/max 0.380000 
+ 	 	 	 	 /rand-PhaseSlope/min 0.128000 
+ 	 	 	 	 /rand-PhaseSlope/on 0 
+ 	 	 	 	 /rand-PhaseSlope/rate/max 1000 
+ 	 	 	 	 /rand-PhaseSlope/rate/min 500 
+ 	 	 	 	 /rand-PhaseSlope/view/color/border 0 
+ 	 	 	 	 /rand-PhaseSlope/view/color/contentBackground 0 
+ 	 	 	 	 /rand-PhaseSlope/view/color/toolbarBackground 0 
+ 	 	 	 	 /rand-PhaseSlope/view/color/toolbarText 0 
+ 	 	 	 	 /rand-PhaseSlope/view/freeze 0 
+ 	 	 	 	 /rand-PhaseSlope/view/size 150 70 
+ # 
+ # Module /rand-PhaseRate 
+ 	 	 	 	 /rand-PhaseRate/interpolate 500 
+ 	 	 	 	 /rand-PhaseRate/max 5.500000 
+ 	 	 	 	 /rand-PhaseRate/min 4.000000 
+ 	 	 	 	 /rand-PhaseRate/on 0 
+ 	 	 	 	 /rand-PhaseRate/rate/max 1000 
+ 	 	 	 	 /rand-PhaseRate/rate/min 500 
+ 	 	 	 	 /rand-PhaseRate/view/color/border 0 
+ 	 	 	 	 /rand-PhaseRate/view/color/contentBackground 0 
+ 	 	 	 	 /rand-PhaseRate/view/color/toolbarBackground 0 
+ 	 	 	 	 /rand-PhaseRate/view/color/toolbarText 0 
+ 	 	 	 	 /rand-PhaseRate/view/freeze 0 
+ 	 	 	 	 /rand-PhaseRate/view/size 150 70 
+ # 
+ # Module /spectralShiftOmax~ 
+ 	 	 	 	 /spectralShiftOmax~/bypass 0 
+ 	 	 	 	 /spectralShiftOmax~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftOmax~/feedback/time 10 
+ 	 	 	 	 /spectralShiftOmax~/frequency/scale -1.763153 
+ 	 	 	 	 /spectralShiftOmax~/frequency/shift -344.000000 
+ 	 	 	 	 /spectralShiftOmax~/gain 0.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftOmax~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftOmax~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftOmax~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftOmax~/mix 100.000000 
+ 	 	 	 	 /spectralShiftOmax~/mute 1 
+ 	 	 	 	 /spectralShiftOmax~/view/color/border 0 
+ 	 	 	 	 /spectralShiftOmax~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftOmax~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftOmax~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftOmax~/view/freeze 0 
+ 	 	 	 	 /spectralShiftOmax~/view/size 300 70 
+ # 
+ # Module /NATIVEtremolo~ 
+ 	 	 	 	 /NATIVEtremolo~/audio/bypass 0 
+ 	 	 	 	 /NATIVEtremolo~/audio/gain 0.000000 
+ 	 	 	 	 /NATIVEtremolo~/audio/mix 100.000000 
+ 	 	 	 	 /NATIVEtremolo~/audio/mute 1 
+ 	 	 	 	 /NATIVEtremolo~/lfo/depth 50.000000 
+ 	 	 	 	 /NATIVEtremolo~/lfo/frequency 5.000000 
+ 	 	 	 	 /NATIVEtremolo~/lfo/phase 0.000000 
+ 	 	 	 	 /NATIVEtremolo~/view/color/border 0 
+ 	 	 	 	 /NATIVEtremolo~/view/color/contentBackground 0 
+ 	 	 	 	 /NATIVEtremolo~/view/color/toolbarBackground 0 
+ 	 	 	 	 /NATIVEtremolo~/view/color/toolbarText 0 
+ 	 	 	 	 /NATIVEtremolo~/view/freeze 0 
+ 	 	 	 	 /NATIVEtremolo~/view/size 300 70 
+ # 
+ # Module /randDecay 
+ 	 	 	 	 /randDecay/interpolate 0 
+ 	 	 	 	 /randDecay/max 80.000000 
+ 	 	 	 	 /randDecay/min 10.000000 
+ 	 	 	 	 /randDecay/on 1 
+ 	 	 	 	 /randDecay/rate/max 5000 
+ 	 	 	 	 /randDecay/rate/min 500 
+ 	 	 	 	 /randDecay/view/color/border 0 
+ 	 	 	 	 /randDecay/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay/view/freeze 0 
+ 	 	 	 	 /randDecay/view/size 150 70 
+ # 
+ # Module /AU-GandH 
+ 	 	 	 	 /AU-GandH/au/plug Spectral Gate & Hold 
+ 	 	 	 	 /AU-GandH/parameter/Bin/shift 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Bin/shift/var 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Decay/factor 75.000000 
+ 	 	 	 	 /AU-GandH/parameter/Delay/vs./freq 100.000000 
+ 	 	 	 	 /AU-GandH/parameter/FFT/Size 3.000000 
+ 	 	 	 	 /AU-GandH/parameter/Fade/in/length 5.000000 
+ 	 	 	 	 /AU-GandH/parameter/Fade/out/length 5.000000 
+ 	 	 	 	 /AU-GandH/parameter/Gain 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Hi/bin/cutoff 100.000000 
+ 	 	 	 	 /AU-GandH/parameter/Hold/length 1.000000 
+ 	 	 	 	 /AU-GandH/parameter/Hold/silence/first 1.000000 
+ 	 	 	 	 /AU-GandH/parameter/Hold/variance 1.000000 
+ 	 	 	 	 /AU-GandH/parameter/Lo/bin/cutoff 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Normalize/held/partials 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Normalize/level -30.000000 
+ 	 	 	 	 /AU-GandH/parameter/Pulsing/rate 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Pulsing/rate/var 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Randomize/phases 1.000000 
+ 	 	 	 	 /AU-GandH/parameter/Threshold -28.000000 
+ 	 	 	 	 /AU-GandH/parameter/Threshold/brightness 0.000000 
+ 	 	 	 	 /AU-GandH/parameter/Zero/partials/under/threshold 1.000000 
+ 	 	 	 	 /AU-GandH/audio/bypass 0 
+ 	 	 	 	 /AU-GandH/audio/gain 0.000000 
+ 	 	 	 	 /AU-GandH/audio/mix 0.000000 
+ 	 	 	 	 /AU-GandH/audio/mute 1 
+ 	 	 	 	 /AU-GandH/view/color/border 0 
+ 	 	 	 	 /AU-GandH/view/color/contentBackground 0 
+ 	 	 	 	 /AU-GandH/view/color/toolbarBackground 0 
+ 	 	 	 	 /AU-GandH/view/color/toolbarText 0 
+ 	 	 	 	 /AU-GandH/view/freeze 0 
+ 	 	 	 	 /AU-GandH/view/size 300 210 
+ # 
+ # Module /out-AU2 
+ 	 	 	 	 /out-AU2/audio/active 0 
+ 	 	 	 	 /out-AU2/audio/gain 0.000000 
+ 	 	 	 	 /out-AU2/balance 0.000000 
+ 	 	 	 	 /out-AU2/ch.1 7 
+ 	 	 	 	 /out-AU2/ch.2 6 
+ 	 	 	 	 /out-AU2/limiter/active 1 
+ 	 	 	 	 /out-AU2/limiter/dcblocker/active 1 
+ 	 	 	 	 /out-AU2/limiter/lookahead 64 
+ 	 	 	 	 /out-AU2/limiter/mode exponential 
+ 	 	 	 	 /out-AU2/limiter/postamp 0.000000 
+ 	 	 	 	 /out-AU2/limiter/preamp 6.000000 
+ 	 	 	 	 /out-AU2/limiter/release 300.000000 
+ 	 	 	 	 /out-AU2/limiter/threshold -6.000000 
+ 	 	 	 	 /out-AU2/record/filetype aiff 
+ 	 	 	 	 /out-AU2/record/samptype int24 
+ 	 	 	 	 /out-AU2/saturation/active 1 
+ 	 	 	 	 /out-AU2/saturation/depth 10.000000 
+ 	 	 	 	 /out-AU2/view/color/border 0 
+ 	 	 	 	 /out-AU2/view/color/contentBackground 0 
+ 	 	 	 	 /out-AU2/view/color/toolbarBackground 0 
+ 	 	 	 	 /out-AU2/view/color/toolbarText 0 
+ 	 	 	 	 /out-AU2/view/freeze 0 
+ 	 	 	 	 /out-AU2/view/size 300 140 
+ # 
+ # Module /AU-droneMaker 
+ 	 	 	 	 /AU-droneMaker/au/plug Spectral DroneMaker 
+ 	 	 	 	 /AU-droneMaker/parameter/Brightness 0.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Comb/filter/fundamental 29.007538 
+ 	 	 	 	 /AU-droneMaker/parameter/Comb/filterbank/level 0.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/FFT/Size 2.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Filter/resonance 99.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Flanger/amount 0.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Flanger/depth 2.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Flanger/rate 0.100000 
+ 	 	 	 	 /AU-droneMaker/parameter/Gain 0.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Gate/level -60.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Hi/bin/cutoff 100.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Interp/length/variance 2.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Interpolation/length 4.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Lo/bin/cutoff 0.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Number/of/octaves 8 
+ 	 	 	 	 /AU-droneMaker/parameter/Randomize/phases 0 
+ 	 	 	 	 /AU-droneMaker/parameter/Scale/type 6.000000 
+ 	 	 	 	 /AU-droneMaker/parameter/Use/peak/amplitudes 0.000000 
+ 	 	 	 	 /AU-droneMaker/audio/bypass 0 
+ 	 	 	 	 /AU-droneMaker/audio/gain 0.000000 
+ 	 	 	 	 /AU-droneMaker/audio/mix 0.000000 
+ 	 	 	 	 /AU-droneMaker/audio/mute 1 
+ 	 	 	 	 /AU-droneMaker/view/color/border 0 
+ 	 	 	 	 /AU-droneMaker/view/color/contentBackground 0 
+ 	 	 	 	 /AU-droneMaker/view/color/toolbarBackground 0 
+ 	 	 	 	 /AU-droneMaker/view/color/toolbarText 0 
+ 	 	 	 	 /AU-droneMaker/view/freeze 0 
+ 	 	 	 	 /AU-droneMaker/view/size 300 210 
+ # 
+ # Module /outAu1 
+ 	 	 	 	 /outAu1/audio/active 0 
+ 	 	 	 	 /outAu1/audio/gain 0.000000 
+ 	 	 	 	 /outAu1/balance 0.000000 
+ 	 	 	 	 /outAu1/ch.1 5 
+ 	 	 	 	 /outAu1/ch.2 8 
+ 	 	 	 	 /outAu1/limiter/active 1 
+ 	 	 	 	 /outAu1/limiter/dcblocker/active 1 
+ 	 	 	 	 /outAu1/limiter/lookahead 64 
+ 	 	 	 	 /outAu1/limiter/mode exponential 
+ 	 	 	 	 /outAu1/limiter/postamp 0.000000 
+ 	 	 	 	 /outAu1/limiter/preamp 6.000000 
+ 	 	 	 	 /outAu1/limiter/release 300.000000 
+ 	 	 	 	 /outAu1/limiter/threshold -6.000000 
+ 	 	 	 	 /outAu1/record/filetype aiff 
+ 	 	 	 	 /outAu1/record/samptype int24 
+ 	 	 	 	 /outAu1/saturation/active 1 
+ 	 	 	 	 /outAu1/saturation/depth 10.000000 
+ 	 	 	 	 /outAu1/view/color/border 0 
+ 	 	 	 	 /outAu1/view/color/contentBackground 0 
+ 	 	 	 	 /outAu1/view/color/toolbarBackground 0 
+ 	 	 	 	 /outAu1/view/color/toolbarText 0 
+ 	 	 	 	 /outAu1/view/freeze 0 
+ 	 	 	 	 /outAu1/view/size 300 140 
+ # 
+ # Module /randDecay.1 
+ 	 	 	 	 /randDecay.1/interpolate 0 
+ 	 	 	 	 /randDecay.1/max 94.500000 
+ 	 	 	 	 /randDecay.1/min 8.000000 
+ 	 	 	 	 /randDecay.1/on 0 
+ 	 	 	 	 /randDecay.1/rate/max 5000 
+ 	 	 	 	 /randDecay.1/rate/min 500 
+ 	 	 	 	 /randDecay.1/view/color/border 0 
+ 	 	 	 	 /randDecay.1/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay.1/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay.1/view/freeze 0 
+ 	 	 	 	 /randDecay.1/view/size 150 70 
+ # 
+ # Module /randDecay.2 
+ 	 	 	 	 /randDecay.2/interpolate 0 
+ 	 	 	 	 /randDecay.2/max 11.000000 
+ 	 	 	 	 /randDecay.2/min 0.660000 
+ 	 	 	 	 /randDecay.2/on 0 
+ 	 	 	 	 /randDecay.2/rate/max 2000 
+ 	 	 	 	 /randDecay.2/rate/min 500 
+ 	 	 	 	 /randDecay.2/view/color/border 0 
+ 	 	 	 	 /randDecay.2/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay.2/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay.2/view/freeze 0 
+ 	 	 	 	 /randDecay.2/view/size 150 70 
+ # 
+ # Module /pitch2 
+ 	 	 	 	 /pitch2/clip 1 
+ 	 	 	 	 /pitch2/pre-slide/down 0 
+ 	 	 	 	 /pitch2/pre-slide/up 1 
+ 	 	 	 	 /pitch2/scale/input/max 0.000000 
+ 	 	 	 	 /pitch2/scale/input/min 0.000000 
+ 	 	 	 	 /pitch2/scale/max 1.000000 
+ 	 	 	 	 /pitch2/scale/min 0.000000 
+ 	 	 	 	 /pitch2/scale/mode 1 
+ 	 	 	 	 /pitch2/scale/window 2000 
+ 	 	 	 	 /pitch2/slide/down 2 
+ 	 	 	 	 /pitch2/slide/up 0 
+ 	 	 	 	 /pitch2/view/color/border 0 
+ 	 	 	 	 /pitch2/view/color/contentBackground 0 
+ 	 	 	 	 /pitch2/view/color/toolbarBackground 0 
+ 	 	 	 	 /pitch2/view/color/toolbarText 0 
+ 	 	 	 	 /pitch2/view/freeze 0 
+ 	 	 	 	 /pitch2/view/size 300 70 
+ 	 	 	 	 /pitch2/visualize 1 
+ # 
+ # Module /pitch 
+ 	 	 	 	 /pitch/clip 1 
+ 	 	 	 	 /pitch/pre-slide/down 0 
+ 	 	 	 	 /pitch/pre-slide/up 1 
+ 	 	 	 	 /pitch/scale/input/max 0.000000 
+ 	 	 	 	 /pitch/scale/input/min 0.000000 
+ 	 	 	 	 /pitch/scale/max 1.000000 
+ 	 	 	 	 /pitch/scale/min 0.000000 
+ 	 	 	 	 /pitch/scale/mode 1 
+ 	 	 	 	 /pitch/scale/window 2000 
+ 	 	 	 	 /pitch/slide/down 2 
+ 	 	 	 	 /pitch/slide/up 0 
+ 	 	 	 	 /pitch/view/color/border 0 
+ 	 	 	 	 /pitch/view/color/contentBackground 0 
+ 	 	 	 	 /pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /pitch/view/color/toolbarText 0 
+ 	 	 	 	 /pitch/view/freeze 0 
+ 	 	 	 	 /pitch/view/size 300 70 
+ 	 	 	 	 /pitch/visualize 1 
+ # 
+ # Module /evelope 
+ 	 	 	 	 /evelope/clip 1 
+ 	 	 	 	 /evelope/env/cutoff 800 
+ 	 	 	 	 /evelope/env/on 1 
+ 	 	 	 	 /evelope/env/period 10 
+ 	 	 	 	 /evelope/gain 100.000000 
+ 	 	 	 	 /evelope/pre-slide/down 2 
+ 	 	 	 	 /evelope/pre-slide/up 2 
+ 	 	 	 	 /evelope/scale/input/max 0.000000 
+ 	 	 	 	 /evelope/scale/input/min 0.000000 
+ 	 	 	 	 /evelope/scale/max 1.000000 
+ 	 	 	 	 /evelope/scale/min 0.000000 
+ 	 	 	 	 /evelope/scale/mode 1 
+ 	 	 	 	 /evelope/scale/window 1000 
+ 	 	 	 	 /evelope/slide/down 24 
+ 	 	 	 	 /evelope/slide/up 1 
+ 	 	 	 	 /evelope/view/color/border 0 
+ 	 	 	 	 /evelope/view/color/contentBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarText 0 
+ 	 	 	 	 /evelope/view/freeze 0 
+ 	 	 	 	 /evelope/view/size 300 70 
+ 	 	 	 	 /evelope/visualize 1 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 65.000000 
+ 	 	 	 	 /mungCloud/audio/mute 1 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/maxDelay 7000 
+ 	 	 	 	 /mungCloud/mod/delay -400.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.100000 
+ 	 	 	 	 /mungCloud/mod/pitch 0.800000 
+ 	 	 	 	 /mungCloud/mod/pitchVar 0.020000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 10.000000 
+ 	 	 	 	 /mungCloud/mod/size 600.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/numChannels 4 
+ 	 	 	 	 /mungCloud/pan 0 
+ 	 	 	 	 /mungCloud/param/delay 4864.198730 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 0.471428 
+ 	 	 	 	 /mungCloud/param/pitch 0.000000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.000100 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 0.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 200 
+ 	 	 	 	 /mungCloud/param/size 1400 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 100 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/color/border 0 
+ 	 	 	 	 /mungCloud/view/color/contentBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarText 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/size 300 105 
+ 	 	 	 	 /mungCloud/voices 50 
+ # 
+ # Module /transRogs 
+ 	 	 	 	 /transRogs/interpolate 800 
+ 	 	 	 	 /transRogs/max 1.000000 
+ 	 	 	 	 /transRogs/min 0.300000 
+ 	 	 	 	 /transRogs/on 0 
+ 	 	 	 	 /transRogs/rate/max 6000 
+ 	 	 	 	 /transRogs/rate/min 850 
+ 	 	 	 	 /transRogs/view/color/border 0 
+ 	 	 	 	 /transRogs/view/color/contentBackground 0 
+ 	 	 	 	 /transRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /transRogs/view/color/toolbarText 0 
+ 	 	 	 	 /transRogs/view/freeze 0 
+ 	 	 	 	 /transRogs/view/size 150 70 
+ # 
+ # Module /transSogs 
+ 	 	 	 	 /transSogs/interpolate 800 
+ 	 	 	 	 /transSogs/max 1.000000 
+ 	 	 	 	 /transSogs/min 0.300000 
+ 	 	 	 	 /transSogs/on 0 
+ 	 	 	 	 /transSogs/rate/max 3000 
+ 	 	 	 	 /transSogs/rate/min 797 
+ 	 	 	 	 /transSogs/view/color/border 0 
+ 	 	 	 	 /transSogs/view/color/contentBackground 0 
+ 	 	 	 	 /transSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /transSogs/view/color/toolbarText 0 
+ 	 	 	 	 /transSogs/view/freeze 0 
+ 	 	 	 	 /transSogs/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 1000 
+ 	 	 	 	 /speedSPsvp2/max 1.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.800000 
+ 	 	 	 	 /speedSPsvp2/on 0 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 4000 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.4 
+ 	 	 	 	 /speedSPsvp1.4/interpolate 200 
+ 	 	 	 	 /speedSPsvp1.4/max 1.000000 
+ 	 	 	 	 /speedSPsvp1.4/min -1.000000 
+ 	 	 	 	 /speedSPsvp1.4/on 0 
+ 	 	 	 	 /speedSPsvp1.4/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.4/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.4/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.4/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.4/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.4/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.4/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.4/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 0 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 0 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 4000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 0 
+ 	 	 	 	 /speedRogs/max 1.100000 
+ 	 	 	 	 /speedRogs/min 0.200000 
+ 	 	 	 	 /speedRogs/on 0 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 4000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSPsvp2.1 
+ 	 	 	 	 /speedSPsvp2.1/interpolate 0 
+ 	 	 	 	 /speedSPsvp2.1/max 1.400000 
+ 	 	 	 	 /speedSPsvp2.1/min 0.500000 
+ 	 	 	 	 /speedSPsvp2.1/on 0 
+ 	 	 	 	 /speedSPsvp2.1/rate/max 2000 
+ 	 	 	 	 /speedSPsvp2.1/rate/min 500 
+ 	 	 	 	 /speedSPsvp2.1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2.1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2.1/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.5 
+ 	 	 	 	 /speedSPsvp1.5/interpolate 200 
+ 	 	 	 	 /speedSPsvp1.5/max 1.000000 
+ 	 	 	 	 /speedSPsvp1.5/min -1.000000 
+ 	 	 	 	 /speedSPsvp1.5/on 0 
+ 	 	 	 	 /speedSPsvp1.5/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.5/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.5/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.5/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.5/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.5/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.5/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.5/view/size 150 70 
+ # 
+ # Module /Omax-VST2 
+ 	 	 	 	 /Omax-VST2/vst/plug /Library/Audio/Plug-Ins/VST/Absynth 4 Stereo.vst 
+ 	 	 	 	 /Omax-VST2/vst/program 0 
+ 	 	 	 	 /Omax-VST2/parameter/Attack 0.500000 
+ 	 	 	 	 /Omax-VST2/parameter/Decay 0.500000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl1 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl10 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl11 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl12 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl13 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl14 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl2 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl3 0.110236 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl4 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl5 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl6 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl7 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl8 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/MacroControl9 1.000000 
+ 	 	 	 	 /Omax-VST2/parameter/PanFB 0.500000 
+ 	 	 	 	 /Omax-VST2/parameter/PanLR 0.500000 
+ 	 	 	 	 /Omax-VST2/parameter/Release 0.500000 
+ 	 	 	 	 /Omax-VST2/parameter/Sustain 0.500000 
+ 	 	 	 	 /Omax-VST2/audio/bypass 0 
+ 	 	 	 	 /Omax-VST2/audio/gain 0.000000 
+ 	 	 	 	 /Omax-VST2/audio/mix 100.000000 
+ 	 	 	 	 /Omax-VST2/audio/mute 1 
+ 	 	 	 	 /Omax-VST2/view/color/border 0 
+ 	 	 	 	 /Omax-VST2/view/color/contentBackground 0 
+ 	 	 	 	 /Omax-VST2/view/color/toolbarBackground 0 
+ 	 	 	 	 /Omax-VST2/view/color/toolbarText 0 
+ 	 	 	 	 /Omax-VST2/view/freeze 0 
+ 	 	 	 	 /Omax-VST2/view/size 300 210 
+ # 
+ # Module /omaxVST1 
+ 	 	 	 	 /omaxVST1/vst/plug /Library/Audio/Plug-Ins/VST/Absynth 4 Stereo.vst 
+ 	 	 	 	 /omaxVST1/vst/program 0 
+ 	 	 	 	 /omaxVST1/parameter/Attack 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/Decay 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl1 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl10 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl11 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl12 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl13 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl14 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl2 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl3 0.629921 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl4 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl5 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl6 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl7 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl8 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/MacroControl9 1.000000 
+ 	 	 	 	 /omaxVST1/parameter/PanFB 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/PanLR 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/Release 0.500000 
+ 	 	 	 	 /omaxVST1/parameter/Sustain 0.500000 
+ 	 	 	 	 /omaxVST1/audio/bypass 0 
+ 	 	 	 	 /omaxVST1/audio/gain 0.000000 
+ 	 	 	 	 /omaxVST1/audio/mix 100.000000 
+ 	 	 	 	 /omaxVST1/audio/mute 1 
+ 	 	 	 	 /omaxVST1/view/color/border 0 
+ 	 	 	 	 /omaxVST1/view/color/contentBackground 0 
+ 	 	 	 	 /omaxVST1/view/color/toolbarBackground 0 
+ 	 	 	 	 /omaxVST1/view/color/toolbarText 0 
+ 	 	 	 	 /omaxVST1/view/freeze 0 
+ 	 	 	 	 /omaxVST1/view/size 300 210 
+ # 
+ # Module /svp2-ramp 
+ 	 	 	 	 /svp2-ramp/interpolate 0 
+ 	 	 	 	 /svp2-ramp/max 1000.000000 
+ 	 	 	 	 /svp2-ramp/min 100.000000 
+ 	 	 	 	 /svp2-ramp/on 0 
+ 	 	 	 	 /svp2-ramp/rate/max 5000 
+ 	 	 	 	 /svp2-ramp/rate/min 500 
+ 	 	 	 	 /svp2-ramp/view/color/border 0 
+ 	 	 	 	 /svp2-ramp/view/color/contentBackground 0 
+ 	 	 	 	 /svp2-ramp/view/color/toolbarBackground 0 
+ 	 	 	 	 /svp2-ramp/view/color/toolbarText 0 
+ 	 	 	 	 /svp2-ramp/view/freeze 0 
+ 	 	 	 	 /svp2-ramp/view/size 150 70 
+ # 
+ # Module /svp1-ramp 
+ 	 	 	 	 /svp1-ramp/interpolate 0 
+ 	 	 	 	 /svp1-ramp/max 1000.000000 
+ 	 	 	 	 /svp1-ramp/min 100.000000 
+ 	 	 	 	 /svp1-ramp/on 0 
+ 	 	 	 	 /svp1-ramp/rate/max 5000 
+ 	 	 	 	 /svp1-ramp/rate/min 500 
+ 	 	 	 	 /svp1-ramp/view/color/border 0 
+ 	 	 	 	 /svp1-ramp/view/color/contentBackground 0 
+ 	 	 	 	 /svp1-ramp/view/color/toolbarBackground 0 
+ 	 	 	 	 /svp1-ramp/view/color/toolbarText 0 
+ 	 	 	 	 /svp1-ramp/view/freeze 0 
+ 	 	 	 	 /svp1-ramp/view/size 150 70 
+ # 
+ # Module /svp1-range 
+ 	 	 	 	 /svp1-range/interpolate 200 
+ 	 	 	 	 /svp1-range/max 1.000000 
+ 	 	 	 	 /svp1-range/min -1.000000 
+ 	 	 	 	 /svp1-range/on 0 
+ 	 	 	 	 /svp1-range/rate/max 2000 
+ 	 	 	 	 /svp1-range/rate/min 500 
+ 	 	 	 	 /svp1-range/view/color/border 0 
+ 	 	 	 	 /svp1-range/view/color/contentBackground 0 
+ 	 	 	 	 /svp1-range/view/color/toolbarBackground 0 
+ 	 	 	 	 /svp1-range/view/color/toolbarText 0 
+ 	 	 	 	 /svp1-range/view/freeze 0 
+ 	 	 	 	 /svp1-range/view/size 150 70 
+ # 
+ # Module /svp2-range 
+ 	 	 	 	 /svp2-range/interpolate 200 
+ 	 	 	 	 /svp2-range/max 2.000000 
+ 	 	 	 	 /svp2-range/min -2.000000 
+ 	 	 	 	 /svp2-range/on 0 
+ 	 	 	 	 /svp2-range/rate/max 2000 
+ 	 	 	 	 /svp2-range/rate/min 500 
+ 	 	 	 	 /svp2-range/view/color/border 0 
+ 	 	 	 	 /svp2-range/view/color/contentBackground 0 
+ 	 	 	 	 /svp2-range/view/color/toolbarBackground 0 
+ 	 	 	 	 /svp2-range/view/color/toolbarText 0 
+ 	 	 	 	 /svp2-range/view/freeze 0 
+ 	 	 	 	 /svp2-range/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "mung-DownBoom" ramp 2000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /mungCloud/mod/delay 463.000000 
+ 	 	 	 	 /mungCloud/mod/pitch -0.700000 ramp global 
+ 	 	 	 	 /mungCloud/mod/pitchVar 0.050000 ramp global 
+ 	 	 	 	 /mungCloud/mod/rateVar 0.000000 ramp global 
+ 	 	 	 	 /mungCloud/mod/size 443.000000 ramp global 
+ 	 	 	 	 /mungCloud/param/delay 713.114868 
+ 	 	 	 	 /mungCloud/param/pitch 1.000010 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "AlienDrones" 
+ 
+ 
+ 	 	 	 	 /CONFIG /rand-PhaseSlope 99 1 /rand-PhaseRate 99 1 /spectralShiftOmax~ 99 1 /NATIVEtremolo~ 99 1 /audiounit~ 99 1 /output~ 99 1 /audiounit~.1 99 1 /output~.1 99 1 /input 99 1 /output~.2 99 1 /input.1 99 1 /pitch2 99 1 /pitch 99 1 /evelope 99 1 /mungCloud 99 1 /speedSPsvp1 99 1 /speedSPsvp1.1 99 1 /speedSPsvp1.2 99 1 /speedSPsvp1.3 99 1 /transRogs 99 1 /transSogs 99 1 /speedSPsvp2 99 1 /speedSPsvp1.4 99 1 /speedSogs 99 1 /speedRogs 99 1 /speedSPsvp2.1 99 1 /speedSPsvp1.5 99 1 /vst 99 1 /randDecay 99 1 /randDecay.1 99 1 /randDecay.2 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /rand-PhaseSlope 
+ 	 	 	 	 /rand-PhaseSlope/interpolate 500 
+ 	 	 	 	 /rand-PhaseSlope/max 0.380000 
+ 	 	 	 	 /rand-PhaseSlope/min 0.128000 
+ 	 	 	 	 /rand-PhaseSlope/on 1 
+ 	 	 	 	 /rand-PhaseSlope/rate/max 1000 
+ 	 	 	 	 /rand-PhaseSlope/rate/min 500 
+ 	 	 	 	 /rand-PhaseSlope/view/color/border 0 
+ 	 	 	 	 /rand-PhaseSlope/view/color/contentBackground 0 
+ 	 	 	 	 /rand-PhaseSlope/view/color/toolbarBackground 0 
+ 	 	 	 	 /rand-PhaseSlope/view/color/toolbarText 0 
+ 	 	 	 	 /rand-PhaseSlope/view/freeze 0 
+ 	 	 	 	 /rand-PhaseSlope/view/size 150 70 
+ # 
+ # Module /rand-PhaseRate 
+ 	 	 	 	 /rand-PhaseRate/interpolate 500 
+ 	 	 	 	 /rand-PhaseRate/max 5.500000 
+ 	 	 	 	 /rand-PhaseRate/min 4.000000 
+ 	 	 	 	 /rand-PhaseRate/on 1 
+ 	 	 	 	 /rand-PhaseRate/rate/max 1000 
+ 	 	 	 	 /rand-PhaseRate/rate/min 500 
+ 	 	 	 	 /rand-PhaseRate/view/color/border 0 
+ 	 	 	 	 /rand-PhaseRate/view/color/contentBackground 0 
+ 	 	 	 	 /rand-PhaseRate/view/color/toolbarBackground 0 
+ 	 	 	 	 /rand-PhaseRate/view/color/toolbarText 0 
+ 	 	 	 	 /rand-PhaseRate/view/freeze 0 
+ 	 	 	 	 /rand-PhaseRate/view/size 150 70 
+ # 
+ # Module /spectralShiftOmax~ 
+ 	 	 	 	 /spectralShiftOmax~/bypass 0 
+ 	 	 	 	 /spectralShiftOmax~/feedback/gain -60.000000 
+ 	 	 	 	 /spectralShiftOmax~/feedback/time 10 
+ 	 	 	 	 /spectralShiftOmax~/frequency/scale -1.763153 
+ 	 	 	 	 /spectralShiftOmax~/frequency/shift -344.000000 
+ 	 	 	 	 /spectralShiftOmax~/gain 0.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spectralShiftOmax~/limiter/lookahead 100 
+ 	 	 	 	 /spectralShiftOmax~/limiter/mode exponential 
+ 	 	 	 	 /spectralShiftOmax~/limiter/postamp 0.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/preamp 6.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/release 250.000000 
+ 	 	 	 	 /spectralShiftOmax~/limiter/threshold 0.000000 
+ 	 	 	 	 /spectralShiftOmax~/mix 100.000000 
+ 	 	 	 	 /spectralShiftOmax~/mute 1 
+ 	 	 	 	 /spectralShiftOmax~/view/color/border 0 
+ 	 	 	 	 /spectralShiftOmax~/view/color/contentBackground 0 
+ 	 	 	 	 /spectralShiftOmax~/view/color/toolbarBackground 0 
+ 	 	 	 	 /spectralShiftOmax~/view/color/toolbarText 0 
+ 	 	 	 	 /spectralShiftOmax~/view/freeze 0 
+ 	 	 	 	 /spectralShiftOmax~/view/size 300 70 
+ # 
+ # Module /NATIVEtremolo~ 
+ 	 	 	 	 /NATIVEtremolo~/audio/bypass 0 
+ 	 	 	 	 /NATIVEtremolo~/audio/gain 0.000000 
+ 	 	 	 	 /NATIVEtremolo~/audio/mix 100.000000 
+ 	 	 	 	 /NATIVEtremolo~/audio/mute 1 
+ 	 	 	 	 /NATIVEtremolo~/lfo/depth 50.000000 
+ 	 	 	 	 /NATIVEtremolo~/lfo/frequency 5.000000 
+ 	 	 	 	 /NATIVEtremolo~/lfo/phase 0.000000 
+ 	 	 	 	 /NATIVEtremolo~/view/color/border 0 
+ 	 	 	 	 /NATIVEtremolo~/view/color/contentBackground 0 
+ 	 	 	 	 /NATIVEtremolo~/view/color/toolbarBackground 0 
+ 	 	 	 	 /NATIVEtremolo~/view/color/toolbarText 0 
+ 	 	 	 	 /NATIVEtremolo~/view/freeze 0 
+ 	 	 	 	 /NATIVEtremolo~/view/size 300 70 
+ # 
+ # Module /audiounit~ 
+ 	 	 	 	 /audiounit~/au/plug Spectral Gate & Hold 
+ 	 	 	 	 /audiounit~/parameter/Bin/shift 0.024402 
+ 	 	 	 	 /audiounit~/parameter/Bin/shift/var 0.000000 
+ 	 	 	 	 /audiounit~/parameter/Decay/factor 75.000000 
+ 	 	 	 	 /audiounit~/parameter/Delay/vs./freq 100.000000 
+ 	 	 	 	 /audiounit~/parameter/FFT/Size 4 
+ 	 	 	 	 /audiounit~/parameter/Fade/in/length 5.000000 
+ 	 	 	 	 /audiounit~/parameter/Fade/out/length 5.000000 
+ 	 	 	 	 /audiounit~/parameter/Gain 0.000000 
+ 	 	 	 	 /audiounit~/parameter/Hi/bin/cutoff 100.000000 
+ 	 	 	 	 /audiounit~/parameter/Hold/length 1.000000 
+ 	 	 	 	 /audiounit~/parameter/Hold/silence/first 1 
+ 	 	 	 	 /audiounit~/parameter/Hold/variance 1.000000 
+ 	 	 	 	 /audiounit~/parameter/Lo/bin/cutoff 0.000000 
+ 	 	 	 	 /audiounit~/parameter/Normalize/held/partials 0 
+ 	 	 	 	 /audiounit~/parameter/Normalize/level -30.000000 
+ 	 	 	 	 /audiounit~/parameter/Pulsing/rate/var 1.858035 
+ 	 	 	 	 /audiounit~/parameter/Pulsing/rate 0.000000 
+ 	 	 	 	 /audiounit~/parameter/Randomize/phases 1 
+ 	 	 	 	 /audiounit~/parameter/Threshold -30.849445 
+ 	 	 	 	 /audiounit~/parameter/Threshold/brightness -12.827092 
+ 	 	 	 	 /audiounit~/parameter/Zero/partials/under/threshold 1 
+ 	 	 	 	 /audiounit~/audio/bypass 0 
+ 	 	 	 	 /audiounit~/audio/gain 98.000000 
+ 	 	 	 	 /audiounit~/audio/mix 100.000000 
+ 	 	 	 	 /audiounit~/audio/mute 1 
+ 	 	 	 	 /audiounit~/view/color/border 0 
+ 	 	 	 	 /audiounit~/view/color/contentBackground 0 
+ 	 	 	 	 /audiounit~/view/color/toolbarBackground 0 
+ 	 	 	 	 /audiounit~/view/color/toolbarText 0 
+ 	 	 	 	 /audiounit~/view/freeze 0 
+ 	 	 	 	 /audiounit~/view/size 300 210 
+ # 
+ # Module /output~ 
+ 	 	 	 	 /output~/audio/active 0 
+ 	 	 	 	 /output~/audio/gain 0.000000 
+ 	 	 	 	 /output~/balance 0.000000 
+ 	 	 	 	 /output~/ch.1 7 
+ 	 	 	 	 /output~/ch.2 2 
+ 	 	 	 	 /output~/limiter/active 1 
+ 	 	 	 	 /output~/limiter/dcblocker/active 1 
+ 	 	 	 	 /output~/limiter/lookahead 64 
+ 	 	 	 	 /output~/limiter/mode exponential 
+ 	 	 	 	 /output~/limiter/postamp 0.000000 
+ 	 	 	 	 /output~/limiter/preamp 6.000000 
+ 	 	 	 	 /output~/limiter/release 300.000000 
+ 	 	 	 	 /output~/limiter/threshold -6.000000 
+ 	 	 	 	 /output~/record/filetype aiff 
+ 	 	 	 	 /output~/record/samptype int24 
+ 	 	 	 	 /output~/saturation/active 1 
+ 	 	 	 	 /output~/saturation/depth 10.000000 
+ 	 	 	 	 /output~/view/color/border 0 
+ 	 	 	 	 /output~/view/color/contentBackground 0 
+ 	 	 	 	 /output~/view/color/toolbarBackground 0 
+ 	 	 	 	 /output~/view/color/toolbarText 0 
+ 	 	 	 	 /output~/view/freeze 0 
+ 	 	 	 	 /output~/view/size 300 140 
+ # 
+ # Module /audiounit~.1 
+ 	 	 	 	 /audiounit~.1/au/plug Spectral DroneMaker 
+ 	 	 	 	 /audiounit~.1/parameter/Brightness -99.997993 
+ 	 	 	 	 /audiounit~.1/parameter/Comb/filter/fundamental 29.007538 
+ 	 	 	 	 /audiounit~.1/parameter/Comb/filterbank/level 43.818470 
+ 	 	 	 	 /audiounit~.1/parameter/FFT/Size 2.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Filter/resonance 99.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Flanger/amount 0.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Flanger/depth 2.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Flanger/rate 0.100000 
+ 	 	 	 	 /audiounit~.1/parameter/Gain 0.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Gate/level -60.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Hi/bin/cutoff 100.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Interp/length/variance 2.355547 
+ 	 	 	 	 /audiounit~.1/parameter/Interpolation/length 4.664552 
+ 	 	 	 	 /audiounit~.1/parameter/Lo/bin/cutoff 0.000000 
+ 	 	 	 	 /audiounit~.1/parameter/Number/of/octaves 8 
+ 	 	 	 	 /audiounit~.1/parameter/Randomize/phases 0 
+ 	 	 	 	 /audiounit~.1/parameter/Scale/type 6 
+ 	 	 	 	 /audiounit~.1/parameter/Use/peak/amplitudes 0.000000 
+ 	 	 	 	 /audiounit~.1/audio/bypass 0 
+ 	 	 	 	 /audiounit~.1/audio/gain 90.000000 
+ 	 	 	 	 /audiounit~.1/audio/mix 100.000000 
+ 	 	 	 	 /audiounit~.1/audio/mute 1 
+ 	 	 	 	 /audiounit~.1/view/color/border 0 
+ 	 	 	 	 /audiounit~.1/view/color/contentBackground 0 
+ 	 	 	 	 /audiounit~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /audiounit~.1/view/color/toolbarText 0 
+ 	 	 	 	 /audiounit~.1/view/freeze 0 
+ 	 	 	 	 /audiounit~.1/view/size 300 210 
+ # 
+ # Module /output~.1 
+ 	 	 	 	 /output~.1/audio/active 0 
+ 	 	 	 	 /output~.1/audio/gain 0.000000 
+ 	 	 	 	 /output~.1/balance 0.000000 
+ 	 	 	 	 /output~.1/ch.1 1 
+ 	 	 	 	 /output~.1/ch.2 8 
+ 	 	 	 	 /output~.1/limiter/active 1 
+ 	 	 	 	 /output~.1/limiter/dcblocker/active 1 
+ 	 	 	 	 /output~.1/limiter/lookahead 64 
+ 	 	 	 	 /output~.1/limiter/mode exponential 
+ 	 	 	 	 /output~.1/limiter/postamp 0.000000 
+ 	 	 	 	 /output~.1/limiter/preamp 6.000000 
+ 	 	 	 	 /output~.1/limiter/release 300.000000 
+ 	 	 	 	 /output~.1/limiter/threshold -6.000000 
+ 	 	 	 	 /output~.1/record/filetype aiff 
+ 	 	 	 	 /output~.1/record/samptype int24 
+ 	 	 	 	 /output~.1/saturation/active 1 
+ 	 	 	 	 /output~.1/saturation/depth 10.000000 
+ 	 	 	 	 /output~.1/view/color/border 0 
+ 	 	 	 	 /output~.1/view/color/contentBackground 0 
+ 	 	 	 	 /output~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /output~.1/view/color/toolbarText 0 
+ 	 	 	 	 /output~.1/view/freeze 0 
+ 	 	 	 	 /output~.1/view/size 300 140 
+ # 
+ # Module /input 
+ 	 	 	 	 /input/audio/active 0 
+ 	 	 	 	 /input/audio/gain 0.000000 
+ 	 	 	 	 /input/balance 0.000000 
+ 	 	 	 	 /input/ch.1 1 
+ 	 	 	 	 /input/ch.2 2 
+ 	 	 	 	 /input/clicktrain/rate 1.000001 
+ 	 	 	 	 /input/soundfile/loop 0 
+ 	 	 	 	 /input/soundfile/play 0 
+ 	 	 	 	 /input/source live 
+ 	 	 	 	 /input/testtone/frequency 1000 
+ 	 	 	 	 /input/view/color/border 0 
+ 	 	 	 	 /input/view/color/contentBackground 0 
+ 	 	 	 	 /input/view/color/toolbarBackground 0 
+ 	 	 	 	 /input/view/color/toolbarText 0 
+ 	 	 	 	 /input/view/freeze 0 
+ 	 	 	 	 /input/view/size 300 140 
+ # 
+ # Module /output~.2 
+ 	 	 	 	 /output~.2/audio/active 0 
+ 	 	 	 	 /output~.2/audio/gain 41.233761 
+ 	 	 	 	 /output~.2/balance 0.000000 
+ 	 	 	 	 /output~.2/ch.1 13 
+ 	 	 	 	 /output~.2/ch.2 15 
+ 	 	 	 	 /output~.2/limiter/active 1 
+ 	 	 	 	 /output~.2/limiter/dcblocker/active 1 
+ 	 	 	 	 /output~.2/limiter/lookahead 64 
+ 	 	 	 	 /output~.2/limiter/mode exponential 
+ 	 	 	 	 /output~.2/limiter/postamp 0.000000 
+ 	 	 	 	 /output~.2/limiter/preamp 6.000000 
+ 	 	 	 	 /output~.2/limiter/release 300.000000 
+ 	 	 	 	 /output~.2/limiter/threshold -6.000000 
+ 	 	 	 	 /output~.2/record/filetype aiff 
+ 	 	 	 	 /output~.2/record/samptype int24 
+ 	 	 	 	 /output~.2/saturation/active 1 
+ 	 	 	 	 /output~.2/saturation/depth 10.000000 
+ 	 	 	 	 /output~.2/view/color/border 0 
+ 	 	 	 	 /output~.2/view/color/contentBackground 0 
+ 	 	 	 	 /output~.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /output~.2/view/color/toolbarText 0 
+ 	 	 	 	 /output~.2/view/freeze 0 
+ 	 	 	 	 /output~.2/view/size 300 140 
+ # 
+ # Module /input.1 
+ 	 	 	 	 /input.1/audio/active 0 
+ 	 	 	 	 /input.1/audio/gain 98.136375 
+ 	 	 	 	 /input.1/balance 0.000000 
+ 	 	 	 	 /input.1/ch.1 1 
+ 	 	 	 	 /input.1/ch.2 2 
+ 	 	 	 	 /input.1/clicktrain/rate 1.000001 
+ 	 	 	 	 /input.1/soundfile/loop 1 
+ 	 	 	 	 /input.1/soundfile/open /Users/Lolita/Matralab/NativeAlien/Samples/Amelia Cuni/Drones-Tampura/tanpura G#.aif 
+ 	 	 	 	 /input.1/soundfile/play 0 
+ 	 	 	 	 /input.1/source soundfile 
+ 	 	 	 	 /input.1/testtone/frequency 1000 
+ 	 	 	 	 /input.1/view/color/border 0 
+ 	 	 	 	 /input.1/view/color/contentBackground 0 
+ 	 	 	 	 /input.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /input.1/view/color/toolbarText 0 
+ 	 	 	 	 /input.1/view/freeze 0 
+ 	 	 	 	 /input.1/view/size 300 140 
+ # 
+ # Module /pitch2 
+ 	 	 	 	 /pitch2/clip 1 
+ 	 	 	 	 /pitch2/pre-slide/down 0 
+ 	 	 	 	 /pitch2/pre-slide/up 1 
+ 	 	 	 	 /pitch2/scale/input/max 0.000000 
+ 	 	 	 	 /pitch2/scale/input/min 0.000000 
+ 	 	 	 	 /pitch2/scale/max 1.000000 
+ 	 	 	 	 /pitch2/scale/min 0.000000 
+ 	 	 	 	 /pitch2/scale/mode 1 
+ 	 	 	 	 /pitch2/scale/window 2000 
+ 	 	 	 	 /pitch2/slide/down 2 
+ 	 	 	 	 /pitch2/slide/up 0 
+ 	 	 	 	 /pitch2/view/color/border 0 
+ 	 	 	 	 /pitch2/view/color/contentBackground 0 
+ 	 	 	 	 /pitch2/view/color/toolbarBackground 0 
+ 	 	 	 	 /pitch2/view/color/toolbarText 0 
+ 	 	 	 	 /pitch2/view/freeze 0 
+ 	 	 	 	 /pitch2/view/size 300 70 
+ 	 	 	 	 /pitch2/visualize 1 
+ # 
+ # Module /pitch 
+ 	 	 	 	 /pitch/clip 1 
+ 	 	 	 	 /pitch/pre-slide/down 0 
+ 	 	 	 	 /pitch/pre-slide/up 1 
+ 	 	 	 	 /pitch/scale/input/max 0.000000 
+ 	 	 	 	 /pitch/scale/input/min 0.000000 
+ 	 	 	 	 /pitch/scale/max 1.000000 
+ 	 	 	 	 /pitch/scale/min 0.000000 
+ 	 	 	 	 /pitch/scale/mode 1 
+ 	 	 	 	 /pitch/scale/window 2000 
+ 	 	 	 	 /pitch/slide/down 2 
+ 	 	 	 	 /pitch/slide/up 0 
+ 	 	 	 	 /pitch/view/color/border 0 
+ 	 	 	 	 /pitch/view/color/contentBackground 0 
+ 	 	 	 	 /pitch/view/color/toolbarBackground 0 
+ 	 	 	 	 /pitch/view/color/toolbarText 0 
+ 	 	 	 	 /pitch/view/freeze 0 
+ 	 	 	 	 /pitch/view/size 300 70 
+ 	 	 	 	 /pitch/visualize 1 
+ # 
+ # Module /evelope 
+ 	 	 	 	 /evelope/clip 1 
+ 	 	 	 	 /evelope/env/cutoff 800 
+ 	 	 	 	 /evelope/env/on 1 
+ 	 	 	 	 /evelope/env/period 10 
+ 	 	 	 	 /evelope/gain 100.000000 
+ 	 	 	 	 /evelope/pre-slide/down 2 
+ 	 	 	 	 /evelope/pre-slide/up 1 
+ 	 	 	 	 /evelope/scale/input/max 0.000000 
+ 	 	 	 	 /evelope/scale/input/min 0.000000 
+ 	 	 	 	 /evelope/scale/max 1.000000 
+ 	 	 	 	 /evelope/scale/min 0.000000 
+ 	 	 	 	 /evelope/scale/mode 5 
+ 	 	 	 	 /evelope/scale/window 1000 
+ 	 	 	 	 /evelope/slide/down 10 
+ 	 	 	 	 /evelope/slide/up 0 
+ 	 	 	 	 /evelope/view/color/border 0 
+ 	 	 	 	 /evelope/view/color/contentBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarBackground 0 
+ 	 	 	 	 /evelope/view/color/toolbarText 0 
+ 	 	 	 	 /evelope/view/freeze 0 
+ 	 	 	 	 /evelope/view/size 300 70 
+ 	 	 	 	 /evelope/visualize 1 
+ # 
+ # Module /mungCloud 
+ 	 	 	 	 /mungCloud/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/depth 0 
+ 	 	 	 	 /mungCloud/audio/freeze 0 
+ 	 	 	 	 /mungCloud/audio/mix 65.000000 
+ 	 	 	 	 /mungCloud/audio/mute 0 
+ 	 	 	 	 /mungCloud/buff/choice 0 
+ 	 	 	 	 /mungCloud/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/buff/rand 0 
+ 	 	 	 	 /mungCloud/buff/scrub 0.000000 
+ 	 	 	 	 /mungCloud/buff/speed 1.000000 
+ 	 	 	 	 /mungCloud/direction 0 
+ 	 	 	 	 /mungCloud/maxDelay 7000 
+ 	 	 	 	 /mungCloud/mod/delay -400.000000 
+ 	 	 	 	 /mungCloud/mod/gain -0.300000 
+ 	 	 	 	 /mungCloud/mod/pitch 0.150000 
+ 	 	 	 	 /mungCloud/mod/pitchVar -0.020000 
+ 	 	 	 	 /mungCloud/mod/rate 0.000000 
+ 	 	 	 	 /mungCloud/mod/rateVar 0.000000 
+ 	 	 	 	 /mungCloud/mod/size 0.000000 
+ 	 	 	 	 /mungCloud/mod/sizeVar 0.000000 
+ 	 	 	 	 /mungCloud/numChannels 4 
+ 	 	 	 	 /mungCloud/pan 0 
+ 	 	 	 	 /mungCloud/param/delay 4864.198730 
+ 	 	 	 	 /mungCloud/param/gainVar 0.000000 
+ 	 	 	 	 /mungCloud/param/gain 1.000000 
+ 	 	 	 	 /mungCloud/param/pitch 0.037000 
+ 	 	 	 	 /mungCloud/param/pitchVar 0.020000 
+ 	 	 	 	 /mungCloud/param/rate 0.000000 
+ 	 	 	 	 /mungCloud/param/rateVar 0.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 451 
+ 	 	 	 	 /mungCloud/param/size 2000 
+ 	 	 	 	 /mungCloud/param/spread 1.000000 
+ 	 	 	 	 /mungCloud/ramp 100 
+ 	 	 	 	 /mungCloud/sieves 0 
+ 	 	 	 	 /mungCloud/tune 0 
+ 	 	 	 	 /mungCloud/view/color/border 0 
+ 	 	 	 	 /mungCloud/view/color/contentBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarBackground 0 
+ 	 	 	 	 /mungCloud/view/color/toolbarText 0 
+ 	 	 	 	 /mungCloud/view/freeze 0 
+ 	 	 	 	 /mungCloud/view/size 300 105 
+ 	 	 	 	 /mungCloud/voices 61 
+ # 
+ # Module /speedSPsvp1 
+ 	 	 	 	 /speedSPsvp1/interpolate 800 
+ 	 	 	 	 /speedSPsvp1/max 1.400000 
+ 	 	 	 	 /speedSPsvp1/min 0.600000 
+ 	 	 	 	 /speedSPsvp1/on 0 
+ 	 	 	 	 /speedSPsvp1/rate/max 6000 
+ 	 	 	 	 /speedSPsvp1/rate/min 4000 
+ 	 	 	 	 /speedSPsvp1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.1 
+ 	 	 	 	 /speedSPsvp1.1/interpolate 0 
+ 	 	 	 	 /speedSPsvp1.1/max 1.400000 
+ 	 	 	 	 /speedSPsvp1.1/min 0.600000 
+ 	 	 	 	 /speedSPsvp1.1/on 0 
+ 	 	 	 	 /speedSPsvp1.1/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.1/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.1/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.2 
+ 	 	 	 	 /speedSPsvp1.2/interpolate 200 
+ 	 	 	 	 /speedSPsvp1.2/max 1.000000 
+ 	 	 	 	 /speedSPsvp1.2/min -1.000000 
+ 	 	 	 	 /speedSPsvp1.2/on 0 
+ 	 	 	 	 /speedSPsvp1.2/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.2/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.2/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.3 
+ 	 	 	 	 /speedSPsvp1.3/interpolate 200 
+ 	 	 	 	 /speedSPsvp1.3/max 1.000000 
+ 	 	 	 	 /speedSPsvp1.3/min -1.000000 
+ 	 	 	 	 /speedSPsvp1.3/on 0 
+ 	 	 	 	 /speedSPsvp1.3/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.3/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.3/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.3/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.3/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.3/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.3/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.3/view/size 150 70 
+ # 
+ # Module /transRogs 
+ 	 	 	 	 /transRogs/interpolate 800 
+ 	 	 	 	 /transRogs/max 1.000000 
+ 	 	 	 	 /transRogs/min 0.300000 
+ 	 	 	 	 /transRogs/on 0 
+ 	 	 	 	 /transRogs/rate/max 6000 
+ 	 	 	 	 /transRogs/rate/min 850 
+ 	 	 	 	 /transRogs/view/color/border 0 
+ 	 	 	 	 /transRogs/view/color/contentBackground 0 
+ 	 	 	 	 /transRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /transRogs/view/color/toolbarText 0 
+ 	 	 	 	 /transRogs/view/freeze 0 
+ 	 	 	 	 /transRogs/view/size 150 70 
+ # 
+ # Module /transSogs 
+ 	 	 	 	 /transSogs/interpolate 800 
+ 	 	 	 	 /transSogs/max 1.000000 
+ 	 	 	 	 /transSogs/min 0.300000 
+ 	 	 	 	 /transSogs/on 0 
+ 	 	 	 	 /transSogs/rate/max 3000 
+ 	 	 	 	 /transSogs/rate/min 797 
+ 	 	 	 	 /transSogs/view/color/border 0 
+ 	 	 	 	 /transSogs/view/color/contentBackground 0 
+ 	 	 	 	 /transSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /transSogs/view/color/toolbarText 0 
+ 	 	 	 	 /transSogs/view/freeze 0 
+ 	 	 	 	 /transSogs/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 1000 
+ 	 	 	 	 /speedSPsvp2/max 1.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.800000 
+ 	 	 	 	 /speedSPsvp2/on 0 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 4000 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.4 
+ 	 	 	 	 /speedSPsvp1.4/interpolate 200 
+ 	 	 	 	 /speedSPsvp1.4/max 1.000000 
+ 	 	 	 	 /speedSPsvp1.4/min -1.000000 
+ 	 	 	 	 /speedSPsvp1.4/on 0 
+ 	 	 	 	 /speedSPsvp1.4/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.4/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.4/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.4/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.4/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.4/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.4/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.4/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 0 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 0 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 4000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 0 
+ 	 	 	 	 /speedRogs/max 1.100000 
+ 	 	 	 	 /speedRogs/min 0.200000 
+ 	 	 	 	 /speedRogs/on 0 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 4000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSPsvp2.1 
+ 	 	 	 	 /speedSPsvp2.1/interpolate 0 
+ 	 	 	 	 /speedSPsvp2.1/max 1.400000 
+ 	 	 	 	 /speedSPsvp2.1/min 0.500000 
+ 	 	 	 	 /speedSPsvp2.1/on 0 
+ 	 	 	 	 /speedSPsvp2.1/rate/max 2000 
+ 	 	 	 	 /speedSPsvp2.1/rate/min 500 
+ 	 	 	 	 /speedSPsvp2.1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2.1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2.1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2.1/view/size 150 70 
+ # 
+ # Module /speedSPsvp1.5 
+ 	 	 	 	 /speedSPsvp1.5/interpolate 200 
+ 	 	 	 	 /speedSPsvp1.5/max 1.000000 
+ 	 	 	 	 /speedSPsvp1.5/min -1.000000 
+ 	 	 	 	 /speedSPsvp1.5/on 0 
+ 	 	 	 	 /speedSPsvp1.5/rate/max 2000 
+ 	 	 	 	 /speedSPsvp1.5/rate/min 500 
+ 	 	 	 	 /speedSPsvp1.5/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1.5/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1.5/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1.5/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1.5/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1.5/view/size 150 70 
+ # 
+ # Module /vst 
+ 	 	 	 	 /vst/vst/plug /Library/Audio/Plug-Ins/VST/Absynth 4 Stereo.vst 
+ 	 	 	 	 /vst/vst/program 0 
+ 	 	 	 	 /vst/parameter/Gain 1.000000 
+ 	 	 	 	 /vst/audio/bypass 0 
+ 	 	 	 	 /vst/audio/gain 68.000000 
+ 	 	 	 	 /vst/audio/mix 100.000000 
+ 	 	 	 	 /vst/audio/mute 1 
+ 	 	 	 	 /vst/view/color/border 0 
+ 	 	 	 	 /vst/view/color/contentBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarBackground 0 
+ 	 	 	 	 /vst/view/color/toolbarText 0 
+ 	 	 	 	 /vst/view/freeze 0 
+ 	 	 	 	 /vst/view/size 300 210 
+ # 
+ # Module /randDecay 
+ 	 	 	 	 /randDecay/interpolate 0 
+ 	 	 	 	 /randDecay/max 80.000000 
+ 	 	 	 	 /randDecay/min 10.000000 
+ 	 	 	 	 /randDecay/on 1 
+ 	 	 	 	 /randDecay/rate/max 5000 
+ 	 	 	 	 /randDecay/rate/min 500 
+ 	 	 	 	 /randDecay/view/color/border 0 
+ 	 	 	 	 /randDecay/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay/view/freeze 0 
+ 	 	 	 	 /randDecay/view/size 150 70 
+ # 
+ # Module /randDecay.1 
+ 	 	 	 	 /randDecay.1/interpolate 0 
+ 	 	 	 	 /randDecay.1/max 94.500000 
+ 	 	 	 	 /randDecay.1/min 8.000000 
+ 	 	 	 	 /randDecay.1/on 1 
+ 	 	 	 	 /randDecay.1/rate/max 5000 
+ 	 	 	 	 /randDecay.1/rate/min 500 
+ 	 	 	 	 /randDecay.1/view/color/border 0 
+ 	 	 	 	 /randDecay.1/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay.1/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay.1/view/freeze 0 
+ 	 	 	 	 /randDecay.1/view/size 150 70 
+ # 
+ # Module /randDecay.2 
+ 	 	 	 	 /randDecay.2/interpolate 0 
+ 	 	 	 	 /randDecay.2/max 11.000000 
+ 	 	 	 	 /randDecay.2/min 0.660000 
+ 	 	 	 	 /randDecay.2/on 1 
+ 	 	 	 	 /randDecay.2/rate/max 2000 
+ 	 	 	 	 /randDecay.2/rate/min 500 
+ 	 	 	 	 /randDecay.2/view/color/border 0 
+ 	 	 	 	 /randDecay.2/view/color/contentBackground 0 
+ 	 	 	 	 /randDecay.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /randDecay.2/view/color/toolbarText 0 
+ 	 	 	 	 /randDecay.2/view/freeze 0 
+ 	 	 	 	 /randDecay.2/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "subtle-direct-Clouds" ramp 2000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /mungCloud/csdf 0.000000 
+ 	 	 	 	 /mungCloud/param/sizeVar 100.000000 ramp global 
+ 	 	 	 	 /mungCloud/folder /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/buff/file /Users/navid/Desktop/cAvA 
+ 	 	 	 	 /mungCloud/mod/delay 1332.000000 
+ 	 	 	 	 /mungCloud/mod/gain 0.350000 ramp global 
+ 	 	 	 	 /mungCloud/mod/pitch -0.120000 ramp global 
+ 	 	 	 	 /mungCloud/mod/size 455.000000 ramp global 
+ 	 	 	 	 /mungCloud/param/delay 659.029358 
+ 	 	 	 	 /mungCloud/param/gain 0.300000 ramp global 
+ 	 	 	 	 /mungCloud/param/rateVar 0.000000 ramp global 
+ 	 	 	 	 /mungCloud/voices 29 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "gliss-slow" 
+ 
+ 
+ 	 	 	 	 /CONFIG /vst 99 0 /speedMidi 99 1 /speedSP1 99 1 /speedSP2 99 1 /speedSP3 99 1 /speedSPsvp1 99 1 /speedSPsvp2 99 1 /speedRogs 99 1 /speedSogs 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /speedMidi 
+ 	 	 	 	 /speedMidi/interpolate 5000 
+ 	 	 	 	 /speedMidi/max 1.200000 
+ 	 	 	 	 /speedMidi/min 0.600000 
+ 	 	 	 	 /speedMidi/on 1 
+ 	 	 	 	 /speedMidi/rate/max 8000 
+ 	 	 	 	 /speedMidi/rate/min 4000 
+ 	 	 	 	 /speedMidi/view/color/border 0 
+ 	 	 	 	 /speedMidi/view/color/contentBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedMidi/view/color/toolbarText 0 
+ 	 	 	 	 /speedMidi/view/freeze 0 
+ 	 	 	 	 /speedMidi/view/size 150 70 
+ # 
+ # Module /speedSP1 
+ 	 	 	 	 /speedSP1/interpolate 5000 
+ 	 	 	 	 /speedSP1/max 1.100000 
+ 	 	 	 	 /speedSP1/min 0.800000 
+ 	 	 	 	 /speedSP1/on 1 
+ 	 	 	 	 /speedSP1/rate/max 10000 
+ 	 	 	 	 /speedSP1/rate/min 4000 
+ 	 	 	 	 /speedSP1/view/color/border 0 
+ 	 	 	 	 /speedSP1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP1/view/freeze 0 
+ 	 	 	 	 /speedSP1/view/size 150 70 
+ # 
+ # Module /speedSP2 
+ 	 	 	 	 /speedSP2/interpolate 5000 
+ 	 	 	 	 /speedSP2/max 1.000000 
+ 	 	 	 	 /speedSP2/min 0.500000 
+ 	 	 	 	 /speedSP2/on 1 
+ 	 	 	 	 /speedSP2/rate/max 10000 
+ 	 	 	 	 /speedSP2/rate/min 4000 
+ 	 	 	 	 /speedSP2/view/color/border 0 
+ 	 	 	 	 /speedSP2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP2/view/freeze 0 
+ 	 	 	 	 /speedSP2/view/size 150 70 
+ # 
+ # Module /speedSP3 
+ 	 	 	 	 /speedSP3/interpolate 5000 
+ 	 	 	 	 /speedSP3/max 1.000000 
+ 	 	 	 	 /speedSP3/min 0.800000 
+ 	 	 	 	 /speedSP3/on 1 
+ 	 	 	 	 /speedSP3/rate/max 5000 
+ 	 	 	 	 /speedSP3/rate/min 4000 
+ 	 	 	 	 /speedSP3/view/color/border 0 
+ 	 	 	 	 /speedSP3/view/color/contentBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSP3/view/color/toolbarText 0 
+ 	 	 	 	 /speedSP3/view/freeze 0 
+ 	 	 	 	 /speedSP3/view/size 150 70 
+ # 
+ # Module /speedSPsvp1 
+ 	 	 	 	 /speedSPsvp1/interpolate 5000 
+ 	 	 	 	 /speedSPsvp1/max 3.000000 
+ 	 	 	 	 /speedSPsvp1/min 0.300000 
+ 	 	 	 	 /speedSPsvp1/on 1 
+ 	 	 	 	 /speedSPsvp1/rate/max 6000 
+ 	 	 	 	 /speedSPsvp1/rate/min 4000 
+ 	 	 	 	 /speedSPsvp1/view/color/border 0 
+ 	 	 	 	 /speedSPsvp1/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp1/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp1/view/freeze 0 
+ 	 	 	 	 /speedSPsvp1/view/size 150 70 
+ # 
+ # Module /speedSPsvp2 
+ 	 	 	 	 /speedSPsvp2/interpolate 5000 
+ 	 	 	 	 /speedSPsvp2/max 2.200000 
+ 	 	 	 	 /speedSPsvp2/min 0.250000 
+ 	 	 	 	 /speedSPsvp2/on 1 
+ 	 	 	 	 /speedSPsvp2/rate/max 9000 
+ 	 	 	 	 /speedSPsvp2/rate/min 4000 
+ 	 	 	 	 /speedSPsvp2/view/color/border 0 
+ 	 	 	 	 /speedSPsvp2/view/color/contentBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSPsvp2/view/color/toolbarText 0 
+ 	 	 	 	 /speedSPsvp2/view/freeze 0 
+ 	 	 	 	 /speedSPsvp2/view/size 150 70 
+ # 
+ # Module /speedRogs 
+ 	 	 	 	 /speedRogs/interpolate 5000 
+ 	 	 	 	 /speedRogs/max 1.000000 
+ 	 	 	 	 /speedRogs/min 0.080000 
+ 	 	 	 	 /speedRogs/on 1 
+ 	 	 	 	 /speedRogs/rate/max 9000 
+ 	 	 	 	 /speedRogs/rate/min 4000 
+ 	 	 	 	 /speedRogs/view/color/border 0 
+ 	 	 	 	 /speedRogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedRogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedRogs/view/freeze 0 
+ 	 	 	 	 /speedRogs/view/size 150 70 
+ # 
+ # Module /speedSogs 
+ 	 	 	 	 /speedSogs/interpolate 5000 
+ 	 	 	 	 /speedSogs/max 1.000000 
+ 	 	 	 	 /speedSogs/min 0.100000 
+ 	 	 	 	 /speedSogs/on 1 
+ 	 	 	 	 /speedSogs/rate/max 5000 
+ 	 	 	 	 /speedSogs/rate/min 4000 
+ 	 	 	 	 /speedSogs/view/color/border 0 
+ 	 	 	 	 /speedSogs/view/color/contentBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarBackground 0 
+ 	 	 	 	 /speedSogs/view/color/toolbarText 0 
+ 	 	 	 	 /speedSogs/view/freeze 0 
+ 	 	 	 	 /speedSogs/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 

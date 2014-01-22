@@ -1,0 +1,381 @@
+Slapbass_F#.wav "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Bass/Slapbass_F#.wav" 36.000000000000000000000000000000 4571.4584960937500000000000000000
+"Synthbass115_G.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Bass/Synthbass115_G.wav" 36.000000000000000000000000000000 4363.6875000000000000000000000000
+"Synthbass116_E.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Bass/Synthbass116_E.wav" 36.000000000000000000000000000000 4363.6875000000000000000000000000
+E-Bass_Dm.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Bass/E-Bass_Dm.aif" 36.000000000000000000000000000000 1465.1250000000000000000000000000
+E-Bass_Gm.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Bass/E-Bass_Gm.aif" 36.000000000000000000000000000000 6762.7709960937500000000000000000
+waterSong-Gong.wav "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/BassyGrain/waterSong-Gong.wav" 36.000000000000000000000000000000 12402.208007812500000000000000000
+"bellish1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/bellish/bellish1.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"bellish2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/bellish/bellish2.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"bellish3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/bellish/bellish3.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"bellish4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/bellish/bellish4.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"bellish5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/bellish/bellish5.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"click1.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click1.aif_norm.aif" 3.0000000000000000000000000000000 1060.2083740234375000000000000000
+"click10.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click10.aif_norm.aif" 3.0000000000000000000000000000000 1059.7916259765625000000000000000
+"click11.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click11.aif_norm.aif" 3.0000000000000000000000000000000 1060.2083740234375000000000000000
+"click12.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click12.aif_norm.aif" 3.0000000000000000000000000000000 18.645833969116210937500000000000
+"click13.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click13.aif_norm.aif" 3.0000000000000000000000000000000 21.479166030883789062500000000000
+"click14.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click14.aif_norm.aif" 3.0000000000000000000000000000000 462.75000000000000000000000000000
+"click15.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click15.aif_norm.aif" 3.0000000000000000000000000000000 462.75000000000000000000000000000
+"click16.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click16.aif_norm.aif" 3.0000000000000000000000000000000 453.95834350585937500000000000000
+"click17.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click17.aif_norm.aif" 3.0000000000000000000000000000000 455.33334350585937500000000000000
+"click18.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click18.aif_norm.aif" 3.0000000000000000000000000000000 109.33333587646484375000000000000
+"click19.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click19.aif_norm.aif" 3.0000000000000000000000000000000 219.68750000000000000000000000000
+"click2.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click2.aif_norm.aif" 3.0000000000000000000000000000000 1060.2083740234375000000000000000
+"click20.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click20.aif_norm.aif" 3.0000000000000000000000000000000 72.875000000000000000000000000000
+"click21.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click21.aif_norm.aif" 3.0000000000000000000000000000000 31.479166030883789062500000000000
+"click22.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click22.aif_norm.aif" 3.0000000000000000000000000000000 0.70833331346511840820312500000000
+"click23.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click23.aif_norm.aif" 3.0000000000000000000000000000000 2.3333332538604736328125000000000
+"click3.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click3.aif_norm.aif" 3.0000000000000000000000000000000 1091.9791259765625000000000000000
+"click4.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click4.aif_norm.aif" 3.0000000000000000000000000000000 25.687500000000000000000000000000
+"click5.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click5.aif_norm.aif" 3.0000000000000000000000000000000 109.33333587646484375000000000000
+"click6.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click6.aif_norm.aif" 3.0000000000000000000000000000000 225.66667175292968750000000000000
+"click7.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click7.aif_norm.aif" 3.0000000000000000000000000000000 219.68750000000000000000000000000
+"click8.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click8.aif_norm.aif" 3.0000000000000000000000000000000 219.68750000000000000000000000000
+"click9.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/click9.aif_norm.aif" 3.0000000000000000000000000000000 38.333332061767578125000000000000
+"maxclick1.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick1.aif_norm.aif" 3.0000000000000000000000000000000 1032.1875000000000000000000000000
+"maxclick10.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick10.aif_norm.aif" 3.0000000000000000000000000000000 17.333333969116210937500000000000
+"maxclick11.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick11.aif_norm.aif" 3.0000000000000000000000000000000 17.333333969116210937500000000000
+"maxclick12.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick12.aif_norm.aif" 3.0000000000000000000000000000000 23.041666030883789062500000000000
+"maxclick13.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick13.aif_norm.aif" 3.0000000000000000000000000000000 55.625000000000000000000000000000
+"maxclick14.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick14.aif_norm.aif" 3.0000000000000000000000000000000 1077.8541259765625000000000000000
+"maxclick15.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick15.aif_norm.aif" 3.0000000000000000000000000000000 125.37500000000000000000000000000
+"maxclick16.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick16.aif_norm.aif" 3.0000000000000000000000000000000 78.083335876464843750000000000000
+"maxclick17.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick17.aif_norm.aif" 3.0000000000000000000000000000000 157.00000000000000000000000000000
+"maxclick18.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick18.aif_norm.aif" 3.0000000000000000000000000000000 115.22916412353515625000000000000
+"maxclick19.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick19.aif_norm.aif" 3.0000000000000000000000000000000 119.37500000000000000000000000000
+"maxclick2.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick2.aif_norm.aif" 3.0000000000000000000000000000000 1032.1875000000000000000000000000
+"maxclick20.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick20.aif_norm.aif" 3.0000000000000000000000000000000 183.06250000000000000000000000000
+"maxclick3.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick3.aif_norm.aif" 3.0000000000000000000000000000000 158.95832824707031250000000000000
+"maxclick4.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick4.aif_norm.aif" 3.0000000000000000000000000000000 54.166667938232421875000000000000
+"maxclick5.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick5.aif_norm.aif" 3.0000000000000000000000000000000 162.68750000000000000000000000000
+"maxclick6.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick6.aif_norm.aif" 3.0000000000000000000000000000000 75.354164123535156250000000000000
+"maxclick7.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick7.aif_norm.aif" 3.0000000000000000000000000000000 42.520832061767578125000000000000
+"maxclick8.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick8.aif_norm.aif" 3.0000000000000000000000000000000 43.458332061767578125000000000000
+"maxclick9.aif_norm.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/clicks_norm/maxclick9.aif_norm.aif" 3.0000000000000000000000000000000 42.500000000000000000000000000000
+"mc1_swp1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp1.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp2.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle10.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle10.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle11.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle11.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle12.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle12.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle13.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle13.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle14.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle14.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle15.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle15.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle16.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle16.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle17.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle17.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle18.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle18.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle19.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle19.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle2.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle20.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle20.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle21.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle21.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle22.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle22.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle23.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle23.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle24.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle24inv1.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle24inv2.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle24inv3.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv3trhs1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle24inv3trhs1.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle3.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle4.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle5.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle6.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle7.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle7.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle8.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle8.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle9.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swp3vsubtle9.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swpinvthr_fltr1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swpinvthr_fltr1.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swpinvthr_fltr1_swp2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/ClicksProcessed/mc1_swpinvthr_fltr1_swp2.aif" 3.0000000000000000000000000000000 1486.1041259765625000000000000000
+"track 2#1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#1.aif" 5.0000000000000000000000000000000 3528.3957519531250000000000000000
+"track 2#10.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#10.aif" 5.0000000000000000000000000000000 2127.6875000000000000000000000000
+"track 2#11.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#11.aif" 5.0000000000000000000000000000000 2127.6875000000000000000000000000
+"track 2#12.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#12.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#13.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#13.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#2.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#3.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#4.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#5.aif" 5.0000000000000000000000000000000 851.10418701171875000000000000000
+"track 2#6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#6.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#7.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#7.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track 2#8.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#8.aif" 5.0000000000000000000000000000000 1702.1666259765625000000000000000
+"track 2#9.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2#9.aif" 5.0000000000000000000000000000000 2553.2292480468750000000000000000
+"track 2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 2.aif" 5.0000000000000000000000000000000 1063.8750000000000000000000000000
+"track 5#1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#1.aif" 5.0000000000000000000000000000000 530.75000000000000000000000000000
+"track 5#10.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#10.aif" 5.0000000000000000000000000000000 513.68750000000000000000000000000
+"track 5#11.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#11.aif" 5.0000000000000000000000000000000 415.89584350585937500000000000000
+"track 5#12.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#12.aif" 5.0000000000000000000000000000000 357.41665649414062500000000000000
+"track 5#13.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#13.aif" 5.0000000000000000000000000000000 389.64584350585937500000000000000
+"track 5#14.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#14.aif" 5.0000000000000000000000000000000 427.22915649414062500000000000000
+"track 5#15.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#15.aif" 5.0000000000000000000000000000000 437.62500000000000000000000000000
+"track 5#16.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#16.aif" 5.0000000000000000000000000000000 381.77084350585937500000000000000
+"track 5#17.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#17.aif" 5.0000000000000000000000000000000 360.97915649414062500000000000000
+"track 5#18.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#18.aif" 5.0000000000000000000000000000000 452.93750000000000000000000000000
+"track 5#19.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#19.aif" 5.0000000000000000000000000000000 404.75000000000000000000000000000
+"track 5#2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#2.aif" 5.0000000000000000000000000000000 246.35417175292968750000000000000
+"track 5#20.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#20.aif" 5.0000000000000000000000000000000 389.41665649414062500000000000000
+"track 5#21.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#21.aif" 5.0000000000000000000000000000000 541.33331298828125000000000000000
+"track 5#22.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#22.aif" 5.0000000000000000000000000000000 352.04165649414062500000000000000
+"track 5#3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#3.aif" 5.0000000000000000000000000000000 302.52084350585937500000000000000
+"track 5#4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#4.aif" 5.0000000000000000000000000000000 419.33334350585937500000000000000
+"track 5#5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#5.aif" 5.0000000000000000000000000000000 473.00000000000000000000000000000
+"track 5#6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#6.aif" 5.0000000000000000000000000000000 230.39582824707031250000000000000
+"track 5#7.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#7.aif" 5.0000000000000000000000000000000 376.75000000000000000000000000000
+"track 5#8.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#8.aif" 5.0000000000000000000000000000000 529.93750000000000000000000000000
+"track 5#9.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5#9.aif" 5.0000000000000000000000000000000 644.91668701171875000000000000000
+"track 5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track 5.aif" 5.0000000000000000000000000000000 553.02081298828125000000000000000
+"track1#1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#1.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track1#10.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#10.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track1#11.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#11.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track1#12.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#12.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track1#2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#2.aif" 5.0000000000000000000000000000000 2109.9582519531250000000000000000
+"track1#3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#3.aif" 5.0000000000000000000000000000000 851.10418701171875000000000000000
+"track1#4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#4.aif" 5.0000000000000000000000000000000 2127.6875000000000000000000000000
+"track1#5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#5.aif" 5.0000000000000000000000000000000 2127.6875000000000000000000000000
+"track1#6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#6.aif" 5.0000000000000000000000000000000 3171.4375000000000000000000000000
+"track1#7.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#7.aif" 5.0000000000000000000000000000000 2017.7708740234375000000000000000
+"track1#8.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#8.aif" 5.0000000000000000000000000000000 3285.0625000000000000000000000000
+"track1#9.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1#9.aif" 5.0000000000000000000000000000000 3404.2917480468750000000000000000
+"track1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track1.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track2.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#1.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#10.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#10.aif" 5.0000000000000000000000000000000 957.50000000000000000000000000000
+"track3#11.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#11.aif" 5.0000000000000000000000000000000 212.79167175292968750000000000000
+"track3#12.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#12.aif" 5.0000000000000000000000000000000 531.93750000000000000000000000000
+"track3#13.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#13.aif" 5.0000000000000000000000000000000 638.33331298828125000000000000000
+"track3#14.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#14.aif" 5.0000000000000000000000000000000 531.93750000000000000000000000000
+"track3#15.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#15.aif" 5.0000000000000000000000000000000 638.33331298828125000000000000000
+"track3#16.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#16.aif" 5.0000000000000000000000000000000 2872.3750000000000000000000000000
+"track3#2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#2.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#3.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#4.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#5.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#6.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3#7.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#7.aif" 5.0000000000000000000000000000000 1063.8750000000000000000000000000
+"track3#8.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#8.aif" 5.0000000000000000000000000000000 4042.6042480468750000000000000000
+"track3#9.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3#9.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track3.aif" 5.0000000000000000000000000000000 1702.1666259765625000000000000000
+"track4#1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#1.aif" 5.0000000000000000000000000000000 534.16668701171875000000000000000
+"track4#10.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#10.aif" 5.0000000000000000000000000000000 4654.2709960937500000000000000000
+"track4#11.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#11.aif" 5.0000000000000000000000000000000 2127.6875000000000000000000000000
+"track4#12.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#12.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track4#13.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#13.aif" 5.0000000000000000000000000000000 1684.4166259765625000000000000000
+"track4#14.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#14.aif" 5.0000000000000000000000000000000 1879.4583740234375000000000000000
+"track4#15.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#15.aif" 5.0000000000000000000000000000000 1773.1041259765625000000000000000
+"track4#16.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#16.aif" 5.0000000000000000000000000000000 1914.9375000000000000000000000000
+"track4#17.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#17.aif" 5.0000000000000000000000000000000 1684.4375000000000000000000000000
+"track4#18.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#18.aif" 5.0000000000000000000000000000000 1702.1666259765625000000000000000
+"track4#19.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#19.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track4#2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#2.aif" 5.0000000000000000000000000000000 650.70831298828125000000000000000
+"track4#20.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#20.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track4#21.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#21.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track4#22.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#22.aif" 5.0000000000000000000000000000000 3829.8332519531250000000000000000
+"track4#23.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#23.aif" 5.0000000000000000000000000000000 531.95831298828125000000000000000
+"track4#24.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#24.aif" 5.0000000000000000000000000000000 1368.0000000000000000000000000000
+"track4#25.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#25.aif" 5.0000000000000000000000000000000 1460.0208740234375000000000000000
+"track4#26.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#26.aif" 5.0000000000000000000000000000000 1409.2708740234375000000000000000
+"track4#27.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#27.aif" 5.0000000000000000000000000000000 1449.0000000000000000000000000000
+"track4#28.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#28.aif" 5.0000000000000000000000000000000 1466.2916259765625000000000000000
+"track4#29.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#29.aif" 5.0000000000000000000000000000000 1500.6458740234375000000000000000
+"track4#3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#3.aif" 5.0000000000000000000000000000000 510.95834350585937500000000000000
+"track4#30.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#30.aif" 5.0000000000000000000000000000000 1734.1458740234375000000000000000
+"track4#4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#4.aif" 5.0000000000000000000000000000000 413.93750000000000000000000000000
+"track4#5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#5.aif" 5.0000000000000000000000000000000 362.08334350585937500000000000000
+"track4#6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#6.aif" 5.0000000000000000000000000000000 394.95834350585937500000000000000
+"track4#7.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#7.aif" 5.0000000000000000000000000000000 423.00000000000000000000000000000
+"track4#8.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#8.aif" 5.0000000000000000000000000000000 3386.5625000000000000000000000000
+"track4#9.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4#9.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"track4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/doepfer /track4.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+kzLoop.wav "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/dums/kzLoop.wav" 6.0000000000000000000000000000000 2312.6457519531250000000000000000
+Kick.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/dums/Kick.aif" 6.0000000000000000000000000000000 2132.2292480468750000000000000000
+"Kick02.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/dums/Kick02.aif" 6.0000000000000000000000000000000 2841.6250000000000000000000000000
+"3spread-text01(long).aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlichSus/3spread-text01(long).aif" 17.000000000000000000000000000000 17000.000000000000000000000000000
+"microplay-g2-bass-resnoise(harsh-highs).aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlichSus/microplay-g2-bass-resnoise(harsh-highs).aif" 17.000000000000000000000000000000 17000.000000000000000000000000000
+"microplay-g2-basscycle(uglyDC).aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlichSus/microplay-g2-basscycle(uglyDC).aif" 17.000000000000000000000000000000 17000.000000000000000000000000000
+"microplay-g2-runtime_convol.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlichSus/microplay-g2-runtime_convol.aif" 17.000000000000000000000000000000 16177.083007812500000000000000000
+"microplay-g2-text01(long).aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlichSus/microplay-g2-text01(long).aif" 17.000000000000000000000000000000 17000.000000000000000000000000000
+glitch-fun.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Glitch/glitch-fun.aif" 17.000000000000000000000000000000 511.54165649414062500000000000000
+glitch-wowfun.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Glitch/glitch-wowfun.aif" 17.000000000000000000000000000000 1626.5833740234375000000000000000
+"perf_mono.aifRegion 1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono.aifRegion 1.aif" 17.000000000000000000000000000000 6908.3750000000000000000000000000
+"perf_mono.aifRegion 2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono.aifRegion 2.aif" 17.000000000000000000000000000000 9682.2080078125000000000000000000
+"perf_mono.aifRegion 3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono.aifRegion 3.aif" 17.000000000000000000000000000000 12979.375000000000000000000000000
+"perf_mono.aifRegion 4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono.aifRegion 4.aif" 17.000000000000000000000000000000 10257.895507812500000000000000000
+"perf_mono.aifRegion 5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono.aifRegion 5.aif" 17.000000000000000000000000000000 9472.8544921875000000000000000000
+"perf_mono.aifRegion 6.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono.aifRegion 6.aif" 17.000000000000000000000000000000 13450.375000000000000000000000000
+"perf_mono2.aifRegion 1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono2.aifRegion 1.aif" 17.000000000000000000000000000000 7829.0000000000000000000000000000
+"perf_mono2.aifRegion 2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono2.aifRegion 2.aif" 17.000000000000000000000000000000 5671.6875000000000000000000000000
+"perf_mono2.aifRegion 3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono2.aifRegion 3.aif" 17.000000000000000000000000000000 12207.250000000000000000000000000
+"perf_mono2.aifRegion 4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono2.aifRegion 4.aif" 17.000000000000000000000000000000 8220.4794921875000000000000000000
+"perf_mono2.aifRegion 5.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono2.aifRegion 5.aif" 17.000000000000000000000000000000 10177.666992187500000000000000000
+"perf_mono3.aifRegion 1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono3.aifRegion 1.aif" 17.000000000000000000000000000000 16410.208984375000000000000000000
+"perf_mono3.aifRegion 2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono3.aifRegion 2.aif" 17.000000000000000000000000000000 18503.437500000000000000000000000
+"perf_mono3.aifRegion 3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchIntrmitnt/perf_mono3.aifRegion 3.aif" 17.000000000000000000000000000000 9870.3544921875000000000000000000
+"microplay-bassthump_glitch01.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-bassthump_glitch01.aif" 30.000000000000000000000000000000 6014.5834960937500000000000000000
+"microplay-bassthump_glitch02.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-bassthump_glitch02.aif" 30.000000000000000000000000000000 9465.1044921875000000000000000000
+"microplay-bassthump_glitch03.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-bassthump_glitch03.aif" 30.000000000000000000000000000000 5542.7084960937500000000000000000
+"microplay-clicks_warm01.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-clicks_warm01.aif" 30.000000000000000000000000000000 1249.4791259765625000000000000000
+"microplay-low-sr-pulse04.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-low-sr-pulse04.aif" 30.000000000000000000000000000000 2110.2082519531250000000000000000
+microplay-pulse(slower).aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-pulse(slower).aif" 30.000000000000000000000000000000 6534.8959960937500000000000000000
+"microplay-tonepulse02.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay-tonepulse02.aif" 30.000000000000000000000000000000 1747.2500000000000000000000000000
+"microplay_thump_flutter01.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/microplay_thump_flutter01.aif" 30.000000000000000000000000000000 7612.5000000000000000000000000000
+"mono-vc3xvc4-cep.aiff" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GlitchTim/mono-vc3xvc4-cep.aiff" 30.000000000000000000000000000000 32653.103515625000000000000000000
+grainyMetal-OPCH.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GrainyPizzi/grainyMetal-OPCH.aif" 36.000000000000000000000000000000 7826.1040039062500000000000000000
+rollingGlass.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/GrainyPizzi/rollingGlass.aif" 36.000000000000000000000000000000 2387.4375000000000000000000000000
+bongosAndToms.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/percussion/bongosAndToms.aif" 36.000000000000000000000000000000 6596.4790039062500000000000000000
+"Congas06.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/percussion/Congas06.aif" 36.000000000000000000000000000000 2047.1458740234375000000000000000
+invertedSaladBowls-inWater.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/percussion/invertedSaladBowls-inWater.aif" 36.000000000000000000000000000000 7332.9584960937500000000000000000
+Tube-flipFlop.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/percussion/Tube-flipFlop.aif" 36.000000000000000000000000000000 27022.646484375000000000000000000
+"pizzi-bouncy2.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Pizzi/pizzi-bouncy2.wav" 36.000000000000000000000000000000 12559.187500000000000000000000000
+"Cb-pizz-sec-A#1-ff-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-A#1-ff-4c.aif" 2.5000000000000000000000000000000 1549.4166259765625000000000000000
+"Cb-pizz-sec-A#2-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-A#2-mf-1c.aif" 2.5000000000000000000000000000000 1175.5625000000000000000000000000
+"Cb-pizz-sec-A#3-pp-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-A#3-pp-1c.aif" 2.5000000000000000000000000000000 1056.8541259765625000000000000000
+"Cb-pizz-sec-A1-pp-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-A1-pp-3c.aif" 2.5000000000000000000000000000000 975.66668701171875000000000000000
+"Cb-pizz-sec-A2-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-A2-mf-1c.aif" 2.5000000000000000000000000000000 1898.0000000000000000000000000000
+"Cb-pizz-sec-A3-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-A3-mf-1c.aif" 2.5000000000000000000000000000000 1222.1875000000000000000000000000
+"Cb-pizz-sec-B1-mf-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-B1-mf-4c.aif" 2.5000000000000000000000000000000 1322.3958740234375000000000000000
+"Cb-pizz-sec-B2-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-B2-ff-2c.aif" 2.5000000000000000000000000000000 1086.5000000000000000000000000000
+"Cb-pizz-sec-B3-pp-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-B3-pp-1c.aif" 2.5000000000000000000000000000000 1472.9166259765625000000000000000
+"Cb-pizz-sec-C#2-pp-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-C#2-pp-3c.aif" 2.5000000000000000000000000000000 1118.0416259765625000000000000000
+"Cb-pizz-sec-C#4-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-C#4-mf-1c.aif" 2.5000000000000000000000000000000 1192.7708740234375000000000000000
+"Cb-pizz-sec-C2-mf-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-C2-mf-4c.aif" 2.5000000000000000000000000000000 1458.9166259765625000000000000000
+"Cb-pizz-sec-D#2-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-D#2-ff-2c.aif" 2.5000000000000000000000000000000 1101.7291259765625000000000000000
+"Cb-pizz-sec-D#4-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-D#4-mf-1c.aif" 2.5000000000000000000000000000000 1271.8333740234375000000000000000
+"Cb-pizz-sec-E1-pp-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-E1-pp-4c.aif" 2.5000000000000000000000000000000 1249.1041259765625000000000000000
+"Cb-pizz-sec-E4-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-E4-mf-1c.aif" 2.5000000000000000000000000000000 1862.6041259765625000000000000000
+"Cb-pizz-sec-F2-mf-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-F2-mf-2c.aif" 2.5000000000000000000000000000000 1667.9375000000000000000000000000
+"Cb-pizz-sec-G#1-ff-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-G#1-ff-4c.aif" 2.5000000000000000000000000000000 1692.4791259765625000000000000000
+"Cb-pizz-sec-G2-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-G2-ff-1c.aif" 2.5000000000000000000000000000000 1197.1250000000000000000000000000
+"Cb-pizz-sec-G3-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Cb-pizz-sec-G3-ff-1c.aif" 2.5000000000000000000000000000000 1905.1666259765625000000000000000
+"Vc-pizz-lv-A#2-pp-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-lv-A#2-pp-3c.aif" 2.5000000000000000000000000000000 2192.0417480468750000000000000000
+"Vc-pizz-lv-A3-mf-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-lv-A3-mf-2c.aif" 2.5000000000000000000000000000000 2721.1250000000000000000000000000
+"Vc-pizz-lv-B3-pp-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-lv-B3-pp-1c.aif" 2.5000000000000000000000000000000 2169.7082519531250000000000000000
+"Vc-pizz-lv-C#5-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-lv-C#5-ff-1c.aif" 2.5000000000000000000000000000000 1892.9791259765625000000000000000
+"Vc-pizz-lv-D#2-mf-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-lv-D#2-mf-4c.aif" 2.5000000000000000000000000000000 2721.1250000000000000000000000000
+"Vc-pizz-lv-D3-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-lv-D3-ff-2c.aif" 2.5000000000000000000000000000000 2721.1250000000000000000000000000
+"Vc-pizz-sec-A#2-pp-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-A#2-pp-3c.aif" 2.5000000000000000000000000000000 950.60418701171875000000000000000
+"Vc-pizz-sec-A#4-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-A#4-ff-1c.aif" 2.5000000000000000000000000000000 1706.1875000000000000000000000000
+"Vc-pizz-sec-A3-mf-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-A3-mf-2c.aif" 2.5000000000000000000000000000000 1059.3541259765625000000000000000
+"Vc-pizz-sec-A4-pp-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-A4-pp-1c.aif" 2.5000000000000000000000000000000 565.00000000000000000000000000000
+"Vc-pizz-sec-C#2-ff-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-C#2-ff-4c.aif" 2.5000000000000000000000000000000 1167.3333740234375000000000000000
+"Vc-pizz-sec-C#5-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-C#5-mf-1c.aif" 2.5000000000000000000000000000000 1210.1875000000000000000000000000
+"Vc-pizz-sec-C4-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-C4-ff-1c.aif" 2.5000000000000000000000000000000 1368.0625000000000000000000000000
+"Vc-pizz-sec-D#3-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-D#3-ff-2c.aif" 2.5000000000000000000000000000000 1365.6875000000000000000000000000
+"Vc-pizz-sec-D#4-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-D#4-mf-1c.aif" 2.5000000000000000000000000000000 1109.7083740234375000000000000000
+"Vc-pizz-sec-D3-mf-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-D3-mf-2c.aif" 2.5000000000000000000000000000000 1193.4583740234375000000000000000
+"Vc-pizz-sec-D5-pp-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-D5-pp-1c.aif" 2.5000000000000000000000000000000 515.41668701171875000000000000000
+"Vc-pizz-sec-E4-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-E4-mf-1c.aif" 2.5000000000000000000000000000000 1145.0625000000000000000000000000
+"Vc-pizz-sec-F#3-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-F#3-ff-2c.aif" 2.5000000000000000000000000000000 1451.1458740234375000000000000000
+"Vc-pizz-sec-F2-ff-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-F2-ff-4c.aif" 2.5000000000000000000000000000000 1040.3750000000000000000000000000
+"Vc-pizz-sec-G#2-ff-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-G#2-ff-3c.aif" 2.5000000000000000000000000000000 1364.3541259765625000000000000000
+"Vc-pizz-sec-G#4-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-G#4-mf-1c.aif" 2.5000000000000000000000000000000 1410.1666259765625000000000000000
+"Vc-pizz-sec-G3-mf-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vc-pizz-sec-G3-mf-2c.aif" 2.5000000000000000000000000000000 1180.8958740234375000000000000000
+"Vn-pizz-bartok-A3-ff-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-bartok-A3-ff-4c.aif" 2.5000000000000000000000000000000 2151.5000000000000000000000000000
+"Vn-pizz-bartok-C#5-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-bartok-C#5-ff-2c.aif" 2.5000000000000000000000000000000 1190.4583740234375000000000000000
+"Vn-pizz-bartok-D#5-ff-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-bartok-D#5-ff-3c.aif" 2.5000000000000000000000000000000 1424.4375000000000000000000000000
+"Vn-pizz-bartok-F#4-ff-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-bartok-F#4-ff-3c.aif" 2.5000000000000000000000000000000 1062.6458740234375000000000000000
+"Vn-pizz-bartok-G4-ff-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-bartok-G4-ff-3c.aif" 2.5000000000000000000000000000000 1428.8750000000000000000000000000
+"Vn-pizz-lv-A#4-mf-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-A#4-mf-3c.aif" 2.5000000000000000000000000000000 989.12500000000000000000000000000
+"Vn-pizz-lv-A#6-mf-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-A#6-mf-1c.aif" 2.5000000000000000000000000000000 1270.3541259765625000000000000000
+"Vn-pizz-lv-A4-pp-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-A4-pp-3c.aif" 2.5000000000000000000000000000000 624.47918701171875000000000000000
+"Vn-pizz-lv-B5-ff-2c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-B5-ff-2c.aif" 2.5000000000000000000000000000000 1562.2500000000000000000000000000
+"Vn-pizz-lv-C4-mf-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-C4-mf-4c.aif" 2.5000000000000000000000000000000 2412.6457519531250000000000000000
+"Vn-pizz-lv-C7-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-C7-ff-1c.aif" 2.5000000000000000000000000000000 1433.1875000000000000000000000000
+"Vn-pizz-lv-D4-mf-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-D4-mf-3c.aif" 2.5000000000000000000000000000000 2721.1250000000000000000000000000
+"Vn-pizz-lv-E5-ff-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-E5-ff-3c.aif" 2.5000000000000000000000000000000 1198.6041259765625000000000000000
+"Vn-pizz-lv-F#5-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-F#5-ff-1c.aif" 2.5000000000000000000000000000000 1451.7291259765625000000000000000
+"Vn-pizz-lv-F5-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-F5-ff-1c.aif" 2.5000000000000000000000000000000 1606.1250000000000000000000000000
+"Vn-pizz-lv-G#4-pp-3c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-G#4-pp-3c.aif" 2.5000000000000000000000000000000 361.43750000000000000000000000000
+"Vn-pizz-lv-G3-pp-4c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-G3-pp-4c.aif" 2.5000000000000000000000000000000 2721.1250000000000000000000000000
+"Vn-pizz-lv-G6-ff-1c.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/pizzi2/Vn-pizz-lv-G6-ff-1c.aif" 2.5000000000000000000000000000000 1520.1458740234375000000000000000
+"Landslide Rumble.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/Landslide Rumble.wav" 22.000000000000000000000000000000 16619.458984375000000000000000000
+"rolling stairs.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/rolling stairs.wav" 22.000000000000000000000000000000 22000.000000000000000000000000000
+"squeeky rolling stairs.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/squeeky rolling stairs.wav" 22.000000000000000000000000000000 22000.000000000000000000000000000
+"scratch1.1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/scratch1.1.aif" 22.000000000000000000000000000000 22000.000000000000000000000000000
+"scratch1.2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/scratch1.2.aif" 22.000000000000000000000000000000 22000.000000000000000000000000000
+"scratch2.1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/scratch2.1.aif" 22.000000000000000000000000000000 22000.000000000000000000000000000
+"scratch2.2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/scratch2.2.aif" 22.000000000000000000000000000000 22000.000000000000000000000000000
+"scratch2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/scratch2.aif" 22.000000000000000000000000000000 22000.000000000000000000000000000
+stairs-WalkingDown(mono).aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stairs-catart/stairs-WalkingDown(mono).aif" 22.000000000000000000000000000000 16341.333007812500000000000000000
+"GCO LO MID.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/GCO LO MID.wav" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+guitar.wav "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/guitar.wav" 5.0000000000000000000000000000000 2047.8541259765625000000000000000
+"a1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/a1.aif" 5.0000000000000000000000000000000 3393.5417480468750000000000000000
+"a3.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/a3.aif" 5.0000000000000000000000000000000 1360.7083740234375000000000000000
+"b2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/b2.aif" 5.0000000000000000000000000000000 2195.0207519531250000000000000000
+"bal Sqz.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/bal Sqz.aif" 5.0000000000000000000000000000000 1291.1458740234375000000000000000
+bamboo-long.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/bamboo-long.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+bamboo-short.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/bamboo-short.aif" 5.0000000000000000000000000000000 2382.0625000000000000000000000000
+Bass-DB.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/Bass-DB.aif" 5.0000000000000000000000000000000 3239.7500000000000000000000000000
+"Bass-DB2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/Bass-DB2.aif" 5.0000000000000000000000000000000 276.35415649414062500000000000000
+breat-StrongInhale.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/breat-StrongInhale.aif" 5.0000000000000000000000000000000 504.85415649414062500000000000000
+breath-StrongInhale-glitch.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/breath-StrongInhale-glitch.aif" 5.0000000000000000000000000000000 945.22918701171875000000000000000
+breath-william-smooth.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/breath-william-smooth.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+breath-william-tonal.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/breath-william-tonal.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+"Coins Lots-short.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/Coins Lots-short.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+Coins-lots-low-short.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/Coins-lots-low-short.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"cpD#4.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/cpD#4.aif" 5.0000000000000000000000000000000 1328.7083740234375000000000000000
+done-bassMoskito.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/done-bassMoskito.aif" 5.0000000000000000000000000000000 2772.7292480468750000000000000000
+drone-az.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/drone-az.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+drone-bass.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/drone-bass.aif" 5.0000000000000000000000000000000 4034.7082519531250000000000000000
+drone-bassVox.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/drone-bassVox.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+drone-bassWorm.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/drone-bassWorm.aif" 5.0000000000000000000000000000000 3661.6250000000000000000000000000
+"GCO LO MID.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/GCO LO MID.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"GCO LO.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/GCO LO.aif" 5.0000000000000000000000000000000 5075.7709960937500000000000000000
+glitch-fun.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/glitch-fun.aif" 5.0000000000000000000000000000000 511.54165649414062500000000000000
+glitch-wowfun.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/glitch-wowfun.aif" 5.0000000000000000000000000000000 1626.5833740234375000000000000000
+gong.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gong.aif" 5.0000000000000000000000000000000 5075.7709960937500000000000000000
+gt.arp.buzz.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.arp.buzz.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+gt.arpegio.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.arpegio.aif" 5.0000000000000000000000000000000 1334.4791259765625000000000000000
+gt.blues.cls.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.blues.cls.aif" 5.0000000000000000000000000000000 4368.8334960937500000000000000000
+"gt.blues.cls2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.blues.cls2.aif" 5.0000000000000000000000000000000 2871.6457519531250000000000000000
+gt.blues.mute.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.blues.mute.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+gt.buzz.blues..aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.buzz.blues..aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+gt.chord.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.chord.aif" 5.0000000000000000000000000000000 4307.8334960937500000000000000000
+gt.cls.note.beep.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.cls.note.beep.aif" 5.0000000000000000000000000000000 618.70831298828125000000000000000
+gt.cls.note.low.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.cls.note.low.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"gt.cls.note.low2.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.cls.note.low2.aif" 5.0000000000000000000000000000000 2777.7707519531250000000000000000
+gt.cls.notearp.harm.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.cls.notearp.harm.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+gt.cls.stroke.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.cls.stroke.aif" 5.0000000000000000000000000000000 1269.4791259765625000000000000000
+gt.elctrc.note.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.elctrc.note.aif" 5.0000000000000000000000000000000 292.50000000000000000000000000000
+gt.rough.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.rough.aif" 5.0000000000000000000000000000000 2435.9582519531250000000000000000
+gt.rough.beep.bas.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.rough.beep.bas.aif" 5.0000000000000000000000000000000 5041.9375000000000000000000000000
+gt.rough.ringy.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.rough.ringy.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+gt.slid.note.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.slid.note.aif" 5.0000000000000000000000000000000 2749.6042480468750000000000000000
+gt.slidy.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/gt.slidy.aif" 5.0000000000000000000000000000000 1642.7083740234375000000000000000
+"laugh-06(sing-many-rustling).aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/laugh-06(sing-many-rustling).aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"mouth-gasp02(laugh).aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/mouth-gasp02(laugh).aif" 5.0000000000000000000000000000000 1876.0416259765625000000000000000
+Quantize.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/Quantize.aif" 5.0000000000000000000000000000000 280.66665649414062500000000000000
+triangle.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/triangle.aif" 5.0000000000000000000000000000000 4075.4792480468750000000000000000
+"V_08Tom_1.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/V_08Tom_1.aif" 5.0000000000000000000000000000000 1558.3541259765625000000000000000
+voice.muddy-short.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/voice.muddy-short.aif" 5.0000000000000000000000000000000 1216.0625000000000000000000000000
+voice.muddy.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/voice.muddy.aif" 5.0000000000000000000000000000000 5409.7709960937500000000000000000
+Water-beep.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/Water-beep.aif" 5.0000000000000000000000000000000 3703.3332519531250000000000000000
+waterphone.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/waterphone.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+wood-glass.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/wood-glass.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+"wx-piano note.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/wx-piano note.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+wx-piano-lowcrash.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/wx-piano-lowcrash.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"X-Big Waterfall.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Big Waterfall.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"X-Canoe Paddle.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Canoe Paddle.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"X-Cave Water Drops.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Cave Water Drops.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+x-chimes.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/x-chimes.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+X-fire-rumble.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-fire-rumble.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+X-firecr.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-firecr.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"x-gongGO PP   01.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/x-gongGO PP   01.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+X-hum-drone.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-hum-drone.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"X-Landslide With Rocks 01.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Landslide With Rocks 01.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"X-Landslide With Rocks 02.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Landslide With Rocks 02.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+X-piano_charge.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-piano_charge.aif" 5.0000000000000000000000000000000 4358.1875000000000000000000000000
+"X-Underwater Bubbles Thick.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Underwater Bubbles Thick.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"X-Underwater Sloshing.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Underwater Sloshing.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+X-Untitled.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Untitled.aif" 5.0000000000000000000000000000000 5000.0000000000000000000000000000
+"X-Water Boil.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/X-Water Boil.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"z_Landslide Rumble.aif" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/stochy.Guit/z_Landslide Rumble.aif" 5.0000000000000000000000000000000 5442.2084960937500000000000000000
+"KlangParade_90b_16br.wav" "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/KlangParade_90b_16br.wav" 29.000000000000000000000000000000 29000.000000000000000000000000000
+AlchemyFood.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/AlchemyFood.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+Coins-Lots-short-edite.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/Coins-Lots-short-edite.aif" 29.000000000000000000000000000000 10349.729492187500000000000000000
+crushingGlass-OPCH.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/crushingGlass-OPCH.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+eaCrum-rogs.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/eaCrum-rogs.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+glassONglass-OPCH.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/glassONglass-OPCH.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+GlassStorm-rogs.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/GlassStorm-rogs.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+Glitch-pers.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/Glitch-pers.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+grainyMetal-OPCH.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/grainyMetal-OPCH.aif" 29.000000000000000000000000000000 24738.687500000000000000000000000
+GuitarCraz-short.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/GuitarCraz-short.aif" 29.000000000000000000000000000000 29173.978515625000000000000000000
+MarbleOnDrum-OPCH.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/MarbleOnDrum-OPCH.aif" 29.000000000000000000000000000000 29000.000000000000000000000000000
+slow-fireMetal-crackle.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/TT.rogs/slow-fireMetal-crackle.aif" 29.000000000000000000000000000000 31564.666015625000000000000000000
+improvisedVoice.aif "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/samples/cataRT/Voice/improvisedVoice.aif" 60.000000000000000000000000000000 60000.000000000000000000000000000

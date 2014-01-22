@@ -1,0 +1,319 @@
+
+ 
+ KEYCUE "gong-rumble-rocks" 
+ 
+ 
+ 	 	 	 	 /CONFIG /output 99 0 /output.1 99 0 /myModule 99 1 /linear-small 99 1 /fileBrowser-rogs1 99 1 /linear-whole 99 1 /fileBrowser-rogs1.1 99 1 /fileBrowser-rogs1.2 99 1 /output.2 99 0 /linear-Big 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/clip 1 
+ 	 	 	 	 /myModule/env/cutoff 850 
+ 	 	 	 	 /myModule/env/on 1 
+ 	 	 	 	 /myModule/env/period 20 
+ 	 	 	 	 /myModule/gain 100.000000 
+ 	 	 	 	 /myModule/pre-slide/down 1 
+ 	 	 	 	 /myModule/pre-slide/up 1 
+ 	 	 	 	 /myModule/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/scale/max 1.000000 
+ 	 	 	 	 /myModule/scale/min 0.000000 
+ 	 	 	 	 /myModule/scale/mode 3 
+ 	 	 	 	 /myModule/scale/window 1074 
+ 	 	 	 	 /myModule/slide/down 10 
+ 	 	 	 	 /myModule/slide/up 0 
+ 	 	 	 	 /myModule/view/color/border 0 
+ 	 	 	 	 /myModule/view/color/contentBackground 0 
+ 	 	 	 	 /myModule/view/color/toolbarBackground 0 
+ 	 	 	 	 /myModule/view/color/toolbarText 0 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/size 300 70 
+ 	 	 	 	 /myModule/visualize 1 
+ # 
+ # Module /linear-small 
+ 	 	 	 	 /linear-small/audio/gain 68.000000 
+ 	 	 	 	 /linear-small/audio/mute 0 
+ 	 	 	 	 /linear-small/buffer/file /Volumes/FreeAgent 
+ 	 	 	 	 /linear-small/grain/duration 55.000000 
+ 	 	 	 	 /linear-small/grain/overlap 50 
+ 	 	 	 	 /linear-small/grain/trigger 0.000000 
+ 	 	 	 	 /linear-small/mod/gain 30.000000 
+ 	 	 	 	 /linear-small/mod/onsetVar 155.000000 
+ 	 	 	 	 /linear-small/mod/pitch -2650.000000 
+ 	 	 	 	 /linear-small/mod/pitchVar 0.000000 
+ 	 	 	 	 /linear-small/mod/position 0.000000 
+ 	 	 	 	 /linear-small/mod/size 782.000000 
+ 	 	 	 	 /linear-small/mod/speed 0.800000 
+ 	 	 	 	 /linear-small/mod/trigger 47.000000 
+ 	 	 	 	 /linear-small/mod/turn 3.000000 
+ 	 	 	 	 /linear-small/pitch/transpose -367.000000 
+ 	 	 	 	 /linear-small/pitch/variation 0.000000 
+ 	 	 	 	 /linear-small/position 274.037415 
+ 	 	 	 	 /linear-small/position/onset_variation 0.000000 
+ 	 	 	 	 /linear-small/position/speed 0.100000 
+ 	 	 	 	 /linear-small/turn 1.000000 
+ 	 	 	 	 /linear-small/view/color/border 0 
+ 	 	 	 	 /linear-small/view/color/contentBackground 0 
+ 	 	 	 	 /linear-small/view/color/toolbarBackground 0 
+ 	 	 	 	 /linear-small/view/color/toolbarText 0 
+ 	 	 	 	 /linear-small/view/freeze 0 
+ 	 	 	 	 /linear-small/view/size 300 140 
+ # 
+ # Module /fileBrowser-rogs1 
+ 	 	 	 	 /fileBrowser-rogs1/type audio 
+ 	 	 	 	 /fileBrowser-rogs1/folder /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1/depth 7 
+ 	 	 	 	 /fileBrowser-rogs1/file /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/border 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/freeze 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/size 300 70 
+ # 
+ # Module /linear-whole 
+ 	 	 	 	 /linear-whole/audio/gain 60.000000 
+ 	 	 	 	 /linear-whole/audio/mute 0 
+ 	 	 	 	 /linear-whole/buffer/file /Volumes/FreeAgent 
+ 	 	 	 	 /linear-whole/grain/duration 73.000000 
+ 	 	 	 	 /linear-whole/grain/overlap 50 
+ 	 	 	 	 /linear-whole/grain/trigger 0.000000 
+ 	 	 	 	 /linear-whole/mod/gain 30.000000 
+ 	 	 	 	 /linear-whole/mod/onsetVar 0.000000 
+ 	 	 	 	 /linear-whole/mod/pitch 0.000000 
+ 	 	 	 	 /linear-whole/mod/pitchVar 0.000000 
+ 	 	 	 	 /linear-whole/mod/position 0.000000 
+ 	 	 	 	 /linear-whole/mod/size 477.000000 
+ 	 	 	 	 /linear-whole/mod/speed 1.000000 
+ 	 	 	 	 /linear-whole/mod/trigger 40.000000 
+ 	 	 	 	 /linear-whole/mod/turn 10.000000 
+ 	 	 	 	 /linear-whole/pitch/transpose -1200.000000 
+ 	 	 	 	 /linear-whole/pitch/variation 4.000000 
+ 	 	 	 	 /linear-whole/position 317.546692 
+ 	 	 	 	 /linear-whole/position/onset_variation 0.000000 
+ 	 	 	 	 /linear-whole/position/speed 0.100000 
+ 	 	 	 	 /linear-whole/turn -4.000000 
+ 	 	 	 	 /linear-whole/view/color/border 0 
+ 	 	 	 	 /linear-whole/view/color/contentBackground 0 
+ 	 	 	 	 /linear-whole/view/color/toolbarBackground 0 
+ 	 	 	 	 /linear-whole/view/color/toolbarText 0 
+ 	 	 	 	 /linear-whole/view/freeze 0 
+ 	 	 	 	 /linear-whole/view/size 300 140 
+ # 
+ # Module /fileBrowser-rogs1.1 
+ 	 	 	 	 /fileBrowser-rogs1.1/type audio 
+ 	 	 	 	 /fileBrowser-rogs1.1/folder /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1.1/depth 7 
+ 	 	 	 	 /fileBrowser-rogs1.1/file /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/size 300 70 
+ # 
+ # Module /fileBrowser-rogs1.2 
+ 	 	 	 	 /fileBrowser-rogs1.2/type audio 
+ 	 	 	 	 /fileBrowser-rogs1.2/folder /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1.2/depth 7 
+ 	 	 	 	 /fileBrowser-rogs1.2/file /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/size 300 70 
+ # 
+ # Module /linear-Big 
+ 	 	 	 	 /linear-Big/audio/gain 62.000000 
+ 	 	 	 	 /linear-Big/audio/mute 0 
+ 	 	 	 	 /linear-Big/buffer/file /Volumes/FreeAgent 
+ 	 	 	 	 /linear-Big/grain/duration 90.000000 
+ 	 	 	 	 /linear-Big/grain/overlap 50 
+ 	 	 	 	 /linear-Big/grain/trigger 0.000000 
+ 	 	 	 	 /linear-Big/mod/gain 30.000000 
+ 	 	 	 	 /linear-Big/mod/onsetVar 166.000000 
+ 	 	 	 	 /linear-Big/mod/pitch 0.000000 
+ 	 	 	 	 /linear-Big/mod/pitchVar 0.000000 
+ 	 	 	 	 /linear-Big/mod/position 2198.000000 
+ 	 	 	 	 /linear-Big/mod/size 641.000000 
+ 	 	 	 	 /linear-Big/mod/speed 0.800000 
+ 	 	 	 	 /linear-Big/mod/trigger 40.000000 
+ 	 	 	 	 /linear-Big/mod/turn -3.000000 
+ 	 	 	 	 /linear-Big/pitch/transpose -2400.000000 
+ 	 	 	 	 /linear-Big/pitch/variation 0.000000 
+ 	 	 	 	 /linear-Big/position 274.037384 
+ 	 	 	 	 /linear-Big/position/onset_variation 1785.000000 
+ 	 	 	 	 /linear-Big/position/speed 0.100000 
+ 	 	 	 	 /linear-Big/turn -1.000000 
+ 	 	 	 	 /linear-Big/view/color/border 0 
+ 	 	 	 	 /linear-Big/view/color/contentBackground 0 
+ 	 	 	 	 /linear-Big/view/color/toolbarBackground 0 
+ 	 	 	 	 /linear-Big/view/color/toolbarText 0 
+ 	 	 	 	 /linear-Big/view/freeze 0 
+ 	 	 	 	 /linear-Big/view/size 300 140 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "Chop(Alkemie-Coins)" 
+ 
+ 
+ 	 	 	 	 /CONFIG /output 99 0 /output.1 99 0 /myModule 99 1 /linear-small 99 1 /fileBrowser-rogs1 99 1 /linear-whole 99 1 /fileBrowser-rogs1.1 99 1 /fileBrowser-rogs1.2 99 1 /output.2 99 0 /linear-Big 99 1 /output~ 99 0 /input~ 99 0 /output~.1 99 0 /input~.1 99 0 /output~.2 99 0 /input~.2 99 0 /bcf2000 99 0 /eggOut 99 0 /damp 99 0 /pBend 99 0 /nav.env~ 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/clip 1 
+ 	 	 	 	 /myModule/env/cutoff 850 
+ 	 	 	 	 /myModule/env/on 1 
+ 	 	 	 	 /myModule/env/period 20 
+ 	 	 	 	 /myModule/gain 100.000000 
+ 	 	 	 	 /myModule/pre-slide/down 1 
+ 	 	 	 	 /myModule/pre-slide/up 0 
+ 	 	 	 	 /myModule/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/scale/max 1.000000 
+ 	 	 	 	 /myModule/scale/min 0.000000 
+ 	 	 	 	 /myModule/scale/mode 3 
+ 	 	 	 	 /myModule/scale/window 2542 
+ 	 	 	 	 /myModule/slide/down 5 
+ 	 	 	 	 /myModule/slide/up 0 
+ 	 	 	 	 /myModule/view/color/border 0 
+ 	 	 	 	 /myModule/view/color/contentBackground 0 
+ 	 	 	 	 /myModule/view/color/toolbarBackground 0 
+ 	 	 	 	 /myModule/view/color/toolbarText 0 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/size 300 70 
+ 	 	 	 	 /myModule/visualize 1 
+ # 
+ # Module /linear-small 
+ 	 	 	 	 /linear-small/audio/gain 68.000000 
+ 	 	 	 	 /linear-small/audio/mute 0 
+ 	 	 	 	 /linear-small/buffer/file /Volumes/FreeAgent GoFlex Drive/Buffer-Audio/Food/Navid Navab- Alchemy of Food.aif 
+ 	 	 	 	 /linear-small/grain/duration 55.000000 
+ 	 	 	 	 /linear-small/grain/overlap 50 
+ 	 	 	 	 /linear-small/grain/trigger 0.000000 
+ 	 	 	 	 /linear-small/mod/gain 30.000000 
+ 	 	 	 	 /linear-small/mod/onsetVar 155.000000 
+ 	 	 	 	 /linear-small/mod/pitch -2650.000000 
+ 	 	 	 	 /linear-small/mod/pitchVar 0.000000 
+ 	 	 	 	 /linear-small/mod/position 0.000000 
+ 	 	 	 	 /linear-small/mod/size 782.000000 
+ 	 	 	 	 /linear-small/mod/speed 0.800000 
+ 	 	 	 	 /linear-small/mod/trigger 47.000000 
+ 	 	 	 	 /linear-small/mod/turn 3.000000 
+ 	 	 	 	 /linear-small/pitch/transpose -367.000000 
+ 	 	 	 	 /linear-small/pitch/variation 0.000000 
+ 	 	 	 	 /linear-small/position 48831.214844 
+ 	 	 	 	 /linear-small/position/onset_variation 0.000000 
+ 	 	 	 	 /linear-small/position/speed 0.100000 
+ 	 	 	 	 /linear-small/turn 1.000000 
+ 	 	 	 	 /linear-small/view/color/border 0 
+ 	 	 	 	 /linear-small/view/color/contentBackground 0 
+ 	 	 	 	 /linear-small/view/color/toolbarBackground 0 
+ 	 	 	 	 /linear-small/view/color/toolbarText 0 
+ 	 	 	 	 /linear-small/view/freeze 0 
+ 	 	 	 	 /linear-small/view/size 300 140 
+ # 
+ # Module /fileBrowser-rogs1 
+ 	 	 	 	 /fileBrowser-rogs1/type audio 
+ 	 	 	 	 /fileBrowser-rogs1/folder /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1/depth 7 
+ 	 	 	 	 /fileBrowser-rogs1/file /Volumes/FreeAgent 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/border 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/freeze 0 
+ 	 	 	 	 /fileBrowser-rogs1/view/size 300 70 
+ # 
+ # Module /linear-whole 
+ 	 	 	 	 /linear-whole/audio/gain 60.000000 
+ 	 	 	 	 /linear-whole/audio/mute 0 
+ 	 	 	 	 /linear-whole/buffer/file /Volumes/FreeAgent 
+ 	 	 	 	 /linear-whole/grain/duration 73.000000 
+ 	 	 	 	 /linear-whole/grain/overlap 50 
+ 	 	 	 	 /linear-whole/grain/trigger 0.000000 
+ 	 	 	 	 /linear-whole/mod/gain 30.000000 
+ 	 	 	 	 /linear-whole/mod/onsetVar 0.000000 
+ 	 	 	 	 /linear-whole/mod/pitch 0.000000 
+ 	 	 	 	 /linear-whole/mod/pitchVar 0.000000 
+ 	 	 	 	 /linear-whole/mod/position 0.000000 
+ 	 	 	 	 /linear-whole/mod/size 477.000000 
+ 	 	 	 	 /linear-whole/mod/speed 1.000000 
+ 	 	 	 	 /linear-whole/mod/trigger 40.000000 
+ 	 	 	 	 /linear-whole/mod/turn 10.000000 
+ 	 	 	 	 /linear-whole/pitch/transpose -1200.000000 
+ 	 	 	 	 /linear-whole/pitch/variation 4.000000 
+ 	 	 	 	 /linear-whole/position 0.128817 
+ 	 	 	 	 /linear-whole/position/onset_variation 0.000000 
+ 	 	 	 	 /linear-whole/position/speed 0.100000 
+ 	 	 	 	 /linear-whole/turn -4.000000 
+ 	 	 	 	 /linear-whole/view/color/border 0 
+ 	 	 	 	 /linear-whole/view/color/contentBackground 0 
+ 	 	 	 	 /linear-whole/view/color/toolbarBackground 0 
+ 	 	 	 	 /linear-whole/view/color/toolbarText 0 
+ 	 	 	 	 /linear-whole/view/freeze 0 
+ 	 	 	 	 /linear-whole/view/size 300 140 
+ # 
+ # Module /fileBrowser-rogs1.1 
+ 	 	 	 	 /fileBrowser-rogs1.1/type audio 
+ 	 	 	 	 /fileBrowser-rogs1.1/folder /Volumes/FreeAgent GoFlex Drive/Buffer-Audio/membrane3/ 
+ 	 	 	 	 /fileBrowser-rogs1.1/depth 7 
+ 	 	 	 	 /fileBrowser-rogs1.1/file /Volumes/FreeAgent GoFlex Drive/Buffer-Audio/membrane3/Coins Lots-short-edite.aif 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/border 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowser-rogs1.1/view/size 300 70 
+ # 
+ # Module /fileBrowser-rogs1.2 
+ 	 	 	 	 /fileBrowser-rogs1.2/type audio 
+ 	 	 	 	 /fileBrowser-rogs1.2/folder /Volumes/FreeAgent GoFlex Drive/Buffer-Audio/Food/ 
+ 	 	 	 	 /fileBrowser-rogs1.2/depth 7 
+ 	 	 	 	 /fileBrowser-rogs1.2/file /Volumes/FreeAgent GoFlex Drive/Buffer-Audio/Food/Navid Navab- Alchemy of Food.aif 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/border 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowser-rogs1.2/view/size 300 70 
+ # 
+ # Module /linear-Big 
+ 	 	 	 	 /linear-Big/audio/gain 62.000000 
+ 	 	 	 	 /linear-Big/audio/mute 0 
+ 	 	 	 	 /linear-Big/buffer/file /Volumes/FreeAgent GoFlex Drive/Buffer-Audio/membrane3/Coins Lots-short-edite.aif 
+ 	 	 	 	 /linear-Big/grain/duration 90.000000 
+ 	 	 	 	 /linear-Big/grain/overlap 50 
+ 	 	 	 	 /linear-Big/grain/trigger 0.000000 
+ 	 	 	 	 /linear-Big/mod/gain 30.000000 
+ 	 	 	 	 /linear-Big/mod/onsetVar 166.000000 
+ 	 	 	 	 /linear-Big/mod/pitch 0.000000 
+ 	 	 	 	 /linear-Big/mod/pitchVar 0.000000 
+ 	 	 	 	 /linear-Big/mod/position 2198.000000 
+ 	 	 	 	 /linear-Big/mod/size 641.000000 
+ 	 	 	 	 /linear-Big/mod/speed 0.800000 
+ 	 	 	 	 /linear-Big/mod/trigger 40.000000 
+ 	 	 	 	 /linear-Big/mod/turn -3.000000 
+ 	 	 	 	 /linear-Big/pitch/transpose -2400.000000 
+ 	 	 	 	 /linear-Big/pitch/variation 0.000000 
+ 	 	 	 	 /linear-Big/position 4423.910645 
+ 	 	 	 	 /linear-Big/position/onset_variation 1785.000000 
+ 	 	 	 	 /linear-Big/position/speed 0.100000 
+ 	 	 	 	 /linear-Big/turn -1.000000 
+ 	 	 	 	 /linear-Big/view/color/border 0 
+ 	 	 	 	 /linear-Big/view/color/contentBackground 0 
+ 	 	 	 	 /linear-Big/view/color/toolbarBackground 0 
+ 	 	 	 	 /linear-Big/view/color/toolbarText 0 
+ 	 	 	 	 /linear-Big/view/freeze 0 
+ 	 	 	 	 /linear-Big/view/size 300 140 
+ # 
+ ######################## 
+ 
+ 

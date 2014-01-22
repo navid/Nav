@@ -1,0 +1,351 @@
+
+ 
+ KEYCUE "FrankyLabMinimal" 
+ 
+ 
+ 	 	 	 	 /CONFIG /input.2 99 1 /input.1 99 1 /oscnet 99 1 /meters.1 99 1 /output 99 1 /meters 99 1 /reverb 99 1 /jmod.sur.multi.aux~.1 99 1 /jmod.sur.multi.aux~ 99 1 /nav.munger~.1 99 1 /nav.munger~ 99 1 /wacom 99 1 /input 99 1 /fileBrowser1 99 1 /output~ 99 1 
+ # 
+ ######################## 
+ # 
+ # Module /input.2 
+ 	 	 	 	 /input.2/audio/active 1 
+ 	 	 	 	 /input.2/audio/gain 0.000000 
+ 	 	 	 	 /input.2/balance 0.000000 
+ 	 	 	 	 /input.2/ch.1 1 
+ 	 	 	 	 /input.2/ch.2 2 
+ 	 	 	 	 /input.2/clicktrain/rate 1.000001 
+ 	 	 	 	 /input.2/soundfile/loop 1 
+ 	 	 	 	 /input.2/soundfile/open /Users/Lolita/SoundLibraries/frankenstein/dry-recs-jun4/dry-recs-june4/Audio Files/cello beta#12.aif 
+ 	 	 	 	 /input.2/soundfile/play 0 
+ 	 	 	 	 /input.2/source soundfile 
+ 	 	 	 	 /input.2/view/color/border 0 
+ 	 	 	 	 /input.2/view/color/contentBackground 0 
+ 	 	 	 	 /input.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /input.2/view/color/toolbarText 0 
+ 	 	 	 	 /input.2/view/freeze 0 
+ 	 	 	 	 /input.2/view/size 300 140 
+ # 
+ # Module /input.1 
+ 	 	 	 	 /input.1/audio/active 1 
+ 	 	 	 	 /input.1/audio/gain 127.000000 
+ 	 	 	 	 /input.1/balance 0.000000 
+ 	 	 	 	 /input.1/ch.1 1 
+ 	 	 	 	 /input.1/ch.2 2 
+ 	 	 	 	 /input.1/clicktrain/rate 1.000001 
+ 	 	 	 	 /input.1/soundfile/loop 1 
+ 	 	 	 	 /input.1/soundfile/play 0 
+ 	 	 	 	 /input.1/source soundfile 
+ 	 	 	 	 /input.1/view/color/border 0 
+ 	 	 	 	 /input.1/view/color/contentBackground 0 
+ 	 	 	 	 /input.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /input.1/view/color/toolbarText 0 
+ 	 	 	 	 /input.1/view/freeze 0 
+ 	 	 	 	 /input.1/view/size 300 140 
+ # 
+ # Module /oscnet 
+ 	 	 	 	 /oscnet/mode 7400 
+ 	 	 	 	 /oscnet/multicast_ip 224.0.0.3 
+ 	 	 	 	 /oscnet/multicast_join 0 
+ 	 	 	 	 /oscnet/multicast_port 7500 
+ 	 	 	 	 /oscnet/osc_prefix null 
+ 	 	 	 	 /oscnet/receive_port 7400 
+ 	 	 	 	 /oscnet/send/active 1 
+ 	 	 	 	 /oscnet/send_host 127.0.0.1 
+ 	 	 	 	 /oscnet/send_port 7400 
+ 	 	 	 	 /oscnet/view/color/border 0 
+ 	 	 	 	 /oscnet/view/color/contentBackground 0 
+ 	 	 	 	 /oscnet/view/color/toolbarBackground 0 
+ 	 	 	 	 /oscnet/view/color/toolbarText 0 
+ 	 	 	 	 /oscnet/view/freeze 0 
+ 	 	 	 	 /oscnet/view/size 300 70 
+ # 
+ # Module /meters.1 
+ 	 	 	 	 /meters.1/channels 12 
+ 	 	 	 	 /meters.1/channels/alias channels 
+ 	 	 	 	 /meters.1/freeze 0 
+ 	 	 	 	 /meters.1/view/color/border 0 
+ 	 	 	 	 /meters.1/view/color/contentBackground 0 
+ 	 	 	 	 /meters.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /meters.1/view/color/toolbarText 0 
+ 	 	 	 	 /meters.1/view/freeze 0 
+ 	 	 	 	 /meters.1/view/size 300 140 
+ # 
+ # Module /output 
+ 	 	 	 	 /output/audio/active 1 
+ 	 	 	 	 /output/audio/mute 0 
+ 	 	 	 	 /output/limiter/active 1 
+ 	 	 	 	 /output/limiter/dcblocker/active 1 
+ 	 	 	 	 /output/limiter/lookahead 64 
+ 	 	 	 	 /output/limiter/mode exponential 
+ 	 	 	 	 /output/limiter/postamp 0.000000 
+ 	 	 	 	 /output/limiter/preamp 6.000000 
+ 	 	 	 	 /output/limiter/release 300.000000 
+ 	 	 	 	 /output/limiter/threshold 6.000000 
+ 	 	 	 	 /output/numSpeakers 12 
+ 	 	 	 	 /output/offset 0 
+ 	 	 	 	 /output/record/filetype default 
+ 	 	 	 	 /output/record/samptype default 
+ 	 	 	 	 /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /output/view/color/border 0 
+ 	 	 	 	 /output/view/color/contentBackground 0 
+ 	 	 	 	 /output/view/color/toolbarBackground 0 
+ 	 	 	 	 /output/view/color/toolbarText 0 
+ 	 	 	 	 /output/view/freeze 0 
+ 	 	 	 	 /output/view/size 300 70 
+ # 
+ # Module /meters 
+ 	 	 	 	 /meters/channels 12 
+ 	 	 	 	 /meters/channels/alias channels 
+ 	 	 	 	 /meters/freeze 0 
+ 	 	 	 	 /meters/view/color/border 0 
+ 	 	 	 	 /meters/view/color/contentBackground 0 
+ 	 	 	 	 /meters/view/color/toolbarBackground 0 
+ 	 	 	 	 /meters/view/color/toolbarText 0 
+ 	 	 	 	 /meters/view/freeze 0 
+ 	 	 	 	 /meters/view/size 300 140 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/inputs 12 
+ 	 	 	 	 /reverb/outputs 12 
+ 	 	 	 	 /reverb/audio/gain 100.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain -0.078995 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 65.339668 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 5.303040 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 1125.251709 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/output.1/gain 100.000000 
+ 	 	 	 	 /reverb/output.10/gain 100.000000 
+ 	 	 	 	 /reverb/output.11/gain 100.000000 
+ 	 	 	 	 /reverb/output.12/gain 100.000000 
+ 	 	 	 	 /reverb/output.13/gain 100.000000 
+ 	 	 	 	 /reverb/output.14/gain 100.000000 
+ 	 	 	 	 /reverb/output.15/gain 100.000000 
+ 	 	 	 	 /reverb/output.16/gain 100.000000 
+ 	 	 	 	 /reverb/output.17/gain 100.000000 
+ 	 	 	 	 /reverb/output.18/gain 100.000000 
+ 	 	 	 	 /reverb/output.19/gain 100.000000 
+ 	 	 	 	 /reverb/output.2/gain 100.000000 
+ 	 	 	 	 /reverb/output.20/gain 100.000000 
+ 	 	 	 	 /reverb/output.21/gain 100.000000 
+ 	 	 	 	 /reverb/output.22/gain 100.000000 
+ 	 	 	 	 /reverb/output.23/gain 100.000000 
+ 	 	 	 	 /reverb/output.24/gain 100.000000 
+ 	 	 	 	 /reverb/output.3/gain 100.000000 
+ 	 	 	 	 /reverb/output.4/gain 100.000000 
+ 	 	 	 	 /reverb/output.5/gain 100.000000 
+ 	 	 	 	 /reverb/output.6/gain 100.000000 
+ 	 	 	 	 /reverb/output.7/gain 100.000000 
+ 	 	 	 	 /reverb/output.8/gain 100.000000 
+ 	 	 	 	 /reverb/output.9/gain 100.000000 
+ 	 	 	 	 /reverb/predelay 0.000000 
+ 	 	 	 	 /reverb/t60 14.000000 
+ 	 	 	 	 /reverb/view/color/border 0 
+ 	 	 	 	 /reverb/view/color/contentBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarBackground 0 
+ 	 	 	 	 /reverb/view/color/toolbarText 0 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~.1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.1/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.2/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/channels 12 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~.1/view/size 300 70 
+ # 
+ # Module /jmod.sur.multi.aux~ 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels/alias channels 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/audio/mute 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.1/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/active 1 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.2/gain 0.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/active 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/aux.3/gain 100.000000 
+ 	 	 	 	 /jmod.sur.multi.aux~/channels 12 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/border 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/contentBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarBackground 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/color/toolbarText 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/freeze 0 
+ 	 	 	 	 /jmod.sur.multi.aux~/view/size 300 70 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 12 
+ 	 	 	 	 /nav.munger~.1/folder /Users/Lolita/Desktop/FrankyJune2010/Samples/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/mix 73.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 1 
+ 	 	 	 	 /nav.munger~.1/buff/file /Users/Lolita/Desktop/FrankyJune2010/Samples/musiBox.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 0 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed -0.440000 
+ 	 	 	 	 /nav.munger~.1/direction 2 
+ 	 	 	 	 /nav.munger~.1/mod/delay 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/gain 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitch 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitchVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/rateVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/size 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/sizeVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/param/delay 2422.934570 
+ 	 	 	 	 /nav.munger~.1/param/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/param/gain 1.178571 
+ 	 	 	 	 /nav.munger~.1/param/pitch 0.200000 
+ 	 	 	 	 /nav.munger~.1/param/pitchVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/rateVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/size 35.000000 
+ 	 	 	 	 /nav.munger~.1/param/sizeVar 95.806702 
+ 	 	 	 	 /nav.munger~.1/param/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 1 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 31 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 12 
+ 	 	 	 	 /nav.munger~/folder /Users/Lolita/Desktop/FrankyJune2010/Samples/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/mix 73.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 1 
+ 	 	 	 	 /nav.munger~/buff/file /Users/Lolita/Desktop/FrankyJune2010/Samples/percussion_Lab.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 0 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.460000 
+ 	 	 	 	 /nav.munger~/direction 2 
+ 	 	 	 	 /nav.munger~/mod/delay 0.000000 
+ 	 	 	 	 /nav.munger~/mod/gain 0.000000 
+ 	 	 	 	 /nav.munger~/mod/pitch 0.000000 
+ 	 	 	 	 /nav.munger~/mod/pitchVar 0.000000 
+ 	 	 	 	 /nav.munger~/mod/rate 0.000000 
+ 	 	 	 	 /nav.munger~/mod/rateVar 0.000000 
+ 	 	 	 	 /nav.munger~/mod/size 0.000000 
+ 	 	 	 	 /nav.munger~/mod/sizeVar 0.000000 
+ 	 	 	 	 /nav.munger~/pan 1 
+ 	 	 	 	 /nav.munger~/param/delay 1114.988770 
+ 	 	 	 	 /nav.munger~/param/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~/param/gain 0.704082 
+ 	 	 	 	 /nav.munger~/param/pitch 0.200000 
+ 	 	 	 	 /nav.munger~/param/pitchVar 0.200000 
+ 	 	 	 	 /nav.munger~/param/rate 0.000000 
+ 	 	 	 	 /nav.munger~/param/rateVar 0.000000 
+ 	 	 	 	 /nav.munger~/param/size 0.000000 
+ 	 	 	 	 /nav.munger~/param/sizeVar 137.000000 
+ 	 	 	 	 /nav.munger~/param/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 2 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 33 
+ # 
+ # Module /wacom 
+ 	 	 	 	 /wacom/bgrd 0 
+ 	 	 	 	 /wacom/flusheventqueue 1 
+ 	 	 	 	 /wacom/menu 0 
+ 	 	 	 	 /wacom/nopointer 1 
+ 	 	 	 	 /wacom/on 1 
+ 	 	 	 	 /wacom/view/color/border 0 
+ 	 	 	 	 /wacom/view/color/contentBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarBackground 0 
+ 	 	 	 	 /wacom/view/color/toolbarText 0 
+ 	 	 	 	 /wacom/view/freeze 0 
+ 	 	 	 	 /wacom/view/size 300 70 
+ 	 	 	 	 /wacom/xyrange 1 
+ # 
+ # Module /input 
+ 	 	 	 	 /input/audio/active 1 
+ 	 	 	 	 /input/audio/gain 108.032509 
+ 	 	 	 	 /input/balance 0.000000 
+ 	 	 	 	 /input/ch.1 1 
+ 	 	 	 	 /input/ch.2 2 
+ 	 	 	 	 /input/clicktrain/rate 1.000001 
+ 	 	 	 	 /input/soundfile/loop 1 
+ 	 	 	 	 /input/soundfile/open /Users/Lolita/SoundLibraries/compositions/ClickClip II.wav 
+ 	 	 	 	 /input/soundfile/play 0 
+ 	 	 	 	 /input/source soundfile 
+ 	 	 	 	 /input/view/color/border 0 
+ 	 	 	 	 /input/view/color/contentBackground 0 
+ 	 	 	 	 /input/view/color/toolbarBackground 0 
+ 	 	 	 	 /input/view/color/toolbarText 0 
+ 	 	 	 	 /input/view/freeze 0 
+ 	 	 	 	 /input/view/size 300 140 
+ # 
+ # Module /fileBrowser1 
+ 	 	 	 	 /fileBrowser1/type all 
+ 	 	 	 	 /fileBrowser1/folder 0 
+ 	 	 	 	 /fileBrowser1/depth 1 
+ 	 	 	 	 /fileBrowser1/file 0 
+ 	 	 	 	 /fileBrowser1/view/color/border 0 
+ 	 	 	 	 /fileBrowser1/view/color/contentBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarBackground 0 
+ 	 	 	 	 /fileBrowser1/view/color/toolbarText 0 
+ 	 	 	 	 /fileBrowser1/view/freeze 0 
+ 	 	 	 	 /fileBrowser1/view/size 300 70 
+ # 
+ # Module /output~ 
+ 	 	 	 	 /output~/audio/active 1 
+ 	 	 	 	 /output~/audio/gain 94.013023 
+ 	 	 	 	 /output~/balance 0.000000 
+ 	 	 	 	 /output~/ch.1 1 
+ 	 	 	 	 /output~/ch.2 2 
+ 	 	 	 	 /output~/limiter/active 1 
+ 	 	 	 	 /output~/limiter/dcblocker/active 1 
+ 	 	 	 	 /output~/limiter/lookahead 64 
+ 	 	 	 	 /output~/limiter/mode exponential 
+ 	 	 	 	 /output~/limiter/postamp 0.000000 
+ 	 	 	 	 /output~/limiter/preamp 6.000000 
+ 	 	 	 	 /output~/limiter/release 300.000000 
+ 	 	 	 	 /output~/limiter/threshold -6.000000 
+ 	 	 	 	 /output~/record/filetype aiff 
+ 	 	 	 	 /output~/record/samptype int24 
+ 	 	 	 	 /output~/saturation/active 1 
+ 	 	 	 	 /output~/saturation/depth 10.000000 
+ 	 	 	 	 /output~/view/color/border 0 
+ 	 	 	 	 /output~/view/color/contentBackground 0 
+ 	 	 	 	 /output~/view/color/toolbarBackground 0 
+ 	 	 	 	 /output~/view/color/toolbarText 0 
+ 	 	 	 	 /output~/view/freeze 0 
+ 	 	 	 	 /output~/view/size 300 140 
+ # 
+ ######################## 
+ 
+ 

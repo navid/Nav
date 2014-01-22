@@ -1,0 +1,591 @@
+
+ 
+ KEYCUE "Init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /enter 99 1 /motionCue 99 1 /table 99 1 /whole 99 1 /play 99 1 /rogs~ 99 1 /rogsCrunch2.2 99 1 /rogsCrunch1.2 99 1 /sogsDeath2 99 1 /rogsDeath3 99 1 /rogsDeath2 99 1 /rogsDeath1 99 1 /sogsDeath1 99 1 /rogsCrunch2 99 1 /rogsCrunch 99 1 /rogsR~ 99 1 /sogs~ 99 1 /ilya.moodScape 99 1 /control2 99 1 /control1 99 1 /pan1 99 1 /filter~ 99 1 /ilyaOutput 99 0 /speakers 99 1 /sources 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /enter 
+ 	 	 	 	 /enter/centroid/color 0 255 255 
+ 	 	 	 	 /enter/centroid/on 0 
+ 	 	 	 	 /enter/centroid/size/on 0 
+ 	 	 	 	 /enter/color 0 
+ 	 	 	 	 /enter/contraction/color 0 255 255 
+ 	 	 	 	 /enter/contraction/max/color 0 255 255 
+ 	 	 	 	 /enter/contraction/max/on 0 
+ 	 	 	 	 /enter/contraction/on 0 
+ 	 	 	 	 /enter/contraction/slide 0.000000 
+ 	 	 	 	 /enter/data/smoothing 0.000000 
+ 	 	 	 	 /enter/edge/algorithm 0 
+ 	 	 	 	 /enter/edge/threshold 0.100000 
+ 	 	 	 	 /enter/inverse 0 
+ 	 	 	 	 /enter/noise 1 
+ 	 	 	 	 /enter/slide 6.000000 
+ 	 	 	 	 /enter/threshold 0.070000 
+ 	 	 	 	 /enter/trails 1 
+ 	 	 	 	 /enter/video/bypass 0 
+ 	 	 	 	 /enter/video/freeze 0 
+ 	 	 	 	 /enter/video/mute 0 
+ 	 	 	 	 /enter/video/preview 0 
+ 	 	 	 	 /enter/view/color/border 0 
+ 	 	 	 	 /enter/view/color/contentBackground 0 
+ 	 	 	 	 /enter/view/color/toolbarBackground 0 
+ 	 	 	 	 /enter/view/color/toolbarText 0 
+ 	 	 	 	 /enter/view/freeze 0 
+ 	 	 	 	 /enter/view/size 300 70 
+ # 
+ # Module /motionCue 
+ 	 	 	 	 /motionCue/view/color/border 0 
+ 	 	 	 	 /motionCue/view/color/contentBackground 0 
+ 	 	 	 	 /motionCue/view/color/toolbarBackground 0 
+ 	 	 	 	 /motionCue/view/color/toolbarText 0 
+ 	 	 	 	 /motionCue/view/freeze 0 
+ 	 	 	 	 /motionCue/view/size 300 210 
+ # 
+ # Module /table 
+ 	 	 	 	 /table/centroid/color 0 255 255 
+ 	 	 	 	 /table/centroid/on 0 
+ 	 	 	 	 /table/centroid/size/on 0 
+ 	 	 	 	 /table/color 0 
+ 	 	 	 	 /table/contraction/color 0 255 255 
+ 	 	 	 	 /table/contraction/max/color 0 255 255 
+ 	 	 	 	 /table/contraction/max/on 0 
+ 	 	 	 	 /table/contraction/on 0 
+ 	 	 	 	 /table/contraction/slide 0.000000 
+ 	 	 	 	 /table/data/smoothing 0.000000 
+ 	 	 	 	 /table/edge/algorithm 0 
+ 	 	 	 	 /table/edge/threshold 0.100000 
+ 	 	 	 	 /table/inverse 0 
+ 	 	 	 	 /table/noise 1 
+ 	 	 	 	 /table/slide 6.000000 
+ 	 	 	 	 /table/threshold 0.090000 
+ 	 	 	 	 /table/trails 1 
+ 	 	 	 	 /table/video/bypass 0 
+ 	 	 	 	 /table/video/freeze 0 
+ 	 	 	 	 /table/video/mute 0 
+ 	 	 	 	 /table/video/preview 0 
+ 	 	 	 	 /table/view/color/border 0 
+ 	 	 	 	 /table/view/color/contentBackground 0 
+ 	 	 	 	 /table/view/color/toolbarBackground 0 
+ 	 	 	 	 /table/view/color/toolbarText 0 
+ 	 	 	 	 /table/view/freeze 0 
+ 	 	 	 	 /table/view/size 300 70 
+ # 
+ # Module /whole 
+ 	 	 	 	 /whole/centroid/color 0 255 255 
+ 	 	 	 	 /whole/centroid/on 0 
+ 	 	 	 	 /whole/centroid/size/on 0 
+ 	 	 	 	 /whole/color 0 
+ 	 	 	 	 /whole/contraction/color 0 255 255 
+ 	 	 	 	 /whole/contraction/max/color 0 255 255 
+ 	 	 	 	 /whole/contraction/max/on 0 
+ 	 	 	 	 /whole/contraction/on 0 
+ 	 	 	 	 /whole/contraction/slide 0.000000 
+ 	 	 	 	 /whole/data/smoothing 0.000000 
+ 	 	 	 	 /whole/edge/algorithm 0 
+ 	 	 	 	 /whole/edge/threshold 0.100000 
+ 	 	 	 	 /whole/inverse 0 
+ 	 	 	 	 /whole/noise 1 
+ 	 	 	 	 /whole/slide 6.000000 
+ 	 	 	 	 /whole/threshold 0.050000 
+ 	 	 	 	 /whole/trails 1 
+ 	 	 	 	 /whole/video/bypass 0 
+ 	 	 	 	 /whole/video/freeze 0 
+ 	 	 	 	 /whole/video/mute 0 
+ 	 	 	 	 /whole/video/preview 0 
+ 	 	 	 	 /whole/view/color/border 0 
+ 	 	 	 	 /whole/view/color/contentBackground 0 
+ 	 	 	 	 /whole/view/color/toolbarBackground 0 
+ 	 	 	 	 /whole/view/color/toolbarText 0 
+ 	 	 	 	 /whole/view/freeze 0 
+ 	 	 	 	 /whole/view/size 300 70 
+ # 
+ # Module /play 
+ 	 	 	 	 /play/centroid/color 0 255 255 
+ 	 	 	 	 /play/centroid/on 0 
+ 	 	 	 	 /play/centroid/size/on 0 
+ 	 	 	 	 /play/color 0 
+ 	 	 	 	 /play/contraction/color 0 255 255 
+ 	 	 	 	 /play/contraction/max/color 0 255 255 
+ 	 	 	 	 /play/contraction/max/on 0 
+ 	 	 	 	 /play/contraction/on 0 
+ 	 	 	 	 /play/contraction/slide 0.000000 
+ 	 	 	 	 /play/data/smoothing 0.000000 
+ 	 	 	 	 /play/edge/algorithm 0 
+ 	 	 	 	 /play/edge/threshold 0.930000 
+ 	 	 	 	 /play/inverse 0 
+ 	 	 	 	 /play/noise 1 
+ 	 	 	 	 /play/slide 6.000000 
+ 	 	 	 	 /play/threshold 0.050000 
+ 	 	 	 	 /play/trails 1 
+ 	 	 	 	 /play/video/bypass 0 
+ 	 	 	 	 /play/video/freeze 0 
+ 	 	 	 	 /play/video/mute 0 
+ 	 	 	 	 /play/video/preview 0 
+ 	 	 	 	 /play/view/color/border 0 
+ 	 	 	 	 /play/view/color/contentBackground 0 
+ 	 	 	 	 /play/view/color/toolbarBackground 0 
+ 	 	 	 	 /play/view/color/toolbarText 0 
+ 	 	 	 	 /play/view/freeze 0 
+ 	 	 	 	 /play/view/size 300 70 
+ # 
+ # Module /rogs~ 
+ 	 	 	 	 /rogs~/audio/gain 1.907352 
+ 	 	 	 	 /rogs~/audio/mute 1 
+ 	 	 	 	 /rogs~/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/WhiteBlur.aif 
+ 	 	 	 	 /rogs~/grain/duration 981.083496 
+ 	 	 	 	 /rogs~/grain/overlap 1 
+ 	 	 	 	 /rogs~/grain/trigger 0.564231 
+ 	 	 	 	 /rogs~/pitch/transpose -0.216929 
+ 	 	 	 	 /rogs~/pitch/variation 0.000000 
+ 	 	 	 	 /rogs~/position 0.000000 
+ 	 	 	 	 /rogs~/position/onset_variation 8.161937 
+ 	 	 	 	 /rogs~/position/speed 0.000000 
+ 	 	 	 	 /rogs~/turn 0.000000 
+ 	 	 	 	 /rogs~/view/color/border 0 
+ 	 	 	 	 /rogs~/view/color/contentBackground 0 
+ 	 	 	 	 /rogs~/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogs~/view/color/toolbarText 0 
+ 	 	 	 	 /rogs~/view/freeze 0 
+ 	 	 	 	 /rogs~/view/size 300 140 
+ # 
+ # Module /rogsCrunch2.2 
+ 	 	 	 	 /rogsCrunch2.2/audio/gain 0.000000 
+ 	 	 	 	 /rogsCrunch2.2/audio/mute 1 
+ 	 	 	 	 /rogsCrunch2.2/buffer/file crunchyObjects-cooked.aif 
+ 	 	 	 	 /rogsCrunch2.2/grain/duration 500.000000 
+ 	 	 	 	 /rogsCrunch2.2/grain/overlap 1 
+ 	 	 	 	 /rogsCrunch2.2/grain/trigger 0.000000 
+ 	 	 	 	 /rogsCrunch2.2/pitch/transpose 0 
+ 	 	 	 	 /rogsCrunch2.2/pitch/variation 0.000000 
+ 	 	 	 	 /rogsCrunch2.2/position 0.000000 
+ 	 	 	 	 /rogsCrunch2.2/position/onset_variation 100.000000 
+ 	 	 	 	 /rogsCrunch2.2/position/speed 0.000000 
+ 	 	 	 	 /rogsCrunch2.2/turn 0.000000 
+ 	 	 	 	 /rogsCrunch2.2/view/color/border 0 
+ 	 	 	 	 /rogsCrunch2.2/view/color/contentBackground 0 
+ 	 	 	 	 /rogsCrunch2.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsCrunch2.2/view/color/toolbarText 0 
+ 	 	 	 	 /rogsCrunch2.2/view/freeze 0 
+ 	 	 	 	 /rogsCrunch2.2/view/size 300 140 
+ # 
+ # Module /rogsCrunch1.2 
+ 	 	 	 	 /rogsCrunch1.2/audio/gain 0.000000 
+ 	 	 	 	 /rogsCrunch1.2/audio/mute 1 
+ 	 	 	 	 /rogsCrunch1.2/buffer/file crunchyObjects-cooked.aif 
+ 	 	 	 	 /rogsCrunch1.2/grain/duration 500.000000 
+ 	 	 	 	 /rogsCrunch1.2/grain/overlap 1 
+ 	 	 	 	 /rogsCrunch1.2/grain/trigger 0.000000 
+ 	 	 	 	 /rogsCrunch1.2/pitch/transpose -1200.000000 
+ 	 	 	 	 /rogsCrunch1.2/pitch/variation 0.000000 
+ 	 	 	 	 /rogsCrunch1.2/position 0.000000 
+ 	 	 	 	 /rogsCrunch1.2/position/onset_variation 100.000000 
+ 	 	 	 	 /rogsCrunch1.2/position/speed 0.000000 
+ 	 	 	 	 /rogsCrunch1.2/turn 0.000000 
+ 	 	 	 	 /rogsCrunch1.2/view/color/border 0 
+ 	 	 	 	 /rogsCrunch1.2/view/color/contentBackground 0 
+ 	 	 	 	 /rogsCrunch1.2/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsCrunch1.2/view/color/toolbarText 0 
+ 	 	 	 	 /rogsCrunch1.2/view/freeze 0 
+ 	 	 	 	 /rogsCrunch1.2/view/size 300 140 
+ # 
+ # Module /sogsDeath2 
+ 	 	 	 	 /sogsDeath2/audio/gain 0.000000 
+ 	 	 	 	 /sogsDeath2/audio/mute 1 
+ 	 	 	 	 /sogsDeath2/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/bassy-choir.aif 
+ 	 	 	 	 /sogsDeath2/grain/duration 602.939697 
+ 	 	 	 	 /sogsDeath2/grain/overlap 5 
+ 	 	 	 	 /sogsDeath2/pitch/transpose -10 
+ 	 	 	 	 /sogsDeath2/pitch/variation 0.000000 
+ 	 	 	 	 /sogsDeath2/position 448.527008 
+ 	 	 	 	 /sogsDeath2/position/onset_variation 263.657684 
+ 	 	 	 	 /sogsDeath2/position/speed 0.448527 
+ 	 	 	 	 /sogsDeath2/view/color/border 0 
+ 	 	 	 	 /sogsDeath2/view/color/contentBackground 0 
+ 	 	 	 	 /sogsDeath2/view/color/toolbarBackground 0 
+ 	 	 	 	 /sogsDeath2/view/color/toolbarText 0 
+ 	 	 	 	 /sogsDeath2/view/freeze 0 
+ 	 	 	 	 /sogsDeath2/view/size 300 140 
+ # 
+ # Module /rogsDeath3 
+ 	 	 	 	 /rogsDeath3/audio/gain 1.907352 
+ 	 	 	 	 /rogsDeath3/audio/mute 1 
+ 	 	 	 	 /rogsDeath3/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/ambience-Cendre.aif 
+ 	 	 	 	 /rogsDeath3/grain/duration 983.676147 
+ 	 	 	 	 /rogsDeath3/grain/overlap 1 
+ 	 	 	 	 /rogsDeath3/grain/trigger 0.000000 
+ 	 	 	 	 /rogsDeath3/pitch/transpose -1200.000000 
+ 	 	 	 	 /rogsDeath3/pitch/variation 0.000000 
+ 	 	 	 	 /rogsDeath3/position 0.000000 
+ 	 	 	 	 /rogsDeath3/position/onset_variation 194.558716 
+ 	 	 	 	 /rogsDeath3/position/speed 0.000000 
+ 	 	 	 	 /rogsDeath3/turn 0.000000 
+ 	 	 	 	 /rogsDeath3/view/color/border 0 
+ 	 	 	 	 /rogsDeath3/view/color/contentBackground 0 
+ 	 	 	 	 /rogsDeath3/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsDeath3/view/color/toolbarText 0 
+ 	 	 	 	 /rogsDeath3/view/freeze 0 
+ 	 	 	 	 /rogsDeath3/view/size 300 140 
+ # 
+ # Module /rogsDeath2 
+ 	 	 	 	 /rogsDeath2/audio/gain 1.136040 
+ 	 	 	 	 /rogsDeath2/audio/mute 1 
+ 	 	 	 	 /rogsDeath2/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/ambience-Sentience.aif 
+ 	 	 	 	 /rogsDeath2/grain/duration 986.087280 
+ 	 	 	 	 /rogsDeath2/grain/overlap 1 
+ 	 	 	 	 /rogsDeath2/grain/trigger 0.000000 
+ 	 	 	 	 /rogsDeath2/pitch/transpose -1200.000000 
+ 	 	 	 	 /rogsDeath2/pitch/variation 0.000000 
+ 	 	 	 	 /rogsDeath2/position 0.000000 
+ 	 	 	 	 /rogsDeath2/position/onset_variation 196.113983 
+ 	 	 	 	 /rogsDeath2/position/speed 0.000000 
+ 	 	 	 	 /rogsDeath2/turn 0.000000 
+ 	 	 	 	 /rogsDeath2/view/color/border 0 
+ 	 	 	 	 /rogsDeath2/view/color/contentBackground 0 
+ 	 	 	 	 /rogsDeath2/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsDeath2/view/color/toolbarText 0 
+ 	 	 	 	 /rogsDeath2/view/freeze 0 
+ 	 	 	 	 /rogsDeath2/view/size 300 140 
+ # 
+ # Module /rogsDeath1 
+ 	 	 	 	 /rogsDeath1/audio/gain 0.000000 
+ 	 	 	 	 /rogsDeath1/audio/mute 1 
+ 	 	 	 	 /rogsDeath1/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/ilya-Intro.aif 
+ 	 	 	 	 /rogsDeath1/grain/duration 981.083496 
+ 	 	 	 	 /rogsDeath1/grain/overlap 1 
+ 	 	 	 	 /rogsDeath1/grain/trigger 0.000000 
+ 	 	 	 	 /rogsDeath1/pitch/transpose 0 
+ 	 	 	 	 /rogsDeath1/pitch/variation 0.000000 
+ 	 	 	 	 /rogsDeath1/position 0.000000 
+ 	 	 	 	 /rogsDeath1/position/onset_variation 8.161937 
+ 	 	 	 	 /rogsDeath1/position/speed 0.000000 
+ 	 	 	 	 /rogsDeath1/turn 0.000000 
+ 	 	 	 	 /rogsDeath1/view/color/border 0 
+ 	 	 	 	 /rogsDeath1/view/color/contentBackground 0 
+ 	 	 	 	 /rogsDeath1/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsDeath1/view/color/toolbarText 0 
+ 	 	 	 	 /rogsDeath1/view/freeze 0 
+ 	 	 	 	 /rogsDeath1/view/size 300 140 
+ # 
+ # Module /sogsDeath1 
+ 	 	 	 	 /sogsDeath1/audio/gain 0.000000 
+ 	 	 	 	 /sogsDeath1/audio/mute 1 
+ 	 	 	 	 /sogsDeath1/buffer/file ambience-Solaris.aif 
+ 	 	 	 	 /sogsDeath1/grain/duration 586.395508 
+ 	 	 	 	 /sogsDeath1/grain/overlap 4 
+ 	 	 	 	 /sogsDeath1/pitch/transpose -6 
+ 	 	 	 	 /sogsDeath1/pitch/variation 0.000000 
+ 	 	 	 	 /sogsDeath1/position 448.526978 
+ 	 	 	 	 /sogsDeath1/position/onset_variation 225.516907 
+ 	 	 	 	 /sogsDeath1/position/speed 0.448527 
+ 	 	 	 	 /sogsDeath1/view/color/border 0 
+ 	 	 	 	 /sogsDeath1/view/color/contentBackground 0 
+ 	 	 	 	 /sogsDeath1/view/color/toolbarBackground 0 
+ 	 	 	 	 /sogsDeath1/view/color/toolbarText 0 
+ 	 	 	 	 /sogsDeath1/view/freeze 0 
+ 	 	 	 	 /sogsDeath1/view/size 300 140 
+ # 
+ # Module /rogsCrunch2 
+ 	 	 	 	 /rogsCrunch2/audio/gain 1.136040 
+ 	 	 	 	 /rogsCrunch2/audio/mute 1 
+ 	 	 	 	 /rogsCrunch2/buffer/file crunchyObjects-cooked.aif 
+ 	 	 	 	 /rogsCrunch2/grain/duration 986.087280 
+ 	 	 	 	 /rogsCrunch2/grain/overlap 1 
+ 	 	 	 	 /rogsCrunch2/grain/trigger 0.000000 
+ 	 	 	 	 /rogsCrunch2/pitch/transpose -2400.000000 
+ 	 	 	 	 /rogsCrunch2/pitch/variation 0.000000 
+ 	 	 	 	 /rogsCrunch2/position 0.000000 
+ 	 	 	 	 /rogsCrunch2/position/onset_variation 196.113983 
+ 	 	 	 	 /rogsCrunch2/position/speed 0.000000 
+ 	 	 	 	 /rogsCrunch2/turn 0.000000 
+ 	 	 	 	 /rogsCrunch2/view/color/border 0 
+ 	 	 	 	 /rogsCrunch2/view/color/contentBackground 0 
+ 	 	 	 	 /rogsCrunch2/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsCrunch2/view/color/toolbarText 0 
+ 	 	 	 	 /rogsCrunch2/view/freeze 0 
+ 	 	 	 	 /rogsCrunch2/view/size 300 140 
+ # 
+ # Module /rogsCrunch 
+ 	 	 	 	 /rogsCrunch/audio/gain 1.907352 
+ 	 	 	 	 /rogsCrunch/audio/mute 1 
+ 	 	 	 	 /rogsCrunch/buffer/file crunchyObjects-cooked.aif 
+ 	 	 	 	 /rogsCrunch/grain/duration 983.676147 
+ 	 	 	 	 /rogsCrunch/grain/overlap 1 
+ 	 	 	 	 /rogsCrunch/grain/trigger 0.000000 
+ 	 	 	 	 /rogsCrunch/pitch/transpose 1200.000000 
+ 	 	 	 	 /rogsCrunch/pitch/variation 0.000000 
+ 	 	 	 	 /rogsCrunch/position 0.000000 
+ 	 	 	 	 /rogsCrunch/position/onset_variation 194.558716 
+ 	 	 	 	 /rogsCrunch/position/speed 0.000000 
+ 	 	 	 	 /rogsCrunch/turn 0.000000 
+ 	 	 	 	 /rogsCrunch/view/color/border 0 
+ 	 	 	 	 /rogsCrunch/view/color/contentBackground 0 
+ 	 	 	 	 /rogsCrunch/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsCrunch/view/color/toolbarText 0 
+ 	 	 	 	 /rogsCrunch/view/freeze 0 
+ 	 	 	 	 /rogsCrunch/view/size 300 140 
+ # 
+ # Module /rogsR~ 
+ 	 	 	 	 /rogsR~/audio/gain 1.136040 
+ 	 	 	 	 /rogsR~/audio/mute 1 
+ 	 	 	 	 /rogsR~/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/xenakisBells2.aif 
+ 	 	 	 	 /rogsR~/grain/duration 986.087280 
+ 	 	 	 	 /rogsR~/grain/overlap 1 
+ 	 	 	 	 /rogsR~/grain/trigger 0.480206 
+ 	 	 	 	 /rogsR~/pitch/transpose -1200.000000 
+ 	 	 	 	 /rogsR~/pitch/variation 0.000000 
+ 	 	 	 	 /rogsR~/position 0.000000 
+ 	 	 	 	 /rogsR~/position/onset_variation 196.113983 
+ 	 	 	 	 /rogsR~/position/speed 0.000000 
+ 	 	 	 	 /rogsR~/turn 0.000000 
+ 	 	 	 	 /rogsR~/view/color/border 0 
+ 	 	 	 	 /rogsR~/view/color/contentBackground 0 
+ 	 	 	 	 /rogsR~/view/color/toolbarBackground 0 
+ 	 	 	 	 /rogsR~/view/color/toolbarText 0 
+ 	 	 	 	 /rogsR~/view/freeze 0 
+ 	 	 	 	 /rogsR~/view/size 300 140 
+ # 
+ # Module /sogs~ 
+ 	 	 	 	 /sogs~/audio/gain 0.000000 
+ 	 	 	 	 /sogs~/audio/mute 1 
+ 	 	 	 	 /sogs~/buffer/file Macintosh HD:/Users/tml/Desktop/ILYA/transport/ea-Catacombes.aif 
+ 	 	 	 	 /sogs~/grain/duration 586.395508 
+ 	 	 	 	 /sogs~/grain/overlap 4 
+ 	 	 	 	 /sogs~/pitch/transpose -0.707730 
+ 	 	 	 	 /sogs~/pitch/variation 0.122655 
+ 	 	 	 	 /sogs~/position 448.527008 
+ 	 	 	 	 /sogs~/position/onset_variation 225.516907 
+ 	 	 	 	 /sogs~/position/speed 0.448527 
+ 	 	 	 	 /sogs~/view/color/border 0 
+ 	 	 	 	 /sogs~/view/color/contentBackground 0 
+ 	 	 	 	 /sogs~/view/color/toolbarBackground 0 
+ 	 	 	 	 /sogs~/view/color/toolbarText 0 
+ 	 	 	 	 /sogs~/view/freeze 0 
+ 	 	 	 	 /sogs~/view/size 300 140 
+ # 
+ # Module /ilya.moodScape 
+ 	 	 	 	 /ilya.moodScape/audio/gain 5.000000 
+ 	 	 	 	 /ilya.moodScape/audio/mute 1 
+ 	 	 	 	 /ilya.moodScape/countdown 0 
+ 	 	 	 	 /ilya.moodScape/loop 1 
+ 	 	 	 	 /ilya.moodScape/view/color/border 0 
+ 	 	 	 	 /ilya.moodScape/view/color/contentBackground 0 
+ 	 	 	 	 /ilya.moodScape/view/color/toolbarBackground 0 
+ 	 	 	 	 /ilya.moodScape/view/color/toolbarText 0 
+ 	 	 	 	 /ilya.moodScape/view/freeze 0 
+ 	 	 	 	 /ilya.moodScape/view/size 300 70 
+ # 
+ # Module /control2 
+ 	 	 	 	 /control2/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /control2/clock/interval 100.000000 
+ 	 	 	 	 /control2/clock/on 1 
+ 	 	 	 	 /control2/clock/stepsize 3.000000 
+ 	 	 	 	 /control2/connect monitor1 
+ 	 	 	 	 /control2/directIndexControl 0 
+ 	 	 	 	 /control2/index 0 
+ 	 	 	 	 /control2/method 1 
+ 	 	 	 	 /control2/points 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /control2/randomStability 4000 
+ 	 	 	 	 /control2/trajectory/adjust fit-to-box 
+ 	 	 	 	 /control2/trajectory/fraction 0.000000 
+ 	 	 	 	 /control2/trajectory/interpolate 0 
+ 	 	 	 	 /control2/trajectory/method 0 
+ 	 	 	 	 /control2/trajectory/original 0 
+ 	 	 	 	 /control2/trajectory/point 1 
+ 	 	 	 	 /control2/trajectory/rec 0 
+ 	 	 	 	 /control2/trajectory/recall 0 
+ 	 	 	 	 /control2/view/color/border 0 
+ 	 	 	 	 /control2/view/color/contentBackground 0 
+ 	 	 	 	 /control2/view/color/toolbarBackground 0 
+ 	 	 	 	 /control2/view/color/toolbarText 0 
+ 	 	 	 	 /control2/view/freeze 0 
+ 	 	 	 	 /control2/view/size 300 70 
+ 	 	 	 	 /control2/volume/bound 0.000000 362.000000 0.000000 
+ 	 	 	 	 /control2/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /control2/volume/show 0 
+ 	 	 	 	 /control2/volume/type 1 
+ # 
+ # Module /control1 
+ 	 	 	 	 /control1/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /control1/clock/interval 100.000000 
+ 	 	 	 	 /control1/clock/on 1 
+ 	 	 	 	 /control1/clock/stepsize 3.000000 
+ 	 	 	 	 /control1/connect monitor1 
+ 	 	 	 	 /control1/directIndexControl 0 
+ 	 	 	 	 /control1/index 0 
+ 	 	 	 	 /control1/method 3 
+ 	 	 	 	 /control1/points 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /control1/randomStability 4000 
+ 	 	 	 	 /control1/trajectory/adjust fit-to-box 
+ 	 	 	 	 /control1/trajectory/fraction 0.000000 
+ 	 	 	 	 /control1/trajectory/interpolate 0 
+ 	 	 	 	 /control1/trajectory/method 0 
+ 	 	 	 	 /control1/trajectory/original 0 
+ 	 	 	 	 /control1/trajectory/point 1 
+ 	 	 	 	 /control1/trajectory/rec 0 
+ 	 	 	 	 /control1/trajectory/recall 0 
+ 	 	 	 	 /control1/view/color/border 0 
+ 	 	 	 	 /control1/view/color/contentBackground 0 
+ 	 	 	 	 /control1/view/color/toolbarBackground 0 
+ 	 	 	 	 /control1/view/color/toolbarText 0 
+ 	 	 	 	 /control1/view/freeze 0 
+ 	 	 	 	 /control1/view/size 300 70 
+ 	 	 	 	 /control1/volume/bound 0.000000 363.000000 0.000000 
+ 	 	 	 	 /control1/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /control1/volume/show 0 
+ 	 	 	 	 /control1/volume/type 1 
+ # 
+ # Module /pan1 
+ 	 	 	 	 /pan1/numSources 12 
+ 	 	 	 	 /pan1/numSpeakers 8 
+ 	 	 	 	 /pan1/audio/gain 97.000000 
+ 	 	 	 	 /pan1/audio/mute 0 
+ 	 	 	 	 /pan1/center/curve 0.300000 
+ 	 	 	 	 /pan1/center/decay 2.000000 
+ 	 	 	 	 /pan1/center/size 1.000000 
+ 	 	 	 	 /pan1/interpolation 1 
+ 	 	 	 	 /pan1/source.1/order 4.000000 
+ 	 	 	 	 /pan1/source.10/order 4.000000 
+ 	 	 	 	 /pan1/source.11/order 4.000000 
+ 	 	 	 	 /pan1/source.12/order 4.000000 
+ 	 	 	 	 /pan1/source.13/order 0.000000 
+ 	 	 	 	 /pan1/source.14/order 0.000000 
+ 	 	 	 	 /pan1/source.15/order 0.000000 
+ 	 	 	 	 /pan1/source.16/order 0.000000 
+ 	 	 	 	 /pan1/source.17/order 0.000000 
+ 	 	 	 	 /pan1/source.18/order 0.000000 
+ 	 	 	 	 /pan1/source.19/order 0.000000 
+ 	 	 	 	 /pan1/source.2/order 4.000000 
+ 	 	 	 	 /pan1/source.20/order 0.000000 
+ 	 	 	 	 /pan1/source.21/order 0.000000 
+ 	 	 	 	 /pan1/source.22/order 0.000000 
+ 	 	 	 	 /pan1/source.23/order 0.000000 
+ 	 	 	 	 /pan1/source.24/order 0.000000 
+ 	 	 	 	 /pan1/source.25/order 0.000000 
+ 	 	 	 	 /pan1/source.26/order 0.000000 
+ 	 	 	 	 /pan1/source.27/order 0.000000 
+ 	 	 	 	 /pan1/source.28/order 0.000000 
+ 	 	 	 	 /pan1/source.29/order 0.000000 
+ 	 	 	 	 /pan1/source.3/order 4.000000 
+ 	 	 	 	 /pan1/source.30/order 0.000000 
+ 	 	 	 	 /pan1/source.31/order 0.000000 
+ 	 	 	 	 /pan1/source.32/order 0.000000 
+ 	 	 	 	 /pan1/source.4/order 4.000000 
+ 	 	 	 	 /pan1/source.5/order 4.000000 
+ 	 	 	 	 /pan1/source.6/order 4.000000 
+ 	 	 	 	 /pan1/source.7/order 4.000000 
+ 	 	 	 	 /pan1/source.8/order 4.000000 
+ 	 	 	 	 /pan1/source.9/order 4.000000 
+ 	 	 	 	 /pan1/view/color/border 0 
+ 	 	 	 	 /pan1/view/color/contentBackground 0 
+ 	 	 	 	 /pan1/view/color/toolbarBackground 0 
+ 	 	 	 	 /pan1/view/color/toolbarText 0 
+ 	 	 	 	 /pan1/view/freeze 0 
+ 	 	 	 	 /pan1/view/size 300 105 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 0.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 1 
+ 	 	 	 	 /filter~/filtergain 0.000000 
+ 	 	 	 	 /filter~/filtertype lowpass 
+ 	 	 	 	 /filter~/frequency 500.000000 
+ 	 	 	 	 /filter~/q 0.400000 
+ 	 	 	 	 /filter~/view/color/border 0 
+ 	 	 	 	 /filter~/view/color/contentBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarBackground 0 
+ 	 	 	 	 /filter~/view/color/toolbarText 0 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/size 300 70 
+ # 
+ # Module /speakers 
+ 	 	 	 	 /speakers/type speaker 
+ 	 	 	 	 /speakers/numChannels 8 
+ 	 	 	 	 /speakers/speaker.1/position 0.000000 5.000000 0.000000 
+ 	 	 	 	 /speakers/speaker.10/position 0 
+ 	 	 	 	 /speakers/speaker.11/position 0 
+ 	 	 	 	 /speakers/speaker.12/position 0 
+ 	 	 	 	 /speakers/speaker.13/position 0 
+ 	 	 	 	 /speakers/speaker.14/position 0 
+ 	 	 	 	 /speakers/speaker.15/position 0 
+ 	 	 	 	 /speakers/speaker.16/position 0 
+ 	 	 	 	 /speakers/speaker.17/position 0 
+ 	 	 	 	 /speakers/speaker.18/position 0 
+ 	 	 	 	 /speakers/speaker.19/position 0 
+ 	 	 	 	 /speakers/speaker.2/position 3.535534 3.535534 0.000000 
+ 	 	 	 	 /speakers/speaker.20/position 0 
+ 	 	 	 	 /speakers/speaker.21/position 0 
+ 	 	 	 	 /speakers/speaker.22/position 0 
+ 	 	 	 	 /speakers/speaker.23/position 0 
+ 	 	 	 	 /speakers/speaker.24/position 0 
+ 	 	 	 	 /speakers/speaker.25/position 0 
+ 	 	 	 	 /speakers/speaker.26/position 0 
+ 	 	 	 	 /speakers/speaker.27/position 0 
+ 	 	 	 	 /speakers/speaker.28/position 0 
+ 	 	 	 	 /speakers/speaker.29/position 0 
+ 	 	 	 	 /speakers/speaker.3/position 5.000000 0.000000 0.000000 
+ 	 	 	 	 /speakers/speaker.30/position 0 
+ 	 	 	 	 /speakers/speaker.31/position 0 
+ 	 	 	 	 /speakers/speaker.32/position 0 
+ 	 	 	 	 /speakers/speaker.4/position 3.535534 -3.535534 0.000000 
+ 	 	 	 	 /speakers/speaker.5/position 0.000000 -5.000000 0.000000 
+ 	 	 	 	 /speakers/speaker.6/position -3.535534 -3.535534 0.000000 
+ 	 	 	 	 /speakers/speaker.7/position -5.000000 -0.000000 0.000000 
+ 	 	 	 	 /speakers/speaker.8/position -3.535534 3.535534 0.000000 
+ 	 	 	 	 /speakers/speaker.9/position -3.213938 3.830222 0.000000 
+ 	 	 	 	 /speakers/view/color/border 0 
+ 	 	 	 	 /speakers/view/color/contentBackground 0 
+ 	 	 	 	 /speakers/view/color/toolbarBackground 0 
+ 	 	 	 	 /speakers/view/color/toolbarText 0 
+ 	 	 	 	 /speakers/view/freeze 0 
+ 	 	 	 	 /speakers/view/size 150 70 
+ # 
+ # Module /sources 
+ 	 	 	 	 /sources/type source 
+ 	 	 	 	 /sources/numChannels 12 
+ 	 	 	 	 /sources/source.1/position 0.000000 5.000000 0.000000 
+ 	 	 	 	 /sources/source.10/position -5.000000 -0.000000 0.000000 
+ 	 	 	 	 /sources/source.11/position -4.330127 2.500000 0.000000 
+ 	 	 	 	 /sources/source.12/position -2.500000 4.330127 0.000000 
+ 	 	 	 	 /sources/source.13/position 1.300000 -5.600000 0.000000 
+ 	 	 	 	 /sources/source.14/position 0 
+ 	 	 	 	 /sources/source.15/position 0 
+ 	 	 	 	 /sources/source.16/position 0 
+ 	 	 	 	 /sources/source.17/position 0 
+ 	 	 	 	 /sources/source.18/position 0 
+ 	 	 	 	 /sources/source.19/position 0 
+ 	 	 	 	 /sources/source.2/position 2.500000 4.330127 0.000000 
+ 	 	 	 	 /sources/source.20/position 0 
+ 	 	 	 	 /sources/source.21/position 0 
+ 	 	 	 	 /sources/source.22/position 0 
+ 	 	 	 	 /sources/source.23/position 0 
+ 	 	 	 	 /sources/source.24/position 0 
+ 	 	 	 	 /sources/source.25/position 0 
+ 	 	 	 	 /sources/source.26/position 0 
+ 	 	 	 	 /sources/source.27/position 0 
+ 	 	 	 	 /sources/source.28/position 0 
+ 	 	 	 	 /sources/source.29/position 0 
+ 	 	 	 	 /sources/source.3/position 4.330127 2.500000 0.000000 
+ 	 	 	 	 /sources/source.30/position 0 
+ 	 	 	 	 /sources/source.31/position 0 
+ 	 	 	 	 /sources/source.32/position 0 
+ 	 	 	 	 /sources/source.4/position 5.000000 0.000000 0.000000 
+ 	 	 	 	 /sources/source.5/position 4.330127 -2.500000 0.000000 
+ 	 	 	 	 /sources/source.6/position 2.500000 -4.330127 0.000000 
+ 	 	 	 	 /sources/source.7/position 0.000000 -5.000000 0.000000 
+ 	 	 	 	 /sources/source.8/position -2.500000 -4.330127 0.000000 
+ 	 	 	 	 /sources/source.9/position -4.330127 -2.500000 0.000000 
+ 	 	 	 	 /sources/view/color/border 0 
+ 	 	 	 	 /sources/view/color/contentBackground 0 
+ 	 	 	 	 /sources/view/color/toolbarBackground 0 
+ 	 	 	 	 /sources/view/color/toolbarText 0 
+ 	 	 	 	 /sources/view/freeze 0 
+ 	 	 	 	 /sources/view/size 150 70 
+ # 
+ ######################## 
+ 
+ 

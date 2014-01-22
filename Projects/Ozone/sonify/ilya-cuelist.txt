@@ -1,0 +1,319 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /ilya.moodScape 99 1 /input% 99 0 /motion2% 99 0 /myModule 99 0 /myModule.1 99 0 /myModule.2 99 0 /nav.munger~ 99 1 /nav.munger~.1 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /ilya.moodScape 
+ 	 	 	 	 /ilya.moodScape/audio/gain 100.000000 
+ 	 	 	 	 /ilya.moodScape/audio/mute 0 
+ 	 	 	 	 /ilya.moodScape/loop 0 
+ 	 	 	 	 /ilya.moodScape/loopsync/active 0 
+ 	 	 	 	 /ilya.moodScape/loopsync/mode loop_time 
+ 	 	 	 	 /ilya.moodScape/reverse 0 
+ 	 	 	 	 /ilya.moodScape/sample/start 0.000000 
+ 	 	 	 	 /ilya.moodScape/sample/stop 0.000000 
+ 	 	 	 	 /ilya.moodScape/sample/vzoom 1.000000 
+ 	 	 	 	 /ilya.moodScape/speed/active 0 
+ 	 	 	 	 /ilya.moodScape/speed/ratio 1.000000 
+ 	 	 	 	 /ilya.moodScape/view/color/border 0 
+ 	 	 	 	 /ilya.moodScape/view/color/contentBackground 0 
+ 	 	 	 	 /ilya.moodScape/view/color/toolbarBackground 0 
+ 	 	 	 	 /ilya.moodScape/view/color/toolbarText 0 
+ 	 	 	 	 /ilya.moodScape/view/freeze 0 
+ 	 	 	 	 /ilya.moodScape/view/size 300 105 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/mix 73.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 1 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif 
+ 	 	 	 	 /nav.munger~/buff/rand 1 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.025629 
+ 	 	 	 	 /nav.munger~/direction 0 
+ 	 	 	 	 /nav.munger~/mod/delay 1018.000000 
+ 	 	 	 	 /nav.munger~/mod/gain -1.000000 
+ 	 	 	 	 /nav.munger~/mod/pitch 2.000000 
+ 	 	 	 	 /nav.munger~/mod/pitchVar -0.100000 
+ 	 	 	 	 /nav.munger~/mod/rate 0.000000 
+ 	 	 	 	 /nav.munger~/mod/rateVar -277.000000 
+ 	 	 	 	 /nav.munger~/mod/size 606.000000 
+ 	 	 	 	 /nav.munger~/mod/sizeVar 205.000000 
+ 	 	 	 	 /nav.munger~/pan 0 
+ 	 	 	 	 /nav.munger~/param/delay 213.137695 
+ 	 	 	 	 /nav.munger~/param/gainVar 0.000000 
+ 	 	 	 	 /nav.munger~/param/gain 0.780612 
+ 	 	 	 	 /nav.munger~/param/pitch -0.200000 
+ 	 	 	 	 /nav.munger~/param/pitchVar -0.200000 
+ 	 	 	 	 /nav.munger~/param/rate 0.000000 
+ 	 	 	 	 /nav.munger~/param/rateVar 253.000000 
+ 	 	 	 	 /nav.munger~/param/size 57.000000 
+ 	 	 	 	 /nav.munger~/param/sizeVar 100.000000 
+ 	 	 	 	 /nav.munger~/param/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 19 
+ 	 	 	 	 /nav.munger~/sieves 0 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300 105 
+ 	 	 	 	 /nav.munger~/voices 95 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/mix 73.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 1 
+ 	 	 	 	 /nav.munger~.1/buff/file musiBox.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 1 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed 0.021473 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/mod/delay 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/gain 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitch 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitchVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/rateVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/size 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/sizeVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/param/delay 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/param/gain 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/pitch 1.000000 
+ 	 	 	 	 /nav.munger~.1/param/pitchVar 0.000500 
+ 	 	 	 	 /nav.munger~.1/param/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/rateVar 15.000000 
+ 	 	 	 	 /nav.munger~.1/param/size 500.000000 
+ 	 	 	 	 /nav.munger~.1/param/sizeVar 100.000000 
+ 	 	 	 	 /nav.munger~.1/param/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 6 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 16 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init-reverse" 
+ 
+ 
+ 	 	 	 	 /CONFIG /ilya.moodScape 99 1 /input% 99 0 /motion2% 99 0 /myModule 99 0 /myModule.1 99 0 /myModule.2 99 0 /nav.munger~ 99 1 /nav.munger~.1 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /ilya.moodScape 
+ 	 	 	 	 /ilya.moodScape/audio/gain 100.000000 
+ 	 	 	 	 /ilya.moodScape/audio/mute 0 
+ 	 	 	 	 /ilya.moodScape/loop 0 
+ 	 	 	 	 /ilya.moodScape/loopsync/active 0 
+ 	 	 	 	 /ilya.moodScape/loopsync/mode loop_time 
+ 	 	 	 	 /ilya.moodScape/reverse 0 
+ 	 	 	 	 /ilya.moodScape/sample/start 0.000000 
+ 	 	 	 	 /ilya.moodScape/sample/stop 0.000000 
+ 	 	 	 	 /ilya.moodScape/sample/vzoom 1.000000 
+ 	 	 	 	 /ilya.moodScape/speed/active 0 
+ 	 	 	 	 /ilya.moodScape/speed/ratio 1.000000 
+ 	 	 	 	 /ilya.moodScape/view/color/border 0 
+ 	 	 	 	 /ilya.moodScape/view/color/contentBackground 0 
+ 	 	 	 	 /ilya.moodScape/view/color/toolbarBackground 0 
+ 	 	 	 	 /ilya.moodScape/view/color/toolbarText 0 
+ 	 	 	 	 /ilya.moodScape/view/freeze 0 
+ 	 	 	 	 /ilya.moodScape/view/size 300 105 
+ # 
+ # Module /nav.munger~ 
+ 	 	 	 	 /nav.munger~/numChannels 2 
+ 	 	 	 	 /nav.munger~/folder /Users/navid/Desktop/cAvA 105.000000 composition/sources/ 
+ 	 	 	 	 /nav.munger~/depth 0 
+ 	 	 	 	 /nav.munger~/audio/freeze 0 
+ 	 	 	 	 /nav.munger~/audio/mix 73.000000 
+ 	 	 	 	 /nav.munger~/audio/mute 0 
+ 	 	 	 	 /nav.munger~/buff/choice 1 
+ 	 	 	 	 /nav.munger~/buff/file /Users/navid/Desktop/cAvA 105.000000 composition/sources/04 Water Drums -1073817600 
+ 	 	 	 	 /nav.munger~/buff/rand 1 
+ 	 	 	 	 /nav.munger~/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~/buff/speed 0.002668 
+ 	 	 	 	 /nav.munger~/direction 0 
+ 	 	 	 	 /nav.munger~/mod/delay 1018.000000 
+ 	 	 	 	 /nav.munger~/mod/gain -1.000000 
+ 	 	 	 	 /nav.munger~/mod/pitch 2.000000 
+ 	 	 	 	 /nav.munger~/mod/pitchVar -0.050000 
+ 	 	 	 	 /nav.munger~/mod/rate 0.000000 
+ 	 	 	 	 /nav.munger~/mod/rateVar -30.000000 
+ 	 	 	 	 /nav.munger~/mod/size 606.000000 
+ 	 	 	 	 /nav.munger~/mod/sizeVar 205.000000 
+ 	 	 	 	 /nav.munger~/pan 0 
+ 	 	 	 	 /nav.munger~/param/delay 213.137695 
+ 	 	 	 	 /nav.munger~/param/gainVar 0.000000 
+ 	 	 	 	 /nav.munger~/param/gain 0.382653 
+ 	 	 	 	 /nav.munger~/param/pitch 0.200000 
+ 	 	 	 	 /nav.munger~/param/pitchVar 0.050000 
+ 	 	 	 	 /nav.munger~/param/rate 0.000000 
+ 	 	 	 	 /nav.munger~/param/rateVar 19.000000 
+ 	 	 	 	 /nav.munger~/param/size 57.000000 
+ 	 	 	 	 /nav.munger~/param/sizeVar 100.000000 
+ 	 	 	 	 /nav.munger~/param/spread 1.000000 
+ 	 	 	 	 /nav.munger~/ramp 19 
+ 	 	 	 	 /nav.munger~/sieves 0.000000 
+ 	 	 	 	 /nav.munger~/tune 0 
+ 	 	 	 	 /nav.munger~/view/color/border 0.000000 
+ 	 	 	 	 /nav.munger~/view/color/contentBackground 0.000000 
+ 	 	 	 	 /nav.munger~/view/color/toolbarBackground 0.000000 
+ 	 	 	 	 /nav.munger~/view/color/toolbarText 0.000000 
+ 	 	 	 	 /nav.munger~/view/freeze 0 
+ 	 	 	 	 /nav.munger~/view/size 300.000000 105.000000 
+ 	 	 	 	 /nav.munger~/voices 60 
+ # 
+ # Module /nav.munger~.1 
+ 	 	 	 	 /nav.munger~.1/numChannels 2 
+ 	 	 	 	 /nav.munger~.1/folder /Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/ 
+ 	 	 	 	 /nav.munger~.1/depth 0 
+ 	 	 	 	 /nav.munger~.1/audio/freeze 0 
+ 	 	 	 	 /nav.munger~.1/audio/mix 73.000000 
+ 	 	 	 	 /nav.munger~.1/audio/mute 0 
+ 	 	 	 	 /nav.munger~.1/buff/choice 1 
+ 	 	 	 	 /nav.munger~.1/buff/file musiBox.aif 
+ 	 	 	 	 /nav.munger~.1/buff/rand 1 
+ 	 	 	 	 /nav.munger~.1/buff/scrub 0.000000 
+ 	 	 	 	 /nav.munger~.1/buff/speed -0.007869 
+ 	 	 	 	 /nav.munger~.1/direction 0 
+ 	 	 	 	 /nav.munger~.1/mod/delay 1189.000000 
+ 	 	 	 	 /nav.munger~.1/mod/gain -1.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitch 1.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitchVar -49.000000 
+ 	 	 	 	 /nav.munger~.1/mod/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/mod/rateVar 332.000000 
+ 	 	 	 	 /nav.munger~.1/mod/size 202.000000 
+ 	 	 	 	 /nav.munger~.1/mod/sizeVar 0.000000 
+ 	 	 	 	 /nav.munger~.1/pan 0 
+ 	 	 	 	 /nav.munger~.1/param/delay 83.617142 
+ 	 	 	 	 /nav.munger~.1/param/gainVar 0.005000 
+ 	 	 	 	 /nav.munger~.1/param/gain 0.857143 
+ 	 	 	 	 /nav.munger~.1/param/pitch 0.300000 
+ 	 	 	 	 /nav.munger~.1/param/pitchVar 0.500000 
+ 	 	 	 	 /nav.munger~.1/param/rate 0.000000 
+ 	 	 	 	 /nav.munger~.1/param/rateVar 5.000000 
+ 	 	 	 	 /nav.munger~.1/param/size 30.000000 
+ 	 	 	 	 /nav.munger~.1/param/sizeVar 51.000000 
+ 	 	 	 	 /nav.munger~.1/param/spread 1.000000 
+ 	 	 	 	 /nav.munger~.1/ramp 14 
+ 	 	 	 	 /nav.munger~.1/sieves 0 
+ 	 	 	 	 /nav.munger~.1/tune 0 
+ 	 	 	 	 /nav.munger~.1/view/color/border 0 
+ 	 	 	 	 /nav.munger~.1/view/color/contentBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarBackground 0 
+ 	 	 	 	 /nav.munger~.1/view/color/toolbarText 0 
+ 	 	 	 	 /nav.munger~.1/view/freeze 0 
+ 	 	 	 	 /nav.munger~.1/view/size 300 105 
+ 	 	 	 	 /nav.munger~.1/voices 60 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "crackle-down" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /myModule/audio/gain 69.272728 ramp global 
+ 	 	 	 	 /nav.munger~/buff/speed 0.000647 ramp global 
+ 	 	 	 	 /nav.munger~/direction 2 
+ 	 	 	 	 /nav.munger~/mod/delay 1956.000000 
+ 	 	 	 	 /nav.munger~/mod/pitchVar -99.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/rateVar -149.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/size 954.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/sizeVar 11.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/delay 416.275391 
+ 	 	 	 	 /nav.munger~/param/gainVar 0.100000 ramp global 
+ 	 	 	 	 /nav.munger~/param/gain 0.011327 ramp global 
+ 	 	 	 	 /nav.munger~/param/pitch 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/pitchVar 75.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/rateVar 186.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/size 123.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/sizeVar 96.000000 ramp global 
+ 	 	 	 	 /nav.munger~/ramp 2 
+ 	 	 	 	 /nav.munger~/voices 38 
+ 	 	 	 	 /nav.munger~.1/buff/speed -0.007898 ramp global 
+ 	 	 	 	 /nav.munger~.1/mod/delay -1001.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitch 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/param/delay 1032.461304 
+ 	 	 	 	 /nav.munger~.1/param/pitch 1.000000 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "crackle-down-bass" ramp 20000 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /myModule/audio/active 1 
+ 	 	 	 	 /nav.munger~/buff/speed 0.003111 ramp global 
+ 	 	 	 	 /nav.munger~/mod/pitch 156.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/rateVar 77.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/size 727.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/delay 619.413086 
+ 	 	 	 	 /nav.munger~/param/gainVar 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/gain 0.137755 ramp global 
+ 	 	 	 	 /nav.munger~/param/pitch -56.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/pitchVar 56.500000 ramp global 
+ 	 	 	 	 /nav.munger~/param/rateVar 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/size 262.000000 ramp global 
+ 	 	 	 	 /nav.munger~.1/buff/speed -0.004751 ramp global 
+ # 
+ ######################## 
+ 
+ 
+ 
+ CUE "init2" 
+ 
+ 
+ # 
+ ######################## 
+ 	 	 	 	 /nav.munger~/buff/speed 0.005561 ramp global 
+ 	 	 	 	 /nav.munger~/mod/gain 1.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/pitch 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/pitchVar 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/rateVar 25.000000 ramp global 
+ 	 	 	 	 /nav.munger~/mod/sizeVar 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/gain 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/pitch 1.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/pitchVar 0.000000 ramp global 
+ 	 	 	 	 /nav.munger~/param/sizeVar 114.000000 ramp global 
+ 	 	 	 	 /nav.munger~/ramp 27 
+ 	 	 	 	 /nav.munger~/voices 69 
+ 	 	 	 	 /nav.munger~.1/buff/speed -0.004172 ramp global 
+ 	 	 	 	 /nav.munger~.1/mod/delay -768.000000 
+ 	 	 	 	 /nav.munger~.1/mod/pitch 0.200000 ramp global 
+ 	 	 	 	 /nav.munger~.1/mod/pitchVar -0.050000 ramp global 
+ 	 	 	 	 /nav.munger~.1/param/pitch 0.800000 ramp global 
+ 	 	 	 	 /nav.munger~.1/param/pitchVar 0.050000 ramp global 
+ # 
+ ######################## 
+ 
+ 

@@ -1,0 +1,214 @@
+
+ 
+ KEYCUE "tv-init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /brcosa% 99 1 /input% 99 1 /television 99 1 /rate 99 1 /fade 99 1 /noise 99 1 /stability 99 1 /ENVtv 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /brcosa% 
+ 	 	 	 	 /brcosa%/brightness 1.000000 
+ 	 	 	 	 /brcosa%/contrast 0.960000 
+ 	 	 	 	 /brcosa%/monochrome 0 
+ 	 	 	 	 /brcosa%/saturation 0.200000 
+ 	 	 	 	 /brcosa%/video/bypass 0 
+ 	 	 	 	 /brcosa%/video/freeze 0 
+ 	 	 	 	 /brcosa%/video/mute 0 
+ 	 	 	 	 /brcosa%/video/preview 0 
+ 	 	 	 	 /brcosa%/view/freeze 0 
+ 	 	 	 	 /brcosa%/view/highlight 0 
+ # 
+ # Module /input% 
+ 	 	 	 	 /input%/active 1 
+ 	 	 	 	 /input%/camera/camera none 
+ 	 	 	 	 /input%/camera/device none 
+ 	 	 	 	 /input%/camera/size 0 
+ 	 	 	 	 /input%/camera/updaterate 1 
+ 	 	 	 	 /input%/desktop/offset/x 0 
+ 	 	 	 	 /input%/desktop/offset/y 0 
+ 	 	 	 	 /input%/desktop/size/x 320 
+ 	 	 	 	 /input%/desktop/size/y 240 
+ 	 	 	 	 /input%/file/autostart 1 
+ 	 	 	 	 /input%/file/framedump 0 
+ 	 	 	 	 /input%/file/loop/bounds 0.000000 
+ 	 	 	 	 /input%/file/loop/mode 1 
+ 	 	 	 	 /input%/file/open traffic.mov 
+ 	 	 	 	 /input%/file/rate 1.000000 
+ 	 	 	 	 /input%/file/size 2 
+ 	 	 	 	 /input%/source camera 
+ 	 	 	 	 /input%/synth/color/active 0 
+ 	 	 	 	 /input%/synth/color set 
+ 	 	 	 	 /input%/synth/noise/planes 4 
+ 	 	 	 	 /input%/synth/noise/size/x 320 
+ 	 	 	 	 /input%/synth/noise/size/y 240 
+ 	 	 	 	 /input%/updaterate 1 
+ 	 	 	 	 /input%/video/freeze 0 
+ 	 	 	 	 /input%/video/gain 100.000000 
+ 	 	 	 	 /input%/video/mute 0 
+ 	 	 	 	 /input%/video/preview 0 
+ 	 	 	 	 /input%/view/freeze 0 
+ 	 	 	 	 /input%/view/highlight none 
+ # 
+ # Module /television 
+ 	 	 	 	 /television/bypass 0 
+ 	 	 	 	 /television/fade 0.114771 
+ 	 	 	 	 /television/freeze 0 
+ 	 	 	 	 /television/mute 0 
+ 	 	 	 	 /television/noise/granularity.x 14 
+ 	 	 	 	 /television/noise/granularity.y 49 
+ 	 	 	 	 /television/noise/probability 0.000800 
+ 	 	 	 	 /television/preview 0 
+ 	 	 	 	 /television/stability 1 
+ 	 	 	 	 /television/updaterate 4 
+ 	 	 	 	 /television/view/freeze 0 
+ 	 	 	 	 /television/view/highlight 0 
+ # 
+ # Module /rate 
+ 	 	 	 	 /rate/function 0 
+ 	 	 	 	 /rate/function/symmetry 0 
+ 	 	 	 	 /rate/function/parameter2 0.000000 
+ 	 	 	 	 /rate/function/parameter1 0.000000 
+ 	 	 	 	 /rate/bypass 0 
+ 	 	 	 	 /rate/clip 1 
+ 	 	 	 	 /rate/diffMode 0 
+ 	 	 	 	 /rate/filter/mode 0 
+ 	 	 	 	 /rate/filter/samples 2 
+ 	 	 	 	 /rate/mute 0 
+ 	 	 	 	 /rate/offset 0.000000 
+ 	 	 	 	 /rate/pre-slide/down 59 
+ 	 	 	 	 /rate/pre-slide/up 1 
+ 	 	 	 	 /rate/ramp/grain 10 
+ 	 	 	 	 /rate/ramp/time 100 
+ 	 	 	 	 /rate/scale/input/max 0.000000 
+ 	 	 	 	 /rate/scale/input/min 65556.000000 
+ 	 	 	 	 /rate/scale/max 1.000000 
+ 	 	 	 	 /rate/scale/min 25.000000 
+ 	 	 	 	 /rate/scale/mode 2 
+ 	 	 	 	 /rate/scale/window 2000 
+ 	 	 	 	 /rate/schmitt/debounce 100 
+ 	 	 	 	 /rate/schmitt/lower 0.400000 
+ 	 	 	 	 /rate/schmitt/upper 0.800000 
+ 	 	 	 	 /rate/slide/down 0 
+ 	 	 	 	 /rate/slide/up 0 
+ 	 	 	 	 /rate/view/freeze 0 
+ 	 	 	 	 /rate/view/highlight none 
+ 	 	 	 	 /rate/visualize 1 
+ # 
+ # Module /fade 
+ 	 	 	 	 /fade/function 0 
+ 	 	 	 	 /fade/function/symmetry 0 
+ 	 	 	 	 /fade/function/parameter2 0.000000 
+ 	 	 	 	 /fade/function/parameter1 0.000000 
+ 	 	 	 	 /fade/bypass 0 
+ 	 	 	 	 /fade/clip 1 
+ 	 	 	 	 /fade/diffMode 0 
+ 	 	 	 	 /fade/filter/mode 0 
+ 	 	 	 	 /fade/filter/samples 2 
+ 	 	 	 	 /fade/mute 0 
+ 	 	 	 	 /fade/offset 0.000000 
+ 	 	 	 	 /fade/pre-slide/down 303 
+ 	 	 	 	 /fade/pre-slide/up 0 
+ 	 	 	 	 /fade/ramp/grain 10 
+ 	 	 	 	 /fade/ramp/time 199 
+ 	 	 	 	 /fade/scale/input/max 0.000000 
+ 	 	 	 	 /fade/scale/input/min 65556.000000 
+ 	 	 	 	 /fade/scale/max 0.000000 
+ 	 	 	 	 /fade/scale/min 0.500000 
+ 	 	 	 	 /fade/scale/mode 2 
+ 	 	 	 	 /fade/scale/window 2000 
+ 	 	 	 	 /fade/schmitt/debounce 100 
+ 	 	 	 	 /fade/schmitt/lower 0.400000 
+ 	 	 	 	 /fade/schmitt/upper 0.800000 
+ 	 	 	 	 /fade/slide/down 0 
+ 	 	 	 	 /fade/slide/up 0 
+ 	 	 	 	 /fade/view/freeze 0 
+ 	 	 	 	 /fade/view/highlight none 
+ 	 	 	 	 /fade/visualize 1 
+ # 
+ # Module /noise 
+ 	 	 	 	 /noise/function exponential 
+ 	 	 	 	 /noise/function/symmetry 0 
+ 	 	 	 	 /noise/function/parameter2 0.000000 
+ 	 	 	 	 /noise/function/parameter1 -1.600000 
+ 	 	 	 	 /noise/bypass 0 
+ 	 	 	 	 /noise/clip 1 
+ 	 	 	 	 /noise/diffMode 0 
+ 	 	 	 	 /noise/filter/mode 0 
+ 	 	 	 	 /noise/filter/samples 2 
+ 	 	 	 	 /noise/mute 0 
+ 	 	 	 	 /noise/offset -0.020000 
+ 	 	 	 	 /noise/pre-slide/down 374 
+ 	 	 	 	 /noise/pre-slide/up 0 
+ 	 	 	 	 /noise/ramp/grain 10 
+ 	 	 	 	 /noise/ramp/time 100 
+ 	 	 	 	 /noise/scale/input/max 0.000000 
+ 	 	 	 	 /noise/scale/input/min 65556.000000 
+ 	 	 	 	 /noise/scale/max 0.000000 
+ 	 	 	 	 /noise/scale/min 0.130000 
+ 	 	 	 	 /noise/scale/mode 2 
+ 	 	 	 	 /noise/scale/window 2000 
+ 	 	 	 	 /noise/schmitt/debounce 100 
+ 	 	 	 	 /noise/schmitt/lower 0.400000 
+ 	 	 	 	 /noise/schmitt/upper 0.800000 
+ 	 	 	 	 /noise/slide/down 0 
+ 	 	 	 	 /noise/slide/up 0 
+ 	 	 	 	 /noise/view/freeze 0 
+ 	 	 	 	 /noise/view/highlight none 
+ 	 	 	 	 /noise/visualize 1 
+ # 
+ # Module /stability 
+ 	 	 	 	 /stability/function exponential 
+ 	 	 	 	 /stability/function/symmetry 0 
+ 	 	 	 	 /stability/function/parameter2 0.000000 
+ 	 	 	 	 /stability/function/parameter1 -1.470000 
+ 	 	 	 	 /stability/bypass 0 
+ 	 	 	 	 /stability/clip 1 
+ 	 	 	 	 /stability/diffMode 0 
+ 	 	 	 	 /stability/filter/mode 0 
+ 	 	 	 	 /stability/filter/samples 2 
+ 	 	 	 	 /stability/mute 0 
+ 	 	 	 	 /stability/offset -0.008000 
+ 	 	 	 	 /stability/pre-slide/down 121 
+ 	 	 	 	 /stability/pre-slide/up 0 
+ 	 	 	 	 /stability/ramp/grain 10 
+ 	 	 	 	 /stability/ramp/time 100 
+ 	 	 	 	 /stability/scale/input/max 0.000000 
+ 	 	 	 	 /stability/scale/input/min 65556.000000 
+ 	 	 	 	 /stability/scale/max -3.000000 
+ 	 	 	 	 /stability/scale/min 224.000000 
+ 	 	 	 	 /stability/scale/mode 2 
+ 	 	 	 	 /stability/scale/window 2000 
+ 	 	 	 	 /stability/schmitt/debounce 100 
+ 	 	 	 	 /stability/schmitt/lower 0.400000 
+ 	 	 	 	 /stability/schmitt/upper 0.800000 
+ 	 	 	 	 /stability/slide/down 0 
+ 	 	 	 	 /stability/slide/up 0 
+ 	 	 	 	 /stability/view/freeze 0 
+ 	 	 	 	 /stability/view/highlight none 
+ 	 	 	 	 /stability/visualize 1 
+ # 
+ # Module /ENVtv 
+ 	 	 	 	 /ENVtv/clip 1 
+ 	 	 	 	 /ENVtv/env/cutoff 850 
+ 	 	 	 	 /ENVtv/env/on 1 
+ 	 	 	 	 /ENVtv/env/period 20 
+ 	 	 	 	 /ENVtv/gain 100.000000 
+ 	 	 	 	 /ENVtv/pre-slide/down 2 
+ 	 	 	 	 /ENVtv/pre-slide/up 1 
+ 	 	 	 	 /ENVtv/scale/input/max 0.000000 
+ 	 	 	 	 /ENVtv/scale/input/min 0.000000 
+ 	 	 	 	 /ENVtv/scale/max 1.000000 
+ 	 	 	 	 /ENVtv/scale/min 0.000000 
+ 	 	 	 	 /ENVtv/scale/mode 2 
+ 	 	 	 	 /ENVtv/scale/window 1000 
+ 	 	 	 	 /ENVtv/slide/down 10 
+ 	 	 	 	 /ENVtv/slide/up 0 
+ 	 	 	 	 /ENVtv/view/freeze 0 
+ 	 	 	 	 /ENVtv/view/highlight 0 
+ 	 	 	 	 /ENVtv/visualize 1 
+ # 
+ ######################## 
+ 
+ 

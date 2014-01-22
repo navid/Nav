@@ -1,0 +1,268 @@
+
+ 
+ KEYCUE "18-chnl-BB" 
+ 
+ 
+ 	 	 	 	 /CONFIG /spat-3dAmbi 99 1 /speakers 99 1 /position 99 1 /ambicontrol2 99 1 /speakers.1 99 1 /sources 99 1 /fnc-out 99 1 /in1 99 1 /FNC-pan 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /spat-3dAmbi 
+ 	 	 	 	 /spat-3dAmbi/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /spat-3dAmbi/clock/interval 100.000000 
+ 	 	 	 	 /spat-3dAmbi/clock/on 0 
+ 	 	 	 	 /spat-3dAmbi/clock/stepsize 9.000000 
+ 	 	 	 	 /spat-3dAmbi/connect paul 
+ 	 	 	 	 /spat-3dAmbi/directIndexControl 0 
+ 	 	 	 	 /spat-3dAmbi/index 0 
+ 	 	 	 	 /spat-3dAmbi/method 2 
+ 	 	 	 	 /spat-3dAmbi/points 1.000000 2.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /spat-3dAmbi/randomStability 4314 
+ 	 	 	 	 /spat-3dAmbi/trajectory/adjust fit-to-box 
+ 	 	 	 	 /spat-3dAmbi/trajectory/fraction 0.000000 
+ 	 	 	 	 /spat-3dAmbi/trajectory/interpolate 0 
+ 	 	 	 	 /spat-3dAmbi/trajectory/method 0 
+ 	 	 	 	 /spat-3dAmbi/trajectory/original 0 
+ 	 	 	 	 /spat-3dAmbi/trajectory/point 1 
+ 	 	 	 	 /spat-3dAmbi/trajectory/rec 0 
+ 	 	 	 	 /spat-3dAmbi/trajectory/recall 0 
+ 	 	 	 	 /spat-3dAmbi/view/freeze 0 
+ 	 	 	 	 /spat-3dAmbi/view/highlight 0 
+ 	 	 	 	 /spat-3dAmbi/volume/bound 2.000000 2.000000 2.000000 
+ 	 	 	 	 /spat-3dAmbi/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /spat-3dAmbi/volume/show 0 
+ 	 	 	 	 /spat-3dAmbi/volume/type 0 
+ # 
+ # Module /speakers 
+ 	 	 	 	 /speakers/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /speakers/clock/interval 100.000000 
+ 	 	 	 	 /speakers/clock/on 0 
+ 	 	 	 	 /speakers/clock/stepsize 3.000000 
+ 	 	 	 	 /speakers/connect paul 
+ 	 	 	 	 /speakers/directIndexControl 0 
+ 	 	 	 	 /speakers/index 0 
+ 	 	 	 	 /speakers/method 1 
+ 	 	 	 	 /speakers/points 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /speakers/randomStability 3000 
+ 	 	 	 	 /speakers/trajectory/adjust fit-to-box 
+ 	 	 	 	 /speakers/trajectory/fraction 0.000000 
+ 	 	 	 	 /speakers/trajectory/interpolate 0 
+ 	 	 	 	 /speakers/trajectory/method 0 
+ 	 	 	 	 /speakers/trajectory/original 0 
+ 	 	 	 	 /speakers/trajectory/point 1 
+ 	 	 	 	 /speakers/trajectory/rec 0 
+ 	 	 	 	 /speakers/trajectory/recall 0 
+ 	 	 	 	 /speakers/view/freeze 0 
+ 	 	 	 	 /speakers/view/highlight 0 
+ 	 	 	 	 /speakers/volume/bound 1.500000 1.500000 0.000000 
+ 	 	 	 	 /speakers/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /speakers/volume/show 0 
+ 	 	 	 	 /speakers/volume/type 0 
+ # 
+ # Module /position 
+ 	 	 	 	 /position/offset 0 
+ 	 	 	 	 /position/source.1/blur 0.000000 
+ 	 	 	 	 /position/source.1/position -1.000000 -1.000000 -0.332061 
+ 	 	 	 	 /position/source.2/blur 0.000000 
+ 	 	 	 	 /position/source.2/position 0.075560 0.017388 -0.523204 
+ 	 	 	 	 /position/source.3/blur 0.000000 
+ 	 	 	 	 /position/source.3/position 0.770000 -0.350000 0.000000 
+ 	 	 	 	 /position/source.4/blur 0.000000 
+ 	 	 	 	 /position/source.4/position 0.670000 -0.250000 0.000000 
+ 	 	 	 	 /position/source.5/blur 0.000000 
+ 	 	 	 	 /position/source.5/position 0.500000 0.960000 0.000000 
+ 	 	 	 	 /position/source.6/blur 0.000000 
+ 	 	 	 	 /position/source.6/position -0.440000 0.910000 0.000000 
+ 	 	 	 	 /position/source.7/blur 0.000000 
+ 	 	 	 	 /position/source.7/position -0.330000 0.110000 0.000000 
+ 	 	 	 	 /position/source.8/blur 0.000000 
+ 	 	 	 	 /position/source.8/position -0.300000 0.170000 0.000000 
+ 	 	 	 	 /position/view/freeze 0 
+ 	 	 	 	 /position/view/highlight 0 
+ # 
+ # Module /ambicontrol2 
+ 	 	 	 	 /ambicontrol2/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /ambicontrol2/clock/interval 100.000000 
+ 	 	 	 	 /ambicontrol2/clock/on 0 
+ 	 	 	 	 /ambicontrol2/clock/stepsize 6.000000 
+ 	 	 	 	 /ambicontrol2/connect bozzini 
+ 	 	 	 	 /ambicontrol2/directIndexControl 0 
+ 	 	 	 	 /ambicontrol2/index 0 
+ 	 	 	 	 /ambicontrol2/method 2 
+ 	 	 	 	 /ambicontrol2/points 1.000000 2.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 666.000000 
+ 	 	 	 	 /ambicontrol2/randomStability 4000 
+ 	 	 	 	 /ambicontrol2/trajectory/adjust fit-to-box 
+ 	 	 	 	 /ambicontrol2/trajectory/fraction 0.000000 
+ 	 	 	 	 /ambicontrol2/trajectory/interpolate 0 
+ 	 	 	 	 /ambicontrol2/trajectory/method 0 
+ 	 	 	 	 /ambicontrol2/trajectory/original 0 
+ 	 	 	 	 /ambicontrol2/trajectory/point 1 
+ 	 	 	 	 /ambicontrol2/trajectory/rec 0 
+ 	 	 	 	 /ambicontrol2/trajectory/recall 0 
+ 	 	 	 	 /ambicontrol2/view/freeze 0 
+ 	 	 	 	 /ambicontrol2/view/highlight 0 
+ 	 	 	 	 /ambicontrol2/volume/bound 2.000000 2.000000 2.000000 
+ 	 	 	 	 /ambicontrol2/volume/color 0.223629 0.915612 0.535508 
+ 	 	 	 	 /ambicontrol2/volume/show 1 
+ 	 	 	 	 /ambicontrol2/volume/type 0 
+ # 
+ # Module /speakers.1 
+ 	 	 	 	 /speakers.1/type speaker 
+ 	 	 	 	 /speakers.1/numChannels 18 
+ 	 	 	 	 /speakers.1/speaker.1/position -3.183026 3.832890 0.000000 
+ 	 	 	 	 /speakers.1/speaker.2/position 3.513818 3.531353 0.000000 
+ 	 	 	 	 /speakers.1/speaker.3/position 4.805456 1.177703 0.000000 
+ 	 	 	 	 /speakers.1/speaker.4/position 4.648433 -2.009284 0.000000 
+ 	 	 	 	 /speakers.1/speaker.5/position 3.279481 -4.118498 0.000000 
+ 	 	 	 	 /speakers.1/speaker.6/position -3.192671 -3.945167 0.000000 
+ 	 	 	 	 /speakers.1/speaker.7/position -4.688447 -1.704249 0.000000 
+ 	 	 	 	 /speakers.1/speaker.8/position -4.849729 1.368720 0.000000 
+ 	 	 	 	 /speakers.1/speaker.9/position -2.109530 2.151139 4.456238 
+ 	 	 	 	 /speakers.1/speaker.10/position 2.175070 2.061804 4.456238 
+ 	 	 	 	 /speakers.1/speaker.11/position 2.268684 -2.305096 4.456238 
+ 	 	 	 	 /speakers.1/speaker.12/position -2.205983 -2.126508 4.456238 
+ 	 	 	 	 /speakers.1/speaker.13/position -3.799620 4.237402 -3.342178 
+ 	 	 	 	 /speakers.1/speaker.14/position 0.327949 4.383749 -3.342178 
+ 	 	 	 	 /speakers.1/speaker.15/position 5.049431 3.732964 -3.342178 
+ 	 	 	 	 /speakers.1/speaker.16/position 5.271993 -0.258617 -3.342178 
+ 	 	 	 	 /speakers.1/speaker.17/position 0.287385 -0.201607 -3.342178 
+ 	 	 	 	 /speakers.1/speaker.18/position -4.840081 0.030032 -3.342178 
+ 	 	 	 	 /speakers.1/speaker.19/position 0 
+ 	 	 	 	 /speakers.1/speaker.20/position 0 
+ 	 	 	 	 /speakers.1/speaker.21/position 0 
+ 	 	 	 	 /speakers.1/speaker.22/position 0 
+ 	 	 	 	 /speakers.1/speaker.23/position 0 
+ 	 	 	 	 /speakers.1/speaker.24/position 0 
+ 	 	 	 	 /speakers.1/speaker.25/position 0 
+ 	 	 	 	 /speakers.1/speaker.26/position 0 
+ 	 	 	 	 /speakers.1/speaker.27/position 0 
+ 	 	 	 	 /speakers.1/speaker.28/position 0 
+ 	 	 	 	 /speakers.1/speaker.29/position 0 
+ 	 	 	 	 /speakers.1/speaker.30/position 0 
+ 	 	 	 	 /speakers.1/speaker.31/position 0 
+ 	 	 	 	 /speakers.1/speaker.32/position 0 
+ 	 	 	 	 /speakers.1/view/freeze 0 
+ 	 	 	 	 /speakers.1/view/highlight none 
+ # 
+ # Module /sources 
+ 	 	 	 	 /sources/type source 
+ 	 	 	 	 /sources/numChannels 3 
+ 	 	 	 	 /sources/source.1/position -9.600000 2.100000 0.000000 
+ 	 	 	 	 /sources/source.2/position 1.100000 5.100000 0.000000 
+ 	 	 	 	 /sources/source.3/position 7.700000 -3.500000 0.000000 
+ 	 	 	 	 /sources/source.4/position 6.700000 -2.500000 0.000000 
+ 	 	 	 	 /sources/source.5/position 5.000000 9.600000 0.000000 
+ 	 	 	 	 /sources/source.6/position -4.400000 9.100000 0.000000 
+ 	 	 	 	 /sources/source.7/position -3.300000 1.100000 0.000000 
+ 	 	 	 	 /sources/source.8/position -3.000000 1.700000 0.000000 
+ 	 	 	 	 /sources/source.9/position -8.200000 -2.100000 0.000000 
+ 	 	 	 	 /sources/source.10/position 4.800000 -9.900000 0.000000 
+ 	 	 	 	 /sources/source.11/position -7.300000 7.200000 0.000000 
+ 	 	 	 	 /sources/source.12/position -2.300000 5.900000 0.000000 
+ 	 	 	 	 /sources/source.13/position -3.200000 7.100000 0.000000 
+ 	 	 	 	 /sources/source.14/position -2.700000 -2.100000 0.000000 
+ 	 	 	 	 /sources/source.15/position 3.600000 2.400000 0.000000 
+ 	 	 	 	 /sources/source.16/position 1.700000 -5.200000 0.000000 
+ 	 	 	 	 /sources/source.17/position 5.800000 1.000000 0.000000 
+ 	 	 	 	 /sources/source.18/position 3.200000 -8.300000 0.000000 
+ 	 	 	 	 /sources/source.19/position -9.600000 5.000000 0.000000 
+ 	 	 	 	 /sources/source.20/position 1.300000 0.800000 0.000000 
+ 	 	 	 	 /sources/source.21/position 9.700000 3.300000 0.000000 
+ 	 	 	 	 /sources/source.22/position 6.500000 -7.000000 0.000000 
+ 	 	 	 	 /sources/source.23/position -6.300000 1.500000 0.000000 
+ 	 	 	 	 /sources/source.24/position -3.900000 -2.200000 0.000000 
+ 	 	 	 	 /sources/source.25/position 6.100000 -1.600000 0.000000 
+ 	 	 	 	 /sources/source.26/position 7.100000 5.800000 0.000000 
+ 	 	 	 	 /sources/source.27/position 8.100000 -7.300000 0.000000 
+ 	 	 	 	 /sources/source.28/position -5.700000 9.200000 0.000000 
+ 	 	 	 	 /sources/source.29/position -2.900000 1.400000 0.000000 
+ 	 	 	 	 /sources/source.30/position -2.600000 2.700000 0.000000 
+ 	 	 	 	 /sources/source.31/position -4.100000 -5.500000 0.000000 
+ 	 	 	 	 /sources/source.32/position -9.000000 -8.700000 0.000000 
+ 	 	 	 	 /sources/view/freeze 0 
+ 	 	 	 	 /sources/view/highlight none 
+ # 
+ # Module /fnc-out 
+ 	 	 	 	 /fnc-out/audio/active 0 
+ 	 	 	 	 /fnc-out/audio/gain 71.000000 
+ 	 	 	 	 /fnc-out/audio/mute 0 
+ 	 	 	 	 /fnc-out/limiter/active 1 
+ 	 	 	 	 /fnc-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /fnc-out/limiter/lookahead 6 
+ 	 	 	 	 /fnc-out/limiter/mode exponential 
+ 	 	 	 	 /fnc-out/limiter/postamp 0.000000 
+ 	 	 	 	 /fnc-out/limiter/preamp 6.000000 
+ 	 	 	 	 /fnc-out/limiter/release 300.000000 
+ 	 	 	 	 /fnc-out/limiter/threshold 6.000000 
+ 	 	 	 	 /fnc-out/numSpeakers 18 
+ 	 	 	 	 /fnc-out/offset 0 
+ 	 	 	 	 /fnc-out/record/filetype aiff 
+ 	 	 	 	 /fnc-out/record/samptype int24 
+ 	 	 	 	 /fnc-out/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /fnc-out/view/freeze 0 
+ 	 	 	 	 /fnc-out/view/highlight 0 
+ # 
+ # Module /in1 
+ 	 	 	 	 /in1/audio/active 0 
+ 	 	 	 	 /in1/audio/gain 95.662331 
+ 	 	 	 	 /in1/balance 0.000000 
+ 	 	 	 	 /in1/ch.1 1 
+ 	 	 	 	 /in1/ch.2 2 
+ 	 	 	 	 /in1/clicktrain/rate 1.000001 
+ 	 	 	 	 /in1/soundfile/loop 1 
+ 	 	 	 	 /in1/soundfile/open /SoundLib/Buffer-Audio/Rogs/bells/GogoBells-inWater.aif 
+ 	 	 	 	 /in1/soundfile/play 0 
+ 	 	 	 	 /in1/soundfile/transpose 0.000000 
+ 	 	 	 	 /in1/source soundfile 
+ 	 	 	 	 /in1/testtone/frequency 1000 
+ 	 	 	 	 /in1/view/freeze 0 
+ 	 	 	 	 /in1/view/highlight 0 
+ # 
+ # Module /FNC-pan 
+ 	 	 	 	 /FNC-pan/numSources 2 
+ 	 	 	 	 /FNC-pan/numSpeakers 18 
+ 	 	 	 	 /FNC-pan/audio/gain 100.000000 
+ 	 	 	 	 /FNC-pan/audio/mute 0 
+ 	 	 	 	 /FNC-pan/center/curve 0.500000 
+ 	 	 	 	 /FNC-pan/center/decay 3.100000 
+ 	 	 	 	 /FNC-pan/center/size 0.500000 
+ 	 	 	 	 /FNC-pan/interpolation 1 
+ 	 	 	 	 /FNC-pan/source.1/order 9.000000 
+ 	 	 	 	 /FNC-pan/source.10/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.11/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.12/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.13/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.14/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.15/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.16/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.17/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.18/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.19/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.2/order 9.000000 
+ 	 	 	 	 /FNC-pan/source.20/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.21/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.22/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.23/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.24/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.25/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.26/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.27/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.28/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.29/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.3/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.30/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.31/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.32/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.4/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.5/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.6/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.7/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.8/order 3.000000 
+ 	 	 	 	 /FNC-pan/source.9/order 3.000000 
+ 	 	 	 	 /FNC-pan/view/freeze 0 
+ 	 	 	 	 /FNC-pan/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

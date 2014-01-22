@@ -1,0 +1,46 @@
+
+wonder to tranquility cut off learning
+when entering love, interpolate speeds on fade out and enter back in
+entering/exiting terror should be automated
+comedy to disgust 22-23
+make sure all love voices are able to move right away
+30/31/32 automate amplitude on comedy, funny entrance to compassion
+entrance to compassion again, cut amplitude
+
+long hdmi cable
+
+
+1x Apple Imac (omax)
+1x Apple Macbook Pro (catart)
+1x Apple Macbook Pro (score system)
+2x RME Fireface
+1x foot pedal w/ usb extenders
+2x xlr cable (50') for instrument
+2x dpa mic for instrument
+1x ethernet cable (osc between omax and score)
+
+audio routing: 
+ADAT OUT 1-8 fireface(omax) to ADAT IN 1-8 fireface(catart)
+ADAT OUT 1-8 fireface(catart) to ADAT IN 1-8 fireface(omax)
+ANALOG OUT 1-8 fireface(omax) to speakers
+
+NEED:
+-8 speakers
+-1/4" cables to speakers (from computer table to speakers)
+-24" screen with HDMI or DVI input
+-long digital video cable (either DVI or HDMI, whatever the screen takes) from computer table to soloist
+2x power bars
+
+global control modules:
+rhythm module
+phraser/ftm database
+
+score:
+bach library for computer-aided composition
+-realtime transcription of omax improvisers
+-realtime transcription of audio descriptors
+4 modes: normal notation, normal notation w/o staff line, space notation (durations), graphic notation
+- segmentation, quantization, databasing, recalling
+
+midi: units, time (ms), phrases, sections, frequency, midi pitch, velocity
+spectral: units, time (ms), phrases, sections, pitch, frequency, midi pitch, midi velocity, mfcc

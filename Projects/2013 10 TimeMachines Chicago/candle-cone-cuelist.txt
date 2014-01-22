@@ -1,0 +1,427 @@
+
+ 
+ KEYCUE "Cone-Drip-tml-init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /myModule.1 99 1 /Stretch 99 1 /onsetVar 99 1 /gSize 99 1 /pVar 99 1 /myModule.2 99 1 /filter~ 99 1 /myModule.3 99 1 /myModule.4 99 1 /myModule 99 1 /micENV 99 1 /myModule.5 99 1 /myModule.6 99 1 /f1 99 1 /f2 99 1 /f3 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /myModule.1 
+ 	 	 	 	 /myModule.1/view/freeze 0 
+ 	 	 	 	 /myModule.1/view/highlight 0 
+ # 
+ # Module /Stretch 
+ 	 	 	 	 /Stretch/interpolate 200 
+ 	 	 	 	 /Stretch/max 1.500000 
+ 	 	 	 	 /Stretch/min 0.500000 
+ 	 	 	 	 /Stretch/on 1 
+ 	 	 	 	 /Stretch/rate/max 6000 
+ 	 	 	 	 /Stretch/rate/min 1000 
+ 	 	 	 	 /Stretch/step 1.000000 
+ 	 	 	 	 /Stretch/view/freeze 0 
+ 	 	 	 	 /Stretch/view/highlight 0 
+ # 
+ # Module /onsetVar 
+ 	 	 	 	 /onsetVar/interpolate 571 
+ 	 	 	 	 /onsetVar/max 3000.000000 
+ 	 	 	 	 /onsetVar/min 300.000000 
+ 	 	 	 	 /onsetVar/on 1 
+ 	 	 	 	 /onsetVar/rate/max 3000 
+ 	 	 	 	 /onsetVar/rate/min 800 
+ 	 	 	 	 /onsetVar/step 1.000000 
+ 	 	 	 	 /onsetVar/view/freeze 0 
+ 	 	 	 	 /onsetVar/view/highlight 0 
+ # 
+ # Module /gSize 
+ 	 	 	 	 /gSize/interpolate 500 
+ 	 	 	 	 /gSize/max 800.000000 
+ 	 	 	 	 /gSize/min 150.000000 
+ 	 	 	 	 /gSize/on 1 
+ 	 	 	 	 /gSize/rate/max 3000 
+ 	 	 	 	 /gSize/rate/min 500 
+ 	 	 	 	 /gSize/step 1.000000 
+ 	 	 	 	 /gSize/view/freeze 0 
+ 	 	 	 	 /gSize/view/highlight 0 
+ # 
+ # Module /pVar 
+ 	 	 	 	 /pVar/interpolate 619 
+ 	 	 	 	 /pVar/max 700.000000 
+ 	 	 	 	 /pVar/min 1.000000 
+ 	 	 	 	 /pVar/on 1 
+ 	 	 	 	 /pVar/rate/max 3453 
+ 	 	 	 	 /pVar/rate/min 651 
+ 	 	 	 	 /pVar/step 1.000000 
+ 	 	 	 	 /pVar/view/freeze 0 
+ 	 	 	 	 /pVar/view/highlight 0 
+ # 
+ # Module /myModule.2 
+ 	 	 	 	 /myModule.2/audio/bypass 0 
+ 	 	 	 	 /myModule.2/audio/gain 102.000000 
+ 	 	 	 	 /myModule.2/audio/mix 30.000000 
+ 	 	 	 	 /myModule.2/audio/mute 0 
+ 	 	 	 	 /myModule.2/damping 20000.000000 
+ 	 	 	 	 /myModule.2/decay 5.000000 
+ 	 	 	 	 /myModule.2/delay 100.000000 
+ 	 	 	 	 /myModule.2/earlyReflections/active 1 
+ 	 	 	 	 /myModule.2/lowpass 15000.000000 
+ 	 	 	 	 /myModule.2/moddepth 0.100000 
+ 	 	 	 	 /myModule.2/modfreq 0.100000 
+ 	 	 	 	 /myModule.2/view/freeze 0 
+ 	 	 	 	 /myModule.2/view/highlight 0 
+ # 
+ # Module /filter~ 
+ 	 	 	 	 /filter~/audio/bypass 0 
+ 	 	 	 	 /filter~/audio/gain 98.000000 
+ 	 	 	 	 /filter~/audio/mix 100.000000 
+ 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/filtergain 0.000000 
+ 	 	 	 	 /filter~/filtertype highpass 
+ 	 	 	 	 /filter~/frequency 110.000000 
+ 	 	 	 	 /filter~/q 0.600000 
+ 	 	 	 	 /filter~/view/freeze 0 
+ 	 	 	 	 /filter~/view/highlight 0 
+ # 
+ # Module /myModule.3 
+ 	 	 	 	 /myModule.3/audio/active 0 
+ 	 	 	 	 /myModule.3/audio/gain 0.000000 
+ 	 	 	 	 /myModule.3/balance 0.000000 
+ 	 	 	 	 /myModule.3/ch.1 1 
+ 	 	 	 	 /myModule.3/ch.2 3 
+ 	 	 	 	 /myModule.3/limiter/active 1 
+ 	 	 	 	 /myModule.3/limiter/dcblocker/active 1 
+ 	 	 	 	 /myModule.3/limiter/lookahead 64 
+ 	 	 	 	 /myModule.3/limiter/mode exponential 
+ 	 	 	 	 /myModule.3/limiter/postamp 0.000000 
+ 	 	 	 	 /myModule.3/limiter/preamp 6.000000 
+ 	 	 	 	 /myModule.3/limiter/release 300.000000 
+ 	 	 	 	 /myModule.3/limiter/threshold -1.000000 
+ 	 	 	 	 /myModule.3/record/filetype aiff 
+ 	 	 	 	 /myModule.3/record/samptype int24 
+ 	 	 	 	 /myModule.3/saturation/active 1 
+ 	 	 	 	 /myModule.3/saturation/depth 10.000000 
+ 	 	 	 	 /myModule.3/view/freeze 0 
+ 	 	 	 	 /myModule.3/view/highlight 0 
+ # 
+ # Module /myModule.4 
+ 	 	 	 	 /myModule.4/audio/active 0 
+ 	 	 	 	 /myModule.4/audio/gain 0.000000 
+ 	 	 	 	 /myModule.4/balance 0.000000 
+ 	 	 	 	 /myModule.4/ch.1 1 
+ 	 	 	 	 /myModule.4/ch.2 2 
+ 	 	 	 	 /myModule.4/clicktrain/rate 1.000001 
+ 	 	 	 	 /myModule.4/soundfile/loop 1 
+ 	 	 	 	 /myModule.4/soundfile/play 0 
+ 	 	 	 	 /myModule.4/soundfile/transpose 0.000000 
+ 	 	 	 	 /myModule.4/source live 
+ 	 	 	 	 /myModule.4/testtone/frequency 1000 
+ 	 	 	 	 /myModule.4/view/freeze 0 
+ 	 	 	 	 /myModule.4/view/highlight 0 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/grain/in/module/name 0 
+ 	 	 	 	 /myModule/onsetVar/in/module/name 0 
+ 	 	 	 	 /myModule/pVar/in/module/name 0 
+ 	 	 	 	 /myModule/pitch/in/module/name 0 
+ 	 	 	 	 /myModule/position/in/module/name 0 
+ 	 	 	 	 /myModule/size/in/module/name 0 
+ 	 	 	 	 /myModule/speed/in/module/name /micENV 
+ 	 	 	 	 /myModule/trig/in/module/name 0 
+ 	 	 	 	 /myModule/turn/in/module/name 0 
+ 	 	 	 	 /myModule/grain/in/module/instance 0 
+ 	 	 	 	 /myModule/onsetVar/in/module/instance 0 
+ 	 	 	 	 /myModule/pVar/in/module/instance 0 
+ 	 	 	 	 /myModule/pitch/in/module/instance 0 
+ 	 	 	 	 /myModule/position/in/module/instance 0 
+ 	 	 	 	 /myModule/size/in/module/instance 0 
+ 	 	 	 	 /myModule/speed/in/module/instance 0 
+ 	 	 	 	 /myModule/trig/in/module/instance 0 
+ 	 	 	 	 /myModule/turn/in/module/instance 0 
+ 	 	 	 	 /myModule/grain/function 0 
+ 	 	 	 	 /myModule/grain/function/symmetry 0 
+ 	 	 	 	 /myModule/onsetVar/function 0 
+ 	 	 	 	 /myModule/onsetVar/function/symmetry 0 
+ 	 	 	 	 /myModule/pVar/function 0 
+ 	 	 	 	 /myModule/pVar/function/symmetry 0 
+ 	 	 	 	 /myModule/pitch/function 0 
+ 	 	 	 	 /myModule/pitch/function/symmetry 0 
+ 	 	 	 	 /myModule/position/function 0 
+ 	 	 	 	 /myModule/position/function/symmetry 0 
+ 	 	 	 	 /myModule/size/function 0 
+ 	 	 	 	 /myModule/size/function/symmetry 0 
+ 	 	 	 	 /myModule/speed/function tanh 
+ 	 	 	 	 /myModule/speed/function/symmetry 0 
+ 	 	 	 	 /myModule/trig/function 0 
+ 	 	 	 	 /myModule/trig/function/symmetry 0 
+ 	 	 	 	 /myModule/turn/function 0 
+ 	 	 	 	 /myModule/turn/function/symmetry 0 
+ 	 	 	 	 /myModule/grain/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/onsetVar/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/pVar/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/pitch/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/position/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/size/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/speed/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/trig/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/turn/function/parameter2 0.000000 
+ 	 	 	 	 /myModule/grain/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/onsetVar/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/pVar/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/pitch/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/position/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/size/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/speed/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/trig/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/turn/function/parameter1 0.000000 
+ 	 	 	 	 /myModule/grain/in/module/parameter 0 
+ 	 	 	 	 /myModule/onsetVar/in/module/parameter 0 
+ 	 	 	 	 /myModule/pVar/in/module/parameter 0 
+ 	 	 	 	 /myModule/pitch/in/module/parameter 0 
+ 	 	 	 	 /myModule/position/in/module/parameter 0 
+ 	 	 	 	 /myModule/size/in/module/parameter 0 
+ 	 	 	 	 /myModule/speed/in/module/parameter /out/final 
+ 	 	 	 	 /myModule/trig/in/module/parameter 0 
+ 	 	 	 	 /myModule/turn/in/module/parameter 0 
+ 	 	 	 	 /myModule/audio/gain 0.000000 
+ 	 	 	 	 /myModule/audio/mute 0 
+ 	 	 	 	 /myModule/buffer/file dialog_box 
+ 	 	 	 	 /myModule/grain/duration 69.000000 
+ 	 	 	 	 /myModule/grain/in/module/listindex 1 
+ 	 	 	 	 /myModule/grain/mute 0 
+ 	 	 	 	 /myModule/grain/offset 0.000000 
+ 	 	 	 	 /myModule/grain/overlap 50 
+ 	 	 	 	 /myModule/grain/ramp/time 0 
+ 	 	 	 	 /myModule/grain/scale/bypass 1 
+ 	 	 	 	 /myModule/grain/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/grain/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/grain/scale/max 1.000000 
+ 	 	 	 	 /myModule/grain/scale/min 0.000000 
+ 	 	 	 	 /myModule/grain/scale/mode 0 
+ 	 	 	 	 /myModule/grain/slide/down 0 
+ 	 	 	 	 /myModule/grain/slide/up 0 
+ 	 	 	 	 /myModule/grain/trigger 0.000000 
+ 	 	 	 	 /myModule/mapperGate/gain 2 
+ 	 	 	 	 /myModule/mapperGate/onsetVar 2 
+ 	 	 	 	 /myModule/mapperGate/pitch 0 
+ 	 	 	 	 /myModule/mapperGate/pitchVar 0 
+ 	 	 	 	 /myModule/mapperGate/position 0 
+ 	 	 	 	 /myModule/mapperGate/size 2 
+ 	 	 	 	 /myModule/mapperGate/speed 1 
+ 	 	 	 	 /myModule/mapperGate/trigger 2 
+ 	 	 	 	 /myModule/mapperGate/turn 0 
+ 	 	 	 	 /myModule/mod/gain 100.000000 
+ 	 	 	 	 /myModule/mod/onsetVar 200.000000 
+ 	 	 	 	 /myModule/mod/pitch 0.000000 
+ 	 	 	 	 /myModule/mod/pitchVar 0.000000 
+ 	 	 	 	 /myModule/mod/position 0.000000 
+ 	 	 	 	 /myModule/mod/size 500.000000 
+ 	 	 	 	 /myModule/mod/speed -0.700000 
+ 	 	 	 	 /myModule/mod/trigger 40.000000 
+ 	 	 	 	 /myModule/mod/turn 0.000000 
+ 	 	 	 	 /myModule/onsetVar/in/module/listindex 1 
+ 	 	 	 	 /myModule/onsetVar/mute 0 
+ 	 	 	 	 /myModule/onsetVar/offset 0.000000 
+ 	 	 	 	 /myModule/onsetVar/ramp/time 0 
+ 	 	 	 	 /myModule/onsetVar/scale/bypass 1 
+ 	 	 	 	 /myModule/onsetVar/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/onsetVar/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/onsetVar/scale/max 1.000000 
+ 	 	 	 	 /myModule/onsetVar/scale/min 0.000000 
+ 	 	 	 	 /myModule/onsetVar/scale/mode 0 
+ 	 	 	 	 /myModule/onsetVar/slide/down 0 
+ 	 	 	 	 /myModule/onsetVar/slide/up 0 
+ 	 	 	 	 /myModule/pVar/in/module/listindex 1 
+ 	 	 	 	 /myModule/pVar/mute 0 
+ 	 	 	 	 /myModule/pVar/offset 0.000000 
+ 	 	 	 	 /myModule/pVar/ramp/time 0 
+ 	 	 	 	 /myModule/pVar/scale/bypass 1 
+ 	 	 	 	 /myModule/pVar/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/pVar/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/pVar/scale/max 1.000000 
+ 	 	 	 	 /myModule/pVar/scale/min 0.000000 
+ 	 	 	 	 /myModule/pVar/scale/mode 0 
+ 	 	 	 	 /myModule/pVar/slide/down 0 
+ 	 	 	 	 /myModule/pVar/slide/up 0 
+ 	 	 	 	 /myModule/pan/mode 0 
+ 	 	 	 	 /myModule/pan/rate 0 
+ 	 	 	 	 /myModule/pan/spread 0 
+ 	 	 	 	 /myModule/pitch/in/module/listindex 1 
+ 	 	 	 	 /myModule/pitch/mute 0 
+ 	 	 	 	 /myModule/pitch/offset 0.000000 
+ 	 	 	 	 /myModule/pitch/ramp/time 0 
+ 	 	 	 	 /myModule/pitch/scale/bypass 1 
+ 	 	 	 	 /myModule/pitch/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/pitch/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/pitch/scale/max 1.000000 
+ 	 	 	 	 /myModule/pitch/scale/min 0.000000 
+ 	 	 	 	 /myModule/pitch/scale/mode 0 
+ 	 	 	 	 /myModule/pitch/slide/down 0 
+ 	 	 	 	 /myModule/pitch/slide/up 0 
+ 	 	 	 	 /myModule/pitch/transpose 0.000000 
+ 	 	 	 	 /myModule/pitch/variation 20.000000 
+ 	 	 	 	 /myModule/position 5543.471191 
+ 	 	 	 	 /myModule/position/in/module/listindex 1 
+ 	 	 	 	 /myModule/position/mute 0 
+ 	 	 	 	 /myModule/position/offset 0.000000 
+ 	 	 	 	 /myModule/position/onset_variation 3.000000 
+ 	 	 	 	 /myModule/position/ramp/time 0 
+ 	 	 	 	 /myModule/position/scale/bypass 1 
+ 	 	 	 	 /myModule/position/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/position/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/position/scale/max 1.000000 
+ 	 	 	 	 /myModule/position/scale/min 0.000000 
+ 	 	 	 	 /myModule/position/scale/mode 0 
+ 	 	 	 	 /myModule/position/slide/down 0 
+ 	 	 	 	 /myModule/position/slide/up 0 
+ 	 	 	 	 /myModule/position/speed 1.001000 
+ 	 	 	 	 /myModule/size/in/module/listindex 1 
+ 	 	 	 	 /myModule/size/mute 0 
+ 	 	 	 	 /myModule/size/offset 0.000000 
+ 	 	 	 	 /myModule/size/ramp/time 0 
+ 	 	 	 	 /myModule/size/scale/bypass 1 
+ 	 	 	 	 /myModule/size/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/size/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/size/scale/max 1.000000 
+ 	 	 	 	 /myModule/size/scale/min 0.000000 
+ 	 	 	 	 /myModule/size/scale/mode 0 
+ 	 	 	 	 /myModule/size/slide/down 0 
+ 	 	 	 	 /myModule/size/slide/up 0 
+ 	 	 	 	 /myModule/speed/in/module/listindex 1 
+ 	 	 	 	 /myModule/speed/mute 1 
+ 	 	 	 	 /myModule/speed/offset 0.000000 
+ 	 	 	 	 /myModule/speed/ramp/time 10 
+ 	 	 	 	 /myModule/speed/scale/bypass 0 
+ 	 	 	 	 /myModule/speed/scale/input/max 1.000000 
+ 	 	 	 	 /myModule/speed/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/speed/scale/max 1.000000 
+ 	 	 	 	 /myModule/speed/scale/min 0.000000 
+ 	 	 	 	 /myModule/speed/scale/mode 0 
+ 	 	 	 	 /myModule/speed/slide/down 25 
+ 	 	 	 	 /myModule/speed/slide/up 0 
+ 	 	 	 	 /myModule/trig/in/module/listindex 1 
+ 	 	 	 	 /myModule/trig/mute 0 
+ 	 	 	 	 /myModule/trig/offset 0.000000 
+ 	 	 	 	 /myModule/trig/ramp/time 0 
+ 	 	 	 	 /myModule/trig/scale/bypass 1 
+ 	 	 	 	 /myModule/trig/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/trig/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/trig/scale/max 1.000000 
+ 	 	 	 	 /myModule/trig/scale/min 0.000000 
+ 	 	 	 	 /myModule/trig/scale/mode 0 
+ 	 	 	 	 /myModule/trig/slide/down 0 
+ 	 	 	 	 /myModule/trig/slide/up 0 
+ 	 	 	 	 /myModule/turn/in/module/listindex 1 
+ 	 	 	 	 /myModule/turn/mute 0 
+ 	 	 	 	 /myModule/turn/offset 0.000000 
+ 	 	 	 	 /myModule/turn/ramp/time 0 
+ 	 	 	 	 /myModule/turn/scale/bypass 1 
+ 	 	 	 	 /myModule/turn/scale/input/max 0.000000 
+ 	 	 	 	 /myModule/turn/scale/input/min 0.000000 
+ 	 	 	 	 /myModule/turn/scale/max 1.000000 
+ 	 	 	 	 /myModule/turn/scale/min 0.000000 
+ 	 	 	 	 /myModule/turn/scale/mode 0 
+ 	 	 	 	 /myModule/turn/slide/down 0 
+ 	 	 	 	 /myModule/turn/slide/up 0 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/highlight 0 
+ # 
+ # Module /micENV 
+ 	 	 	 	 /micENV/clip 1 
+ 	 	 	 	 /micENV/env/cutoff 850 
+ 	 	 	 	 /micENV/env/on 1 
+ 	 	 	 	 /micENV/env/period 20 
+ 	 	 	 	 /micENV/gain 100.000000 
+ 	 	 	 	 /micENV/pre-slide/down 2 
+ 	 	 	 	 /micENV/pre-slide/up 0 
+ 	 	 	 	 /micENV/scale/input/max 0.000000 
+ 	 	 	 	 /micENV/scale/input/min 0.000000 
+ 	 	 	 	 /micENV/scale/max 1.000000 
+ 	 	 	 	 /micENV/scale/min 0.000000 
+ 	 	 	 	 /micENV/scale/mode 2 
+ 	 	 	 	 /micENV/scale/window 1000 
+ 	 	 	 	 /micENV/slide/down 18 
+ 	 	 	 	 /micENV/slide/up 0 
+ 	 	 	 	 /micENV/view/freeze 0 
+ 	 	 	 	 /micENV/view/highlight 0 
+ 	 	 	 	 /micENV/visualize 1 
+ # 
+ # Module /myModule.5 
+ 	 	 	 	 /myModule.5/audio/active 0 
+ 	 	 	 	 /myModule.5/audio/gain 46.181820 
+ 	 	 	 	 /myModule.5/balance 0.000000 
+ 	 	 	 	 /myModule.5/ch.1 4 
+ 	 	 	 	 /myModule.5/ch.2 2 
+ 	 	 	 	 /myModule.5/limiter/active 1 
+ 	 	 	 	 /myModule.5/limiter/dcblocker/active 1 
+ 	 	 	 	 /myModule.5/limiter/lookahead 64 
+ 	 	 	 	 /myModule.5/limiter/mode exponential 
+ 	 	 	 	 /myModule.5/limiter/postamp 0.000000 
+ 	 	 	 	 /myModule.5/limiter/preamp 6.000000 
+ 	 	 	 	 /myModule.5/limiter/release 300.000000 
+ 	 	 	 	 /myModule.5/limiter/threshold -1.000000 
+ 	 	 	 	 /myModule.5/record/filetype aiff 
+ 	 	 	 	 /myModule.5/record/samptype int24 
+ 	 	 	 	 /myModule.5/saturation/active 1 
+ 	 	 	 	 /myModule.5/saturation/depth 10.000000 
+ 	 	 	 	 /myModule.5/view/freeze 0 
+ 	 	 	 	 /myModule.5/view/highlight 0 
+ # 
+ # Module /myModule.6 
+ 	 	 	 	 /myModule.6/alias /myModule.6/alias/remove 
+ 	 	 	 	 /myModule.6/audio/active 0 
+ 	 	 	 	 /myModule.6/audio/gain 75.045456 
+ 	 	 	 	 /myModule.6/balance 0.000000 
+ 	 	 	 	 /myModule.6/ch.1 4 
+ 	 	 	 	 /myModule.6/ch.2 8 
+ 	 	 	 	 /myModule.6/limiter/active 1 
+ 	 	 	 	 /myModule.6/limiter/dcblocker/active 1 
+ 	 	 	 	 /myModule.6/limiter/lookahead 64 
+ 	 	 	 	 /myModule.6/limiter/mode exponential 
+ 	 	 	 	 /myModule.6/limiter/postamp 0.000000 
+ 	 	 	 	 /myModule.6/limiter/preamp 6.000000 
+ 	 	 	 	 /myModule.6/limiter/release 300.000000 
+ 	 	 	 	 /myModule.6/limiter/threshold -1.000000 
+ 	 	 	 	 /myModule.6/record/filetype aiff 
+ 	 	 	 	 /myModule.6/record/samptype int24 
+ 	 	 	 	 /myModule.6/saturation/active 1 
+ 	 	 	 	 /myModule.6/saturation/depth 10.000000 
+ 	 	 	 	 /myModule.6/view/freeze 0 
+ 	 	 	 	 /myModule.6/view/highlight 0 
+ # 
+ # Module /f1 
+ 	 	 	 	 /f1/interpolate 605 
+ 	 	 	 	 /f1/max 84.000000 
+ 	 	 	 	 /f1/min 80.000000 
+ 	 	 	 	 /f1/on 1 
+ 	 	 	 	 /f1/rate/max 1058 
+ 	 	 	 	 /f1/rate/min 250 
+ 	 	 	 	 /f1/step 1.000000 
+ 	 	 	 	 /f1/view/freeze 0 
+ 	 	 	 	 /f1/view/highlight 0 
+ # 
+ # Module /f2 
+ 	 	 	 	 /f2/interpolate 178 
+ 	 	 	 	 /f2/max 86.000000 
+ 	 	 	 	 /f2/min 81.000000 
+ 	 	 	 	 /f2/on 1 
+ 	 	 	 	 /f2/rate/max 1000 
+ 	 	 	 	 /f2/rate/min 500 
+ 	 	 	 	 /f2/step 1.000000 
+ 	 	 	 	 /f2/view/freeze 0 
+ 	 	 	 	 /f2/view/highlight 0 
+ # 
+ # Module /f3 
+ 	 	 	 	 /f3/interpolate 269 
+ 	 	 	 	 /f3/max 78.000000 
+ 	 	 	 	 /f3/min 69.000000 
+ 	 	 	 	 /f3/on 1 
+ 	 	 	 	 /f3/rate/max 800 
+ 	 	 	 	 /f3/rate/min 200 
+ 	 	 	 	 /f3/step 1.000000 
+ 	 	 	 	 /f3/view/freeze 0 
+ 	 	 	 	 /f3/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
