@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 961.0, 145.0, 1006.0, 759.0 ],
+		"rect" : [ 674.0, 145.0, 1006.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -155,13 +156,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 475.0, 639.0, 293.0, 31.0 ],
-					"text" : "jcom.return autoMinMax @type array @description \"min max as detected by autoscale\""
+					"patching_rect" : [ 475.0, 639.0, 475.0, 19.0 ],
+					"text" : "jcom.return autoMinMax @type decimalArray @description \"min max as detected by autoscale\""
 				}
 
 			}
@@ -545,8 +545,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 316.0, 277.0 ],
@@ -1401,8 +1402,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
