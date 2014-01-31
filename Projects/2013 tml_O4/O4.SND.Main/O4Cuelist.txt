@@ -3,7 +3,7 @@
  KEYCUE "O4-init" 
  
  
- 	 	 	 	 /CONFIG /splashOut 99 1 /splash 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /voiceOut 99 1 /Voice 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-nim 99 1 /sf-whisperscape 99 1 /sf-ilya 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 /myUes.1 99 1 /eggOut 99 1 /damp 99 1 /pBend 99 1 /nav.env~ 99 1 
+ 	 	 	 	 /CONFIG /splashOut 99 1 /splash 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /eggOut 99 1 /damp 99 1 /pBend 99 1 /nav.env~ 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /voiceOut 99 1 /Voice 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-nim 99 1 /sf-whisperscape 99 1 /sf-ilya 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
@@ -169,11 +169,11 @@
  	 	 	 	 /splash/pitch/slide/up 0 
  	 	 	 	 /splash/pitch/transpose 0.000000 
  	 	 	 	 /splash/pitch/variation 0.000000 
- 	 	 	 	 /splash/position 2409.746094 
  	 	 	 	 /splash/position/in/module/listindex 1 
  	 	 	 	 /splash/position/mute 0 
  	 	 	 	 /splash/position/offset 0.000000 
  	 	 	 	 /splash/position/onset_variation 501.000000 
+ 	 	 	 	 /splash/position/position 955.114380 
  	 	 	 	 /splash/position/ramp/time 0 
  	 	 	 	 /splash/position/scale/bypass 1 
  	 	 	 	 /splash/position/scale/input/max 0.000000 
@@ -396,11 +396,11 @@
  	 	 	 	 /water/pitch/slide/up 0 
  	 	 	 	 /water/pitch/transpose 0.000000 
  	 	 	 	 /water/pitch/variation 2.000000 
- 	 	 	 	 /water/position 76621.710938 
  	 	 	 	 /water/position/in/module/listindex 1 
  	 	 	 	 /water/position/mute 0 
  	 	 	 	 /water/position/offset 0.000000 
  	 	 	 	 /water/position/onset_variation 0.000000 
+ 	 	 	 	 /water/position/position 26147.345703 
  	 	 	 	 /water/position/ramp/time 0 
  	 	 	 	 /water/position/scale/bypass 1 
  	 	 	 	 /water/position/scale/input/max 0.000000 
@@ -623,11 +623,11 @@
  	 	 	 	 /crisp1/pitch/slide/up 0 
  	 	 	 	 /crisp1/pitch/transpose 0.000000 
  	 	 	 	 /crisp1/pitch/variation 4.000000 
- 	 	 	 	 /crisp1/position 42479.281250 
  	 	 	 	 /crisp1/position/in/module/listindex 1 
  	 	 	 	 /crisp1/position/mute 0 
  	 	 	 	 /crisp1/position/offset 0.000000 
  	 	 	 	 /crisp1/position/onset_variation 100.000000 
+ 	 	 	 	 /crisp1/position/position 2525.390869 
  	 	 	 	 /crisp1/position/ramp/time 0 
  	 	 	 	 /crisp1/position/scale/bypass 1 
  	 	 	 	 /crisp1/position/scale/input/max 0.000000 
@@ -690,7 +690,6 @@
  	 	 	 	 /crisp1/view/highlight 0 
  # 
  # Module /highSusOut 
- 	 	 	 	 /highSusOut/alias /highSusOut/alias/remove 
  	 	 	 	 /highSusOut/audio/active 0 
  	 	 	 	 /highSusOut/audio/gain 0.000000 
  	 	 	 	 /highSusOut/audio/mute 1 
@@ -851,11 +850,11 @@
  	 	 	 	 /highSus1/pitch/slide/up 0 
  	 	 	 	 /highSus1/pitch/transpose 0.000000 
  	 	 	 	 /highSus1/pitch/variation -1.000000 
- 	 	 	 	 /highSus1/position 27339.998047 
  	 	 	 	 /highSus1/position/in/module/listindex 1 
  	 	 	 	 /highSus1/position/mute 0 
  	 	 	 	 /highSus1/position/offset 0.000000 
  	 	 	 	 /highSus1/position/onset_variation 0.000000 
+ 	 	 	 	 /highSus1/position/position 5057.801270 
  	 	 	 	 /highSus1/position/ramp/time 0 
  	 	 	 	 /highSus1/position/scale/bypass 1 
  	 	 	 	 /highSus1/position/scale/input/max 0.000000 
@@ -922,7 +921,6 @@
  	 	 	 	 /myUes/view/highlight 0 
  # 
  # Module /centerX 
- 	 	 	 	 /centerX/alias /centerX/alias/remove 
  	 	 	 	 /centerX/function 0 
  	 	 	 	 /centerX/function/symmetry 0 
  	 	 	 	 /centerX/function/parameter2 0.000000 
@@ -942,8 +940,8 @@
  	 	 	 	 /centerX/scale/input/min 0.047669 
  	 	 	 	 /centerX/scale/max 1.000000 
  	 	 	 	 /centerX/scale/min -1.000000 
- 	 	 	 	 /centerX/scale/mode 5 
- 	 	 	 	 /centerX/scale/window 2000 
+ 	 	 	 	 /centerX/scale/mode 3 
+ 	 	 	 	 /centerX/scale/window 849 
  	 	 	 	 /centerX/schmitt/debounce 100 
  	 	 	 	 /centerX/schmitt/lower 0.400000 
  	 	 	 	 /centerX/schmitt/ramp 0 
@@ -952,7 +950,7 @@
  	 	 	 	 /centerX/slide/up 0 
  	 	 	 	 /centerX/view/freeze 0 
  	 	 	 	 /centerX/view/highlight none 
- 	 	 	 	 /centerX/visualize 0 
+ 	 	 	 	 /centerX/visualize 1 
  # 
  # Module /centerY 
  	 	 	 	 /centerY/function 0 
@@ -974,8 +972,8 @@
  	 	 	 	 /centerY/scale/input/min -0.605990 
  	 	 	 	 /centerY/scale/max 1.000000 
  	 	 	 	 /centerY/scale/min -1.000000 
- 	 	 	 	 /centerY/scale/mode 5 
- 	 	 	 	 /centerY/scale/window 500 
+ 	 	 	 	 /centerY/scale/mode 3 
+ 	 	 	 	 /centerY/scale/window 690 
  	 	 	 	 /centerY/schmitt/debounce 100 
  	 	 	 	 /centerY/schmitt/lower 0.400000 
  	 	 	 	 /centerY/schmitt/ramp 0 
@@ -984,7 +982,7 @@
  	 	 	 	 /centerY/slide/up 0 
  	 	 	 	 /centerY/view/freeze 0 
  	 	 	 	 /centerY/view/highlight none 
- 	 	 	 	 /centerY/visualize 0 
+ 	 	 	 	 /centerY/visualize 1 
  # 
  # Module /all-fixed 
  	 	 	 	 /all-fixed/function 0 
@@ -1130,8 +1128,8 @@
  	 	 	 	 /all/pre-slide/up 0 
  	 	 	 	 /all/ramp/grain 10 
  	 	 	 	 /all/ramp/time 5 
- 	 	 	 	 /all/scale/input/max 0.018000 
- 	 	 	 	 /all/scale/input/min 65556.000000 
+ 	 	 	 	 /all/scale/input/max 0.025000 
+ 	 	 	 	 /all/scale/input/min 0.002500 
  	 	 	 	 /all/scale/max 1.000000 
  	 	 	 	 /all/scale/min 0.000000 
  	 	 	 	 /all/scale/mode 5 
@@ -1147,7 +1145,6 @@
  	 	 	 	 /all/visualize 1 
  # 
  # Module /large 
- 	 	 	 	 /large/alias /large/alias/remove 
  	 	 	 	 /large/function 0 
  	 	 	 	 /large/function/symmetry 0 
  	 	 	 	 /large/function/parameter2 0.000000 
@@ -1195,8 +1192,8 @@
  	 	 	 	 /small/pre-slide/up 0 
  	 	 	 	 /small/ramp/grain 10 
  	 	 	 	 /small/ramp/time 5 
- 	 	 	 	 /small/scale/input/max 0.017000 
- 	 	 	 	 /small/scale/input/min 65556.000000 
+ 	 	 	 	 /small/scale/input/max 0.025000 
+ 	 	 	 	 /small/scale/input/min 0.002500 
  	 	 	 	 /small/scale/max 1.000000 
  	 	 	 	 /small/scale/min 0.000000 
  	 	 	 	 /small/scale/mode 5 
@@ -1211,12 +1208,116 @@
  	 	 	 	 /small/view/highlight none 
  	 	 	 	 /small/visualize 1 
  # 
+ # Module /eggOut 
+ 	 	 	 	 /eggOut/audio/active 0 
+ 	 	 	 	 /eggOut/audio/gain 0.000000 
+ 	 	 	 	 /eggOut/audio/mute 1 
+ 	 	 	 	 /eggOut/limiter/active 1 
+ 	 	 	 	 /eggOut/limiter/dcblocker/active 1 
+ 	 	 	 	 /eggOut/limiter/lookahead 64 
+ 	 	 	 	 /eggOut/limiter/mode exponential 
+ 	 	 	 	 /eggOut/limiter/postamp 0.000000 
+ 	 	 	 	 /eggOut/limiter/preamp 6.000000 
+ 	 	 	 	 /eggOut/limiter/release 300.000000 
+ 	 	 	 	 /eggOut/limiter/threshold -1.000000 
+ 	 	 	 	 /eggOut/numSpeakers 8 
+ 	 	 	 	 /eggOut/offset 0 
+ 	 	 	 	 /eggOut/record/filetype default 
+ 	 	 	 	 /eggOut/record/samptype default 
+ 	 	 	 	 /eggOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /eggOut/view/freeze 0 
+ 	 	 	 	 /eggOut/view/highlight 0 
+ # 
+ # Module /damp 
+ 	 	 	 	 /damp/function linear 
+ 	 	 	 	 /damp/function/symmetry none 
+ 	 	 	 	 /damp/function/parameter2 0.000000 
+ 	 	 	 	 /damp/function/parameter1 1.145000 
+ 	 	 	 	 /damp/bypass 0 
+ 	 	 	 	 /damp/clip 1 
+ 	 	 	 	 /damp/diffMode 0 
+ 	 	 	 	 /damp/filter/mode 0 
+ 	 	 	 	 /damp/filter/samples 7 
+ 	 	 	 	 /damp/mute 0 
+ 	 	 	 	 /damp/offset 0.000000 
+ 	 	 	 	 /damp/pre-slide/down 3 
+ 	 	 	 	 /damp/pre-slide/up 2 
+ 	 	 	 	 /damp/ramp/grain 10 
+ 	 	 	 	 /damp/ramp/time 5 
+ 	 	 	 	 /damp/scale/input/max 0.000000 
+ 	 	 	 	 /damp/scale/input/min 0.000000 
+ 	 	 	 	 /damp/scale/max 70.000000 
+ 	 	 	 	 /damp/scale/min 32.000000 
+ 	 	 	 	 /damp/scale/mode 3 
+ 	 	 	 	 /damp/scale/window 1000 
+ 	 	 	 	 /damp/schmitt/debounce 100 
+ 	 	 	 	 /damp/schmitt/lower 0.400000 
+ 	 	 	 	 /damp/schmitt/ramp 0 
+ 	 	 	 	 /damp/schmitt/upper 0.800000 
+ 	 	 	 	 /damp/slide/down 2 
+ 	 	 	 	 /damp/slide/up 0 
+ 	 	 	 	 /damp/view/freeze 0 
+ 	 	 	 	 /damp/view/highlight none 
+ 	 	 	 	 /damp/visualize 1 
+ # 
+ # Module /pBend 
+ 	 	 	 	 /pBend/function linear 
+ 	 	 	 	 /pBend/function/symmetry 0 
+ 	 	 	 	 /pBend/function/parameter2 0.000000 
+ 	 	 	 	 /pBend/function/parameter1 1.145000 
+ 	 	 	 	 /pBend/bypass 0 
+ 	 	 	 	 /pBend/clip 0 
+ 	 	 	 	 /pBend/diffMode 0 
+ 	 	 	 	 /pBend/filter/mode 0 
+ 	 	 	 	 /pBend/filter/samples 7 
+ 	 	 	 	 /pBend/mute 0 
+ 	 	 	 	 /pBend/offset 0.000000 
+ 	 	 	 	 /pBend/pre-slide/down 0 
+ 	 	 	 	 /pBend/pre-slide/up 20 
+ 	 	 	 	 /pBend/ramp/grain 10 
+ 	 	 	 	 /pBend/ramp/time 5 
+ 	 	 	 	 /pBend/scale/input/max 0.000000 
+ 	 	 	 	 /pBend/scale/input/min 0.000000 
+ 	 	 	 	 /pBend/scale/max -301.000000 
+ 	 	 	 	 /pBend/scale/min 0.000000 
+ 	 	 	 	 /pBend/scale/mode 3 
+ 	 	 	 	 /pBend/scale/window 2000 
+ 	 	 	 	 /pBend/schmitt/debounce 100 
+ 	 	 	 	 /pBend/schmitt/lower 0.400000 
+ 	 	 	 	 /pBend/schmitt/ramp 0 
+ 	 	 	 	 /pBend/schmitt/upper 0.800000 
+ 	 	 	 	 /pBend/slide/down 0 
+ 	 	 	 	 /pBend/slide/up 0 
+ 	 	 	 	 /pBend/view/freeze 0 
+ 	 	 	 	 /pBend/view/highlight none 
+ 	 	 	 	 /pBend/visualize 1 
+ # 
+ # Module /nav.env~ 
+ 	 	 	 	 /nav.env~/clip 1 
+ 	 	 	 	 /nav.env~/env/cutoff 850 
+ 	 	 	 	 /nav.env~/env/on 1 
+ 	 	 	 	 /nav.env~/env/period 20 
+ 	 	 	 	 /nav.env~/gain 100.000000 
+ 	 	 	 	 /nav.env~/pre-slide/down 2 
+ 	 	 	 	 /nav.env~/pre-slide/up 2 
+ 	 	 	 	 /nav.env~/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/max 1.000000 
+ 	 	 	 	 /nav.env~/scale/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/mode 1 
+ 	 	 	 	 /nav.env~/scale/window 1000 
+ 	 	 	 	 /nav.env~/slide/down 10 
+ 	 	 	 	 /nav.env~/slide/up 1 
+ 	 	 	 	 /nav.env~/view/freeze 0 
+ 	 	 	 	 /nav.env~/view/highlight 0 
+ 	 	 	 	 /nav.env~/visualize 1 
+ # 
  # Module /subWoof 
  	 	 	 	 /subWoof/audio/bypass 0 
  	 	 	 	 /subWoof/audio/gain 54.000000 
  	 	 	 	 /subWoof/audio/mix 100.000000 
  	 	 	 	 /subWoof/audio/mute 0 
- 	 	 	 	 /subWoof/filtergain 1.040405 
+ 	 	 	 	 /subWoof/filtergain 1.040406 
  	 	 	 	 /subWoof/filtertype lowpass 
  	 	 	 	 /subWoof/frequency 558.408936 
  	 	 	 	 /subWoof/q 0.565527 
@@ -1224,7 +1325,6 @@
  	 	 	 	 /subWoof/view/highlight 0 
  # 
  # Module /sources 
- 	 	 	 	 /sources/alias /sources/alias/remove 
  	 	 	 	 /sources/type source 
  	 	 	 	 /sources/numChannels 8 
  	 	 	 	 /sources/source.1/position -4.300000 -6.200000 0.000000 
@@ -1469,11 +1569,11 @@
  	 	 	 	 /PVSpectral/pitch/slide/up 0 
  	 	 	 	 /PVSpectral/pitch/transpose 0.000000 
  	 	 	 	 /PVSpectral/pitch/variation 0.000000 
- 	 	 	 	 /PVSpectral/position 100.000000 
  	 	 	 	 /PVSpectral/position/in/module/listindex 1 
  	 	 	 	 /PVSpectral/position/mute 0 
  	 	 	 	 /PVSpectral/position/offset 0.000000 
  	 	 	 	 /PVSpectral/position/onset_variation 30.000000 
+ 	 	 	 	 /PVSpectral/position/position 214.400009 
  	 	 	 	 /PVSpectral/position/ramp/time 0 
  	 	 	 	 /PVSpectral/position/scale/bypass 1 
  	 	 	 	 /PVSpectral/position/scale/input/max 0.000000 
@@ -1536,7 +1636,6 @@
  	 	 	 	 /PVSpectral/view/highlight 0 
  # 
  # Module /EaCrum 
- 	 	 	 	 /EaCrum/alias /EaCrum/alias/remove 
  	 	 	 	 /EaCrum/grain/in/module/name 0 
  	 	 	 	 /EaCrum/onsetVar/in/module/name 0 
  	 	 	 	 /EaCrum/pVar/in/module/name /centerX 
@@ -1677,11 +1776,11 @@
  	 	 	 	 /EaCrum/pitch/slide/up 0 
  	 	 	 	 /EaCrum/pitch/transpose 0.000000 
  	 	 	 	 /EaCrum/pitch/variation 0.000000 
- 	 	 	 	 /EaCrum/position 10.000000 
  	 	 	 	 /EaCrum/position/in/module/listindex 1 
  	 	 	 	 /EaCrum/position/mute 0 
  	 	 	 	 /EaCrum/position/offset 0.000000 
  	 	 	 	 /EaCrum/position/onset_variation 5.000000 
+ 	 	 	 	 /EaCrum/position/position 21.439999 
  	 	 	 	 /EaCrum/position/ramp/time 0 
  	 	 	 	 /EaCrum/position/scale/bypass 1 
  	 	 	 	 /EaCrum/position/scale/input/max 0.000000 
@@ -1904,11 +2003,11 @@
  	 	 	 	 /lowSus1/pitch/slide/up 0 
  	 	 	 	 /lowSus1/pitch/transpose -367.000000 
  	 	 	 	 /lowSus1/pitch/variation 10.000000 
- 	 	 	 	 /lowSus1/position 30.757555 
  	 	 	 	 /lowSus1/position/in/module/listindex 1 
  	 	 	 	 /lowSus1/position/mute 0 
  	 	 	 	 /lowSus1/position/offset 0.000000 
  	 	 	 	 /lowSus1/position/onset_variation 2.000000 
+ 	 	 	 	 /lowSus1/position/position 143.679993 
  	 	 	 	 /lowSus1/position/ramp/time 0 
  	 	 	 	 /lowSus1/position/scale/bypass 1 
  	 	 	 	 /lowSus1/position/scale/input/max 0.000000 
@@ -1991,6 +2090,7 @@
  	 	 	 	 /winderOut/view/highlight 0 
  # 
  # Module /winder 
+ 	 	 	 	 /winder/alias /winder/alias/remove 
  	 	 	 	 /winder/grain/in/module/name 0 
  	 	 	 	 /winder/onsetVar/in/module/name 0 
  	 	 	 	 /winder/pVar/in/module/name /centerY 
@@ -2131,11 +2231,11 @@
  	 	 	 	 /winder/pitch/slide/up 0 
  	 	 	 	 /winder/pitch/transpose 0.000000 
  	 	 	 	 /winder/pitch/variation 10.000000 
- 	 	 	 	 /winder/position 134.250259 
  	 	 	 	 /winder/position/in/module/listindex 1 
  	 	 	 	 /winder/position/mute 0 
  	 	 	 	 /winder/position/offset 0.000000 
  	 	 	 	 /winder/position/onset_variation 10.000000 
+ 	 	 	 	 /winder/position/position 240.000000 
  	 	 	 	 /winder/position/ramp/time 0 
  	 	 	 	 /winder/position/scale/bypass 1 
  	 	 	 	 /winder/position/scale/input/max 0.000000 
@@ -2198,7 +2298,6 @@
  	 	 	 	 /winder/view/highlight 0 
  # 
  # Module /ED-rogs-3 
- 	 	 	 	 /ED-rogs-3/alias /ED-rogs-3/alias/remove 
  	 	 	 	 /ED-rogs-3/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-3/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-3/pVar/in/module/name /centerX 
@@ -2339,11 +2438,11 @@
  	 	 	 	 /ED-rogs-3/pitch/slide/up 0 
  	 	 	 	 /ED-rogs-3/pitch/transpose -1200.000000 
  	 	 	 	 /ED-rogs-3/pitch/variation 0.000000 
- 	 	 	 	 /ED-rogs-3/position 133.153931 
  	 	 	 	 /ED-rogs-3/position/in/module/listindex 1 
  	 	 	 	 /ED-rogs-3/position/mute 0 
  	 	 	 	 /ED-rogs-3/position/offset 0.000000 
  	 	 	 	 /ED-rogs-3/position/onset_variation 10.000000 
+ 	 	 	 	 /ED-rogs-3/position/position 488.000000 
  	 	 	 	 /ED-rogs-3/position/ramp/time 0 
  	 	 	 	 /ED-rogs-3/position/scale/bypass 1 
  	 	 	 	 /ED-rogs-3/position/scale/input/max 0.000000 
@@ -2406,6 +2505,7 @@
  	 	 	 	 /ED-rogs-3/view/highlight 0 
  # 
  # Module /ED-rogs-2 
+ 	 	 	 	 /ED-rogs-2/alias /ED-rogs-2/alias/remove 
  	 	 	 	 /ED-rogs-2/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-2/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-2/pVar/in/module/name /centerY 
@@ -2546,11 +2646,11 @@
  	 	 	 	 /ED-rogs-2/pitch/slide/up 0 
  	 	 	 	 /ED-rogs-2/pitch/transpose 0.000000 
  	 	 	 	 /ED-rogs-2/pitch/variation 0.000000 
- 	 	 	 	 /ED-rogs-2/position 36.991959 
  	 	 	 	 /ED-rogs-2/position/in/module/listindex 1 
  	 	 	 	 /ED-rogs-2/position/mute 0 
  	 	 	 	 /ED-rogs-2/position/offset 0.000000 
  	 	 	 	 /ED-rogs-2/position/onset_variation 201.000000 
+ 	 	 	 	 /ED-rogs-2/position/position 126838.242188 
  	 	 	 	 /ED-rogs-2/position/ramp/time 0 
  	 	 	 	 /ED-rogs-2/position/scale/bypass 1 
  	 	 	 	 /ED-rogs-2/position/scale/input/max 0.000000 
@@ -2613,6 +2713,7 @@
  	 	 	 	 /ED-rogs-2/view/highlight 0 
  # 
  # Module /ED-rogs-1 
+ 	 	 	 	 /ED-rogs-1/alias /ED-rogs-1/alias/remove 
  	 	 	 	 /ED-rogs-1/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-1/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-1/pVar/in/module/name /centerX 
@@ -2753,11 +2854,11 @@
  	 	 	 	 /ED-rogs-1/pitch/slide/up 0 
  	 	 	 	 /ED-rogs-1/pitch/transpose 0.000000 
  	 	 	 	 /ED-rogs-1/pitch/variation 0.000000 
- 	 	 	 	 /ED-rogs-1/position 72.823166 
  	 	 	 	 /ED-rogs-1/position/in/module/listindex 1 
  	 	 	 	 /ED-rogs-1/position/mute 1 
  	 	 	 	 /ED-rogs-1/position/offset 0.000000 
  	 	 	 	 /ED-rogs-1/position/onset_variation 174.000000 
+ 	 	 	 	 /ED-rogs-1/position/position 586.239990 
  	 	 	 	 /ED-rogs-1/position/ramp/time 0 
  	 	 	 	 /ED-rogs-1/position/scale/bypass 1 
  	 	 	 	 /ED-rogs-1/position/scale/input/max 1.000000 
@@ -2820,6 +2921,7 @@
  	 	 	 	 /ED-rogs-1/view/highlight 0 
  # 
  # Module /voiceOut 
+ 	 	 	 	 /voiceOut/alias /voiceOut/alias/remove 
  	 	 	 	 /voiceOut/audio/active 0 
  	 	 	 	 /voiceOut/audio/gain 0.000000 
  	 	 	 	 /voiceOut/audio/mute 1 
@@ -2980,11 +3082,11 @@
  	 	 	 	 /Voice/pitch/slide/up 0 
  	 	 	 	 /Voice/pitch/transpose -1200.000000 
  	 	 	 	 /Voice/pitch/variation 0.000000 
- 	 	 	 	 /Voice/position 0.004589 
  	 	 	 	 /Voice/position/in/module/listindex 1 
  	 	 	 	 /Voice/position/mute 0 
  	 	 	 	 /Voice/position/offset 0.000000 
  	 	 	 	 /Voice/position/onset_variation 0.000000 
+ 	 	 	 	 /Voice/position/position 0.000000 
  	 	 	 	 /Voice/position/ramp/time 0 
  	 	 	 	 /Voice/position/scale/bypass 1 
  	 	 	 	 /Voice/position/scale/input/max 0.000000 
@@ -3047,7 +3149,6 @@
  	 	 	 	 /Voice/view/highlight 0 
  # 
  # Module /glitchOut 
- 	 	 	 	 /glitchOut/alias /glitchOut/alias/remove 
  	 	 	 	 /glitchOut/audio/active 0 
  	 	 	 	 /glitchOut/audio/gain 0.000000 
  	 	 	 	 /glitchOut/audio/mute 1 
@@ -3208,11 +3309,11 @@
  	 	 	 	 /glitch/pitch/slide/up 0 
  	 	 	 	 /glitch/pitch/transpose 0.000000 
  	 	 	 	 /glitch/pitch/variation 0.000000 
- 	 	 	 	 /glitch/position 110.254753 
  	 	 	 	 /glitch/position/in/module/listindex 1 
  	 	 	 	 /glitch/position/mute 0 
  	 	 	 	 /glitch/position/offset 0.000000 
  	 	 	 	 /glitch/position/onset_variation 0.000000 
+ 	 	 	 	 /glitch/position/position 0.000000 
  	 	 	 	 /glitch/position/ramp/time 0 
  	 	 	 	 /glitch/position/scale/bypass 1 
  	 	 	 	 /glitch/position/scale/input/max 0.000000 
@@ -3435,11 +3536,11 @@
  	 	 	 	 /scratch/pitch/slide/up 0 
  	 	 	 	 /scratch/pitch/transpose 0.000000 
  	 	 	 	 /scratch/pitch/variation 0.000000 
- 	 	 	 	 /scratch/position 103.589211 
  	 	 	 	 /scratch/position/in/module/listindex 1 
  	 	 	 	 /scratch/position/mute 0 
  	 	 	 	 /scratch/position/offset 0.000000 
  	 	 	 	 /scratch/position/onset_variation 0.000000 
+ 	 	 	 	 /scratch/position/position 0.000000 
  	 	 	 	 /scratch/position/ramp/time 0 
  	 	 	 	 /scratch/position/scale/bypass 1 
  	 	 	 	 /scratch/position/scale/input/max 0.000000 
@@ -3522,6 +3623,7 @@
  	 	 	 	 /pant1Out/view/highlight 0 
  # 
  # Module /glass 
+ 	 	 	 	 /glass/alias /glass/alias/remove 
  	 	 	 	 /glass/grain/in/module/name 0 
  	 	 	 	 /glass/onsetVar/in/module/name 0 
  	 	 	 	 /glass/pVar/in/module/name /all 
@@ -3662,11 +3764,11 @@
  	 	 	 	 /glass/pitch/slide/up 0 
  	 	 	 	 /glass/pitch/transpose 0.000000 
  	 	 	 	 /glass/pitch/variation 10.000000 
- 	 	 	 	 /glass/position 111.059052 
  	 	 	 	 /glass/position/in/module/listindex 1 
  	 	 	 	 /glass/position/mute 0 
  	 	 	 	 /glass/position/offset 0.000000 
  	 	 	 	 /glass/position/onset_variation 0.000000 
+ 	 	 	 	 /glass/position/position 0.000000 
  	 	 	 	 /glass/position/ramp/time 0 
  	 	 	 	 /glass/position/scale/bypass 1 
  	 	 	 	 /glass/position/scale/input/max 0.000000 
@@ -3797,114 +3899,6 @@
  	 	 	 	 /sf-bozzi1/loop 1 
  	 	 	 	 /sf-bozzi1/view/freeze 0 
  	 	 	 	 /sf-bozzi1/view/highlight 0 
- # 
- # Module /myUes.1 
- 	 	 	 	 /myUes.1/view/freeze 0 
- 	 	 	 	 /myUes.1/view/highlight 0 
- # 
- # Module /eggOut 
- 	 	 	 	 /eggOut/audio/active 0 
- 	 	 	 	 /eggOut/audio/gain 0.000000 
- 	 	 	 	 /eggOut/audio/mute 1 
- 	 	 	 	 /eggOut/limiter/active 1 
- 	 	 	 	 /eggOut/limiter/dcblocker/active 1 
- 	 	 	 	 /eggOut/limiter/lookahead 64 
- 	 	 	 	 /eggOut/limiter/mode exponential 
- 	 	 	 	 /eggOut/limiter/postamp 0.000000 
- 	 	 	 	 /eggOut/limiter/preamp 6.000000 
- 	 	 	 	 /eggOut/limiter/release 300.000000 
- 	 	 	 	 /eggOut/limiter/threshold -1.000000 
- 	 	 	 	 /eggOut/numSpeakers 8 
- 	 	 	 	 /eggOut/offset 0 
- 	 	 	 	 /eggOut/record/filetype default 
- 	 	 	 	 /eggOut/record/samptype default 
- 	 	 	 	 /eggOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
- 	 	 	 	 /eggOut/view/freeze 0 
- 	 	 	 	 /eggOut/view/highlight 0 
- # 
- # Module /damp 
- 	 	 	 	 /damp/function linear 
- 	 	 	 	 /damp/function/symmetry none 
- 	 	 	 	 /damp/function/parameter2 0.000000 
- 	 	 	 	 /damp/function/parameter1 1.145000 
- 	 	 	 	 /damp/bypass 0 
- 	 	 	 	 /damp/clip 1 
- 	 	 	 	 /damp/diffMode 0 
- 	 	 	 	 /damp/filter/mode 0 
- 	 	 	 	 /damp/filter/samples 7 
- 	 	 	 	 /damp/mute 0 
- 	 	 	 	 /damp/offset 0.000000 
- 	 	 	 	 /damp/pre-slide/down 3 
- 	 	 	 	 /damp/pre-slide/up 2 
- 	 	 	 	 /damp/ramp/grain 10 
- 	 	 	 	 /damp/ramp/time 5 
- 	 	 	 	 /damp/scale/input/max 0.000000 
- 	 	 	 	 /damp/scale/input/min 0.000000 
- 	 	 	 	 /damp/scale/max 70.000000 
- 	 	 	 	 /damp/scale/min 32.000000 
- 	 	 	 	 /damp/scale/mode 3 
- 	 	 	 	 /damp/scale/window 1000 
- 	 	 	 	 /damp/schmitt/debounce 100 
- 	 	 	 	 /damp/schmitt/lower 0.400000 
- 	 	 	 	 /damp/schmitt/ramp 0 
- 	 	 	 	 /damp/schmitt/upper 0.800000 
- 	 	 	 	 /damp/slide/down 2 
- 	 	 	 	 /damp/slide/up 0 
- 	 	 	 	 /damp/view/freeze 0 
- 	 	 	 	 /damp/view/highlight none 
- 	 	 	 	 /damp/visualize 1 
- # 
- # Module /pBend 
- 	 	 	 	 /pBend/function linear 
- 	 	 	 	 /pBend/function/symmetry 0 
- 	 	 	 	 /pBend/function/parameter2 0.000000 
- 	 	 	 	 /pBend/function/parameter1 1.145000 
- 	 	 	 	 /pBend/bypass 0 
- 	 	 	 	 /pBend/clip 0 
- 	 	 	 	 /pBend/diffMode 0 
- 	 	 	 	 /pBend/filter/mode 0 
- 	 	 	 	 /pBend/filter/samples 7 
- 	 	 	 	 /pBend/mute 0 
- 	 	 	 	 /pBend/offset 0.000000 
- 	 	 	 	 /pBend/pre-slide/down 0 
- 	 	 	 	 /pBend/pre-slide/up 20 
- 	 	 	 	 /pBend/ramp/grain 10 
- 	 	 	 	 /pBend/ramp/time 5 
- 	 	 	 	 /pBend/scale/input/max 0.000000 
- 	 	 	 	 /pBend/scale/input/min 0.000000 
- 	 	 	 	 /pBend/scale/max -301.000000 
- 	 	 	 	 /pBend/scale/min 0.000000 
- 	 	 	 	 /pBend/scale/mode 3 
- 	 	 	 	 /pBend/scale/window 2000 
- 	 	 	 	 /pBend/schmitt/debounce 100 
- 	 	 	 	 /pBend/schmitt/lower 0.400000 
- 	 	 	 	 /pBend/schmitt/ramp 0 
- 	 	 	 	 /pBend/schmitt/upper 0.800000 
- 	 	 	 	 /pBend/slide/down 0 
- 	 	 	 	 /pBend/slide/up 0 
- 	 	 	 	 /pBend/view/freeze 0 
- 	 	 	 	 /pBend/view/highlight none 
- 	 	 	 	 /pBend/visualize 1 
- # 
- # Module /nav.env~ 
- 	 	 	 	 /nav.env~/clip 1 
- 	 	 	 	 /nav.env~/env/cutoff 850 
- 	 	 	 	 /nav.env~/env/on 1 
- 	 	 	 	 /nav.env~/env/period 20 
- 	 	 	 	 /nav.env~/gain 100.000000 
- 	 	 	 	 /nav.env~/pre-slide/down 2 
- 	 	 	 	 /nav.env~/pre-slide/up 2 
- 	 	 	 	 /nav.env~/scale/input/max 0.000000 
- 	 	 	 	 /nav.env~/scale/input/min 0.000000 
- 	 	 	 	 /nav.env~/scale/max 1.000000 
- 	 	 	 	 /nav.env~/scale/min 0.000000 
- 	 	 	 	 /nav.env~/scale/mode 1 
- 	 	 	 	 /nav.env~/scale/window 1000 
- 	 	 	 	 /nav.env~/slide/down 10 
- 	 	 	 	 /nav.env~/slide/up 1 
- 	 	 	 	 /nav.env~/view/freeze 0 
- 	 	 	 	 /nav.env~/view/highlight 0 
- 	 	 	 	 /nav.env~/visualize 1 
  # 
  ######################## 
  
