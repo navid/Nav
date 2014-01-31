@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 233.0, 44.0, 1129.0, 1036.0 ],
+		"rect" : [ 316.0, 287.0, 302.0, 140.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -145,8 +146,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 492.0, 964.0, 536.0, 31.0 ],
-					"text" : "jcom.parameter pan/spread @type decimal @dataspace/unit/native millisecond @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @description \"add randomness to spatial distribution\""
+					"patching_rect" : [ 492.0, 964.0, 581.0, 31.0 ],
+					"text" : "jcom.parameter pan/spread @type decimal @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @description \"add randomness to spatial distribution\""
 				}
 
 			}
@@ -257,11 +258,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 345.0, 218.0 ],
+						"rect" : [ 0.0, 44.0, 344.0, 218.0 ],
 						"bgcolor" : [ 0.72549, 0.721569, 0.721569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -281,6 +283,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -291,7 +294,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 388.0, 61.0, 21.0 ],
-									"presentation_rect" : [ 1004.0, 383.0, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -306,7 +308,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 353.0, 61.0, 21.0 ],
-									"presentation_rect" : [ 1002.0, 352.5, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -321,7 +322,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 307.5, 61.0, 21.0 ],
-									"presentation_rect" : [ 1000.0, 306.5, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -336,7 +336,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 270.5, 61.0, 21.0 ],
-									"presentation_rect" : [ 1002.0, 268.5, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -351,7 +350,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 229.5, 61.0, 21.0 ],
-									"presentation_rect" : [ 1004.0, 227.5, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -366,7 +364,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 189.5, 61.0, 21.0 ],
-									"presentation_rect" : [ 1003.0, 187.0, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -381,7 +378,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 147.0, 61.0, 21.0 ],
-									"presentation_rect" : [ 1004.0, 144.0, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -396,7 +392,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 994.0, 108.0, 61.0, 21.0 ],
-									"presentation_rect" : [ 1004.0, 107.0, 0.0, 0.0 ],
 									"text" : "gate 1 1"
 								}
 
@@ -407,11 +402,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-92",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 969.0, 54.0, 29.0, 19.0 ],
-									"text" : "! -1"
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 969.0, 54.0, 32.5, 19.0 ],
+									"text" : "!- 1"
 								}
 
 							}
@@ -768,8 +763,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1034,8 +1030,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1300,8 +1297,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1312.0, 160.0, 352.0, 293.0 ],
@@ -1566,8 +1564,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1832,8 +1831,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 789.0, 85.0, 640.0, 480.0 ],
@@ -2098,8 +2098,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -2364,8 +2365,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -2630,8 +2632,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -2896,8 +2899,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 205.0, 609.0, 360.0, 269.0 ],
@@ -4370,8 +4374,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 680.0, 548.0, 260.0, 177.0 ],
@@ -4503,7 +4508,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 6.032738, 286.327393, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 345, 262, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 344, 262, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -5825,8 +5830,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.0, 742.0, 589.0, 31.0 ],
-					"text" : "jcom.parameter position/speed @type decimal @ramp/drive scheduler @range/bounds -10. 10. @range/clipmode none @description \"scrubing through the position\""
+					"patching_rect" : [ 494.0, 742.0, 604.0, 31.0 ],
+					"text" : "jcom.parameter position/speed @type decimal @repetitions/allow 1 @ramp/drive scheduler @range/bounds -10. 10. @range/clipmode none @description \"scrubing through the position\""
 				}
 
 			}
@@ -5910,13 +5915,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-21",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 493.0, 818.0, 555.0, 43.0 ],
-					"text" : "jcom.parameter grain/trigger @type decimal @dataspace time @dataspace/unit/active millisecond @dataspace/unit/native millisecond @ramp/drive scheduler @range/bounds 0. 200. @range/clipmode both @description \"grain rate\""
+					"patching_rect" : [ 493.0, 818.0, 600.0, 31.0 ],
+					"text" : "jcom.parameter grain/trigger @type decimal @ramp/drive scheduler @range/bounds 0. 200. @range/clipmode both @description \"grain rate\""
 				}
 
 			}
@@ -6169,13 +6174,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-19",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 495.0, 665.0, 581.0, 43.0 ],
-					"text" : "jcom.parameter position/onset_variation @type decimal @dataspace time @dataspace/unit/active millisecond @dataspace/unit/native millisecond @ramp/drive scheduler @range/bounds 0. 200. @range/clipmode low @description \"Variation in grain onset position.\""
+					"patching_rect" : [ 495.0, 665.0, 541.0, 31.0 ],
+					"text" : "jcom.parameter position/onset_variation @type decimal @ramp/drive scheduler @range/bounds 0. 200. @range/clipmode low @description \"Variation in grain onset position.\""
 				}
 
 			}
@@ -6184,13 +6189,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-18",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 495.0, 580.0, 555.0, 43.0 ],
-					"text" : "jcom.parameter position @type decimal @dataspace time @dataspace/unit/active millisecond @dataspace/unit/native millisecond @range/bounds 0. 5000. @range/clipmode low @ramp/drive scheduler @description \"playback position\""
+					"patching_rect" : [ 495.0, 580.0, 569.0, 31.0 ],
+					"text" : "jcom.parameter position/position @type decimal @range/bounds 0. 5000. @range/clipmode low @ramp/drive scheduler @description \"playback position\""
 				}
 
 			}
@@ -6199,13 +6204,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 495.0, 415.0, 604.0, 43.0 ],
-					"text" : "jcom.parameter pitch/transpose @type array @dataspace time @dataspace/unit/active midi @dataspace/unit/native midi @ramp/drive scheduler @range/bounds -1200. 1200. @range/clipmode none @description \"Pitch transposition in cents.\""
+					"patching_rect" : [ 495.0, 415.0, 527.0, 31.0 ],
+					"text" : "jcom.parameter pitch/transpose @type decimal @ramp/drive scheduler @range/bounds -1200. 1200. @range/clipmode none @description \"Pitch transposition in cents.\""
 				}
 
 			}
@@ -6218,8 +6223,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 496.0, 511.0, 491.0, 19.0 ],
-					"text" : "jcom.parameter pitch/variation @type decimal @dataspace time @description \"Pitch variation.\""
+					"patching_rect" : [ 496.0, 511.0, 401.0, 19.0 ],
+					"text" : "jcom.parameter pitch/variation @type decimal @description \"Pitch variation.\""
 				}
 
 			}
@@ -6233,8 +6238,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 495.0, 314.0, 578.0, 31.0 ],
-					"text" : "jcom.parameter grain/duration @type decimal @dataspace time @dataspace/unit/active millisecond @dataspace/unit/native millisecond @range/bounds 1. 500. @range/clipmode low @description \"Grain duration\""
+					"patching_rect" : [ 495.0, 314.0, 586.0, 31.0 ],
+					"text" : "jcom.parameter grain/duration @type decimal @range/bounds 1. 500. @range/clipmode low @description \"Grain duration\""
 				}
 
 			}
@@ -6248,8 +6253,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 490.0, 245.0, 545.0, 31.0 ],
-					"text" : "jcom.parameter grain/overlap @type integer @dataspace none @ramp/drive none @range/bounds 1 400 @range/clipmode both @description \"Set 2^i number of overlapping grains.\""
+					"patching_rect" : [ 490.0, 245.0, 570.0, 31.0 ],
+					"text" : "jcom.parameter grain/overlap @type integer @ramp/drive none @range/bounds 1 400 @range/clipmode both @description \"Set 2^i number of overlapping grains.\""
 				}
 
 			}
@@ -6883,78 +6888,78 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.nav.sur.rogs~.maxpat",
-				"bootpath" : "/Users/Lolita/code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.sur.rogs~",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/NavNav/Code/Nav-master/Jamoma/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.nav.oscroute.maxpat",
-				"bootpath" : "/Users/Lolita/code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.oscRoute",
+				"bootpath" : "/Users/NavNav/Code/Nav-master/Jamoma/jmod.nav.oscRoute",
 				"patcherrelativepath" : "../jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getAllAttributes",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getAllAttributes",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getReturnNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getParameterNames",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getParameterNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getMessageNames",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getMessageNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7020,10 +7025,6 @@
 			}
 , 			{
 				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "!.mxo",
 				"type" : "iLaX"
 			}
 , 			{
