@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 691.0, 311.0, 323.0, 408.0 ],
+		"rect" : [ 859.0, 44.0, 337.0, 418.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -74,7 +75,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 395.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 338.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 8.454544, 342.636353, 300.0, 70.0 ]
 				}
 
 			}
@@ -92,7 +93,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 383.0, 227.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 95.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 7.454544, 99.636353, 24.0, 24.0 ]
 				}
 
 			}
@@ -125,11 +126,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 268.0, 389.0, 327.0, 497.0 ],
+						"rect" : [ 868.0, 513.0, 327.0, 494.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -253,7 +255,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 9.0, 333.0, 320.0, 240.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 253.0, 320.0, 240.0 ]
+									"presentation_rect" : [ 4.0, 252.0, 320.0, 240.0 ]
 								}
 
 							}
@@ -337,7 +339,7 @@
 ,
 					"patching_rect" : [ 321.0, 40.0, 72.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 2.0, 72.0, 21.0 ],
+					"presentation_rect" : [ 8.454544, 6.636353, 72.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -366,7 +368,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 310.0, 90.0, 80.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.0, 299.0, 80.0, 34.0 ]
+					"presentation_rect" : [ 247.454529, 303.636353, 80.0, 34.0 ]
 				}
 
 			}
@@ -382,8 +384,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1174.0, 456.0, 110.0, 64.0 ],
@@ -439,7 +442,7 @@
 ,
 					"patching_rect" : [ 426.0, 294.0, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 130.0, 2.0, 46.0, 19.0 ],
+					"presentation_rect" : [ 135.454544, 6.636353, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -469,8 +472,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 320.0, 547.0 ],
@@ -528,7 +532,7 @@
 ,
 					"patching_rect" : [ 371.0, 294.0, 48.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.0, 2.0, 48.0, 19.0 ],
+					"presentation_rect" : [ 83.454544, 6.636353, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -556,7 +560,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 145.0, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 95.0, 320.0, 240.0 ]
+					"presentation_rect" : [ 7.454544, 99.636353, 320.0, 240.0 ]
 				}
 
 			}
@@ -572,7 +576,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 31.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 23.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 8.454544, 27.636353, 300.0, 70.0 ],
 					"varname" : "/motion%"
 				}
 
