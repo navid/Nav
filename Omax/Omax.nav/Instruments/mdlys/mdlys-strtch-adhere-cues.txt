@@ -1,0 +1,126 @@
+
+ 
+ KEYCUE "init-wu" 
+ 
+ 
+ 	 	 	 	 /CONFIG /gongs2 99 1 /gongs1 99 1 /gate4 99 1 /gate1 99 1 /gate2 99 1 /gate3 99 1 /randReg 99 1 /demo_multi_in 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /gongs2 
+ 	 	 	 	 /gongs2/bypass 0 
+ 	 	 	 	 /gongs2/damp 127 
+ 	 	 	 	 /gongs2/decay 53 
+ 	 	 	 	 /gongs2/dry 106 
+ 	 	 	 	 /gongs2/gain 100.000000 
+ 	 	 	 	 /gongs2/mix 100.000000 
+ 	 	 	 	 /gongs2/mute 0 
+ 	 	 	 	 /gongs2/view/color/border 0 
+ 	 	 	 	 /gongs2/view/color/contentBackground 0 
+ 	 	 	 	 /gongs2/view/color/toolbarBackground 0 
+ 	 	 	 	 /gongs2/view/color/toolbarText 0 
+ 	 	 	 	 /gongs2/view/freeze 0 
+ 	 	 	 	 /gongs2/view/size 300 70 
+ 	 	 	 	 /gongs2/wet 71 
+ 	 	 	 	 /gongs2/width 127 
+ # 
+ # Module /gongs1 
+ 	 	 	 	 /gongs1/bypass 0 
+ 	 	 	 	 /gongs1/damp 127 
+ 	 	 	 	 /gongs1/decay 50 
+ 	 	 	 	 /gongs1/dry 111 
+ 	 	 	 	 /gongs1/gain 100.000000 
+ 	 	 	 	 /gongs1/mix 100.000000 
+ 	 	 	 	 /gongs1/mute 0 
+ 	 	 	 	 /gongs1/view/color/border 0 
+ 	 	 	 	 /gongs1/view/color/contentBackground 0 
+ 	 	 	 	 /gongs1/view/color/toolbarBackground 0 
+ 	 	 	 	 /gongs1/view/color/toolbarText 0 
+ 	 	 	 	 /gongs1/view/freeze 0 
+ 	 	 	 	 /gongs1/view/size 300 70 
+ 	 	 	 	 /gongs1/wet 72 
+ 	 	 	 	 /gongs1/width 127 
+ # 
+ # Module /gate4 
+ 	 	 	 	 /gate4/interpolate 0 
+ 	 	 	 	 /gate4/max 1.000000 
+ 	 	 	 	 /gate4/min -1.000000 
+ 	 	 	 	 /gate4/on 1 
+ 	 	 	 	 /gate4/rate/max 10000 
+ 	 	 	 	 /gate4/rate/min 2200 
+ 	 	 	 	 /gate4/view/color/border 0 
+ 	 	 	 	 /gate4/view/color/contentBackground 0 
+ 	 	 	 	 /gate4/view/color/toolbarBackground 0 
+ 	 	 	 	 /gate4/view/color/toolbarText 0 
+ 	 	 	 	 /gate4/view/freeze 0 
+ 	 	 	 	 /gate4/view/size 150 70 
+ # 
+ # Module /gate1 
+ 	 	 	 	 /gate1/interpolate 0 
+ 	 	 	 	 /gate1/max 1.000000 
+ 	 	 	 	 /gate1/min -1.000000 
+ 	 	 	 	 /gate1/on 1 
+ 	 	 	 	 /gate1/rate/max 10000 
+ 	 	 	 	 /gate1/rate/min 2200 
+ 	 	 	 	 /gate1/view/color/border 0 
+ 	 	 	 	 /gate1/view/color/contentBackground 0 
+ 	 	 	 	 /gate1/view/color/toolbarBackground 0 
+ 	 	 	 	 /gate1/view/color/toolbarText 0 
+ 	 	 	 	 /gate1/view/freeze 0 
+ 	 	 	 	 /gate1/view/size 150 70 
+ # 
+ # Module /gate2 
+ 	 	 	 	 /gate2/interpolate 0 
+ 	 	 	 	 /gate2/max 1.000000 
+ 	 	 	 	 /gate2/min -1.000000 
+ 	 	 	 	 /gate2/on 1 
+ 	 	 	 	 /gate2/rate/max 10000 
+ 	 	 	 	 /gate2/rate/min 2200 
+ 	 	 	 	 /gate2/view/color/border 0 
+ 	 	 	 	 /gate2/view/color/contentBackground 0 
+ 	 	 	 	 /gate2/view/color/toolbarBackground 0 
+ 	 	 	 	 /gate2/view/color/toolbarText 0 
+ 	 	 	 	 /gate2/view/freeze 0 
+ 	 	 	 	 /gate2/view/size 150 70 
+ # 
+ # Module /gate3 
+ 	 	 	 	 /gate3/interpolate 0 
+ 	 	 	 	 /gate3/max 1.000000 
+ 	 	 	 	 /gate3/min -1.000000 
+ 	 	 	 	 /gate3/on 1 
+ 	 	 	 	 /gate3/rate/max 10000 
+ 	 	 	 	 /gate3/rate/min 2200 
+ 	 	 	 	 /gate3/view/color/border 0 
+ 	 	 	 	 /gate3/view/color/contentBackground 0 
+ 	 	 	 	 /gate3/view/color/toolbarBackground 0 
+ 	 	 	 	 /gate3/view/color/toolbarText 0 
+ 	 	 	 	 /gate3/view/freeze 0 
+ 	 	 	 	 /gate3/view/size 150 70 
+ # 
+ # Module /randReg 
+ 	 	 	 	 /randReg/interpolate 0 
+ 	 	 	 	 /randReg/max 2078.000000 
+ 	 	 	 	 /randReg/min 430.000000 
+ 	 	 	 	 /randReg/on 0 
+ 	 	 	 	 /randReg/rate/max 4000 
+ 	 	 	 	 /randReg/rate/min 1500 
+ 	 	 	 	 /randReg/view/color/border 0 
+ 	 	 	 	 /randReg/view/color/contentBackground 0 
+ 	 	 	 	 /randReg/view/color/toolbarBackground 0 
+ 	 	 	 	 /randReg/view/color/toolbarText 0 
+ 	 	 	 	 /randReg/view/freeze 0 
+ 	 	 	 	 /randReg/view/size 150 70 
+ # 
+ # Module /demo_multi_in 
+ 	 	 	 	 /demo_multi_in/channel_offset 0 
+ 	 	 	 	 /demo_multi_in/view/color/border 0 
+ 	 	 	 	 /demo_multi_in/view/color/contentBackground 0 
+ 	 	 	 	 /demo_multi_in/view/color/toolbarBackground 0 
+ 	 	 	 	 /demo_multi_in/view/color/toolbarText 0 
+ 	 	 	 	 /demo_multi_in/view/freeze 0 
+ 	 	 	 	 /demo_multi_in/view/size 300 35 
+ # 
+ ######################## 
+ 
+ 

@@ -1492,9 +1492,9 @@
  	 	 	 	 /ambicontrol/connect paul 
  	 	 	 	 /ambicontrol/directIndexControl 0 
  	 	 	 	 /ambicontrol/index 0 
- 	 	 	 	 /ambicontrol/method 2 
- 	 	 	 	 /ambicontrol/points 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 
- 	 	 	 	 /ambicontrol/randomStability 10000 
+ 	 	 	 	 /ambicontrol/method 3 
+ 	 	 	 	 /ambicontrol/points 1 2 3 4 5 6 7 8 9 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 
+ 	 	 	 	 /ambicontrol/randomStability 16199 
  	 	 	 	 /ambicontrol/trajectory/adjust fit-to-box 
  	 	 	 	 /ambicontrol/trajectory/fraction 0.000000 
  	 	 	 	 /ambicontrol/trajectory/interpolate 0 
@@ -1611,9 +1611,9 @@
  # 
  # Module /filter~ 
  	 	 	 	 /filter~/audio/bypass 0 
- 	 	 	 	 /filter~/audio/gain 79.000000 
+ 	 	 	 	 /filter~/audio/gain 0.000000 
  	 	 	 	 /filter~/audio/mix 100.000000 
- 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/audio/mute 1 
  	 	 	 	 /filter~/filtergain -1.387834 
  	 	 	 	 /filter~/filtertype lowpass 
  	 	 	 	 /filter~/frequency 669.372437 
@@ -1623,16 +1623,16 @@
  # 
  # Module /harmonicShifter~ 
  	 	 	 	 /harmonicShifter~/bypass 0 
- 	 	 	 	 /harmonicShifter~/factors 9.280000 5.000000 12.000000 7.000000 20.000000 5.000000 12.000000 13.000000 
+ 	 	 	 	 /harmonicShifter~/factors 10.545455 5.000000 16.000000 17.000000 16.000000 17.000000 18.000000 7.000000 
  	 	 	 	 /harmonicShifter~/gain 100.000000 
- 	 	 	 	 /harmonicShifter~/harmonic.1/gain -9.448650 
- 	 	 	 	 /harmonicShifter~/harmonic.2/gain -11.581984 
- 	 	 	 	 /harmonicShifter~/harmonic.3/gain -7.545948 
- 	 	 	 	 /harmonicShifter~/harmonic.4/gain -23.949551 
- 	 	 	 	 /harmonicShifter~/harmonic.5/gain -5.787389 
- 	 	 	 	 /harmonicShifter~/harmonic.6/gain -10.630632 
- 	 	 	 	 /harmonicShifter~/harmonic.7/gain -19.423426 
- 	 	 	 	 /harmonicShifter~/harmonic.8/gain -5.009011 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -14.762763 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -33.149147 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -22.162163 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -17.389389 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -22.642643 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -17.229229 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -9.189190 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -28.760759 
  	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 1 
  	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
  	 	 	 	 /harmonicShifter~/limiter/mode 0 
@@ -1641,8 +1641,8 @@
  	 	 	 	 /harmonicShifter~/limiter/release 300.000000 
  	 	 	 	 /harmonicShifter~/limiter/threshold -0.500000 
  	 	 	 	 /harmonicShifter~/mix 100.000000 
- 	 	 	 	 /harmonicShifter~/mute 0 
- 	 	 	 	 /harmonicShifter~/shifts 237.000000 679.000000 383.000000 388.000000 550.000000 800.000000 587.000000 800.000000 
+ 	 	 	 	 /harmonicShifter~/mute 1 
+ 	 	 	 	 /harmonicShifter~/shifts 800.000000 300.000000 500.000000 600.000000 0.000000 800.000000 700.000000 300.000000 
  	 	 	 	 /harmonicShifter~/view/freeze 1 
  	 	 	 	 /harmonicShifter~/view/highlight 0 
  # 
@@ -1705,11 +1705,11 @@
  	 	 	 	 /ambicontrol/volume/type 0 
  # 
  # Module /shpidel~ 
- 	 	 	 	 /shpidel~/audio/gain 100.000000 
- 	 	 	 	 /shpidel~/audio/mix 52.000000 
+ 	 	 	 	 /shpidel~/audio/gain 101.000000 
+ 	 	 	 	 /shpidel~/audio/mix 69.000000 
  	 	 	 	 /shpidel~/audio/mute 1 
  	 	 	 	 /shpidel~/delay/feedback 80 
- 	 	 	 	 /shpidel~/delay/time 508 
+ 	 	 	 	 /shpidel~/delay/time 127 
  	 	 	 	 /shpidel~/loopDepth 52 
  	 	 	 	 /shpidel~/pitch/factor 0 
  	 	 	 	 /shpidel~/pitch/octave -2 
@@ -1720,11 +1720,11 @@
  	 	 	 	 /LPCfilter~/alias /LPCfilter~/alias/remove 
  	 	 	 	 /LPCfilter~/audio/bypass 0 
  	 	 	 	 /LPCfilter~/audio/gain 93.000000 
- 	 	 	 	 /LPCfilter~/audio/mix 0.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 92.000000 
  	 	 	 	 /LPCfilter~/audio/mute 1 
- 	 	 	 	 /LPCfilter~/filtergain 3.467675 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
  	 	 	 	 /LPCfilter~/filtertype lowpass 
- 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/frequency 4642.000000 
  	 	 	 	 /LPCfilter~/q 0.616875 
  	 	 	 	 /LPCfilter~/view/freeze 0 
  	 	 	 	 /LPCfilter~/view/highlight 0 
@@ -1735,64 +1735,64 @@
  	 	 	 	 /LPC1/audio/mute 1 
  	 	 	 	 /LPC1/detection/frameRate 30 
  	 	 	 	 /LPC1/detection/thresh 0.200000 
- 	 	 	 	 /LPC1/order 70 
+ 	 	 	 	 /LPC1/order 68 
  	 	 	 	 /LPC1/pGlide 10 
- 	 	 	 	 /LPC1/pShift 7.865000 
- 	 	 	 	 /LPC1/thresh 0.300036 
+ 	 	 	 	 /LPC1/pShift -58.000000 
+ 	 	 	 	 /LPC1/thresh 0.949876 
  	 	 	 	 /LPC1/view/freeze 0 
  	 	 	 	 /LPC1/view/highlight 0 
  # 
  # Module /lpc1-postFreq-rand 
- 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 50 
  	 	 	 	 /lpc1-postFreq-rand/max -300.000000 
  	 	 	 	 /lpc1-postFreq-rand/min 300.000000 
  	 	 	 	 /lpc1-postFreq-rand/on 0 
  	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
  	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
- 	 	 	 	 /lpc1-postFreq-rand/step 0.070000 
+ 	 	 	 	 /lpc1-postFreq-rand/step 1.000000 
  	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
  	 	 	 	 /lpc1-postFreq-rand/view/highlight 0 
  # 
  # Module /lpc1-postPitch-rand 
- 	 	 	 	 /lpc1-postPitch-rand/interpolate 1736 
- 	 	 	 	 /lpc1-postPitch-rand/max -4.000000 
- 	 	 	 	 /lpc1-postPitch-rand/min 4.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 100 
+ 	 	 	 	 /lpc1-postPitch-rand/max 8.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -6.000000 
  	 	 	 	 /lpc1-postPitch-rand/on 0 
  	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
  	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
- 	 	 	 	 /lpc1-postPitch-rand/step 0.070000 
+ 	 	 	 	 /lpc1-postPitch-rand/step 1.000000 
  	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
  	 	 	 	 /lpc1-postPitch-rand/view/highlight 0 
  # 
  # Module /lpcVerb 
  	 	 	 	 /lpcVerb/audio/bypass 0 
  	 	 	 	 /lpcVerb/audio/gain 97.000000 
- 	 	 	 	 /lpcVerb/audio/mix 45.000000 
+ 	 	 	 	 /lpcVerb/audio/mix 11.000000 
  	 	 	 	 /lpcVerb/audio/mute 1 
- 	 	 	 	 /lpcVerb/damping 17000.000000 
+ 	 	 	 	 /lpcVerb/damping 13682.000000 
  	 	 	 	 /lpcVerb/decay 4.000000 
- 	 	 	 	 /lpcVerb/delay 42.000000 
+ 	 	 	 	 /lpcVerb/delay 57.000000 
  	 	 	 	 /lpcVerb/earlyReflections/active 1 
- 	 	 	 	 /lpcVerb/lowpass 13000.000000 
- 	 	 	 	 /lpcVerb/moddepth 0.070000 
- 	 	 	 	 /lpcVerb/modfreq 0.100000 
+ 	 	 	 	 /lpcVerb/lowpass 10038.000000 
+ 	 	 	 	 /lpcVerb/moddepth 0.100000 
+ 	 	 	 	 /lpcVerb/modfreq 0.060000 
  	 	 	 	 /lpcVerb/view/freeze 0 
  	 	 	 	 /lpcVerb/view/highlight 0 
  # 
  # Module /lpc1 
- 	 	 	 	 /lpc1/interpolate 2000 
- 	 	 	 	 /lpc1/max 12.000000 
- 	 	 	 	 /lpc1/min -75.000000 
+ 	 	 	 	 /lpc1/interpolate 1296 
+ 	 	 	 	 /lpc1/max 24.000000 
+ 	 	 	 	 /lpc1/min -58.000000 
  	 	 	 	 /lpc1/on 0 
  	 	 	 	 /lpc1/rate/max 4000 
  	 	 	 	 /lpc1/rate/min 1000 
- 	 	 	 	 /lpc1/step 0.070000 
+ 	 	 	 	 /lpc1/step 1.000000 
  	 	 	 	 /lpc1/view/freeze 0 
  	 	 	 	 /lpc1/view/highlight 0 
  # 
  # Module /lpc-dryOUT 
  	 	 	 	 /lpc-dryOUT/audio/active 1 
- 	 	 	 	 /lpc-dryOUT/audio/gain 94.837646 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 102.259750 
  	 	 	 	 /lpc-dryOUT/balance 0.000000 
  	 	 	 	 /lpc-dryOUT/ch.1 5 
  	 	 	 	 /lpc-dryOUT/ch.2 7 
@@ -1815,9 +1815,9 @@
  	 	 	 	 /postLPCPitch/bypass 0 
  	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
  	 	 	 	 /postLPCPitch/feedback/time 32.000000 
- 	 	 	 	 /postLPCPitch/frequency/scale -3.233000 
- 	 	 	 	 /postLPCPitch/frequency/shift -198.925995 
- 	 	 	 	 /postLPCPitch/gain 94.000000 
+ 	 	 	 	 /postLPCPitch/frequency/scale 2.694000 
+ 	 	 	 	 /postLPCPitch/frequency/shift 453.940002 
+ 	 	 	 	 /postLPCPitch/gain 96.000000 
  	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
  	 	 	 	 /postLPCPitch/limiter/lookahead 100 
  	 	 	 	 /postLPCPitch/limiter/mode exponential 
@@ -1825,14 +1825,14 @@
  	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
  	 	 	 	 /postLPCPitch/limiter/release 250.000000 
  	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
- 	 	 	 	 /postLPCPitch/mix 51.000000 
+ 	 	 	 	 /postLPCPitch/mix 89.000000 
  	 	 	 	 /postLPCPitch/mute 1 
  	 	 	 	 /postLPCPitch/view/freeze 0 
  	 	 	 	 /postLPCPitch/view/highlight 0 
  # 
  # Module /LPC-wet-out 
  	 	 	 	 /LPC-wet-out/audio/active 1 
- 	 	 	 	 /LPC-wet-out/audio/gain 85.766228 
+ 	 	 	 	 /LPC-wet-out/audio/gain 100.610397 
  	 	 	 	 /LPC-wet-out/balance 0.000000 
  	 	 	 	 /LPC-wet-out/ch.1 1 
  	 	 	 	 /LPC-wet-out/ch.2 3 
@@ -1855,7 +1855,7 @@
  	 	 	 	 /master-bird/interpolate 0 
  	 	 	 	 /master-bird/max 18000.000000 
  	 	 	 	 /master-bird/min 1200.000000 
- 	 	 	 	 /master-bird/on 1 
+ 	 	 	 	 /master-bird/on 0 
  	 	 	 	 /master-bird/rate/max 13000 
  	 	 	 	 /master-bird/rate/min 3000 
  	 	 	 	 /master-bird/step 1.000000 
@@ -1867,7 +1867,7 @@
  	 	 	 	 /8-bird/interpolate 0 
  	 	 	 	 /8-bird/max 18000.000000 
  	 	 	 	 /8-bird/min 1200.000000 
- 	 	 	 	 /8-bird/on 1 
+ 	 	 	 	 /8-bird/on 0 
  	 	 	 	 /8-bird/rate/max 13000 
  	 	 	 	 /8-bird/rate/min 3000 
  	 	 	 	 /8-bird/step 1.000000 
@@ -1878,7 +1878,7 @@
  	 	 	 	 /7-bird/interpolate 0 
  	 	 	 	 /7-bird/max 18000.000000 
  	 	 	 	 /7-bird/min 1200.000000 
- 	 	 	 	 /7-bird/on 1 
+ 	 	 	 	 /7-bird/on 0 
  	 	 	 	 /7-bird/rate/max 13000 
  	 	 	 	 /7-bird/rate/min 3000 
  	 	 	 	 /7-bird/step 1.000000 
@@ -1889,7 +1889,7 @@
  	 	 	 	 /6-bird/interpolate 0 
  	 	 	 	 /6-bird/max 18000.000000 
  	 	 	 	 /6-bird/min 1200.000000 
- 	 	 	 	 /6-bird/on 1 
+ 	 	 	 	 /6-bird/on 0 
  	 	 	 	 /6-bird/rate/max 13000 
  	 	 	 	 /6-bird/rate/min 3000 
  	 	 	 	 /6-bird/step 1.000000 
@@ -1900,7 +1900,7 @@
  	 	 	 	 /5-bird/interpolate 0 
  	 	 	 	 /5-bird/max 18000.000000 
  	 	 	 	 /5-bird/min 1200.000000 
- 	 	 	 	 /5-bird/on 1 
+ 	 	 	 	 /5-bird/on 0 
  	 	 	 	 /5-bird/rate/max 13000 
  	 	 	 	 /5-bird/rate/min 3000 
  	 	 	 	 /5-bird/step 1.000000 
@@ -1911,7 +1911,7 @@
  	 	 	 	 /4-bird/interpolate 0 
  	 	 	 	 /4-bird/max 18000.000000 
  	 	 	 	 /4-bird/min 1200.000000 
- 	 	 	 	 /4-bird/on 1 
+ 	 	 	 	 /4-bird/on 0 
  	 	 	 	 /4-bird/rate/max 13000 
  	 	 	 	 /4-bird/rate/min 3000 
  	 	 	 	 /4-bird/step 1.000000 
@@ -1922,7 +1922,7 @@
  	 	 	 	 /3-bird/interpolate 0 
  	 	 	 	 /3-bird/max 18000.000000 
  	 	 	 	 /3-bird/min 1200.000000 
- 	 	 	 	 /3-bird/on 1 
+ 	 	 	 	 /3-bird/on 0 
  	 	 	 	 /3-bird/rate/max 13000 
  	 	 	 	 /3-bird/rate/min 3000 
  	 	 	 	 /3-bird/step 1.000000 
@@ -1933,7 +1933,7 @@
  	 	 	 	 /2-bird/interpolate 0 
  	 	 	 	 /2-bird/max 18000.000000 
  	 	 	 	 /2-bird/min 1200.000000 
- 	 	 	 	 /2-bird/on 1 
+ 	 	 	 	 /2-bird/on 0 
  	 	 	 	 /2-bird/rate/max 13000 
  	 	 	 	 /2-bird/rate/min 3000 
  	 	 	 	 /2-bird/step 1.000000 
@@ -1944,7 +1944,7 @@
  	 	 	 	 /1-bird/interpolate 0 
  	 	 	 	 /1-bird/max 18000.000000 
  	 	 	 	 /1-bird/min 1200.000000 
- 	 	 	 	 /1-bird/on 1 
+ 	 	 	 	 /1-bird/on 0 
  	 	 	 	 /1-bird/rate/max 13000 
  	 	 	 	 /1-bird/rate/min 3000 
  	 	 	 	 /1-bird/step 1.000000 
@@ -1953,9 +1953,9 @@
  # 
  # Module /filter~ 
  	 	 	 	 /filter~/audio/bypass 0 
- 	 	 	 	 /filter~/audio/gain 79.000000 
+ 	 	 	 	 /filter~/audio/gain 0.000000 
  	 	 	 	 /filter~/audio/mix 100.000000 
- 	 	 	 	 /filter~/audio/mute 0 
+ 	 	 	 	 /filter~/audio/mute 1 
  	 	 	 	 /filter~/filtergain -1.387834 
  	 	 	 	 /filter~/filtertype lowpass 
  	 	 	 	 /filter~/frequency 669.372437 
@@ -1965,16 +1965,16 @@
  # 
  # Module /harmonicShifter~ 
  	 	 	 	 /harmonicShifter~/bypass 0 
- 	 	 	 	 /harmonicShifter~/factors 6.549387 6.930651 1.111111 3.728058 2.362559 2.613229 7.560279 6.354170 
+ 	 	 	 	 /harmonicShifter~/factors 1.060563 1.567964 4.606528 2.076923 2.166667 3.076923 6.602506 7.200000 
  	 	 	 	 /harmonicShifter~/gain 96.000000 
- 	 	 	 	 /harmonicShifter~/harmonic.1/gain -13.540380 
- 	 	 	 	 /harmonicShifter~/harmonic.2/gain -32.299782 
- 	 	 	 	 /harmonicShifter~/harmonic.3/gain -33.133648 
- 	 	 	 	 /harmonicShifter~/harmonic.4/gain -6.357972 
- 	 	 	 	 /harmonicShifter~/harmonic.5/gain -20.292938 
- 	 	 	 	 /harmonicShifter~/harmonic.6/gain -22.060898 
- 	 	 	 	 /harmonicShifter~/harmonic.7/gain -29.970745 
- 	 	 	 	 /harmonicShifter~/harmonic.8/gain -22.226227 
+ 	 	 	 	 /harmonicShifter~/harmonic.1/gain -13.833835 
+ 	 	 	 	 /harmonicShifter~/harmonic.2/gain -20.656656 
+ 	 	 	 	 /harmonicShifter~/harmonic.3/gain -5.121122 
+ 	 	 	 	 /harmonicShifter~/harmonic.4/gain -30.938938 
+ 	 	 	 	 /harmonicShifter~/harmonic.5/gain -17.613613 
+ 	 	 	 	 /harmonicShifter~/harmonic.6/gain -7.907908 
+ 	 	 	 	 /harmonicShifter~/harmonic.7/gain -11.271272 
+ 	 	 	 	 /harmonicShifter~/harmonic.8/gain -35.391392 
  	 	 	 	 /harmonicShifter~/limiter/dcblocker/active 1 
  	 	 	 	 /harmonicShifter~/limiter/lookahead 100 
  	 	 	 	 /harmonicShifter~/limiter/mode 0 
@@ -1983,7 +1983,7 @@
  	 	 	 	 /harmonicShifter~/limiter/release 300.000000 
  	 	 	 	 /harmonicShifter~/limiter/threshold -0.500000 
  	 	 	 	 /harmonicShifter~/mix 100.000000 
- 	 	 	 	 /harmonicShifter~/mute 0 
+ 	 	 	 	 /harmonicShifter~/mute 1 
  	 	 	 	 /harmonicShifter~/shifts 0.000000 0.000000 0.000000 0.000000 0.000000 800.000000 0.000000 800.000000 
  	 	 	 	 /harmonicShifter~/view/freeze 1 
  	 	 	 	 /harmonicShifter~/view/highlight 0 
@@ -2015,7 +2015,6 @@
  	 	 	 	 /au-fShift/view/highlight 0 
  # 
  # Module /au-pShift 
- 	 	 	 	 /au-pShift/alias /au-pShift/alias/remove 
  	 	 	 	 /au-pShift/interpolate 4671 
  	 	 	 	 /au-pShift/max 3.000000 
  	 	 	 	 /au-pShift/min -3.000000 
@@ -2030,8 +2029,8 @@
  	 	 	 	 /drone-Post-pitch/bypass 0 
  	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
  	 	 	 	 /drone-Post-pitch/feedback/time 0.000000 
- 	 	 	 	 /drone-Post-pitch/frequency/scale 1.346284 
- 	 	 	 	 /drone-Post-pitch/frequency/shift -2.793111 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale -2.593718 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 93.798973 
  	 	 	 	 /drone-Post-pitch/gain 98.000000 
  	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
  	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 

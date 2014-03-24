@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1441.0, 23.0, 313.0, 862.0 ],
+		"rect" : [ 1206.0, 44.0, 307.0, 862.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -111,8 +112,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 351.0, 164.0, 84.0, 20.0 ],
-					"text" : "loadmess 110"
+					"patching_rect" : [ 351.0, 164.0, 85.0, 20.0 ],
+					"text" : "loadmess 120"
 				}
 
 			}
@@ -141,7 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 622.0, 497.0, 50.0, 31.0 ],
-					"text" : "/audio/mute 0"
+					"text" : "/audio/mute 1"
 				}
 
 			}
