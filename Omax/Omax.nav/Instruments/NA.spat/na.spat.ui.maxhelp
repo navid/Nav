@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1224.0, 44.0, 698.0, 486.0 ],
+		"rect" : [ 1138.0, 44.0, 698.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -30,6 +31,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 299.0, 230.0, 50.0 ],
+					"text" : "to add:\nfor mode 2 add an angular panner \"a\" and have d controlled by amplitude"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
 					"id" : "obj-63",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -47,8 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 110.0, 190.0, 80.0, 13.0 ],
-					"presentation_rect" : [ 143.0, 153.0, 0.0, 0.0 ]
+					"patching_rect" : [ 110.0, 190.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -88,7 +103,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 239.5, 195.0, 34.0 ],
-					"text" : "source 2 omni -7.083333 1.7 0. -3.8 177. 5657."
+					"text" : "source 2 omni 0. 1.7 0. -3.8 177. 5657."
 				}
 
 			}
@@ -111,12 +126,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 239.5, 113.0, 19.0 ],
-					"text" : "source 0 mute 0"
+					"patching_rect" : [ 520.0, 239.5, 113.0, 34.0 ],
+					"text" : "source 2 omni G0 0."
 				}
 
 			}
@@ -127,8 +143,8 @@
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 346.0, 207.5, 262.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 285.0, 300.0, 20.0 ],
@@ -230,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 4.0, 106.0, 101.0, 50.0 ],
+					"patching_rect" : [ 4.0, 106.0, 70.0, 46.0 ],
 					"varname" : "na.spat.send.ui[1]"
 				}
 
@@ -248,11 +264,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1029.0, 207.0, 842.0, 295.0 ],
+						"rect" : [ 544.0, 327.0, 842.0, 295.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -669,7 +686,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 260.0, 300.0, 175.0 ],
+					"patching_rect" : [ 4.0, 256.5, 300.0, 175.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 175.0 ]
 				}
 
@@ -799,49 +816,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.nav.ambicontrol.maxpat",
-				"bootpath" : "/Users/iem/code/Nav/Jamoma/jmod.nav.ambicontrol",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.ambicontrol",
 				"patcherrelativepath" : "../../../../Jamoma/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jlag.nav.ambicontrol.maxpat",
-				"bootpath" : "/Users/iem/code/Nav/Jamoma/jmod.nav.ambicontrol",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.ambicontrol",
 				"patcherrelativepath" : "../../../../Jamoma/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/list2parameter",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "../../../../../../SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "na.spat.ui.maxpat",
-				"bootpath" : "/Users/iem/code/Nav/Omax/Omax.nav/abstractions/NA.spat",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max6/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.input~.maxpat",
-				"bootpath" : "/Users/iem/code/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/ADC-DAC~",
 				"patcherrelativepath" : "../../../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.bridge.ambi2spat.maxpat",
-				"bootpath" : "/Users/iem/code/Nav/Archive/Spatialization/ambi2spat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Archive/Spatialization/ambi2spat",
 				"patcherrelativepath" : "../../../../Archive/Spatialization/ambi2spat",
 				"type" : "JSON",
 				"implicit" : 1

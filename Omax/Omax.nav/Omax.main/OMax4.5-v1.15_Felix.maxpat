@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1204.0, 379.0 ],
+		"rect" : [ 0.0, 44.0, 1207.0, 380.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3058,7 +3058,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 138.0, 94.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 100. onsetVar 60. pVar 0. trigger 20. turn -0.25"
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 500. onsetVar 60. pVar 0. trigger 20. turn 0.1"
 																}
 
 															}
@@ -3794,7 +3794,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 138.0, 94.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.8 Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 50. onsetVar 5108. pVar 139. trigger 71. turn -0.2"
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 320. onsetVar 160. pVar 0. trigger 20. turn -0.2"
 																}
 
 															}
@@ -4513,13 +4513,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
-																	"linecount" : 12,
+																	"linecount" : 6,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 110.0, 72.0 ],
-																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.3 Sync 0. Transposition 0. Xfade 30. SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 2. Sync 0. Transposition 0. Xfade 30."
+																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30."
 																}
 
 															}
@@ -5229,13 +5229,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
-																	"linecount" : 12,
+																	"linecount" : 6,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 111.0, 72.0 ],
-																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.45 Sync 0. Transposition 0. Xfade 30. SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 3. Sync 0. Transposition 0. Xfade 30."
+																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30."
 																}
 
 															}
@@ -5945,13 +5945,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
-																	"linecount" : 10,
+																	"linecount" : 5,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 105.0, 60.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30. pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30."
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30."
 																}
 
 															}
@@ -7377,13 +7377,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
 																	"id" : "obj-7",
-																	"linecount" : 10,
+																	"linecount" : 5,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 105.0, 60.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.25 Xfade 30. pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.65 Xfade 30."
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30."
 																}
 
 															}
@@ -26599,7 +26599,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 873.0, 624.0, 95.0, 183.0 ],
+						"rect" : [ 1117.0, 1026.0, 95.0, 183.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -27206,13 +27206,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 101.0, 29.0, 38.0 ],
-									"text" : "/sp 181438"
+									"text" : "/sp 0"
 								}
 
 							}
@@ -27227,7 +27227,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 142.0, 152.0, 27.0 ],
-									"text" : "/cc 39 0. 12.5 -0.4 2. 0.2 -0.2 -0.2 -0.5 0. -0.8 26 181753"
+									"text" : "/cc 39 0. 8.5 3.5 1.5 -0.5 -0.1 -0.1 0.6 -0.1 -0.4 4 315"
 								}
 
 							}
@@ -27242,7 +27242,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 443.0, 167.0, 35.0, 27.0 ],
-									"text" : "/seg 1191"
+									"text" : "/seg 0"
 								}
 
 							}
@@ -28784,7 +28784,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 7.0, 1005.0, 524.0, 198.0 ],
+						"rect" : [ 562.0, 975.0, 529.0, 199.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -28805,6 +28805,19 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 825.0, 185.5, 147.0, 20.0 ],
+									"text" : "udpsend 10.0.0.12 76576"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 13.0,
@@ -28832,7 +28845,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 579.0, 28.0, 172.0, 50.0 ],
+									"patching_rect" : [ 585.0, 170.5, 51.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 0.5, 126.0, 83.0, 50.0 ],
@@ -30083,6 +30096,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-45", 1 ]
 								}
 
 							}
@@ -39965,7 +39987,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2.0, 528.0, 553.0, 452.0 ],
+						"rect" : [ 0.0, 749.0, 553.0, 452.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -56715,14 +56737,14 @@
 					"active" : 					{
 						"Dual_SP_Suffixes" : 0,
 						"Dual_SP_Suffixes::pattrstorage[1]" : 0,
-						"Dual_SP_Suffixes::u127012810" : 0,
+						"Dual_SP_Suffixes::u091012559" : 0,
 						"Dual_SP_Suffixes::Black" : 0,
 						"Dual_SP_Suffixes::Enable" : 0,
 						"Dual_SP_Suffixes::MinCtxt" : 0,
 						"Dual_SP_Suffixes::White" : 0,
 						"Player" : 0,
 						"Player::pattrstorage" : 0,
-						"Player::u009012812" : 0,
+						"Player::u919012561" : 0,
 						"Player::Cut-Threshold" : 0,
 						"Player::Cut-Window" : 0,
 						"Player::Direction" : 0,
@@ -56730,7 +56752,7 @@
 						"Player::Xfade" : 0,
 						"Player[1]" : 0,
 						"Player[1]::pattrstorage" : 0,
-						"Player[1]::u857012814" : 0,
+						"Player[1]::u332012563" : 0,
 						"Player[1]::Cut-Threshold" : 0,
 						"Player[1]::Cut-Window" : 0,
 						"Player[1]::Direction" : 0,
@@ -56738,7 +56760,7 @@
 						"Player[1]::Xfade" : 0,
 						"Player[2]" : 0,
 						"Player[2]::pattrstorage" : 0,
-						"Player[2]::u725012816" : 0,
+						"Player[2]::u921012565" : 0,
 						"Player[2]::Cut-Threshold" : 0,
 						"Player[2]::Cut-Window" : 0,
 						"Player[2]::Direction" : 0,
@@ -56746,7 +56768,7 @@
 						"Player[2]::Xfade" : 0,
 						"Player[5]" : 0,
 						"Player[5]::SVP-Player" : 0,
-						"Player[5]::u522012818" : 0,
+						"Player[5]::u256012567" : 0,
 						"Player[5]::Cut-Threshold" : 0,
 						"Player[5]::Cut-Window" : 0,
 						"Player[5]::Direction" : 0,
@@ -56756,7 +56778,7 @@
 						"Player[5]::Xfade" : 0,
 						"Player[3]" : 0,
 						"Player[3]::pattrstorage" : 0,
-						"Player[3]::u882012820" : 0,
+						"Player[3]::u565012569" : 0,
 						"Player[3]::Cut-Threshold" : 0,
 						"Player[3]::Cut-Window" : 0,
 						"Player[3]::Direction" : 0,
@@ -56764,7 +56786,7 @@
 						"Player[3]::Xfade" : 0,
 						"Player[4]" : 0,
 						"Player[4]::pattrstorage" : 0,
-						"Player[4]::u753012822" : 0,
+						"Player[4]::u420012571" : 0,
 						"Player[4]::Cut-Threshold" : 0,
 						"Player[4]::Cut-Window" : 0,
 						"Player[4]::Direction" : 0,
@@ -56772,7 +56794,7 @@
 						"Player[4]::Xfade" : 0,
 						"Player[6]" : 0,
 						"Player[6]::SVP-Player" : 0,
-						"Player[6]::u732012824" : 0,
+						"Player[6]::u828012573" : 0,
 						"Player[6]::Cut-Threshold" : 0,
 						"Player[6]::Cut-Window" : 0,
 						"Player[6]::Direction" : 0,
@@ -56782,7 +56804,7 @@
 						"Player[6]::Xfade" : 0,
 						"Player[7]" : 0,
 						"Player[7]::pattrstorage" : 0,
-						"Player[7]::u884012826" : 0,
+						"Player[7]::u773012575" : 0,
 						"Player[7]::Cut-Threshold" : 0,
 						"Player[7]::Cut-Window" : 0,
 						"Player[7]::Direction" : 0,
@@ -60521,95 +60543,95 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-177::obj-3" : [ "live.tab[50]", "live.tab", 0 ],
+			"obj-185::obj-171" : [ "live.tab[106]", "live.tab", 0 ],
+			"obj-246::obj-256" : [ "live.tab[138]", "live.tab", 0 ],
+			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
+			"obj-185::obj-230" : [ "effectNorris[2]", "live.tab", 0 ],
+			"obj-247::obj-199" : [ "live.tab[139]", "live.tab", 0 ],
+			"obj-186::obj-199" : [ "live.tab[110]", "live.tab", 0 ],
+			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
+			"obj-186::obj-230" : [ "effectNorris[3]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
+			"obj-231::obj-171" : [ "live.tab[116]", "live.tab", 0 ],
+			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
+			"obj-264" : [ "live.text[4]", "1", 2 ],
+			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
+			"obj-244::obj-95" : [ "live.tab[124]", "live.tab", 0 ],
+			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
+			"obj-202::obj-3" : [ "live.tab[52]", "live.tab", 0 ],
+			"obj-245::obj-171" : [ "live.tab[130]", "live.tab", 0 ],
+			"obj-184::obj-220" : [ "live.tab[91]", "live.tab", 0 ],
 			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
-			"obj-186::obj-171" : [ "live.tab[109]", "live.tab", 0 ],
+			"obj-246::obj-220" : [ "live.tab[134]", "live.tab", 0 ],
+			"obj-185::obj-18" : [ "live.tab[108]", "live.tab", 0 ],
+			"obj-246::obj-95" : [ "live.tab[136]", "live.tab", 0 ],
+			"obj-247::obj-95" : [ "live.tab[142]", "live.tab", 0 ],
+			"obj-247::obj-171" : [ "live.tab[141]", "live.tab", 0 ],
+			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
 			"obj-186::obj-95" : [ "live.tab[112]", "live.tab", 0 ],
-			"obj-16" : [ "improv-menu", "live.menu", 0 ],
-			"obj-231::obj-256" : [ "live.tab[115]", "live.tab", 0 ],
-			"obj-246::obj-199" : [ "live.tab[135]", "live.tab", 0 ],
+			"obj-186::obj-171" : [ "live.tab[109]", "live.tab", 0 ],
 			"obj-231::obj-230" : [ "effectNorris[4]", "live.tab", 0 ],
-			"obj-246::obj-18" : [ "live.tab[133]", "live.tab", 0 ],
+			"obj-231::obj-18" : [ "live.tab[118]", "live.tab", 0 ],
+			"obj-108::obj-3" : [ "live.tab[49]", "live.tab", 0 ],
 			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
 			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
 			"obj-244::obj-199" : [ "live.tab[126]", "live.tab", 0 ],
-			"obj-247::obj-171" : [ "live.tab[141]", "live.tab", 0 ],
-			"obj-245::obj-95" : [ "live.tab[131]", "live.tab", 0 ],
-			"obj-184::obj-230" : [ "effectNorris[1]", "live.tab", 0 ],
-			"obj-185::obj-256" : [ "live.tab[105]", "live.tab", 0 ],
+			"obj-268" : [ "live.text[2]", "1", 2 ],
+			"obj-245::obj-18" : [ "live.tab[128]", "live.tab", 0 ],
 			"obj-13::obj-3" : [ "live.tab", "live.tab", 0 ],
+			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
+			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
+			"obj-184::obj-95" : [ "live.tab[102]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
 			"obj-72::obj-26" : [ "live.text", "live.text", 0 ],
-			"obj-186::obj-199" : [ "live.tab[110]", "live.tab", 0 ],
-			"obj-202::obj-3" : [ "live.tab[52]", "live.tab", 0 ],
-			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
-			"obj-231::obj-199" : [ "live.tab[117]", "live.tab", 0 ],
-			"obj-246::obj-230" : [ "effectNorris[7]", "live.tab", 0 ],
+			"obj-246::obj-18" : [ "live.tab[133]", "live.tab", 0 ],
+			"obj-185::obj-220" : [ "live.tab[103]", "live.tab", 0 ],
+			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
+			"obj-247::obj-220" : [ "live.tab[140]", "live.tab", 0 ],
+			"obj-247::obj-18" : [ "live.tab[143]", "live.tab", 0 ],
+			"obj-186::obj-256" : [ "live.tab[114]", "live.tab", 0 ],
 			"obj-231::obj-220" : [ "live.tab[119]", "live.tab", 0 ],
-			"obj-246::obj-171" : [ "live.tab[137]", "live.tab", 0 ],
+			"obj-231::obj-256" : [ "live.tab[115]", "live.tab", 0 ],
+			"obj-244::obj-18" : [ "live.tab[121]", "live.tab", 0 ],
+			"obj-282" : [ "live.text[3]", "1", 2 ],
 			"obj-153::obj-256" : [ "effectLPC", "live.tab", 0 ],
 			"obj-244::obj-171" : [ "live.tab[125]", "live.tab", 0 ],
-			"obj-247::obj-256" : [ "live.tab[144]", "live.tab", 0 ],
-			"obj-244::obj-95" : [ "live.tab[124]", "live.tab", 0 ],
-			"obj-247::obj-95" : [ "live.tab[142]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
-			"obj-184::obj-220" : [ "live.tab[91]", "live.tab", 0 ],
-			"obj-245::obj-220" : [ "live.tab[129]", "live.tab", 0 ],
-			"obj-184::obj-95" : [ "live.tab[102]", "live.tab", 0 ],
-			"obj-185::obj-18" : [ "live.tab[108]", "live.tab", 0 ],
-			"obj-108::obj-3" : [ "live.tab[49]", "live.tab", 0 ],
-			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
-			"obj-186::obj-220" : [ "live.tab[113]", "live.tab", 0 ],
-			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
-			"obj-231::obj-18" : [ "live.tab[118]", "live.tab", 0 ],
-			"obj-246::obj-95" : [ "live.tab[136]", "live.tab", 0 ],
-			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
-			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
-			"obj-244::obj-220" : [ "live.tab[122]", "live.tab", 0 ],
-			"obj-247::obj-230" : [ "effectNorris[8]", "live.tab", 0 ],
-			"obj-244::obj-230" : [ "effectNorris[5]", "live.tab", 0 ],
-			"obj-247::obj-199" : [ "live.tab[139]", "live.tab", 0 ],
-			"obj-245::obj-18" : [ "live.tab[128]", "live.tab", 0 ],
-			"obj-184::obj-171" : [ "live.tab[101]", "live.tab", 0 ],
-			"obj-245::obj-230" : [ "effectNorris[6]", "live.tab", 0 ],
-			"obj-184::obj-199" : [ "live.tab[99]", "live.tab", 0 ],
-			"obj-264" : [ "live.text[4]", "1", 2 ],
-			"obj-185::obj-220" : [ "live.tab[103]", "live.tab", 0 ],
-			"obj-268" : [ "live.text[2]", "1", 2 ],
-			"obj-185::obj-230" : [ "effectNorris[2]", "live.tab", 0 ],
-			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
 			"obj-201::obj-3" : [ "live.tab[51]", "live.tab", 0 ],
-			"obj-186::obj-18" : [ "live.tab[111]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-12::obj-180" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-231::obj-171" : [ "live.tab[116]", "live.tab", 0 ],
-			"obj-246::obj-256" : [ "live.tab[138]", "live.tab", 0 ],
-			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
-			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
-			"obj-244::obj-18" : [ "live.tab[121]", "live.tab", 0 ],
-			"obj-247::obj-220" : [ "live.tab[140]", "live.tab", 0 ],
-			"obj-245::obj-256" : [ "live.tab[127]", "live.tab", 0 ],
+			"obj-184::obj-199" : [ "live.tab[99]", "live.tab", 0 ],
+			"obj-245::obj-220" : [ "live.tab[129]", "live.tab", 0 ],
+			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
 			"obj-184::obj-256" : [ "live.tab[98]", "live.tab", 0 ],
-			"obj-245::obj-171" : [ "live.tab[130]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
-			"obj-282" : [ "live.text[3]", "1", 2 ],
-			"obj-185::obj-95" : [ "live.tab[104]", "live.tab", 0 ],
-			"obj-14::obj-3" : [ "live.tab[48]", "live.tab", 0 ],
+			"obj-246::obj-230" : [ "effectNorris[7]", "live.tab", 0 ],
 			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
 			"obj-185::obj-199" : [ "live.tab[107]", "live.tab", 0 ],
-			"obj-186::obj-256" : [ "live.tab[114]", "live.tab", 0 ],
-			"obj-186::obj-230" : [ "effectNorris[3]", "live.tab", 0 ],
-			"obj-204::obj-3" : [ "live.tab[53]", "live.tab", 0 ],
-			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
-			"obj-231::obj-95" : [ "live.tab[120]", "live.tab", 0 ],
-			"obj-246::obj-220" : [ "live.tab[134]", "live.tab", 0 ],
-			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
-			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
-			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
-			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
+			"obj-247::obj-256" : [ "live.tab[144]", "live.tab", 0 ],
+			"obj-186::obj-18" : [ "live.tab[111]", "live.tab", 0 ],
+			"obj-231::obj-199" : [ "live.tab[117]", "live.tab", 0 ],
+			"obj-14::obj-3" : [ "live.tab[48]", "live.tab", 0 ],
+			"obj-244::obj-230" : [ "effectNorris[5]", "live.tab", 0 ],
+			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
 			"obj-244::obj-256" : [ "live.tab[123]", "live.tab", 0 ],
-			"obj-247::obj-18" : [ "live.tab[143]", "live.tab", 0 ],
-			"obj-245::obj-199" : [ "live.tab[132]", "live.tab", 0 ],
+			"obj-245::obj-256" : [ "live.tab[127]", "live.tab", 0 ],
+			"obj-204::obj-3" : [ "live.tab[53]", "live.tab", 0 ],
+			"obj-184::obj-230" : [ "effectNorris[1]", "live.tab", 0 ],
+			"obj-245::obj-95" : [ "live.tab[131]", "live.tab", 0 ],
 			"obj-184::obj-18" : [ "live.tab[100]", "live.tab", 0 ],
-			"obj-185::obj-171" : [ "live.tab[106]", "live.tab", 0 ]
+			"obj-185::obj-256" : [ "live.tab[105]", "live.tab", 0 ],
+			"obj-246::obj-171" : [ "live.tab[137]", "live.tab", 0 ],
+			"obj-185::obj-95" : [ "live.tab[104]", "live.tab", 0 ],
+			"obj-247::obj-230" : [ "effectNorris[8]", "live.tab", 0 ],
+			"obj-186::obj-220" : [ "live.tab[113]", "live.tab", 0 ],
+			"obj-16" : [ "improv-menu", "live.menu", 0 ],
+			"obj-231::obj-95" : [ "live.tab[120]", "live.tab", 0 ],
+			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
+			"obj-244::obj-220" : [ "live.tab[122]", "live.tab", 0 ],
+			"obj-177::obj-3" : [ "live.tab[50]", "live.tab", 0 ],
+			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
+			"obj-245::obj-230" : [ "effectNorris[6]", "live.tab", 0 ],
+			"obj-184::obj-171" : [ "live.tab[101]", "live.tab", 0 ],
+			"obj-245::obj-199" : [ "live.tab[132]", "live.tab", 0 ],
+			"obj-246::obj-199" : [ "live.tab[135]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-12::obj-180" : [ "live.tab[30]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -60845,8 +60867,8 @@
 			}
 , 			{
 				"name" : "droneMaker~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/DroneMaker~",
-				"patcherrelativepath" : "../abstractions/DroneMaker~",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/DroneMaker~",
+				"patcherrelativepath" : "../Instruments/DroneMaker~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -61237,22 +61259,22 @@
 			}
 , 			{
 				"name" : "na.spat.ui.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/NA.spat",
-				"patcherrelativepath" : "../abstractions/NA.spat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"patcherrelativepath" : "../Instruments/NA.spat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "na.spat.ui.MASTER.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/NA.spat",
-				"patcherrelativepath" : "../abstractions/NA.spat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"patcherrelativepath" : "../Instruments/NA.spat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "NA.Vbap.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/NA.spat",
-				"patcherrelativepath" : "../abstractions/NA.spat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"patcherrelativepath" : "../Instruments/NA.spat",
 				"type" : "JSON",
 				"implicit" : 1
 			}

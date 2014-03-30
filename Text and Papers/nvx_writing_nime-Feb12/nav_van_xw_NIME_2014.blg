@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: nav_van_xw_NIME_2014.aux
+The style file: abbrv.bst
+Database file #1: nav_van_xw_NIME_BIB.bib
+Repeated entry---line 149 of file nav_van_xw_NIME_BIB.bib
+ : @inproceedings{schnell_battier_nime02
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 155 of file nav_van_xw_NIME_BIB.bib
+ : @inproceedings{ftm
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 163 of file nav_van_xw_NIME_BIB.bib
+ : @inproceedings{schwartz_2012
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 175 of file nav_van_xw_NIME_BIB.bib
+ : @article{van2009instrumental
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 192 of file nav_van_xw_NIME_BIB.bib
+ : @inproceedings{gurevich2007expression
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 200 of file nav_van_xw_NIME_BIB.bib
+ : @article{magnusson2009epistemic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 252 of file nav_van_xw_NIME_BIB.bib
+ : @article{schwarz2012sound
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 267 of file nav_van_xw_NIME_BIB.bib
+ : @article{driscoll2004david
+ :                           ,
+I'm skipping whatever remains of this entry
+Name 1 in "Schwarz, Diemo, and Benjamin Hackbarth" has a comma at the end for entry schwartz_2012
+while executing---line 1049 of file abbrv.bst
+Name 1 in "Schwarz, Diemo, and Benjamin Hackbarth" has a comma at the end for entry schwartz_2012
+while executing---line 1090 of file abbrv.bst
+Warning--empty booktitle in tremblay2010surfing
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            593 strings with 6410 characters,
+and the built_in function-call counts, 5457 in all, are:
+= -- 543
+> -- 204
+< -- 5
++ -- 83
+- -- 64
+* -- 307
+:= -- 872
+add.period$ -- 56
+call.type$ -- 17
+change.case$ -- 81
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 241
+empty$ -- 488
+format.name$ -- 64
+if$ -- 1194
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 90
+num.names$ -- 34
+pop$ -- 119
+preamble$ -- 1
+purify$ -- 66
+quote$ -- 0
+skip$ -- 170
+stack$ -- 0
+substring$ -- 313
+swap$ -- 63
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 64
+warning$ -- 1
+while$ -- 53
+width$ -- 19
+write$ -- 188
+(There were 10 error messages)

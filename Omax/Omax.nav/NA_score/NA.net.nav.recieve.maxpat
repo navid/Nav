@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 25.0, 69.0, 242.0, 93.0 ],
+		"rect" : [ 22.0, 610.0, 268.0, 97.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 25.0, 69.0, 242.0, 93.0 ],
+		"defrect" : [ 22.0, 610.0, 268.0, 97.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,8 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 324.722168, 103.0, 165.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 185.722229, 2.0, 52.0, 27.0 ],
 					"text" : "1:17",
 					"textcolor" : [ 0.0, 0.050164, 0.596078, 1.0 ]
 				}
@@ -92,8 +90,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 155.722168, 103.0, 115.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.5, 10.0, 30.0, 20.0 ],
-					"text" : "5/8",
+					"presentation_rect" : [ 158.77272, 4.545455, 49.0, 20.0 ],
+					"text" : "15/29",
 					"textcolor" : [ 0.09894, 0.596582, 0.089754, 1.0 ]
 				}
 
@@ -113,12 +111,9 @@
 					"patching_rect" : [ 65.722229, 184.0, 214.0, 52.0 ],
 					"pictures" : [  ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 28.0, 236.0, 63.0 ],
+					"presentation_rect" : [ 15.5, 24.363636, 236.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 0,
-							"parameter_shortname" : "live.tab",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "live.tab[92]",
 							"parameter_modmin" : 0.0,
@@ -129,14 +124,17 @@
 							"parameter_order" : 0,
 							"parameter_defer" : 0,
 							"parameter_speedlim" : 1.0,
-							"parameter_invisible" : 0,
 							"parameter_steps" : 0,
-							"parameter_annotation_name" : "",
+							"parameter_invisible" : 0,
 							"parameter_enum" : [ "Love", "Comedy", "Compassion", "Fury", "Heroic", "Terror", "Disgust", "Wonder", "Tranquillity" ],
 							"parameter_exponent" : 1.0,
+							"parameter_annotation_name" : "",
 							"parameter_unitstyle" : 0,
 							"parameter_mmax" : 127.0,
-							"parameter_mmin" : 0.0
+							"parameter_mmin" : 0.0,
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 0,
+							"parameter_shortname" : "live.tab"
 						}
 
 					}
@@ -170,8 +168,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 111.722229, 158.0, 118.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 10.0, 118.0, 20.0 ],
-					"text" : "[Disgust]",
+					"presentation_rect" : [ 14.590909, 4.545455, 145.0, 20.0 ],
+					"text" : "[Heroic]",
 					"textcolor" : [ 0.8822, 0.141024, 0.113085, 1.0 ]
 				}
 
