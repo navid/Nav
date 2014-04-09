@@ -1,0 +1,135 @@
+
+ 
+ KEYCUE "initBirdz" 
+ 
+ 
+ 	 	 	 	 /CONFIG /Birdz 99 1 /L_z 99 1 /L_y 99 1 /L_x 99 1 /hi 99 1 /input~ 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /Birdz 
+ 	 	 	 	 /Birdz/view/freeze 0 
+ 	 	 	 	 /Birdz/view/highlight 0 
+ # 
+ # Module /L_z 
+ 	 	 	 	 /L_z/function 0 
+ 	 	 	 	 /L_z/function/symmetry 0 
+ 	 	 	 	 /L_z/function/parameter2 0.000000 
+ 	 	 	 	 /L_z/function/parameter1 0.000000 
+ 	 	 	 	 /L_z/bypass 0 
+ 	 	 	 	 /L_z/clip 1 
+ 	 	 	 	 /L_z/diffMode 0 
+ 	 	 	 	 /L_z/filter/mode 0 
+ 	 	 	 	 /L_z/filter/samples 7 
+ 	 	 	 	 /L_z/mute 1 
+ 	 	 	 	 /L_z/offset 0.000000 
+ 	 	 	 	 /L_z/pre-slide/down 0 
+ 	 	 	 	 /L_z/pre-slide/up 0 
+ 	 	 	 	 /L_z/ramp/grain 10 
+ 	 	 	 	 /L_z/ramp/time 5 
+ 	 	 	 	 /L_z/scale/input/max 0.000000 
+ 	 	 	 	 /L_z/scale/input/min 65556.000000 
+ 	 	 	 	 /L_z/scale/max 1.000000 
+ 	 	 	 	 /L_z/scale/min 0.000000 
+ 	 	 	 	 /L_z/scale/mode 1 
+ 	 	 	 	 /L_z/scale/window 2000 
+ 	 	 	 	 /L_z/schmitt/debounce 100 
+ 	 	 	 	 /L_z/schmitt/lower 0.400000 
+ 	 	 	 	 /L_z/schmitt/ramp 0 
+ 	 	 	 	 /L_z/schmitt/upper 0.800000 
+ 	 	 	 	 /L_z/slide/down 0 
+ 	 	 	 	 /L_z/slide/up 0 
+ 	 	 	 	 /L_z/view/freeze 0 
+ 	 	 	 	 /L_z/view/highlight none 
+ 	 	 	 	 /L_z/visualize 1 
+ # 
+ # Module /L_y 
+ 	 	 	 	 /L_y/function 0 
+ 	 	 	 	 /L_y/function/symmetry 0 
+ 	 	 	 	 /L_y/function/parameter2 0.000000 
+ 	 	 	 	 /L_y/function/parameter1 0.000000 
+ 	 	 	 	 /L_y/bypass 0 
+ 	 	 	 	 /L_y/clip 1 
+ 	 	 	 	 /L_y/diffMode 0 
+ 	 	 	 	 /L_y/filter/mode 0 
+ 	 	 	 	 /L_y/filter/samples 4 
+ 	 	 	 	 /L_y/mute 0 
+ 	 	 	 	 /L_y/offset 0.000000 
+ 	 	 	 	 /L_y/pre-slide/down 0 
+ 	 	 	 	 /L_y/pre-slide/up 0 
+ 	 	 	 	 /L_y/ramp/grain 10 
+ 	 	 	 	 /L_y/ramp/time 5 
+ 	 	 	 	 /L_y/scale/input/max 0.000000 
+ 	 	 	 	 /L_y/scale/input/min 65556.000000 
+ 	 	 	 	 /L_y/scale/max 1.000000 
+ 	 	 	 	 /L_y/scale/min -1.000000 
+ 	 	 	 	 /L_y/scale/mode 5 
+ 	 	 	 	 /L_y/scale/window 2000 
+ 	 	 	 	 /L_y/schmitt/debounce 100 
+ 	 	 	 	 /L_y/schmitt/lower 0.400000 
+ 	 	 	 	 /L_y/schmitt/ramp 0 
+ 	 	 	 	 /L_y/schmitt/upper 0.800000 
+ 	 	 	 	 /L_y/slide/down 0 
+ 	 	 	 	 /L_y/slide/up 0 
+ 	 	 	 	 /L_y/view/freeze 0 
+ 	 	 	 	 /L_y/view/highlight none 
+ 	 	 	 	 /L_y/visualize 1 
+ # 
+ # Module /L_x 
+ 	 	 	 	 /L_x/function 0 
+ 	 	 	 	 /L_x/function/symmetry 0 
+ 	 	 	 	 /L_x/function/parameter2 0.000000 
+ 	 	 	 	 /L_x/function/parameter1 0.000000 
+ 	 	 	 	 /L_x/bypass 0 
+ 	 	 	 	 /L_x/clip 1 
+ 	 	 	 	 /L_x/diffMode 0 
+ 	 	 	 	 /L_x/filter/mode 0 
+ 	 	 	 	 /L_x/filter/samples 4 
+ 	 	 	 	 /L_x/mute 0 
+ 	 	 	 	 /L_x/offset 0.000000 
+ 	 	 	 	 /L_x/pre-slide/down 0 
+ 	 	 	 	 /L_x/pre-slide/up 0 
+ 	 	 	 	 /L_x/ramp/grain 10 
+ 	 	 	 	 /L_x/ramp/time 5 
+ 	 	 	 	 /L_x/scale/input/max 0.000000 
+ 	 	 	 	 /L_x/scale/input/min 65556.000000 
+ 	 	 	 	 /L_x/scale/max 1.000000 
+ 	 	 	 	 /L_x/scale/min -1.000000 
+ 	 	 	 	 /L_x/scale/mode 5 
+ 	 	 	 	 /L_x/scale/window 2000 
+ 	 	 	 	 /L_x/schmitt/debounce 100 
+ 	 	 	 	 /L_x/schmitt/lower 0.400000 
+ 	 	 	 	 /L_x/schmitt/ramp 0 
+ 	 	 	 	 /L_x/schmitt/upper 0.800000 
+ 	 	 	 	 /L_x/slide/down 0 
+ 	 	 	 	 /L_x/slide/up 0 
+ 	 	 	 	 /L_x/view/freeze 0 
+ 	 	 	 	 /L_x/view/highlight none 
+ 	 	 	 	 /L_x/visualize 1 
+ # 
+ # Module /hi 
+ 	 	 	 	 /hi/active 1 
+ 	 	 	 	 /hi/device Game-Trak V1.3 
+ 	 	 	 	 /hi/view/freeze 0 
+ 	 	 	 	 /hi/view/highlight 0 
+ # 
+ # Module /input~ 
+ 	 	 	 	 /input~/audio/active 0 
+ 	 	 	 	 /input~/audio/gain 95.000000 
+ 	 	 	 	 /input~/balance 0.000000 
+ 	 	 	 	 /input~/ch.1 1 
+ 	 	 	 	 /input~/ch.2 2 
+ 	 	 	 	 /input~/clicktrain/rate 1.000001 
+ 	 	 	 	 /input~/soundfile/loop 0 
+ 	 	 	 	 /input~/soundfile/open /Users/NavNav/Desktop/crazy-irds.aif 
+ 	 	 	 	 /input~/soundfile/play 0 
+ 	 	 	 	 /input~/soundfile/transpose 0.000000 
+ 	 	 	 	 /input~/source soundfile 
+ 	 	 	 	 /input~/testtone/frequency 1000 
+ 	 	 	 	 /input~/view/freeze 0 
+ 	 	 	 	 /input~/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

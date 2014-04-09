@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 43.0, 44.0, 1218.0, 380.0 ],
+		"rect" : [ 22.0, 44.0, 1216.0, 380.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,107 @@
 		"tags" : "",
 		"globalpatchername" : "u263015436[1][1][1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-117",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2528.595947, 811.0, 57.0, 18.0 ],
+					"text" : "s na-spat2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-253",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2528.595947, 790.0, 72.0, 18.0 ],
+					"text" : "prepend /amp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-254",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2348.098633, 811.0, 57.0, 18.0 ],
+					"text" : "s na-spat1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-255",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2348.098633, 790.0, 72.0, 18.0 ],
+					"text" : "prepend /amp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bordercolor" : [ 0.27451, 0.164706, 0.164706, 1.0 ],
+					"id" : "obj-252",
+					"knobcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1849.799438, 639.0, 120.0, 20.0 ],
+					"size" : 157.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2 ],
+					"id" : "obj-251",
+					"maxclass" : "bpatcher",
+					"name" : "na.spat.ui.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "signal" ],
+					"patching_rect" : [ 2313.896729, 667.5, 73.103355, 41.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1064.817993, 288.363617, 72.000244, 40.054932 ],
+					"varname" : "na.spat.ui[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"id" : "obj-250",
+					"maxclass" : "bpatcher",
+					"name" : "na.spat.ui.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "signal" ],
+					"patching_rect" : [ 2202.5354, 667.5, 73.103355, 41.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 933.818115, 288.363617, 74.0, 40.054932 ],
+					"varname" : "na.spat.ui"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -1814,7 +1915,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2528.595947, 730.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1137.818237, 191.978577, 15.0, 142.439972 ],
+					"presentation_rect" : [ 1138.818237, 191.978577, 15.0, 182.042053 ],
 					"size" : 157.0
 				}
 
@@ -1829,9 +1930,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2376.595947, 730.0, 120.0, 20.0 ],
+					"patching_rect" : [ 2396.5354, 729.0, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.499939, 191.978577, 15.0, 142.439972 ],
+					"presentation_rect" : [ 1010.499939, 191.978577, 15.0, 182.042053 ],
 					"size" : 157.0
 				}
 
@@ -1848,7 +1949,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 864.407227, 866.0, 183.342773, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.672119, 336.044678, 74.0, 21.0 ],
+					"presentation_rect" : [ 248.498962, 335.542053, 74.0, 21.0 ],
 					"text" : "NA.vbap",
 					"varname" : "NA.Vbap"
 				}
@@ -2058,7 +2159,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1154.0, 83.0, 21.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 385.252899, 354.02063, 22.0, 20.0 ],
+					"presentation_rect" : [ 385.252899, 355.02063, 22.0, 20.0 ],
 					"text" : "%",
 					"textcolor" : [ 0.388235, 0.388235, 0.388235, 1.0 ]
 				}
@@ -2091,7 +2192,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1107.0, 82.5, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 315.252899, 354.02063, 35.0, 20.0 ],
+					"presentation_rect" : [ 320.252899, 355.02063, 36.0, 20.0 ],
 					"text" : "CPU",
 					"textcolor" : [ 0.388235, 0.388235, 0.388235, 1.0 ]
 				}
@@ -2099,7 +2200,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.74902 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 18.0,
@@ -2114,7 +2215,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1063.0, 78.5, 41.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 347.252899, 351.02063, 41.0, 27.0 ],
+					"presentation_rect" : [ 347.252899, 352.02063, 41.0, 27.0 ],
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"triangle" : 0,
 					"triscale" : 0.7
@@ -2362,9 +2463,9 @@
 					"name" : "na.spat.ui.MASTER.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 977.25, 74.0, 70.5, 33.0 ],
+					"patching_rect" : [ 977.25, 34.5, 70.5, 62.681824 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.498962, 278.727295, 70.5, 62.188625 ]
+					"presentation_rect" : [ 335.498962, 274.727295, 70.5, 62.188625 ]
 				}
 
 			}
@@ -2379,7 +2480,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 2044.651611, 490.0, 72.166626, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 858.818115, 288.363617, 73.719757, 39.970722 ],
+					"presentation_rect" : [ 858.818115, 288.363617, 73.719757, 40.054932 ],
 					"varname" : "na.spat.send.ui[7]"
 				}
 
@@ -2395,7 +2496,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 1831.545532, 484.636353, 72.166626, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 783.818115, 288.363617, 72.968445, 39.970722 ],
+					"presentation_rect" : [ 783.818115, 288.363617, 72.968445, 40.054932 ],
 					"varname" : "na.spat.send.ui[6]"
 				}
 
@@ -2411,7 +2512,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 1502.727173, 484.636353, 69.0, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 631.818176, 288.363617, 72.807076, 39.970722 ],
+					"presentation_rect" : [ 631.818176, 288.363617, 72.807076, 40.054932 ],
 					"varname" : "na.spat.send.ui[5]"
 				}
 
@@ -2427,7 +2528,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 1321.121948, 484.636353, 69.0, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.818176, 288.363617, 73.558395, 39.970722 ],
+					"presentation_rect" : [ 555.818176, 288.363617, 73.558395, 40.054932 ],
 					"varname" : "na.spat.send.ui[4]"
 				}
 
@@ -2443,7 +2544,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 1154.722412, 487.746063, 69.0, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 482.818176, 288.363617, 73.558395, 39.970722 ],
+					"presentation_rect" : [ 482.818176, 288.363617, 73.558395, 40.054932 ],
 					"varname" : "na.spat.send.ui[3]"
 				}
 
@@ -2541,7 +2642,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 1670.833374, 484.636353, 72.166626, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.818176, 288.363617, 72.968445, 39.970722 ],
+					"presentation_rect" : [ 707.818176, 288.363617, 72.968445, 40.054932 ],
 					"varname" : "na.spat.send.ui[2]"
 				}
 
@@ -2555,9 +2656,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 960.672424, 490.0, 69.0, 30.727295 ],
+					"patching_rect" : [ 973.5, 490.0, 69.0, 30.727295 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.818176, 288.363617, 72.807076, 39.970722 ],
+					"presentation_rect" : [ 407.818176, 288.363617, 72.807076, 40.054932 ],
 					"varname" : "na.spat.send.ui[1]"
 				}
 
@@ -2617,7 +2718,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2850,7 +2951,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 184.0, 175.0, 112.0, 32.0 ],
+									"patching_rect" : [ 184.0, 175.0, 112.0, 31.0 ],
 									"text" : ";\r$2-dumpColl dump"
 								}
 
@@ -3059,7 +3160,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 138.0, 94.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 500. onsetVar 60. pVar 0. trigger 20. turn 0.1"
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.71 Sync 0. Transposition -0.13 Xfade 30. channls 8. grainDur 797. onsetVar 0. pVar 0. trigger 50. turn 0.001"
 																}
 
 															}
@@ -3795,7 +3896,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 138.0, 94.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 320. onsetVar 160. pVar 0. trigger 20. turn -0.2"
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.8 Sync 0. Transposition 7. Xfade 30. channls 8. grainDur 798. onsetVar 3. pVar 5. trigger 50. turn -0.03"
 																}
 
 															}
@@ -4520,7 +4621,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 110.0, 72.0 ],
-																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30."
+																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition -1. Xfade 30."
 																}
 
 															}
@@ -5236,7 +5337,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 111.0, 72.0 ],
-																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30."
+																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition -1. Xfade 30."
 																}
 
 															}
@@ -5952,7 +6053,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 105.0, 60.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30."
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1.01 Xfade 30."
 																}
 
 															}
@@ -6668,7 +6769,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 105.0, 60.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30."
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.99 Xfade 30."
 																}
 
 															}
@@ -7384,7 +7485,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 105.0, 60.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Xfade 30."
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.25 Xfade 30."
 																}
 
 															}
@@ -15557,7 +15658,7 @@
 														"count" : 362,
 														"data" : [ 															{
 																"key" : 1,
-																"value" : [ "Input", 2.0 ]
+																"value" : [ "Input", 0.0 ]
 															}
 , 															{
 																"key" : 2,
@@ -15613,1043 +15714,1043 @@
 															}
 , 															{
 																"key" : 15,
-																"value" : [ "Dual_MIDI_Suffixes::pattrstorage[1]", -1.0 ]
-															}
-, 															{
-																"key" : 16,
-																"value" : [ "Dual_MIDI_Suffixes::Black", 10.0 ]
-															}
-, 															{
-																"key" : 17,
-																"value" : [ "Dual_MIDI_Suffixes::Enable", 1.0 ]
-															}
-, 															{
-																"key" : 18,
-																"value" : [ "Dual_MIDI_Suffixes::MinCtxt", 3.0 ]
-															}
-, 															{
-																"key" : 19,
-																"value" : [ "Dual_MIDI_Suffixes::White", 3.0 ]
-															}
-, 															{
-																"key" : 20,
 																"value" : [ "Dual_SP_Suffixes::pattrstorage[1]", -1.0 ]
 															}
 , 															{
-																"key" : 21,
+																"key" : 16,
 																"value" : [ "Dual_SP_Suffixes::Black", 10.0 ]
 															}
 , 															{
-																"key" : 22,
+																"key" : 17,
 																"value" : [ "Dual_SP_Suffixes::Enable", 1.0 ]
 															}
 , 															{
-																"key" : 23,
+																"key" : 18,
 																"value" : [ "Dual_SP_Suffixes::MinCtxt", 3.0 ]
 															}
 , 															{
-																"key" : 24,
+																"key" : 19,
 																"value" : [ "Dual_SP_Suffixes::White", 3.0 ]
 															}
 , 															{
-																"key" : 25,
+																"key" : 20,
 																"value" : [ "Player::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 26,
+																"key" : 21,
 																"value" : [ "Player::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 27,
+																"key" : 22,
 																"value" : [ "Player::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 28,
+																"key" : 23,
 																"value" : [ "Player::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 29,
+																"key" : 24,
 																"value" : [ "Player::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 30,
+																"key" : 25,
 																"value" : [ "Player::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 31,
+																"key" : 26,
 																"value" : [ "Player[1]::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 32,
+																"key" : 27,
 																"value" : [ "Player[1]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 33,
+																"key" : 28,
 																"value" : [ "Player[1]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 34,
+																"key" : 29,
 																"value" : [ "Player[1]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 35,
+																"key" : 30,
 																"value" : [ "Player[1]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 36,
+																"key" : 31,
 																"value" : [ "Player[1]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 37,
+																"key" : 32,
 																"value" : [ "Player[2]::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 38,
+																"key" : 33,
 																"value" : [ "Player[2]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 39,
+																"key" : 34,
 																"value" : [ "Player[2]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 40,
+																"key" : 35,
 																"value" : [ "Player[2]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 41,
+																"key" : 36,
 																"value" : [ "Player[2]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 42,
+																"key" : 37,
 																"value" : [ "Player[2]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 43,
+																"key" : 38,
 																"value" : [ "Player[5]::SVP-Player", -1.0 ]
 															}
 , 															{
-																"key" : 44,
+																"key" : 39,
 																"value" : [ "Player[5]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 45,
+																"key" : 40,
 																"value" : [ "Player[5]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 46,
+																"key" : 41,
 																"value" : [ "Player[5]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 47,
+																"key" : 42,
 																"value" : [ "Player[5]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 48,
+																"key" : 43,
 																"value" : [ "Player[5]::Sync", 0.0 ]
 															}
 , 															{
-																"key" : 49,
+																"key" : 44,
 																"value" : [ "Player[5]::Transposition", 0.0 ]
 															}
 , 															{
-																"key" : 50,
+																"key" : 45,
 																"value" : [ "Player[5]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 51,
+																"key" : 46,
 																"value" : [ "Player[3]::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 52,
+																"key" : 47,
 																"value" : [ "Player[3]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 53,
+																"key" : 48,
 																"value" : [ "Player[3]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 54,
+																"key" : 49,
 																"value" : [ "Player[3]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 55,
+																"key" : 50,
 																"value" : [ "Player[3]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 56,
+																"key" : 51,
 																"value" : [ "Player[3]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 57,
+																"key" : 52,
 																"value" : [ "Player[4]::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 58,
+																"key" : 53,
 																"value" : [ "Player[4]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 59,
+																"key" : 54,
 																"value" : [ "Player[4]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 60,
+																"key" : 55,
 																"value" : [ "Player[4]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 61,
+																"key" : 56,
 																"value" : [ "Player[4]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 62,
+																"key" : 57,
 																"value" : [ "Player[4]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 63,
+																"key" : 58,
 																"value" : [ "Player[6]::SVP-Player", -1.0 ]
 															}
 , 															{
-																"key" : 64,
+																"key" : 59,
 																"value" : [ "Player[6]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 65,
+																"key" : 60,
 																"value" : [ "Player[6]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 66,
+																"key" : 61,
 																"value" : [ "Player[6]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 67,
+																"key" : 62,
 																"value" : [ "Player[6]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 68,
+																"key" : 63,
 																"value" : [ "Player[6]::Sync", 0.0 ]
 															}
 , 															{
-																"key" : 69,
+																"key" : 64,
 																"value" : [ "Player[6]::Transposition", 0.0 ]
 															}
 , 															{
-																"key" : 70,
+																"key" : 65,
 																"value" : [ "Player[6]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 71,
+																"key" : 66,
 																"value" : [ "Player[7]::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 72,
+																"key" : 67,
 																"value" : [ "Player[7]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 73,
+																"key" : 68,
 																"value" : [ "Player[7]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 74,
+																"key" : 69,
 																"value" : [ "Player[7]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 75,
+																"key" : 70,
 																"value" : [ "Player[7]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 76,
+																"key" : 71,
 																"value" : [ "Player[7]::Sync", 0.0 ]
 															}
 , 															{
-																"key" : 77,
+																"key" : 72,
 																"value" : [ "Player[7]::Transposition", 0.0 ]
 															}
 , 															{
-																"key" : 78,
+																"key" : 73,
 																"value" : [ "Player[7]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 79,
+																"key" : 74,
 																"value" : [ "Player[7]::channls", 8.0 ]
 															}
 , 															{
-																"key" : 80,
+																"key" : 75,
 																"value" : [ "Player[7]::grainDur", 320.0 ]
 															}
 , 															{
-																"key" : 81,
+																"key" : 76,
 																"value" : [ "Player[7]::onsetVar", 160.0 ]
 															}
 , 															{
-																"key" : 82,
+																"key" : 77,
 																"value" : [ "Player[7]::pVar", 0.0 ]
 															}
 , 															{
-																"key" : 83,
+																"key" : 78,
 																"value" : [ "Player[7]::trigger", 20.0 ]
 															}
 , 															{
-																"key" : 84,
+																"key" : 79,
 																"value" : [ "Player[7]::turn", -0.2 ]
 															}
 , 															{
-																"key" : 85,
+																"key" : 80,
 																"value" : [ "Player[8]::pattrstorage", -1.0 ]
 															}
 , 															{
-																"key" : 86,
+																"key" : 81,
 																"value" : [ "Player[8]::Cut-Threshold", 0.002 ]
 															}
 , 															{
-																"key" : 87,
+																"key" : 82,
 																"value" : [ "Player[8]::Cut-Window", 20.0 ]
 															}
 , 															{
-																"key" : 88,
+																"key" : 83,
 																"value" : [ "Player[8]::Direction", 0.0 ]
 															}
 , 															{
-																"key" : 89,
+																"key" : 84,
 																"value" : [ "Player[8]::Speed", 1.0 ]
 															}
 , 															{
-																"key" : 90,
+																"key" : 85,
 																"value" : [ "Player[8]::Sync", 0.0 ]
 															}
 , 															{
-																"key" : 91,
+																"key" : 86,
 																"value" : [ "Player[8]::Transposition", 0.0 ]
 															}
 , 															{
-																"key" : 92,
+																"key" : 87,
 																"value" : [ "Player[8]::Xfade", 30.0 ]
 															}
 , 															{
-																"key" : 93,
+																"key" : 88,
 																"value" : [ "Player[8]::channls", 8.0 ]
 															}
 , 															{
-																"key" : 94,
+																"key" : 89,
 																"value" : [ "Player[8]::grainDur", 500.0 ]
 															}
 , 															{
-																"key" : 95,
+																"key" : 90,
 																"value" : [ "Player[8]::onsetVar", 60.0 ]
 															}
 , 															{
-																"key" : 96,
+																"key" : 91,
 																"value" : [ "Player[8]::pVar", 0.0 ]
 															}
 , 															{
-																"key" : 97,
+																"key" : 92,
 																"value" : [ "Player[8]::trigger", 20.0 ]
 															}
 , 															{
-																"key" : 98,
+																"key" : 93,
 																"value" : [ "Player[8]::turn", 0.1 ]
 															}
 , 															{
-																"key" : 99,
+																"key" : 94,
 																"value" : [ "dual-SP::Impro3::Impro-Presets", -1.0 ]
 															}
 , 															{
-																"key" : 100,
+																"key" : 95,
 																"value" : [ "dual-SP::Impro3::Attractor", 0.0 ]
 															}
 , 															{
-																"key" : 101,
+																"key" : 96,
 																"value" : [ "dual-SP::Impro3::AttractorEn", 0.0 ]
 															}
 , 															{
-																"key" : 102,
+																"key" : 97,
 																"value" : [ "dual-SP::Impro3::AttractorFollow", 0.0 ]
 															}
 , 															{
-																"key" : 103,
+																"key" : 98,
 																"value" : [ "dual-SP::Impro3::AttractorWeight", 10.0 ]
 															}
 , 															{
-																"key" : 104,
+																"key" : 99,
 																"value" : [ "dual-SP::Impro3::Continuity", 30.0 ]
 															}
 , 															{
-																"key" : 105,
+																"key" : 100,
 																"value" : [ "dual-SP::Impro3::DropCtxt", 1.0 ]
 															}
 , 															{
-																"key" : 106,
+																"key" : 101,
 																"value" : [ "dual-SP::Impro3::Energy", 3.0 ]
 															}
 , 															{
-																"key" : 107,
+																"key" : 102,
 																"value" : [ "dual-SP::Impro3::Follow", 10.0 ]
 															}
 , 															{
-																"key" : 108,
+																"key" : 103,
 																"value" : [ "dual-SP::Impro3::FollowEn", 0.0 ]
 															}
 , 															{
-																"key" : 109,
+																"key" : 104,
 																"value" : [ "dual-SP::Impro3::MinCtxt", 3.0 ]
 															}
 , 															{
-																"key" : 110,
+																"key" : 105,
 																"value" : [ "dual-SP::Impro3::Pitch", 3.0 ]
 															}
 , 															{
-																"key" : 111,
-																"value" : [ "dual-SP::Impro3::R2Extend", 1.0 ]
+																"key" : 106,
+																"value" : [ "dual-SP::Impro3::R2Extend", 0.0 ]
 															}
 , 															{
-																"key" : 112,
+																"key" : 107,
 																"value" : [ "dual-SP::Impro3::Region1En", 0.0 ]
 															}
 , 															{
-																"key" : 113,
+																"key" : 108,
 																"value" : [ "dual-SP::Impro3::Region2En", 1.0 ]
 															}
 , 															{
-																"key" : 114,
-																"value" : [ "dual-SP::Impro3::RegionsEn", 0.0 ]
+																"key" : 109,
+																"value" : [ "dual-SP::Impro3::RegionsEn", 1.0 ]
 															}
 , 															{
-																"key" : 115,
+																"key" : 110,
 																"value" : [ "dual-SP::Impro3::TabooLength", 20.0 ]
 															}
 , 															{
-																"key" : 116,
+																"key" : 111,
 																"value" : [ "dual-SP::Impro4::Impro-Presets", -1.0 ]
 															}
 , 															{
-																"key" : 117,
+																"key" : 112,
 																"value" : [ "dual-SP::Impro4::Attractor", 0.0 ]
 															}
 , 															{
-																"key" : 118,
+																"key" : 113,
 																"value" : [ "dual-SP::Impro4::AttractorEn", 0.0 ]
 															}
 , 															{
-																"key" : 119,
+																"key" : 114,
 																"value" : [ "dual-SP::Impro4::AttractorFollow", 0.0 ]
 															}
 , 															{
-																"key" : 120,
+																"key" : 115,
 																"value" : [ "dual-SP::Impro4::AttractorWeight", 10.0 ]
 															}
 , 															{
-																"key" : 121,
+																"key" : 116,
 																"value" : [ "dual-SP::Impro4::Continuity", 30.0 ]
 															}
 , 															{
-																"key" : 122,
+																"key" : 117,
 																"value" : [ "dual-SP::Impro4::DropCtxt", 1.0 ]
 															}
 , 															{
-																"key" : 123,
+																"key" : 118,
 																"value" : [ "dual-SP::Impro4::Energy", 3.0 ]
 															}
 , 															{
-																"key" : 124,
+																"key" : 119,
 																"value" : [ "dual-SP::Impro4::Follow", 10.0 ]
 															}
 , 															{
-																"key" : 125,
+																"key" : 120,
 																"value" : [ "dual-SP::Impro4::FollowEn", 0.0 ]
 															}
 , 															{
-																"key" : 126,
+																"key" : 121,
 																"value" : [ "dual-SP::Impro4::MinCtxt", 3.0 ]
 															}
 , 															{
-																"key" : 127,
+																"key" : 122,
 																"value" : [ "dual-SP::Impro4::Pitch", 3.0 ]
 															}
 , 															{
-																"key" : 128,
-																"value" : [ "dual-SP::Impro4::R2Extend", 1.0 ]
+																"key" : 123,
+																"value" : [ "dual-SP::Impro4::R2Extend", 0.0 ]
 															}
 , 															{
-																"key" : 129,
+																"key" : 124,
 																"value" : [ "dual-SP::Impro4::Region1En", 0.0 ]
 															}
 , 															{
-																"key" : 130,
+																"key" : 125,
 																"value" : [ "dual-SP::Impro4::Region2En", 1.0 ]
 															}
 , 															{
-																"key" : 131,
-																"value" : [ "dual-SP::Impro4::RegionsEn", 0.0 ]
+																"key" : 126,
+																"value" : [ "dual-SP::Impro4::RegionsEn", 1.0 ]
 															}
 , 															{
-																"key" : 132,
+																"key" : 127,
 																"value" : [ "dual-SP::Impro4::TabooLength", 20.0 ]
 															}
 , 															{
+																"key" : 128,
+																"value" : [ "dual-SP::Impro1::Impro-Presets", -1.0 ]
+															}
+, 															{
+																"key" : 129,
+																"value" : [ "dual-SP::Impro1::Attractor", 0.0 ]
+															}
+, 															{
+																"key" : 130,
+																"value" : [ "dual-SP::Impro1::AttractorEn", 0.0 ]
+															}
+, 															{
+																"key" : 131,
+																"value" : [ "dual-SP::Impro1::AttractorFollow", 0.0 ]
+															}
+, 															{
+																"key" : 132,
+																"value" : [ "dual-SP::Impro1::AttractorWeight", 10.0 ]
+															}
+, 															{
 																"key" : 133,
-																"value" : [ "dual-MIDI::Impro1::pattrstorage", -1.0 ]
+																"value" : [ "dual-SP::Impro1::Continuity", 30.0 ]
 															}
 , 															{
 																"key" : 134,
-																"value" : [ "dual-MIDI::Impro1::Attractor", 0.0 ]
+																"value" : [ "dual-SP::Impro1::DropCtxt", 1.0 ]
 															}
 , 															{
 																"key" : 135,
-																"value" : [ "dual-MIDI::Impro1::AttractorEn", 0.0 ]
+																"value" : [ "dual-SP::Impro1::Energy", 3.0 ]
 															}
 , 															{
 																"key" : 136,
-																"value" : [ "dual-MIDI::Impro1::AttractorFollow", 0.0 ]
+																"value" : [ "dual-SP::Impro1::Follow", 10.0 ]
 															}
 , 															{
 																"key" : 137,
-																"value" : [ "dual-MIDI::Impro1::AttractorWeight", 10.0 ]
+																"value" : [ "dual-SP::Impro1::FollowEn", 0.0 ]
 															}
 , 															{
 																"key" : 138,
-																"value" : [ "dual-MIDI::Impro1::Continuity", 7.0 ]
+																"value" : [ "dual-SP::Impro1::MinCtxt", 3.0 ]
 															}
 , 															{
 																"key" : 139,
-																"value" : [ "dual-MIDI::Impro1::DropCxt", 1.0 ]
+																"value" : [ "dual-SP::Impro1::Pitch", 3.0 ]
 															}
 , 															{
 																"key" : 140,
-																"value" : [ "dual-MIDI::Impro1::Follow", 10.0 ]
+																"value" : [ "dual-SP::Impro1::R2Extend", 0.0 ]
 															}
 , 															{
 																"key" : 141,
-																"value" : [ "dual-MIDI::Impro1::FollowEn", 0.0 ]
+																"value" : [ "dual-SP::Impro1::Region1En", 0.0 ]
 															}
 , 															{
 																"key" : 142,
-																"value" : [ "dual-MIDI::Impro1::MinCtxt", 1.0 ]
+																"value" : [ "dual-SP::Impro1::Region2En", 0.0 ]
 															}
 , 															{
 																"key" : 143,
-																"value" : [ "dual-MIDI::Impro1::R2Extend", 1.0 ]
+																"value" : [ "dual-SP::Impro1::RegionsEn", 0.0 ]
 															}
 , 															{
 																"key" : 144,
-																"value" : [ "dual-MIDI::Impro1::Region1En", 0.0 ]
+																"value" : [ "dual-SP::Impro1::TabooLength", 20.0 ]
 															}
 , 															{
 																"key" : 145,
-																"value" : [ "dual-MIDI::Impro1::Region2En", 1.0 ]
+																"value" : [ "dual-SP::Impro2::Impro-Presets", -1.0 ]
 															}
 , 															{
 																"key" : 146,
-																"value" : [ "dual-MIDI::Impro1::RegionsEn", 1.0 ]
+																"value" : [ "dual-SP::Impro2::Attractor", 0.0 ]
 															}
 , 															{
 																"key" : 147,
-																"value" : [ "dual-MIDI::Impro1::TabooLength", 6.0 ]
+																"value" : [ "dual-SP::Impro2::AttractorEn", 0.0 ]
 															}
 , 															{
 																"key" : 148,
-																"value" : [ "dual-MIDI::Impro1::Velocity", 3.0 ]
+																"value" : [ "dual-SP::Impro2::AttractorFollow", 0.0 ]
 															}
 , 															{
 																"key" : 149,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ampThresh", 0.002 ]
+																"value" : [ "dual-SP::Impro2::AttractorWeight", 10.0 ]
 															}
 , 															{
 																"key" : 150,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch1", 0.0 ]
+																"value" : [ "dual-SP::Impro2::Continuity", 30.0 ]
 															}
 , 															{
 																"key" : 151,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch2", 0.0 ]
+																"value" : [ "dual-SP::Impro2::DropCtxt", 1.0 ]
 															}
 , 															{
 																"key" : 152,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch3", 1.0 ]
+																"value" : [ "dual-SP::Impro2::Energy", 3.0 ]
 															}
 , 															{
 																"key" : 153,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch4", 0.0 ]
+																"value" : [ "dual-SP::Impro2::Follow", 10.0 ]
 															}
 , 															{
 																"key" : 154,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch5", 0.0 ]
+																"value" : [ "dual-SP::Impro2::FollowEn", 0.0 ]
 															}
 , 															{
 																"key" : 155,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch6", 1.0 ]
+																"value" : [ "dual-SP::Impro2::MinCtxt", 3.0 ]
 															}
 , 															{
 																"key" : 156,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch7", 1.0 ]
+																"value" : [ "dual-SP::Impro2::Pitch", 3.0 ]
 															}
 , 															{
 																"key" : 157,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch8", 0.0 ]
+																"value" : [ "dual-SP::Impro2::R2Extend", 0.0 ]
 															}
 , 															{
 																"key" : 158,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::ch9", 0.0 ]
+																"value" : [ "dual-SP::Impro2::Region1En", 0.0 ]
 															}
 , 															{
 																"key" : 159,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::onoff", 0.0 ]
+																"value" : [ "dual-SP::Impro2::Region2En", 0.0 ]
 															}
 , 															{
 																"key" : 160,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::rest", 20.0 ]
+																"value" : [ "dual-SP::Impro2::RegionsEn", 0.0 ]
 															}
 , 															{
 																"key" : 161,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::rhythmType", 3.0 ]
+																"value" : [ "dual-SP::Impro2::TabooLength", 20.0 ]
 															}
 , 															{
 																"key" : 162,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::scale", 2000.0 ]
-															}
-, 															{
-																"key" : 163,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::singleMulti", 1.0 ]
-															}
-, 															{
-																"key" : 164,
-																"value" : [ "AutOmax::omax-rhythmodule-v3::xfade", 500.0 ]
-															}
-, 															{
-																"key" : 165,
-																"value" : [ "omax.effect~::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 166,
-																"value" : [ "omax.effect~::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 167,
-																"value" : [ "omax.effect~::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 168,
-																"value" : [ "omax.effect~::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 169,
-																"value" : [ "omax.effect~::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 170,
-																"value" : [ "omax.effect~::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 171,
-																"value" : [ "omax.effect~::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 172,
-																"value" : [ "omax.effect~::u478010346", -1.0 ]
-															}
-, 															{
-																"key" : 173,
-																"value" : [ "omax.effect~[1]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 174,
-																"value" : [ "omax.effect~[1]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 175,
-																"value" : [ "omax.effect~[1]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 176,
-																"value" : [ "omax.effect~[1]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 177,
-																"value" : [ "omax.effect~[1]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 178,
-																"value" : [ "omax.effect~[1]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 179,
-																"value" : [ "omax.effect~[1]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 180,
-																"value" : [ "omax.effect~[1]::u261012038", -1.0 ]
-															}
-, 															{
-																"key" : 181,
-																"value" : [ "omax.effect~[2]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 182,
-																"value" : [ "omax.effect~[2]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 183,
-																"value" : [ "omax.effect~[2]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 184,
-																"value" : [ "omax.effect~[2]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 185,
-																"value" : [ "omax.effect~[2]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 186,
-																"value" : [ "omax.effect~[2]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 187,
-																"value" : [ "omax.effect~[2]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 188,
-																"value" : [ "omax.effect~[2]::u182012013", -1.0 ]
-															}
-, 															{
-																"key" : 189,
-																"value" : [ "omax.effect~[3]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 190,
-																"value" : [ "omax.effect~[3]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 191,
-																"value" : [ "omax.effect~[3]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 192,
-																"value" : [ "omax.effect~[3]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 193,
-																"value" : [ "omax.effect~[3]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 194,
-																"value" : [ "omax.effect~[3]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 195,
-																"value" : [ "omax.effect~[3]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 196,
-																"value" : [ "omax.effect~[3]::u729011988", -1.0 ]
-															}
-, 															{
-																"key" : 197,
-																"value" : [ "omax.effect~[4]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 198,
-																"value" : [ "omax.effect~[4]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 199,
-																"value" : [ "omax.effect~[4]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 200,
-																"value" : [ "omax.effect~[4]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 201,
-																"value" : [ "omax.effect~[4]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 202,
-																"value" : [ "omax.effect~[4]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 203,
-																"value" : [ "omax.effect~[4]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 204,
-																"value" : [ "omax.effect~[4]::u999011963", -1.0 ]
-															}
-, 															{
-																"key" : 205,
-																"value" : [ "omax.effect~[5]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 206,
-																"value" : [ "omax.effect~[5]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 207,
-																"value" : [ "omax.effect~[5]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 208,
-																"value" : [ "omax.effect~[5]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 209,
-																"value" : [ "omax.effect~[5]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 210,
-																"value" : [ "omax.effect~[5]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 211,
-																"value" : [ "omax.effect~[5]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 212,
-																"value" : [ "omax.effect~[5]::u367011951", -1.0 ]
-															}
-, 															{
-																"key" : 213,
-																"value" : [ "omax.effect~[6]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 214,
-																"value" : [ "omax.effect~[6]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 215,
-																"value" : [ "omax.effect~[6]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 216,
-																"value" : [ "omax.effect~[6]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 217,
-																"value" : [ "omax.effect~[6]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 218,
-																"value" : [ "omax.effect~[6]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 219,
-																"value" : [ "omax.effect~[6]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 220,
-																"value" : [ "omax.effect~[6]::u317011926", -1.0 ]
-															}
-, 															{
-																"key" : 221,
-																"value" : [ "omax.effect~[7]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 222,
-																"value" : [ "omax.effect~[7]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 223,
-																"value" : [ "omax.effect~[7]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 224,
-																"value" : [ "omax.effect~[7]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 225,
-																"value" : [ "omax.effect~[7]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 226,
-																"value" : [ "omax.effect~[7]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 227,
-																"value" : [ "omax.effect~[7]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 228,
-																"value" : [ "omax.effect~[7]::u416010381", -1.0 ]
-															}
-, 															{
-																"key" : 229,
-																"value" : [ "omax.effect~[8]::effectAU", 0.0 ]
-															}
-, 															{
-																"key" : 230,
-																"value" : [ "omax.effect~[8]::effectBirds", 0.0 ]
-															}
-, 															{
-																"key" : 231,
-																"value" : [ "omax.effect~[8]::effectCatart", 0.0 ]
-															}
-, 															{
-																"key" : 232,
-																"value" : [ "omax.effect~[8]::effectLPC", 0.0 ]
-															}
-, 															{
-																"key" : 233,
-																"value" : [ "omax.effect~[8]::effectMod", 0.0 ]
-															}
-, 															{
-																"key" : 234,
-																"value" : [ "omax.effect~[8]::effectMunger", 0.0 ]
-															}
-, 															{
-																"key" : 235,
-																"value" : [ "omax.effect~[8]::effectVST", 0.0 ]
-															}
-, 															{
-																"key" : 236,
-																"value" : [ "omax.effect~[8]::u546010385", -1.0 ]
-															}
-, 															{
-																"key" : 237,
-																"value" : [ "Player[9]::pattrstorage", -1.0 ]
-															}
-, 															{
-																"key" : 238,
-																"value" : [ "Player[9]::Cut-Threshold", 0.002 ]
-															}
-, 															{
-																"key" : 239,
-																"value" : [ "Player[9]::Cut-Window", 20.0 ]
-															}
-, 															{
-																"key" : 240,
-																"value" : [ "Player[9]::Xfade", 30.0 ]
-															}
-, 															{
-																"key" : 241,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow1", 0.0 ]
-															}
-, 															{
-																"key" : 242,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow2", 0.0 ]
-															}
-, 															{
-																"key" : 243,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow3", 0.0 ]
-															}
-, 															{
-																"key" : 244,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow4", 0.0 ]
-															}
-, 															{
-																"key" : 245,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow5", 0.0 ]
-															}
-, 															{
-																"key" : 246,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow6", 0.0 ]
-															}
-, 															{
-																"key" : 247,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow7", 0.0 ]
-															}
-, 															{
-																"key" : 248,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow8", 0.0 ]
-															}
-, 															{
-																"key" : 249,
-																"value" : [ "patcher::NA_compare-pitch::cpFollow9", 0.0 ]
-															}
-, 															{
-																"key" : 250,
-																"value" : [ "patcher::NA_compare-pitch::cpInterpolation", 1500.0 ]
-															}
-, 															{
-																"key" : 251,
-																"value" : [ "patcher::NA_compare-pitch::cpLeader", 0.0 ]
-															}
-, 															{
-																"key" : 252,
-																"value" : [ "patcher::NA_compare-pitch::cpScaleMax", 6.0 ]
-															}
-, 															{
-																"key" : 253,
-																"value" : [ "patcher::NA_compare-pitch::cpScaleMin", -6.0 ]
-															}
-, 															{
-																"key" : 254,
-																"value" : [ "patcher::NA_compare-pitch::cpScaleOn", 1.0 ]
-															}
-, 															{
-																"key" : 255,
-																"value" : [ "patcher::NA_compare-pitch::cpTrans", 1.0 ]
-															}
-, 															{
-																"key" : 256,
-																"value" : [ "patcher::NA_compare-pitch::u362010476", -1.0 ]
-															}
-, 															{
-																"key" : 257,
 																"value" : [ "BachianBirds-v9~::1-partialsList", 6.0 ]
 															}
 , 															{
-																"key" : 258,
-																"value" : [ "BachianBirds-v9~::1-partialsMode", 0.0 ]
+																"key" : 163,
+																"value" : [ "BachianBirds-v9~::1-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 259,
+																"key" : 164,
 																"value" : [ "BachianBirds-v9~::2-partialsList", 5.0 ]
 															}
 , 															{
-																"key" : 260,
-																"value" : [ "BachianBirds-v9~::2-partialsMode", 0.0 ]
+																"key" : 165,
+																"value" : [ "BachianBirds-v9~::2-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 261,
+																"key" : 166,
 																"value" : [ "BachianBirds-v9~::3-partialsList", 6.0 ]
 															}
 , 															{
-																"key" : 262,
-																"value" : [ "BachianBirds-v9~::3-partialsMode", 0.0 ]
+																"key" : 167,
+																"value" : [ "BachianBirds-v9~::3-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 263,
+																"key" : 168,
 																"value" : [ "BachianBirds-v9~::4-partialsList", 5.0 ]
 															}
 , 															{
-																"key" : 264,
-																"value" : [ "BachianBirds-v9~::4-partialsMode", 0.0 ]
+																"key" : 169,
+																"value" : [ "BachianBirds-v9~::4-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 265,
+																"key" : 170,
 																"value" : [ "BachianBirds-v9~::5-partialsList", 6.0 ]
 															}
 , 															{
-																"key" : 266,
-																"value" : [ "BachianBirds-v9~::5-partialsMode", 0.0 ]
+																"key" : 171,
+																"value" : [ "BachianBirds-v9~::5-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 267,
+																"key" : 172,
 																"value" : [ "BachianBirds-v9~::6-partialsList", 5.0 ]
 															}
 , 															{
-																"key" : 268,
-																"value" : [ "BachianBirds-v9~::6-partialsMode", 0.0 ]
+																"key" : 173,
+																"value" : [ "BachianBirds-v9~::6-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 269,
+																"key" : 174,
 																"value" : [ "BachianBirds-v9~::7-partialsList", 6.0 ]
 															}
 , 															{
-																"key" : 270,
-																"value" : [ "BachianBirds-v9~::7-partialsMode", 0.0 ]
+																"key" : 175,
+																"value" : [ "BachianBirds-v9~::7-partialsMode", 2.0 ]
 															}
 , 															{
-																"key" : 271,
+																"key" : 176,
 																"value" : [ "BachianBirds-v9~::8-partialsList", 5.0 ]
 															}
 , 															{
+																"key" : 177,
+																"value" : [ "BachianBirds-v9~::8-partialsMode", 2.0 ]
+															}
+, 															{
+																"key" : 178,
+																"value" : [ "BachianBirds-v9~::ampInterp-max", 5000.0 ]
+															}
+, 															{
+																"key" : 179,
+																"value" : [ "BachianBirds-v9~::ampInterp-min", 3000.0 ]
+															}
+, 															{
+																"key" : 180,
+																"value" : [ "BachianBirds-v9~::ampRate-max", 6000.0 ]
+															}
+, 															{
+																"key" : 181,
+																"value" : [ "BachianBirds-v9~::ampRate-min", 2000.0 ]
+															}
+, 															{
+																"key" : 182,
+																"value" : [ "BachianBirds-v9~::ampVal-max", 0.9 ]
+															}
+, 															{
+																"key" : 183,
+																"value" : [ "BachianBirds-v9~::ampVal-min", 0.3 ]
+															}
+, 															{
+																"key" : 184,
+																"value" : [ "BachianBirds-v9~::live.tab", 1.0 ]
+															}
+, 															{
+																"key" : 185,
+																"value" : [ "BachianBirds-v9~::onOff", 1.0 ]
+															}
+, 															{
+																"key" : 186,
+																"value" : [ "omax.effect~::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 187,
+																"value" : [ "omax.effect~::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 188,
+																"value" : [ "omax.effect~::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 189,
+																"value" : [ "omax.effect~::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 190,
+																"value" : [ "omax.effect~::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 191,
+																"value" : [ "omax.effect~::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 192,
+																"value" : [ "omax.effect~::effectVST", 1.0 ]
+															}
+, 															{
+																"key" : 193,
+																"value" : [ "omax.effect~::u590004689", -1.0 ]
+															}
+, 															{
+																"key" : 194,
+																"value" : [ "omax.effect~[1]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 195,
+																"value" : [ "omax.effect~[1]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 196,
+																"value" : [ "omax.effect~[1]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 197,
+																"value" : [ "omax.effect~[1]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 198,
+																"value" : [ "omax.effect~[1]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 199,
+																"value" : [ "omax.effect~[1]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 200,
+																"value" : [ "omax.effect~[1]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 201,
+																"value" : [ "omax.effect~[1]::u143004663", -1.0 ]
+															}
+, 															{
+																"key" : 202,
+																"value" : [ "omax.effect~[2]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 203,
+																"value" : [ "omax.effect~[2]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 204,
+																"value" : [ "omax.effect~[2]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 205,
+																"value" : [ "omax.effect~[2]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 206,
+																"value" : [ "omax.effect~[2]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 207,
+																"value" : [ "omax.effect~[2]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 208,
+																"value" : [ "omax.effect~[2]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 209,
+																"value" : [ "omax.effect~[2]::u395004637", -1.0 ]
+															}
+, 															{
+																"key" : 210,
+																"value" : [ "omax.effect~[3]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 211,
+																"value" : [ "omax.effect~[3]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 212,
+																"value" : [ "omax.effect~[3]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 213,
+																"value" : [ "omax.effect~[3]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 214,
+																"value" : [ "omax.effect~[3]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 215,
+																"value" : [ "omax.effect~[3]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 216,
+																"value" : [ "omax.effect~[3]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 217,
+																"value" : [ "omax.effect~[3]::u461004611", -1.0 ]
+															}
+, 															{
+																"key" : 218,
+																"value" : [ "omax.effect~[4]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 219,
+																"value" : [ "omax.effect~[4]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 220,
+																"value" : [ "omax.effect~[4]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 221,
+																"value" : [ "omax.effect~[4]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 222,
+																"value" : [ "omax.effect~[4]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 223,
+																"value" : [ "omax.effect~[4]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 224,
+																"value" : [ "omax.effect~[4]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 225,
+																"value" : [ "omax.effect~[4]::u153004585", -1.0 ]
+															}
+, 															{
+																"key" : 226,
+																"value" : [ "omax.effect~[5]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 227,
+																"value" : [ "omax.effect~[5]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 228,
+																"value" : [ "omax.effect~[5]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 229,
+																"value" : [ "omax.effect~[5]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 230,
+																"value" : [ "omax.effect~[5]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 231,
+																"value" : [ "omax.effect~[5]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 232,
+																"value" : [ "omax.effect~[5]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 233,
+																"value" : [ "omax.effect~[5]::u558004559", -1.0 ]
+															}
+, 															{
+																"key" : 234,
+																"value" : [ "omax.effect~[6]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 235,
+																"value" : [ "omax.effect~[6]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 236,
+																"value" : [ "omax.effect~[6]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 237,
+																"value" : [ "omax.effect~[6]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 238,
+																"value" : [ "omax.effect~[6]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 239,
+																"value" : [ "omax.effect~[6]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 240,
+																"value" : [ "omax.effect~[6]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 241,
+																"value" : [ "omax.effect~[6]::u996004533", -1.0 ]
+															}
+, 															{
+																"key" : 242,
+																"value" : [ "omax.effect~[7]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 243,
+																"value" : [ "omax.effect~[7]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 244,
+																"value" : [ "omax.effect~[7]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 245,
+																"value" : [ "omax.effect~[7]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 246,
+																"value" : [ "omax.effect~[7]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 247,
+																"value" : [ "omax.effect~[7]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 248,
+																"value" : [ "omax.effect~[7]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 249,
+																"value" : [ "omax.effect~[7]::u484004507", -1.0 ]
+															}
+, 															{
+																"key" : 250,
+																"value" : [ "omax.effect~[8]::effectAU", 0.0 ]
+															}
+, 															{
+																"key" : 251,
+																"value" : [ "omax.effect~[8]::effectBirds", 0.0 ]
+															}
+, 															{
+																"key" : 252,
+																"value" : [ "omax.effect~[8]::effectCatart", 0.0 ]
+															}
+, 															{
+																"key" : 253,
+																"value" : [ "omax.effect~[8]::effectLPC", 0.0 ]
+															}
+, 															{
+																"key" : 254,
+																"value" : [ "omax.effect~[8]::effectMod", 0.0 ]
+															}
+, 															{
+																"key" : 255,
+																"value" : [ "omax.effect~[8]::effectMunger", 0.0 ]
+															}
+, 															{
+																"key" : 256,
+																"value" : [ "omax.effect~[8]::effectVST", 0.0 ]
+															}
+, 															{
+																"key" : 257,
+																"value" : [ "omax.effect~[8]::u262004481", -1.0 ]
+															}
+, 															{
+																"key" : 258,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow1", 0.0 ]
+															}
+, 															{
+																"key" : 259,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow2", 0.0 ]
+															}
+, 															{
+																"key" : 260,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow3", 0.0 ]
+															}
+, 															{
+																"key" : 261,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow4", 0.0 ]
+															}
+, 															{
+																"key" : 262,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow5", 0.0 ]
+															}
+, 															{
+																"key" : 263,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow6", 0.0 ]
+															}
+, 															{
+																"key" : 264,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow7", 0.0 ]
+															}
+, 															{
+																"key" : 265,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow8", 0.0 ]
+															}
+, 															{
+																"key" : 266,
+																"value" : [ "patcher::NA_compare-pitch::cpFollow9", 0.0 ]
+															}
+, 															{
+																"key" : 267,
+																"value" : [ "patcher::NA_compare-pitch::cpInterpolation", 1500.0 ]
+															}
+, 															{
+																"key" : 268,
+																"value" : [ "patcher::NA_compare-pitch::cpLeader", 1.0 ]
+															}
+, 															{
+																"key" : 269,
+																"value" : [ "patcher::NA_compare-pitch::cpScaleMax", 6.0 ]
+															}
+, 															{
+																"key" : 270,
+																"value" : [ "patcher::NA_compare-pitch::cpScaleMin", -6.0 ]
+															}
+, 															{
+																"key" : 271,
+																"value" : [ "patcher::NA_compare-pitch::cpScaleOn", 1.0 ]
+															}
+, 															{
 																"key" : 272,
-																"value" : [ "BachianBirds-v9~::8-partialsMode", 0.0 ]
+																"value" : [ "patcher::NA_compare-pitch::cpTrans", 1.0 ]
 															}
 , 															{
 																"key" : 273,
-																"value" : [ "BachianBirds-v9~::ampInterp-max", 1500.0 ]
+																"value" : [ "patcher::NA_compare-pitch::u768004257", -1.0 ]
 															}
 , 															{
 																"key" : 274,
-																"value" : [ "BachianBirds-v9~::ampInterp-min", 150.0 ]
+																"value" : [ "na.spat.send.ui[1]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 0,
@@ -16657,243 +16758,243 @@
 															}
 , 															{
 																"key" : 275,
-																"value" : [ "BachianBirds-v9~::ampRate-max", 2500.0 ]
+																"value" : [ "na.spat.send.ui[1]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 276,
-																"value" : [ "BachianBirds-v9~::ampRate-min", 150.0 ]
+																"value" : [ "na.spat.send.ui[1]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 277,
-																"value" : [ "BachianBirds-v9~::ampVal-max", 0.8 ]
+																"value" : [ "na.spat.send.ui[1]::dial", 136.0 ]
 															}
 , 															{
 																"key" : 278,
-																"value" : [ "BachianBirds-v9~::ampVal-min", 0.2 ]
+																"value" : [ "na.spat.send.ui[1]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 279,
-																"value" : [ "BachianBirds-v9~::onOff", 1.0 ]
+																"value" : [ "na.spat.send.ui[2]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 280,
-																"value" : [ "dump", 0.0 ]
+																"value" : [ "na.spat.send.ui[2]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 281,
-																"value" : [ "recall", 1.0 ]
+																"value" : [ "na.spat.send.ui[2]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 282,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "na.spat.send.ui[2]::dial", 272.0 ]
 															}
 , 															{
 																"key" : 283,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[2]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 284,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "na.spat.send.ui[3]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 285,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[3]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 286,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "na.spat.send.ui[3]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 287,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[3]::dial", 227.0 ]
 															}
 , 															{
 																"key" : 288,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "na.spat.send.ui[3]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 289,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "na.spat.send.ui[4]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 290,
-																"value" : [ "recall", 1.0 ]
+																"value" : [ "na.spat.send.ui[4]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 291,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[4]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 292,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "na.spat.send.ui[4]::dial", 180.0 ]
 															}
 , 															{
 																"key" : 293,
-																"value" : [ "recall", 1.0 ]
+																"value" : [ "na.spat.send.ui[4]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 294,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[5]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 295,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.send.ui[5]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 296,
-																"value" : [ "recall", 1.0 ]
+																"value" : [ "na.spat.send.ui[5]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 297,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[5]::dial", 87.0 ]
 															}
 , 															{
 																"key" : 298,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "na.spat.send.ui[5]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 299,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "na.spat.send.ui[6]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 300,
-																"value" : [ "recall", 3.0 ]
+																"value" : [ "na.spat.send.ui[6]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 301,
-																"value" : [ "recall", 6.0 ]
+																"value" : [ "na.spat.send.ui[6]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 302,
-																"value" : [ "recall", 9.0 ]
+																"value" : [ "na.spat.send.ui[6]::dial", 315.0 ]
 															}
 , 															{
 																"key" : 303,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "na.spat.send.ui[6]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 304,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[7]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 305,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.send.ui[7]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 306,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[7]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 307,
-																"value" : [ "recall", 6.0 ]
+																"value" : [ "na.spat.send.ui[7]::dial", 43.0 ]
 															}
 , 															{
 																"key" : 308,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.send.ui[7]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 309,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "NA.Vbap::SpatOper", 80.0 ]
 															}
 , 															{
 																"key" : 310,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "NA.Vbap::Spat.OperPresets", 1.0 ]
 															}
 , 															{
 																"key" : 311,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 312,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 313,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 314,
-																"value" : [ "recall", 1.0 ]
+																"value" : [ "na.spat.ui::dial", 341.0 ]
 															}
 , 															{
 																"key" : 315,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 316,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui[1]::ampMax-in", 20.0 ]
 															}
 , 															{
 																"key" : 317,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "na.spat.ui[1]::ampMax-out", 127.0 ]
 															}
 , 															{
 																"key" : 318,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui[1]::dMax", 10.0 ]
 															}
 , 															{
 																"key" : 319,
-																"value" : [ "recall", 3.0 ]
+																"value" : [ "na.spat.ui[1]::dial", 14.0 ]
 															}
 , 															{
 																"key" : 320,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "na.spat.ui[1]::spat-choice", 0.0 ]
 															}
 , 															{
 																"key" : 321,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "dump", 0.0 ]
 															}
 , 															{
 																"key" : 322,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "write", 0.0 ]
 															}
 , 															{
 																"key" : 323,
-																"value" : [ "recall", 7.0 ]
+																"value" : [ "recall", 8.0 ]
 															}
 , 															{
 																"key" : 324,
-																"value" : [ "recall", 4.0 ]
+																"value" : [ "recall", 9.0 ]
 															}
 , 															{
 																"key" : 325,
-																"value" : [ "recall", 3.0 ]
+																"value" : [ "recall", 6.0 ]
 															}
 , 															{
 																"key" : 326,
-																"value" : [ "recall", 2.0 ]
+																"value" : [ "recall", 3.0 ]
 															}
 , 															{
 																"key" : 327,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "recall", 2.0 ]
 															}
 , 															{
 																"key" : 328,
-																"value" : [ "recall", 3.0 ]
+																"value" : [ "recall", 7.0 ]
 															}
 , 															{
 																"key" : 329,
-																"value" : [ "recall", 9.0 ]
+																"value" : [ "recall", 4.0 ]
 															}
 , 															{
 																"key" : 330,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "recall", 1.0 ]
 															}
 , 															{
 																"key" : 331,
-																"value" : [ "recall", 3.0 ]
+																"value" : [ "recall", 5.0 ]
 															}
 , 															{
 																"key" : 332,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "recall", 9.0 ]
 															}
 , 															{
 																"key" : 333,
-																"value" : [ "recall", 3.0 ]
+																"value" : [ "recall", 1.0 ]
 															}
 , 															{
 																"key" : 334,
-																"value" : [ "recall", 9.0 ]
+																"value" : [ "recall", 2.0 ]
 															}
 , 															{
 																"key" : 335,
@@ -16905,23 +17006,23 @@
 															}
 , 															{
 																"key" : 337,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "recall", 3.0 ]
 															}
 , 															{
 																"key" : 338,
-																"value" : [ "recall", 7.0 ]
+																"value" : [ "recall", 4.0 ]
 															}
 , 															{
 																"key" : 339,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "recall", 2.0 ]
 															}
 , 															{
 																"key" : 340,
-																"value" : [ "recall", 5.0 ]
+																"value" : [ "recall", 8.0 ]
 															}
 , 															{
 																"key" : 341,
-																"value" : [ "recall", 8.0 ]
+																"value" : [ "recall", 3.0 ]
 															}
 , 															{
 																"key" : 342,
@@ -26562,7 +26663,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2504.5, 490.0, 47.0, 20.0 ],
+					"patching_rect" : [ 2503.759033, 490.0, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -26692,7 +26793,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 153.0, 1032.37793, 32.5, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.499939, 346.415375, 31.0, 16.0 ],
+					"presentation_rect" : [ 374.472839, 176.852936, 31.0, 16.0 ],
 					"text" : "write"
 				}
 
@@ -26709,7 +26810,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 461.666626, 949.937744, 33.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 937.499939, 346.415375, 33.0, 16.0 ],
+					"presentation_rect" : [ 340.472839, 195.852936, 33.0, 16.0 ],
 					"text" : "store"
 				}
 
@@ -26725,7 +26826,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 109.0, 1032.37793, 31.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 974.499939, 346.415375, 31.0, 16.0 ],
+					"presentation_rect" : [ 340.472839, 176.852936, 31.0, 16.0 ],
 					"text" : "read"
 				}
 
@@ -26787,7 +26888,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 499.0, 980.105225, 100.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1052.681885, 346.415375, 44.0, 18.0 ]
+					"presentation_rect" : [ 374.472839, 195.852936, 31.0, 18.0 ]
 				}
 
 			}
@@ -26908,7 +27009,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "moodsFelix_opch.json",
+					"autorestore" : "moodsFelix_windsor.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-297",
@@ -26916,15 +27017,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 1064.605225, 329.0, 20.0 ],
+					"patching_rect" : [ 89.0, 1064.605225, 344.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 67, 153, 446, 382 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 794, -709, 1244, -510 ]
 					}
 ,
-					"text" : "pattrstorage moodsFelix_opch @greedy 1 @changemode 1",
-					"varname" : "moodsFelix_opch"
+					"text" : "pattrstorage moodsFelix_windsor @greedy 1 @changemode 1",
+					"varname" : "moodsFelix_windsor"
 				}
 
 			}
@@ -26936,9 +27037,9 @@
 					"name" : "omax.effect~.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2280.654785, 980.5, 78.471069, 95.0 ],
+					"patching_rect" : [ 2280.654785, 980.5, 71.718994, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1062.818237, 288.363617, 74.0, 46.054932 ],
+					"presentation_rect" : [ 1064.817993, 330.81012, 71.0, 46.054932 ],
 					"varname" : "omax.effect~[8]"
 				}
 
@@ -26953,7 +27054,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2199.183594, 980.5, 78.471069, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 933.818115, 288.363617, 72.180908, 46.054932 ],
+					"presentation_rect" : [ 933.818115, 330.81012, 71.180908, 46.054932 ],
 					"varname" : "omax.effect~[7]"
 				}
 
@@ -26968,7 +27069,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2117.712646, 980.5, 78.471069, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 858.818115, 330.81012, 78.471069, 47.21051 ],
+					"presentation_rect" : [ 858.818115, 330.81012, 70.719757, 47.21051 ],
 					"varname" : "omax.effect~[6]"
 				}
 
@@ -27157,7 +27258,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 255.0, 242.0, 36.0, 38.0 ],
-									"text" : "/freq 79.4702"
+									"text" : "/freq 126.744553"
 								}
 
 							}
@@ -27206,13 +27307,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 101.0, 29.0, 38.0 ],
-									"text" : "/sp 0"
+									"text" : "/sp 119169"
 								}
 
 							}
@@ -27227,7 +27328,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 142.0, 152.0, 27.0 ],
-									"text" : "/cc 39 0. 8.5 3.5 1.5 -0.5 -0.1 -0.1 0.6 -0.1 -0.4 4 315"
+									"text" : "/cc 39 0. 12.1 0.8 0.6 1.4 1.5 0.8 1.3 -0.1 -0.3 21 119484"
 								}
 
 							}
@@ -27599,7 +27700,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 960.5, 654.0, 53.0, 20.0 ],
+					"patching_rect" : [ 1010.0, 672.0, 53.0, 20.0 ],
 					"text" : "s 1-midi"
 				}
 
@@ -28687,7 +28788,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2197.070801, 490.0, 75.500015, 20.0 ],
+					"patching_rect" : [ 2197.070801, 490.0, 92.385651, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -28784,7 +28885,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 562.0, 975.0, 529.0, 199.0 ],
+						"rect" : [ 16.0, 976.0, 532.0, 203.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -28803,6 +28904,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -30211,7 +30313,7 @@
 ,
 					"patching_rect" : [ 97.5, 925.0, 71.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1103.0, 346.415375, 70.0, 19.0 ],
+					"presentation_rect" : [ 248.498962, 358.02063, 70.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -30240,7 +30342,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1211.0, 903.0, 73.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.498962, 312.727264, 73.0, 20.0 ],
+					"presentation_rect" : [ 112.52533, 312.727264, 73.0, 20.0 ],
 					"text" : "nav.LPCer~"
 				}
 
@@ -39615,7 +39717,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1170.5, 270.0, 66.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 482.818176, 1.545457, 54.636364, 14.0 ],
+					"presentation_rect" : [ 488.818176, 2.727273, 54.636364, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -39933,7 +40035,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 993.5, 243.0, 66.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.818176, 2.727273, 54.636364, 14.0 ],
+					"presentation_rect" : [ 412.818176, 2.727273, 54.636364, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -39973,7 +40075,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 749.0, 553.0, 452.0 ],
+						"rect" : [ 6.0, 453.0, 553.0, 452.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -39992,6 +40094,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "Impro2", "Dual_SP" ],
@@ -40388,7 +40491,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2387.070801, 518.0, 67.0, 20.0 ],
+					"patching_rect" : [ 2313.896729, 718.0, 67.0, 20.0 ],
 					"text" : "s 9-improv"
 				}
 
@@ -40402,7 +40505,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2197.070801, 518.0, 67.0, 20.0 ],
+					"patching_rect" : [ 2205.587158, 718.0, 67.0, 20.0 ],
 					"text" : "s 8-improv"
 				}
 
@@ -43138,7 +43241,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2387.070801, 490.0, 76.5, 20.0 ],
+					"patching_rect" : [ 2388.008057, 490.0, 72.153557, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -43449,7 +43552,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2052.234863, 654.0, 57.0, 20.0 ],
+					"patching_rect" : [ 2063.0, 654.0, 57.0, 20.0 ],
 					"text" : "r vol7-12"
 				}
 
@@ -43494,8 +43597,8 @@
 					"patching_rect" : [ 745.989319, 894.077576, 85.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 337.498962, 180.978577, 43.0, 27.0 ],
-					"text" : "Disable AI Stop"
+					"presentation_rect" : [ 1158.818237, 340.337585, 29.0, 27.0 ],
+					"text" : "AI Stop"
 				}
 
 			}
@@ -43524,7 +43627,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 724.963196, 892.788147, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 338.472839, 175.689209, 38.0, 38.0 ]
+					"presentation_rect" : [ 1157.318237, 340.837585, 26.5, 26.5 ]
 				}
 
 			}
@@ -52580,7 +52683,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1849.799438, 576.5, 120.0, 20.0 ],
+					"patching_rect" : [ 1860.212158, 690.0, 120.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 335.498962, 340.837585, 69.973877, 13.394745 ],
 					"size" : 157.0
 				}
 
@@ -53224,7 +53329,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1996.5, 705.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1195.910278, 358.02063, 13.0, 13.0 ]
+					"presentation_rect" : [ 1195.910278, 354.02063, 13.0, 13.0 ]
 				}
 
 			}
@@ -53427,7 +53532,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 946.5, 576.5, 73.0, 69.0 ]
+					"patching_rect" : [ 960.5, 576.5, 73.0, 69.0 ]
 				}
 
 			}
@@ -53741,7 +53846,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 270.0, 285.0, 104.0, 53.0 ],
+						"rect" : [ 249.0, 285.0, 104.0, 53.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -56722,14 +56827,14 @@
 					"active" : 					{
 						"Dual_SP_Suffixes" : 0,
 						"Dual_SP_Suffixes::pattrstorage[1]" : 0,
-						"Dual_SP_Suffixes::u382012603" : 0,
+						"Dual_SP_Suffixes::u197013222" : 0,
 						"Dual_SP_Suffixes::Black" : 0,
 						"Dual_SP_Suffixes::Enable" : 0,
 						"Dual_SP_Suffixes::MinCtxt" : 0,
 						"Dual_SP_Suffixes::White" : 0,
 						"Player" : 0,
 						"Player::pattrstorage" : 0,
-						"Player::u326012605" : 0,
+						"Player::u357013224" : 0,
 						"Player::Cut-Threshold" : 0,
 						"Player::Cut-Window" : 0,
 						"Player::Direction" : 0,
@@ -56737,7 +56842,7 @@
 						"Player::Xfade" : 0,
 						"Player[1]" : 0,
 						"Player[1]::pattrstorage" : 0,
-						"Player[1]::u252012607" : 0,
+						"Player[1]::u323013226" : 0,
 						"Player[1]::Cut-Threshold" : 0,
 						"Player[1]::Cut-Window" : 0,
 						"Player[1]::Direction" : 0,
@@ -56745,7 +56850,7 @@
 						"Player[1]::Xfade" : 0,
 						"Player[2]" : 0,
 						"Player[2]::pattrstorage" : 0,
-						"Player[2]::u098012609" : 0,
+						"Player[2]::u168013228" : 0,
 						"Player[2]::Cut-Threshold" : 0,
 						"Player[2]::Cut-Window" : 0,
 						"Player[2]::Direction" : 0,
@@ -56753,7 +56858,7 @@
 						"Player[2]::Xfade" : 0,
 						"Player[5]" : 0,
 						"Player[5]::SVP-Player" : 0,
-						"Player[5]::u599012611" : 0,
+						"Player[5]::u287013230" : 0,
 						"Player[5]::Cut-Threshold" : 0,
 						"Player[5]::Cut-Window" : 0,
 						"Player[5]::Direction" : 0,
@@ -56763,7 +56868,7 @@
 						"Player[5]::Xfade" : 0,
 						"Player[3]" : 0,
 						"Player[3]::pattrstorage" : 0,
-						"Player[3]::u947012613" : 0,
+						"Player[3]::u740013232" : 0,
 						"Player[3]::Cut-Threshold" : 0,
 						"Player[3]::Cut-Window" : 0,
 						"Player[3]::Direction" : 0,
@@ -56771,7 +56876,7 @@
 						"Player[3]::Xfade" : 0,
 						"Player[4]" : 0,
 						"Player[4]::pattrstorage" : 0,
-						"Player[4]::u532012615" : 0,
+						"Player[4]::u000013234" : 0,
 						"Player[4]::Cut-Threshold" : 0,
 						"Player[4]::Cut-Window" : 0,
 						"Player[4]::Direction" : 0,
@@ -56779,7 +56884,7 @@
 						"Player[4]::Xfade" : 0,
 						"Player[6]" : 0,
 						"Player[6]::SVP-Player" : 0,
-						"Player[6]::u262012617" : 0,
+						"Player[6]::u699013236" : 0,
 						"Player[6]::Cut-Threshold" : 0,
 						"Player[6]::Cut-Window" : 0,
 						"Player[6]::Direction" : 0,
@@ -56789,7 +56894,7 @@
 						"Player[6]::Xfade" : 0,
 						"Player[7]" : 0,
 						"Player[7]::pattrstorage" : 0,
-						"Player[7]::u829012619" : 0,
+						"Player[7]::u849013238" : 0,
 						"Player[7]::Cut-Threshold" : 0,
 						"Player[7]::Cut-Window" : 0,
 						"Player[7]::Direction" : 0,
@@ -56802,266 +56907,10 @@
 						"Player[7]::onsetVar" : 0,
 						"Player[7]::pVar" : 0,
 						"Player[7]::trigger" : 0,
-						"Player[7]::turn" : 0,
-						"Player[8]" : 0,
-						"Player[8]::pattrstorage" : 0,
-						"Player[8]::u892012621" : 0,
-						"Player[8]::Cut-Threshold" : 0,
-						"Player[8]::Cut-Window" : 0,
-						"Player[8]::Direction" : 0,
-						"Player[8]::Speed" : 0,
-						"Player[8]::Sync" : 0,
-						"Player[8]::Transposition" : 0,
-						"Player[8]::Xfade" : 0,
-						"Player[8]::channls" : 0,
-						"Player[8]::grainDur" : 0,
-						"Player[8]::onsetVar" : 0,
-						"Player[8]::pVar" : 0,
-						"Player[8]::trigger" : 0,
-						"Player[8]::turn" : 0,
-						"dual-SP::Impro3::Impro3" : 0,
-						"dual-SP::Impro3::Impro-Presets" : 0,
-						"dual-SP::Impro3::u184012623" : 0,
-						"dual-SP::Impro3::Attractor" : 0,
-						"dual-SP::Impro3::AttractorEn" : 0,
-						"dual-SP::Impro3::AttractorFollow" : 0,
-						"dual-SP::Impro3::AttractorWeight" : 0,
-						"dual-SP::Impro3::Continuity" : 0,
-						"dual-SP::Impro3::DropCtxt" : 0,
-						"dual-SP::Impro3::Energy" : 0,
-						"dual-SP::Impro3::Follow" : 0,
-						"dual-SP::Impro3::FollowEn" : 0,
-						"dual-SP::Impro3::MinCtxt" : 0,
-						"dual-SP::Impro3::Pitch" : 0,
-						"dual-SP::Impro3::R2Extend" : 0,
-						"dual-SP::Impro3::Region1En" : 0,
-						"dual-SP::Impro3::Region2En" : 0,
-						"dual-SP::Impro3::RegionsEn" : 0,
-						"dual-SP::Impro3::TabooLength" : 0,
-						"dual-SP::Impro4::Impro4" : 0,
-						"dual-SP::Impro4::Impro-Presets" : 0,
-						"dual-SP::Impro4::u059012625" : 0,
-						"dual-SP::Impro4::Attractor" : 0,
-						"dual-SP::Impro4::AttractorEn" : 0,
-						"dual-SP::Impro4::AttractorFollow" : 0,
-						"dual-SP::Impro4::AttractorWeight" : 0,
-						"dual-SP::Impro4::Continuity" : 0,
-						"dual-SP::Impro4::DropCtxt" : 0,
-						"dual-SP::Impro4::Energy" : 0,
-						"dual-SP::Impro4::Follow" : 0,
-						"dual-SP::Impro4::FollowEn" : 0,
-						"dual-SP::Impro4::MinCtxt" : 0,
-						"dual-SP::Impro4::Pitch" : 0,
-						"dual-SP::Impro4::R2Extend" : 0,
-						"dual-SP::Impro4::Region1En" : 0,
-						"dual-SP::Impro4::Region2En" : 0,
-						"dual-SP::Impro4::RegionsEn" : 0,
-						"dual-SP::Impro4::TabooLength" : 0,
-						"dual-SP::Impro1::Impro1" : 0,
-						"dual-SP::Impro1::Impro-Presets" : 0,
-						"dual-SP::Impro1::u475012627" : 0,
-						"dual-SP::Impro1::Attractor" : 0,
-						"dual-SP::Impro1::AttractorEn" : 0,
-						"dual-SP::Impro1::AttractorFollow" : 0,
-						"dual-SP::Impro1::AttractorWeight" : 0,
-						"dual-SP::Impro1::Continuity" : 0,
-						"dual-SP::Impro1::DropCtxt" : 0,
-						"dual-SP::Impro1::Energy" : 0,
-						"dual-SP::Impro1::Follow" : 0,
-						"dual-SP::Impro1::FollowEn" : 0,
-						"dual-SP::Impro1::MinCtxt" : 0,
-						"dual-SP::Impro1::Pitch" : 0,
-						"dual-SP::Impro1::R2Extend" : 0,
-						"dual-SP::Impro1::Region1En" : 0,
-						"dual-SP::Impro1::Region2En" : 0,
-						"dual-SP::Impro1::RegionsEn" : 0,
-						"dual-SP::Impro1::TabooLength" : 0,
-						"dual-SP::Impro2::Impro2" : 0,
-						"dual-SP::Impro2::Impro-Presets" : 0,
-						"dual-SP::Impro2::u815012629" : 0,
-						"dual-SP::Impro2::Attractor" : 0,
-						"dual-SP::Impro2::AttractorEn" : 0,
-						"dual-SP::Impro2::AttractorFollow" : 0,
-						"dual-SP::Impro2::AttractorWeight" : 0,
-						"dual-SP::Impro2::Continuity" : 0,
-						"dual-SP::Impro2::DropCtxt" : 0,
-						"dual-SP::Impro2::Energy" : 0,
-						"dual-SP::Impro2::Follow" : 0,
-						"dual-SP::Impro2::FollowEn" : 0,
-						"dual-SP::Impro2::MinCtxt" : 0,
-						"dual-SP::Impro2::Pitch" : 0,
-						"dual-SP::Impro2::R2Extend" : 0,
-						"dual-SP::Impro2::Region1En" : 0,
-						"dual-SP::Impro2::Region2En" : 0,
-						"dual-SP::Impro2::RegionsEn" : 0,
-						"dual-SP::Impro2::TabooLength" : 0,
-						"BachianBirds-v9~" : 0,
-						"BachianBirds-v9~::u260012631" : 0,
-						"BachianBirds-v9~::1-partialsList" : 0,
-						"BachianBirds-v9~::1-partialsMode" : 0,
-						"BachianBirds-v9~::2-partialsList" : 0,
-						"BachianBirds-v9~::2-partialsMode" : 0,
-						"BachianBirds-v9~::3-partialsList" : 0,
-						"BachianBirds-v9~::3-partialsMode" : 0,
-						"BachianBirds-v9~::4-partialsList" : 0,
-						"BachianBirds-v9~::4-partialsMode" : 0,
-						"BachianBirds-v9~::5-partialsList" : 0,
-						"BachianBirds-v9~::5-partialsMode" : 0,
-						"BachianBirds-v9~::6-partialsList" : 0,
-						"BachianBirds-v9~::6-partialsMode" : 0,
-						"BachianBirds-v9~::7-partialsList" : 0,
-						"BachianBirds-v9~::7-partialsMode" : 0,
-						"BachianBirds-v9~::8-partialsList" : 0,
-						"BachianBirds-v9~::8-partialsMode" : 0,
-						"BachianBirds-v9~::ampInterp-max" : 0,
-						"BachianBirds-v9~::ampInterp-min" : 0,
-						"BachianBirds-v9~::ampRate-max" : 0,
-						"BachianBirds-v9~::ampRate-min" : 0,
-						"BachianBirds-v9~::ampVal-max" : 0,
-						"BachianBirds-v9~::ampVal-min" : 0,
-						"BachianBirds-v9~::live.tab" : 0,
-						"BachianBirds-v9~::onOff" : 0,
-						"omax.effect~" : 0,
-						"omax.effect~::u485012632" : 0,
-						"omax.effect~::effectAU" : 0,
-						"omax.effect~::effectBirds" : 0,
-						"omax.effect~::effectCatart" : 0,
-						"omax.effect~::effectLPC" : 0,
-						"omax.effect~::effectMod" : 0,
-						"omax.effect~::effectMunger" : 0,
-						"omax.effect~::effectVST" : 0,
-						"omax.effect~::u983004067" : 0,
-						"omax.effect~[1]" : 0,
-						"omax.effect~[1]::u988012634" : 0,
-						"omax.effect~[1]::effectAU" : 0,
-						"omax.effect~[1]::effectBirds" : 0,
-						"omax.effect~[1]::effectCatart" : 0,
-						"omax.effect~[1]::effectLPC" : 0,
-						"omax.effect~[1]::effectMod" : 0,
-						"omax.effect~[1]::effectMunger" : 0,
-						"omax.effect~[1]::effectVST" : 0,
-						"omax.effect~[1]::u499004041" : 0,
-						"omax.effect~[2]" : 0,
-						"omax.effect~[2]::u252012636" : 0,
-						"omax.effect~[2]::effectAU" : 0,
-						"omax.effect~[2]::effectBirds" : 0,
-						"omax.effect~[2]::effectCatart" : 0,
-						"omax.effect~[2]::effectLPC" : 0,
-						"omax.effect~[2]::effectMod" : 0,
-						"omax.effect~[2]::effectMunger" : 0,
-						"omax.effect~[2]::effectVST" : 0,
-						"omax.effect~[2]::u149004015" : 0,
-						"omax.effect~[3]" : 0,
-						"omax.effect~[3]::u316012638" : 0,
-						"omax.effect~[3]::effectAU" : 0,
-						"omax.effect~[3]::effectBirds" : 0,
-						"omax.effect~[3]::effectCatart" : 0,
-						"omax.effect~[3]::effectLPC" : 0,
-						"omax.effect~[3]::effectMod" : 0,
-						"omax.effect~[3]::effectMunger" : 0,
-						"omax.effect~[3]::effectVST" : 0,
-						"omax.effect~[3]::u746003989" : 0,
-						"omax.effect~[4]" : 0,
-						"omax.effect~[4]::u350012640" : 0,
-						"omax.effect~[4]::effectAU" : 0,
-						"omax.effect~[4]::effectBirds" : 0,
-						"omax.effect~[4]::effectCatart" : 0,
-						"omax.effect~[4]::effectLPC" : 0,
-						"omax.effect~[4]::effectMod" : 0,
-						"omax.effect~[4]::effectMunger" : 0,
-						"omax.effect~[4]::effectVST" : 0,
-						"omax.effect~[4]::u976003963" : 0,
-						"omax.effect~[5]" : 0,
-						"omax.effect~[5]::u008012642" : 0,
-						"omax.effect~[5]::effectAU" : 0,
-						"omax.effect~[5]::effectBirds" : 0,
-						"omax.effect~[5]::effectCatart" : 0,
-						"omax.effect~[5]::effectLPC" : 0,
-						"omax.effect~[5]::effectMod" : 0,
-						"omax.effect~[5]::effectMunger" : 0,
-						"omax.effect~[5]::effectVST" : 0,
-						"omax.effect~[5]::u467003937" : 0,
-						"omax.effect~[6]" : 0,
-						"omax.effect~[6]::u114012644" : 0,
-						"omax.effect~[6]::effectAU" : 0,
-						"omax.effect~[6]::effectBirds" : 0,
-						"omax.effect~[6]::effectCatart" : 0,
-						"omax.effect~[6]::effectLPC" : 0,
-						"omax.effect~[6]::effectMod" : 0,
-						"omax.effect~[6]::effectMunger" : 0,
-						"omax.effect~[6]::effectVST" : 0,
-						"omax.effect~[6]::u755003911" : 0,
-						"omax.effect~[7]" : 0,
-						"omax.effect~[7]::u706012646" : 0,
-						"omax.effect~[7]::effectAU" : 0,
-						"omax.effect~[7]::effectBirds" : 0,
-						"omax.effect~[7]::effectCatart" : 0,
-						"omax.effect~[7]::effectLPC" : 0,
-						"omax.effect~[7]::effectMod" : 0,
-						"omax.effect~[7]::effectMunger" : 0,
-						"omax.effect~[7]::effectVST" : 0,
-						"omax.effect~[7]::u167003885" : 0,
-						"omax.effect~[8]" : 0,
-						"omax.effect~[8]::u135012648" : 0,
-						"omax.effect~[8]::effectAU" : 0,
-						"omax.effect~[8]::effectBirds" : 0,
-						"omax.effect~[8]::effectCatart" : 0,
-						"omax.effect~[8]::effectLPC" : 0,
-						"omax.effect~[8]::effectMod" : 0,
-						"omax.effect~[8]::effectMunger" : 0,
-						"omax.effect~[8]::effectVST" : 0,
-						"omax.effect~[8]::u498003859" : 0,
-						"patcher::NA_compare-pitch::NA_compare-pitch" : 0,
-						"patcher::NA_compare-pitch::u851012650" : 0,
-						"patcher::NA_compare-pitch::cpFollow1" : 0,
-						"patcher::NA_compare-pitch::cpFollow2" : 0,
-						"patcher::NA_compare-pitch::cpFollow3" : 0,
-						"patcher::NA_compare-pitch::cpFollow4" : 0,
-						"patcher::NA_compare-pitch::cpFollow5" : 0,
-						"patcher::NA_compare-pitch::cpFollow6" : 0,
-						"patcher::NA_compare-pitch::cpFollow7" : 0,
-						"patcher::NA_compare-pitch::cpFollow8" : 0,
-						"patcher::NA_compare-pitch::cpFollow9" : 0,
-						"patcher::NA_compare-pitch::cpInterpolation" : 0,
-						"patcher::NA_compare-pitch::cpLeader" : 0,
-						"patcher::NA_compare-pitch::cpScaleMax" : 0,
-						"patcher::NA_compare-pitch::cpScaleMin" : 0,
-						"patcher::NA_compare-pitch::cpScaleOn" : 0,
-						"patcher::NA_compare-pitch::cpTrans" : 0,
-						"patcher::NA_compare-pitch::u319003635" : 0,
-						"na.spat.send.ui[1]" : 0,
-						"na.spat.send.ui[1]::u751012652" : 0,
-						"na.spat.send.ui[1]::dial" : 0,
-						"na.spat.send.ui[1]::spat-choice" : 0,
-						"na.spat.send.ui[2]" : 0,
-						"na.spat.send.ui[2]::u151012653" : 0,
-						"na.spat.send.ui[2]::dial" : 0,
-						"na.spat.send.ui[2]::spat-choice" : 0,
-						"na.spat.send.ui[3]" : 0,
-						"na.spat.send.ui[3]::u039012654" : 0,
-						"na.spat.send.ui[3]::dial" : 0,
-						"na.spat.send.ui[3]::spat-choice" : 0,
-						"na.spat.send.ui[4]" : 0,
-						"na.spat.send.ui[4]::u320012655" : 0,
-						"na.spat.send.ui[4]::dial" : 0,
-						"na.spat.send.ui[4]::spat-choice" : 0,
-						"na.spat.send.ui[5]" : 0,
-						"na.spat.send.ui[5]::u673012656" : 0,
-						"na.spat.send.ui[5]::dial" : 0,
-						"na.spat.send.ui[5]::spat-choice" : 0,
-						"na.spat.send.ui[6]" : 0,
-						"na.spat.send.ui[6]::u882012657" : 0,
-						"na.spat.send.ui[6]::dial" : 0,
-						"na.spat.send.ui[6]::spat-choice" : 0,
-						"na.spat.send.ui[7]" : 0,
-						"na.spat.send.ui[7]::u737012658" : 0,
-						"na.spat.send.ui[7]::dial" : 0,
-						"na.spat.send.ui[7]::spat-choice" : 0,
-						"NA.Vbap" : 0,
-						"NA.Vbap::SpatOper" : 0,
-						"NA.Vbap::Spat.OperPresets" : 0
+						"Player[7]::turn" : 0
 					}
 ,
+					"autorestore" : "OMax-4.5.3.xml",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
@@ -57473,7 +57322,7 @@
 					"destination" : [ "obj-175", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-102", 1 ]
+					"source" : [ "obj-102", 0 ]
 				}
 
 			}
@@ -57500,7 +57349,7 @@
 					"destination" : [ "obj-210", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-104", 1 ]
+					"source" : [ "obj-104", 0 ]
 				}
 
 			}
@@ -58240,7 +58089,7 @@
 					"destination" : [ "obj-171", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-16", 1 ]
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -58732,25 +58581,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-278", 8 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-196", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-311", 8 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-196", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
+					"destination" : [ "obj-252", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-196", 4 ]
@@ -58772,6 +58603,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-196", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-196", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-196", 2 ]
 				}
 
 			}
@@ -58872,7 +58721,7 @@
 					"destination" : [ "obj-90", 2 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 2514.0, 518.0, 2354.5, 518.0, 2354.5, 287.0, 2430.40918, 287.0 ],
+					"midpoints" : [ 2513.259033, 518.0, 2354.5, 518.0, 2354.5, 287.0, 2430.40918, 287.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -59126,6 +58975,87 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-368", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-250", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-369", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-251", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-252", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-125", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-252", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-252", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-135", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-252", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-275", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-252", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-117", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-253", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-254", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-255", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -59333,7 +59263,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-368", 0 ],
+					"destination" : [ "obj-250", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-278", 0 ]
@@ -59514,7 +59444,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-369", 0 ],
+					"destination" : [ "obj-251", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-311", 0 ]
@@ -60018,7 +59948,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 3 ],
+					"destination" : [ "obj-215", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
@@ -60027,7 +59957,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-125", 3 ],
+					"destination" : [ "obj-220", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
@@ -60036,7 +59966,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 3 ],
+					"destination" : [ "obj-222", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
@@ -60045,7 +59975,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-135", 3 ],
+					"destination" : [ "obj-234", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
@@ -60054,7 +59984,43 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-275", 3 ],
+					"destination" : [ "obj-239", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-243", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-255", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
@@ -60381,6 +60347,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-255", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-278", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -60465,7 +60440,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 2428.5, 290.0, 2514.0, 290.0 ],
+					"midpoints" : [ 2428.5, 290.0, 2513.259033, 290.0 ],
 					"source" : [ "obj-81", 1 ]
 				}
 
@@ -60476,6 +60451,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-81", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-82", 0 ]
 				}
 
 			}
@@ -60769,7 +60753,7 @@
 					"destination" : [ "obj-199", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-96", 1 ]
+					"source" : [ "obj-96", 0 ]
 				}
 
 			}
@@ -60784,95 +60768,97 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-185::obj-220" : [ "live.tab[103]", "live.tab", 0 ],
-			"obj-186::obj-95" : [ "live.tab[112]", "live.tab", 0 ],
-			"obj-247::obj-95" : [ "live.tab[142]", "live.tab", 0 ],
-			"obj-186::obj-171" : [ "live.tab[109]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
-			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
-			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
-			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
-			"obj-201::obj-3" : [ "live.tab[56]", "live.tab", 0 ],
-			"obj-244::obj-256" : [ "live.tab[123]", "live.tab", 0 ],
-			"obj-13::obj-3" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-245::obj-220" : [ "live.tab[129]", "live.tab", 0 ],
-			"obj-268" : [ "live.text[2]", "1", 2 ],
-			"obj-184::obj-199" : [ "live.tab[99]", "live.tab", 0 ],
-			"obj-245::obj-18" : [ "live.tab[128]", "live.tab", 0 ],
-			"obj-246::obj-230" : [ "effectNorris[7]", "live.tab", 0 ],
-			"obj-185::obj-171" : [ "live.tab[106]", "live.tab", 0 ],
-			"obj-246::obj-256" : [ "live.tab[138]", "live.tab", 0 ],
-			"obj-186::obj-220" : [ "live.tab[113]", "live.tab", 0 ],
-			"obj-247::obj-199" : [ "live.tab[139]", "live.tab", 0 ],
-			"obj-264" : [ "live.text[4]", "1", 2 ],
-			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
-			"obj-186::obj-18" : [ "live.tab[111]", "live.tab", 0 ],
-			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
-			"obj-231::obj-230" : [ "effectNorris[4]", "live.tab", 0 ],
-			"obj-153::obj-256" : [ "effectLPC", "live.tab", 0 ],
-			"obj-231::obj-256" : [ "live.tab[115]", "live.tab", 0 ],
-			"obj-244::obj-95" : [ "live.tab[124]", "live.tab", 0 ],
-			"obj-282" : [ "live.text[3]", "1", 2 ],
-			"obj-245::obj-230" : [ "effectNorris[6]", "live.tab", 0 ],
-			"obj-14::obj-3" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-184::obj-95" : [ "live.tab[102]", "live.tab", 0 ],
-			"obj-246::obj-95" : [ "live.tab[136]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-12::obj-180" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-185::obj-18" : [ "live.tab[108]", "live.tab", 0 ],
-			"obj-246::obj-199" : [ "live.tab[135]", "live.tab", 0 ],
-			"obj-247::obj-171" : [ "live.tab[141]", "live.tab", 0 ],
-			"obj-72::obj-26" : [ "live.text", "live.text", 0 ],
-			"obj-186::obj-199" : [ "live.tab[110]", "live.tab", 0 ],
-			"obj-247::obj-220" : [ "live.tab[140]", "live.tab", 0 ],
-			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
-			"obj-231::obj-199" : [ "live.tab[117]", "live.tab", 0 ],
-			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
-			"obj-231::obj-95" : [ "live.tab[120]", "live.tab", 0 ],
-			"obj-244::obj-230" : [ "effectNorris[5]", "live.tab", 0 ],
-			"obj-184::obj-171" : [ "live.tab[101]", "live.tab", 0 ],
-			"obj-245::obj-171" : [ "live.tab[130]", "live.tab", 0 ],
-			"obj-184::obj-230" : [ "effectNorris[1]", "live.tab", 0 ],
-			"obj-246::obj-171" : [ "live.tab[137]", "live.tab", 0 ],
-			"obj-185::obj-230" : [ "effectNorris[2]", "live.tab", 0 ],
-			"obj-247::obj-256" : [ "live.tab[144]", "live.tab", 0 ],
-			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
-			"obj-186::obj-256" : [ "live.tab[114]", "live.tab", 0 ],
-			"obj-247::obj-230" : [ "effectNorris[8]", "live.tab", 0 ],
 			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
-			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
-			"obj-231::obj-171" : [ "live.tab[116]", "live.tab", 0 ],
-			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
-			"obj-231::obj-220" : [ "live.tab[119]", "live.tab", 0 ],
-			"obj-244::obj-199" : [ "live.tab[126]", "live.tab", 0 ],
-			"obj-244::obj-18" : [ "live.tab[121]", "live.tab", 0 ],
-			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
-			"obj-202::obj-3" : [ "live.tab[48]", "live.tab", 0 ],
-			"obj-177::obj-3" : [ "live.tab[57]", "live.tab", 0 ],
-			"obj-184::obj-256" : [ "live.tab[98]", "live.tab", 0 ],
-			"obj-245::obj-95" : [ "live.tab[131]", "live.tab", 0 ],
-			"obj-184::obj-18" : [ "live.tab[100]", "live.tab", 0 ],
-			"obj-185::obj-199" : [ "live.tab[107]", "live.tab", 0 ],
-			"obj-246::obj-220" : [ "live.tab[134]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
-			"obj-204::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-185::obj-95" : [ "live.tab[104]", "live.tab", 0 ],
-			"obj-247::obj-18" : [ "live.tab[143]", "live.tab", 0 ],
-			"obj-186::obj-230" : [ "effectNorris[3]", "live.tab", 0 ],
-			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
-			"obj-231::obj-18" : [ "live.tab[118]", "live.tab", 0 ],
-			"obj-16" : [ "improv-menu", "live.menu", 0 ],
-			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
-			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
-			"obj-244::obj-220" : [ "live.tab[122]", "live.tab", 0 ],
-			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
 			"obj-244::obj-171" : [ "live.tab[125]", "live.tab", 0 ],
-			"obj-245::obj-256" : [ "live.tab[127]", "live.tab", 0 ],
+			"obj-185::obj-171" : [ "live.tab[106]", "live.tab", 0 ],
+			"obj-245::obj-18" : [ "live.tab[128]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
+			"obj-204::obj-3" : [ "live.tab[57]", "live.tab", 0 ],
+			"obj-186::obj-18" : [ "live.tab[111]", "live.tab", 0 ],
+			"obj-186::obj-171" : [ "live.tab[109]", "live.tab", 0 ],
+			"obj-246::obj-230" : [ "effectNorris[7]", "live.tab", 0 ],
+			"obj-231::obj-230" : [ "effectNorris[4]", "live.tab", 0 ],
+			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
+			"obj-16" : [ "improv-menu", "live.menu", 0 ],
+			"obj-231::obj-220" : [ "live.tab[119]", "live.tab", 0 ],
+			"obj-247::obj-199" : [ "live.tab[139]", "live.tab", 0 ],
+			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
+			"obj-251::obj-3" : [ "live.tab[48]", "live.tab", 0 ],
+			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
 			"obj-184::obj-220" : [ "live.tab[91]", "live.tab", 0 ],
-			"obj-245::obj-199" : [ "live.tab[132]", "live.tab", 0 ],
-			"obj-108::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
+			"obj-244::obj-95" : [ "live.tab[124]", "live.tab", 0 ],
+			"obj-177::obj-3" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-185::obj-95" : [ "live.tab[104]", "live.tab", 0 ],
+			"obj-245::obj-220" : [ "live.tab[129]", "live.tab", 0 ],
+			"obj-245::obj-171" : [ "live.tab[130]", "live.tab", 0 ],
+			"obj-186::obj-256" : [ "live.tab[114]", "live.tab", 0 ],
+			"obj-246::obj-256" : [ "live.tab[138]", "live.tab", 0 ],
+			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
+			"obj-231::obj-171" : [ "live.tab[116]", "live.tab", 0 ],
+			"obj-231::obj-18" : [ "live.tab[118]", "live.tab", 0 ],
+			"obj-247::obj-95" : [ "live.tab[142]", "live.tab", 0 ],
+			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
+			"obj-244::obj-256" : [ "live.tab[123]", "live.tab", 0 ],
+			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
+			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
+			"obj-264" : [ "live.text[4]", "1", 2 ],
+			"obj-184::obj-95" : [ "live.tab[102]", "live.tab", 0 ],
+			"obj-13::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-184::obj-230" : [ "effectNorris[1]", "live.tab", 0 ],
+			"obj-14::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-108::obj-3" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-185::obj-18" : [ "live.tab[108]", "live.tab", 0 ],
+			"obj-245::obj-230" : [ "effectNorris[6]", "live.tab", 0 ],
+			"obj-202::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-245::obj-256" : [ "live.tab[127]", "live.tab", 0 ],
+			"obj-186::obj-95" : [ "live.tab[112]", "live.tab", 0 ],
+			"obj-246::obj-18" : [ "live.tab[133]", "live.tab", 0 ],
+			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
+			"obj-246::obj-220" : [ "live.tab[134]", "live.tab", 0 ],
+			"obj-231::obj-256" : [ "live.tab[115]", "live.tab", 0 ],
+			"obj-247::obj-220" : [ "live.tab[140]", "live.tab", 0 ],
+			"obj-268" : [ "live.text[2]", "1", 2 ],
+			"obj-244::obj-18" : [ "live.tab[121]", "live.tab", 0 ],
+			"obj-250::obj-3" : [ "live.tab[56]", "live.tab", 0 ],
+			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
+			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
+			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
+			"obj-184::obj-171" : [ "live.tab[101]", "live.tab", 0 ],
+			"obj-184::obj-199" : [ "live.tab[99]", "live.tab", 0 ],
+			"obj-244::obj-220" : [ "live.tab[122]", "live.tab", 0 ],
+			"obj-185::obj-199" : [ "live.tab[107]", "live.tab", 0 ],
 			"obj-185::obj-256" : [ "live.tab[105]", "live.tab", 0 ],
-			"obj-246::obj-18" : [ "live.tab[133]", "live.tab", 0 ]
+			"obj-245::obj-199" : [ "live.tab[132]", "live.tab", 0 ],
+			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
+			"obj-186::obj-230" : [ "effectNorris[3]", "live.tab", 0 ],
+			"obj-246::obj-95" : [ "live.tab[136]", "live.tab", 0 ],
+			"obj-246::obj-171" : [ "live.tab[137]", "live.tab", 0 ],
+			"obj-231::obj-199" : [ "live.tab[117]", "live.tab", 0 ],
+			"obj-247::obj-18" : [ "live.tab[143]", "live.tab", 0 ],
+			"obj-282" : [ "live.text[3]", "1", 2 ],
+			"obj-247::obj-256" : [ "live.tab[144]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
+			"obj-244::obj-230" : [ "effectNorris[5]", "live.tab", 0 ],
+			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
+			"obj-72::obj-26" : [ "live.text", "live.text", 0 ],
+			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
+			"obj-184::obj-18" : [ "live.tab[100]", "live.tab", 0 ],
+			"obj-244::obj-199" : [ "live.tab[126]", "live.tab", 0 ],
+			"obj-185::obj-220" : [ "live.tab[103]", "live.tab", 0 ],
+			"obj-201::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-185::obj-230" : [ "effectNorris[2]", "live.tab", 0 ],
+			"obj-245::obj-95" : [ "live.tab[131]", "live.tab", 0 ],
+			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
+			"obj-186::obj-220" : [ "live.tab[113]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-12::obj-180" : [ "live.tab[30]", "live.tab", 0 ],
+			"obj-186::obj-199" : [ "live.tab[110]", "live.tab", 0 ],
+			"obj-246::obj-199" : [ "live.tab[135]", "live.tab", 0 ],
+			"obj-231::obj-95" : [ "live.tab[120]", "live.tab", 0 ],
+			"obj-247::obj-230" : [ "effectNorris[8]", "live.tab", 0 ],
+			"obj-247::obj-171" : [ "live.tab[141]", "live.tab", 0 ],
+			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
+			"obj-153::obj-256" : [ "effectLPC", "live.tab", 0 ],
+			"obj-184::obj-256" : [ "live.tab[98]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -60950,6 +60936,13 @@
 				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OMax-4.5.3.xml",
+				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/misc",
+				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/misc",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -61464,7 +61457,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "moodsFelix_opch.json",
+				"name" : "moodsFelix_windsor.json",
 				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",

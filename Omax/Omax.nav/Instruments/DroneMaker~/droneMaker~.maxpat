@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1543.0, 44.0, 327.0, 636.0 ],
+		"rect" : [ 1034.0, 44.0, 327.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 13.0,
@@ -291,8 +292,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 240.0, 89.0 ],
@@ -438,6 +440,10 @@
 , 						{
 							"number" : 9,
 							"data" : [ 22, "obj-39", "multislider", "list", 0.007246, 0.485507, 1.0, 0.34058, 0.057971, 0.0275, 0.777778, 1.0, 1.0, 0.123188, 0.127517, 0.018036, 0.0, 0.0, 1.0, 0.0, 0.142857, 0.5 ]
+						}
+, 						{
+							"number" : 16,
+							"data" : [ 22, "obj-39", "multislider", "list", 0.094203, 0.318841, 0.0, 0.398551, 0.057971, 0.0, 0.777778, 1.0, 1.0, 0.0, 0.0, 0.018036, 0.0, 0.0, 1.0, 0.0, 0.714286, 0.514493 ]
 						}
  ]
 				}
