@@ -414,10 +414,56 @@
  KEYCUE "init-2" 
  
  
- 	 	 	 	 /CONFIG /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /NA-Sources 99 0 /spatOut~ 99 1 /spat-liveIn 99 0 /ambicontrol 99 1 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 1 /harmonicShifter~ 99 1 /au-rvrb 99 0 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 1 
+ 	 	 	 	 /CONFIG /NA-Sources 99 0 /spatOut~ 99 1 /spat-liveIn 99 0 /ambicontrol 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 1 /harmonicShifter~ 99 1 /au-rvrb 99 0 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 1 /Rogs1~.1 99 1 /fileBrowse-rogs1.1 99 1 /Rogs1Out~.1 99 1 /Rogs1~.2 99 1 /rvrbOut~ 99 1 /reverb 99 1 /fileBrowse-rogs1.2 99 1 /Rogs1Out~.2 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
+ # 
+ # Module /spatOut~ 
+ 	 	 	 	 /spatOut~/audio/active 0 
+ 	 	 	 	 /spatOut~/audio/gain 100.000000 
+ 	 	 	 	 /spatOut~/audio/mute 0 
+ 	 	 	 	 /spatOut~/limiter/active 1 
+ 	 	 	 	 /spatOut~/limiter/dcblocker/active 1 
+ 	 	 	 	 /spatOut~/limiter/lookahead 64 
+ 	 	 	 	 /spatOut~/limiter/mode exponential 
+ 	 	 	 	 /spatOut~/limiter/postamp 0.000000 
+ 	 	 	 	 /spatOut~/limiter/preamp 6.000000 
+ 	 	 	 	 /spatOut~/limiter/release 300.000000 
+ 	 	 	 	 /spatOut~/limiter/threshold -1.000000 
+ 	 	 	 	 /spatOut~/numSpeakers 8 
+ 	 	 	 	 /spatOut~/offset 0 
+ 	 	 	 	 /spatOut~/record/filetype default 
+ 	 	 	 	 /spatOut~/record/samptype default 
+ 	 	 	 	 /spatOut~/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /spatOut~/view/freeze 0 
+ 	 	 	 	 /spatOut~/view/highlight 0 
+ # 
+ # Module /ambicontrol 
+ 	 	 	 	 /ambicontrol/clock/on 0 
+ 	 	 	 	 /ambicontrol/center 0.000000 0.000000 0.500000 
+ 	 	 	 	 /ambicontrol/clock/interval 90.000000 
+ 	 	 	 	 /ambicontrol/clock/stepsize 7.000000 
+ 	 	 	 	 /ambicontrol/connect paul 
+ 	 	 	 	 /ambicontrol/directIndexControl 0 
+ 	 	 	 	 /ambicontrol/index 0 
+ 	 	 	 	 /ambicontrol/method 3 
+ 	 	 	 	 /ambicontrol/points 1 2 3 4 5 6 7 8 9 666 666 666 666 666 666 666 
+ 	 	 	 	 /ambicontrol/randomStability 10000 
+ 	 	 	 	 /ambicontrol/trajectory/adjust fit-to-box 
+ 	 	 	 	 /ambicontrol/trajectory/fraction 0.000000 
+ 	 	 	 	 /ambicontrol/trajectory/interpolate 0 
+ 	 	 	 	 /ambicontrol/trajectory/method 0 
+ 	 	 	 	 /ambicontrol/trajectory/original 0 
+ 	 	 	 	 /ambicontrol/trajectory/point 1 
+ 	 	 	 	 /ambicontrol/trajectory/rec 0 
+ 	 	 	 	 /ambicontrol/trajectory/recall 0 
+ 	 	 	 	 /ambicontrol/view/freeze 0 
+ 	 	 	 	 /ambicontrol/view/highlight 0 
+ 	 	 	 	 /ambicontrol/volume/bound 2.200000 2.200000 1.000000 
+ 	 	 	 	 /ambicontrol/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /ambicontrol/volume/show 0 
+ 	 	 	 	 /ambicontrol/volume/type 0 
  # 
  # Module /shpidel~ 
  	 	 	 	 /shpidel~/audio/gain 100.000000 
@@ -523,52 +569,6 @@
  	 	 	 	 /postLPCPitch/view/freeze 0 
  	 	 	 	 /postLPCPitch/view/highlight 0 
  # 
- # Module /spatOut~ 
- 	 	 	 	 /spatOut~/audio/active 0 
- 	 	 	 	 /spatOut~/audio/gain 100.000000 
- 	 	 	 	 /spatOut~/audio/mute 0 
- 	 	 	 	 /spatOut~/limiter/active 1 
- 	 	 	 	 /spatOut~/limiter/dcblocker/active 1 
- 	 	 	 	 /spatOut~/limiter/lookahead 64 
- 	 	 	 	 /spatOut~/limiter/mode exponential 
- 	 	 	 	 /spatOut~/limiter/postamp 0.000000 
- 	 	 	 	 /spatOut~/limiter/preamp 6.000000 
- 	 	 	 	 /spatOut~/limiter/release 300.000000 
- 	 	 	 	 /spatOut~/limiter/threshold -1.000000 
- 	 	 	 	 /spatOut~/numSpeakers 8 
- 	 	 	 	 /spatOut~/offset 0 
- 	 	 	 	 /spatOut~/record/filetype default 
- 	 	 	 	 /spatOut~/record/samptype default 
- 	 	 	 	 /spatOut~/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
- 	 	 	 	 /spatOut~/view/freeze 0 
- 	 	 	 	 /spatOut~/view/highlight 0 
- # 
- # Module /ambicontrol 
- 	 	 	 	 /ambicontrol/clock/on 1 
- 	 	 	 	 /ambicontrol/center 0.000000 0.000000 0.500000 
- 	 	 	 	 /ambicontrol/clock/interval 90.000000 
- 	 	 	 	 /ambicontrol/clock/stepsize 7.000000 
- 	 	 	 	 /ambicontrol/connect paul 
- 	 	 	 	 /ambicontrol/directIndexControl 0 
- 	 	 	 	 /ambicontrol/index 0 
- 	 	 	 	 /ambicontrol/method 2 
- 	 	 	 	 /ambicontrol/points 1 2 3 4 5 6 7 8 9 666 666 666 666 666 666 666 
- 	 	 	 	 /ambicontrol/randomStability 10000 
- 	 	 	 	 /ambicontrol/trajectory/adjust fit-to-box 
- 	 	 	 	 /ambicontrol/trajectory/fraction 0.000000 
- 	 	 	 	 /ambicontrol/trajectory/interpolate 0 
- 	 	 	 	 /ambicontrol/trajectory/method 0 
- 	 	 	 	 /ambicontrol/trajectory/original 0 
- 	 	 	 	 /ambicontrol/trajectory/point 1 
- 	 	 	 	 /ambicontrol/trajectory/rec 0 
- 	 	 	 	 /ambicontrol/trajectory/recall 0 
- 	 	 	 	 /ambicontrol/view/freeze 0 
- 	 	 	 	 /ambicontrol/view/highlight 0 
- 	 	 	 	 /ambicontrol/volume/bound 2.200000 2.200000 1.000000 
- 	 	 	 	 /ambicontrol/volume/color 0.155125 0.844529 0.908166 
- 	 	 	 	 /ambicontrol/volume/show 0 
- 	 	 	 	 /ambicontrol/volume/type 0 
- # 
  # Module /filter~ 
  	 	 	 	 /filter~/audio/bypass 0 
  	 	 	 	 /filter~/audio/gain 0.000000 
@@ -667,7 +667,7 @@
  	 	 	 	 /drone-Pre-pitch/view/highlight 0 
  # 
  # Module /outAu-dry 
- 	 	 	 	 /outAu-dry/audio/active 1 
+ 	 	 	 	 /outAu-dry/audio/active 0 
  	 	 	 	 /outAu-dry/audio/gain 0.000000 
  	 	 	 	 /outAu-dry/balance 0.000000 
  	 	 	 	 /outAu-dry/ch.1 5 
@@ -686,6 +686,567 @@
  	 	 	 	 /outAu-dry/saturation/depth 10.000000 
  	 	 	 	 /outAu-dry/view/freeze 0 
  	 	 	 	 /outAu-dry/view/highlight 0 
+ # 
+ # Module /Rogs1~.1 
+ 	 	 	 	 /Rogs1~.1/grain/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/pVar/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/pitch/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/position/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/size/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/speed/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/trig/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/turn/in/module/name 0 
+ 	 	 	 	 /Rogs1~.1/grain/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/pVar/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/pitch/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/position/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/size/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/speed/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/trig/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/turn/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.1/grain/function 0 
+ 	 	 	 	 /Rogs1~.1/grain/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/function 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/pVar/function 0 
+ 	 	 	 	 /Rogs1~.1/pVar/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/pitch/function 0 
+ 	 	 	 	 /Rogs1~.1/pitch/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/playback/direction 0 
+ 	 	 	 	 /Rogs1~.1/position/function 0 
+ 	 	 	 	 /Rogs1~.1/position/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/size/function 0 
+ 	 	 	 	 /Rogs1~.1/size/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/speed/function 0 
+ 	 	 	 	 /Rogs1~.1/speed/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/trig/function 0 
+ 	 	 	 	 /Rogs1~.1/trig/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/turn/function 0 
+ 	 	 	 	 /Rogs1~.1/turn/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.1/grain/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/playback/speed 1.000000 
+ 	 	 	 	 /Rogs1~.1/position/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/size/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/speed/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/trig/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/turn/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/position/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/size/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/speed/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/trig/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/turn/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/pVar/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/pitch/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/position/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/size/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/speed/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/trig/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/turn/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.1/audio/gain 0.000000 
+ 	 	 	 	 /Rogs1~.1/audio/mute 1 
+ 	 	 	 	 /Rogs1~.1/file/open /Users/NavNav/Sounds/Buffer-Audio/Rogs/Breath/Winder-simple-mono.aif 
+ 	 	 	 	 /Rogs1~.1/grain/duration 453.000000 
+ 	 	 	 	 /Rogs1~.1/grain/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/grain/mute 0 
+ 	 	 	 	 /Rogs1~.1/grain/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/onsetVar 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/overlap 200 
+ 	 	 	 	 /Rogs1~.1/grain/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/grain/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/grain/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/grain/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/grain/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/grain/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/freq 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/lock 0 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/mode 0 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/note 7 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/variance/gainVar/randomnessRate 9.759891 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/variance/gainVar/range 0.000000 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/variance/on 0 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/variance/rateVar/randomnessRate 97.996964 
+ 	 	 	 	 /Rogs1~.1/grain/trigger/variance/rateVar/spread 2.219746 
+ 	 	 	 	 /Rogs1~.1/mapperGate/gain 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/onsetVar 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/pitch 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/pitchVar 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/position 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/size 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/speed 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/trigger 0 
+ 	 	 	 	 /Rogs1~.1/mapperGate/turn 0 
+ 	 	 	 	 /Rogs1~.1/mod/gain 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/onsetVar 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/pitch 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/pitchVar 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/position 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/size 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/speed 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/trigger 0.000000 
+ 	 	 	 	 /Rogs1~.1/mod/turn 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/onsetVar/mute 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/onsetVar/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/onsetVar/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/onsetVar/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/pVar/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/pVar/mute 0 
+ 	 	 	 	 /Rogs1~.1/pVar/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/pVar/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/pVar/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/pVar/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/pVar/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/pVar/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/pan/mode 1 
+ 	 	 	 	 /Rogs1~.1/pan/rate 5.000000 
+ 	 	 	 	 /Rogs1~.1/pan/spread 0.600000 
+ 	 	 	 	 /Rogs1~.1/pitch/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/pitch/mute 0 
+ 	 	 	 	 /Rogs1~.1/pitch/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/pitch/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/pitch/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/pitch/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/pitch/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/pitch/transpose 0.000000 
+ 	 	 	 	 /Rogs1~.1/pitch/variation 0.000000 
+ 	 	 	 	 /Rogs1~.1/playback/position 0.000000 
+ 	 	 	 	 /Rogs1~.1/position/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/position/mute 0 
+ 	 	 	 	 /Rogs1~.1/position/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/position/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/position/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/position/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/position/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/position/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/position/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/position/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/position/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/position/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/selection/mode 0 
+ 	 	 	 	 /Rogs1~.1/selection/range 0.000000 180610.671875 
+ 	 	 	 	 /Rogs1~.1/size/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/size/mute 0 
+ 	 	 	 	 /Rogs1~.1/size/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/size/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/size/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/size/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/size/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/size/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/size/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/size/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/size/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/size/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/speed/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/speed/mute 0 
+ 	 	 	 	 /Rogs1~.1/speed/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/speed/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/speed/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/speed/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/speed/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/speed/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/speed/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/speed/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/speed/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/speed/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/trig/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/trig/mute 0 
+ 	 	 	 	 /Rogs1~.1/trig/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/trig/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/trig/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/trig/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/trig/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/trig/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/trig/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/trig/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/trig/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/trig/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/turn/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.1/turn/mute 0 
+ 	 	 	 	 /Rogs1~.1/turn/offset 0.000000 
+ 	 	 	 	 /Rogs1~.1/turn/ramp/time 0 
+ 	 	 	 	 /Rogs1~.1/turn/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.1/turn/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.1/turn/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/turn/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.1/turn/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.1/turn/scale/mode 0 
+ 	 	 	 	 /Rogs1~.1/turn/slide/down 0 
+ 	 	 	 	 /Rogs1~.1/turn/slide/up 0 
+ 	 	 	 	 /Rogs1~.1/view/freeze 0 
+ 	 	 	 	 /Rogs1~.1/view/highlight 0 
+ 	 	 	 	 /Rogs1~.1/waveform/normalize 0.000000 
+ # 
+ # Module /fileBrowse-rogs1.1 
+ 	 	 	 	 /fileBrowse-rogs1.1/type audio 
+ 	 	 	 	 /fileBrowse-rogs1.1/folder /Users/NavNav/Sounds/Buffer-Audio/Rogs/ 
+ 	 	 	 	 /fileBrowse-rogs1.1/depth 14 
+ 	 	 	 	 /fileBrowse-rogs1.1/file /Users/NavNav/Sounds/Buffer-Audio/Rogs/Breath/Winder-simple-mono.aif 
+ 	 	 	 	 /fileBrowse-rogs1.1/view/freeze 0 
+ 	 	 	 	 /fileBrowse-rogs1.1/view/highlight 0 
+ # 
+ # Module /Rogs1Out~.1 
+ 	 	 	 	 /Rogs1Out~.1/audio/active 0 
+ 	 	 	 	 /Rogs1Out~.1/audio/gain 0.000000 
+ 	 	 	 	 /Rogs1Out~.1/audio/mute 0 
+ 	 	 	 	 /Rogs1Out~.1/limiter/active 1 
+ 	 	 	 	 /Rogs1Out~.1/limiter/dcblocker/active 1 
+ 	 	 	 	 /Rogs1Out~.1/limiter/lookahead 64 
+ 	 	 	 	 /Rogs1Out~.1/limiter/mode exponential 
+ 	 	 	 	 /Rogs1Out~.1/limiter/postamp 0.000000 
+ 	 	 	 	 /Rogs1Out~.1/limiter/preamp 6.000000 
+ 	 	 	 	 /Rogs1Out~.1/limiter/release 300.000000 
+ 	 	 	 	 /Rogs1Out~.1/limiter/threshold -1.000000 
+ 	 	 	 	 /Rogs1Out~.1/numSpeakers 5 
+ 	 	 	 	 /Rogs1Out~.1/offset 0 
+ 	 	 	 	 /Rogs1Out~.1/record/filetype default 
+ 	 	 	 	 /Rogs1Out~.1/record/samptype default 
+ 	 	 	 	 /Rogs1Out~.1/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /Rogs1Out~.1/view/freeze 0 
+ 	 	 	 	 /Rogs1Out~.1/view/highlight 0 
+ # 
+ # Module /Rogs1~.2 
+ 	 	 	 	 /Rogs1~.2/grain/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/pVar/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/pitch/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/position/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/size/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/speed/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/trig/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/turn/in/module/name 0 
+ 	 	 	 	 /Rogs1~.2/grain/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/pVar/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/pitch/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/position/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/size/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/speed/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/trig/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/turn/in/module/instance 0 
+ 	 	 	 	 /Rogs1~.2/grain/function 0 
+ 	 	 	 	 /Rogs1~.2/grain/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/function 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/pVar/function 0 
+ 	 	 	 	 /Rogs1~.2/pVar/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/pitch/function 0 
+ 	 	 	 	 /Rogs1~.2/pitch/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/playback/direction 0 
+ 	 	 	 	 /Rogs1~.2/position/function 0 
+ 	 	 	 	 /Rogs1~.2/position/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/size/function 0 
+ 	 	 	 	 /Rogs1~.2/size/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/speed/function 0 
+ 	 	 	 	 /Rogs1~.2/speed/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/trig/function 0 
+ 	 	 	 	 /Rogs1~.2/trig/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/turn/function 0 
+ 	 	 	 	 /Rogs1~.2/turn/function/symmetry 0 
+ 	 	 	 	 /Rogs1~.2/grain/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/playback/speed 0.200000 
+ 	 	 	 	 /Rogs1~.2/position/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/size/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/speed/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/trig/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/turn/function/parameter2 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/position/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/size/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/speed/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/trig/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/turn/function/parameter1 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/pVar/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/pitch/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/position/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/size/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/speed/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/trig/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/turn/in/module/parameter 0 
+ 	 	 	 	 /Rogs1~.2/audio/gain 0.000000 
+ 	 	 	 	 /Rogs1~.2/audio/mute 1 
+ 	 	 	 	 /Rogs1~.2/file/open /Users/NavNav/Sounds/Buffer-Audio/Rogs/Pizzi-transients/ScratchPURE.aif 
+ 	 	 	 	 /Rogs1~.2/grain/duration 450.000000 
+ 	 	 	 	 /Rogs1~.2/grain/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/grain/mute 0 
+ 	 	 	 	 /Rogs1~.2/grain/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/onsetVar 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/overlap 200 
+ 	 	 	 	 /Rogs1~.2/grain/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/grain/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/grain/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/grain/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/grain/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/grain/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/freq 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/lock 0 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/mode 0 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/note 7 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/variance/gainVar/randomnessRate 9.759891 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/variance/gainVar/range 0.000000 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/variance/on 0 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/variance/rateVar/randomnessRate 97.996964 
+ 	 	 	 	 /Rogs1~.2/grain/trigger/variance/rateVar/spread 2.219746 
+ 	 	 	 	 /Rogs1~.2/mapperGate/gain 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/onsetVar 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/pitch 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/pitchVar 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/position 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/size 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/speed 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/trigger 0 
+ 	 	 	 	 /Rogs1~.2/mapperGate/turn 0 
+ 	 	 	 	 /Rogs1~.2/mod/gain 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/onsetVar 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/pitch 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/pitchVar 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/position 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/size 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/speed 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/trigger 0.000000 
+ 	 	 	 	 /Rogs1~.2/mod/turn 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/onsetVar/mute 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/onsetVar/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/onsetVar/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/onsetVar/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/pVar/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/pVar/mute 0 
+ 	 	 	 	 /Rogs1~.2/pVar/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/pVar/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/pVar/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/pVar/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/pVar/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/pVar/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/pan/mode 0 
+ 	 	 	 	 /Rogs1~.2/pan/rate 0.300000 
+ 	 	 	 	 /Rogs1~.2/pan/spread 0.400000 
+ 	 	 	 	 /Rogs1~.2/pitch/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/pitch/mute 0 
+ 	 	 	 	 /Rogs1~.2/pitch/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/pitch/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/pitch/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/pitch/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/pitch/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/pitch/transpose 0.000000 
+ 	 	 	 	 /Rogs1~.2/pitch/variation 0.000000 
+ 	 	 	 	 /Rogs1~.2/playback/position 0.000000 
+ 	 	 	 	 /Rogs1~.2/position/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/position/mute 0 
+ 	 	 	 	 /Rogs1~.2/position/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/position/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/position/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/position/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/position/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/position/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/position/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/position/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/position/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/position/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/selection/mode 0 
+ 	 	 	 	 /Rogs1~.2/selection/range 0.000000 133748.921875 
+ 	 	 	 	 /Rogs1~.2/size/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/size/mute 0 
+ 	 	 	 	 /Rogs1~.2/size/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/size/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/size/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/size/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/size/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/size/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/size/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/size/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/size/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/size/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/speed/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/speed/mute 0 
+ 	 	 	 	 /Rogs1~.2/speed/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/speed/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/speed/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/speed/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/speed/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/speed/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/speed/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/speed/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/speed/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/speed/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/trig/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/trig/mute 0 
+ 	 	 	 	 /Rogs1~.2/trig/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/trig/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/trig/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/trig/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/trig/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/trig/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/trig/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/trig/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/trig/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/trig/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/turn/in/module/listindex 1 
+ 	 	 	 	 /Rogs1~.2/turn/mute 0 
+ 	 	 	 	 /Rogs1~.2/turn/offset 0.000000 
+ 	 	 	 	 /Rogs1~.2/turn/ramp/time 0 
+ 	 	 	 	 /Rogs1~.2/turn/scale/bypass 1 
+ 	 	 	 	 /Rogs1~.2/turn/scale/input/max 0.000000 
+ 	 	 	 	 /Rogs1~.2/turn/scale/input/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/turn/scale/max 1.000000 
+ 	 	 	 	 /Rogs1~.2/turn/scale/min 0.000000 
+ 	 	 	 	 /Rogs1~.2/turn/scale/mode 0 
+ 	 	 	 	 /Rogs1~.2/turn/slide/down 0 
+ 	 	 	 	 /Rogs1~.2/turn/slide/up 0 
+ 	 	 	 	 /Rogs1~.2/view/freeze 0 
+ 	 	 	 	 /Rogs1~.2/view/highlight 0 
+ 	 	 	 	 /Rogs1~.2/waveform/normalize 0.000000 
+ # 
+ # Module /rvrbOut~ 
+ 	 	 	 	 /rvrbOut~/audio/active 0 
+ 	 	 	 	 /rvrbOut~/audio/gain 0.000000 
+ 	 	 	 	 /rvrbOut~/audio/mute 0 
+ 	 	 	 	 /rvrbOut~/limiter/active 1 
+ 	 	 	 	 /rvrbOut~/limiter/dcblocker/active 1 
+ 	 	 	 	 /rvrbOut~/limiter/lookahead 64 
+ 	 	 	 	 /rvrbOut~/limiter/mode exponential 
+ 	 	 	 	 /rvrbOut~/limiter/postamp 0.000000 
+ 	 	 	 	 /rvrbOut~/limiter/preamp 6.000000 
+ 	 	 	 	 /rvrbOut~/limiter/release 300.000000 
+ 	 	 	 	 /rvrbOut~/limiter/threshold -1.000000 
+ 	 	 	 	 /rvrbOut~/numSpeakers 5 
+ 	 	 	 	 /rvrbOut~/offset 0 
+ 	 	 	 	 /rvrbOut~/record/filetype default 
+ 	 	 	 	 /rvrbOut~/record/samptype default 
+ 	 	 	 	 /rvrbOut~/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /rvrbOut~/view/freeze 0 
+ 	 	 	 	 /rvrbOut~/view/highlight 0 
+ # 
+ # Module /reverb 
+ 	 	 	 	 /reverb/numInputs 5 
+ 	 	 	 	 /reverb/numOutputs 5 
+ 	 	 	 	 /reverb/audio/gain 100.000000 
+ 	 	 	 	 /reverb/audio/mute 0 
+ 	 	 	 	 /reverb/fdn/delaylength 30.000000 76.000000 
+ 	 	 	 	 /reverb/fdn/filtergain 0.000000 
+ 	 	 	 	 /reverb/fdn/filtertype bandpass 
+ 	 	 	 	 /reverb/fdn/frequency 732.000000 
+ 	 	 	 	 /reverb/fdn/modulation/active 1 
+ 	 	 	 	 /reverb/fdn/modulation/amplitude 0.350000 5.060000 
+ 	 	 	 	 /reverb/fdn/modulation/frequency 0.320000 1.400000 
+ 	 	 	 	 /reverb/fdn/q 0.054497 
+ 	 	 	 	 /reverb/input/filtergain 0.000000 
+ 	 	 	 	 /reverb/input/filtertype lowpass 
+ 	 	 	 	 /reverb/input/frequency 2548.000000 
+ 	 	 	 	 /reverb/input/q 0.606826 
+ 	 	 	 	 /reverb/interpolationtime 20.000000 
+ 	 	 	 	 /reverb/output.1/gain 100.000000 
+ 	 	 	 	 /reverb/output.10/gain 100.000000 
+ 	 	 	 	 /reverb/output.11/gain 100.000000 
+ 	 	 	 	 /reverb/output.12/gain 100.000000 
+ 	 	 	 	 /reverb/output.13/gain 100.000000 
+ 	 	 	 	 /reverb/output.14/gain 100.000000 
+ 	 	 	 	 /reverb/output.15/gain 100.000000 
+ 	 	 	 	 /reverb/output.16/gain 100.000000 
+ 	 	 	 	 /reverb/output.17/gain 100.000000 
+ 	 	 	 	 /reverb/output.18/gain 100.000000 
+ 	 	 	 	 /reverb/output.19/gain 100.000000 
+ 	 	 	 	 /reverb/output.2/gain 100.000000 
+ 	 	 	 	 /reverb/output.20/gain 100.000000 
+ 	 	 	 	 /reverb/output.21/gain 100.000000 
+ 	 	 	 	 /reverb/output.22/gain 100.000000 
+ 	 	 	 	 /reverb/output.23/gain 100.000000 
+ 	 	 	 	 /reverb/output.24/gain 100.000000 
+ 	 	 	 	 /reverb/output.3/gain 100.000000 
+ 	 	 	 	 /reverb/output.4/gain 100.000000 
+ 	 	 	 	 /reverb/output.5/gain 100.000000 
+ 	 	 	 	 /reverb/output.6/gain 100.000000 
+ 	 	 	 	 /reverb/output.7/gain 100.000000 
+ 	 	 	 	 /reverb/output.8/gain 100.000000 
+ 	 	 	 	 /reverb/output.9/gain 100.000000 
+ 	 	 	 	 /reverb/predelay 0.000000 
+ 	 	 	 	 /reverb/t60 1.700000 
+ 	 	 	 	 /reverb/view/freeze 0 
+ 	 	 	 	 /reverb/view/highlight none 
+ # 
+ # Module /fileBrowse-rogs1.2 
+ 	 	 	 	 /fileBrowse-rogs1.2/type audio 
+ 	 	 	 	 /fileBrowse-rogs1.2/folder /Users/NavNav/Sounds/Buffer-Audio/Rogs/ 
+ 	 	 	 	 /fileBrowse-rogs1.2/depth 5 
+ 	 	 	 	 /fileBrowse-rogs1.2/file /Users/NavNav/Sounds/Buffer-Audio/Rogs/Pizzi-transients/ScratchPURE.aif 
+ 	 	 	 	 /fileBrowse-rogs1.2/view/freeze 0 
+ 	 	 	 	 /fileBrowse-rogs1.2/view/highlight 0 
+ # 
+ # Module /Rogs1Out~.2 
+ 	 	 	 	 /Rogs1Out~.2/audio/active 0 
+ 	 	 	 	 /Rogs1Out~.2/audio/gain 0.000000 
+ 	 	 	 	 /Rogs1Out~.2/audio/mute 0 
+ 	 	 	 	 /Rogs1Out~.2/limiter/active 1 
+ 	 	 	 	 /Rogs1Out~.2/limiter/dcblocker/active 1 
+ 	 	 	 	 /Rogs1Out~.2/limiter/lookahead 64 
+ 	 	 	 	 /Rogs1Out~.2/limiter/mode exponential 
+ 	 	 	 	 /Rogs1Out~.2/limiter/postamp 0.000000 
+ 	 	 	 	 /Rogs1Out~.2/limiter/preamp 6.000000 
+ 	 	 	 	 /Rogs1Out~.2/limiter/release 300.000000 
+ 	 	 	 	 /Rogs1Out~.2/limiter/threshold -1.000000 
+ 	 	 	 	 /Rogs1Out~.2/numSpeakers 5 
+ 	 	 	 	 /Rogs1Out~.2/offset 0 
+ 	 	 	 	 /Rogs1Out~.2/record/filetype default 
+ 	 	 	 	 /Rogs1Out~.2/record/samptype default 
+ 	 	 	 	 /Rogs1Out~.2/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /Rogs1Out~.2/view/freeze 0 
+ 	 	 	 	 /Rogs1Out~.2/view/highlight 0 
  # 
  ######################## 
  
