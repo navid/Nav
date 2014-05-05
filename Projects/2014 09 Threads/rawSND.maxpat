@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 34.0, 44.0, 139.0, 86.0 ],
+		"rect" : [ 21.0, 44.0, 139.0, 86.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -280,11 +280,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 39.0, 361.0, 690.0, 345.0 ],
+						"rect" : [ 951.0, 1199.0, 690.0, 345.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -396,7 +396,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 286.0, 5.0, 88.0, 20.0 ],
+									"patching_rect" : [ 305.0, 5.0, 88.0, 20.0 ],
 									"text" : "receive~ spin2"
 								}
 
@@ -531,7 +531,7 @@
 									"destination" : [ "obj-5", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-47", 0 ]
+									"source" : [ "obj-48", 0 ]
 								}
 
 							}
@@ -578,11 +578,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 181.0, 44.0, 520.0, 248.0 ],
+						"rect" : [ 181.0, 44.0, 495.0, 248.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -602,6 +602,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 290.0, 137.0, 84.0, 20.0 ],
+									"text" : "514 274 0958"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -638,7 +652,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.833313, 13.0, 79.0, 20.0 ],
-									"text" : "loadmess 80"
+									"text" : "loadmess 75"
 								}
 
 							}
@@ -1139,7 +1153,7 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "nav.adc~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/nativealien/Code/Nav/snd/ADC-DAC~",
 				"patcherrelativepath" : "../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1147,21 +1161,21 @@
 , 			{
 				"name" : "jmod.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
