@@ -7,8 +7,8 @@
   <preset number='1' name='default'>
     <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='audio/mute' type='boolean' priority='0' mixweight='1'>1</item>
-    <item name='file/open' type='generic' priority='0' mixweight='1'>Macintosh HD:/Applications/Max 6.1/examples/sounds/anton.aif</item>
-    <item name='grain/duration' type='decimal' priority='0' mixweight='1'>450.000000</item>
+    <item name='file/open' type='generic' priority='0' mixweight='1'>Macintosh HD:/Applications/Max 6.100000 </item>
+    <item name='grain/duration' type='decimal' priority='0' mixweight='1'>300.000000</item>
     <item name='grain/function' type='string' priority='3' mixweight='1'>0</item>
     <item name='grain/function/parameter1' type='decimal' priority='5' mixweight='1'>0.000000</item>
     <item name='grain/function/parameter2' type='decimal' priority='4' mixweight='1'>0.000000</item>
@@ -19,8 +19,8 @@
     <item name='grain/in/module/parameter' type='string' priority='6' mixweight='1'>0</item>
     <item name='grain/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='grain/offset' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='grain/onsetVar' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='grain/overlap' type='integer' priority='0' mixweight='1'>60</item>
+    <item name='grain/onsetVar' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='grain/overlap' type='integer' priority='0' mixweight='1'>80</item>
     <item name='grain/ramp/time' type='integer' priority='0' mixweight='1'>0</item>
     <item name='grain/scale/bypass' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='grain/scale/input/max' type='decimal' priority='0' mixweight='1'>0.000000</item>
@@ -34,11 +34,11 @@
     <item name='grain/trigger/lock' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='grain/trigger/mode' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='grain/trigger/note' type='integer' priority='0' mixweight='1'>7</item>
-    <item name='grain/trigger/variance/gainVar/randomnessRate' type='decimal' priority='0' mixweight='1'>9.759891</item>
-    <item name='grain/trigger/variance/gainVar/range' type='decimalArray' priority='0' mixweight='1'>0</item>
+    <item name='grain/trigger/variance/gainVar/randomnessRate' type='decimal' priority='0' mixweight='1'>0.342872</item>
+    <item name='grain/trigger/variance/gainVar/range' type='decimalArray' priority='0' mixweight='1'>95.810310 99.288567 </item>
     <item name='grain/trigger/variance/on' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='grain/trigger/variance/rateVar/randomnessRate' type='decimal' priority='0' mixweight='1'>97.996964</item>
-    <item name='grain/trigger/variance/rateVar/spread' type='decimal' priority='0' mixweight='1'>2.219746</item>
+    <item name='grain/trigger/variance/rateVar/randomnessRate' type='decimal' priority='0' mixweight='1'>0.678949</item>
+    <item name='grain/trigger/variance/rateVar/spread' type='decimal' priority='0' mixweight='1'>6.471518</item>
     <item name='mapperGate/gain' type='integer' priority='0' mixweight='1'>0</item>
     <item name='mapperGate/onsetVar' type='integer' priority='0' mixweight='1'>0</item>
     <item name='mapperGate/pitch' type='integer' priority='0' mixweight='1'>0</item>
@@ -48,15 +48,15 @@
     <item name='mapperGate/speed' type='integer' priority='0' mixweight='1'>0</item>
     <item name='mapperGate/trigger' type='integer' priority='0' mixweight='1'>0</item>
     <item name='mapperGate/turn' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='mod/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='mod/onsetVar' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='mod/pitch' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='mod/gain' type='decimal' priority='0' mixweight='1'>5.000000</item>
+    <item name='mod/onsetVar' type='decimal' priority='0' mixweight='1'>300.000000</item>
+    <item name='mod/pitch' type='decimal' priority='0' mixweight='1'>30.000000</item>
     <item name='mod/pitchVar' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='mod/position' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='mod/size' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='mod/speed' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='mod/trigger' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='mod/turn' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='mod/size' type='decimal' priority='0' mixweight='1'>200.000000</item>
+    <item name='mod/speed' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='mod/trigger' type='decimal' priority='0' mixweight='1'>30.000000</item>
+    <item name='mod/turn' type='decimal' priority='0' mixweight='1'>1.000000</item>
     <item name='onsetVar/function' type='string' priority='3' mixweight='1'>0</item>
     <item name='onsetVar/function/parameter1' type='decimal' priority='5' mixweight='1'>0.000000</item>
     <item name='onsetVar/function/parameter2' type='decimal' priority='4' mixweight='1'>0.000000</item>
@@ -96,8 +96,8 @@
     <item name='pVar/slide/down' type='integer' priority='0' mixweight='1'>0</item>
     <item name='pVar/slide/up' type='integer' priority='0' mixweight='1'>0</item>
     <item name='pan/mode' type='boolean' priority='0' mixweight='1'>1</item>
-    <item name='pan/rate' type='decimal' priority='0' mixweight='1'>5.000000</item>
-    <item name='pan/spread' type='decimal' priority='0' mixweight='1'>0.600000</item>
+    <item name='pan/rate' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='pan/spread' type='decimal' priority='0' mixweight='1'>0.330000</item>
     <item name='pitch/function' type='string' priority='3' mixweight='1'>0</item>
     <item name='pitch/function/parameter1' type='decimal' priority='5' mixweight='1'>0.000000</item>
     <item name='pitch/function/parameter2' type='decimal' priority='4' mixweight='1'>0.000000</item>
@@ -121,7 +121,7 @@
     <item name='pitch/variation' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='playback/direction' type='integer' priority='3' mixweight='1'>0</item>
     <item name='playback/position' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='playback/speed' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='playback/speed' type='decimal' priority='4' mixweight='1'>1.000000</item>
     <item name='position/function' type='string' priority='3' mixweight='1'>0</item>
     <item name='position/function/parameter1' type='decimal' priority='5' mixweight='1'>0.000000</item>
     <item name='position/function/parameter2' type='decimal' priority='4' mixweight='1'>0.000000</item>
@@ -142,7 +142,7 @@
     <item name='position/slide/down' type='integer' priority='0' mixweight='1'>0</item>
     <item name='position/slide/up' type='integer' priority='0' mixweight='1'>0</item>
     <item name='selection/mode' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='selection/range' type='decimalArray' priority='0' mixweight='1'>0</item>
+    <item name='selection/range' type='decimalArray' priority='0' mixweight='1'>0.000000 2311.541992 </item>
     <item name='size/function' type='string' priority='3' mixweight='1'>0</item>
     <item name='size/function/parameter1' type='decimal' priority='5' mixweight='1'>0.000000</item>
     <item name='size/function/parameter2' type='decimal' priority='4' mixweight='1'>0.000000</item>
@@ -221,6 +221,6 @@
     <item name='turn/slide/up' type='integer' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
-    <item name='waveform/normalize' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='waveform/normalize' type='decimal' priority='0' mixweight='1'>1.000000</item>
   </preset>
 </jamoma>
