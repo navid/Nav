@@ -327,7 +327,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Rogs1~" ],
+					"args" : [ "Rogs2~" ],
 					"id" : "obj-24",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.nav.rogs~.maxpat",
@@ -507,7 +507,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/fileBrowse-rogs1" ],
+					"args" : [ "/fileBrowse-rogs2" ],
 					"id" : "obj-27",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -524,7 +524,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Rogs1Out~" ],
+					"args" : [ "Rogs2Out~" ],
 					"id" : "obj-28",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
@@ -1310,28 +1310,28 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-108::obj-67" : [ "SelectAll", "SelectAll", 0 ],
+			"obj-4::obj-69" : [ "SelectFile", "SelectFile", 0 ],
+			"obj-24::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-24::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
+			"obj-4::obj-68" : [ "DropFile", "DropFile", 0 ],
+			"obj-24::obj-108::obj-103" : [ "Direction[4]", "Direction", 0 ],
+			"obj-4::obj-89" : [ "lock", "Lock", 0 ],
+			"obj-24::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-4::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-4::obj-51" : [ "Soundfile", "Soundfile", 0 ],
 			"obj-4::obj-108::obj-87" : [ "Direction[2]", "Direction", 0 ],
-			"obj-4::obj-108::obj-101" : [ "Scrub", "Scrub", 0 ],
+			"obj-4::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
 			"obj-24::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
 			"obj-24::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
-			"obj-4::obj-89" : [ "lock", "Lock", 0 ],
-			"obj-4::obj-68" : [ "DropFile", "DropFile", 0 ],
-			"obj-24::obj-108::obj-87" : [ "Direction[3]", "Direction", 0 ],
-			"obj-24::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
-			"obj-4::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-24::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-24::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-4::obj-69" : [ "SelectFile", "SelectFile", 0 ],
-			"obj-4::obj-74" : [ "note", "Note", 0 ],
 			"obj-24::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
-			"obj-24::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-4::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ],
-			"obj-4::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-24::obj-108::obj-103" : [ "Direction[4]", "Direction", 0 ],
-			"obj-4::obj-51" : [ "Soundfile", "Soundfile", 0 ],
-			"obj-24::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ]
+			"obj-24::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-4::obj-74" : [ "note", "Note", 0 ],
+			"obj-24::obj-108::obj-87" : [ "Direction[3]", "Direction", 0 ],
+			"obj-4::obj-108::obj-67" : [ "SelectAll", "SelectAll", 0 ],
+			"obj-24::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
+			"obj-4::obj-108::obj-101" : [ "Scrub", "Scrub", 0 ],
+			"obj-4::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

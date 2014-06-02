@@ -1,0 +1,80 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Input",
+		"slots" : 		{
+
+		}
+,
+		"clientstate" : 		{
+			"active" : 			{
+				"Dual_SP_Suffixes" : 0,
+				"Dual_SP_Suffixes::u011002722" : 0,
+				"Player" : 0,
+				"Player::u070002720" : 0,
+				"Player[1]" : 0,
+				"Player[1]::u942002719" : 0,
+				"Player[2]" : 0,
+				"Player[2]::u461002713" : 0,
+				"Player[5]" : 0,
+				"Player[5]::u753002714" : 0,
+				"Player[3]" : 0,
+				"Player[3]::u276002711" : 0,
+				"Player[4]" : 0,
+				"Player[4]::u064002708" : 0,
+				"Player[6]" : 0,
+				"Player[6]::u027000772" : 0,
+				"Player[7]" : 0,
+				"Player[7]::u767002699" : 0,
+				"Player[8]" : 0,
+				"Player[8]::u705002700" : 0,
+				"dual-SP::Impro3::Impro3" : 0,
+				"dual-SP::Impro3::u075002702" : 0,
+				"dual-SP::Impro1::Impro1" : 0,
+				"dual-SP::Impro1::u723002701" : 0,
+				"dual-SP::Impro2::Impro2" : 0,
+				"dual-SP::Impro2::u982002639" : 0,
+				"BachianBirds-v9~" : 0,
+				"BachianBirds-v9~::u813002697" : 0,
+				"omax.effect~" : 0,
+				"omax.effect~::u901002696" : 0,
+				"omax.effect~[1]" : 0,
+				"omax.effect~[1]::u967002694" : 0,
+				"omax.effect~[2]" : 0,
+				"omax.effect~[2]::u392002670" : 0,
+				"omax.effect~[3]" : 0,
+				"omax.effect~[3]::u228002691" : 0,
+				"omax.effect~[4]" : 0,
+				"omax.effect~[4]::u526002689" : 0,
+				"omax.effect~[5]" : 0,
+				"omax.effect~[5]::u810002687" : 0,
+				"omax.effect~[6]" : 0,
+				"omax.effect~[6]::u193002685" : 0,
+				"omax.effect~[7]" : 0,
+				"omax.effect~[7]::u023002683" : 0,
+				"omax.effect~[8]" : 0,
+				"omax.effect~[8]::u580002681" : 0,
+				"na.spat.send.ui[1]" : 0,
+				"na.spat.send.ui[1]::u527002679" : 0,
+				"na.spat.send.ui[2]" : 0,
+				"na.spat.send.ui[2]::u375002678" : 0,
+				"na.spat.send.ui[3]" : 0,
+				"na.spat.send.ui[3]::u940002677" : 0,
+				"na.spat.send.ui[4]" : 0,
+				"na.spat.send.ui[4]::u219002676" : 0,
+				"na.spat.send.ui[5]" : 0,
+				"na.spat.send.ui[5]::u447002675" : 0,
+				"na.spat.send.ui[6]" : 0,
+				"na.spat.send.ui[6]::u603002674" : 0,
+				"na.spat.send.ui[7]" : 0,
+				"na.spat.send.ui[7]::u907002673" : 0,
+				"na.spat.ui" : 0,
+				"na.spat.ui::u768002666" : 0,
+				"na.spat.ui[1]" : 0,
+				"na.spat.ui[1]::u807002668" : 0
+			}
+
+		}
+
+	}
+
+}

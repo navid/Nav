@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 102.0, 49.0, 949.0, 744.0 ],
+		"rect" : [ 459.0, 268.0, 623.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,21 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"args" : [ "mRogs2~" ],
-					"id" : "obj-3",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.nav.rogs~.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "audio.connect" ],
-					"patching_rect" : [ 387.0, 123.0, 300.0, 140.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 72.0, 300.0, 140.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -203,6 +188,21 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "Rogs2~" ],
+					"id" : "obj-24",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.nav.rogs~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "audio.connect" ],
+					"patching_rect" : [ 387.0, 123.0, 300.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 323.0, 74.0, 300.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -211,7 +211,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 694.0, 246.0, 67.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 270.0, 300.0, 12.0 ]
+					"presentation_rect" : [ 323.0, 270.0, 300.0, 12.0 ]
 				}
 
 			}
@@ -378,7 +378,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 16.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 2.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 323.0, 2.0, 300.0, 70.0 ],
 					"varname" : "/fileBrowser[1]"
 				}
 
@@ -395,7 +395,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 331.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 212.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 323.0, 212.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -410,8 +410,22 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 462.0, 446.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 377.0, 393.0, 89.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 301.0, 89.0, 20.0 ],
 					"text" : "num speakers:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 147.5, 375.0, 81.0, 20.0 ],
+					"text" : "r 2rogsRVRB"
 				}
 
 			}
@@ -441,7 +455,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 412.0, 446.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 466.0, 393.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 107.0, 301.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -471,35 +485,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 412.0, 505.5, 182.0, 19.0 ],
 					"text" : "jcom.send jcom.remote.module.to"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "myVues" ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.cueManager.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 550.0, 300.0, 70.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 316.0, 300.0, 70.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.5, 375.0, 81.0, 20.0 ],
-					"text" : "r 2rogsRVRB"
 				}
 
 			}
@@ -576,7 +561,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "audio.connect", "" ],
 									"patching_rect" : [ 50.0, 120.0, 78.0, 20.0 ],
-									"text" : "jcom.gain≈ 8"
+									"text" : "jcom.gain≈ 2"
 								}
 
 							}
@@ -689,7 +674,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 480.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 352.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 165.0, 356.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -719,7 +704,7 @@
 					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 7.0, 401.5, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 282.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 165.0, 286.0, 300.0, 70.0 ],
 					"varname" : "/reverb"
 				}
 
@@ -965,6 +950,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -974,7 +977,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -987,24 +990,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -1055,28 +1040,28 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-68" : [ "DropFile", "DropFile", 0 ],
-			"obj-4::obj-108::obj-67" : [ "SelectAll", "SelectAll", 0 ],
-			"obj-3::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
-			"obj-3::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
-			"obj-4::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ],
-			"obj-4::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-4::obj-89" : [ "lock", "Lock", 0 ],
-			"obj-3::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
-			"obj-3::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-3::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
-			"obj-3::obj-108::obj-103" : [ "Direction[4]", "Direction", 0 ],
-			"obj-4::obj-108::obj-87" : [ "Direction[2]", "Direction", 0 ],
-			"obj-3::obj-74" : [ "note[1]", "Note", 0 ],
 			"obj-4::obj-69" : [ "SelectFile", "SelectFile", 0 ],
-			"obj-4::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-24::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-24::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
+			"obj-4::obj-68" : [ "DropFile", "DropFile", 0 ],
+			"obj-24::obj-108::obj-103" : [ "Direction[4]", "Direction", 0 ],
+			"obj-4::obj-89" : [ "lock", "Lock", 0 ],
+			"obj-24::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-4::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
 			"obj-4::obj-51" : [ "Soundfile", "Soundfile", 0 ],
-			"obj-3::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-3::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
+			"obj-4::obj-108::obj-87" : [ "Direction[2]", "Direction", 0 ],
+			"obj-4::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-24::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-24::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-24::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
+			"obj-24::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-24::obj-89" : [ "lock[1]", "Lock", 0 ],
 			"obj-4::obj-74" : [ "note", "Note", 0 ],
+			"obj-24::obj-108::obj-87" : [ "Direction[3]", "Direction", 0 ],
+			"obj-4::obj-108::obj-67" : [ "SelectAll", "SelectAll", 0 ],
+			"obj-24::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
 			"obj-4::obj-108::obj-101" : [ "Scrub", "Scrub", 0 ],
-			"obj-3::obj-108::obj-87" : [ "Direction[3]", "Direction", 0 ],
-			"obj-3::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ]
+			"obj-4::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1269,20 +1254,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jmod.cueManager.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jcom.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -1380,10 +1351,6 @@
 			}
 , 			{
 				"name" : "!.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.cuemanager.mxo",
 				"type" : "iLaX"
 			}
  ]

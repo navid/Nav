@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 94.0, 80.0, 127.0, 207.0 ],
+		"rect" : [ 94.0, 80.0, 190.0, 208.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -188,8 +189,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 107.0, 123.0, 17.996094, 18.0 ],
 					"triangle" : 0,
-					"tricolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
-					"varname" : "channls"
+					"tricolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ]
 				}
 
 			}
@@ -366,7 +366,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "int", "int", "float", "int", "float", "int" ],
 					"patching_rect" : [ 1076.0, 639.0, 107.0, 20.0 ],
-					"text" : "t 20 5 0. 320 0.1 8"
+					"text" : "t 20 5 0. 320 0.1 2"
 				}
 
 			}
@@ -477,8 +477,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 54.0, 94.0, 640.0, 480.0 ],
@@ -976,7 +977,7 @@
 					"patching_rect" : [ 749.571228, 239.086243, 83.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 145.473694, 69.0, 17.0 ],
-					"text" : "bang"
+					"text" : "Impro1"
 				}
 
 			}
@@ -1120,8 +1121,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 230.0, 270.0, 313.0, 326.0 ],
@@ -1653,8 +1655,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1162.0, 44.0, 239.0, 389.0 ],
@@ -1676,7 +1679,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2]",
+						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2][1]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1955,7 +1958,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2]",
+						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2][1]",
 						"tags" : ""
 					}
 ,
@@ -2064,17 +2067,16 @@
 						"Speed" : [ 1.0 ],
 						"Sync" : [ 0 ],
 						"Transposition" : [ 0.0 ],
-						"Xfade" : [ 30 ],
-						"channls" : [ 8 ],
+						"Xfade" : [ 1104 ],
 						"grainDur" : [ 320 ],
-						"onsetVar" : [ 5 ],
+						"onsetVar" : [ 160 ],
 						"pVar" : [ 0 ],
 						"trigger" : [ 20 ],
-						"turn" : [ 0.1 ]
+						"turn" : [ -0.2 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u290005490"
+					"varname" : "u853011685"
 				}
 
 			}
@@ -2089,7 +2091,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 887.0, 574.0, 223.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 854, 318, 1254, 818 ],
+						"client_rect" : [ 67, 153, 446, 382 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 794, -709, 1244, -510 ]
 					}
@@ -2175,7 +2177,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 122.0, 14.0, 25.0, 25.0 ]
 				}
 
@@ -3932,8 +3934,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 245.0, 69.0, 235.0, 400.0 ],
@@ -4348,8 +4351,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ -31.0, -872.0, 573.0, 693.0 ],
@@ -7994,47 +7998,6 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max6/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/patches/m4l-patches/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rogs-sur-Poly.maxpat",
-				"bootpath" : "/Users/Lolita/code/Git/MaxLibraries/Nav/Omax/Omax.nav/abstractions",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sr.maxpat",
-				"bootpath" : "/Users/Lolita/code/MaxSearchPath/IRCAM/OMax_y-4.5.2 /OMax",
-				"patcherrelativepath" : "../../../../../../MaxSearchPath/IRCAM/OMax_y-4.5.2 /OMax",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bc.autoname.js",
-				"bootpath" : "/Users/Lolita/code/MaxSearchPath/IRCAM/OMax_y-4.5.2 /OMax",
-				"patcherrelativepath" : "../../../../../../MaxSearchPath/IRCAM/OMax_y-4.5.2 /OMax",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "OMax.render.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OMax.state2date.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rogs~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
