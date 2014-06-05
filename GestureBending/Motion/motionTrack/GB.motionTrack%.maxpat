@@ -522,7 +522,7 @@
 ,
 					"patching_rect" : [ 426.0, 294.0, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.233322, 0.907906, 46.0, 19.0 ],
+					"presentation_rect" : [ 141.233322, 0.907906, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -576,7 +576,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",

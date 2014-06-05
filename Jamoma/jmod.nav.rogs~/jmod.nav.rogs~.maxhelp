@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 615.0, 386.0, 688.0, 598.0 ],
+		"rect" : [ 1259.0, 693.0, 688.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "audio.connect" ],
-					"patching_rect" : [ 7.0, 364.5, 300.0, 70.0 ],
+					"patching_rect" : [ 7.0, 362.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 392.0, 300.0, 70.0 ],
 					"varname" : "/reverb"
@@ -279,7 +279,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -481,7 +481,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -641,7 +641,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "audio.connect" ],
-					"patching_rect" : [ 7.0, 193.0, 300.0, 140.0 ],
+					"patching_rect" : [ 7.0, 179.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 225.0, 300.0, 140.0 ],
 					"varname" : "rogsSur"
@@ -662,7 +662,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1027,17 +1027,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ],
-			"obj-4::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-4::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-4::obj-108::obj-67" : [ "SelectAll", "SelectAll", 0 ],
-			"obj-4::obj-51" : [ "Soundfile", "Soundfile", 0 ],
-			"obj-4::obj-108::obj-101" : [ "Scrub", "Scrub", 0 ],
 			"obj-4::obj-69" : [ "SelectFile", "SelectFile", 0 ],
-			"obj-4::obj-89" : [ "lock", "Lock", 0 ],
+			"obj-4::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
 			"obj-4::obj-74" : [ "note", "Note", 0 ],
+			"obj-4::obj-108::obj-101" : [ "Scrub", "Scrub", 0 ],
+			"obj-4::obj-108::obj-67" : [ "SelectAll", "SelectAll", 0 ],
+			"obj-4::obj-89" : [ "lock", "Lock", 0 ],
 			"obj-4::obj-108::obj-87" : [ "Direction[2]", "Direction", 0 ],
-			"obj-4::obj-68" : [ "DropFile", "DropFile", 0 ]
+			"obj-4::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-4::obj-51" : [ "Soundfile", "Soundfile", 0 ],
+			"obj-4::obj-68" : [ "DropFile", "DropFile", 0 ],
+			"obj-4::obj-108::obj-103" : [ "Direction[1]", "Direction", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1217,36 +1217,36 @@
 			}
 , 			{
 				"name" : "jmod.sur.reverb~.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.reverb~.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FDN16-16-16d.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FDN.gain.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vary_unit.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
