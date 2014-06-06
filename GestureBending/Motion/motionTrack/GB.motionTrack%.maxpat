@@ -3,12 +3,11 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
-		"rect" : [ 1133.0, 293.0, 325.0, 409.0 ],
+		"rect" : [ 799.0, 439.0, 320.0, 334.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -28,6 +27,81 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.839216, 0.069084, 0.0, 1.0 ],
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 8
+						}
+,
+						"rect" : [ 26.0, 69.0, 302.0, 74.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "/gbMotionCues" ],
+									"id" : "obj-6",
+									"maxclass" : "bpatcher",
+									"name" : "jmod.cueManager.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 0.766682, 2.092102, 300.0, 70.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 4.233318, 333.907898, 300.0, 70.0 ]
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 4.233318, 333.907898, 300.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 240.233307, 0.907906, 57.0, 19.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p presets"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -66,21 +140,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/cueManager" ],
-					"id" : "obj-6",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.cueManager.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 395.0, 300.0, 70.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.233318, 336.907928, 300.0, 70.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.047059, 0.913725, 0.913725, 0.352941 ],
 					"checkedcolor" : [ 0.576471, 0.098039, 0.098039, 0.603922 ],
@@ -93,7 +152,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 383.0, 227.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.233318, 93.907898, 24.0, 24.0 ]
+					"presentation_rect" : [ 0.233318, 93.907898, 24.0, 24.0 ]
 				}
 
 			}
@@ -126,12 +185,11 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
-						"rect" : [ 1016.0, 301.0, 303.0, 271.0 ],
+						"rect" : [ 174.0, 44.0, 303.0, 271.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -162,9 +220,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 7,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 652.0, 691.0, 639.0, 479.0 ],
@@ -419,7 +476,7 @@
 ,
 					"patching_rect" : [ 321.0, 40.0, 72.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.233318, 0.907906, 72.0, 21.0 ],
+					"presentation_rect" : [ 1.233318, 0.907906, 72.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -439,8 +496,12 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.729412, 0.729412, 0.729412, 0.37 ],
+					"bgcolor2" : [ 0.921569, 0.921569, 0.921569, 0.26 ],
+					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
+					"htextcolor" : [ 0.011765, 0.011765, 0.011765, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "jit.fpsgui",
 					"numinlets" : 1,
@@ -448,7 +509,8 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 310.0, 90.0, 80.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.233307, 297.907928, 80.0, 34.0 ]
+					"presentation_rect" : [ 240.233307, 297.907928, 80.0, 34.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -464,9 +526,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 1174.0, 456.0, 73.0, 64.0 ],
@@ -522,7 +583,7 @@
 ,
 					"patching_rect" : [ 426.0, 294.0, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.233322, 0.907906, 46.0, 19.0 ],
+					"presentation_rect" : [ 137.233322, 0.907906, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -552,9 +613,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 320.0, 547.0 ],
@@ -612,7 +672,7 @@
 ,
 					"patching_rect" : [ 371.0, 294.0, 48.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.233315, 0.907906, 48.0, 19.0 ],
+					"presentation_rect" : [ 76.233315, 0.907906, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -640,7 +700,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 145.0, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.233318, 93.907898, 320.0, 240.0 ]
+					"presentation_rect" : [ 0.233318, 93.907898, 320.0, 240.0 ]
 				}
 
 			}
@@ -656,7 +716,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 31.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.233318, 21.907902, 300.0, 70.0 ],
+					"presentation_rect" : [ 1.233318, 21.907902, 300.0, 70.0 ],
 					"varname" : "/motion%"
 				}
 
