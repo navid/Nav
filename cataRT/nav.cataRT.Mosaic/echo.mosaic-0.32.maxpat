@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1516.0, 61.0, 404.0, 730.0 ],
+		"rect" : [ 1573.0, 44.0, 369.0, 725.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1516.0, 61.0, 404.0, 730.0 ],
+		"defrect" : [ 1573.0, 44.0, 369.0, 725.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,8 +21,8 @@
 		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -340,13 +340,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 484.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p init"
@@ -881,13 +881,13 @@
 ,
 					"patching_rect" : [ 1111.0, 328.0, 80.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p pattr priority"
@@ -896,7 +896,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "totalFelix-cataRT.json",
+					"autorestore" : "cataRT.tableTap.json",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -907,10 +907,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1110.0, 353.0, 189.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"client_rect" : [ 854, 318, 1254, 818 ],
 						"storage_rect" : [ 794, -709, 1244, -510 ],
-						"paraminitmode" : 0
+						"paraminitmode" : 0,
+						"parameter_enable" : 0,
+						"client_rect" : [ 854, 318, 1254, 818 ]
 					}
 ,
 					"text" : "pattrstorage catart.lcd @flat 1 @savemode 0",
@@ -1100,13 +1100,13 @@
 ,
 					"patching_rect" : [ 388.0, 566.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p percussions"
@@ -1302,7 +1302,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 107.0, 114.0, 50.0, 19.0 ],
-									"text" : "18 16"
+									"text" : "all"
 								}
 
 							}
@@ -1891,13 +1891,13 @@
 ,
 									"patching_rect" : [ 8.0, 183.0, 92.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 9.0,
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 9.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 9.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial"
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p lookup-descriptors"
@@ -1928,7 +1928,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 95.0, 152.0, 195.0, 15.0 ],
-									"text" : "set-descriptors 18 16"
+									"text" : "set-descriptors 14 15 16 17 18 19 20 21 22 23"
 								}
 
 							}
@@ -2361,13 +2361,13 @@
 ,
 					"patching_rect" : [ 604.0, 492.0, 128.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adapt-cataRT targtutcorpus"
@@ -2568,13 +2568,13 @@
 ,
 					"patching_rect" : [ 304.0, 567.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p percussions"
@@ -2846,13 +2846,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 46.0, 49.0, 72.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial"
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p remoteZL"
@@ -2867,13 +2867,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 322.0, 167.0, 33.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p IO"
@@ -3003,13 +3003,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 306.0, 80.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 13.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p TO DO"
@@ -3052,9 +3052,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 437.0, 331.0, 127.0, 391.0 ],
+						"rect" : [ 529.0, 44.0, 127.0, 469.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 437.0, 331.0, 127.0, 391.0 ],
+						"defrect" : [ 529.0, 44.0, 127.0, 469.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 13.0,
@@ -3069,7 +3069,6 @@
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-97",
@@ -3095,11 +3094,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 556.0, 99.0, 111.0, 17.0 ],
 									"restore" : 									{
-										"SoundSetMatrix" : [ 0, 2, 1, 0, 3, 1, 0, 4, 1, 0, 5, 1, 0, 6, 1, 0, 7, 1, 0, 8, 1, 0, 11, 1, 0, 12, 1 ]
+										"SoundSetMatrix" : [ 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 14, 1, 0, 17, 1, 0, 18, 1, 0, 19, 1, 0, 22, 1 ]
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u147024712"
+									"varname" : "u194024073"
 								}
 
 							}
@@ -3697,13 +3696,13 @@
 ,
 									"patching_rect" : [ 204.0, 20.0, 89.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial"
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p soundfiile-menu"
@@ -3715,7 +3714,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-101",
-									"items" : [ "indian chanting only.aif", ",", "Vc-pizz-sec-A#2-pp-3c.aif", ",", "Vc-pizz-sec-A#4-ff-1c.aif", ",", "Vc-pizz-sec-A3-mf-2c.aif", ",", "Vc-pizz-sec-A4-pp-1c.aif", ",", "Vc-pizz-sec-C#2-ff-4c.aif", ",", "Vc-pizz-sec-C#5-mf-1c.aif", ",", "Vc-pizz-sec-C4-ff-1c.aif", ",", "Vc-pizz-sec-D#3-ff-2c.aif", ",", "Vc-pizz-sec-D#4-mf-1c.aif", ",", "Vc-pizz-sec-D3-mf-2c.aif", ",", "Vc-pizz-sec-D5-pp-1c.aif", ",", "Vc-pizz-sec-E4-mf-1c.aif", ",", "Vc-pizz-sec-F#3-ff-2c.aif", ",", "Vc-pizz-sec-F2-ff-4c.aif", ",", "Vc-pizz-sec-G#2-ff-3c.aif", ",", "Vc-pizz-sec-G#4-mf-1c.aif", ",", "Vc-pizz-sec-G3-mf-2c.aif", ",", "080 Indian Basstabla 01.wav", ",", "110 Indian Basstabla 01.wav", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Vc-pizz-lv-A#2-pp-3c.aif", ",", "Vc-pizz-lv-A3-mf-2c.aif", ",", "Vc-pizz-lv-B3-pp-1c.aif", ",", "Vc-pizz-lv-C#5-ff-1c.aif", ",", "Vc-pizz-lv-D#2-mf-4c.aif", ",", "Vc-pizz-lv-D3-ff-2c.aif" ],
+									"items" : [ "136 Techno Kick 01.wav", ",", "136 Techno Kick Roll.wav", ",", "138 Dance Kick.wav", ",", "138 Techno Kick Roll.wav", ",", "138 Techno Kick.wav", ",", "142 Techno Kick 00.wav", ",", "146 Techno Kick 01.wav", ",", "146 Techno Kick 02.wav", ",", "152 Techno Kick 02.wav", ",", "164 Techno Reverse Kick.wav", ",", "Kick.aif", ",", "Kick02.aif", ",", "134 Techno Kick 02.wav", ",", "144 Techno Kick.wav", ",", "148 Techno Kick.wav", ",", "164 Techno Kick 02.wav", ",", "164 Techno Kick 03.wav", ",", "170 D&B Drums 01.wav", ",", "170 D&B Drums 02.wav", ",", "170 D&B Drums 03.wav", ",", "175 D&B Drums 04.wav", ",", "175 D&B Drums 05.wav", ",", "175 D&B Drums 06.wav", ",", "175 D&B Drums 07.wav", ",", "175 D&B Drums 08.wav", ",", "175 D&B Drums 09.wav", ",", "175 D&B Drums 10.wav", ",", "175 D&B Drums 11.wav", ",", "175 D&B Drums 12.wav", ",", "175 D&B Drums 13.wav", ",", "175 D&B Drums 14.wav", ",", "175 D&B Drums 15.wav", ",", "175 D&B Drums 16.wav", ",", "175 D&B Drums 17.wav", ",", "175 D&B Drums 18.wav", ",", "175 D&B Drums 19.wav", ",", "175 D&B Drums 20.wav", ",", "175 D&B Drums 21.wav", ",", "175 D&B Drums 22.wav", ",", "175 D&B Drums 23.wav", ",", "175 D&B Drums 24.wav", ",", "175 D&B Drums 25.wav", ",", "175 D&B Drums 26.wav", ",", "175 D&B Drums 27.wav", ",", "175 D&B Drums 28.wav", ",", "175 D&B Drums 29.wav", ",", "175 D&B Drums 30.wav", ",", "175 D&B Drums 31.wav", ",", "175 D&B Drums 32.wav", ",", "175 D&B Drums 33.wav", ",", "175 D&B Drums 34.wav", ",", "175 D&B Drums 35.wav", ",", "175 D&B Drums 36.wav", ",", "175 D&B Drums 37.wav", ",", "kzLoop.wav", ",", "074 HipHop Combo_C.wav", ",", "140 Dance Combo 01_G.wav", ",", "168 Reggae Combo_G#.wav", ",", "175 D&B Combo 10_F#m.wav", ",", "080 Indian Basstabla 01.wav", ",", "110 Indian Basstabla 01.wav", ",", "080 Indian Basstabla 02.wav", ",", "080 Indian Basstabla 03.wav", ",", "080 Indian Tabla 02.wav", ",", "080 Indian Tabla 03.wav", ",", "090 Indian Basstabla 01.wav", ",", "090 Indian Basstabla 02.wav", ",", "090 Indian Tabla 01.wav", ",", "090 Indian Tabla 02.wav", ",", "090 Indian Tabla Fill.wav", ",", "100 Indian Basstabla 01.wav", ",", "100 Indian Tabla (Trp).wav", ",", "100 Indian Tabla 02.wav", ",", "100 Indian Tabla Fill.wav", ",", "110 Indian Basstabla 01.wav", ",", "110 Indian Tabla (Trp).wav", ",", "110 Indian Tabla 01.wav", ",", "120 Indian Basstabla.wav", ",", "120 Indian Tabla 01.wav", ",", "080 Indian Idakka.wav", ",", "080 Indian Khanjira Fill.wav", ",", "090 Indian Ghatam 001.wav", ",", "120 Indian Idakka.wav", ",", "127 South American Cajon.wav", ",", "Tabla- Mukti (Snippet).wav", ",", "tabla-voice  (Snippet) 2.wav", ",", "090 Indian Ghatam 001.aiff", ",", "27-03 Bongos Latin Rhythm.aif", ",", "Ghatam 001EQ.aif", ",", "Tabla-shfr-loop.aif", ",", "group2-snip.wav", ",", "mouth-cough01.aif", ",", "laugh-long-many.aif", ",", "mouth-gasp02(laugh).aif", ",", "indian chanting only.aif", ",", "tabla-voice  (Snippet).wav", ",", "Andre_Roy (Snippet).wav", ",", "Benat01.mono (Snippet).wav", ",", "Benat05.mono (Snippet).wav", ",", "BenatText2-text.mono (Snippet).wav", ",", "BH1.1.110206-002 (Snippet).wav", ",", "David_McGimpsey (Snippet) 2.wav", ",", "David_McGimpsey (Snippet).wav", ",", "H5.1.110204-005 (Snippet) 2.wav", ",", "H5.1.110204-005 (Snippet).wav", ",", "jason -angles (Snippet).wav", ",", "Kat (Snippet).wav", ",", "R8.1.110205-004 (Snippet).wav", ",", "Sep09 minimal voice Picked (Snippet).wav", ",", "sina - from slip 3.3 (Snippet).wav", ",", "Sina_Queyras.aif.aifc (Snippet).wav", ",", "Stephanie_Bolster.aif.aifc (Snippet).wav", ",", "PV-SpectralDelay--0.aiff", ",", "Bamboo2.wav", ",", "Bamboo.aif", ",", "Synthbass116_E.wav", ",", "E-Bass_Dm.aif", ",", "E-Bass_Gm.aif", ",", "a1.wav", ",", "a2.wav", ",", "a3.wav", ",", "b1.wav", ",", "b2.wav", ",", "c1.wav", ",", "c2.wav", ",", "d1.wav", ",", "d2.wav", ",", "e1.wav", ",", "e2.wav", ",", "f1.wav", ",", "f2.wav", ",", "g1.wav", ",", "g2.wav", ",", "g3.wav", ",", "mc1_swp1.aif", ",", "mc1_swp2.aif", ",", "mc1_swp3vsubtle.aif", ",", "mc1_swp3vsubtle10.aif", ",", "mc1_swp3vsubtle11.aif", ",", "mc1_swp3vsubtle12.aif", ",", "mc1_swp3vsubtle13.aif", ",", "mc1_swp3vsubtle14.aif", ",", "mc1_swp3vsubtle15.aif", ",", "mc1_swp3vsubtle16.aif", ",", "mc1_swp3vsubtle17.aif", ",", "mc1_swp3vsubtle18.aif", ",", "mc1_swp3vsubtle19.aif", ",", "mc1_swp3vsubtle2.aif", ",", "mc1_swp3vsubtle20.aif", ",", "mc1_swp3vsubtle21.aif", ",", "mc1_swp3vsubtle22.aif", ",", "mc1_swp3vsubtle23.aif", ",", "mc1_swp3vsubtle24.aif", ",", "mc1_swp3vsubtle24inv1.aif", ",", "mc1_swp3vsubtle24inv2.aif", ",", "mc1_swp3vsubtle24inv3.aif", ",", "mc1_swp3vsubtle24inv3trhs1.aif", ",", "mc1_swp3vsubtle3.aif", ",", "mc1_swp3vsubtle4.aif", ",", "mc1_swp3vsubtle5.aif", ",", "mc1_swp3vsubtle6.aif", ",", "mc1_swp3vsubtle7.aif", ",", "mc1_swp3vsubtle8.aif", ",", "mc1_swp3vsubtle9.aif", ",", "mc1_swpinvthr_fltr1.aif", ",", "mc1_swpinvthr_fltr1_swp2.aif", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Vc-pizz-lv-A#2-pp-3c.aif", ",", "Vc-pizz-lv-A3-mf-2c.aif", ",", "Vc-pizz-lv-B3-pp-1c.aif", ",", "Vc-pizz-lv-C#5-ff-1c.aif", ",", "Vc-pizz-lv-D#2-mf-4c.aif", ",", "Vc-pizz-lv-D3-ff-2c.aif", ",", "Vc-pizz-sec-A#2-pp-3c.aif", ",", "Vc-pizz-sec-A#4-ff-1c.aif", ",", "Vc-pizz-sec-A3-mf-2c.aif", ",", "Vc-pizz-sec-A4-pp-1c.aif", ",", "Vc-pizz-sec-C#2-ff-4c.aif", ",", "Vc-pizz-sec-C#5-mf-1c.aif", ",", "Vc-pizz-sec-C4-ff-1c.aif", ",", "Vc-pizz-sec-D#3-ff-2c.aif", ",", "Vc-pizz-sec-D#4-mf-1c.aif", ",", "Vc-pizz-sec-D3-mf-2c.aif", ",", "Vc-pizz-sec-D5-pp-1c.aif", ",", "Vc-pizz-sec-E4-mf-1c.aif", ",", "Vc-pizz-sec-F#3-ff-2c.aif", ",", "Vc-pizz-sec-F2-ff-4c.aif", ",", "Vc-pizz-sec-G#2-ff-3c.aif", ",", "Vc-pizz-sec-G#4-mf-1c.aif", ",", "Vc-pizz-sec-G3-mf-2c.aif", ",", "Vn-pizz-bartok-A3-ff-4c.aif", ",", "Vn-pizz-bartok-C#5-ff-2c.aif", ",", "Vn-pizz-bartok-D#5-ff-3c.aif", ",", "Vn-pizz-bartok-F#4-ff-3c.aif", ",", "Vn-pizz-bartok-G4-ff-3c.aif", ",", "Vn-pizz-lv-A#4-mf-3c.aif", ",", "Vn-pizz-lv-A#6-mf-1c.aif", ",", "Vn-pizz-lv-A4-pp-3c.aif", ",", "Vn-pizz-lv-B5-ff-2c.aif", ",", "Vn-pizz-lv-C4-mf-4c.aif", ",", "Vn-pizz-lv-C7-ff-1c.aif", ",", "Vn-pizz-lv-D4-mf-3c.aif", ",", "Vn-pizz-lv-E5-ff-3c.aif", ",", "Vn-pizz-lv-F#5-ff-1c.aif", ",", "Vn-pizz-lv-F5-ff-1c.aif", ",", "Vn-pizz-lv-G#4-pp-3c.aif", ",", "Vn-pizz-lv-G3-pp-4c.aif", ",", "Vn-pizz-lv-G6-ff-1c.aif", ",", "microplay-bassthump_glitch01.aif", ",", "microplay-bassthump_glitch02.aif", ",", "microplay-bassthump_glitch03.aif", ",", "microplay-clicks_warm01.aif", ",", "microplay-low-sr-pulse04.aif", ",", "microplay-pulse(slower).aif", ",", "microplay-tonepulse02.aif", ",", "microplay_thump_flutter01.aif", ",", "mono-vc3xvc4-cep.aiff", ",", "track 2#1.aif", ",", "track 2#10.aif", ",", "track 2#11.aif", ",", "track 2#12.aif", ",", "track 2#13.aif", ",", "track 2#2.aif", ",", "track 2#3.aif", ",", "track 2#4.aif", ",", "track 2#5.aif", ",", "track 2#6.aif", ",", "track 2#7.aif", ",", "track 2#8.aif", ",", "track 2#9.aif", ",", "track 2.aif", ",", "track 5#1.aif", ",", "track 5#10.aif", ",", "track 5#11.aif", ",", "track 5#12.aif", ",", "track 5#13.aif", ",", "track 5#14.aif", ",", "track 5#15.aif", ",", "track 5#16.aif", ",", "track 5#17.aif", ",", "track 5#18.aif", ",", "track 5#19.aif", ",", "track 5#2.aif", ",", "track 5#20.aif", ",", "track 5#21.aif", ",", "track 5#22.aif", ",", "track 5#3.aif", ",", "track 5#4.aif", ",", "track 5#5.aif", ",", "track 5#6.aif", ",", "track 5#7.aif", ",", "track 5#8.aif", ",", "track 5#9.aif", ",", "track 5.aif", ",", "track1#1.aif", ",", "track1#10.aif", ",", "track1#11.aif", ",", "track1#12.aif", ",", "track1#2.aif", ",", "track1#3.aif", ",", "track1#4.aif", ",", "track1#5.aif", ",", "track1#6.aif", ",", "track1#7.aif", ",", "track1#8.aif", ",", "track1#9.aif", ",", "track1.aif", ",", "track2.aif", ",", "track3#1.aif", ",", "track3#10.aif", ",", "track3#11.aif", ",", "track3#12.aif", ",", "track3#13.aif", ",", "track3#14.aif", ",", "track3#15.aif", ",", "track3#16.aif", ",", "track3#2.aif", ",", "track3#3.aif", ",", "track3#4.aif", ",", "track3#5.aif", ",", "track3#6.aif", ",", "track3#7.aif", ",", "track3#8.aif", ",", "track3#9.aif", ",", "track3.aif", ",", "track4#1.aif", ",", "track4#10.aif", ",", "track4#11.aif", ",", "track4#12.aif", ",", "track4#13.aif", ",", "track4#14.aif", ",", "track4#15.aif", ",", "track4#16.aif", ",", "track4#17.aif", ",", "track4#18.aif", ",", "track4#19.aif", ",", "track4#2.aif", ",", "track4#20.aif", ",", "track4#21.aif", ",", "track4#22.aif", ",", "track4#23.aif", ",", "track4#24.aif", ",", "track4#25.aif", ",", "track4#26.aif", ",", "track4#27.aif", ",", "track4#28.aif", ",", "track4#29.aif", ",", "track4#3.aif", ",", "track4#30.aif", ",", "track4#4.aif", ",", "track4#5.aif", ",", "track4#6.aif", ",", "track4#7.aif", ",", "track4#8.aif", ",", "track4#9.aif", ",", "track4.aif", ",", "improvisedVoice.aif", ",", "A-a mirage on Mars.wav", ",", "A-a mummy.wav", ",", "A-a rumble.wav", ",", "A-A shift in consciousness.wav", ",", "A-abandoned parking lot.wav", ",", "A-all deserts.wav", ",", "A-Am I awake.wav", ",", "A-and the butterfly effect.wav", ",", "A-and the DroneBones another.wav", ",", "A-another.wav", ",", "A-are but one.wav", ",", "A-army of skateboarders.wav", ",", "A-as an ear in the sky.wav", ",", "A-awake.wav", ",", "A-Behold the Wino-2.wav", ",", "A-Behold the Wino-2_001.wav", ",", "A-Behold the Wino.wav", ",", "A-bidding.wav", ",", "A-Bones.wav", ",", "A-bony constituents.wav", ",", "A-butterfly effect.wav", ",", "A-certain roiling frequencies.wav", ",", "A-consciousness.wav", ",", "A-dead.wav", ",", "A-desert.wav", ",", "A-deserts.wav", ",", "A-diverse seas of sands.wav", ",", "A-DroneBones.wav", ",", "A-Dry Bones.wav", ",", "A-ear in the sky.wav", ",", "A-effects a mirage on Mars.wav", ",", "A-elegant wrapping.wav", ",", "A-evil.wav", ",", "A-frequencies.wav", ",", "A-guard me from evil.wav", ",", "A-I began to hear a rumble.wav", ",", "A-in an abandoned parking lot.wav", ",", "A-light refracts.wav", ",", "A-linked by certain roiling frequencies.wav", ",", "A-linked by frequency shifts.wav", ",", "A-magic frequencies.wav", ",", "A-Mars.wav", ",", "A-me.wav", ",", "A-mumbling.wav", ",", "A-my dream.wav", ",", "A-my same bony constituents.wav", ",", "A-one desert.wav", ",", "A-one.wav", ",", "A-only describe.wav", ",", "A-parking lot.wav", ",", "A-picked clean.wav", ",", "A-piecing themselves into DroneBones.wav", ",", "A-piecing themselves.wav", ",", "A-raggly and skeletal.wav", ",", "A-refracts.wav", ",", "A-revealed to me.wav", ",", "A-sands and linen.wav", ",", "A-skeletal.wav", ",", "A-skies.wav", ",", "A-sky.wav", ",", "A-survive.wav", ",", "A-swaddled child.wav", ",", "A-the desert dead.wav", ",", "A-The Ear-2.wav", ",", "A-the frequencies of The Ear.wav", ",", "A-the glory of the desert dead.wav", ",", "A-the light refracts.wav", ",", "A-The parking lot.wav", ",", "A-the Valley of Dry Bones.wav", ",", "A-their bidding.wav", ",", "A-This was my dream.wav", ",", "A-to do their bidding.wav", ",", "A-to serve me.wav", ",", "A-to the skies.wav", ",", "A-transmit one reality.wav", ",", "A-transmitted magic frequencies.wav", ",", "A-up to the skies.wav", ",", "A-Who will survive.wav", ",", "W-a mirage on Mars.wav", ",", "W-a mummy.wav", ",", "W-A shift in consciousness in a deserted parking lot.wav", ",", "W-a Wino.wav", ",", "W-abandoned parking lot.wav", ",", "W-all deserts are but one desert.wav", ",", "W-Am I awake.wav", ",", "W-and the DroneBones another.wav", ",", "W-another.wav", ",", "W-army of skateboarders.wav", ",", "W-awake.wav", ",", "W-Behold the Wino is a mummy.wav", ",", "W-bidding.wav", ",", "W-bony constituents.wav", ",", "W-but who am I.wav", ",", "W-butterfly effect.wav", ",", "W-child.wav", ",", "W-consciousness in a deserted parking lot.wav", ",", "W-continues to transmit.wav", ",", "W-dead.wav", ",", "W-desert dead.wav", ",", "W-do their bidding.wav", ",", "W-DroneBones-2.wav", ",", "W-Dry Bones.wav", ",", "W-Ear in the sky.wav", ",", "W-evil.wav", ",", "W-frequencies of The Ear.wav", ",", "W-frequency shifts.wav", ",", "W-from evil.wav", ",", "W-glittering sands and linen.wav", ",", "W-glory of the desert dead.wav", ",", "W-Is that my own mumbling.wav", ",", "W-light refracts.wav", ",", "W-magic frequencies.wav", ",", "W-Mars.wav", ",", "W-me.wav", ",", "W-mumbling.wav", ",", "W-my dream.wav", ",", "W-my own mumbling.wav", ",", "W-my same bony constituents.wav", ",", "W-one desert.wav", ",", "W-one reality.wav", ",", "W-only to be awakened by.wav", ",", "W-parking lot-3.wav", ",", "W-popping into place.wav", ",", "W-raggly and skeletal.wav", ",", "W-reality.wav", ",", "W-refracts.wav", ",", "W-rumble.wav", ",", "W-serve me.wav", ",", "W-skies.wav", ",", "W-sky.wav", ",", "W-survive.wav", ",", "W-swaddled child.wav", ",", "W-the butterfly effect.wav", ",", "W-the desert dead.wav", ",", "W-The Ear-2.wav", ",", "W-the frequencies of The Ear.wav", ",", "W-the light refracts.wav", ",", "W-The parking lot is The Valley of Dry Bones.wav", ",", "W-The parking lot.wav", ",", "W-the skateboarders transmit one reality.wav", ",", "W-the skies.wav", ",", "W-The Valley of Dry Bones.wav", ",", "W-the Wino is a mummy.wav", ",", "W-their bidding.wav", ",", "W-thousands of yards.wav", ",", "W-to do their bidding.wav", ",", "W-to serve me.wav", ",", "W-transmit.wav", ",", "W-up to the skies.wav", ",", "W-who am I.wav", ",", "W-Who will survive.wav", ",", "W-yards of elegant wrapping.wav", ",", "A-a jumbling.wav", ",", "A-A shift.wav", ",", "A-a wino.wav", ",", "A-All deserts are linked.wav", ",", "A-All deserts-2.wav", ",", "A-all swaddled.wav", ",", "A-and here.wav", ",", "A-and the DroneBones.wav", ",", "A-and the parking lot.wav", ",", "A-army of bones.wav", ",", "A-as an ear.wav", ",", "A-asleep.wav", ",", "A-awakened by.wav", ",", "A-awakened.wav", ",", "A-before me.wav", ",", "A-Behold the Wino-2.wav", ",", "A-Behold.wav", ",", "A-bones popping.wav", ",", "A-bow low.wav", ",", "A-but the skateboarders transmit.wav", ",", "A-but who am I.wav", ",", "A-consciousness in a deserted parking lot.wav", ",", "A-continues to transmit.wav", ",", "A-deserted parking lot.wav", ",", "A-deserts are linked.wav", ",", "A-Dry.wav", ",", "A-frequencies-2.wav", ",", "A-frequency shifts.wav", ",", "A-glittering sands.wav", ",", "A-guard me.wav", ",", "A-I fell asleep.wav", ",", "A-I fell.wav", ",", "A-I hear a jumbling.wav", ",", "A-I look up.wav", ",", "A-it was revealed.wav", ",", "A-jackals radiating.wav", ",", "A-jackals.wav", ",", "A-jumbling of bones-2.wav", ",", "A-jumbling of bones.wav", ",", "A-linked.wav", ",", "A-may it guard me.wav", ",", "A-my own mumbling.wav", ",", "A-my same.wav", ",", "A-one reality.wav", ",", "A-only to be awakened.wav", ",", "A-or are those my same.wav", ",", "A-parking lot teems.wav", ",", "A-parking lot-2.wav", ",", "A-parking lot-3.wav", ",", "A-picked clean by jackals.wav", ",", "A-piecing themselves into.wav", ",", "A-popping into place.wav", ",", "A-radiating under the frequencies.wav", ",", "A-raggly.wav", ",", "A-revealed.wav", ",", "A-sands.wav", ",", "A-seas of sands.wav", ",", "A-skateboarders.wav", ",", "A-swaddled in glittering sands.wav", ",", "A-teems with an army.wav", ",", "A-The Ear continues.wav", ",", "A-The ear transmitted.wav", ",", "A-The ear.wav", ",", "A-the glory.wav", ",", "A-themselves.wav", ",", "A-they bow low before me.wav", ",", "A-they bow low.wav", ",", "A-this army of bones.wav", ",", "A-thousands of yards.wav", ",", "A-to be given.wav", ",", "A-transmitted magic.wav", ",", "A-what I can.wav", ",", "A-with an army.wav", ",", "W-a jumbling of bones.wav", ",", "W-a mirage.wav", ",", "W-A shift in consciousness.wav", ",", "W-A shift.wav", ",", "W-All deserts are linked.wav", ",", "W-all deserts are.wav", ",", "W-all deserts-2.wav", ",", "W-All deserts.wav", ",", "W-all swaddled.wav", ",", "W-and here it was.wav", ",", "W-and the parking lot.wav", ",", "W-are linked.wav", ",", "W-army of bones.wav", ",", "W-asleep.wav", ",", "W-awakened by.wav", ",", "W-began to hear.wav", ",", "W-Behold the Wino-2.wav", ",", "W-Behold the Wino.wav", ",", "W-Behold.wav", ",", "W-bones popping.wav", ",", "W-bones to serve.wav", ",", "W-bones.wav", ",", "W-bow low before me.wav", ",", "W-bow low.wav", ",", "W-consciousness.wav", ",", "W-describe.wav", ",", "W-deserted parking lot.wav", ",", "W-deserts are linked.wav", ",", "W-deserts.wav", ",", "W-diverse seas of sands.wav", ",", "W-dream.wav", ",", "W-DroneBones.wav", ",", "W-elegant wrapping.wav", ",", "W-given this army.wav", ",", "W-given this.wav", ",", "W-glory of the desert.wav", ",", "W-guard me.wav", ",", "W-here it was.wav", ",", "W-I began to hear.wav", ",", "W-I began.wav", ",", "W-I fell asleep.wav", ",", "W-I fell.wav", ",", "W-I hear a jumbling of bones.wav", ",", "W-I look up to the skies.wav", ",", "W-I look up.wav", ",", "W-I look.wav", ",", "W-in a deserted parking lot.wav", ",", "W-in glittering sands.wav", ",", "W-jackals radiating under the frequencies.wav", ",", "W-jackals radiating.wav", ",", "W-jackals.wav", ",", "W-linen.wav", ",", "W-low before me.wav", ",", "W-may it guard.wav", ",", "W-or are those.wav", ",", "W-parking lot-2.wav", ",", "W-parking lot.wav", ",", "W-picked clean by jackals.wav", ",", "W-picked clean.wav", ",", "W-piecing themselves into.wav", ",", "W-piecing themselves.wav", ",", "W-radiating under the frequencies.wav", ",", "W-revealed to me.wav", ",", "W-roiling frequencies.wav", ",", "W-sand linked by roiling frequencies.wav", ",", "W-sands and linen.wav", ",", "W-seas of sands.wav", ",", "W-skateboarders transmit.wav", ",", "W-skeletal.wav", ",", "W-swaddled in glittering sands.wav", ",", "W-swaddled.wav", ",", "W-teems with an army.wav", ",", "W-The Ear transmitted magic.wav", ",", "W-The Ear transmitted.wav", ",", "W-The Ear-3.wav", ",", "W-The Ear.wav", ",", "W-the frequencies.wav", ",", "W-the glory.wav", ",", "W-the light.wav", ",", "W-The Valley.wav", ",", "W-the Wino is-2.wav", ",", "W-the Wino is.wav", ",", "W-the Wino, all swaddled.wav", ",", "W-the Wino-2.wav", ",", "W-the Wino.wav", ",", "W-they bow low before me.wav", ",", "W-This was.wav", ",", "W-thousands.wav", ",", "W-to be given.wav", ",", "W-transmitted magic.wav", ",", "W-what I can only describe.wav", ",", "W-what I.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4325,13 +4324,13 @@
 ,
 									"patching_rect" : [ 80.0, 118.0, 80.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial"
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p soundset-menu"
@@ -4343,7 +4342,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-64",
-									"items" : [ " ", ",", "roger-voice", ",", "WuWei-clicks", ",", "pizzicato-secco", ",", "stems", ",", "gamelan", ",", "Franky", ",", "Bev-TML", ",", "single", ",", "Bass Tabla", ",", "ordinario", ",", "pizzicato-l-vib", ",", "tremolo" ],
+									"items" : [ " ", ",", "1Kick", ",", "1KickLaser", ",", "1Drum n Bass", ",", "1rhythm-combos", ",", "2Bass Tabla", ",", "2Tabla", ",", "2Tabla2", ",", "3Cough", ",", "3Laugh", ",", "3Roger-Indian", ",", "3TablaVoice", ",", "3voice-takattida", ",", "4BreathSPCTRL", ",", "Bambo", ",", "Bass", ",", "bells", ",", "ClicksProcessed", ",", "pizzi2", ",", "GlitchTim", ",", "doepfer ", ",", "Roger-improv", ",", "Smooth", ",", "Clipped" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5024,13 +5023,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 29.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 13.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p SOUNDsets",
@@ -5621,13 +5620,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 246.0, 107.5, 70.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p record-buffer"
@@ -5771,14 +5770,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-79",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 516.0, 195.0, 15.0 ],
+					"patching_rect" : [ 407.0, 516.0, 195.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 195.0, 174.0, 15.0 ],
-					"text" : "set-descriptors 18 16"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 2.0, 195.0, 174.0, 36.0 ],
+					"text" : "select 33.003632 0.000224 0.207687 0.004608 326.603302 0.000003 0.000822 490886.03125 0.217716 0."
 				}
 
 			}
@@ -6039,7 +6040,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 6.0, 125.0, 170.0, 25.0 ],
-					"text" : "loaded 6608 units in 46 sound files of 1.7 min using 19.701084 MB RAM"
+					"text" : "loaded 3838 units in 653 sound files of 42.7 min using 469.9 MB RAM"
 				}
 
 			}
@@ -6086,7 +6087,6 @@
 					"name" : "catart.segmentation.params.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"offset" : [ 0.0, -60.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 133.0, 116.0, 213.0, 33.0 ],
 					"presentation" : 1,
@@ -7469,11 +7469,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-107::obj-28::obj-15" : [ "decay", "decay", 0 ],
 			"obj-107::obj-28::obj-2" : [ "damp", "damp", 0 ],
+			"obj-107::obj-28::obj-18" : [ "width", "width", 0 ],
 			"obj-107::obj-28::obj-22" : [ "wet", "wet", 0 ],
 			"obj-107::obj-28::obj-23" : [ "dry", "dry", 0 ],
-			"obj-107::obj-28::obj-18" : [ "width", "width", 0 ]
+			"obj-107::obj-28::obj-15" : [ "decay", "decay", 0 ]
 		}
 
 	}
