@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 94.0, 80.0, 190.0, 208.0 ],
+		"rect" : [ 94.0, 80.0, 183.0, 214.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -366,7 +366,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "int", "int", "float", "int", "float", "int" ],
 					"patching_rect" : [ 1076.0, 639.0, 107.0, 20.0 ],
-					"text" : "t 20 5 0. 320 0.1 2"
+					"text" : "t 20 5 0. 320 0.1 4"
 				}
 
 			}
@@ -977,7 +977,7 @@
 					"patching_rect" : [ 749.571228, 239.086243, 83.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 145.473694, 69.0, 17.0 ],
-					"text" : "Impro1"
+					"text" : "bang"
 				}
 
 			}
@@ -1679,7 +1679,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2][1]",
+						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2][1][1]",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1958,7 +1958,7 @@
 						"fontface" : 0,
 						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2][1]",
+						"globalpatchername" : "#1Player1[4][3][3][4][2][3][1][2][1][1][1][2][1][1][1][1][1][1][1][1][1][2][1][1][1][1][1][1][1][1][2][2][2][2][2][1][1]",
 						"tags" : ""
 					}
 ,
@@ -2067,7 +2067,7 @@
 						"Speed" : [ 1.0 ],
 						"Sync" : [ 0 ],
 						"Transposition" : [ 0.0 ],
-						"Xfade" : [ 1104 ],
+						"Xfade" : [ 30 ],
 						"grainDur" : [ 320 ],
 						"onsetVar" : [ 160 ],
 						"pVar" : [ 0 ],
@@ -2076,7 +2076,7 @@
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u853011685"
+					"varname" : "u902034333"
 				}
 
 			}
@@ -2091,9 +2091,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 887.0, 574.0, 223.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 67, 153, 446, 382 ],
+						"client_rect" : [ 1265, 51, 1715, 1048 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 794, -709, 1244, -510 ]
+						"storage_rect" : [ 1265, 44, 1715, 1055 ]
 					}
 ,
 					"text" : "pattrstorage pattrstorage @savemode 2",
@@ -5588,7 +5588,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.9, 0.9, 1.0 ],
+					"bgcolor" : [ 0.9, 0.9, 1.0, 1.0 ],
 					"border" : 2,
 					"bordercolor" : [ 0.090196, 0.0, 0.184314, 1.0 ],
 					"id" : "obj-206",

@@ -1,0 +1,184 @@
+
+ 
+ KEYCUE "hardTones" 
+ 
+ 
+ 	 	 	 	 /CONFIG /NA-Sources 99 0 /spatOut~ 99 0 /ambicontrol 99 0 /lpcVoic 99 0 /lpcOrder 99 0 /LPCues 99 0 /shpidel~ 99 0 /LPCfilter~ 99 0 /LPC1 99 0 /lpc1-postFreq-rand 99 0 /lpc1-postPitch-rand 99 0 /lpcVerb 99 0 /lpc1 99 0 /lpc-dryOUT 99 0 /postLPCPitch 99 0 /LPC-wet-out 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /DroneCue 99 1 /au-rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /DroneCue 
+ 	 	 	 	 /DroneCue/view/freeze 0 
+ 	 	 	 	 /DroneCue/view/highlight 0 
+ # 
+ # Module /au-rvrb 
+ 	 	 	 	 /au-rvrb/audio/bypass 0 
+ 	 	 	 	 /au-rvrb/audio/gain 100.000000 
+ 	 	 	 	 /au-rvrb/audio/mix 20.000000 
+ 	 	 	 	 /au-rvrb/audio/mute 1 
+ 	 	 	 	 /au-rvrb/damping 20000.000000 
+ 	 	 	 	 /au-rvrb/decay 2.500000 
+ 	 	 	 	 /au-rvrb/delay 100.000000 
+ 	 	 	 	 /au-rvrb/earlyReflections/active 1 
+ 	 	 	 	 /au-rvrb/lowpass 15000.000000 
+ 	 	 	 	 /au-rvrb/moddepth 0.010000 
+ 	 	 	 	 /au-rvrb/modfreq 0.050000 
+ 	 	 	 	 /au-rvrb/view/freeze 0 
+ 	 	 	 	 /au-rvrb/view/highlight 0 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 3237 
+ 	 	 	 	 /au-fShift/max 100.000000 
+ 	 	 	 	 /au-fShift/min -100.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 6398 
+ 	 	 	 	 /au-fShift/rate/min 1962 
+ 	 	 	 	 /au-fShift/step 1.000000 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/highlight 0 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 4671 
+ 	 	 	 	 /au-pShift/max 3.000000 
+ 	 	 	 	 /au-pShift/min -3.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 1389 
+ 	 	 	 	 /au-pShift/step 1.000000 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/highlight 0 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 0.000000 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 1.639220 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift 69.024002 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 23.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/highlight 0 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "tranquill" 
+ 
+ 
+ 	 	 	 	 /CONFIG /NA-Sources 99 0 /spatOut~ 99 0 /ambicontrol 99 0 /lpcVoic 99 0 /lpcOrder 99 0 /LPCues 99 0 /shpidel~ 99 0 /LPCfilter~ 99 0 /LPC1 99 0 /lpc1-postFreq-rand 99 0 /lpc1-postPitch-rand 99 0 /lpcVerb 99 0 /lpc1 99 0 /lpc-dryOUT 99 0 /postLPCPitch 99 0 /LPC-wet-out 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /DroneCue 99 1 /au-rvrb 99 1 /au-fShift 99 1 /au-pShift 99 1 /drone-Post-pitch 99 1 /drone-Pre-pitch 99 1 /outAu1 99 0 /outAu-dry 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /DroneCue 
+ 	 	 	 	 /DroneCue/view/freeze 0 
+ 	 	 	 	 /DroneCue/view/highlight 0 
+ # 
+ # Module /au-rvrb 
+ 	 	 	 	 /au-rvrb/audio/bypass 0 
+ 	 	 	 	 /au-rvrb/audio/gain 100.000000 
+ 	 	 	 	 /au-rvrb/audio/mix 53.000000 
+ 	 	 	 	 /au-rvrb/audio/mute 1 
+ 	 	 	 	 /au-rvrb/damping 20000.000000 
+ 	 	 	 	 /au-rvrb/decay 2.500000 
+ 	 	 	 	 /au-rvrb/delay 100.000000 
+ 	 	 	 	 /au-rvrb/earlyReflections/active 1 
+ 	 	 	 	 /au-rvrb/lowpass 15000.000000 
+ 	 	 	 	 /au-rvrb/moddepth 0.010000 
+ 	 	 	 	 /au-rvrb/modfreq 0.050000 
+ 	 	 	 	 /au-rvrb/view/freeze 0 
+ 	 	 	 	 /au-rvrb/view/highlight 0 
+ # 
+ # Module /au-fShift 
+ 	 	 	 	 /au-fShift/interpolate 3237 
+ 	 	 	 	 /au-fShift/max 100.000000 
+ 	 	 	 	 /au-fShift/min -100.000000 
+ 	 	 	 	 /au-fShift/on 1 
+ 	 	 	 	 /au-fShift/rate/max 6387 
+ 	 	 	 	 /au-fShift/rate/min 1962 
+ 	 	 	 	 /au-fShift/step 1.000000 
+ 	 	 	 	 /au-fShift/view/freeze 0 
+ 	 	 	 	 /au-fShift/view/highlight 0 
+ # 
+ # Module /au-pShift 
+ 	 	 	 	 /au-pShift/interpolate 4671 
+ 	 	 	 	 /au-pShift/max 3.000000 
+ 	 	 	 	 /au-pShift/min -3.000000 
+ 	 	 	 	 /au-pShift/on 1 
+ 	 	 	 	 /au-pShift/rate/max 6000 
+ 	 	 	 	 /au-pShift/rate/min 1389 
+ 	 	 	 	 /au-pShift/step 1.000000 
+ 	 	 	 	 /au-pShift/view/freeze 0 
+ 	 	 	 	 /au-pShift/view/highlight 0 
+ # 
+ # Module /drone-Post-pitch 
+ 	 	 	 	 /drone-Post-pitch/alias /drone-Post-pitch/alias/remove 
+ 	 	 	 	 /drone-Post-pitch/bypass 0 
+ 	 	 	 	 /drone-Post-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Post-pitch/feedback/time 0.000000 
+ 	 	 	 	 /drone-Post-pitch/frequency/scale 1.768621 
+ 	 	 	 	 /drone-Post-pitch/frequency/shift -100.000000 
+ 	 	 	 	 /drone-Post-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Post-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Post-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Post-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Post-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Post-pitch/mix 100.000000 
+ 	 	 	 	 /drone-Post-pitch/mute 1 
+ 	 	 	 	 /drone-Post-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Post-pitch/view/highlight 0 
+ # 
+ # Module /drone-Pre-pitch 
+ 	 	 	 	 /drone-Pre-pitch/bypass 0 
+ 	 	 	 	 /drone-Pre-pitch/feedback/gain -60.000000 
+ 	 	 	 	 /drone-Pre-pitch/feedback/time 10.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/scale -12.000000 
+ 	 	 	 	 /drone-Pre-pitch/frequency/shift 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/gain 98.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /drone-Pre-pitch/limiter/lookahead 100 
+ 	 	 	 	 /drone-Pre-pitch/limiter/mode exponential 
+ 	 	 	 	 /drone-Pre-pitch/limiter/postamp 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/preamp 6.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/release 250.000000 
+ 	 	 	 	 /drone-Pre-pitch/limiter/threshold 0.000000 
+ 	 	 	 	 /drone-Pre-pitch/mix 48.000000 
+ 	 	 	 	 /drone-Pre-pitch/mute 1 
+ 	 	 	 	 /drone-Pre-pitch/view/freeze 0 
+ 	 	 	 	 /drone-Pre-pitch/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
