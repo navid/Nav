@@ -1,0 +1,300 @@
+% Template for NIME 2014
+%
+% Modified by Baptiste Caramiaux on 25 November 2013
+% Modified by Kyogu Lee on 7 October 2012
+% Modified by Georg Essl on 7 November 2011
+%
+% Based on "sig-alternate.tex" V1.9 April 2009
+% This file should be compiled with "nime2011.cls"
+%
+
+\documentclass{nime-alternate}
+\usepackage{comment}
+\begin{document}
+%
+% --- Author Metadata here ---
+\conferenceinfo{NIME'14,}{June 30 -- July 03, 2014, Goldsmiths, University of London, UK.}
+
+\title{ A Material Computation Perspective on Audio Mosaicing and Gestural Conditioning}
+
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{3} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+%% SXW COMMENTED OUT AUTHOR
+
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+%% SXW COMMENTED OUT AUTHOR
+\alignauthor
+Navid Navab\\
+       \affaddr{Topological Media Lab}\\
+       \affaddr{Concordia University}\\
+       \affaddr{Montreal, Quebec, Canada}\\
+       \email{navid.nav@gmail.com}
+% 2nd. author
+\alignauthor
+Doug Van Nort\\
+       \affaddr{Topological Media Lab}\\
+       \affaddr{Concordia University}\\
+       \affaddr{Montreal, Quebec, Canada}\\
+       \email{dvnt.sea@gmail.com}
+% 3rd. author
+\alignauthor
+Sha Xin Wei\\
+       \affaddr{Director, School of Arts, Media and Engineering}\\
+       \affaddr{Arizona State University}\\
+       \affaddr{Phoenix AZ, USA}\\
+       \email{xinwei.sha@asu.edu}
+}
+
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
+email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
+(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+\date{30 July 1999}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+This paper discusses an approach to instrument conception that is based on a careful consideration of the coupling of tactile and sonic gestural action across the layers of physical and computational material in coordinated dynamical variation.  To this end we propose a design approach that not only considers the materiality of the instrument, but  leverages it as a central part of the conception of the sonic quality, the control structure, and what generally falls under the umbrella of "mapping".  This extended \emph{computational matter} perspective scaffolds a holistic approach to understanding an "instrument" as gestural engagement through physical material, sonic variation, and somatic activity. We present some concrete musical and installation performances that have benefited from this approach to instrument design.
+
+\end{abstract}
+
+\keywords{Topological Media, Computational Matter, Mapping Control Structures, Sonic Gestures, Enchanted Objects}
+
+
+\section{Introduction}
+
+In the case of digitally-based instruments, there has been much focus on defining new instrumental systems by mimesis of acoustic instruments (e.g. digital clarinets, zithers, guitars) and as instrument-inspired interfaces which seem themselves in direct evolution of acoustic performance tradition \cite{miranda2006new}. However, Magnusson\cite{magnusson2009epistemic} notes that often the tangible and immediately perceivable interface of digital instruments is merely a shell. He argues that the expressive potential of the instrument is (often) situated in the composed symbolic instructions of the designer, rather than in physical matter. An elaborate sequence of musical events that are shaped through ``higher-level" control of musical material by a performer. This point of view considers musical instruments as ``cognitive extensions" of human musical thought, and expressiveness as the navigation of composed structures in the act of performance. This trajectory of instrument design has been articulated by Schnell and Battier \cite{schnell_battier_nime02} as a process of the dematerialization of the instrument -- of the progressively increasing electromechanical and now computational mediation of the coupling between somatic-gestural movement and sonic result. In re-establishing this coupled link between action and sound, the nature of the representation that one is introducing needs to be carefully considered. This includes the musical nature of the representation as well as the level of immediacy and expressive intent that is being represented.                                                                                                               One must consider whether they are designing for an interface wherein large musical structures are ``steered" or triggered by performer (at one extreme), or the moment-by-moment actions defined at the lowest level by physical performer action (at another extreme).
+%% SXW CHANGED "the violin or piano"  TO "the piano" BECAUSE I  RECALL READING (IN REVIEWS OF SHANKAR AND MENUHIN) THAT THE VIOLIN HAS BEEN USED IN INDIA FOR 600+ YEARS SO IS DEEPLY INCORPORATED INTO AND INCORPORATES INDIAN MUSICAL THEORY, PRACTICES, NORMS
+\par
+In this paper, we propose a "material computation" (\cite{sha2013matter}) approach to rethinking the representations of musical thought and gestural engagement that are introduced in the process of coupling somatic action with sonic variation.  We feel that it is productive to move away from a purely mimetic conception of digital performance systems, and from classic paradigms such as that of composer and interpreter \cite{gurevich2007expression}. In fact, we do not pre-suppose that musically-relevant excitations are only those that arise from the hands or mouth of a singular human performer. However, we do not suggest giving up on gestural immediacy and the physicality of the instrumental system in making this shift. Just as Van Nort \cite{van2009instrumental} has proposed to consider instrument design through the lens of the sonic gestural affordance of a given system, we propose to consider gestural potential of matter as part of the design process, following on previous work [Removed for Anonymity]. By this we do not mean simply the physical properties of sensing technologies, but the encoded gesturally and computationally modulatable  potential of physical matter itself - the spatial and temporal encoding of gestural potential - and how this is coupled with environment, human interaction and sonic output in continuous and connected fashion. 
+
+These are a constellation of forces at work, ones which are surrounding but external to the black/white box systems view of the instrument.  To this end we propose a design approach that not only considers the materiality of the instrument, but that leverages it as a computational substrate. Such computational matter then becomes a central part of the instrument's conception of the sonic quality, the control structuring and what generally falls under the umbrella of "mapping" design.  As we will discuss, this extended computational matter-centric view is of benefit towards holistically understanding an ``instrumental" gestural engagement, as it is realized through physical material, sonic gestural matter and felt human engagement.
+
+
+
+
+\section{Continuous Matter, Continuous Response}
+
+The world around us is full of rich sounding matter, affording complex sonic experiences through our physical engagement. Naturally, this was articulated early on by Cage through his explorations of amplified objects \cite{kahn1997john}. This was also artfully expressed and systematized by Tudor, through his Rainforest series of works \cite{driscoll2004david} which highlight the intelligence and beauty found in deep vibrational interactions between sonic and physical materials. In our work, we further augment, enrich and transcend the natural tendencies of matter to transcode gestural manipulations into audible sounds and tactile sensation. Simply placing a contact mic on a resonant material and skillfully manipulating it does already afford an extremely rich instrumental palette, which is the starting point for a countless number of experimental music performance practices. We extend this further by taking a material-computation approach to deterministic couplings with such manual engagement; in order to allow for the full thickness and boundlessly open set of experiences that are potentially realizable through interaction with computationally-enriched matter, we avoid strongly determined systems which recognize, learn or model specific sonic/haptic audio interaction or human experience. 
+
+\par
+Rather, to enable the continuous richness of potential computational response to non-schematized gesture we focus the design on the considered coupling of physical matter and sound synthesis/processing techniques.  This includes the highlighting of natural affordances of vibrating matter, as we wish to transmute (augment/enrich) its given tendency to yield audible acoustic energy whenever manipulated. In addition to static qualities,  there is an implicit temporality which arises through viewing the material as computational matter: through its encoding of gestural potential in a spatial form. This is written on its surface, in the folds, the density, etc. and this comes into consideration in the course of designing control structures.
+
+\par
+In practice, our design approach to computationally enriching matter has been realized by audio-mosaicing  the haptic-sonic gestures through corpus-based concatenative synthesis (CBCS). This equally accommodates gestural engagement with physical objects, whole body interaction, as well as the augmentation of sonic material in live per formances. We will use specific examples to illustrate the philosophical underpinning and concomitant challenges of our design approach, but first we briefly describe CBCS and its efficacy for our intended use.
+
+%% In this work, this design approach to computationally enriching matter has been realized by audio-mosaicing of the haptic-sonic gestures through corpus-based concatenative synthesis (CBCS). This equally includes gestural engagement with physical objects, whole body interaction as well as the enhancement of performed sonic material. We will use specific examples to illustrate the philosophical underpinning and concomitant challenges of our design approach, but first we briefly describe CBCS and give an overview of related work.
+
+
+\section {CBCS in Sonic Interaction Design}  
+
+Corpus-based concatenative synthesis (CBCS) methods use a database of sound ``snippets" to assemble a desired sound according to a target phrase. Recent developments in CBCS (\cite{schwarz2012sound}) enable real-time sound generation by navigation through a multi-dimensional descriptor space informing unit selection within the \emph{corpus} and giving access to specific sound characteristics. The corpus is a large database of \emph {units} of either pre-recorded or live-recorded sounds, that have been segmented and descriptor analysed in order to be placed within the descriptor space, according to the extracted features. Depending on the segmentation method used, units can be of any lengths and often include any combination of differently-sized fragments such as grains, phonemes, notes, beats, and phrases. Descriptors are sonic characteristics (e.g. low-level temporal/spectral, higher-level perceptual features) extracted from the given unit and/or meta-data (e.g. instrument class) attributed to the units. Units are selected, concatenated and played from the corpus based on a \emph {unit selection} algorithm to best match given target specifications, usually in the sense of minimizing a weighted Euclidean distance while possibly taking a constrainable concatenation quality function into account. 
+
+\section {Audio Mosaicing Sonic Gestures} 
+
+Audio-mosaicing \cite{schwartz_2012} can be seen as a special case of CBCS wherein the target is set from the real-time descriptor analysis of live audio input. One may use a versatile and efficiently controllable sound source such as one's own voice, or the sound of material vibration transmitted through contact mics as a means to exploit the target corpus. In this paper, we use audio-mosaicing as a primary technique in our design of instrumental systems, and the cataRT system has provided the perfect platform for exploration of these ideas for a variety of reasons. Most notably:
+%% SXW CORRECTED MISSPELLING OF ENUMERATE, AND REMOVED EXPLICIT NUMBERING 1. ETC.
+\begin{enumerate}
+\item  The cataRT system is implemented as a modular framework within Max/MSP using the FTM, Gabor, and MnM extensions \cite{ftm}, whose optimized data structures and operators, statistical and matrix processing tools, and arbitrary time grain processing allows for the efficient realization of real-time continuous signal processing and data handling tasks.\vspace{-0.3cm}
+\item  It provides a flexible multidimensional mapping space.   \vspace{-0.6cm}
+\item  It provides a modular framework, making it possible to reconfigure the system to adapt to a large number of scenarios. It also makes it easy to apply further transformations to the output via control of granular synthesis parameters.\vspace{-0.3cm}
+\item  It doesn't impose a strongly typical sound on composers and designers, due to the means for accumulating any arbitrary collection of sounds as base material the exploitation of their concatenation with notable flexibility.
+\item  In the special case of sonification of haptic-acoustic gestures, as cataRT is aware of the context of the database as well as the target units, it can realize finely coupled responses to spectro-temporal nuances found within the input signal.\vspace{-0.3cm}
+\item  Through careful parameterization and integration, the flow of processing can happen continuously and with low latency, so as to be felt as happening concurrently with a given continuous gesture. \footnote{https://vimeo.com/36977151}.
+\end{enumerate}
+\par
+We adopt cataRT for audio-mosaicing as a means to create novel sonic texture that are shaped in real-time in response to continuous nuanced gestures. In regards to control structures and representations of musical interaction that we raised in the introduction, this approach is chosen as it allows for control over the ``inner" textural detail of sonic matter, as well as to the morphology of the gestural profile, for both input audio and sonic result. 
+
+%% Acoustic Conditioning as Gestural Conditioning: 
+\section{Designing for Materials to Compute}
+
+In the case of instruments based on contact microphones and manual engagement with physical objects, the textural and resonant nature of the physical material becomes a central component for consideration, along with the kinesthetic gestural interactions that are conditioned through the spatial and material structure of the object. For example, we have found that a vibration isolated wooden surface with an evenly distributed textural roughness, enough acoustic conductivity, and a balanced impulse response is ideal for transcoding a wide range of gestural manipulations carried out via human skin, nails, and light objects. Such an object will transmute gestural interactions across a wider timbral spectrum, and thus provides an optimal platform for the continuous differentiation and distinct amplification of subtle changes in the process of haptic-sound feature extraction and sonification. Consider the subtle differences in measurable characteristics of the acoustic energy that results from a fingertip rubbing across a surface with varying degrees of applied pressure. In such a scenario, rough and sticky surfaces would provide a considerably improved acoustic response and a better signal to noise ratio in comparison with smooth and slippery surfaces. 
+\par
+Objects such as fruits, pine cones, combs, nails, the floor, and the human body can provide other computational operations such as band-limiting, resonance, convolution, smoothing, and spatial encoding [Removed] that can be exploited to transform gestures from haptics into optimal acoustic energy. When talking of optimization, our focus is mainly on accessing, in the the acoustic response, the finest levels of intentionally nuanced gesture from noise. The question becomes: how do we extract useful and optimized information about the way (non)human performer interact with the objects' surface? How do we highlight important gestural nuances that yield minimal acoustic energy from the noise floor of an input system (instrument)? How can material thinking and material computation contribute to the design of haptic-acoustic instrument that distinguish the subtlest intentional change in the input sonic gestures?
+%% (introduced by unwanted material resonances, microphones, cables, matter/environment, interfaces, etc).  
+
+\subsection{Conditioning the Audio-Encoded \\ Sonic Gesture}
+\label{conditioning}
+
+Encoding gestures in audio has the advantage of leveraging a high reliability path (due to the demands of the sound reproduction industry) with high data rates (44.1-198kHz) and low jitter (better than 1nS) . Another benefit is that we can exploit typical signal processing routines such as denoising, filtering, mixing, and compressing to condition and optimize the audio-encoded input gesture. We have utilized a particularly unconventional implementation that repurposes recent Impulse Response-based Convolution techniques to diminish unwanted frequency imbalances and to optimize the input sonic gesture for use as a selection ``target" in an audio-mosaicing environment. 
+% \cite{wessel2007force} 
+\par
+While in our designs contact microphones have provided the best solution for picking up local acoustic energy from sounding matter, their sound is rarely balanced. This is due to a variety of factors: the frequency response of the mic, its placement on the object, the method of its attachment to the object, as well as the frequency profile of the sounding object. It is impractical, time consuming and even undesirable to break down the estimated impulse response of the entire input system into individual profiles of the excitation objects, the sounding object, and the microphone. These elements are deeply coupled, with their interactions being as much a part of the system as a resultant mapping to sound features is in the digital realm. We therefore are not looking for a modeled ``signal", buried in ``noise". Rather, we seek to condition salient gestural responses within the signal, but the entirety of the noise is in fact a rich part of the relevant signal. The challenge is thus to generate such a conditioning that satisfies a wide range of gestural manipulations arising from a variety of contextually-relevant excitation means such as feathers, skin, and fingernails.
+\par
+Our proposed method is effective, yet purposefully unconventional and imprecise, as the very notion of a ``correct" or ``flat" frequency response is nonsensical or at least highly context dependant and subjective in a given haptic-acoustic sensing system (due to the lack of a sensible reference, and non-linearities of the systems). That said,  in most cases there are still major, identifiable frequency imbalances. Often these imbalances mask and diminish other desirable features in the sonic gesture and diverge the musical interaction context, as the prominence of an unwanted feature (or noise) could stray the audio feature selection process and lead to the constant sonification of a static structural feature instead of dynamic profiles of the input gesture. 
+\par
+Our implementation uses the Max/MSP release of the modular, low-latency and lightweight HISSTools Impulse Response Toolbox (\cite{harker2012hirt}) to improve the frequency balance of the input haptic-acoustic signal in real-time. We first measure the impulse response of the input system via an excitation signal, then we carefully smooth and further condition the impulse response estimate. Then we use an inversion of the estimated impulse response signal as a convolution filter to improve the incoming sonic gestures.
+\par
+Following \cite{harker2012hirt} it is viable to use an arbitrary excitation signal to measure or estimate the impulse response of a system. Although such signals are unlikely to be optimal, we have found that they are satisfactory for our goal of attending to the more extreme imbalances in the response of our input system. Also, in most applications dealing with impulse response correction of systems it has been repeatedly observed (\cite{harker2012hirt}) that smoothed approximations of the frequency response and relaxation of the requirements for exact correction lead to dramatically improved results.
+%% (\cite{room2001})
+\par
+One major challenge arises from the conception and incorporation of a ``known" excitation signal to be used by the software as reference for measurement. To improve the workflow, for practical reasons and to make it possible to calibrate our instruments on the fly our solutions do not involve sending software driven signals (such as colored noise or ESS sweeps) from the software to the object (with transparent transducers for example) and picking them up for impulse response estimation. Rather we utilize a diverse range of loud and quiet percussive actions and gestural manipulations, applied to the sounding object. We record the resulting sound through the contact mic as well as a flat condenser mic to compute a relative impulse response. Then we compare the contact-microphone's signal to that of a more spectrally flat source (e.g. dpa omni) and position. The ideal balance retains the benefits of the piezo pickup while correcting for extreme frequency imbalances of our input system.
+\par
+Finally we adopt the method of \cite{harker2012hirt} and smooth the recorded signals prior to deconvolution. Then the estimated impulse response is further smoothed if needed, inverted to minimum phase, truncated, faded and normalized. The smoothing and regulation process are essential in defining the characteristics of the filter and require careful calibration and adjustments.
+
+\subsection{Haptic-Acoustic Transcoding}
+
+Combining acoustic surface sensing with a signal-driven sonification strategy can take full advantage of the richness of the feeling of touch, and thus enable the performers to rely solely on felt engagement with real matter, discovering and inventing their own repertoire of meaningful gestures in the process. In previous work [removed] we have designed the continuous potential of computational response through an architecture that implements acoustic sensing coupled with physical modeling sound synthesis [Reference Removed]. The input audio signal was used to excite a set of physically modeled resonators and set them into vibration (within IRCAM's Modalys environment), while input descriptors modulated the physical attributes of the resonators. This enabled the participant to invent a wide range of gestural vocabulary and nuance with physical consistency between action and sound, without reducing the audio-encoded gestures to a strongly-modeled set of human gestural actions. With any one instance of a physical modeling synthesis however, the performer is restricted to a more or less uniform timbral universe specified by the sonic characteristics of the synthetic physical model and its couplings with natural matter and gesture. While the instrumental potential in this system is already vast, we are interested in control structures which allow us to adapt to differing qualities of timbre and output sonic gestures as well as to play with different action/sound gestural couplings in a poetic fashion.
+
+%%Intricate gestural nuances are already carried in the audio excitation signal, as noted in \cite{poepel2005audio}. In our case, this allows for considerable depth of gestural engagement, even before the added layer of CBCS. For example, i
+
+
+% \footnote{http://vimeo.com/68364013} 
+\par
+%This use of physical modeling augments the materiality of objects and allows for the infinitely rich and nuanced variations of the input audio gestures to be amplified and transformed. 
+
+
+
+\subsection{Haptic-Acoustic Transcoding through CBCS}
+
+Building on this previous work, we focus on the use of CBCS for those reasons we have outlined in section \ref{conditioning}. We approach the synthesis technique as a software-domain computational processes which is always co-dependant with the computational properties of matter. In this way, we use CBCS to computationally enrich matter while keeping in mind that computation as a potential property of matter does not take place in any obvious place. 
+
+\begin{figure}
+	\centering
+		\includegraphics[width=8cm]{Diagram1.pdf}
+	\caption{Audio Mosaicing Haptic-Acoustic Gestures }
+	\label{diagram}
+\end{figure}
+
+%CBCS enables us to use any number of descriptors to couple the multi-dimensionality of gestural nuances that matter naturally affords the performer with an orchestratable sonic potential. 
+\par
+Even if often our goal in the transparent coupling of action and sound is to construct perceptually singular morphologies, audio mosaicing has not necessarily been chosen for its tendency to perfectly mimic and imitate the target gesture. A considerably attractive quality of audio mosaicing arises from its ability to condition the potential degree of semblance of the resynthesized sounds to a given target phrase, while keeping the continuous morphologies of the target phrase intact. The target thereof could be thought of as an abstract gesture-template consisting of feature contours and their time-dependant variables \cite{tremblay2010surfing}. When using the input haptic-sound as ``target," one may preserve morphological continuities of the audio-encoded gesture in the sonification process and yet retain novel compositional control over the timbral qualities of the output. 
+\par
+% With our adopted implementation of audio mosaicing within cataRT we have been able to simultaneously preserve the fine details of the temporal and spectral nuances of continuous morphologies of the target (sonic gesture template) and yet imprint them onto completely foreign and arbitrary collection of sounds. 
+
+
+\par
+
+
+\section{Design Insights}
+
+\subsection{Descriptor Conditioning}
+We have experimented with possible transformations (calibrating, offsetting, normalizing, scaling, re-mapping, modulating) of the target audio descriptor (input: audio encoded haptic-acoustic gesture) so that the descriptor values are optimally adopted or recontextualized in order to efficiently exploit a given corpus of sounds.  First, with respect to the material affordances of the sounding object and the characteristics of the source material, a prioritized unit selection is parametrized by adjusting weights of each order dependant descriptor.  Then, in order to obtain perceptually differentiable results from fine gestural nuance, we normalize the target descriptors and map them to the full range within the corpus. Further, in contexts where sonic resemblance and mapping transparency is not the main focus, one can freely scale, reverse, offset, swap and re-map the descriptors, without upsetting the rationale consistency of co-dependanct descriptors. For example, when sonically augmenting unsounding objects with non-existent or static pitch features and yet needing to have some gestural control over pitch, one might want to explore mappings from arbitrary descriptors to pitch. Finally, optimization and conditioning of the descriptor space for efficient exploitation of the corpus is, at the moment, time consuming and parametrically multi-layered and complex. In the future we intend to simplify this calibration process into a singular process of interaction design in a unified and visualized correlation space.
+
+
+\subsection{Composing Gestural Couplings}
+
+We are currently investigating the mosaicing of complex temporal patterns and rapidly evolving sonic-tactile textures that result from complex mechanical interactions leading to the generation of transient impact and friction impact micro-events: brushing or scratching an uneven surface with varying degrees of acceleration, ice cracking , drum rolls, etc. It is important to distinguish the analysis/synthesis of these dynamic and gesturally modulated impact, friction sounds from the current goals of sound texture synthesis \cite{schwarz2011texture} which deal with the resynthesis of more stable dynamic morphologies. Haptic-acoustic sonic textures are often composed of many unique micro-events, with quasi-stable features on the shorter meso timescales of 0.1-2s. Due to the desired immediacy of gesture to sound coupling, and the unpredictability of target texture features and morphologies, current statistical modeling approaches over longer time scales are not immediately applicable to sonic-tactile texture sonification with CBCS. We have concluded that instead an improved heterogeneous segmentation method, as well as locally improved correlations between micro-events could lead to more promising results in the long run. This augmentation of local features instead of accumulation of statistical models which rely on learning the nature of the texture beforehand or overtime, is also more in-line with our material computational approach. 
+%% \par
+%% When seeking the solution to these problems in the context of computationally augmented sounding matter, we constantly ask ourselves: -at what point, as far as humans are concerned does the sound become the thing? When do the kinetic interaction as well as kinesthetic experiences establish a strong enough perspective link between the apparent source and the implied, consequent sound? 
+\par
+While a fine coupling is notably achieved through audio-driven physical models, with audio-mosaicing we often find unproductive ambiguities within the micro event spaces. Using larger corpuses increase the likelihood of concatenated sounds for containing similar temporal profiles as the target units. However, the real achievable resolution of the morphological changes are often lower that one would expect for particular gestural expressions. Furthermore, unit selection within cataRT is performed locally without considering the concatenation quality (the similarity between to neighbouring units). Even though this contributes to a discontinuous quality in the perceived morphology, local unit selection provides an altogether preferred method for it relies on data-driven aspects for improvements.
+\par
+Temporal and spectromorphological coupling ambiguities are particularly exaggerated in between the meso and micro event spaces where phenomenon such as tremolo and vibrato (5-8hz) occur: in between fastest repetitive gestures (12Hz) and the emergence of conscious time (600ms). \cite{roads2004microsound} We have found that small grain sizes (50-150 ms) improv the temporal coupling of mosaiced sounds with the gesture. Larger grain sizes (200-1300 ms) ambiguate the fineness of gesture to sound relationship but depending on the context and target material could lead to sonically more coherent results. In most cases, improved temporal couplings come at the cost of reduced spectral coherency in respect to the input sonic-gestures.
+\par
+We propose the following possible strategies:
+\begin{enumerate}
+\item  Simultaneous analysis of multiple timescales (micro and meso) and incorporation of heterogeneous segmentation methods which are optionally applicable to individual micro-events for both the target and source sounds. Tremblay and Schwartz \cite{tremblay2010surfing} also suggest a need for a binary descriptor for partially dealing with the complexity of the presence of transients within segmented units and to efficiently couple these transients with the target with low latency.
+
+\item Improvements to already existing descriptors and selection strategies to further preserve short micro-event distribution within every segmented sound and the statistics of their descriptors distribution within that window.
+
+ \item Often one might want to use a limited collection of source sounds. For example: to mosaic the sounds resulting from gestural manipulations of a washboard as target using only limited samples of Mbira (thumb piano) source sounds. One main problem that often arises is that the target sounds are much more varied than what a limited corpus could offer. We have implemented attempts to systematically shape the synthesis and post-processing parameters based on input content. Mappings to the synthesis grain size and grain adsr envelope based were promising initiatives.  Shawarz and Schenlle \cite{schwarz2011texture} work around this problem by automatically varying each unit with a certain number transformations, analysing their sound descriptors, and storing only the descriptors and the transformation parameters. The resulting sounds are then easily regenerated during synthesis.
+\end{enumerate}
+
+\par At the time being, we have found it beneficial to use two or more synthesis modules on the same target in order to mix different temporal scales to blend desirable responses on the fly. For example, short grain sizes(30-120) could be used to provide optimal coupling with the target sound's dynamic morphology while another synthesis module with longer grain sizes and stronger pitch variations could add a content driven soundscape in the background. We also add another layer composed from a different set of source sounds driven by the detection of significant onsets in order to provide independently determinable responses to high energy impact events.
+
+%% In this exaggerated case and in many other similar cases normalization and conditioning of descriptors cannot solve the problem with the required variation. Several solutions are possible. 
+
+
+
+
+
+
+\section{Materials Performing / Performing Materiality}
+
+
+%%  \cite{sha2013matter}
+In previous work [Removed],we take the stance that matter can be a computational substrate. Such a material computational perspective on new interfaces for musical expression can help us avoid some problematic divides in our design metaphors between performer/performed, instrument/score, intention/noise, software/hardware, digital/analog, speculation/action, and etc.  Matter does not distinguish between performer intentions and material physics; we claim the same holds for computational matter.  As designers of interfaces we can employ this inherent symmetry to design for arbitrary associations of agents doing arbitrary actions. 
+
+
+
+\subsection{Gesture Bending}
+%% SXW 
+%% In a recent workshop at the Gray Center for Arts and Inquiry in the University of Chicago, as well as the TML (ref), the first author, Navab employed acoustic-sensing and audio-mosaicing instruments from the *Gesture Bending toolkit (\cite{navab2013gb}) to prepare the floor as an instrument. 
+In a recent workshop at the [Name Removed], the first author, Navab employed acoustic-sensing and audio-mosaicing instruments from the *Gesture Bending toolkit \cite{navab2013gb} to prepare the floor as an instrument. 
+
+*Gesture Bending, a generic term coined by the first author, refers to the poetic transformation, prolongation and enrichment of gestures through staged and unstaged technical mediation of movement and here specifically through the incorporation of real-time sound instruments and computational matter. The goal of Gesture Bending is to continuously enact persuasive conditions for the transformation of the discursive networks of meaning production in the embodiment of movement. It can for example lead to the signification of an empty gesture or the abstraction of an inherent signifier (ie. within a beat gesture). Pervasive Gesture Bending can lead to the emergence of social experiments, multidimensional compositions and the creation of conditions that invite inhabitants to synergetically improvise with a hybrid expressive force. \cite{navab2013gb}
+
+\par
+We populated the space with diverse set of activities and social events. The participants  gestures not only lead to unexpected musicality but to narratives about shaping relationships with the immediate world and recognizing daily life and the material world as a platform for play and for refined practice. Participants discovered that their everyday movement can create intricate sonic textures \footnote{http://vimeo.com/68112441} and developed their own unique vocabulary of sound generation to sculpt musical events via engagement with the floor.\footnote{http://vimeo.com/36977151}  Others set objects such as tennis balls into motion, allowing objects to effectively "perform" music. \footnote{http://vimeo.com/68105290} Without needing to model the performers' cognitive decision making processes, through audio-mosaicing we are able to amplify and augment the acoustic energy that is produced as a result of arbitrary material interaction.  Thus, any physical gesture can effectively augment material objects with gesturally-conditioned sound, augmenting those objects' material qualities.  Through interactively varied augmentation of the object's natural acoustical response, an a priori  distinction "synthetic" and the "natural" and the "performer" and "performed" becomes unnecessary.  Performing a score or improvising music could turn into a hybrid mode of engagement and perception borrowing elements from gaming, playing, building, day to day living practices, puppetry, and performance art.
+
+
+
+\subsection{Practices of Everyday Life | Cooking}
+
+"Practices of Everyday Life | Cooking" \cite{navab2013practices}  is the first part in a series of performances and installations exploring how everyday gestures could become charged with symbolic intensity and used for improvised play. A performance choreographed around a chef and sonified objects: fruit, vegetables, meat, knives, pots and pans, cutting board and table. 
+\footnote {practicesofeverydaylife.com, 2013}
+\par
+Cooking, the most ancient art of transmutation, has become over a quarter of a million years an unremarkable, domestic practice. But in this everyday practice, things perish, transform, and nourish other things. By augmenting the meats, wood and metal with sound and painterly light, we stage a performance made from the movements and gestures of cooking, both high cuisine and everyday. The performance features a dancer who is also a virtuosic chef who wields foods, knives, pans and spices transmuted gesturally into real-time sound instruments. Within our responsive scenography system, every cooking process is transformed into an environment thick with aroma, light, video, sound, movement, and objects.  A knife sleeking against another knife, carrots vocalizing their unfolding mutation into a cacophonous a cappella, the sizzle of hot oil mosaiced into a downpour of Bartok pizzicati along with the aroma of onion and garlic immerses the audience in an ecology of remembrance and anticipation.  At the end, the performer offers the audience a chance to taste the dish that is prepared.
+
+\par
+The participants are given a chance to extract new and unbounded forms, meanings, affects and percepts from the otherwise familiar situations such as cooking. The emergent mental modalities are more likely to be in closer contact with ecological and mental complexities of socio-gestural behaviour than if they were left colonized by the subjugated tonality of standardized mentality.
+\par
+
+"Practices of Everyday Life | Cooking" utilizes the Gesture Bending software system, and leverages material thinking and acoustic sensing techniques, some of which have been mentioned in this paper, to symbolically charge everyday actions and objects in ways that combine the composer’s design with the performer’s contingent nuance. Our material computational design allows for any potential movement at all by the performer or the objects to turn into potentially musical gestures. This removes the burden of modeling the human experience in our designs and instead allowing for such notions as meaning, intentionality, expressivity, noise, musicality, and even performer, performed and speculator to freely arise from the context established in the moment of performance together with the theatrical apparatus of expectation. 
+
+
+\begin{figure}
+	\centering
+		\includegraphics[width=8cm]{Practices-of-everyday-life.pdf}
+	\caption{Practices of Everyday Life | Cooking}
+	\label{rock_paper}
+\end{figure}
+
+
+\section{Conclusion}
+"Material computation" refers to the non-digital processes of computation that happen in physical materials that do not follow the logic of a finite state machine.  The formal separation of a technical object's functions into components is an abstraction.   Separating the design of human interaction as a symbolic communication problem from the design of the material is an abstracting separation that we claim introduces as many problems as it may solve. 
+
+We have introduced an alternative conceptual and practical approach adequate for manipulating computational media from a material computational perspective.   This approach takes into account qualities extending material qualities like mass, density and elasticity.  We have demonstrated the incorporation of audio-mosaicing and CBCS techniques into a disciplined practice of music performance.
+
+\bibliographystyle{abbrv}
+\bibliography{nav_van_xw_NIME_BIB}  
+
+\end{document}
+
+
+
+nav_van_xw_NIME_BIB

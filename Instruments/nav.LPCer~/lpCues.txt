@@ -1,0 +1,470 @@
+
+ 
+ KEYCUE "disgust" 
+ 
+ 
+ 	 	 	 	 /CONFIG /NA-Sources 99 0 /spatOut~ 99 0 /ambicontrol 99 0 /lpcVoic 99 1 /lpcOrder 99 1 /LPCues 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /DroneCue 99 0 /au-rvrb 99 0 /au-fShift 99 0 /au-pShift 99 0 /drone-Post-pitch 99 0 /drone-Pre-pitch 99 0 /outAu1 99 0 /outAu-dry 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /lpcVoic 
+ 	 	 	 	 /lpcVoic/interpolate 1500 
+ 	 	 	 	 /lpcVoic/max 0.999800 
+ 	 	 	 	 /lpcVoic/min 0.030000 
+ 	 	 	 	 /lpcVoic/on 0 
+ 	 	 	 	 /lpcVoic/rate/max 8000 
+ 	 	 	 	 /lpcVoic/rate/min 3000 
+ 	 	 	 	 /lpcVoic/step 1.000000 
+ 	 	 	 	 /lpcVoic/view/freeze 0 
+ 	 	 	 	 /lpcVoic/view/highlight 0 
+ # 
+ # Module /lpcOrder 
+ 	 	 	 	 /lpcOrder/interpolate 200 
+ 	 	 	 	 /lpcOrder/max 98.000000 
+ 	 	 	 	 /lpcOrder/min 5.000000 
+ 	 	 	 	 /lpcOrder/on 0 
+ 	 	 	 	 /lpcOrder/rate/max 7000 
+ 	 	 	 	 /lpcOrder/rate/min 2000 
+ 	 	 	 	 /lpcOrder/step 1.000000 
+ 	 	 	 	 /lpcOrder/view/freeze 0 
+ 	 	 	 	 /lpcOrder/view/highlight 0 
+ # 
+ # Module /LPCues 
+ 	 	 	 	 /LPCues/view/freeze 0 
+ 	 	 	 	 /LPCues/view/highlight 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 63.000000 
+ 	 	 	 	 /shpidel~/audio/mute 0 
+ 	 	 	 	 /shpidel~/delay/feedback 69 
+ 	 	 	 	 /shpidel~/delay/time 152 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 1 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 93.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 51.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 0 
+ 	 	 	 	 /LPCfilter~/filtergain -0.173577 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 4893.899414 
+ 	 	 	 	 /LPCfilter~/q 0.623193 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight 0 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 0 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 28 
+ 	 	 	 	 /LPC1/pGlide 0 
+ 	 	 	 	 /LPC1/pShift -42.694000 
+ 	 	 	 	 /LPC1/thresh 0.445000 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight 0 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 9 
+ 	 	 	 	 /lpc1-postFreq-rand/max 200.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min -800.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 800 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight 0 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 78 
+ 	 	 	 	 /lpc1-postPitch-rand/max 8.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -6.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight 0 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/audio/bypass 0 
+ 	 	 	 	 /lpcVerb/audio/gain 97.000000 
+ 	 	 	 	 /lpcVerb/audio/mix 3.000000 
+ 	 	 	 	 /lpcVerb/audio/mute 0 
+ 	 	 	 	 /lpcVerb/damping 13422.000000 
+ 	 	 	 	 /lpcVerb/decay 4.000000 
+ 	 	 	 	 /lpcVerb/delay 60.000000 
+ 	 	 	 	 /lpcVerb/earlyReflections/active 1 
+ 	 	 	 	 /lpcVerb/lowpass 10268.000000 
+ 	 	 	 	 /lpcVerb/moddepth 0.100000 
+ 	 	 	 	 /lpcVerb/modfreq 0.060000 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight 0 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 1083 
+ 	 	 	 	 /lpc1/max 6.000000 
+ 	 	 	 	 /lpc1/min -57.000000 
+ 	 	 	 	 /lpc1/on 1 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1000 
+ 	 	 	 	 /lpc1/step 1.000000 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight 0 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -60.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 20.000000 
+ 	 	 	 	 /postLPCPitch/frequency/scale 5.668000 
+ 	 	 	 	 /postLPCPitch/frequency/shift 26.402000 
+ 	 	 	 	 /postLPCPitch/gain 90.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 94.000000 
+ 	 	 	 	 /postLPCPitch/mute 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "comedy" 
+ 
+ 
+ 	 	 	 	 /CONFIG /NA-Sources 99 0 /spatOut~ 99 0 /ambicontrol 99 0 /lpcVoic 99 1 /lpcOrder 99 1 /LPCues 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 0 /postLPCPitch 99 1 /LPC-wet-out 99 0 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /DroneCue 99 0 /au-rvrb 99 0 /au-fShift 99 0 /au-pShift 99 0 /drone-Post-pitch 99 0 /drone-Pre-pitch 99 0 /outAu1 99 0 /outAu-dry 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /lpcVoic 
+ 	 	 	 	 /lpcVoic/interpolate 1500 
+ 	 	 	 	 /lpcVoic/max 0.999800 
+ 	 	 	 	 /lpcVoic/min 0.030000 
+ 	 	 	 	 /lpcVoic/on 0 
+ 	 	 	 	 /lpcVoic/rate/max 8000 
+ 	 	 	 	 /lpcVoic/rate/min 3000 
+ 	 	 	 	 /lpcVoic/step 1.000000 
+ 	 	 	 	 /lpcVoic/view/freeze 0 
+ 	 	 	 	 /lpcVoic/view/highlight 0 
+ # 
+ # Module /lpcOrder 
+ 	 	 	 	 /lpcOrder/interpolate 200 
+ 	 	 	 	 /lpcOrder/max 98.000000 
+ 	 	 	 	 /lpcOrder/min 5.000000 
+ 	 	 	 	 /lpcOrder/on 0 
+ 	 	 	 	 /lpcOrder/rate/max 7000 
+ 	 	 	 	 /lpcOrder/rate/min 2000 
+ 	 	 	 	 /lpcOrder/step 1.000000 
+ 	 	 	 	 /lpcOrder/view/freeze 0 
+ 	 	 	 	 /lpcOrder/view/highlight 0 
+ # 
+ # Module /LPCues 
+ 	 	 	 	 /LPCues/view/freeze 0 
+ 	 	 	 	 /LPCues/view/highlight 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 100.000000 
+ 	 	 	 	 /shpidel~/audio/mix 53.000000 
+ 	 	 	 	 /shpidel~/audio/mute 0 
+ 	 	 	 	 /shpidel~/delay/feedback 80 
+ 	 	 	 	 /shpidel~/delay/time 508 
+ 	 	 	 	 /shpidel~/loopDepth 52 
+ 	 	 	 	 /shpidel~/pitch/factor 0 
+ 	 	 	 	 /shpidel~/pitch/octave -2 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 98.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 49.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 0 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 5197.691895 
+ 	 	 	 	 /LPCfilter~/q 0.616875 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight 0 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 98.000000 
+ 	 	 	 	 /LPC1/audio/mute 0 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 91 
+ 	 	 	 	 /LPC1/pGlide 125 
+ 	 	 	 	 /LPC1/pShift 41.172001 
+ 	 	 	 	 /LPC1/thresh 0.242005 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight 0 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postFreq-rand/max 200.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min -200.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 2177 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight 0 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 1736 
+ 	 	 	 	 /lpc1-postPitch-rand/max 4.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -4.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 8000 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight 0 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/audio/bypass 0 
+ 	 	 	 	 /lpcVerb/audio/gain 90.000000 
+ 	 	 	 	 /lpcVerb/audio/mix 5.000000 
+ 	 	 	 	 /lpcVerb/audio/mute 0 
+ 	 	 	 	 /lpcVerb/damping 17000.000000 
+ 	 	 	 	 /lpcVerb/decay 2.000000 
+ 	 	 	 	 /lpcVerb/delay 60.000000 
+ 	 	 	 	 /lpcVerb/earlyReflections/active 1 
+ 	 	 	 	 /lpcVerb/lowpass 13000.000000 
+ 	 	 	 	 /lpcVerb/moddepth 0.070000 
+ 	 	 	 	 /lpcVerb/modfreq 0.100000 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight 0 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2383 
+ 	 	 	 	 /lpc1/max 48.000000 
+ 	 	 	 	 /lpc1/min -5.000000 
+ 	 	 	 	 /lpc1/on 1 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1048 
+ 	 	 	 	 /lpc1/step 1.000000 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight 0 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -50.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 33.000000 
+ 	 	 	 	 /postLPCPitch/frequency/scale -3.157259 
+ 	 	 	 	 /postLPCPitch/frequency/shift -89.690002 
+ 	 	 	 	 /postLPCPitch/gain 94.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 40.000000 
+ 	 	 	 	 /postLPCPitch/mute 0 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "fullRange" 
+ 
+ 
+ 	 	 	 	 /CONFIG /NA-Sources 99 0 /spatOut~ 99 0 /ambicontrol 99 0 /lpcVoic 99 1 /lpcOrder 99 1 /LPCues 99 1 /shpidel~ 99 1 /LPCfilter~ 99 1 /LPC1 99 1 /lpc1-postFreq-rand 99 1 /lpc1-postPitch-rand 99 1 /lpcVerb 99 1 /lpc1 99 1 /lpc-dryOUT 99 1 /postLPCPitch 99 1 /LPC-wet-out 99 1 /master-bird 99 0 /8-bird 99 0 /7-bird 99 0 /6-bird 99 0 /5-bird 99 0 /4-bird 99 0 /3-bird 99 0 /2-bird 99 0 /1-bird 99 0 /filter~ 99 0 /harmonicShifter~ 99 0 /DroneCue 99 0 /au-rvrb 99 0 /au-fShift 99 0 /au-pShift 99 0 /drone-Post-pitch 99 0 /drone-Pre-pitch 99 0 /outAu1 99 0 /outAu-dry 99 0 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /lpcVoic 
+ 	 	 	 	 /lpcVoic/interpolate 1500 
+ 	 	 	 	 /lpcVoic/max 0.450000 
+ 	 	 	 	 /lpcVoic/min 0.002000 
+ 	 	 	 	 /lpcVoic/on 1 
+ 	 	 	 	 /lpcVoic/rate/max 5000 
+ 	 	 	 	 /lpcVoic/rate/min 3000 
+ 	 	 	 	 /lpcVoic/step 1.000000 
+ 	 	 	 	 /lpcVoic/view/freeze 0 
+ 	 	 	 	 /lpcVoic/view/highlight 0 
+ # 
+ # Module /lpcOrder 
+ 	 	 	 	 /lpcOrder/interpolate 200 
+ 	 	 	 	 /lpcOrder/max 98.000000 
+ 	 	 	 	 /lpcOrder/min 5.000000 
+ 	 	 	 	 /lpcOrder/on 1 
+ 	 	 	 	 /lpcOrder/rate/max 7000 
+ 	 	 	 	 /lpcOrder/rate/min 2000 
+ 	 	 	 	 /lpcOrder/step 1.000000 
+ 	 	 	 	 /lpcOrder/view/freeze 0 
+ 	 	 	 	 /lpcOrder/view/highlight 0 
+ # 
+ # Module /LPCues 
+ 	 	 	 	 /LPCues/alias /LPCues/alias/remove 
+ 	 	 	 	 /LPCues/view/freeze 0 
+ 	 	 	 	 /LPCues/view/highlight 0 
+ # 
+ # Module /shpidel~ 
+ 	 	 	 	 /shpidel~/audio/gain 98.000000 
+ 	 	 	 	 /shpidel~/audio/mix 100.000000 
+ 	 	 	 	 /shpidel~/audio/mute 1 
+ 	 	 	 	 /shpidel~/delay/feedback 71 
+ 	 	 	 	 /shpidel~/delay/time 1 
+ 	 	 	 	 /shpidel~/loopDepth 36 
+ 	 	 	 	 /shpidel~/pitch/factor 18 
+ 	 	 	 	 /shpidel~/pitch/octave -1 
+ 	 	 	 	 /shpidel~/view/freeze 0 
+ 	 	 	 	 /shpidel~/view/highlight none 
+ # 
+ # Module /LPCfilter~ 
+ 	 	 	 	 /LPCfilter~/audio/bypass 0 
+ 	 	 	 	 /LPCfilter~/audio/gain 98.000000 
+ 	 	 	 	 /LPCfilter~/audio/mix 100.000000 
+ 	 	 	 	 /LPCfilter~/audio/mute 1 
+ 	 	 	 	 /LPCfilter~/filtergain 0.000000 
+ 	 	 	 	 /LPCfilter~/filtertype lowpass 
+ 	 	 	 	 /LPCfilter~/frequency 11000.000000 
+ 	 	 	 	 /LPCfilter~/q 0.560000 
+ 	 	 	 	 /LPCfilter~/view/freeze 0 
+ 	 	 	 	 /LPCfilter~/view/highlight 0 
+ # 
+ # Module /LPC1 
+ 	 	 	 	 /LPC1/audio/gain 0.000000 
+ 	 	 	 	 /LPC1/audio/mix 100.000000 
+ 	 	 	 	 /LPC1/audio/mute 1 
+ 	 	 	 	 /LPC1/detection/frameRate 30 
+ 	 	 	 	 /LPC1/detection/thresh 0.200000 
+ 	 	 	 	 /LPC1/order 5 
+ 	 	 	 	 /LPC1/pGlide 17 
+ 	 	 	 	 /LPC1/pShift -37.360001 
+ 	 	 	 	 /LPC1/thresh 0.002000 
+ 	 	 	 	 /LPC1/view/freeze 0 
+ 	 	 	 	 /LPC1/view/highlight 0 
+ # 
+ # Module /lpc1-postFreq-rand 
+ 	 	 	 	 /lpc1-postFreq-rand/interpolate 300 
+ 	 	 	 	 /lpc1-postFreq-rand/max 0.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/min -1000.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/on 1 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/max 1012 
+ 	 	 	 	 /lpc1-postFreq-rand/rate/min 500 
+ 	 	 	 	 /lpc1-postFreq-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postFreq-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postFreq-rand/view/highlight 0 
+ # 
+ # Module /lpc1-postPitch-rand 
+ 	 	 	 	 /lpc1-postPitch-rand/interpolate 200 
+ 	 	 	 	 /lpc1-postPitch-rand/max 2.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/min -1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/on 1 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/max 1218 
+ 	 	 	 	 /lpc1-postPitch-rand/rate/min 800 
+ 	 	 	 	 /lpc1-postPitch-rand/step 1.000000 
+ 	 	 	 	 /lpc1-postPitch-rand/view/freeze 0 
+ 	 	 	 	 /lpc1-postPitch-rand/view/highlight 0 
+ # 
+ # Module /lpcVerb 
+ 	 	 	 	 /lpcVerb/audio/bypass 0 
+ 	 	 	 	 /lpcVerb/audio/gain 93.000000 
+ 	 	 	 	 /lpcVerb/audio/mix 13.000000 
+ 	 	 	 	 /lpcVerb/audio/mute 1 
+ 	 	 	 	 /lpcVerb/damping 17000.000000 
+ 	 	 	 	 /lpcVerb/decay 3.000000 
+ 	 	 	 	 /lpcVerb/delay 10.000000 
+ 	 	 	 	 /lpcVerb/earlyReflections/active 1 
+ 	 	 	 	 /lpcVerb/lowpass 13000.000000 
+ 	 	 	 	 /lpcVerb/moddepth 0.070000 
+ 	 	 	 	 /lpcVerb/modfreq 0.100000 
+ 	 	 	 	 /lpcVerb/view/freeze 0 
+ 	 	 	 	 /lpcVerb/view/highlight 0 
+ # 
+ # Module /lpc1 
+ 	 	 	 	 /lpc1/interpolate 2383 
+ 	 	 	 	 /lpc1/max 32.000000 
+ 	 	 	 	 /lpc1/min -80.000000 
+ 	 	 	 	 /lpc1/on 1 
+ 	 	 	 	 /lpc1/rate/max 4000 
+ 	 	 	 	 /lpc1/rate/min 1048 
+ 	 	 	 	 /lpc1/step 0.800000 
+ 	 	 	 	 /lpc1/view/freeze 0 
+ 	 	 	 	 /lpc1/view/highlight 0 
+ # 
+ # Module /lpc-dryOUT 
+ 	 	 	 	 /lpc-dryOUT/audio/active 1 
+ 	 	 	 	 /lpc-dryOUT/audio/gain 97.311691 
+ 	 	 	 	 /lpc-dryOUT/balance 0.000000 
+ 	 	 	 	 /lpc-dryOUT/ch.1 1 
+ 	 	 	 	 /lpc-dryOUT/ch.2 2 
+ 	 	 	 	 /lpc-dryOUT/limiter/active 0 
+ 	 	 	 	 /lpc-dryOUT/limiter/dcblocker/active 1 
+ 	 	 	 	 /lpc-dryOUT/limiter/lookahead 64 
+ 	 	 	 	 /lpc-dryOUT/limiter/mode exponential 
+ 	 	 	 	 /lpc-dryOUT/limiter/postamp 0.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/preamp 6.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/release 300.000000 
+ 	 	 	 	 /lpc-dryOUT/limiter/threshold -6.000000 
+ 	 	 	 	 /lpc-dryOUT/record/filetype aiff 
+ 	 	 	 	 /lpc-dryOUT/record/samptype int24 
+ 	 	 	 	 /lpc-dryOUT/saturation/active 0 
+ 	 	 	 	 /lpc-dryOUT/saturation/depth 10.000000 
+ 	 	 	 	 /lpc-dryOUT/view/freeze 0 
+ 	 	 	 	 /lpc-dryOUT/view/highlight 0 
+ # 
+ # Module /postLPCPitch 
+ 	 	 	 	 /postLPCPitch/bypass 0 
+ 	 	 	 	 /postLPCPitch/feedback/gain -60.000000 
+ 	 	 	 	 /postLPCPitch/feedback/time 33.000000 
+ 	 	 	 	 /postLPCPitch/frequency/scale -1.000000 
+ 	 	 	 	 /postLPCPitch/frequency/shift -1000.000000 
+ 	 	 	 	 /postLPCPitch/gain 88.000000 
+ 	 	 	 	 /postLPCPitch/limiter/dcblocker/active 1 
+ 	 	 	 	 /postLPCPitch/limiter/lookahead 100 
+ 	 	 	 	 /postLPCPitch/limiter/mode exponential 
+ 	 	 	 	 /postLPCPitch/limiter/postamp 0.000000 
+ 	 	 	 	 /postLPCPitch/limiter/preamp 6.000000 
+ 	 	 	 	 /postLPCPitch/limiter/release 250.000000 
+ 	 	 	 	 /postLPCPitch/limiter/threshold 0.000000 
+ 	 	 	 	 /postLPCPitch/mix 58.000000 
+ 	 	 	 	 /postLPCPitch/mute 1 
+ 	 	 	 	 /postLPCPitch/view/freeze 0 
+ 	 	 	 	 /postLPCPitch/view/highlight 0 
+ # 
+ # Module /LPC-wet-out 
+ 	 	 	 	 /LPC-wet-out/audio/active 1 
+ 	 	 	 	 /LPC-wet-out/audio/gain 100.610382 
+ 	 	 	 	 /LPC-wet-out/balance 0.000000 
+ 	 	 	 	 /LPC-wet-out/ch.1 3 
+ 	 	 	 	 /LPC-wet-out/ch.2 4 
+ 	 	 	 	 /LPC-wet-out/limiter/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/dcblocker/active 1 
+ 	 	 	 	 /LPC-wet-out/limiter/lookahead 64 
+ 	 	 	 	 /LPC-wet-out/limiter/mode exponential 
+ 	 	 	 	 /LPC-wet-out/limiter/postamp 0.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/preamp 6.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/release 300.000000 
+ 	 	 	 	 /LPC-wet-out/limiter/threshold -6.000000 
+ 	 	 	 	 /LPC-wet-out/record/filetype aiff 
+ 	 	 	 	 /LPC-wet-out/record/samptype int24 
+ 	 	 	 	 /LPC-wet-out/saturation/active 1 
+ 	 	 	 	 /LPC-wet-out/saturation/depth 10.000000 
+ 	 	 	 	 /LPC-wet-out/view/freeze 0 
+ 	 	 	 	 /LPC-wet-out/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

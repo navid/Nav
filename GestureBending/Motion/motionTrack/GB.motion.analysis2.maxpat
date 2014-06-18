@@ -4,11 +4,19 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
+<<<<<<< HEAD
 			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 570.0, 84.0, 1627.0, 704.0 ],
+=======
+			"revision" : 7,
+			"architecture" : "x86"
+		}
+,
+		"rect" : [ 242.0, 286.0, 628.0, 530.0 ],
+>>>>>>> FETCH_HEAD
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +36,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 123.0, 490.0, 150.0, 50.0 ],
+					"text" : "/motion/x\n/motion/y\n/motion/quantity"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana Bold",
 					"fontsize" : 10.0,
@@ -53,8 +76,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 827.0, 33.0, 155.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 567.0, 259.0, 117.0, 19.0 ],
 					"text" : "position / location"
 				}
 
@@ -84,8 +105,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 567.0, 2.0, 158.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 7.0, 9.0, 47.0, 38.0 ],
+					"presentation_rect" : [ 502.0, -1.0, 75.0, 22.0 ],
 					"text" : "data Gate"
 				}
 
@@ -100,7 +120,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2.0, 36.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 5.0, 51.0, 51.0 ]
+					"presentation_rect" : [ 570.0, 1.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -129,7 +149,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 697.0, 167.0, 150.0, 245.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.0, 278.0, 150.0, 245.0 ]
+					"presentation_rect" : [ 471.0, 29.0, 150.0, 245.0 ]
 				}
 
 			}
@@ -144,22 +164,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 855.0, 167.0, 150.0, 245.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 629.0, 278.0, 150.0, 245.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "all-fixed" ],
-					"id" : "obj-47",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.nav.scale.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 488.0, 167.0, 150.0, 245.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 546.0, 7.0, 150.0, 245.0 ]
+					"presentation_rect" : [ 471.0, 278.0, 150.0, 245.0 ]
 				}
 
 			}
@@ -233,7 +238,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 336.0, 167.0, 150.0, 245.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 7.0, 150.0, 245.0 ]
+					"presentation_rect" : [ 310.0, 5.5, 150.0, 245.0 ]
 				}
 
 			}
@@ -248,7 +253,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 181.0, 167.0, 150.0, 245.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 7.0, 150.0, 245.0 ]
+					"presentation_rect" : [ 159.0, 5.5, 150.0, 245.0 ]
 				}
 
 			}
@@ -263,7 +268,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 167.0, 150.0, 245.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 84.0, 7.0, 150.0, 245.0 ]
+					"presentation_rect" : [ 6.0, 5.5, 150.0, 245.0 ]
 				}
 
 			}
@@ -359,7 +364,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1010.0, 530.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 2.0, 626.0, 254.0 ]
+					"presentation_rect" : [ 3.0, 1.0, 462.0, 254.0 ]
 				}
 
 			}
@@ -387,7 +392,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1143.0, 530.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 465.0, 258.0, 318.0, 271.0 ]
+					"presentation_rect" : [ 467.0, 23.0, 160.0, 506.0 ]
 				}
 
 			}
@@ -449,15 +454,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -546,6 +542,104 @@
 				}
 
 			}
+<<<<<<< HEAD
+=======
+ ],
+		"parameters" : 		{
+			"obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
+			"obj-51::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-48::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "jmod.nav.scale.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.scale",
+				"patcherrelativepath" : "../../../Jamoma/jmod.nav.scale",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jalg.nav.scale.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.scale",
+				"patcherrelativepath" : "../../../Jamoma/jmod.nav.scale",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.autoscale.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.qom.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.pass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.delta.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out.mxo",
+				"type" : "iLaX"
+			}
+>>>>>>> FETCH_HEAD
  ]
 	}
 

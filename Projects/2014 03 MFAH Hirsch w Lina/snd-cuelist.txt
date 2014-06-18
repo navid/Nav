@@ -1,0 +1,295 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /player3_b 99 1 /player1_b 99 1 /player4 99 1 /player3 99 1 /player2 99 1 /player1 99 1 /pan.output 99 1 /AutoPanner2 99 1 /Panda2 99 1 /Panda 99 1 /AutoPanner 99 1 /lina.output 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /player3_b 
+ 	 	 	 	 /player3_b/audio/gain 0.000000 
+ 	 	 	 	 /player3_b/audio/mute 0 
+ 	 	 	 	 /player3_b/loop 1 
+ 	 	 	 	 /player3_b/loopsync/active 0 
+ 	 	 	 	 /player3_b/loopsync/mode loop_time 
+ 	 	 	 	 /player3_b/pitch/active 0 
+ 	 	 	 	 /player3_b/pitch/ratio 0.000000 
+ 	 	 	 	 /player3_b/reverse 0 
+ 	 	 	 	 /player3_b/sample/start 0.000000 
+ 	 	 	 	 /player3_b/sample/stop 0.000000 
+ 	 	 	 	 /player3_b/sample/vzoom 1.000000 
+ 	 	 	 	 /player3_b/speed/active 0 
+ 	 	 	 	 /player3_b/speed/ratio 1.000000 
+ 	 	 	 	 /player3_b/view/freeze 0 
+ 	 	 	 	 /player3_b/view/highlight 0 
+ # 
+ # Module /player1_b 
+ 	 	 	 	 /player1_b/audio/gain 0.000000 
+ 	 	 	 	 /player1_b/audio/mute 0 
+ 	 	 	 	 /player1_b/loop 1 
+ 	 	 	 	 /player1_b/loopsync/active 0 
+ 	 	 	 	 /player1_b/loopsync/mode loop_time 
+ 	 	 	 	 /player1_b/pitch/active 0 
+ 	 	 	 	 /player1_b/pitch/ratio 0.000000 
+ 	 	 	 	 /player1_b/reverse 0 
+ 	 	 	 	 /player1_b/sample/start 591.632690 
+ 	 	 	 	 /player1_b/sample/stop 58023.335938 
+ 	 	 	 	 /player1_b/sample/vzoom 1.000000 
+ 	 	 	 	 /player1_b/speed/active 0 
+ 	 	 	 	 /player1_b/speed/ratio 1.000000 
+ 	 	 	 	 /player1_b/view/freeze 0 
+ 	 	 	 	 /player1_b/view/highlight 0 
+ # 
+ # Module /player4 
+ 	 	 	 	 /player4/audio/gain 0.000000 
+ 	 	 	 	 /player4/audio/mute 0 
+ 	 	 	 	 /player4/loop 1 
+ 	 	 	 	 /player4/loopsync/active 0 
+ 	 	 	 	 /player4/loopsync/mode loop_time 
+ 	 	 	 	 /player4/pitch/active 0 
+ 	 	 	 	 /player4/pitch/ratio 0.000000 
+ 	 	 	 	 /player4/reverse 0 
+ 	 	 	 	 /player4/sample/start 0.000000 
+ 	 	 	 	 /player4/sample/stop 0.000000 
+ 	 	 	 	 /player4/sample/vzoom 1.000000 
+ 	 	 	 	 /player4/speed/active 0 
+ 	 	 	 	 /player4/speed/ratio 1.000000 
+ 	 	 	 	 /player4/view/freeze 0 
+ 	 	 	 	 /player4/view/highlight 0 
+ # 
+ # Module /player3 
+ 	 	 	 	 /player3/audio/gain 0.000000 
+ 	 	 	 	 /player3/audio/mute 0 
+ 	 	 	 	 /player3/loop 1 
+ 	 	 	 	 /player3/loopsync/active 0 
+ 	 	 	 	 /player3/loopsync/mode loop_time 
+ 	 	 	 	 /player3/pitch/active 0 
+ 	 	 	 	 /player3/pitch/ratio 0.000000 
+ 	 	 	 	 /player3/reverse 0 
+ 	 	 	 	 /player3/sample/start 0.000000 
+ 	 	 	 	 /player3/sample/stop 0.000000 
+ 	 	 	 	 /player3/sample/vzoom 1.000000 
+ 	 	 	 	 /player3/speed/active 0 
+ 	 	 	 	 /player3/speed/ratio 1.000000 
+ 	 	 	 	 /player3/view/freeze 0 
+ 	 	 	 	 /player3/view/highlight 0 
+ # 
+ # Module /player2 
+ 	 	 	 	 /player2/audio/gain 0.000000 
+ 	 	 	 	 /player2/audio/mute 0 
+ 	 	 	 	 /player2/loop 1 
+ 	 	 	 	 /player2/loopsync/active 0 
+ 	 	 	 	 /player2/loopsync/mode loop_time 
+ 	 	 	 	 /player2/pitch/active 0 
+ 	 	 	 	 /player2/pitch/ratio 0.000000 
+ 	 	 	 	 /player2/reverse 0 
+ 	 	 	 	 /player2/sample/start 0.000000 
+ 	 	 	 	 /player2/sample/stop 0.000000 
+ 	 	 	 	 /player2/sample/vzoom 1.000000 
+ 	 	 	 	 /player2/speed/active 0 
+ 	 	 	 	 /player2/speed/ratio 1.000000 
+ 	 	 	 	 /player2/view/freeze 0 
+ 	 	 	 	 /player2/view/highlight 0 
+ # 
+ # Module /player1 
+ 	 	 	 	 /player1/audio/gain 0.000000 
+ 	 	 	 	 /player1/audio/mute 0 
+ 	 	 	 	 /player1/loop 1 
+ 	 	 	 	 /player1/loopsync/active 0 
+ 	 	 	 	 /player1/loopsync/mode loop_time 
+ 	 	 	 	 /player1/pitch/active 0 
+ 	 	 	 	 /player1/pitch/ratio 0.000000 
+ 	 	 	 	 /player1/reverse 0 
+ 	 	 	 	 /player1/sample/start 0.000000 
+ 	 	 	 	 /player1/sample/stop 0.000000 
+ 	 	 	 	 /player1/sample/vzoom 1.000000 
+ 	 	 	 	 /player1/speed/active 0 
+ 	 	 	 	 /player1/speed/ratio 1.000000 
+ 	 	 	 	 /player1/view/freeze 0 
+ 	 	 	 	 /player1/view/highlight 0 
+ # 
+ # Module /pan.output 
+ 	 	 	 	 /pan.output/audio/active 0 
+ 	 	 	 	 /pan.output/audio/gain 105.000000 
+ 	 	 	 	 /pan.output/audio/mute 0 
+ 	 	 	 	 /pan.output/limiter/active 1 
+ 	 	 	 	 /pan.output/limiter/dcblocker/active 1 
+ 	 	 	 	 /pan.output/limiter/lookahead 64 
+ 	 	 	 	 /pan.output/limiter/mode exponential 
+ 	 	 	 	 /pan.output/limiter/postamp 0.000000 
+ 	 	 	 	 /pan.output/limiter/preamp 6.000000 
+ 	 	 	 	 /pan.output/limiter/release 300.000000 
+ 	 	 	 	 /pan.output/limiter/threshold -1.000000 
+ 	 	 	 	 /pan.output/numSpeakers 7 
+ 	 	 	 	 /pan.output/offset 0 
+ 	 	 	 	 /pan.output/record/filetype default 
+ 	 	 	 	 /pan.output/record/samptype default 
+ 	 	 	 	 /pan.output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /pan.output/view/freeze 0 
+ 	 	 	 	 /pan.output/view/highlight 0 
+ # 
+ # Module /AutoPanner2 
+ 	 	 	 	 /AutoPanner2/clock/on 1 
+ 	 	 	 	 /AutoPanner2/center 0.000000 0.000000 0.500000 
+ 	 	 	 	 /AutoPanner2/clock/interval 70.000000 
+ 	 	 	 	 /AutoPanner2/clock/stepsize 3.300000 
+ 	 	 	 	 /AutoPanner2/connect lina2 
+ 	 	 	 	 /AutoPanner2/directIndexControl 0 
+ 	 	 	 	 /AutoPanner2/index 0 
+ 	 	 	 	 /AutoPanner2/method 0 
+ 	 	 	 	 /AutoPanner2/points 666 2 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 
+ 	 	 	 	 /AutoPanner2/randomStability 5000 
+ 	 	 	 	 /AutoPanner2/trajectory/adjust fit-to-box 
+ 	 	 	 	 /AutoPanner2/trajectory/fraction 0.000000 
+ 	 	 	 	 /AutoPanner2/trajectory/interpolate 0 
+ 	 	 	 	 /AutoPanner2/trajectory/method 0 
+ 	 	 	 	 /AutoPanner2/trajectory/original 0 
+ 	 	 	 	 /AutoPanner2/trajectory/point 1 
+ 	 	 	 	 /AutoPanner2/trajectory/rec 0 
+ 	 	 	 	 /AutoPanner2/trajectory/recall 0 
+ 	 	 	 	 /AutoPanner2/view/freeze 0 
+ 	 	 	 	 /AutoPanner2/view/highlight 0 
+ 	 	 	 	 /AutoPanner2/volume/bound 2.000000 2.000000 1.000000 
+ 	 	 	 	 /AutoPanner2/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /AutoPanner2/volume/show 0 
+ 	 	 	 	 /AutoPanner2/volume/type 0 
+ # 
+ # Module /Panda2 
+ 	 	 	 	 /Panda2/numSources 2 
+ 	 	 	 	 /Panda2/numSpeakers 3 
+ 	 	 	 	 /Panda2/audio/gain 92.000000 
+ 	 	 	 	 /Panda2/audio/mute 0 
+ 	 	 	 	 /Panda2/center/curve 0.000000 
+ 	 	 	 	 /Panda2/center/decay 0.000000 
+ 	 	 	 	 /Panda2/center/size 0.000000 
+ 	 	 	 	 /Panda2/interpolation 1 
+ 	 	 	 	 /Panda2/source.1/order 3.000000 
+ 	 	 	 	 /Panda2/source.10/order 3.000000 
+ 	 	 	 	 /Panda2/source.11/order 3.000000 
+ 	 	 	 	 /Panda2/source.12/order 3.000000 
+ 	 	 	 	 /Panda2/source.13/order 3.000000 
+ 	 	 	 	 /Panda2/source.14/order 3.000000 
+ 	 	 	 	 /Panda2/source.15/order 3.000000 
+ 	 	 	 	 /Panda2/source.16/order 3.000000 
+ 	 	 	 	 /Panda2/source.17/order 3.000000 
+ 	 	 	 	 /Panda2/source.18/order 3.000000 
+ 	 	 	 	 /Panda2/source.19/order 3.000000 
+ 	 	 	 	 /Panda2/source.2/order 4.000000 
+ 	 	 	 	 /Panda2/source.20/order 3.000000 
+ 	 	 	 	 /Panda2/source.21/order 3.000000 
+ 	 	 	 	 /Panda2/source.22/order 3.000000 
+ 	 	 	 	 /Panda2/source.23/order 3.000000 
+ 	 	 	 	 /Panda2/source.24/order 3.000000 
+ 	 	 	 	 /Panda2/source.25/order 3.000000 
+ 	 	 	 	 /Panda2/source.26/order 3.000000 
+ 	 	 	 	 /Panda2/source.27/order 3.000000 
+ 	 	 	 	 /Panda2/source.28/order 3.000000 
+ 	 	 	 	 /Panda2/source.29/order 3.000000 
+ 	 	 	 	 /Panda2/source.3/order 3.000000 
+ 	 	 	 	 /Panda2/source.30/order 3.000000 
+ 	 	 	 	 /Panda2/source.31/order 3.000000 
+ 	 	 	 	 /Panda2/source.32/order 3.000000 
+ 	 	 	 	 /Panda2/source.4/order 3.000000 
+ 	 	 	 	 /Panda2/source.5/order 3.000000 
+ 	 	 	 	 /Panda2/source.6/order 3.000000 
+ 	 	 	 	 /Panda2/source.7/order 3.000000 
+ 	 	 	 	 /Panda2/source.8/order 3.000000 
+ 	 	 	 	 /Panda2/source.9/order 3.000000 
+ 	 	 	 	 /Panda2/view/freeze 0 
+ 	 	 	 	 /Panda2/view/highlight 0 
+ # 
+ # Module /Panda 
+ 	 	 	 	 /Panda/numSources 2 
+ 	 	 	 	 /Panda/numSpeakers 7 
+ 	 	 	 	 /Panda/audio/gain 92.000000 
+ 	 	 	 	 /Panda/audio/mute 0 
+ 	 	 	 	 /Panda/center/curve 0.000000 
+ 	 	 	 	 /Panda/center/decay 0.000000 
+ 	 	 	 	 /Panda/center/size 0.000000 
+ 	 	 	 	 /Panda/interpolation 1 
+ 	 	 	 	 /Panda/source.1/order 0.000000 
+ 	 	 	 	 /Panda/source.10/order 0.000000 
+ 	 	 	 	 /Panda/source.11/order 0.000000 
+ 	 	 	 	 /Panda/source.12/order 0.000000 
+ 	 	 	 	 /Panda/source.13/order 0.000000 
+ 	 	 	 	 /Panda/source.14/order 0.000000 
+ 	 	 	 	 /Panda/source.15/order 0.000000 
+ 	 	 	 	 /Panda/source.16/order 0.000000 
+ 	 	 	 	 /Panda/source.17/order 0.000000 
+ 	 	 	 	 /Panda/source.18/order 0.000000 
+ 	 	 	 	 /Panda/source.19/order 0.000000 
+ 	 	 	 	 /Panda/source.2/order 4.000000 
+ 	 	 	 	 /Panda/source.20/order 0.000000 
+ 	 	 	 	 /Panda/source.21/order 0.000000 
+ 	 	 	 	 /Panda/source.22/order 0.000000 
+ 	 	 	 	 /Panda/source.23/order 0.000000 
+ 	 	 	 	 /Panda/source.24/order 0.000000 
+ 	 	 	 	 /Panda/source.25/order 0.000000 
+ 	 	 	 	 /Panda/source.26/order 0.000000 
+ 	 	 	 	 /Panda/source.27/order 0.000000 
+ 	 	 	 	 /Panda/source.28/order 0.000000 
+ 	 	 	 	 /Panda/source.29/order 0.000000 
+ 	 	 	 	 /Panda/source.3/order 4.000000 
+ 	 	 	 	 /Panda/source.30/order 0.000000 
+ 	 	 	 	 /Panda/source.31/order 0.000000 
+ 	 	 	 	 /Panda/source.32/order 0.000000 
+ 	 	 	 	 /Panda/source.4/order 4.000000 
+ 	 	 	 	 /Panda/source.5/order 0.000000 
+ 	 	 	 	 /Panda/source.6/order 0.000000 
+ 	 	 	 	 /Panda/source.7/order 0.000000 
+ 	 	 	 	 /Panda/source.8/order 0.000000 
+ 	 	 	 	 /Panda/source.9/order 0.000000 
+ 	 	 	 	 /Panda/view/freeze 0 
+ 	 	 	 	 /Panda/view/highlight 0 
+ # 
+ # Module /AutoPanner 
+ 	 	 	 	 /AutoPanner/clock/on 1 
+ 	 	 	 	 /AutoPanner/center 0.000000 0.000000 0.000000 
+ 	 	 	 	 /AutoPanner/clock/interval 100.000000 
+ 	 	 	 	 /AutoPanner/clock/stepsize 3.300000 
+ 	 	 	 	 /AutoPanner/connect lina 
+ 	 	 	 	 /AutoPanner/directIndexControl 0 
+ 	 	 	 	 /AutoPanner/index 0 
+ 	 	 	 	 /AutoPanner/method 0 
+ 	 	 	 	 /AutoPanner/points 666 2 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 
+ 	 	 	 	 /AutoPanner/randomStability 3000 
+ 	 	 	 	 /AutoPanner/trajectory/adjust fit-to-box 
+ 	 	 	 	 /AutoPanner/trajectory/fraction 0.000000 
+ 	 	 	 	 /AutoPanner/trajectory/interpolate 0 
+ 	 	 	 	 /AutoPanner/trajectory/method 0 
+ 	 	 	 	 /AutoPanner/trajectory/original 0 
+ 	 	 	 	 /AutoPanner/trajectory/point 1 
+ 	 	 	 	 /AutoPanner/trajectory/rec 0 
+ 	 	 	 	 /AutoPanner/trajectory/recall 0 
+ 	 	 	 	 /AutoPanner/view/freeze 0 
+ 	 	 	 	 /AutoPanner/view/highlight 0 
+ 	 	 	 	 /AutoPanner/volume/bound 1.500000 1.500000 0.000000 
+ 	 	 	 	 /AutoPanner/volume/color 0.155125 0.844529 0.908166 
+ 	 	 	 	 /AutoPanner/volume/show 0 
+ 	 	 	 	 /AutoPanner/volume/type 0 
+ # 
+ # Module /lina.output 
+ 	 	 	 	 /lina.output/audio/active 0 
+ 	 	 	 	 /lina.output/audio/gain 105.000000 
+ 	 	 	 	 /lina.output/audio/mute 0 
+ 	 	 	 	 /lina.output/limiter/active 1 
+ 	 	 	 	 /lina.output/limiter/dcblocker/active 1 
+ 	 	 	 	 /lina.output/limiter/lookahead 64 
+ 	 	 	 	 /lina.output/limiter/mode exponential 
+ 	 	 	 	 /lina.output/limiter/postamp 0.000000 
+ 	 	 	 	 /lina.output/limiter/preamp 6.000000 
+ 	 	 	 	 /lina.output/limiter/release 300.000000 
+ 	 	 	 	 /lina.output/limiter/threshold -1.000000 
+ 	 	 	 	 /lina.output/numSpeakers 7 
+ 	 	 	 	 /lina.output/offset 0 
+ 	 	 	 	 /lina.output/record/filetype default 
+ 	 	 	 	 /lina.output/record/samptype default 
+ 	 	 	 	 /lina.output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+ 	 	 	 	 /lina.output/view/freeze 0 
+ 	 	 	 	 /lina.output/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

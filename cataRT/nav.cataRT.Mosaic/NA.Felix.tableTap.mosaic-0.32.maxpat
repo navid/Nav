@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 2138.0, 44.0, 415.0, 848.0 ],
+		"rect" : [ 12.0, 44.0, 404.0, 801.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2138.0, 44.0, 415.0, 848.0 ],
+		"defrect" : [ 12.0, 44.0, 404.0, 801.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1000.0, 944.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 697.0, 150.0, 70.0 ]
+					"presentation_rect" : [ 203.0, 659.0, 150.0, 70.0 ]
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 466.0, 1142.0, 224.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 661.0, 365.0, 30.0 ],
+					"presentation_rect" : [ 7.0, 623.0, 365.0, 30.0 ],
 					"range" : [ 0.0, 127.0 ],
 					"text" : "Master"
 				}
@@ -95,7 +95,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 362.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 132.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 416.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 177.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 390.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 153.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 270.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 68.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 240.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 48.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -170,7 +170,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 215.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 27.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -185,7 +185,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 185.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 6.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 332.0, 1068.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 110.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -215,7 +215,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 302.0, 1066.0, 20.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.0, 695.0, 20.0, 141.0 ]
+					"presentation_rect" : [ 89.0, 657.0, 20.0, 141.0 ]
 				}
 
 			}
@@ -383,7 +383,7 @@
 ,
 					"patching_rect" : [ 572.0, 1024.0, 36.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 172.0, 590.0, 36.0, 20.0 ],
+					"presentation_rect" : [ 173.0, 552.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
@@ -409,7 +409,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 538.0, 1024.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 590.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 2.0, 552.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -424,7 +424,7 @@
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 482.0, 732.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 520.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 5.0, 482.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -436,7 +436,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 1223.0, 254.0, 20.0 ],
+					"patching_rect" : [ 181.0, 1223.0, 127.0, 20.0 ],
 					"text" : "dac~ 1 2 3 4 5 6 7 8 9"
 				}
 
@@ -460,13 +460,13 @@
 					"args" : [ "cataRTrvrb" ],
 					"id" : "obj-107",
 					"maxclass" : "bpatcher",
-					"name" : "jmod.tap.reverb~.maxpat",
+					"name" : "jmod.rdp.reverb~.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 535.0, 888.0, 300.0, 70.0 ],
+					"patching_rect" : [ 535.0, 888.0, 150.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 448.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 4.0, 448.0, 150.0, 35.0 ]
 				}
 
 			}
@@ -956,7 +956,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "cataRT.OZ.tml.json",
+					"autorestore" : "totalFelix-cataRT.json",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -967,10 +967,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1110.0, 353.0, 189.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"paraminitmode" : 0,
 						"client_rect" : [ 854, 318, 1254, 818 ],
-						"storage_rect" : [ 794, -709, 1244, -510 ]
+						"parameter_enable" : 0,
+						"storage_rect" : [ 794, -709, 1244, -510 ],
+						"paraminitmode" : 0
 					}
 ,
 					"text" : "pattrstorage catart.lcd @flat 1 @savemode 0",
@@ -1362,7 +1362,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 107.0, 114.0, 50.0, 19.0 ],
-									"text" : "all"
+									"text" : "0 15"
 								}
 
 							}
@@ -1988,7 +1988,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 95.0, 152.0, 195.0, 15.0 ],
-									"text" : "set-descriptors 14 15 16 17 18 19 20 21 22 23"
+									"text" : "set-descriptors 0 15"
 								}
 
 							}
@@ -3112,9 +3112,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 2008.0, 44.0, 127.0, 391.0 ],
+						"rect" : [ 437.0, 331.0, 127.0, 391.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 2008.0, 44.0, 127.0, 391.0 ],
+						"defrect" : [ 437.0, 331.0, 127.0, 391.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 13.0,
@@ -3155,11 +3155,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 556.0, 99.0, 111.0, 17.0 ],
 									"restore" : 									{
-										"SoundSetMatrix" : [ 0, 3, 1, 0, 4, 1, 0, 5, 1, 0, 7, 1, 0, 8, 1, 0, 9, 1, 0, 10, 1, 0, 11, 1, 0, 12, 1, 0, 13, 1, 0, 14, 1, 0, 18, 1, 0, 19, 1 ]
+										"SoundSetMatrix" : [ 0, 0, 0 ]
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u505023925"
+									"varname" : "u093024410"
 								}
 
 							}
@@ -3775,7 +3775,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-101",
-									"items" : [ "Slapbass_F#.wav", ",", "Synthbass115_G.wav", ",", "Synthbass116_E.wav", ",", "E-Bass_Dm.aif", ",", "E-Bass_Gm.aif", ",", "waterSong-Gong.wav", ",", "bellish1.aif", ",", "bellish2.aif", ",", "bellish3.aif", ",", "bellish4.aif", ",", "bellish5.aif", ",", "click1.aif_norm.aif", ",", "click10.aif_norm.aif", ",", "click11.aif_norm.aif", ",", "click12.aif_norm.aif", ",", "click13.aif_norm.aif", ",", "click14.aif_norm.aif", ",", "click15.aif_norm.aif", ",", "click16.aif_norm.aif", ",", "click17.aif_norm.aif", ",", "click18.aif_norm.aif", ",", "click19.aif_norm.aif", ",", "click2.aif_norm.aif", ",", "click20.aif_norm.aif", ",", "click21.aif_norm.aif", ",", "click22.aif_norm.aif", ",", "click23.aif_norm.aif", ",", "click3.aif_norm.aif", ",", "click4.aif_norm.aif", ",", "click5.aif_norm.aif", ",", "click6.aif_norm.aif", ",", "click7.aif_norm.aif", ",", "click8.aif_norm.aif", ",", "click9.aif_norm.aif", ",", "maxclick1.aif_norm.aif", ",", "maxclick10.aif_norm.aif", ",", "maxclick11.aif_norm.aif", ",", "maxclick12.aif_norm.aif", ",", "maxclick13.aif_norm.aif", ",", "maxclick14.aif_norm.aif", ",", "maxclick15.aif_norm.aif", ",", "maxclick16.aif_norm.aif", ",", "maxclick17.aif_norm.aif", ",", "maxclick18.aif_norm.aif", ",", "maxclick19.aif_norm.aif", ",", "maxclick2.aif_norm.aif", ",", "maxclick20.aif_norm.aif", ",", "maxclick3.aif_norm.aif", ",", "maxclick4.aif_norm.aif", ",", "maxclick5.aif_norm.aif", ",", "maxclick6.aif_norm.aif", ",", "maxclick7.aif_norm.aif", ",", "maxclick8.aif_norm.aif", ",", "maxclick9.aif_norm.aif", ",", "mc1_swp1.aif", ",", "mc1_swp2.aif", ",", "mc1_swp3vsubtle.aif", ",", "mc1_swp3vsubtle10.aif", ",", "mc1_swp3vsubtle11.aif", ",", "mc1_swp3vsubtle12.aif", ",", "mc1_swp3vsubtle13.aif", ",", "mc1_swp3vsubtle14.aif", ",", "mc1_swp3vsubtle15.aif", ",", "mc1_swp3vsubtle16.aif", ",", "mc1_swp3vsubtle17.aif", ",", "mc1_swp3vsubtle18.aif", ",", "mc1_swp3vsubtle19.aif", ",", "mc1_swp3vsubtle2.aif", ",", "mc1_swp3vsubtle20.aif", ",", "mc1_swp3vsubtle21.aif", ",", "mc1_swp3vsubtle22.aif", ",", "mc1_swp3vsubtle23.aif", ",", "mc1_swp3vsubtle24.aif", ",", "mc1_swp3vsubtle24inv1.aif", ",", "mc1_swp3vsubtle24inv2.aif", ",", "mc1_swp3vsubtle24inv3.aif", ",", "mc1_swp3vsubtle24inv3trhs1.aif", ",", "mc1_swp3vsubtle3.aif", ",", "mc1_swp3vsubtle4.aif", ",", "mc1_swp3vsubtle5.aif", ",", "mc1_swp3vsubtle6.aif", ",", "mc1_swp3vsubtle7.aif", ",", "mc1_swp3vsubtle8.aif", ",", "mc1_swp3vsubtle9.aif", ",", "mc1_swpinvthr_fltr1.aif", ",", "mc1_swpinvthr_fltr1_swp2.aif", ",", "track 2#1.aif", ",", "track 2#10.aif", ",", "track 2#11.aif", ",", "track 2#12.aif", ",", "track 2#13.aif", ",", "track 2#2.aif", ",", "track 2#3.aif", ",", "track 2#4.aif", ",", "track 2#5.aif", ",", "track 2#6.aif", ",", "track 2#7.aif", ",", "track 2#8.aif", ",", "track 2#9.aif", ",", "track 2.aif", ",", "track 5#1.aif", ",", "track 5#10.aif", ",", "track 5#11.aif", ",", "track 5#12.aif", ",", "track 5#13.aif", ",", "track 5#14.aif", ",", "track 5#15.aif", ",", "track 5#16.aif", ",", "track 5#17.aif", ",", "track 5#18.aif", ",", "track 5#19.aif", ",", "track 5#2.aif", ",", "track 5#20.aif", ",", "track 5#21.aif", ",", "track 5#22.aif", ",", "track 5#3.aif", ",", "track 5#4.aif", ",", "track 5#5.aif", ",", "track 5#6.aif", ",", "track 5#7.aif", ",", "track 5#8.aif", ",", "track 5#9.aif", ",", "track 5.aif", ",", "track1#1.aif", ",", "track1#10.aif", ",", "track1#11.aif", ",", "track1#12.aif", ",", "track1#2.aif", ",", "track1#3.aif", ",", "track1#4.aif", ",", "track1#5.aif", ",", "track1#6.aif", ",", "track1#7.aif", ",", "track1#8.aif", ",", "track1#9.aif", ",", "track1.aif", ",", "track2.aif", ",", "track3#1.aif", ",", "track3#10.aif", ",", "track3#11.aif", ",", "track3#12.aif", ",", "track3#13.aif", ",", "track3#14.aif", ",", "track3#15.aif", ",", "track3#16.aif", ",", "track3#2.aif", ",", "track3#3.aif", ",", "track3#4.aif", ",", "track3#5.aif", ",", "track3#6.aif", ",", "track3#7.aif", ",", "track3#8.aif", ",", "track3#9.aif", ",", "track3.aif", ",", "track4#1.aif", ",", "track4#10.aif", ",", "track4#11.aif", ",", "track4#12.aif", ",", "track4#13.aif", ",", "track4#14.aif", ",", "track4#15.aif", ",", "track4#16.aif", ",", "track4#17.aif", ",", "track4#18.aif", ",", "track4#19.aif", ",", "track4#2.aif", ",", "track4#20.aif", ",", "track4#21.aif", ",", "track4#22.aif", ",", "track4#23.aif", ",", "track4#24.aif", ",", "track4#25.aif", ",", "track4#26.aif", ",", "track4#27.aif", ",", "track4#28.aif", ",", "track4#29.aif", ",", "track4#3.aif", ",", "track4#30.aif", ",", "track4#4.aif", ",", "track4#5.aif", ",", "track4#6.aif", ",", "track4#7.aif", ",", "track4#8.aif", ",", "track4#9.aif", ",", "track4.aif", ",", "kzLoop.wav", ",", "Kick.aif", ",", "Kick02.aif", ",", "3spread-text01(long).aif", ",", "microplay-g2-bass-resnoise(harsh-highs).aif", ",", "microplay-g2-basscycle(uglyDC).aif", ",", "microplay-g2-runtime_convol.aif", ",", "microplay-g2-text01(long).aif", ",", "glitch-fun.aif", ",", "glitch-wowfun.aif", ",", "perf_mono.aifRegion 1.aif", ",", "perf_mono.aifRegion 2.aif", ",", "perf_mono.aifRegion 3.aif", ",", "perf_mono.aifRegion 4.aif", ",", "perf_mono.aifRegion 5.aif", ",", "perf_mono.aifRegion 6.aif", ",", "perf_mono2.aifRegion 1.aif", ",", "perf_mono2.aifRegion 2.aif", ",", "perf_mono2.aifRegion 3.aif", ",", "perf_mono2.aifRegion 4.aif", ",", "perf_mono2.aifRegion 5.aif", ",", "perf_mono3.aifRegion 1.aif", ",", "perf_mono3.aifRegion 2.aif", ",", "perf_mono3.aifRegion 3.aif", ",", "microplay-bassthump_glitch01.aif", ",", "microplay-bassthump_glitch02.aif", ",", "microplay-bassthump_glitch03.aif", ",", "microplay-clicks_warm01.aif", ",", "microplay-low-sr-pulse04.aif", ",", "microplay-pulse(slower).aif", ",", "microplay-tonepulse02.aif", ",", "microplay_thump_flutter01.aif", ",", "mono-vc3xvc4-cep.aiff", ",", "grainyMetal-OPCH.aif", ",", "rollingGlass.aif", ",", "bongosAndToms.aif", ",", "Congas06.aif", ",", "invertedSaladBowls-inWater.aif", ",", "Tube-flipFlop.aif", ",", "pizzi-bouncy2.wav", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Vc-pizz-lv-A#2-pp-3c.aif", ",", "Vc-pizz-lv-A3-mf-2c.aif", ",", "Vc-pizz-lv-B3-pp-1c.aif", ",", "Vc-pizz-lv-C#5-ff-1c.aif", ",", "Vc-pizz-lv-D#2-mf-4c.aif", ",", "Vc-pizz-lv-D3-ff-2c.aif", ",", "Vc-pizz-sec-A#2-pp-3c.aif", ",", "Vc-pizz-sec-A#4-ff-1c.aif", ",", "Vc-pizz-sec-A3-mf-2c.aif", ",", "Vc-pizz-sec-A4-pp-1c.aif", ",", "Vc-pizz-sec-C#2-ff-4c.aif", ",", "Vc-pizz-sec-C#5-mf-1c.aif", ",", "Vc-pizz-sec-C4-ff-1c.aif", ",", "Vc-pizz-sec-D#3-ff-2c.aif", ",", "Vc-pizz-sec-D#4-mf-1c.aif", ",", "Vc-pizz-sec-D3-mf-2c.aif", ",", "Vc-pizz-sec-D5-pp-1c.aif", ",", "Vc-pizz-sec-E4-mf-1c.aif", ",", "Vc-pizz-sec-F#3-ff-2c.aif", ",", "Vc-pizz-sec-F2-ff-4c.aif", ",", "Vc-pizz-sec-G#2-ff-3c.aif", ",", "Vc-pizz-sec-G#4-mf-1c.aif", ",", "Vc-pizz-sec-G3-mf-2c.aif", ",", "Vn-pizz-bartok-A3-ff-4c.aif", ",", "Vn-pizz-bartok-C#5-ff-2c.aif", ",", "Vn-pizz-bartok-D#5-ff-3c.aif", ",", "Vn-pizz-bartok-F#4-ff-3c.aif", ",", "Vn-pizz-bartok-G4-ff-3c.aif", ",", "Vn-pizz-lv-A#4-mf-3c.aif", ",", "Vn-pizz-lv-A#6-mf-1c.aif", ",", "Vn-pizz-lv-A4-pp-3c.aif", ",", "Vn-pizz-lv-B5-ff-2c.aif", ",", "Vn-pizz-lv-C4-mf-4c.aif", ",", "Vn-pizz-lv-C7-ff-1c.aif", ",", "Vn-pizz-lv-D4-mf-3c.aif", ",", "Vn-pizz-lv-E5-ff-3c.aif", ",", "Vn-pizz-lv-F#5-ff-1c.aif", ",", "Vn-pizz-lv-F5-ff-1c.aif", ",", "Vn-pizz-lv-G#4-pp-3c.aif", ",", "Vn-pizz-lv-G3-pp-4c.aif", ",", "Vn-pizz-lv-G6-ff-1c.aif", ",", "Landslide Rumble.wav", ",", "rolling stairs.wav", ",", "squeeky rolling stairs.wav", ",", "scratch1.1.aif", ",", "scratch1.2.aif", ",", "scratch2.1.aif", ",", "scratch2.2.aif", ",", "scratch2.aif", ",", "stairs-WalkingDown(mono).aif", ",", "GCO LO MID.wav", ",", "guitar.wav", ",", "a1.aif", ",", "a3.aif", ",", "b2.aif", ",", "bal Sqz.aif", ",", "bamboo-long.aif", ",", "bamboo-short.aif", ",", "Bass-DB.aif", ",", "Bass-DB2.aif", ",", "breat-StrongInhale.aif", ",", "breath-StrongInhale-glitch.aif", ",", "breath-william-smooth.aif", ",", "breath-william-tonal.aif", ",", "Coins Lots-short.aif", ",", "Coins-lots-low-short.aif", ",", "cpD#4.aif", ",", "done-bassMoskito.aif", ",", "drone-az.aif", ",", "drone-bass.aif", ",", "drone-bassVox.aif", ",", "drone-bassWorm.aif", ",", "GCO LO MID.aif", ",", "GCO LO.aif", ",", "glitch-fun.aif", ",", "glitch-wowfun.aif", ",", "gong.aif", ",", "gt.arp.buzz.aif", ",", "gt.arpegio.aif", ",", "gt.blues.cls.aif", ",", "gt.blues.cls2.aif", ",", "gt.blues.mute.aif", ",", "gt.buzz.blues..aif", ",", "gt.chord.aif", ",", "gt.cls.note.beep.aif", ",", "gt.cls.note.low.aif", ",", "gt.cls.note.low2.aif", ",", "gt.cls.notearp.harm.aif", ",", "gt.cls.stroke.aif", ",", "gt.elctrc.note.aif", ",", "gt.rough.aif", ",", "gt.rough.beep.bas.aif", ",", "gt.rough.ringy.aif", ",", "gt.slid.note.aif", ",", "gt.slidy.aif", ",", "laugh-06(sing-many-rustling).aif", ",", "mouth-gasp02(laugh).aif", ",", "Quantize.aif", ",", "triangle.aif", ",", "V_08Tom_1.aif", ",", "voice.muddy-short.aif", ",", "voice.muddy.aif", ",", "Water-beep.aif", ",", "waterphone.aif", ",", "wood-glass.aif", ",", "wx-piano note.aif", ",", "wx-piano-lowcrash.aif", ",", "X-Big Waterfall.aif", ",", "X-Canoe Paddle.aif", ",", "X-Cave Water Drops.aif", ",", "x-chimes.aif", ",", "X-fire-rumble.aif", ",", "X-firecr.aif", ",", "x-gongGO PP   01.aif", ",", "X-hum-drone.aif", ",", "X-Landslide With Rocks 01.aif", ",", "X-Landslide With Rocks 02.aif", ",", "X-piano_charge.aif", ",", "X-Underwater Bubbles Thick.aif", ",", "X-Underwater Sloshing.aif", ",", "X-Untitled.aif", ",", "X-Water Boil.aif", ",", "z_Landslide Rumble.aif", ",", "KlangParade_90b_16br.wav", ",", "AlchemyFood.aif", ",", "Coins-Lots-short-edite.aif", ",", "crushingGlass-OPCH.aif", ",", "eaCrum-rogs.aif", ",", "glassONglass-OPCH.aif", ",", "GlassStorm-rogs.aif", ",", "Glitch-pers.aif", ",", "grainyMetal-OPCH.aif", ",", "GuitarCraz-short.aif", ",", "MarbleOnDrum-OPCH.aif", ",", "slow-fireMetal-crackle.aif", ",", "improvisedVoice.aif" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4403,7 +4403,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-64",
-									"items" : [ " ", ",", "Bass", ",", "BassyGrain", ",", "bellish", ",", "clicks_norm", ",", "ClicksProcessed", ",", "doepfer ", ",", "dums", ",", "GlichSus", ",", "Glitch", ",", "GlitchIntrmitnt", ",", "GlitchTim", ",", "GrainyPizzi", ",", "percussion", ",", "Pizzi", ",", "pizzi2", ",", "stairs-catart", ",", "stochy.Guit", ",", "TT.rogs", ",", "Voice" ],
+									"items" : " ",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5831,16 +5831,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-79",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 516.0, 195.0, 36.0 ],
+					"patching_rect" : [ 407.0, 516.0, 195.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 2.0, 195.0, 174.0, 36.0 ],
-					"text" : "select 61.621075 0.002051 0.764991 0.0055 291.240509 0.000163 0.086085 490929.875 0.91114 0.00001"
+					"presentation_rect" : [ 2.0, 195.0, 174.0, 15.0 ],
+					"text" : "set-descriptors 0 15"
 				}
 
 			}
@@ -6101,7 +6099,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 6.0, 125.0, 170.0, 25.0 ],
-					"text" : "loaded 6472 units in 381 sound files of 27.7 min using 305.18927 MB RAM"
+					"text" : "loaded 0 units in 0 sound files of 0. min using 0. MB RAM"
 				}
 
 			}
@@ -6577,16 +6575,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-107", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
+					"destination" : [ "obj-103", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-107", 2 ]
@@ -6617,6 +6606,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-107", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-107", 2 ]
 				}
 
 			}
@@ -7414,6 +7412,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-107", 2 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -7423,16 +7430,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
+					"destination" : [ "obj-107", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-88", 0 ]
@@ -7441,7 +7439,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 1 ],
+					"destination" : [ "obj-108", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-88", 0 ]
@@ -7558,7 +7556,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-109", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-97", 0 ]
@@ -7592,7 +7590,15 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-107::obj-28::obj-18" : [ "width", "width", 0 ],
+			"obj-107::obj-28::obj-2" : [ "damp", "damp", 0 ],
+			"obj-107::obj-28::obj-22" : [ "wet", "wet", 0 ],
+			"obj-107::obj-28::obj-23" : [ "dry", "dry", 0 ],
+			"obj-107::obj-28::obj-15" : [ "decay", "decay", 0 ]
+		}
+
 	}
 
 }

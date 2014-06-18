@@ -1,0 +1,143 @@
+
+ 
+ KEYCUE "O4-tableTap-init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /cataRTCues 99 1 /wubWoofCataRT 99 1 /cataRTrvrb 99 1 /equalizer~ 99 1 /randTrans 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /cataRTCues 
+ 	 	 	 	 /cataRTCues/view/freeze 0 
+ 	 	 	 	 /cataRTCues/view/highlight 0 
+ # 
+ # Module /wubWoofCataRT 
+ 	 	 	 	 /wubWoofCataRT/audio/bypass 0 
+ 	 	 	 	 /wubWoofCataRT/audio/gain 90.000000 
+ 	 	 	 	 /wubWoofCataRT/audio/mix 100.000000 
+ 	 	 	 	 /wubWoofCataRT/audio/mute 0 
+ 	 	 	 	 /wubWoofCataRT/filtergain 1.040406 
+ 	 	 	 	 /wubWoofCataRT/filtertype lowpass 
+ 	 	 	 	 /wubWoofCataRT/frequency 961.536499 
+ 	 	 	 	 /wubWoofCataRT/q 0.259835 
+ 	 	 	 	 /wubWoofCataRT/view/freeze 0 
+ 	 	 	 	 /wubWoofCataRT/view/highlight 0 
+ # 
+ # Module /cataRTrvrb 
+ 	 	 	 	 /cataRTrvrb/audio/bypass 0 
+ 	 	 	 	 /cataRTrvrb/audio/gain 65.000000 
+ 	 	 	 	 /cataRTrvrb/audio/mix 100.000000 
+ 	 	 	 	 /cataRTrvrb/audio/mute 0 
+ 	 	 	 	 /cataRTrvrb/damping 20000.000000 
+ 	 	 	 	 /cataRTrvrb/decay 3.500000 
+ 	 	 	 	 /cataRTrvrb/delay 100.000000 
+ 	 	 	 	 /cataRTrvrb/earlyReflections/active 1 
+ 	 	 	 	 /cataRTrvrb/lowpass 15000.000000 
+ 	 	 	 	 /cataRTrvrb/moddepth 0.100000 
+ 	 	 	 	 /cataRTrvrb/modfreq 0.100000 
+ 	 	 	 	 /cataRTrvrb/view/freeze 0 
+ 	 	 	 	 /cataRTrvrb/view/highlight none 
+ # 
+ # Module /equalizer~ 
+ 	 	 	 	 /equalizer~/bands 3 
+ 	 	 	 	 /equalizer~/audio/bypass 0 
+ 	 	 	 	 /equalizer~/audio/gain 95.000000 
+ 	 	 	 	 /equalizer~/audio/mix 98.000000 
+ 	 	 	 	 /equalizer~/audio/mute 0 
+ 	 	 	 	 /equalizer~/filter.1/frequency 11025.000000 
+ 	 	 	 	 /equalizer~/filter.1/gain 17.371649 
+ 	 	 	 	 /equalizer~/filter.1/q 0.406848 
+ 	 	 	 	 /equalizer~/filter.1/type 0 
+ 	 	 	 	 /equalizer~/filter.2/frequency 131.784103 
+ 	 	 	 	 /equalizer~/filter.2/gain 0.844618 
+ 	 	 	 	 /equalizer~/filter.2/q 0.319104 
+ 	 	 	 	 /equalizer~/filter.2/type 0 
+ 	 	 	 	 /equalizer~/filter.3/frequency 1107.698730 
+ 	 	 	 	 /equalizer~/filter.3/gain -0.706247 
+ 	 	 	 	 /equalizer~/filter.3/q 0.601895 
+ 	 	 	 	 /equalizer~/filter.3/type bandpass 
+ 	 	 	 	 /equalizer~/view/freeze 0 
+ 	 	 	 	 /equalizer~/view/highlight 0 
+ # 
+ # Module /randTrans 
+ 	 	 	 	 /randTrans/interpolate 1000 
+ 	 	 	 	 /randTrans/max 24.000000 
+ 	 	 	 	 /randTrans/min -24.000000 
+ 	 	 	 	 /randTrans/on 1 
+ 	 	 	 	 /randTrans/rate/max 5000 
+ 	 	 	 	 /randTrans/rate/min 1054 
+ 	 	 	 	 /randTrans/step 1.000000 
+ 	 	 	 	 /randTrans/view/freeze 0 
+ 	 	 	 	 /randTrans/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "lowblow" 
+ 
+ 
+ 	 	 	 	 /CONFIG /cataRTCues 99 1 /wubWoofCataRT 99 1 /cataRTrvrb 99 1 /equalizer~ 99 1 /randTrans 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /cataRTCues 
+ 	 	 	 	 /cataRTCues/view/freeze 0 
+ 	 	 	 	 /cataRTCues/view/highlight 0 
+ # 
+ # Module /wubWoofCataRT 
+ 	 	 	 	 /wubWoofCataRT/audio/bypass 0 
+ 	 	 	 	 /wubWoofCataRT/audio/gain 99.000000 
+ 	 	 	 	 /wubWoofCataRT/audio/mix 100.000000 
+ 	 	 	 	 /wubWoofCataRT/audio/mute 0 
+ 	 	 	 	 /wubWoofCataRT/filtergain 9.533030 
+ 	 	 	 	 /wubWoofCataRT/filtertype lowpass 
+ 	 	 	 	 /wubWoofCataRT/frequency 138.189499 
+ 	 	 	 	 /wubWoofCataRT/q 0.554528 
+ 	 	 	 	 /wubWoofCataRT/view/freeze 0 
+ 	 	 	 	 /wubWoofCataRT/view/highlight 0 
+ # 
+ # Module /cataRTrvrb 
+ 	 	 	 	 /cataRTrvrb/audio/bypass 0 
+ 	 	 	 	 /cataRTrvrb/audio/gain 65.000000 
+ 	 	 	 	 /cataRTrvrb/audio/mix 0.000000 
+ 	 	 	 	 /cataRTrvrb/audio/mute 0 
+ 	 	 	 	 /cataRTrvrb/damping 20000.000000 
+ 	 	 	 	 /cataRTrvrb/decay 3.500000 
+ 	 	 	 	 /cataRTrvrb/delay 100.000000 
+ 	 	 	 	 /cataRTrvrb/earlyReflections/active 1 
+ 	 	 	 	 /cataRTrvrb/lowpass 15000.000000 
+ 	 	 	 	 /cataRTrvrb/moddepth 0.100000 
+ 	 	 	 	 /cataRTrvrb/modfreq 0.100000 
+ 	 	 	 	 /cataRTrvrb/view/freeze 0 
+ 	 	 	 	 /cataRTrvrb/view/highlight none 
+ # 
+ # Module /equalizer~ 
+ 	 	 	 	 /equalizer~/bands 1 
+ 	 	 	 	 /equalizer~/audio/bypass 0 
+ 	 	 	 	 /equalizer~/audio/gain 101.000000 
+ 	 	 	 	 /equalizer~/audio/mix 100.000000 
+ 	 	 	 	 /equalizer~/audio/mute 0 
+ 	 	 	 	 /equalizer~/filter.1/frequency 2085.622803 
+ 	 	 	 	 /equalizer~/filter.1/gain -0.189243 
+ 	 	 	 	 /equalizer~/filter.1/q 0.810654 
+ 	 	 	 	 /equalizer~/filter.1/type highpass 
+ 	 	 	 	 /equalizer~/view/freeze 0 
+ 	 	 	 	 /equalizer~/view/highlight 0 
+ # 
+ # Module /randTrans 
+ 	 	 	 	 /randTrans/interpolate 650 
+ 	 	 	 	 /randTrans/max 13.000000 
+ 	 	 	 	 /randTrans/min -16.000000 
+ 	 	 	 	 /randTrans/on 1 
+ 	 	 	 	 /randTrans/rate/max 2000 
+ 	 	 	 	 /randTrans/rate/min 100 
+ 	 	 	 	 /randTrans/step 1.000000 
+ 	 	 	 	 /randTrans/view/freeze 0 
+ 	 	 	 	 /randTrans/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 

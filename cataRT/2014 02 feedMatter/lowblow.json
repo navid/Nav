@@ -1,0 +1,80 @@
+{
+	"pattrstorage" : 	{
+		"name" : "catart.lcd[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "lowblow",
+				"data" : 				{
+					"catart.lcd::attack" : [ 0 ],
+					"catart.lcd::c-descriptor-max" : [ -2.75437 ],
+					"catart.lcd::c-descriptor-menu" : [ "Loudness 15" ],
+					"catart.lcd::c-descriptor-min" : [ -200.0 ],
+					"catart.lcd::duration" : [ 163 ],
+					"catart.lcd::duration_std" : [ 0 ],
+					"catart.lcd::gain" : [ 0.0 ],
+					"catart.lcd::gain_std" : [ 0.0 ],
+					"catart.lcd::i_voice" : [ 0 ],
+					"catart.lcd::onset_std" : [ 0 ],
+					"catart.lcd::pan" : [ 50 ],
+					"catart.lcd::pan_std" : [ 0 ],
+					"catart.lcd::position-freeze" : [ 0 ],
+					"catart.lcd::radius" : [ 0.0 ],
+					"catart.lcd::rate" : [ 1000.0 ],
+					"catart.lcd::rate_std" : [ 0.0 ],
+					"catart.lcd::release" : [ 0 ],
+					"catart.lcd::reverse" : [ 0 ],
+					"catart.lcd::transposition" : [ 0.0 ],
+					"catart.lcd::transposition_std" : [ 0.0 ],
+					"catart.lcd::trigger" : [ "fence" ],
+					"catart.lcd::workset" : [ 0.0 ],
+					"catart.lcd::x-descriptor-active" : [ 0 ],
+					"catart.lcd::x-descriptor-max" : [ 0.005512 ],
+					"catart.lcd::x-descriptor-menu" : [ "SpectralFlatness 17" ],
+					"catart.lcd::x-descriptor-min" : [ 0.0 ],
+					"catart.lcd::xfade" : [ 49 ],
+					"catart.lcd::xfade[1]" : [ 0 ],
+					"catart.lcd::y-descriptor-active" : [ 0 ],
+					"catart.lcd::y-descriptor-active[1]" : [ 0 ],
+					"catart.lcd::y-descriptor-active[2]" : [ 0 ],
+					"catart.lcd::y-descriptor-active[3]" : [ 0 ],
+					"catart.lcd::y-descriptor-max" : [ 0.999755 ],
+					"catart.lcd::y-descriptor-menu" : [ "AC1 22" ],
+					"catart.lcd::y-descriptor-menu[1]" : [ "SoundFile 3" ],
+					"catart.lcd::y-descriptor-menu[2]" : [ "SoundSet 4" ],
+					"catart.lcd::y-descriptor-min" : [ -0.300064 ],
+					"catart.lcd::position" : [ 136, 399 ],
+					"catart::corpusname" : [ 0 ],
+					"gb.contact.cataRT.analyzer::SensivityAverage" : [ 10 ],
+					"gb.contact.cataRT.analyzer::autoThreshold" : [ 0 ],
+					"gb.contact.cataRT.analyzer::loudnessThresh" : [ 0.000072 ],
+					"gb.contact.cataRT.analyzer::periodicityThresh" : [ 0.0014 ],
+					"gb.contact.cataRT.analyzer::speedlim" : [ 12 ],
+					"gb.contact.cataRT.analyzer::trigMode" : [ 0 ],
+					"gb.contact.cataRT.analyzer::analyze::gb.contact.onset::bonkDebounce" : [ 100 ],
+					"gb.contact.cataRT.analyzer::analyze::gb.contact.onset::bonkMinVel" : [ 18.0 ],
+					"gb.contact.cataRT.analyzer::analyze::gb.contact.onset::bonkSchmitTresh" : [ 10.0, 60.0 ],
+					"SOUNDsets::SoundSetMatrix" : [ 0, 0, 0 ],
+					"catart.weights.gui::weights" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"catart.synthesis.gui2::attack" : [ 88 ],
+					"catart.synthesis.gui2::duration" : [ 335 ],
+					"catart.synthesis.gui2::duration_std" : [ 446 ],
+					"catart.synthesis.gui2::gain" : [ 0.0 ],
+					"catart.synthesis.gui2::gain_std" : [ 0.0 ],
+					"catart.synthesis.gui2::onset_std" : [ 0 ],
+					"catart.synthesis.gui2::pan" : [ 0 ],
+					"catart.synthesis.gui2::pan_std" : [ 0 ],
+					"catart.synthesis.gui2::release" : [ 88 ],
+					"catart.synthesis.gui2::reverse" : [ 0 ],
+					"catart.synthesis.gui2::transposition" : [ -16.0 ],
+					"catart.synthesis.gui2::transposition_std" : [ 15.0 ],
+					"catart.synthesis.gui2::xfade" : [ 88 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

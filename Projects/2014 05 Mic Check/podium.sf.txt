@@ -1,0 +1,336 @@
+"136 Techno Kick 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/136 Techno Kick 01.wav" 208.00000000000000000000000000000 3529.4375000000000000000000000000
+"136 Techno Kick Roll.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/136 Techno Kick Roll.wav" 208.00000000000000000000000000000 1764.7291259765625000000000000000
+"138 Dance Kick.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/138 Dance Kick.wav" 208.00000000000000000000000000000 3478.3332519531250000000000000000
+"138 Techno Kick Roll.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/138 Techno Kick Roll.wav" 208.00000000000000000000000000000 1739.1666259765625000000000000000
+"138 Techno Kick.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/138 Techno Kick.wav" 208.00000000000000000000000000000 3478.2707519531250000000000000000
+"142 Techno Kick 00.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/142 Techno Kick 00.wav" 208.00000000000000000000000000000 3919.0207519531250000000000000000
+"146 Techno Kick 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/146 Techno Kick 01.wav" 208.00000000000000000000000000000 3287.6875000000000000000000000000
+"146 Techno Kick 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/146 Techno Kick 02.wav" 208.00000000000000000000000000000 6575.3750000000000000000000000000
+"152 Techno Kick 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/152 Techno Kick 02.wav" 208.00000000000000000000000000000 3157.9167480468750000000000000000
+"164 Techno Reverse Kick.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/164 Techno Reverse Kick.wav" 208.00000000000000000000000000000 2926.8542480468750000000000000000
+Kick.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/Kick.aif" 208.00000000000000000000000000000 2132.2292480468750000000000000000
+"Kick02.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Kick/Kick02.aif" 208.00000000000000000000000000000 2841.6250000000000000000000000000
+"134 Techno Kick 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1KickLaser/134 Techno Kick 02.wav" 208.00000000000000000000000000000 295.27084350585937500000000000000
+"144 Techno Kick.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1KickLaser/144 Techno Kick.wav" 208.00000000000000000000000000000 1986.0416259765625000000000000000
+"148 Techno Kick.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1KickLaser/148 Techno Kick.wav" 208.00000000000000000000000000000 2268.7917480468750000000000000000
+"164 Techno Kick 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1KickLaser/164 Techno Kick 02.wav" 208.00000000000000000000000000000 1105.6666259765625000000000000000
+"164 Techno Kick 03.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1KickLaser/164 Techno Kick 03.wav" 208.00000000000000000000000000000 369.81250000000000000000000000000
+"170 D&B Drums 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/170 D&B Drums 01.wav" 208.00000000000000000000000000000 1411.7916259765625000000000000000
+"170 D&B Drums 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/170 D&B Drums 02.wav" 208.00000000000000000000000000000 1411.7916259765625000000000000000
+"170 D&B Drums 03.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/170 D&B Drums 03.wav" 208.00000000000000000000000000000 1411.7916259765625000000000000000
+"175 D&B Drums 04.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 04.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 05.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 05.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 06.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 06.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 07.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 07.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 08.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 08.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 09.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 09.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 10.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 10.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 11.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 11.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 12.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 12.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 13.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 13.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 14.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 14.wav" 208.00000000000000000000000000000 5485.7500000000000000000000000000
+"175 D&B Drums 15.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 15.wav" 208.00000000000000000000000000000 2742.9167480468750000000000000000
+"175 D&B Drums 16.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 16.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 17.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 17.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 18.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 18.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 19.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 19.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 20.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 20.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 21.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 21.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 22.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 22.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 23.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 23.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 24.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 24.wav" 208.00000000000000000000000000000 5485.7500000000000000000000000000
+"175 D&B Drums 25.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 25.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 26.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 26.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 27.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 27.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 28.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 28.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 29.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 29.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 30.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 30.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 31.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 31.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 32.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 32.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 33.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 33.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 34.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 34.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 35.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 35.wav" 208.00000000000000000000000000000 2742.8957519531250000000000000000
+"175 D&B Drums 36.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 36.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+"175 D&B Drums 37.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/175 D&B Drums 37.wav" 208.00000000000000000000000000000 1371.4583740234375000000000000000
+kzLoop.wav "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1Drum n Bass/kzLoop.wav" 208.00000000000000000000000000000 2312.6457519531250000000000000000
+"074 HipHop Combo_C.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1rhythm-combos/074 HipHop Combo_C.wav" 208.00000000000000000000000000000 77728.148437500000000000000000000
+"140 Dance Combo 01_G.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1rhythm-combos/140 Dance Combo 01_G.wav" 208.00000000000000000000000000000 54707.562500000000000000000000000
+"168 Reggae Combo_G#.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1rhythm-combos/168 Reggae Combo_G#.wav" 208.00000000000000000000000000000 82328.187500000000000000000000000
+"175 D&B Combo 10_F#m.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/1rhythm-combos/175 D&B Combo 10_F#m.wav" 208.00000000000000000000000000000 59340.394531250000000000000000000
+"080 Indian Basstabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Bass Tabla/080 Indian Basstabla 01.wav" 0.0000000000000000000000000000000 2992.3957519531250000000000000000
+"110 Indian Basstabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Bass Tabla/110 Indian Basstabla 01.wav" 0.0000000000000000000000000000000 4363.6875000000000000000000000000
+"080 Indian Basstabla 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/080 Indian Basstabla 02.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"080 Indian Basstabla 03.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/080 Indian Basstabla 03.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"080 Indian Tabla 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/080 Indian Tabla 02.wav" 0.0000000000000000000000000000000 3000.0417480468750000000000000000
+"080 Indian Tabla 03.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/080 Indian Tabla 03.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"090 Indian Basstabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/090 Indian Basstabla 01.wav" 0.0000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Basstabla 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/090 Indian Basstabla 02.wav" 0.0000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Tabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/090 Indian Tabla 01.wav" 0.0000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Tabla 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/090 Indian Tabla 02.wav" 0.0000000000000000000000000000000 5333.3750000000000000000000000000
+"090 Indian Tabla Fill.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/090 Indian Tabla Fill.wav" 0.0000000000000000000000000000000 2666.7082519531250000000000000000
+"100 Indian Basstabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/100 Indian Basstabla 01.wav" 0.0000000000000000000000000000000 4781.1040039062500000000000000000
+"100 Indian Tabla (Trp).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/100 Indian Tabla (Trp).wav" 0.0000000000000000000000000000000 4800.0415039062500000000000000000
+"100 Indian Tabla 02.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/100 Indian Tabla 02.wav" 0.0000000000000000000000000000000 4800.0415039062500000000000000000
+"100 Indian Tabla Fill.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/100 Indian Tabla Fill.wav" 0.0000000000000000000000000000000 2400.0417480468750000000000000000
+"110 Indian Basstabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/110 Indian Basstabla 01.wav" 0.0000000000000000000000000000000 4363.6875000000000000000000000000
+"110 Indian Tabla (Trp).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/110 Indian Tabla (Trp).wav" 0.0000000000000000000000000000000 4363.6875000000000000000000000000
+"110 Indian Tabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/110 Indian Tabla 01.wav" 0.0000000000000000000000000000000 4363.6875000000000000000000000000
+"120 Indian Basstabla.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/120 Indian Basstabla.wav" 0.0000000000000000000000000000000 4000.0417480468750000000000000000
+"120 Indian Tabla 01.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla/120 Indian Tabla 01.wav" 0.0000000000000000000000000000000 4000.0417480468750000000000000000
+"080 Indian Idakka.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/080 Indian Idakka.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"080 Indian Khanjira Fill.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/080 Indian Khanjira Fill.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"090 Indian Ghatam 001.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/090 Indian Ghatam 001.wav" 0.0000000000000000000000000000000 1416.5208740234375000000000000000
+"120 Indian Idakka.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/120 Indian Idakka.wav" 0.0000000000000000000000000000000 4000.0417480468750000000000000000
+"127 South American Cajon.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/127 South American Cajon.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"Tabla- Mukti (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/Tabla- Mukti (Snippet).wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"tabla-voice  (Snippet) 2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/tabla-voice  (Snippet) 2.wav" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"090 Indian Ghatam 001.aiff" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/090 Indian Ghatam 001.aiff" 0.0000000000000000000000000000000 1155.0416259765625000000000000000
+"27-03 Bongos Latin Rhythm.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/27-03 Bongos Latin Rhythm.aif" 0.0000000000000000000000000000000 5442.2084960937500000000000000000
+"Ghatam 001EQ.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/Ghatam 001EQ.aif" 0.0000000000000000000000000000000 1155.0416259765625000000000000000
+Tabla-shfr-loop.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/2Tabla2/Tabla-shfr-loop.aif" 0.0000000000000000000000000000000 5000.0000000000000000000000000000
+"group2-snip.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3Cough/group2-snip.wav" 0.0000000000000000000000000000000 23603.937500000000000000000000000
+"mouth-cough01.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3Cough/mouth-cough01.aif" 0.0000000000000000000000000000000 1329.8333740234375000000000000000
+laugh-long-many.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3Laugh/laugh-long-many.aif" 0.0000000000000000000000000000000 32155.416015625000000000000000000
+"mouth-gasp02(laugh).aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3Laugh/mouth-gasp02(laugh).aif" 0.0000000000000000000000000000000 1876.0416259765625000000000000000
+"indian chanting only.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3Roger-Indian/indian chanting only.aif" 0.0000000000000000000000000000000 64079.500000000000000000000000000
+"tabla-voice  (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3TablaVoice/tabla-voice  (Snippet).wav" 0.0000000000000000000000000000000 32134.750000000000000000000000000
+"Andre_Roy (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Andre_Roy (Snippet).wav" 0.0000000000000000000000000000000 10760.750000000000000000000000000
+"Benat01.mono (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Benat01.mono (Snippet).wav" 0.0000000000000000000000000000000 13430.645507812500000000000000000
+"Benat05.mono (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Benat05.mono (Snippet).wav" 0.0000000000000000000000000000000 74473.500000000000000000000000000
+"BenatText2-text.mono (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/BenatText2-text.mono (Snippet).wav" 0.0000000000000000000000000000000 6142.8125000000000000000000000000
+"BH1.1.110206-002 (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/BH1.1.110206-002 (Snippet).wav" 0.0000000000000000000000000000000 6350.1459960937500000000000000000
+"David_McGimpsey (Snippet) 2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/David_McGimpsey (Snippet) 2.wav" 0.0000000000000000000000000000000 12698.395507812500000000000000000
+"David_McGimpsey (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/David_McGimpsey (Snippet).wav" 0.0000000000000000000000000000000 13815.416992187500000000000000000
+"H5.1.110204-005 (Snippet) 2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/H5.1.110204-005 (Snippet) 2.wav" 0.0000000000000000000000000000000 1177.3125000000000000000000000000
+"H5.1.110204-005 (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/H5.1.110204-005 (Snippet).wav" 0.0000000000000000000000000000000 6675.3540039062500000000000000000
+"jason -angles (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/jason -angles (Snippet).wav" 0.0000000000000000000000000000000 13546.958007812500000000000000000
+"Kat (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Kat (Snippet).wav" 0.0000000000000000000000000000000 66917.351562500000000000000000000
+"R8.1.110205-004 (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/R8.1.110205-004 (Snippet).wav" 0.0000000000000000000000000000000 12336.583007812500000000000000000
+"Sep09 minimal voice Picked (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Sep09 minimal voice Picked (Snippet).wav" 0.0000000000000000000000000000000 32842.832031250000000000000000000
+"sina - from slip 3.3 (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/sina - from slip 3.3 (Snippet).wav" 0.0000000000000000000000000000000 4075.8750000000000000000000000000
+"Sina_Queyras.aif.aifc (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Sina_Queyras.aif.aifc (Snippet).wav" 0.0000000000000000000000000000000 7784.5415039062500000000000000000
+"Stephanie_Bolster.aif.aifc (Snippet).wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/3voice-takattida/Stephanie_Bolster.aif.aifc (Snippet).wav" 0.0000000000000000000000000000000 19832.103515625000000000000000000
+"PV-SpectralDelay--0.aiff" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/4BreathSPCTRL/PV-SpectralDelay--0.aiff" 338.00000000000000000000000000000 126910.02343750000000000000000000
+"Bamboo2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/Bambo/Bamboo2.wav" 338.00000000000000000000000000000 4198.8540039062500000000000000000
+Bamboo.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/Bambo/Bamboo.aif" 338.00000000000000000000000000000 4253.6459960937500000000000000000
+"Synthbass116_E.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/Bass/Synthbass116_E.wav" 338.00000000000000000000000000000 4363.6875000000000000000000000000
+E-Bass_Dm.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/Bass/E-Bass_Dm.aif" 338.00000000000000000000000000000 1465.1250000000000000000000000000
+E-Bass_Gm.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/Bass/E-Bass_Gm.aif" 338.00000000000000000000000000000 6762.7709960937500000000000000000
+"a1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/a1.wav" 338.00000000000000000000000000000 3393.5417480468750000000000000000
+"a2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/a2.wav" 338.00000000000000000000000000000 2596.4582519531250000000000000000
+"a3.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/a3.wav" 338.00000000000000000000000000000 1100.8541259765625000000000000000
+"b1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/b1.wav" 338.00000000000000000000000000000 3588.5207519531250000000000000000
+"b2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/b2.wav" 338.00000000000000000000000000000 2195.0207519531250000000000000000
+"c1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/c1.wav" 338.00000000000000000000000000000 3802.2500000000000000000000000000
+"c2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/c2.wav" 338.00000000000000000000000000000 1927.4791259765625000000000000000
+"d1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/d1.wav" 338.00000000000000000000000000000 4194.7500000000000000000000000000
+"d2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/d2.wav" 338.00000000000000000000000000000 1590.5000000000000000000000000000
+"e1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/e1.wav" 338.00000000000000000000000000000 3098.3332519531250000000000000000
+"e2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/e2.wav" 338.00000000000000000000000000000 1402.7708740234375000000000000000
+"f1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/f1.wav" 338.00000000000000000000000000000 4209.2709960937500000000000000000
+"f2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/f2.wav" 338.00000000000000000000000000000 1699.6458740234375000000000000000
+"g1.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/g1.wav" 338.00000000000000000000000000000 2398.0832519531250000000000000000
+"g2.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/g2.wav" 338.00000000000000000000000000000 3103.8125000000000000000000000000
+"g3.wav" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/bells/g3.wav" 338.00000000000000000000000000000 2000.5625000000000000000000000000
+"mc1_swp1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp1.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp2.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle10.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle10.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle11.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle11.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle12.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle12.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle13.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle13.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle14.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle14.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle15.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle15.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle16.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle16.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle17.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle17.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle18.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle18.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle19.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle19.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle2.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle20.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle20.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle21.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle21.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle22.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle22.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle23.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle23.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle24.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle24inv1.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle24inv2.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle24inv3.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle24inv3trhs1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle24inv3trhs1.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle3.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle4.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle5.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle6.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle6.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle7.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle7.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle8.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle8.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swp3vsubtle9.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swp3vsubtle9.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swpinvthr_fltr1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swpinvthr_fltr1.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"mc1_swpinvthr_fltr1_swp2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/ClicksProcessed/mc1_swpinvthr_fltr1_swp2.aif" 338.00000000000000000000000000000 1486.1041259765625000000000000000
+"Cb-pizz-sec-A#1-ff-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-A#1-ff-4c.aif" 338.00000000000000000000000000000 1549.4166259765625000000000000000
+"Cb-pizz-sec-A#2-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-A#2-mf-1c.aif" 338.00000000000000000000000000000 1175.5625000000000000000000000000
+"Cb-pizz-sec-A#3-pp-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-A#3-pp-1c.aif" 338.00000000000000000000000000000 1056.8541259765625000000000000000
+"Cb-pizz-sec-A1-pp-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-A1-pp-3c.aif" 338.00000000000000000000000000000 975.66668701171875000000000000000
+"Cb-pizz-sec-A2-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-A2-mf-1c.aif" 338.00000000000000000000000000000 1898.0000000000000000000000000000
+"Cb-pizz-sec-A3-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-A3-mf-1c.aif" 338.00000000000000000000000000000 1222.1875000000000000000000000000
+"Cb-pizz-sec-B1-mf-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-B1-mf-4c.aif" 338.00000000000000000000000000000 1322.3958740234375000000000000000
+"Cb-pizz-sec-B2-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-B2-ff-2c.aif" 338.00000000000000000000000000000 1086.5000000000000000000000000000
+"Cb-pizz-sec-B3-pp-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-B3-pp-1c.aif" 338.00000000000000000000000000000 1472.9166259765625000000000000000
+"Cb-pizz-sec-C#2-pp-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-C#2-pp-3c.aif" 338.00000000000000000000000000000 1118.0416259765625000000000000000
+"Cb-pizz-sec-C#4-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-C#4-mf-1c.aif" 338.00000000000000000000000000000 1192.7708740234375000000000000000
+"Cb-pizz-sec-C2-mf-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-C2-mf-4c.aif" 338.00000000000000000000000000000 1458.9166259765625000000000000000
+"Cb-pizz-sec-D#2-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-D#2-ff-2c.aif" 338.00000000000000000000000000000 1101.7291259765625000000000000000
+"Cb-pizz-sec-D#4-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-D#4-mf-1c.aif" 338.00000000000000000000000000000 1271.8333740234375000000000000000
+"Cb-pizz-sec-E1-pp-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-E1-pp-4c.aif" 338.00000000000000000000000000000 1249.1041259765625000000000000000
+"Cb-pizz-sec-E4-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-E4-mf-1c.aif" 338.00000000000000000000000000000 1862.6041259765625000000000000000
+"Cb-pizz-sec-F2-mf-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-F2-mf-2c.aif" 338.00000000000000000000000000000 1667.9375000000000000000000000000
+"Cb-pizz-sec-G#1-ff-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-G#1-ff-4c.aif" 338.00000000000000000000000000000 1692.4791259765625000000000000000
+"Cb-pizz-sec-G2-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-G2-ff-1c.aif" 338.00000000000000000000000000000 1197.1250000000000000000000000000
+"Cb-pizz-sec-G3-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Cb-pizz-sec-G3-ff-1c.aif" 338.00000000000000000000000000000 1905.1666259765625000000000000000
+"Vc-pizz-lv-A#2-pp-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-lv-A#2-pp-3c.aif" 338.00000000000000000000000000000 2192.0417480468750000000000000000
+"Vc-pizz-lv-A3-mf-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-lv-A3-mf-2c.aif" 338.00000000000000000000000000000 5157.2084960937500000000000000000
+"Vc-pizz-lv-B3-pp-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-lv-B3-pp-1c.aif" 338.00000000000000000000000000000 2169.7082519531250000000000000000
+"Vc-pizz-lv-C#5-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-lv-C#5-ff-1c.aif" 338.00000000000000000000000000000 1892.9791259765625000000000000000
+"Vc-pizz-lv-D#2-mf-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-lv-D#2-mf-4c.aif" 338.00000000000000000000000000000 5336.6875000000000000000000000000
+"Vc-pizz-lv-D3-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-lv-D3-ff-2c.aif" 338.00000000000000000000000000000 6209.2709960937500000000000000000
+"Vc-pizz-sec-A#2-pp-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-A#2-pp-3c.aif" 338.00000000000000000000000000000 950.60418701171875000000000000000
+"Vc-pizz-sec-A#4-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-A#4-ff-1c.aif" 338.00000000000000000000000000000 1706.1875000000000000000000000000
+"Vc-pizz-sec-A3-mf-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-A3-mf-2c.aif" 338.00000000000000000000000000000 1059.3541259765625000000000000000
+"Vc-pizz-sec-A4-pp-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-A4-pp-1c.aif" 338.00000000000000000000000000000 565.00000000000000000000000000000
+"Vc-pizz-sec-C#2-ff-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-C#2-ff-4c.aif" 338.00000000000000000000000000000 1167.3333740234375000000000000000
+"Vc-pizz-sec-C#5-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-C#5-mf-1c.aif" 338.00000000000000000000000000000 1210.1875000000000000000000000000
+"Vc-pizz-sec-C4-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-C4-ff-1c.aif" 338.00000000000000000000000000000 1368.0625000000000000000000000000
+"Vc-pizz-sec-D#3-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-D#3-ff-2c.aif" 338.00000000000000000000000000000 1365.6875000000000000000000000000
+"Vc-pizz-sec-D#4-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-D#4-mf-1c.aif" 338.00000000000000000000000000000 1109.7083740234375000000000000000
+"Vc-pizz-sec-D3-mf-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-D3-mf-2c.aif" 338.00000000000000000000000000000 1193.4583740234375000000000000000
+"Vc-pizz-sec-D5-pp-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-D5-pp-1c.aif" 338.00000000000000000000000000000 515.41668701171875000000000000000
+"Vc-pizz-sec-E4-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-E4-mf-1c.aif" 338.00000000000000000000000000000 1145.0625000000000000000000000000
+"Vc-pizz-sec-F#3-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-F#3-ff-2c.aif" 338.00000000000000000000000000000 1451.1458740234375000000000000000
+"Vc-pizz-sec-F2-ff-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-F2-ff-4c.aif" 338.00000000000000000000000000000 1040.3750000000000000000000000000
+"Vc-pizz-sec-G#2-ff-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-G#2-ff-3c.aif" 338.00000000000000000000000000000 1364.3541259765625000000000000000
+"Vc-pizz-sec-G#4-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-G#4-mf-1c.aif" 338.00000000000000000000000000000 1410.1666259765625000000000000000
+"Vc-pizz-sec-G3-mf-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vc-pizz-sec-G3-mf-2c.aif" 338.00000000000000000000000000000 1180.8958740234375000000000000000
+"Vn-pizz-bartok-A3-ff-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-bartok-A3-ff-4c.aif" 338.00000000000000000000000000000 2151.5000000000000000000000000000
+"Vn-pizz-bartok-C#5-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-bartok-C#5-ff-2c.aif" 338.00000000000000000000000000000 1190.4583740234375000000000000000
+"Vn-pizz-bartok-D#5-ff-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-bartok-D#5-ff-3c.aif" 338.00000000000000000000000000000 1424.4375000000000000000000000000
+"Vn-pizz-bartok-F#4-ff-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-bartok-F#4-ff-3c.aif" 338.00000000000000000000000000000 1062.6458740234375000000000000000
+"Vn-pizz-bartok-G4-ff-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-bartok-G4-ff-3c.aif" 338.00000000000000000000000000000 1428.8750000000000000000000000000
+"Vn-pizz-lv-A#4-mf-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-A#4-mf-3c.aif" 338.00000000000000000000000000000 989.12500000000000000000000000000
+"Vn-pizz-lv-A#6-mf-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-A#6-mf-1c.aif" 338.00000000000000000000000000000 1270.3541259765625000000000000000
+"Vn-pizz-lv-A4-pp-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-A4-pp-3c.aif" 338.00000000000000000000000000000 624.47918701171875000000000000000
+"Vn-pizz-lv-B5-ff-2c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-B5-ff-2c.aif" 338.00000000000000000000000000000 1562.2500000000000000000000000000
+"Vn-pizz-lv-C4-mf-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-C4-mf-4c.aif" 338.00000000000000000000000000000 2412.6457519531250000000000000000
+"Vn-pizz-lv-C7-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-C7-ff-1c.aif" 338.00000000000000000000000000000 1433.1875000000000000000000000000
+"Vn-pizz-lv-D4-mf-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-D4-mf-3c.aif" 338.00000000000000000000000000000 5677.3125000000000000000000000000
+"Vn-pizz-lv-E5-ff-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-E5-ff-3c.aif" 338.00000000000000000000000000000 1198.6041259765625000000000000000
+"Vn-pizz-lv-F#5-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-F#5-ff-1c.aif" 338.00000000000000000000000000000 1451.7291259765625000000000000000
+"Vn-pizz-lv-F5-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-F5-ff-1c.aif" 338.00000000000000000000000000000 1606.1250000000000000000000000000
+"Vn-pizz-lv-G#4-pp-3c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-G#4-pp-3c.aif" 338.00000000000000000000000000000 361.43750000000000000000000000000
+"Vn-pizz-lv-G3-pp-4c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-G3-pp-4c.aif" 338.00000000000000000000000000000 3502.9582519531250000000000000000
+"Vn-pizz-lv-G6-ff-1c.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/pizzi2/Vn-pizz-lv-G6-ff-1c.aif" 338.00000000000000000000000000000 1520.1458740234375000000000000000
+"microplay-bassthump_glitch01.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-bassthump_glitch01.aif" 338.00000000000000000000000000000 6014.5834960937500000000000000000
+"microplay-bassthump_glitch02.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-bassthump_glitch02.aif" 338.00000000000000000000000000000 9465.1044921875000000000000000000
+"microplay-bassthump_glitch03.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-bassthump_glitch03.aif" 338.00000000000000000000000000000 5542.7084960937500000000000000000
+"microplay-clicks_warm01.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-clicks_warm01.aif" 338.00000000000000000000000000000 1249.4791259765625000000000000000
+"microplay-low-sr-pulse04.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-low-sr-pulse04.aif" 338.00000000000000000000000000000 2110.2082519531250000000000000000
+microplay-pulse(slower).aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-pulse(slower).aif" 338.00000000000000000000000000000 6534.8959960937500000000000000000
+"microplay-tonepulse02.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay-tonepulse02.aif" 338.00000000000000000000000000000 1747.2500000000000000000000000000
+"microplay_thump_flutter01.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/microplay_thump_flutter01.aif" 338.00000000000000000000000000000 7612.5000000000000000000000000000
+"mono-vc3xvc4-cep.aiff" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/GlitchTim/mono-vc3xvc4-cep.aiff" 338.00000000000000000000000000000 119999.81250000000000000000000000
+"track 2#1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#1.aif" 338.00000000000000000000000000000 3528.3957519531250000000000000000
+"track 2#10.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#10.aif" 338.00000000000000000000000000000 2127.6875000000000000000000000000
+"track 2#11.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#11.aif" 338.00000000000000000000000000000 2127.6875000000000000000000000000
+"track 2#12.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#12.aif" 338.00000000000000000000000000000 8085.1665039062500000000000000000
+"track 2#13.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#13.aif" 338.00000000000000000000000000000 11914.937500000000000000000000000
+"track 2#2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#2.aif" 338.00000000000000000000000000000 6826.2709960937500000000000000000
+"track 2#3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#3.aif" 338.00000000000000000000000000000 13829.833007812500000000000000000
+"track 2#4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#4.aif" 338.00000000000000000000000000000 5957.5000000000000000000000000000
+"track 2#5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#5.aif" 338.00000000000000000000000000000 851.10418701171875000000000000000
+"track 2#6.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#6.aif" 338.00000000000000000000000000000 13617.041992187500000000000000000
+"track 2#7.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#7.aif" 338.00000000000000000000000000000 5531.9375000000000000000000000000
+"track 2#8.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#8.aif" 338.00000000000000000000000000000 1702.1666259765625000000000000000
+"track 2#9.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2#9.aif" 338.00000000000000000000000000000 2553.2292480468750000000000000000
+"track 2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 2.aif" 338.00000000000000000000000000000 1063.8750000000000000000000000000
+"track 5#1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#1.aif" 338.00000000000000000000000000000 530.75000000000000000000000000000
+"track 5#10.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#10.aif" 338.00000000000000000000000000000 513.68750000000000000000000000000
+"track 5#11.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#11.aif" 338.00000000000000000000000000000 415.89584350585937500000000000000
+"track 5#12.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#12.aif" 338.00000000000000000000000000000 357.41665649414062500000000000000
+"track 5#13.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#13.aif" 338.00000000000000000000000000000 389.64584350585937500000000000000
+"track 5#14.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#14.aif" 338.00000000000000000000000000000 427.22915649414062500000000000000
+"track 5#15.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#15.aif" 338.00000000000000000000000000000 437.62500000000000000000000000000
+"track 5#16.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#16.aif" 338.00000000000000000000000000000 381.77084350585937500000000000000
+"track 5#17.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#17.aif" 338.00000000000000000000000000000 360.97915649414062500000000000000
+"track 5#18.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#18.aif" 338.00000000000000000000000000000 452.93750000000000000000000000000
+"track 5#19.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#19.aif" 338.00000000000000000000000000000 404.75000000000000000000000000000
+"track 5#2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#2.aif" 338.00000000000000000000000000000 246.35417175292968750000000000000
+"track 5#20.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#20.aif" 338.00000000000000000000000000000 389.41665649414062500000000000000
+"track 5#21.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#21.aif" 338.00000000000000000000000000000 541.33331298828125000000000000000
+"track 5#22.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#22.aif" 338.00000000000000000000000000000 352.04165649414062500000000000000
+"track 5#3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#3.aif" 338.00000000000000000000000000000 302.52084350585937500000000000000
+"track 5#4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#4.aif" 338.00000000000000000000000000000 419.33334350585937500000000000000
+"track 5#5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#5.aif" 338.00000000000000000000000000000 473.00000000000000000000000000000
+"track 5#6.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#6.aif" 338.00000000000000000000000000000 230.39582824707031250000000000000
+"track 5#7.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#7.aif" 338.00000000000000000000000000000 376.75000000000000000000000000000
+"track 5#8.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#8.aif" 338.00000000000000000000000000000 529.93750000000000000000000000000
+"track 5#9.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5#9.aif" 338.00000000000000000000000000000 644.91668701171875000000000000000
+"track 5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track 5.aif" 338.00000000000000000000000000000 553.02081298828125000000000000000
+"track1#1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#1.aif" 338.00000000000000000000000000000 11595.770507812500000000000000000
+"track1#10.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#10.aif" 338.00000000000000000000000000000 7248.7084960937500000000000000000
+"track1#11.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#11.aif" 338.00000000000000000000000000000 11138.312500000000000000000000000
+"track1#12.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#12.aif" 338.00000000000000000000000000000 5454.5625000000000000000000000000
+"track1#2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#2.aif" 338.00000000000000000000000000000 2109.9582519531250000000000000000
+"track1#3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#3.aif" 338.00000000000000000000000000000 851.10418701171875000000000000000
+"track1#4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#4.aif" 338.00000000000000000000000000000 2127.6875000000000000000000000000
+"track1#5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#5.aif" 338.00000000000000000000000000000 2127.6875000000000000000000000000
+"track1#6.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#6.aif" 338.00000000000000000000000000000 3171.4375000000000000000000000000
+"track1#7.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#7.aif" 338.00000000000000000000000000000 2017.7708740234375000000000000000
+"track1#8.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#8.aif" 338.00000000000000000000000000000 3285.0625000000000000000000000000
+"track1#9.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1#9.aif" 338.00000000000000000000000000000 3404.2917480468750000000000000000
+"track1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track1.aif" 338.00000000000000000000000000000 14449.062500000000000000000000000
+"track2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track2.aif" 338.00000000000000000000000000000 6826.2709960937500000000000000000
+"track3#1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#1.aif" 338.00000000000000000000000000000 6914.9375000000000000000000000000
+"track3#10.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#10.aif" 338.00000000000000000000000000000 957.50000000000000000000000000000
+"track3#11.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#11.aif" 338.00000000000000000000000000000 212.79167175292968750000000000000
+"track3#12.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#12.aif" 338.00000000000000000000000000000 531.93750000000000000000000000000
+"track3#13.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#13.aif" 338.00000000000000000000000000000 638.33331298828125000000000000000
+"track3#14.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#14.aif" 338.00000000000000000000000000000 531.93750000000000000000000000000
+"track3#15.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#15.aif" 338.00000000000000000000000000000 638.33331298828125000000000000000
+"track3#16.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#16.aif" 338.00000000000000000000000000000 2872.3750000000000000000000000000
+"track3#2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#2.aif" 338.00000000000000000000000000000 10106.437500000000000000000000000
+"track3#3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#3.aif" 338.00000000000000000000000000000 11914.916992187500000000000000000
+"track3#4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#4.aif" 338.00000000000000000000000000000 8085.1665039062500000000000000000
+"track3#5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#5.aif" 338.00000000000000000000000000000 8936.2080078125000000000000000000
+"track3#6.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#6.aif" 338.00000000000000000000000000000 16170.229492187500000000000000000
+"track3#7.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#7.aif" 338.00000000000000000000000000000 1063.8750000000000000000000000000
+"track3#8.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#8.aif" 338.00000000000000000000000000000 4042.6042480468750000000000000000
+"track3#9.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3#9.aif" 338.00000000000000000000000000000 7340.4584960937500000000000000000
+"track3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track3.aif" 338.00000000000000000000000000000 1702.1666259765625000000000000000
+"track4#1.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#1.aif" 338.00000000000000000000000000000 534.16668701171875000000000000000
+"track4#10.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#10.aif" 338.00000000000000000000000000000 4654.2709960937500000000000000000
+"track4#11.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#11.aif" 338.00000000000000000000000000000 2127.6875000000000000000000000000
+"track4#12.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#12.aif" 338.00000000000000000000000000000 5851.1040039062500000000000000000
+"track4#13.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#13.aif" 338.00000000000000000000000000000 1684.4166259765625000000000000000
+"track4#14.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#14.aif" 338.00000000000000000000000000000 1879.4583740234375000000000000000
+"track4#15.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#15.aif" 338.00000000000000000000000000000 1773.1041259765625000000000000000
+"track4#16.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#16.aif" 338.00000000000000000000000000000 1914.9375000000000000000000000000
+"track4#17.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#17.aif" 338.00000000000000000000000000000 1684.4375000000000000000000000000
+"track4#18.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#18.aif" 338.00000000000000000000000000000 1702.1666259765625000000000000000
+"track4#19.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#19.aif" 338.00000000000000000000000000000 6808.5625000000000000000000000000
+"track4#2.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#2.aif" 338.00000000000000000000000000000 650.70831298828125000000000000000
+"track4#20.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#20.aif" 338.00000000000000000000000000000 5957.4790039062500000000000000000
+"track4#21.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#21.aif" 338.00000000000000000000000000000 6808.5415039062500000000000000000
+"track4#22.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#22.aif" 338.00000000000000000000000000000 3829.8332519531250000000000000000
+"track4#23.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#23.aif" 338.00000000000000000000000000000 531.95831298828125000000000000000
+"track4#24.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#24.aif" 338.00000000000000000000000000000 1368.0000000000000000000000000000
+"track4#25.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#25.aif" 338.00000000000000000000000000000 1460.0208740234375000000000000000
+"track4#26.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#26.aif" 338.00000000000000000000000000000 1409.2708740234375000000000000000
+"track4#27.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#27.aif" 338.00000000000000000000000000000 1449.0000000000000000000000000000
+"track4#28.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#28.aif" 338.00000000000000000000000000000 1466.2916259765625000000000000000
+"track4#29.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#29.aif" 338.00000000000000000000000000000 1500.6458740234375000000000000000
+"track4#3.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#3.aif" 338.00000000000000000000000000000 510.95834350585937500000000000000
+"track4#30.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#30.aif" 338.00000000000000000000000000000 1734.1458740234375000000000000000
+"track4#4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#4.aif" 338.00000000000000000000000000000 413.93750000000000000000000000000
+"track4#5.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#5.aif" 338.00000000000000000000000000000 362.08334350585937500000000000000
+"track4#6.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#6.aif" 338.00000000000000000000000000000 394.95834350585937500000000000000
+"track4#7.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#7.aif" 338.00000000000000000000000000000 423.00000000000000000000000000000
+"track4#8.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#8.aif" 338.00000000000000000000000000000 3386.5625000000000000000000000000
+"track4#9.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4#9.aif" 338.00000000000000000000000000000 9556.7705078125000000000000000000
+"track4.aif" "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/doepfer /track4.aif" 338.00000000000000000000000000000 19474.312500000000000000000000000
+improvisedVoice.aif "Macintosh HD:/Users/NavNav/Sounds/CATART/cataRT-cooking/Roger-improv/improvisedVoice.aif" 338.00000000000000000000000000000 71235.335937500000000000000000000
