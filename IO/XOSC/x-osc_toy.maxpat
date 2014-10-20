@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 134.0, 568.0, 1016.0, 452.0 ],
+		"rect" : [ 625.0, 664.0, 998.0, 386.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 552.0, 74.0, 59.5, 20.0 ],
+					"patching_rect" : [ 815.0, 81.0, 59.5, 20.0 ],
 					"text" : "unjoin 3"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 854.0, 173.0, 150.0, 245.0 ],
+					"patching_rect" : [ 846.0, 130.0, 150.0, 245.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ]
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 692.0, 173.0, 150.0, 245.0 ],
+					"patching_rect" : [ 684.0, 130.0, 150.0, 245.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ]
 				}
 
@@ -78,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 529.5, 173.0, 150.0, 245.0 ],
+					"patching_rect" : [ 521.5, 130.0, 150.0, 245.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ]
 				}
 
@@ -105,7 +105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.0, 128.0, 63.0, 20.0 ],
+					"patching_rect" : [ 162.0, 130.0, 63.0, 20.0 ],
 					"text" : "s AccMag"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 232.0, 96.0, 284.0, 20.0 ],
+					"patching_rect" : [ 162.0, 98.0, 284.0, 20.0 ],
 					"text" : "o.route /acceleration/magnitude /accelerometer/raw"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 11.0, 83.0, 20.0 ],
+					"patching_rect" : [ 197.0, 13.0, 83.0, 20.0 ],
 					"text" : "r everythingO"
 				}
 
@@ -147,7 +147,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 232.0, 11.0, 20.0, 20.0 ]
+					"patching_rect" : [ 162.0, 13.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 232.0, 40.0, 54.0, 20.0 ],
+					"patching_rect" : [ 162.0, 42.0, 54.0, 20.0 ],
 					"text" : "gate 1 1"
 				}
 
@@ -175,7 +175,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.5, 124.0, 83.0, 20.0 ],
+					"patching_rect" : [ 494.5, 106.0, 83.0, 20.0 ],
 					"text" : "r everythingO"
 				}
 
@@ -188,7 +188,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 494.5, 124.0, 20.0, 20.0 ]
+					"patching_rect" : [ 459.5, 106.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -201,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.5, 148.0, 54.0, 20.0 ],
+					"patching_rect" : [ 459.5, 130.0, 54.0, 20.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 232.0, 69.0, 107.0, 20.0 ],
+					"patching_rect" : [ 162.0, 71.0, 107.0, 20.0 ],
 					"text" : "o.route /shoe_10L"
 				}
 
@@ -250,7 +250,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -288,7 +288,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -960,7 +960,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -1011,7 +1011,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -2307,7 +2307,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 8,
 															"architecture" : "x86"
 														}
 ,
@@ -2358,7 +2358,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -2729,7 +2729,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 7,
+																			"revision" : 8,
 																			"architecture" : "x86"
 																		}
 ,
@@ -4346,8 +4346,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.5, 173.0, 504.0, 208.0 ],
-					"text" : "/shoe_10L/was/accelerometer/raw 0.0107422 -0.980469 0.162109\n/shoe_10L/was/time 2014-05-07T22:45:29.488213Z\n/shoe_10L/accelerometer/offset 0.0246582 0.0107422 0.0769043\n/shoe_10L/gyro/offset -5.08552 -1.02805 0.481402\n/shoe_10L/gyro/raw -2.68293 1.15854 -1.28049\n/shoe_10L/accelerometer/raw 0.0166016 -0.975098 0.169922\n/shoe_10L/magnetometer/raw -0.0641026 0.45641 0.351282\n/shoe_10L/temperature 44.3912\n/shoe_10L/time 2014-05-07T22:45:29.490209Z\n/shoe_10L/accelerometer/calibrated/ -0.00805664 -0.98584 0.0930176\n/shoe_10L/gyro/calibrated/value 2.40259 2.18659 -1.76189\n/shoe_10L/acceleration/magnitude -0.0100684\n/shoe_10L/threshold 1\n/shoe_10L/maxima\n/shoe_10L/stasis_threshold 0\n",
+					"patching_rect" : [ 9.5, 165.0, 504.0, 208.0 ],
+					"text" : "/shoe_10L/was/accelerometer/raw -0.281738 0.849121 -0.664551\n/shoe_10L/was/time 2014-09-07T18:35:13.986254Z\n/shoe_10L/accelerometer/offset 0.0246582 0.0107422 0.0769043\n/shoe_10L/gyro/offset -5.08552 -1.02805 0.481402\n/shoe_10L/gyro/raw 3.59756 -20.3659 -6.52439\n/shoe_10L/accelerometer/raw -0.262207 0.830566 -0.678711\n/shoe_10L/magnetometer/raw 0.0025641 -0.402564 -0.0564103\n/shoe_10L/temperature 46.1794\n/shoe_10L/time 2014-09-07T18:35:13.989247Z\n/shoe_10L/accelerometer/calibrated/ -0.286865 0.819824 -0.755615\n/shoe_10L/gyro/calibrated/value 8.68308 -19.3378 -7.00579\n/shoe_10L/acceleration/magnitude 0.104193\n/shoe_10L/threshold 1\n/shoe_10L/maxima\n/shoe_10L/stasis_threshold 0\n",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -4573,8 +4573,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-5::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-6::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-9::obj-69" : [ "live.tab", "live.tab", 0 ]
 		}
 ,
