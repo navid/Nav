@@ -5,12 +5,10 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
+    <item name='crossfade' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='elay' type='integer' priority='0' mixweight='1'>30</item>
     <item name='feedback' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='scalebias/bias' type='generic' priority='0' mixweight='1'>0</item>
-    <item name='scalebias/scale' type='generic' priority='0' mixweight='1'>1.000000</item>
-    <item name='slideDown' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='slideUp' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='smooth' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='maxDelay' type='integer' priority='0' mixweight='1'>120</item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
