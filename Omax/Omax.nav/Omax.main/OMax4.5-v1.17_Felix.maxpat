@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 7.0, 44.0, 1216.0, 380.0 ],
+		"rect" : [ 4.0, 44.0, 1216.0, 380.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -184,7 +184,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -343,7 +343,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -502,7 +502,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -704,7 +704,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -906,7 +906,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1108,7 +1108,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1310,7 +1310,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1512,7 +1512,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1714,7 +1714,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1969,7 +1969,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2677,7 +2677,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2714,7 +2714,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2969,7 +2969,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3019,7 +3019,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -3160,7 +3160,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 138.0, 94.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 100. onsetVar 60. pVar 0. trigger 20. turn 0.1"
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 500. onsetVar 60. pVar 0. trigger 20. turn 0.1"
 																}
 
 															}
@@ -3755,7 +3755,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -3896,7 +3896,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 138.0, 94.0 ],
-																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.9 Sync 0. Transposition -12. Xfade 30. channls 8. grainDur 12. onsetVar 1613. pVar 1701. trigger 46. turn 0.8"
+																	"text" : "pattrstorage -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30. channls 8. grainDur 320. onsetVar 160. pVar 0. trigger 20. turn -0.2"
 																}
 
 															}
@@ -4491,7 +4491,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -4621,7 +4621,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 110.0, 72.0 ],
-																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 0.7 Sync 0. Transposition 0. Xfade 30."
+																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30."
 																}
 
 															}
@@ -5207,7 +5207,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -5337,7 +5337,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 139.0, 360.0, 111.0, 72.0 ],
-																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 2. Sync 0. Transposition 0. Xfade 30."
+																	"text" : "SVP-Player -1. Cut-Threshold 0.002 Cut-Window 20. Direction 0. Speed 1. Sync 0. Transposition 0. Xfade 30."
 																}
 
 															}
@@ -5923,7 +5923,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -6639,7 +6639,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -7355,7 +7355,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -8071,7 +8071,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -8837,7 +8837,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -24740,7 +24740,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -25009,7 +25009,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -25380,7 +25380,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -25751,7 +25751,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26121,7 +26121,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26280,7 +26280,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26440,7 +26440,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26813,11 +26813,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 570.0, 833.0, 95.0, 183.0 ],
+						"rect" : [ 6.0, 1258.0, 95.0, 183.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -27341,7 +27341,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -27369,13 +27369,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-13",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 255.0, 242.0, 36.0, 38.0 ],
-									"text" : "/freq 4180.905762"
+									"text" : "/freq 185.233109"
 								}
 
 							}
@@ -27445,7 +27445,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 142.0, 152.0, 27.0 ],
-									"text" : "/cc 72 0. 5.1 -2.3 1.1 -0.8 -0.5 -0.2 -0.2 -0.2 -0.1 4 315"
+									"text" : "/cc 57 0. 11.4 0.5 1.9 -0.1 -0.2 -0.7 -0.1 0.6 0.3 7 315"
 								}
 
 							}
@@ -27836,7 +27836,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -28941,7 +28941,7 @@
 						"valueof" : 						{
 							"parameter_order" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -28953,7 +28953,7 @@
 ,
 					"text" : "multi",
 					"texton" : "mono",
-					"varname" : "live.text[4]"
+					"varname" : "live.text[5]"
 				}
 
 			}
@@ -28998,11 +28998,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 45.0, 974.0, 527.0, 200.0 ],
+						"rect" : [ 7.0, 1036.0, 532.0, 199.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -29063,10 +29063,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 585.0, 170.5, 51.0, 50.0 ],
+									"patching_rect" : [ 585.0, 170.5, 51.0, 51.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 0.5, 126.0, 83.0, 50.0 ],
+									"presentation_rect" : [ 0.5, 126.0, 83.0, 51.0 ],
 									"text" : "Terror\nLove\nFurry"
 								}
 
@@ -29095,7 +29095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 307.555542, 354.0, 396.0, 105.0 ],
+									"patching_rect" : [ 307.555542, 354.0, 398.0, 105.0 ],
 									"text" : "/ambicontrol/clock/on 1, /ambicontrol/center 0. 0. 0., /ambicontrol/clock/interval 100., /ambicontrol/clock/stepsize 10., /ambicontrol/connect paul, /ambicontrol/directIndexControl 0, /ambicontrol/index 0, /ambicontrol/method 1, /ambicontrol/points 1 666 666 666 666 666 666 666 666 10 11 12 13 14 15 16 666 666 666 666 666 666 666 666 666 666 666 666 666 666, /ambicontrol/randomStability 12000, /ambicontrol/trajectory/adjust fit-to-box, /ambicontrol/trajectory/fraction 0., /ambicontrol/trajectory/interpolate 0, /ambicontrol/trajectory/method 0, /ambicontrol/trajectory/original 0, /ambicontrol/trajectory/point 1, /ambicontrol/trajectory/rec 0, /ambicontrol/trajectory/recall 0, /ambicontrol/view/freeze 0, /ambicontrol/view/highlight 0, /ambicontrol/volume/bound 1.4 1.4 0., /ambicontrol/volume/color 0.155125 0.844529 0.908166, /ambicontrol/volume/show 1, /ambicontrol/volume/type 0"
 								}
 
@@ -29223,7 +29223,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -29447,7 +29447,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -30464,7 +30464,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -30501,7 +30501,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -30782,7 +30782,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -31063,7 +31063,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -31344,7 +31344,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -31793,7 +31793,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -32121,7 +32121,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -32449,7 +32449,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -32730,7 +32730,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33011,7 +33011,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33292,7 +33292,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33573,7 +33573,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33854,7 +33854,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -34135,7 +34135,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -35714,7 +35714,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -35978,7 +35978,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -36242,7 +36242,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -36506,7 +36506,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -36770,7 +36770,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37034,7 +37034,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37298,7 +37298,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37562,7 +37562,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37826,7 +37826,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38090,7 +38090,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38355,7 +38355,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38630,7 +38630,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38905,7 +38905,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -39180,7 +39180,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -39454,7 +39454,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -39854,7 +39854,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -40175,11 +40175,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 3.0, 501.0, 553.0, 452.0 ],
+						"rect" : [ 3.0, 560.0, 553.0, 452.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -40684,7 +40684,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -40946,7 +40946,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -41208,7 +41208,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -41528,7 +41528,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -41813,7 +41813,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -42253,7 +42253,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -43381,7 +43381,7 @@
 						"valueof" : 						{
 							"parameter_order" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -43393,7 +43393,7 @@
 ,
 					"text" : "multi",
 					"texton" : "mono",
-					"varname" : "live.text[3]"
+					"varname" : "live.text[7]"
 				}
 
 			}
@@ -43417,7 +43417,7 @@
 						"valueof" : 						{
 							"parameter_order" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -43429,7 +43429,7 @@
 ,
 					"text" : "Learn",
 					"texton" : "Learn",
-					"varname" : "live.text[2]"
+					"varname" : "live.text[6]"
 				}
 
 			}
@@ -43889,7 +43889,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -43939,7 +43939,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -44364,7 +44364,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -44414,7 +44414,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -44839,7 +44839,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -44889,7 +44889,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -45314,7 +45314,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -45364,7 +45364,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -45789,7 +45789,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -45839,7 +45839,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -46264,7 +46264,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -46314,7 +46314,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -46739,7 +46739,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -46789,7 +46789,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -47214,7 +47214,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -47264,7 +47264,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -47689,7 +47689,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -47725,7 +47725,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -47898,7 +47898,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -49103,7 +49103,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -49420,7 +49420,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -50290,7 +50290,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -51340,7 +51340,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -52808,7 +52808,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -52858,7 +52858,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -53713,7 +53713,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -53946,11 +53946,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 234.0, 285.0, 104.0, 53.0 ],
+						"rect" : [ 231.0, 285.0, 104.0, 53.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -55297,7 +55297,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -56085,7 +56085,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -56929,9 +56929,16 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
+						"Dual_SP_Suffixes" : 0,
+						"Dual_SP_Suffixes::pattrstorage[1]" : 0,
+						"Dual_SP_Suffixes::u695013846" : 0,
+						"Dual_SP_Suffixes::Black" : 0,
+						"Dual_SP_Suffixes::Enable" : 0,
+						"Dual_SP_Suffixes::MinCtxt" : 0,
+						"Dual_SP_Suffixes::White" : 0,
 						"Player" : 0,
 						"Player::pattrstorage" : 0,
-						"Player::u959013355" : 0,
+						"Player::u521013848" : 0,
 						"Player::Cut-Threshold" : 0,
 						"Player::Cut-Window" : 0,
 						"Player::Direction" : 0,
@@ -56939,7 +56946,7 @@
 						"Player::Xfade" : 0,
 						"Player[1]" : 0,
 						"Player[1]::pattrstorage" : 0,
-						"Player[1]::u564013357" : 0,
+						"Player[1]::u793013850" : 0,
 						"Player[1]::Cut-Threshold" : 0,
 						"Player[1]::Cut-Window" : 0,
 						"Player[1]::Direction" : 0,
@@ -56947,7 +56954,7 @@
 						"Player[1]::Xfade" : 0,
 						"Player[2]" : 0,
 						"Player[2]::pattrstorage" : 0,
-						"Player[2]::u207013359" : 0,
+						"Player[2]::u579013852" : 0,
 						"Player[2]::Cut-Threshold" : 0,
 						"Player[2]::Cut-Window" : 0,
 						"Player[2]::Direction" : 0,
@@ -56955,7 +56962,7 @@
 						"Player[2]::Xfade" : 0,
 						"Player[5]" : 0,
 						"Player[5]::SVP-Player" : 0,
-						"Player[5]::u361013361" : 0,
+						"Player[5]::u143013854" : 0,
 						"Player[5]::Cut-Threshold" : 0,
 						"Player[5]::Cut-Window" : 0,
 						"Player[5]::Direction" : 0,
@@ -56965,7 +56972,7 @@
 						"Player[5]::Xfade" : 0,
 						"Player[3]" : 0,
 						"Player[3]::pattrstorage" : 0,
-						"Player[3]::u999013363" : 0,
+						"Player[3]::u350013856" : 0,
 						"Player[3]::Cut-Threshold" : 0,
 						"Player[3]::Cut-Window" : 0,
 						"Player[3]::Direction" : 0,
@@ -56973,7 +56980,7 @@
 						"Player[3]::Xfade" : 0,
 						"Player[4]" : 0,
 						"Player[4]::pattrstorage" : 0,
-						"Player[4]::u193013365" : 0,
+						"Player[4]::u866013858" : 0,
 						"Player[4]::Cut-Threshold" : 0,
 						"Player[4]::Cut-Window" : 0,
 						"Player[4]::Direction" : 0,
@@ -56981,7 +56988,7 @@
 						"Player[4]::Xfade" : 0,
 						"Player[6]" : 0,
 						"Player[6]::SVP-Player" : 0,
-						"Player[6]::u371013367" : 0,
+						"Player[6]::u802013860" : 0,
 						"Player[6]::Cut-Threshold" : 0,
 						"Player[6]::Cut-Window" : 0,
 						"Player[6]::Direction" : 0,
@@ -56991,7 +56998,7 @@
 						"Player[6]::Xfade" : 0,
 						"Player[7]" : 0,
 						"Player[7]::pattrstorage" : 0,
-						"Player[7]::u940013369" : 0,
+						"Player[7]::u779013862" : 0,
 						"Player[7]::Cut-Threshold" : 0,
 						"Player[7]::Cut-Window" : 0,
 						"Player[7]::Direction" : 0,
@@ -57006,7 +57013,7 @@
 						"Player[7]::turn" : 0
 					}
 ,
-					"autorestore" : "OMax4.Forum.xml",
+					"autorestore" : "OMax-4.5.3.xml",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
@@ -60864,326 +60871,382 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-247::obj-171" : [ "live.tab[141]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
-			"obj-245::obj-230" : [ "effectNorris[6]", "live.tab", 0 ],
-			"obj-247::obj-230" : [ "effectNorris[8]", "live.tab", 0 ],
-			"obj-184::obj-220" : [ "live.tab[91]", "live.tab", 0 ],
-			"obj-245::obj-95" : [ "live.tab[131]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
-			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
-			"obj-185::obj-199" : [ "live.tab[107]", "live.tab", 0 ],
-			"obj-72::obj-26" : [ "live.text", "live.text", 0 ],
-			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
-			"obj-185::obj-220" : [ "live.tab[103]", "live.tab", 0 ],
-			"obj-186::obj-18" : [ "live.tab[111]", "live.tab", 0 ],
-			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
-			"obj-186::obj-230" : [ "effectNorris[3]", "live.tab", 0 ],
-			"obj-201::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-231::obj-220" : [ "live.tab[119]", "live.tab", 0 ],
-			"obj-246::obj-220" : [ "live.tab[134]", "live.tab", 0 ],
-			"obj-244::obj-95" : [ "live.tab[124]", "live.tab", 0 ],
-			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
-			"obj-247::obj-18" : [ "live.tab[143]", "live.tab", 0 ],
-			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
-			"obj-245::obj-199" : [ "live.tab[132]", "live.tab", 0 ],
-			"obj-247::obj-199" : [ "live.tab[139]", "live.tab", 0 ],
-			"obj-184::obj-256" : [ "live.tab[98]", "live.tab", 0 ],
-			"obj-264" : [ "live.text[4]", "1", 2 ],
-			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
-			"obj-185::obj-171" : [ "live.tab[106]", "live.tab", 0 ],
-			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
-			"obj-186::obj-199" : [ "live.tab[110]", "live.tab", 0 ],
-			"obj-186::obj-171" : [ "live.tab[109]", "live.tab", 0 ],
-			"obj-231::obj-199" : [ "live.tab[117]", "live.tab", 0 ],
-			"obj-204::obj-3" : [ "live.tab[57]", "live.tab", 0 ],
-			"obj-231::obj-18" : [ "live.tab[118]", "live.tab", 0 ],
-			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
-			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
-			"obj-16" : [ "improv-menu", "live.menu", 0 ],
-			"obj-246::obj-95" : [ "live.tab[136]", "live.tab", 0 ],
-			"obj-250::obj-3" : [ "live.tab[56]", "live.tab", 0 ],
-			"obj-244::obj-171" : [ "live.tab[125]", "live.tab", 0 ],
-			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
-			"obj-247::obj-95" : [ "live.tab[142]", "live.tab", 0 ],
-			"obj-245::obj-18" : [ "live.tab[128]", "live.tab", 0 ],
-			"obj-184::obj-230" : [ "effectNorris[1]", "live.tab", 0 ],
-			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
-			"obj-185::obj-95" : [ "live.tab[104]", "live.tab", 0 ],
-			"obj-186::obj-256" : [ "live.tab[114]", "live.tab", 0 ],
-			"obj-177::obj-3" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-231::obj-171" : [ "live.tab[116]", "live.tab", 0 ],
-			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
-			"obj-231::obj-230" : [ "effectNorris[4]", "live.tab", 0 ],
-			"obj-244::obj-220" : [ "live.tab[122]", "live.tab", 0 ],
-			"obj-246::obj-171" : [ "live.tab[137]", "live.tab", 0 ],
-			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
-			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
-			"obj-244::obj-256" : [ "live.tab[123]", "live.tab", 0 ],
-			"obj-14::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-247::obj-220" : [ "live.tab[140]", "live.tab", 0 ],
-			"obj-184::obj-171" : [ "live.tab[101]", "live.tab", 0 ],
-			"obj-245::obj-171" : [ "live.tab[130]", "live.tab", 0 ],
-			"obj-184::obj-18" : [ "live.tab[100]", "live.tab", 0 ],
-			"obj-153::obj-256" : [ "effectLPC", "live.tab", 0 ],
-			"obj-185::obj-18" : [ "live.tab[108]", "live.tab", 0 ],
-			"obj-13::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-186::obj-220" : [ "live.tab[113]", "live.tab", 0 ],
-			"obj-202::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-268" : [ "live.text[2]", "1", 2 ],
+			"obj-244::obj-230" : [ "effectAU[5]", "live.tab", 0 ],
+			"obj-108::obj-3" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-79" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-245::obj-95" : [ "effectMod[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-191" : [ "live.dial[16]", "opacity", 0 ],
+			"obj-72::obj-27::obj-134" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-245::obj-199" : [ "effectMunger[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-52" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-245::obj-220" : [ "effectCatart[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-48" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-22" : [ "live.dial[6]", "spacing", 0 ],
+			"obj-245::obj-171" : [ "effectVST[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-20" : [ "live.dial[5]", "gridlines", 0 ],
 			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
-			"obj-231::obj-95" : [ "live.tab[120]", "live.tab", 0 ],
-			"obj-246::obj-199" : [ "live.tab[135]", "live.tab", 0 ],
-			"obj-244::obj-18" : [ "live.tab[121]", "live.tab", 0 ],
-			"obj-246::obj-230" : [ "effectNorris[7]", "live.tab", 0 ],
-			"obj-244::obj-199" : [ "live.tab[126]", "live.tab", 0 ],
-			"obj-245::obj-256" : [ "live.tab[127]", "live.tab", 0 ],
-			"obj-247::obj-256" : [ "live.tab[144]", "live.tab", 0 ],
-			"obj-184::obj-95" : [ "live.tab[102]", "live.tab", 0 ],
-			"obj-245::obj-220" : [ "live.tab[129]", "live.tab", 0 ],
-			"obj-184::obj-199" : [ "live.tab[99]", "live.tab", 0 ],
-			"obj-185::obj-230" : [ "effectNorris[2]", "live.tab", 0 ],
-			"obj-108::obj-3" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-246::obj-18" : [ "effectBirds[7]", "live.tab", 0 ],
+			"obj-246::obj-230" : [ "effectAU[7]", "live.tab", 0 ],
+			"obj-246::obj-199" : [ "effectMunger[7]", "live.tab", 0 ],
+			"obj-246::obj-256" : [ "effectLPC[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-118" : [ "live.toggle[19]", "live.toggle", 0 ],
 			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
-			"obj-185::obj-256" : [ "live.tab[105]", "live.tab", 0 ],
-			"obj-186::obj-95" : [ "live.tab[112]", "live.tab", 0 ],
+			"obj-231::obj-95" : [ "effectMod[4]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-33" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-247::obj-95" : [ "effectMod[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-150" : [ "live.dial[12]", "top", 0 ],
+			"obj-264" : [ "live.text[5]", "1", 2 ],
+			"obj-244::obj-171" : [ "effectVST[5]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-61" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-77" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-194" : [ "live.dial[18]", "angle", 0 ],
+			"obj-186::obj-230" : [ "effectAU[3]", "live.tab", 0 ],
+			"obj-247::obj-171" : [ "effectVST[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-7" : [ "live.dial", "width", 0 ],
+			"obj-72::obj-27::obj-193" : [ "live.dial[17]", "scale", 0 ],
+			"obj-72::obj-27::obj-154" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-186::obj-95" : [ "effectMod[3]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-56" : [ "live.toggle[27]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-54" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-209" : [ "live.text[3]", "live.text", 0 ],
+			"obj-186::obj-199" : [ "effectMunger[3]", "live.tab", 0 ],
+			"obj-186::obj-220" : [ "effectCatart[3]", "live.tab", 0 ],
+			"obj-244::obj-199" : [ "effectMunger[5]", "live.tab", 0 ],
 			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
-			"obj-282" : [ "live.text[3]", "1", 2 ],
-			"obj-231::obj-256" : [ "live.tab[115]", "live.tab", 0 ],
+			"obj-186::obj-171" : [ "effectVST[3]", "live.tab", 0 ],
 			"obj-88::obj-229::obj-12::obj-180" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-246::obj-256" : [ "live.tab[138]", "live.tab", 0 ],
-			"obj-244::obj-230" : [ "effectNorris[5]", "live.tab", 0 ],
-			"obj-246::obj-18" : [ "live.tab[133]", "live.tab", 0 ],
-			"obj-251::obj-3" : [ "live.tab[48]", "live.tab", 0 ]
+			"obj-231::obj-18" : [ "effectBirds[4]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-121" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-251::obj-3" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
+			"obj-231::obj-256" : [ "effectLPC[4]", "live.tab", 0 ],
+			"obj-245::obj-18" : [ "effectBirds[6]", "live.tab", 0 ],
+			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
+			"obj-246::obj-171" : [ "effectVST[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-10" : [ "live.dial[1]", "height", 0 ],
+			"obj-247::obj-199" : [ "effectMunger[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-153" : [ "live.toggle[25]", "live.toggle", 0 ],
+			"obj-247::obj-220" : [ "effectCatart[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-64" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-250::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-204::obj-3" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-185::obj-230" : [ "effectAU[2]", "live.tab", 0 ],
+			"obj-268" : [ "live.text[6]", "1", 2 ],
+			"obj-185::obj-95" : [ "effectMod[2]", "live.tab", 0 ],
+			"obj-244::obj-256" : [ "effectLPC[5]", "live.tab", 0 ],
+			"obj-185::obj-199" : [ "effectMunger[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-190" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-213" : [ "live.toggle[26]", "live.toggle", 0 ],
+			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
+			"obj-185::obj-220" : [ "effectCatart[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-207" : [ "live.text[2]", "live.text", 0 ],
+			"obj-72::obj-27::obj-5" : [ "live.menu", "live.menu", 0 ],
+			"obj-185::obj-171" : [ "effectVST[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-123" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-187" : [ "live.dial[14]", "yoffset", 0 ],
+			"obj-185::obj-18" : [ "effectBirds[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-188" : [ "live.dial[15]", "xoffset", 0 ],
+			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
+			"obj-185::obj-256" : [ "effectLPC[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-199" : [ "live.text[1]", "live.text", 0 ],
+			"obj-72::obj-27::obj-14" : [ "live.dial[2]", "xoffset", 0 ],
+			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
+			"obj-245::obj-230" : [ "effectAU[6]", "live.tab", 0 ],
+			"obj-14::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
+			"obj-231::obj-199" : [ "effectMunger[4]", "live.tab", 0 ],
+			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-66" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-72::obj-26" : [ "live.text[4]", "live.text", 0 ],
+			"obj-231::obj-220" : [ "effectCatart[4]", "live.tab", 0 ],
+			"obj-13::obj-3" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-201::obj-3" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-108" : [ "live.dial[9]", "speakers", 0 ],
+			"obj-282" : [ "live.text[7]", "1", 2 ],
+			"obj-184::obj-230" : [ "effectAU[1]", "live.tab", 0 ],
+			"obj-244::obj-18" : [ "effectBirds[5]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-24" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-184::obj-95" : [ "effectMod[1]", "live.tab", 0 ],
+			"obj-186::obj-256" : [ "effectLPC[3]", "live.tab", 0 ],
+			"obj-202::obj-3" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-23" : [ "live.dial[7]", "divisions", 0 ],
+			"obj-72::obj-27::obj-75" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-105" : [ "live.dial[8]", "listener", 0 ],
+			"obj-184::obj-199" : [ "effectMunger[1]", "live.tab", 0 ],
+			"obj-244::obj-95" : [ "effectMod[5]", "live.tab", 0 ],
+			"obj-184::obj-220" : [ "effectCatart[1]", "live.tab", 0 ],
+			"obj-184::obj-171" : [ "effectVST[1]", "live.tab", 0 ],
+			"obj-184::obj-18" : [ "effectBirds[1]", "live.tab", 0 ],
+			"obj-231::obj-171" : [ "effectVST[4]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-16" : [ "live.dial[3]", "yoffset", 0 ],
+			"obj-16" : [ "improv-menu", "live.menu", 0 ],
+			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
+			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
+			"obj-184::obj-256" : [ "effectLPC[1]", "live.tab", 0 ],
+			"obj-246::obj-220" : [ "effectCatart[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-160" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
+			"obj-247::obj-230" : [ "effectAU[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-70" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-109" : [ "live.dial[10]", "sources", 0 ],
+			"obj-177::obj-3" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-148" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
+			"obj-186::obj-18" : [ "effectBirds[3]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-81" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-132" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
+			"obj-244::obj-220" : [ "effectCatart[5]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-46" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-1" : [ "live.tab", "live.tab", 0 ],
+			"obj-72::obj-27::obj-18" : [ "live.dial[4]", "zoom", 0 ],
+			"obj-72::obj-27::obj-43" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
+			"obj-72::obj-27::obj-186" : [ "live.text", "live.text", 0 ],
+			"obj-72::obj-27::obj-40" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-153::obj-256" : [ "effectLPC", "live.tab", 0 ],
+			"obj-245::obj-256" : [ "effectLPC[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-116" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
+			"obj-246::obj-95" : [ "effectMod[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-72" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-36" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-231::obj-230" : [ "effectAU[4]", "live.tab", 0 ],
+			"obj-247::obj-18" : [ "effectBirds[8]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
+			"obj-247::obj-256" : [ "effectLPC[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-111" : [ "live.dial[11]", "global", 0 ],
+			"obj-72::obj-27::obj-151" : [ "live.dial[13]", "left", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "OMax.Buffer.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Yin+.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Yin+core.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sr.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.autoname.js",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/javascript",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/javascript",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/javascript",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Seg.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Display.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Input.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Monitor.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.PattrStorage.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/Nav/Projects/2010_11_AlienLands/Monochrom (realtime Score)",
+				"patcherrelativepath" : "../../../Projects/2010_11_AlienLands/Monochrom (realtime Score)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax4.Forum.xml",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/presets",
-				"patcherrelativepath" : "../presets",
+				"name" : "OMax-4.5.3.xml",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/misc",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-zsa-core.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.MFCCs-alphabet.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Oracle-SP.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SaveLoad.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.vufader.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Omax.main",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/Omax.main",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Mouse2Selection.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Selection.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Timeline.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Suffixes.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproPlayerB.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproOut-Play.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Audio-Output.Pan.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproOut-MIDI.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Player.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.SVP-Play.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rogs-Sur-Player.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rogs-sur-Poly.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.debounce.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/dot_20121204/timing/dot.debounce",
-				"patcherrelativepath" : "../../../../../SearchPath/dot_20121204/timing/dot.debounce",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/dot_20121204/timing/dot.debounce",
+				"patcherrelativepath" : "../../../../SearchPath/dot_20121204/timing/dot.debounce",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "droneMaker~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/DroneMaker~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/Instruments/DroneMaker~",
 				"patcherrelativepath" : "../Instruments/DroneMaker~",
 				"type" : "JSON",
 				"implicit" : 1
@@ -61191,27 +61254,27 @@
 , 			{
 				"name" : "jmod.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.gain~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/snd",
+				"bootpath" : "/Users/nativealien/Code/Nav/snd",
 				"patcherrelativepath" : "../../../snd",
 				"type" : "JSON",
 				"implicit" : 1
@@ -61219,41 +61282,41 @@
 , 			{
 				"name" : "jmod.spectralShift~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.spectralShift~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.spectralShiftVoice~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/spectralShift~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.rand.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.rand",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.rand",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.rand.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.rand",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.rand",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
@@ -61261,349 +61324,349 @@
 , 			{
 				"name" : "jcom.absdiff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.input~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/nativealien/Code/Nav/snd/ADC-DAC~",
 				"patcherrelativepath" : "../../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.tap.reverb~.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
-				"patcherrelativepath" : "../../../../../SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.adc.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Archive/ADC DAC",
+				"bootpath" : "/Users/nativealien/Code/Nav/Archive/ADC DAC",
 				"patcherrelativepath" : "../../../Archive/ADC DAC",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Visu-Impro.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.VisuImpro-Arrows.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.VisuImpro-Attractor.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproSpectral.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-PickSimple.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-RegionSel.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Jumps.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Collect.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Taboo.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproSpectral-Weighting.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproSpectral-Weight.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.Impro-Target.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproSpectral-Energy.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OMax.ImproSpectral-Pitch.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/IRCAM/ircam-omax_y-Max6.1/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BachianBirds-v9SPAT.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/bachianbirds",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions/bachianbirds",
 				"patcherrelativepath" : "../abstractions/bachianbirds",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "series.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listlen.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists/ListObjects_McCartney",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists/ListObjects_McCartney",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists/ListObjects_McCartney",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists/ListObjects_McCartney",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xrandom.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nth.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.harmonicShifter~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.harmonicShifter~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.harmonicShifter~",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.harmonicShifter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.harmonicShifter~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.harmonicShifter~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.harmonicShifter~",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.harmonicShifter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.nav.harmonicShifter~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.harmonicShifter~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.harmonicShifter~",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.harmonicShifter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.nav.harmomicShifter~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.harmonicShifter~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.harmonicShifter~",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.harmonicShifter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
-				"patcherrelativepath" : "../../../../../SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.filter~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.filter~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "list-rand.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/bachianbirds",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions/bachianbirds",
 				"patcherrelativepath" : "../abstractions/bachianbirds",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "collect.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "between.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Chance",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.LPCer~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Instruments/nav.LPCer~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Instruments/nav.LPCer~",
 				"patcherrelativepath" : "../../../Instruments/nav.LPCer~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.LPCer~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.LPCer~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.LPCer~",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.LPCer~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.LPCer~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.LPCer~",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.LPCer~",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.LPCer~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.shpidel~.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
-				"patcherrelativepath" : "../../../../../SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.shpidel~.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
-				"patcherrelativepath" : "../../../../../SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/SoundhackWrappers/shpidel~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "omax.effect~.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/julian",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions/julian",
 				"patcherrelativepath" : "../abstractions/julian",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moodsFelix_windsor.json",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/presets",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "NA_compare-pitch.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/NAlove",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions/NAlove",
 				"patcherrelativepath" : "../abstractions/NAlove",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spd_tuning.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/abstractions/julian",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/abstractions/julian",
 				"patcherrelativepath" : "../abstractions/julian",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "anti-bis.maxpat",
-				"bootpath" : "/Users/NavNav/code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Toolbox",
-				"patcherrelativepath" : "../../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Toolbox",
+				"bootpath" : "/Users/nativealien/Code/SearchPath/RTC-lib_50/put content into patches/RTC-lib/Toolbox",
+				"patcherrelativepath" : "../../../../SearchPath/RTC-lib_50/put content into patches/RTC-lib/Toolbox",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "na.spat.ui.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/Instruments/NA.spat",
 				"patcherrelativepath" : "../Instruments/NA.spat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "na.spat.ui.MASTER.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/Instruments/NA.spat",
 				"patcherrelativepath" : "../Instruments/NA.spat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "NA.Vbap.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Instruments/NA.spat",
+				"bootpath" : "/Users/nativealien/Code/Nav/Omax/Omax.nav/Instruments/NA.spat",
 				"patcherrelativepath" : "../Instruments/NA.spat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.ambicontrol.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.ambicontrol",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.ambicontrol",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jlag.nav.ambicontrol.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.ambicontrol",
+				"bootpath" : "/Users/nativealien/Code/Nav/Jamoma/jmod.nav.ambicontrol",
 				"patcherrelativepath" : "../../../Jamoma/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
@@ -61611,69 +61674,69 @@
 , 			{
 				"name" : "jmod.input~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/input~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spat.OperPresets.json",
 				"bootpath" : "/Applications/Max 6.1/packages/ForumMaxApps-All/misc/Spatialisateur",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Spatialisateur",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Spatialisateur",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.positions.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/ircam-spat/patchers",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.copyright.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/ircam-spat/patchers",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.around.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/ircam-spat/patchers",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat.viewer.control.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/ircam-spat/patchers",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/ircam-spat/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.bridge.ambi2spat.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Archive/Spatialization/ambi2spat",
+				"bootpath" : "/Users/nativealien/Code/Nav/Archive/Spatialization/ambi2spat",
 				"patcherrelativepath" : "../../../Archive/Spatialization/ambi2spat",
 				"type" : "JSON",
 				"implicit" : 1
@@ -61681,28 +61744,28 @@
 , 			{
 				"name" : "jmod.sur.setup.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sur.channel.xyz_setup.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambimonitor2position.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.position2ambimonitor.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/position2ambimonitor",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/position2ambimonitor",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/position2ambimonitor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
