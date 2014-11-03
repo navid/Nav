@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 193.0, 122.0, 1717.0, 890.0 ],
+		"rect" : [ 663.0, 45.0, 1717.0, 890.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -593,7 +593,7 @@
 							"domain_style" : "linear",
 							"domain_markers" : [ 0.0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1.0 ],
 							"domain_labels" : [  ],
-							"range_start" : 0.0,
+							"range_start" : -1.0,
 							"range_end" : 1.0,
 							"range_style" : "linear",
 							"range_markers" : [ -0.5, 0.0, 0.5 ],
@@ -740,7 +740,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1061.0, 718.0, 36.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 185.0, 28.0, 19.0 ],
+					"presentation_rect" : [ 117.0, 185.0, 30.0, 19.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -3551,7 +3551,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.nav.scale~.maxpat",
-				"bootpath" : "/Users/NavNav/Desktop/jmod.nav.env~",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/jmod.nav.scale~",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3559,21 +3559,21 @@
 , 			{
 				"name" : "jcom.nav.autoscale~.maxpat",
 				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/Components/jcom.nav.autoscale~",
-				"patcherrelativepath" : "../../code/Git/Nav/Jamoma/Components/jcom.nav.autoscale~",
+				"patcherrelativepath" : "../Components/jcom.nav.autoscale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.route~.maxpat",
 				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/Schumacher/components/jcom.route~",
-				"patcherrelativepath" : "../../code/SearchPath/JamomaUsers/Schumacher/components/jcom.route~",
+				"patcherrelativepath" : "../../../../SearchPath/JamomaUsers/Schumacher/components/jcom.route~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.nav.clip~.maxpat",
 				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/Components/jcom.nav.clip~",
-				"patcherrelativepath" : "../../code/Git/Nav/Jamoma/Components/jcom.nav.clip~",
+				"patcherrelativepath" : "../Components/jcom.nav.clip~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
