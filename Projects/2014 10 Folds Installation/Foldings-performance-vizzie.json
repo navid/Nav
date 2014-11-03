@@ -1,0 +1,36 @@
+{
+	"pattrstorage" : 	{
+		"name" : "catart.lcd[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "init",
+				"data" : 				{
+					"vz.delayr::delayr-presets" : [ -1 ],
+					"vz.delayr[1]::delayr-presets" : [ -1 ],
+					"vz.4mixr::4mixr-presets" : [ -1 ],
+					"vz.sketchr::sketchr-presets" : [ -1 ],
+					"vz.feedr::feedr-presets" : [ -1 ],
+					"vz.delayr[2]::delayr-presets" : [ -1 ],
+					"vz.2toner::2toner-presets" : [ -1 ],
+					"vz.slidr::slidr-presets" : [ -1 ],
+					"vz.delayr[3]::delayr-presets" : [ -1 ],
+					"vz.delayr[4]::delayr-presets" : [ -1 ],
+					"vz.4mixr[1]::4mixr-presets" : [ -1 ],
+					"vz.delayr[5]::delayr-presets" : [ -1 ],
+					"vz.slidr[1]::slidr-presets" : [ -1 ],
+					"vz.2toner[1]::2toner-presets" : [ -1 ],
+					"vz.slidr[2]::slidr-presets" : [ -1 ],
+					"vz.delayr[6]::delayr-presets" : [ -1 ],
+					"vz.delayr[7]::delayr-presets" : [ -1 ],
+					"vz.slidr[3]::slidr-presets" : [ -1 ],
+					"vz.2toner[2]::2toner-presets" : [ -1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
