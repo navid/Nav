@@ -1,0 +1,187 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /slide4 99 1 /orsize4 99 1 /delay4 99 1 /orsize2 99 1 /orsize1 99 1 /delay2 99 1 /delay1 99 1 /slide%2 99 1 /LenkaCues 99 1 /brcosa-in 99 1 /orsize-in 99 1 /input% 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /slide4 
+ 	 	 	 	 /slide4/feedback 0.000000 
+ 	 	 	 	 /slide4/scalebias/bias 0 
+ 	 	 	 	 /slide4/scalebias/scale 1.000000 
+ 	 	 	 	 /slide4/slideDown 0.000000 
+ 	 	 	 	 /slide4/slideUp 0.000000 
+ 	 	 	 	 /slide4/smooth 0 
+ 	 	 	 	 /slide4/video/bypass 0 
+ 	 	 	 	 /slide4/video/freeze 0 
+ 	 	 	 	 /slide4/video/mute 0 
+ 	 	 	 	 /slide4/view/freeze 0 
+ 	 	 	 	 /slide4/view/highlight 0 
+ # 
+ # Module /orsize4 
+ 	 	 	 	 /orsize4/angle 0 
+ 	 	 	 	 /orsize4/boundmode clip 
+ 	 	 	 	 /orsize4/mirror 0 
+ 	 	 	 	 /orsize4/offsetX 0.000000 
+ 	 	 	 	 /orsize4/offsetY 0.000000 
+ 	 	 	 	 /orsize4/rotate1 0 
+ 	 	 	 	 /orsize4/rotate2 0 
+ 	 	 	 	 /orsize4/video/bypass 1 
+ 	 	 	 	 /orsize4/video/freeze 0 
+ 	 	 	 	 /orsize4/video/mute 0 
+ 	 	 	 	 /orsize4/video/preview 0 
+ 	 	 	 	 /orsize4/view/freeze 0 
+ 	 	 	 	 /orsize4/view/highlight 0 
+ 	 	 	 	 /orsize4/zoomX 1.000000 
+ 	 	 	 	 /orsize4/zoomY 1.000000 
+ # 
+ # Module /delay4 
+ 	 	 	 	 /delay4/crossfade 1.000000 
+ 	 	 	 	 /delay4/delay 600 
+ 	 	 	 	 /delay4/feedback 0.000000 
+ 	 	 	 	 /delay4/maxDelay 600 
+ 	 	 	 	 /delay4/video/bypass 0 
+ 	 	 	 	 /delay4/video/freeze 0 
+ 	 	 	 	 /delay4/video/mute 0 
+ 	 	 	 	 /delay4/view/freeze 0 
+ 	 	 	 	 /delay4/view/highlight 0 
+ # 
+ # Module /orsize2 
+ 	 	 	 	 /orsize2/angle 0 
+ 	 	 	 	 /orsize2/boundmode clip 
+ 	 	 	 	 /orsize2/mirror 1 
+ 	 	 	 	 /orsize2/offsetX 0.000000 
+ 	 	 	 	 /orsize2/offsetY 0.000000 
+ 	 	 	 	 /orsize2/rotate1 0 
+ 	 	 	 	 /orsize2/rotate2 0 
+ 	 	 	 	 /orsize2/video/bypass 0 
+ 	 	 	 	 /orsize2/video/freeze 0 
+ 	 	 	 	 /orsize2/video/mute 0 
+ 	 	 	 	 /orsize2/video/preview 0 
+ 	 	 	 	 /orsize2/view/freeze 0 
+ 	 	 	 	 /orsize2/view/highlight 0 
+ 	 	 	 	 /orsize2/zoomX 1.000000 
+ 	 	 	 	 /orsize2/zoomY 1.000000 
+ # 
+ # Module /orsize1 
+ 	 	 	 	 /orsize1/angle 0 
+ 	 	 	 	 /orsize1/boundmode clip 
+ 	 	 	 	 /orsize1/mirror 0 
+ 	 	 	 	 /orsize1/offsetX 0.000000 
+ 	 	 	 	 /orsize1/offsetY 0.000000 
+ 	 	 	 	 /orsize1/rotate1 0 
+ 	 	 	 	 /orsize1/rotate2 0 
+ 	 	 	 	 /orsize1/video/bypass 1 
+ 	 	 	 	 /orsize1/video/freeze 0 
+ 	 	 	 	 /orsize1/video/mute 0 
+ 	 	 	 	 /orsize1/video/preview 0 
+ 	 	 	 	 /orsize1/view/freeze 0 
+ 	 	 	 	 /orsize1/view/highlight 0 
+ 	 	 	 	 /orsize1/zoomX 1.000000 
+ 	 	 	 	 /orsize1/zoomY 1.000000 
+ # 
+ # Module /delay2 
+ 	 	 	 	 /delay2/crossfade 1.000000 
+ 	 	 	 	 /delay2/delay 800 
+ 	 	 	 	 /delay2/feedback 0.000000 
+ 	 	 	 	 /delay2/maxDelay 800 
+ 	 	 	 	 /delay2/video/bypass 0 
+ 	 	 	 	 /delay2/video/freeze 0 
+ 	 	 	 	 /delay2/video/mute 0 
+ 	 	 	 	 /delay2/view/freeze 0 
+ 	 	 	 	 /delay2/view/highlight 0 
+ # 
+ # Module /delay1 
+ 	 	 	 	 /delay1/crossfade 1.000000 
+ 	 	 	 	 /delay1/delay 600 
+ 	 	 	 	 /delay1/feedback 0.000000 
+ 	 	 	 	 /delay1/maxDelay 600 
+ 	 	 	 	 /delay1/video/bypass 0 
+ 	 	 	 	 /delay1/video/freeze 0 
+ 	 	 	 	 /delay1/video/mute 0 
+ 	 	 	 	 /delay1/view/freeze 0 
+ 	 	 	 	 /delay1/view/highlight 0 
+ # 
+ # Module /slide%2 
+ 	 	 	 	 /slide%2/feedback 0.000000 
+ 	 	 	 	 /slide%2/scalebias/bias 0 
+ 	 	 	 	 /slide%2/scalebias/scale 1.000000 
+ 	 	 	 	 /slide%2/slideDown 0.000000 
+ 	 	 	 	 /slide%2/slideUp 0.000000 
+ 	 	 	 	 /slide%2/smooth 0 
+ 	 	 	 	 /slide%2/video/bypass 0 
+ 	 	 	 	 /slide%2/video/freeze 0 
+ 	 	 	 	 /slide%2/video/mute 0 
+ 	 	 	 	 /slide%2/view/freeze 0 
+ 	 	 	 	 /slide%2/view/highlight 0 
+ # 
+ # Module /LenkaCues 
+ 	 	 	 	 /LenkaCues/view/freeze 0 
+ 	 	 	 	 /LenkaCues/view/highlight 0 
+ # 
+ # Module /brcosa-in 
+ 	 	 	 	 /brcosa-in/brightness 1.000000 
+ 	 	 	 	 /brcosa-in/contrast 1.000000 
+ 	 	 	 	 /brcosa-in/monochrome 0 
+ 	 	 	 	 /brcosa-in/saturation 1.000000 
+ 	 	 	 	 /brcosa-in/video/bypass 0 
+ 	 	 	 	 /brcosa-in/video/freeze 0 
+ 	 	 	 	 /brcosa-in/video/mute 0 
+ 	 	 	 	 /brcosa-in/video/preview 0 
+ 	 	 	 	 /brcosa-in/view/freeze 0 
+ 	 	 	 	 /brcosa-in/view/highlight 0 
+ # 
+ # Module /orsize-in 
+ 	 	 	 	 /orsize-in/angle 0 
+ 	 	 	 	 /orsize-in/boundmode clip 
+ 	 	 	 	 /orsize-in/mirror 0 
+ 	 	 	 	 /orsize-in/offsetX 0.000000 
+ 	 	 	 	 /orsize-in/offsetY 0.000000 
+ 	 	 	 	 /orsize-in/rotate1 0 
+ 	 	 	 	 /orsize-in/rotate2 0 
+ 	 	 	 	 /orsize-in/video/bypass 1 
+ 	 	 	 	 /orsize-in/video/freeze 0 
+ 	 	 	 	 /orsize-in/video/mute 0 
+ 	 	 	 	 /orsize-in/video/preview 0 
+ 	 	 	 	 /orsize-in/view/freeze 0 
+ 	 	 	 	 /orsize-in/view/highlight 0 
+ 	 	 	 	 /orsize-in/zoomX 1.000000 
+ 	 	 	 	 /orsize-in/zoomY 1.000000 
+ # 
+ # Module /input% 
+ 	 	 	 	 /input%/active 1 
+ 	 	 	 	 /input%/camera/camera none 
+ 	 	 	 	 /input%/camera/device ADVC-55 
+ 	 	 	 	 /input%/camera/size 0 
+ 	 	 	 	 /input%/camera/updaterate 1 
+ 	 	 	 	 /input%/desktop/offset/x 0 
+ 	 	 	 	 /input%/desktop/offset/y 0 
+ 	 	 	 	 /input%/desktop/size/x 320 
+ 	 	 	 	 /input%/desktop/size/y 240 
+ 	 	 	 	 /input%/file/autostart 1 
+ 	 	 	 	 /input%/file/framedump 0 
+ 	 	 	 	 /input%/file/loop/bounds 0.000000 
+ 	 	 	 	 /input%/file/loop/mode 1 
+ 	 	 	 	 /input%/file/open traffic.mov 
+ 	 	 	 	 /input%/file/rate 1.000000 
+ 	 	 	 	 /input%/file/size 2 
+ 	 	 	 	 /input%/source camera 
+ 	 	 	 	 /input%/synth/color/active 0 
+ 	 	 	 	 /input%/synth/color set 
+ 	 	 	 	 /input%/synth/noise/planes 4 
+ 	 	 	 	 /input%/synth/noise/size/x 320 
+ 	 	 	 	 /input%/synth/noise/size/y 240 
+ 	 	 	 	 /input%/updaterate 1 
+ 	 	 	 	 /input%/video/freeze 0 
+ 	 	 	 	 /input%/video/gain 100.000000 
+ 	 	 	 	 /input%/video/mute 0 
+ 	 	 	 	 /input%/video/preview 0 
+ 	 	 	 	 /input%/view/freeze 0 
+ 	 	 	 	 /input%/view/highlight none 
+ # 
+ ######################## 
+ 
+ 
