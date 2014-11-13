@@ -1,0 +1,1 @@
+Don't forget to change the MAC address of the computer assigned to 10.10.10.2 to the one you are going to operate Vibra-F from.
