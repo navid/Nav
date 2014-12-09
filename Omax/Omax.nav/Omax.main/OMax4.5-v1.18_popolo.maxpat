@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 8.0, 44.0, 1216.0, 384.0 ],
+		"rect" : [ 12.0, 45.0, 1216.0, 384.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"globalpatchername" : "u263015436[1][1][1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-256",
+					"maxclass" : "bpatcher",
+					"name" : "OMax.Audio-Input.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 82.918213, 47.0, 74.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.818181, 72.8386, 74.0, 63.471649 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -184,7 +198,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -343,7 +357,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -502,7 +516,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -704,7 +718,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -906,7 +920,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1108,7 +1122,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1310,7 +1324,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1512,7 +1526,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1714,7 +1728,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1969,7 +1983,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2677,7 +2691,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2714,7 +2728,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2969,7 +2983,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3019,7 +3033,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -3755,7 +3769,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -4491,7 +4505,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -5207,7 +5221,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -5923,7 +5937,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -6639,7 +6653,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -7355,7 +7369,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -8071,7 +8085,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -8837,7 +8851,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -25352,7 +25366,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -25621,7 +25635,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -25992,7 +26006,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26363,7 +26377,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26733,7 +26747,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -26892,7 +26906,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -27052,7 +27066,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -27425,7 +27439,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -27448,7 +27462,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -27960,7 +27973,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -27988,13 +28001,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-13",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 255.0, 242.0, 36.0, 38.0 ],
-									"text" : "/freq 1335.459351"
+									"text" : "/freq 99.173553"
 								}
 
 							}
@@ -28034,7 +28047,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 315.0, 186.0, 50.0, 16.0 ],
-									"text" : "/on 0"
+									"text" : "/on 1"
 								}
 
 							}
@@ -28043,13 +28056,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 101.0, 29.0, 38.0 ],
-									"text" : "/sp 0"
+									"text" : "/sp 211677"
 								}
 
 							}
@@ -28064,7 +28077,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 142.0, 152.0, 27.0 ],
-									"text" : "/cc 52 0. 15.3 0.7 -1.8 0.9 0.1 -0.8 0.1 0.1 -0.6 2 315"
+									"text" : "/cc 111 33.08 6.1 1. 2.2 0.3 -0.9 -0.4 0.2 0.3 0.2 1 315"
 								}
 
 							}
@@ -28455,7 +28468,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -29560,7 +29573,7 @@
 						"valueof" : 						{
 							"parameter_order" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -29572,7 +29585,7 @@
 ,
 					"text" : "multi",
 					"texton" : "mono",
-					"varname" : "live.text[4]"
+					"varname" : "live.text[6]"
 				}
 
 			}
@@ -29617,11 +29630,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 7.0, 931.0, 527.0, 200.0 ],
+						"rect" : [ 1.0, 1006.0, 313.0, 141.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -29652,24 +29665,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 408.0, 304.0, 50.0, 18.0 ],
 									"text" : "8"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial Bold",
-									"fontsize" : 13.0,
-									"frgb" : 0.0,
-									"id" : "obj-13",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 739.5, 114.0, 172.0, 50.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 81.5, 126.0, 78.0, 50.0 ],
-									"text" : "Tranquility\nDisgust\nComedy"
 								}
 
 							}
@@ -29838,7 +29833,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -29979,7 +29974,7 @@
 ,
 									"patching_rect" : [ 510.555542, 170.5, 43.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 396.555542, 126.0, 43.0, 20.0 ],
+									"presentation_rect" : [ 177.555542, 61.0, 43.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -30064,7 +30059,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -30743,7 +30738,7 @@
 									"activebgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 									"activebgoncolor" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
 									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-									"fontsize" : 24.0,
+									"fontsize" : 12.0,
 									"id" : "obj-45",
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 3,
@@ -30754,7 +30749,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 15.5, 49.0, 658.0, 101.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.5, 1.0, 519.222229, 125.0 ],
+									"presentation_rect" : [ 0.722229, 4.0, 230.222229, 51.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "live.tab[90]",
@@ -30781,7 +30776,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 486.555542, 233.0, 300.0, 70.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 219.722229, 126.0, 300.0, 70.0 ]
+									"presentation_rect" : [ 0.722229, 61.0, 300.0, 70.0 ]
 								}
 
 							}
@@ -31081,7 +31076,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -31118,7 +31113,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -31399,7 +31394,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -31680,7 +31675,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -31961,7 +31956,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -32410,7 +32405,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -32738,7 +32733,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33066,7 +33061,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33347,7 +33342,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33628,7 +33623,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -33909,7 +33904,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -34190,7 +34185,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -34471,7 +34466,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -34752,7 +34747,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -36331,7 +36326,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -36595,7 +36590,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -36859,7 +36854,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37123,7 +37118,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37387,7 +37382,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37651,7 +37646,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -37915,7 +37910,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38179,7 +38174,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38443,7 +38438,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38707,7 +38702,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -38972,7 +38967,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -39247,7 +39242,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -39522,7 +39517,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -39797,7 +39792,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -40071,7 +40066,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -40471,7 +40466,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -40792,11 +40787,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 6.0, 453.0, 553.0, 452.0 ],
+						"rect" : [ 9.0, 484.0, 553.0, 452.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -41301,7 +41296,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -41563,7 +41558,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -41825,7 +41820,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -42145,7 +42140,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -42430,7 +42425,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -42870,7 +42865,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -43998,7 +43993,7 @@
 						"valueof" : 						{
 							"parameter_order" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -44010,7 +44005,7 @@
 ,
 					"text" : "multi",
 					"texton" : "mono",
-					"varname" : "live.text[3]"
+					"varname" : "live.text[7]"
 				}
 
 			}
@@ -44034,7 +44029,7 @@
 						"valueof" : 						{
 							"parameter_order" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_shortname" : "1",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -44046,7 +44041,7 @@
 ,
 					"text" : "Learn",
 					"texton" : "Learn",
-					"varname" : "live.text[2]"
+					"varname" : "live.text[5]"
 				}
 
 			}
@@ -44506,7 +44501,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -44556,7 +44551,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -44981,7 +44976,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -45031,7 +45026,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -45456,7 +45451,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -45506,7 +45501,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -45931,7 +45926,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -45981,7 +45976,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -46406,7 +46401,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -46456,7 +46451,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -46881,7 +46876,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -46931,7 +46926,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -47356,7 +47351,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -47406,7 +47401,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -47831,7 +47826,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -47881,7 +47876,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -48306,7 +48301,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -48342,7 +48337,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -48515,7 +48510,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -49720,7 +49715,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -50037,7 +50032,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -50907,7 +50902,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -51957,7 +51952,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 7,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -53425,7 +53420,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -53475,7 +53470,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -54330,7 +54325,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -54563,11 +54558,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 235.0, 285.0, 104.0, 53.0 ],
+						"rect" : [ 239.0, 286.0, 104.0, 53.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -55914,7 +55909,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -56702,7 +56697,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -57546,9 +57541,16 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
+						"Dual_SP_Suffixes" : 0,
+						"Dual_SP_Suffixes::pattrstorage[1]" : 0,
+						"Dual_SP_Suffixes::u889013655" : 0,
+						"Dual_SP_Suffixes::Black" : 0,
+						"Dual_SP_Suffixes::Enable" : 0,
+						"Dual_SP_Suffixes::MinCtxt" : 0,
+						"Dual_SP_Suffixes::White" : 0,
 						"Player" : 0,
 						"Player::pattrstorage" : 0,
-						"Player::u960013355" : 0,
+						"Player::u924013657" : 0,
 						"Player::Cut-Threshold" : 0,
 						"Player::Cut-Window" : 0,
 						"Player::Direction" : 0,
@@ -57556,7 +57558,7 @@
 						"Player::Xfade" : 0,
 						"Player[1]" : 0,
 						"Player[1]::pattrstorage" : 0,
-						"Player[1]::u227013357" : 0,
+						"Player[1]::u471013659" : 0,
 						"Player[1]::Cut-Threshold" : 0,
 						"Player[1]::Cut-Window" : 0,
 						"Player[1]::Direction" : 0,
@@ -57564,7 +57566,7 @@
 						"Player[1]::Xfade" : 0,
 						"Player[2]" : 0,
 						"Player[2]::pattrstorage" : 0,
-						"Player[2]::u887013359" : 0,
+						"Player[2]::u904013661" : 0,
 						"Player[2]::Cut-Threshold" : 0,
 						"Player[2]::Cut-Window" : 0,
 						"Player[2]::Direction" : 0,
@@ -57572,7 +57574,7 @@
 						"Player[2]::Xfade" : 0,
 						"Player[5]" : 0,
 						"Player[5]::SVP-Player" : 0,
-						"Player[5]::u083013361" : 0,
+						"Player[5]::u334013663" : 0,
 						"Player[5]::Cut-Threshold" : 0,
 						"Player[5]::Cut-Window" : 0,
 						"Player[5]::Direction" : 0,
@@ -57582,7 +57584,7 @@
 						"Player[5]::Xfade" : 0,
 						"Player[3]" : 0,
 						"Player[3]::pattrstorage" : 0,
-						"Player[3]::u111013363" : 0,
+						"Player[3]::u206013665" : 0,
 						"Player[3]::Cut-Threshold" : 0,
 						"Player[3]::Cut-Window" : 0,
 						"Player[3]::Direction" : 0,
@@ -57590,7 +57592,7 @@
 						"Player[3]::Xfade" : 0,
 						"Player[4]" : 0,
 						"Player[4]::pattrstorage" : 0,
-						"Player[4]::u334013365" : 0,
+						"Player[4]::u703013667" : 0,
 						"Player[4]::Cut-Threshold" : 0,
 						"Player[4]::Cut-Window" : 0,
 						"Player[4]::Direction" : 0,
@@ -57598,7 +57600,7 @@
 						"Player[4]::Xfade" : 0,
 						"Player[6]" : 0,
 						"Player[6]::SVP-Player" : 0,
-						"Player[6]::u879013367" : 0,
+						"Player[6]::u899013669" : 0,
 						"Player[6]::Cut-Threshold" : 0,
 						"Player[6]::Cut-Window" : 0,
 						"Player[6]::Direction" : 0,
@@ -57608,7 +57610,7 @@
 						"Player[6]::Xfade" : 0,
 						"Player[7]" : 0,
 						"Player[7]::pattrstorage" : 0,
-						"Player[7]::u348013369" : 0,
+						"Player[7]::u697013671" : 0,
 						"Player[7]::Cut-Threshold" : 0,
 						"Player[7]::Cut-Window" : 0,
 						"Player[7]::Direction" : 0,
@@ -57620,10 +57622,301 @@
 						"Player[7]::onsetVar" : 0,
 						"Player[7]::pVar" : 0,
 						"Player[7]::trigger" : 0,
-						"Player[7]::turn" : 0
+						"Player[7]::turn" : 0,
+						"Player[8]" : 0,
+						"Player[8]::pattrstorage" : 0,
+						"Player[8]::u212013673" : 0,
+						"Player[8]::Cut-Threshold" : 0,
+						"Player[8]::Cut-Window" : 0,
+						"Player[8]::Direction" : 0,
+						"Player[8]::Speed" : 0,
+						"Player[8]::Sync" : 0,
+						"Player[8]::Transposition" : 0,
+						"Player[8]::Xfade" : 0,
+						"Player[8]::grainDur" : 0,
+						"Player[8]::onsetVar" : 0,
+						"Player[8]::pVar" : 0,
+						"Player[8]::trigger" : 0,
+						"Player[8]::turn" : 0,
+						"dual-SP::Impro3::Impro3" : 0,
+						"dual-SP::Impro3::Impro-Presets" : 0,
+						"dual-SP::Impro3::u580013675" : 0,
+						"dual-SP::Impro3::Attractor" : 0,
+						"dual-SP::Impro3::AttractorEn" : 0,
+						"dual-SP::Impro3::AttractorFollow" : 0,
+						"dual-SP::Impro3::AttractorWeight" : 0,
+						"dual-SP::Impro3::Continuity" : 0,
+						"dual-SP::Impro3::DropCtxt" : 0,
+						"dual-SP::Impro3::Energy" : 0,
+						"dual-SP::Impro3::Follow" : 0,
+						"dual-SP::Impro3::FollowEn" : 0,
+						"dual-SP::Impro3::MinCtxt" : 0,
+						"dual-SP::Impro3::Pitch" : 0,
+						"dual-SP::Impro3::R2Extend" : 0,
+						"dual-SP::Impro3::Region1En" : 0,
+						"dual-SP::Impro3::Region2En" : 0,
+						"dual-SP::Impro3::RegionsEn" : 0,
+						"dual-SP::Impro3::TabooLength" : 0,
+						"dual-SP::Impro4::Impro4" : 0,
+						"dual-SP::Impro4::Impro-Presets" : 0,
+						"dual-SP::Impro4::u298013677" : 0,
+						"dual-SP::Impro4::Attractor" : 0,
+						"dual-SP::Impro4::AttractorEn" : 0,
+						"dual-SP::Impro4::AttractorFollow" : 0,
+						"dual-SP::Impro4::AttractorWeight" : 0,
+						"dual-SP::Impro4::Continuity" : 0,
+						"dual-SP::Impro4::DropCtxt" : 0,
+						"dual-SP::Impro4::Energy" : 0,
+						"dual-SP::Impro4::Follow" : 0,
+						"dual-SP::Impro4::FollowEn" : 0,
+						"dual-SP::Impro4::MinCtxt" : 0,
+						"dual-SP::Impro4::Pitch" : 0,
+						"dual-SP::Impro4::R2Extend" : 0,
+						"dual-SP::Impro4::Region1En" : 0,
+						"dual-SP::Impro4::Region2En" : 0,
+						"dual-SP::Impro4::RegionsEn" : 0,
+						"dual-SP::Impro4::TabooLength" : 0,
+						"dual-SP::Impro1::Impro1" : 0,
+						"dual-SP::Impro1::Impro-Presets" : 0,
+						"dual-SP::Impro1::u849013679" : 0,
+						"dual-SP::Impro1::Attractor" : 0,
+						"dual-SP::Impro1::AttractorEn" : 0,
+						"dual-SP::Impro1::AttractorFollow" : 0,
+						"dual-SP::Impro1::AttractorWeight" : 0,
+						"dual-SP::Impro1::Continuity" : 0,
+						"dual-SP::Impro1::DropCtxt" : 0,
+						"dual-SP::Impro1::Energy" : 0,
+						"dual-SP::Impro1::Follow" : 0,
+						"dual-SP::Impro1::FollowEn" : 0,
+						"dual-SP::Impro1::MinCtxt" : 0,
+						"dual-SP::Impro1::Pitch" : 0,
+						"dual-SP::Impro1::R2Extend" : 0,
+						"dual-SP::Impro1::Region1En" : 0,
+						"dual-SP::Impro1::Region2En" : 0,
+						"dual-SP::Impro1::RegionsEn" : 0,
+						"dual-SP::Impro1::TabooLength" : 0,
+						"dual-SP::Impro2::Impro2" : 0,
+						"dual-SP::Impro2::Impro-Presets" : 0,
+						"dual-SP::Impro2::u404013681" : 0,
+						"dual-SP::Impro2::Attractor" : 0,
+						"dual-SP::Impro2::AttractorEn" : 0,
+						"dual-SP::Impro2::AttractorFollow" : 0,
+						"dual-SP::Impro2::AttractorWeight" : 0,
+						"dual-SP::Impro2::Continuity" : 0,
+						"dual-SP::Impro2::DropCtxt" : 0,
+						"dual-SP::Impro2::Energy" : 0,
+						"dual-SP::Impro2::Follow" : 0,
+						"dual-SP::Impro2::FollowEn" : 0,
+						"dual-SP::Impro2::MinCtxt" : 0,
+						"dual-SP::Impro2::Pitch" : 0,
+						"dual-SP::Impro2::R2Extend" : 0,
+						"dual-SP::Impro2::Region1En" : 0,
+						"dual-SP::Impro2::Region2En" : 0,
+						"dual-SP::Impro2::RegionsEn" : 0,
+						"dual-SP::Impro2::TabooLength" : 0,
+						"BachianBirds-v9~" : 0,
+						"BachianBirds-v9~::u931013683" : 0,
+						"BachianBirds-v9~::1-partialsList" : 0,
+						"BachianBirds-v9~::1-partialsMode" : 0,
+						"BachianBirds-v9~::2-partialsList" : 0,
+						"BachianBirds-v9~::2-partialsMode" : 0,
+						"BachianBirds-v9~::3-partialsList" : 0,
+						"BachianBirds-v9~::3-partialsMode" : 0,
+						"BachianBirds-v9~::4-partialsList" : 0,
+						"BachianBirds-v9~::4-partialsMode" : 0,
+						"BachianBirds-v9~::5-partialsList" : 0,
+						"BachianBirds-v9~::5-partialsMode" : 0,
+						"BachianBirds-v9~::6-partialsList" : 0,
+						"BachianBirds-v9~::6-partialsMode" : 0,
+						"BachianBirds-v9~::7-partialsList" : 0,
+						"BachianBirds-v9~::7-partialsMode" : 0,
+						"BachianBirds-v9~::8-partialsList" : 0,
+						"BachianBirds-v9~::8-partialsMode" : 0,
+						"BachianBirds-v9~::ampInterp-max" : 0,
+						"BachianBirds-v9~::ampInterp-min" : 0,
+						"BachianBirds-v9~::ampRate-max" : 0,
+						"BachianBirds-v9~::ampRate-min" : 0,
+						"BachianBirds-v9~::ampVal-max" : 0,
+						"BachianBirds-v9~::ampVal-min" : 0,
+						"BachianBirds-v9~::live.tab" : 0,
+						"BachianBirds-v9~::onOff" : 0,
+						"omax.effect~" : 0,
+						"omax.effect~::u255013684" : 0,
+						"omax.effect~::effectAU" : 0,
+						"omax.effect~::effectBirds" : 0,
+						"omax.effect~::effectCatart" : 0,
+						"omax.effect~::effectLPC" : 0,
+						"omax.effect~::effectMod" : 0,
+						"omax.effect~::effectMunger" : 0,
+						"omax.effect~::effectVST" : 0,
+						"omax.effect~::u599004412" : 0,
+						"omax.effect~[1]" : 0,
+						"omax.effect~[1]::u929013686" : 0,
+						"omax.effect~[1]::effectAU" : 0,
+						"omax.effect~[1]::effectBirds" : 0,
+						"omax.effect~[1]::effectCatart" : 0,
+						"omax.effect~[1]::effectLPC" : 0,
+						"omax.effect~[1]::effectMod" : 0,
+						"omax.effect~[1]::effectMunger" : 0,
+						"omax.effect~[1]::effectVST" : 0,
+						"omax.effect~[1]::u284004386" : 0,
+						"omax.effect~[2]" : 0,
+						"omax.effect~[2]::u297013688" : 0,
+						"omax.effect~[2]::effectAU" : 0,
+						"omax.effect~[2]::effectBirds" : 0,
+						"omax.effect~[2]::effectCatart" : 0,
+						"omax.effect~[2]::effectLPC" : 0,
+						"omax.effect~[2]::effectMod" : 0,
+						"omax.effect~[2]::effectMunger" : 0,
+						"omax.effect~[2]::effectVST" : 0,
+						"omax.effect~[2]::u806004360" : 0,
+						"omax.effect~[3]" : 0,
+						"omax.effect~[3]::u993013690" : 0,
+						"omax.effect~[3]::effectAU" : 0,
+						"omax.effect~[3]::effectBirds" : 0,
+						"omax.effect~[3]::effectCatart" : 0,
+						"omax.effect~[3]::effectLPC" : 0,
+						"omax.effect~[3]::effectMod" : 0,
+						"omax.effect~[3]::effectMunger" : 0,
+						"omax.effect~[3]::effectVST" : 0,
+						"omax.effect~[3]::u130004334" : 0,
+						"omax.effect~[4]" : 0,
+						"omax.effect~[4]::u098013692" : 0,
+						"omax.effect~[4]::effectAU" : 0,
+						"omax.effect~[4]::effectBirds" : 0,
+						"omax.effect~[4]::effectCatart" : 0,
+						"omax.effect~[4]::effectLPC" : 0,
+						"omax.effect~[4]::effectMod" : 0,
+						"omax.effect~[4]::effectMunger" : 0,
+						"omax.effect~[4]::effectVST" : 0,
+						"omax.effect~[4]::u435004308" : 0,
+						"omax.effect~[5]" : 0,
+						"omax.effect~[5]::u423013694" : 0,
+						"omax.effect~[5]::effectAU" : 0,
+						"omax.effect~[5]::effectBirds" : 0,
+						"omax.effect~[5]::effectCatart" : 0,
+						"omax.effect~[5]::effectLPC" : 0,
+						"omax.effect~[5]::effectMod" : 0,
+						"omax.effect~[5]::effectMunger" : 0,
+						"omax.effect~[5]::effectVST" : 0,
+						"omax.effect~[5]::u041004282" : 0,
+						"omax.effect~[6]" : 0,
+						"omax.effect~[6]::u176013696" : 0,
+						"omax.effect~[6]::effectAU" : 0,
+						"omax.effect~[6]::effectBirds" : 0,
+						"omax.effect~[6]::effectCatart" : 0,
+						"omax.effect~[6]::effectLPC" : 0,
+						"omax.effect~[6]::effectMod" : 0,
+						"omax.effect~[6]::effectMunger" : 0,
+						"omax.effect~[6]::effectVST" : 0,
+						"omax.effect~[6]::u780004256" : 0,
+						"omax.effect~[7]" : 0,
+						"omax.effect~[7]::u423013698" : 0,
+						"omax.effect~[7]::effectAU" : 0,
+						"omax.effect~[7]::effectBirds" : 0,
+						"omax.effect~[7]::effectCatart" : 0,
+						"omax.effect~[7]::effectLPC" : 0,
+						"omax.effect~[7]::effectMod" : 0,
+						"omax.effect~[7]::effectMunger" : 0,
+						"omax.effect~[7]::effectVST" : 0,
+						"omax.effect~[7]::u652004230" : 0,
+						"omax.effect~[8]" : 0,
+						"omax.effect~[8]::u832013700" : 0,
+						"omax.effect~[8]::effectAU" : 0,
+						"omax.effect~[8]::effectBirds" : 0,
+						"omax.effect~[8]::effectCatart" : 0,
+						"omax.effect~[8]::effectLPC" : 0,
+						"omax.effect~[8]::effectMod" : 0,
+						"omax.effect~[8]::effectMunger" : 0,
+						"omax.effect~[8]::effectVST" : 0,
+						"omax.effect~[8]::u312004204" : 0,
+						"patcher::NA_compare-pitch::NA_compare-pitch" : 0,
+						"patcher::NA_compare-pitch::u357013702" : 0,
+						"patcher::NA_compare-pitch::cpFollow1" : 0,
+						"patcher::NA_compare-pitch::cpFollow2" : 0,
+						"patcher::NA_compare-pitch::cpFollow3" : 0,
+						"patcher::NA_compare-pitch::cpFollow4" : 0,
+						"patcher::NA_compare-pitch::cpFollow5" : 0,
+						"patcher::NA_compare-pitch::cpFollow6" : 0,
+						"patcher::NA_compare-pitch::cpFollow7" : 0,
+						"patcher::NA_compare-pitch::cpFollow8" : 0,
+						"patcher::NA_compare-pitch::cpFollow9" : 0,
+						"patcher::NA_compare-pitch::cpInterpolation" : 0,
+						"patcher::NA_compare-pitch::cpLeader" : 0,
+						"patcher::NA_compare-pitch::cpScaleMax" : 0,
+						"patcher::NA_compare-pitch::cpScaleMin" : 0,
+						"patcher::NA_compare-pitch::cpScaleOn" : 0,
+						"patcher::NA_compare-pitch::cpTrans" : 0,
+						"patcher::NA_compare-pitch::u893003980" : 0,
+						"na.spat.send.ui[1]" : 0,
+						"na.spat.send.ui[1]::u234013704" : 0,
+						"na.spat.send.ui[1]::ampMax-in" : 0,
+						"na.spat.send.ui[1]::ampMax-out" : 0,
+						"na.spat.send.ui[1]::dMax" : 0,
+						"na.spat.send.ui[1]::dial" : 0,
+						"na.spat.send.ui[1]::spat-choice" : 0,
+						"na.spat.send.ui[2]" : 0,
+						"na.spat.send.ui[2]::u821013705" : 0,
+						"na.spat.send.ui[2]::ampMax-in" : 0,
+						"na.spat.send.ui[2]::ampMax-out" : 0,
+						"na.spat.send.ui[2]::dMax" : 0,
+						"na.spat.send.ui[2]::dial" : 0,
+						"na.spat.send.ui[2]::spat-choice" : 0,
+						"na.spat.send.ui[3]" : 0,
+						"na.spat.send.ui[3]::u731013706" : 0,
+						"na.spat.send.ui[3]::ampMax-in" : 0,
+						"na.spat.send.ui[3]::ampMax-out" : 0,
+						"na.spat.send.ui[3]::dMax" : 0,
+						"na.spat.send.ui[3]::dial" : 0,
+						"na.spat.send.ui[3]::spat-choice" : 0,
+						"na.spat.send.ui[4]" : 0,
+						"na.spat.send.ui[4]::u053013707" : 0,
+						"na.spat.send.ui[4]::ampMax-in" : 0,
+						"na.spat.send.ui[4]::ampMax-out" : 0,
+						"na.spat.send.ui[4]::dMax" : 0,
+						"na.spat.send.ui[4]::dial" : 0,
+						"na.spat.send.ui[4]::spat-choice" : 0,
+						"na.spat.send.ui[5]" : 0,
+						"na.spat.send.ui[5]::u935013708" : 0,
+						"na.spat.send.ui[5]::ampMax-in" : 0,
+						"na.spat.send.ui[5]::ampMax-out" : 0,
+						"na.spat.send.ui[5]::dMax" : 0,
+						"na.spat.send.ui[5]::dial" : 0,
+						"na.spat.send.ui[5]::spat-choice" : 0,
+						"na.spat.send.ui[6]" : 0,
+						"na.spat.send.ui[6]::u982013709" : 0,
+						"na.spat.send.ui[6]::ampMax-in" : 0,
+						"na.spat.send.ui[6]::ampMax-out" : 0,
+						"na.spat.send.ui[6]::dMax" : 0,
+						"na.spat.send.ui[6]::dial" : 0,
+						"na.spat.send.ui[6]::spat-choice" : 0,
+						"na.spat.send.ui[7]" : 0,
+						"na.spat.send.ui[7]::u427013710" : 0,
+						"na.spat.send.ui[7]::ampMax-in" : 0,
+						"na.spat.send.ui[7]::ampMax-out" : 0,
+						"na.spat.send.ui[7]::dMax" : 0,
+						"na.spat.send.ui[7]::dial" : 0,
+						"na.spat.send.ui[7]::spat-choice" : 0,
+						"NA.Vbap" : 0,
+						"NA.Vbap::SpatOper" : 0,
+						"NA.Vbap::Spat.OperPresets" : 0,
+						"na.spat.ui" : 0,
+						"na.spat.ui::u276013714" : 0,
+						"na.spat.ui::ampMax-in" : 0,
+						"na.spat.ui::ampMax-out" : 0,
+						"na.spat.ui::dMax" : 0,
+						"na.spat.ui::dial" : 0,
+						"na.spat.ui::spat-choice" : 0,
+						"na.spat.ui[1]" : 0,
+						"na.spat.ui[1]::u333013715" : 0,
+						"na.spat.ui[1]::ampMax-in" : 0,
+						"na.spat.ui[1]::ampMax-out" : 0,
+						"na.spat.ui[1]::dMax" : 0,
+						"na.spat.ui[1]::dial" : 0,
+						"na.spat.ui[1]::spat-choice" : 0
 					}
 ,
-					"autorestore" : "OMax4.Forum.xml",
+					"autorestore" : "Input.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
@@ -57695,9 +57988,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 24.0, 47.0, 74.0, 136.0 ],
+					"patching_rect" : [ 13.0, 47.0, 74.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.818181, 2.727273, 74.0, 137.026321 ]
+					"presentation_rect" : [ 2.818181, 2.727273, 74.0, 70.0 ]
 				}
 
 			}
@@ -59769,6 +60062,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-256", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-284", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-256", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-284", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-256", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -61481,97 +61801,153 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-244::obj-199" : [ "live.tab[126]", "live.tab", 0 ],
-			"obj-244::obj-256" : [ "live.tab[123]", "live.tab", 0 ],
-			"obj-177::obj-3" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-245::obj-199" : [ "live.tab[132]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
-			"obj-184::obj-95" : [ "live.tab[102]", "live.tab", 0 ],
-			"obj-245::obj-18" : [ "live.tab[128]", "live.tab", 0 ],
-			"obj-184::obj-230" : [ "effectNorris[1]", "live.tab", 0 ],
-			"obj-185::obj-220" : [ "live.tab[103]", "live.tab", 0 ],
-			"obj-246::obj-220" : [ "live.tab[134]", "live.tab", 0 ],
-			"obj-185::obj-95" : [ "live.tab[104]", "live.tab", 0 ],
-			"obj-247::obj-220" : [ "live.tab[140]", "live.tab", 0 ],
-			"obj-16" : [ "improv-menu", "live.menu", 0 ],
-			"obj-186::obj-230" : [ "effectNorris[3]", "live.tab", 0 ],
 			"obj-153::obj-256" : [ "effectLPC", "live.tab", 0 ],
-			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
-			"obj-231::obj-220" : [ "live.tab[119]", "live.tab", 0 ],
-			"obj-13::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-244::obj-230" : [ "effectNorris[5]", "live.tab", 0 ],
-			"obj-251::obj-3" : [ "live.tab[48]", "live.tab", 0 ],
-			"obj-245::obj-95" : [ "live.tab[131]", "live.tab", 0 ],
-			"obj-202::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-184::obj-256" : [ "live.tab[98]", "live.tab", 0 ],
-			"obj-245::obj-230" : [ "effectNorris[6]", "live.tab", 0 ],
-			"obj-246::obj-199" : [ "live.tab[135]", "live.tab", 0 ],
-			"obj-185::obj-230" : [ "effectNorris[2]", "live.tab", 0 ],
-			"obj-246::obj-18" : [ "live.tab[133]", "live.tab", 0 ],
-			"obj-185::obj-171" : [ "live.tab[106]", "live.tab", 0 ],
-			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
-			"obj-186::obj-18" : [ "live.tab[111]", "live.tab", 0 ],
-			"obj-247::obj-18" : [ "live.tab[143]", "live.tab", 0 ],
-			"obj-186::obj-171" : [ "live.tab[109]", "live.tab", 0 ],
-			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
-			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
-			"obj-108::obj-3" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-231::obj-95" : [ "live.tab[120]", "live.tab", 0 ],
-			"obj-244::obj-171" : [ "live.tab[125]", "live.tab", 0 ],
-			"obj-245::obj-256" : [ "live.tab[127]", "live.tab", 0 ],
-			"obj-184::obj-199" : [ "live.tab[99]", "live.tab", 0 ],
-			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
-			"obj-246::obj-230" : [ "effectNorris[7]", "live.tab", 0 ],
-			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
-			"obj-185::obj-199" : [ "live.tab[107]", "live.tab", 0 ],
-			"obj-246::obj-256" : [ "live.tab[138]", "live.tab", 0 ],
-			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
-			"obj-247::obj-171" : [ "live.tab[141]", "live.tab", 0 ],
-			"obj-268" : [ "live.text[2]", "1", 2 ],
-			"obj-186::obj-220" : [ "live.tab[113]", "live.tab", 0 ],
-			"obj-247::obj-230" : [ "effectNorris[8]", "live.tab", 0 ],
-			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
-			"obj-186::obj-95" : [ "live.tab[112]", "live.tab", 0 ],
-			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
-			"obj-231::obj-18" : [ "live.tab[118]", "live.tab", 0 ],
-			"obj-264" : [ "live.text[4]", "1", 2 ],
-			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
-			"obj-231::obj-230" : [ "effectNorris[4]", "live.tab", 0 ],
-			"obj-250::obj-3" : [ "live.tab[56]", "live.tab", 0 ],
-			"obj-244::obj-18" : [ "live.tab[121]", "live.tab", 0 ],
-			"obj-201::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-245::obj-171" : [ "live.tab[130]", "live.tab", 0 ],
-			"obj-184::obj-220" : [ "live.tab[91]", "live.tab", 0 ],
-			"obj-246::obj-171" : [ "live.tab[137]", "live.tab", 0 ],
-			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
-			"obj-185::obj-256" : [ "live.tab[105]", "live.tab", 0 ],
-			"obj-282" : [ "live.text[3]", "1", 2 ],
-			"obj-247::obj-256" : [ "live.tab[144]", "live.tab", 0 ],
-			"obj-186::obj-199" : [ "live.tab[110]", "live.tab", 0 ],
-			"obj-247::obj-199" : [ "live.tab[139]", "live.tab", 0 ],
-			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
-			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
-			"obj-231::obj-256" : [ "live.tab[115]", "live.tab", 0 ],
-			"obj-231::obj-199" : [ "live.tab[117]", "live.tab", 0 ],
-			"obj-244::obj-95" : [ "live.tab[124]", "live.tab", 0 ],
-			"obj-244::obj-220" : [ "live.tab[122]", "live.tab", 0 ],
-			"obj-72::obj-26" : [ "live.text", "live.text", 0 ],
-			"obj-184::obj-171" : [ "live.tab[101]", "live.tab", 0 ],
-			"obj-245::obj-220" : [ "live.tab[129]", "live.tab", 0 ],
-			"obj-204::obj-3" : [ "live.tab[57]", "live.tab", 0 ],
-			"obj-184::obj-18" : [ "live.tab[100]", "live.tab", 0 ],
-			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
-			"obj-246::obj-95" : [ "live.tab[136]", "live.tab", 0 ],
-			"obj-14::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
-			"obj-185::obj-18" : [ "live.tab[108]", "live.tab", 0 ],
-			"obj-247::obj-95" : [ "live.tab[142]", "live.tab", 0 ],
-			"obj-186::obj-256" : [ "live.tab[114]", "live.tab", 0 ],
-			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
-			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
+			"obj-184::obj-18" : [ "effectBirds[1]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-79" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-184::obj-256" : [ "effectLPC[1]", "live.tab", 0 ],
 			"obj-88::obj-229::obj-12::obj-180" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-231::obj-171" : [ "live.tab[116]", "live.tab", 0 ],
-			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ]
+			"obj-72::obj-27::obj-7" : [ "live.dial", "width", 0 ],
+			"obj-72::obj-27::obj-14" : [ "live.dial[2]", "xoffset", 0 ],
+			"obj-184::obj-199" : [ "effectMunger[1]", "live.tab", 0 ],
+			"obj-177::obj-3" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-213" : [ "live.toggle[26]", "live.toggle", 0 ],
+			"obj-8::obj-139" : [ "live.tab[55]", "live.tab[55]", 0 ],
+			"obj-72::obj-27::obj-121" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-231::obj-18" : [ "effectBirds[4]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-66" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-71" : [ "improv-menu[6]", "live.menu", 0 ],
+			"obj-231::obj-95" : [ "effectMod[4]", "live.tab", 0 ],
+			"obj-246::obj-230" : [ "effectAU[7]", "live.tab", 0 ],
+			"obj-72::obj-26" : [ "live.text[4]", "live.text", 0 ],
+			"obj-72::obj-27::obj-153" : [ "live.toggle[25]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-187" : [ "live.dial[14]", "yoffset", 0 ],
+			"obj-206::obj-3" : [ "live.tab[54]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-188" : [ "live.dial[15]", "xoffset", 0 ],
+			"obj-72::obj-27::obj-23" : [ "live.dial[7]", "divisions", 0 ],
+			"obj-233::obj-45" : [ "live.tab[90]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-77" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-153::obj-95" : [ "effectMod", "live.tab", 0 ],
+			"obj-72::obj-27::obj-16" : [ "live.dial[3]", "yoffset", 0 ],
+			"obj-245::obj-256" : [ "effectLPC[6]", "live.tab", 0 ],
+			"obj-108::obj-3" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-123" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-209" : [ "live.text[3]", "live.text", 0 ],
+			"obj-264" : [ "live.text[6]", "1", 2 ],
+			"obj-246::obj-220" : [ "effectCatart[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-70" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-5" : [ "live.menu", "live.menu", 0 ],
+			"obj-74" : [ "improv-menu[7]", "live.menu", 0 ],
+			"obj-247::obj-230" : [ "effectAU[8]", "live.tab", 0 ],
+			"obj-96" : [ "improv-menu[9]", "live.menu", 0 ],
+			"obj-14::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-244::obj-95" : [ "effectMod[5]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-24" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-245::obj-171" : [ "effectVST[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-199" : [ "live.text[1]", "live.text", 0 ],
+			"obj-244::obj-220" : [ "effectCatart[5]", "live.tab", 0 ],
+			"obj-245::obj-220" : [ "effectCatart[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-108" : [ "live.dial[9]", "speakers", 0 ],
+			"obj-245::obj-230" : [ "effectAU[6]", "live.tab", 0 ],
+			"obj-247::obj-220" : [ "effectCatart[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-46" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-153::obj-230" : [ "effectAU", "live.tab", 0 ],
+			"obj-245::obj-18" : [ "effectBirds[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-105" : [ "live.dial[8]", "listener", 0 ],
+			"obj-72::obj-27::obj-18" : [ "live.dial[4]", "zoom", 0 ],
+			"obj-72::obj-27::obj-43" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-153::obj-199" : [ "effectMunger", "live.tab", 0 ],
+			"obj-246::obj-256" : [ "effectLPC[7]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-182::obj-180" : [ "live.tab[45]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-40" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-246::obj-199" : [ "effectMunger[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-194" : [ "live.dial[18]", "angle", 0 ],
+			"obj-245::obj-199" : [ "effectMunger[6]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-193" : [ "live.dial[17]", "scale", 0 ],
+			"obj-72::obj-27::obj-72" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-36" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-106" : [ "improv-menu[12]", "live.menu", 0 ],
+			"obj-231::obj-220" : [ "effectCatart[4]", "live.tab", 0 ],
+			"obj-231::obj-171" : [ "effectVST[4]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-191" : [ "live.dial[16]", "opacity", 0 ],
+			"obj-81" : [ "improv-menu[8]", "live.menu", 0 ],
+			"obj-247::obj-256" : [ "effectLPC[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-160" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-102" : [ "improv-menu[10]", "live.menu", 0 ],
+			"obj-231::obj-230" : [ "effectAU[4]", "live.tab", 0 ],
+			"obj-246::obj-171" : [ "effectVST[7]", "live.tab", 0 ],
+			"obj-186::obj-95" : [ "effectMod[3]", "live.tab", 0 ],
+			"obj-186::obj-171" : [ "effectVST[3]", "live.tab", 0 ],
+			"obj-244::obj-199" : [ "effectMunger[5]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-109" : [ "live.dial[10]", "sources", 0 ],
+			"obj-72::obj-27::obj-52" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-186::obj-220" : [ "effectCatart[3]", "live.tab", 0 ],
+			"obj-246::obj-95" : [ "effectMod[7]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-148" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-22" : [ "live.dial[6]", "spacing", 0 ],
+			"obj-72::obj-27::obj-48" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-250::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-186::obj-230" : [ "effectAU[3]", "live.tab", 0 ],
+			"obj-244::obj-230" : [ "effectAU[5]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-20" : [ "live.dial[5]", "gridlines", 0 ],
+			"obj-153::obj-18" : [ "effectBirds", "live.tab", 0 ],
+			"obj-186::obj-18" : [ "effectBirds[3]", "live.tab", 0 ],
+			"obj-244::obj-256" : [ "effectLPC[5]", "live.tab", 0 ],
+			"obj-247::obj-18" : [ "effectBirds[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-132" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-153::obj-171" : [ "effectVST", "live.tab", 0 ],
+			"obj-231::obj-256" : [ "effectLPC[4]", "live.tab", 0 ],
+			"obj-13::obj-3" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-251::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-231::obj-199" : [ "effectMunger[4]", "live.tab", 0 ],
+			"obj-204::obj-3" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-75" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-268" : [ "live.text[5]", "1", 2 ],
+			"obj-72::obj-27::obj-33" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-104" : [ "improv-menu[11]", "live.menu", 0 ],
+			"obj-72::obj-27::obj-116" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-207" : [ "live.text[2]", "live.text", 0 ],
+			"obj-72::obj-27::obj-61" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-1" : [ "live.tab", "live.tab", 0 ],
+			"obj-244::obj-171" : [ "effectVST[5]", "live.tab", 0 ],
+			"obj-88::obj-229::obj-14::obj-180" : [ "live.tab[47]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-186" : [ "live.text", "live.text", 0 ],
+			"obj-16" : [ "improv-menu", "live.menu", 0 ],
+			"obj-185::obj-95" : [ "effectMod[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-111" : [ "live.dial[11]", "global", 0 ],
+			"obj-72::obj-27::obj-54" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-185::obj-171" : [ "effectVST[2]", "live.tab", 0 ],
+			"obj-186::obj-199" : [ "effectMunger[3]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-151" : [ "live.dial[13]", "left", 0 ],
+			"obj-185::obj-220" : [ "effectCatart[2]", "live.tab", 0 ],
+			"obj-185::obj-230" : [ "effectAU[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-134" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-153::obj-220" : [ "effectCatart", "live.tab", 0 ],
+			"obj-185::obj-18" : [ "effectBirds[2]", "live.tab", 0 ],
+			"obj-186::obj-256" : [ "effectLPC[3]", "live.tab", 0 ],
+			"obj-185::obj-256" : [ "effectLPC[2]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-56" : [ "live.toggle[27]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-81" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-185::obj-199" : [ "effectMunger[2]", "live.tab", 0 ],
+			"obj-245::obj-95" : [ "effectMod[6]", "live.tab", 0 ],
+			"obj-201::obj-3" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-282" : [ "live.text[7]", "1", 2 ],
+			"obj-72::obj-27::obj-10" : [ "live.dial[1]", "height", 0 ],
+			"obj-246::obj-18" : [ "effectBirds[7]", "live.tab", 0 ],
+			"obj-202::obj-3" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-118" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-247::obj-199" : [ "effectMunger[8]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-64" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-72::obj-27::obj-154" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-190" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-247::obj-95" : [ "effectMod[8]", "live.tab", 0 ],
+			"obj-56" : [ "improv-menu[5]", "live.menu", 0 ],
+			"obj-184::obj-95" : [ "effectMod[1]", "live.tab", 0 ],
+			"obj-72::obj-27::obj-150" : [ "live.dial[12]", "top", 0 ],
+			"obj-184::obj-171" : [ "effectVST[1]", "live.tab", 0 ],
+			"obj-184::obj-220" : [ "effectCatart[1]", "live.tab", 0 ],
+			"obj-244::obj-18" : [ "effectBirds[5]", "live.tab", 0 ],
+			"obj-184::obj-230" : [ "effectAU[1]", "live.tab", 0 ],
+			"obj-247::obj-171" : [ "effectVST[8]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -61652,10 +62028,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OMax4.Forum.xml",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/presets",
-				"patcherrelativepath" : "../presets",
-				"type" : "TEXT",
+				"name" : "Input.json",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Omax/Omax.nav/Omax.main",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

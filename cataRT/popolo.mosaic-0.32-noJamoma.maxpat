@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 0.0, 44.0, 373.0, 482.0 ],
+		"rect" : [ 0.0, 45.0, 373.0, 483.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 373.0, 482.0 ],
+		"defrect" : [ 0.0, 45.0, 373.0, 483.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,9 +41,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 0.0, 44.0, 103.0, 203.0 ],
+						"rect" : [ 1200.0, 525.0, 146.0, 207.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 0.0, 44.0, 103.0, 203.0 ],
+						"defrect" : [ 1200.0, 525.0, 146.0, 207.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -58,6 +58,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [  ],
@@ -96,8 +97,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 97.0, 19.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 497.0, 450.0, 0.0, 0.0 ]
+									"patching_rect" : [ 97.0, 19.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -120,8 +120,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 97.0, 376.0, 17.0, 17.0 ],
-									"presentation_rect" : [ 196.0, 445.0, 0.0, 0.0 ]
+									"patching_rect" : [ 97.0, 376.0, 17.0, 17.0 ]
 								}
 
 							}
@@ -153,15 +152,13 @@
 									"presentation_rect" : [ 46.0, 46.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
 											"parameter_speedlim" : 1.0,
 											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "",
 											"parameter_unitstyle" : 0,
+											"parameter_invisible" : 0,
 											"parameter_mmax" : 127.0,
+											"parameter_annotation_name" : "",
 											"parameter_mmin" : 0.0,
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 0,
@@ -172,7 +169,9 @@
 											"parameter_linknames" : 0,
 											"parameter_modmode" : 0,
 											"parameter_info" : "",
-											"parameter_units" : ""
+											"parameter_units" : "",
+											"parameter_order" : 0,
+											"parameter_defer" : 0
 										}
 
 									}
@@ -199,15 +198,13 @@
 									"presentation_rect" : [ 46.0, 11.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
 											"parameter_speedlim" : 1.0,
 											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "",
 											"parameter_unitstyle" : 0,
+											"parameter_invisible" : 0,
 											"parameter_mmax" : 127.0,
+											"parameter_annotation_name" : "",
 											"parameter_mmin" : 0.0,
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 0,
@@ -218,7 +215,9 @@
 											"parameter_linknames" : 0,
 											"parameter_modmode" : 0,
 											"parameter_info" : "",
-											"parameter_units" : ""
+											"parameter_units" : "",
+											"parameter_order" : 0,
+											"parameter_defer" : 0
 										}
 
 									}
@@ -245,15 +244,13 @@
 									"presentation_rect" : [ 47.0, 159.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
 											"parameter_speedlim" : 1.0,
 											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "",
 											"parameter_unitstyle" : 0,
+											"parameter_invisible" : 0,
 											"parameter_mmax" : 127.0,
+											"parameter_annotation_name" : "",
 											"parameter_mmin" : 0.0,
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 0,
@@ -264,7 +261,9 @@
 											"parameter_linknames" : 0,
 											"parameter_modmode" : 0,
 											"parameter_info" : "",
-											"parameter_units" : ""
+											"parameter_units" : "",
+											"parameter_order" : 0,
+											"parameter_defer" : 0
 										}
 
 									}
@@ -291,15 +290,13 @@
 									"presentation_rect" : [ 47.0, 124.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
 											"parameter_speedlim" : 1.0,
 											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "",
 											"parameter_unitstyle" : 0,
+											"parameter_invisible" : 0,
 											"parameter_mmax" : 127.0,
+											"parameter_annotation_name" : "",
 											"parameter_mmin" : 0.0,
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 0,
@@ -310,7 +307,9 @@
 											"parameter_linknames" : 0,
 											"parameter_modmode" : 0,
 											"parameter_info" : "",
-											"parameter_units" : ""
+											"parameter_units" : "",
+											"parameter_order" : 0,
+											"parameter_defer" : 0
 										}
 
 									}
@@ -337,15 +336,13 @@
 									"presentation_rect" : [ 47.0, 86.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
 											"parameter_speedlim" : 1.0,
 											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "",
 											"parameter_unitstyle" : 0,
+											"parameter_invisible" : 0,
 											"parameter_mmax" : 127.0,
+											"parameter_annotation_name" : "",
 											"parameter_mmin" : 0.0,
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 0,
@@ -356,7 +353,9 @@
 											"parameter_linknames" : 0,
 											"parameter_modmode" : 0,
 											"parameter_info" : "",
-											"parameter_units" : ""
+											"parameter_units" : "",
+											"parameter_order" : 0,
+											"parameter_defer" : 0
 										}
 
 									}
@@ -943,15 +942,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 317.0, 798.0, 44.0, 20.0 ],
+					"patching_rect" : [ 315.0, 880.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p verb"
@@ -1609,13 +1608,13 @@
 ,
 					"patching_rect" : [ 868.0, 263.0, 80.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p pattr priority"
@@ -1640,9 +1639,9 @@
 					"patching_rect" : [ 867.0, 288.0, 189.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"storage_rect" : [ 891, 44, 1341, 1130 ],
-						"parameter_enable" : 0,
 						"paraminitmode" : 0,
-						"client_rect" : [ 901, 44, 1711, 1200 ]
+						"client_rect" : [ 901, 44, 1711, 1200 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage catart.lcd @flat 1 @savemode 0",
@@ -1870,7 +1869,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 107.0, 114.0, 50.0, 19.0 ],
-									"text" : "0 15"
+									"text" : "17 22"
 								}
 
 							}
@@ -2459,13 +2458,13 @@
 ,
 									"patching_rect" : [ 8.0, 183.0, 92.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 9.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 9.0
+										"default_fontsize" : 9.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 9.0
 									}
 ,
 									"text" : "p lookup-descriptors"
@@ -2496,7 +2495,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 95.0, 152.0, 195.0, 15.0 ],
-									"text" : "set-descriptors 0 15"
+									"text" : "set-descriptors 17 22"
 								}
 
 							}
@@ -2929,13 +2928,13 @@
 ,
 					"patching_rect" : [ 603.0, 495.0, 128.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adapt-cataRT targtutcorpus"
@@ -3269,13 +3268,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 46.0, 49.0, 72.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p remoteZL"
@@ -3290,13 +3289,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 319.0, 33.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p IO"
@@ -3354,9 +3353,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 381.0, 44.0, 131.0, 715.0 ],
+						"rect" : [ 381.0, 45.0, 126.0, 791.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 381.0, 44.0, 131.0, 715.0 ],
+						"defrect" : [ 381.0, 45.0, 126.0, 791.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 13.0,
@@ -3441,11 +3440,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 556.0, 99.0, 111.0, 17.0 ],
 									"restore" : 									{
-										"SoundSetMatrix" : [ 0, 0, 0 ]
+										"SoundSetMatrix" : [ 0, 3, 1, 0, 5, 1, 0, 6, 1, 0, 8, 1, 0, 19, 1, 0, 28, 1, 0, 29, 1, 0, 31, 1, 0, 32, 1, 0, 33, 1, 0, 34, 1, 0, 35, 1, 0, 36, 1, 0, 37, 1, 0, 38, 1, 0, 47, 1 ]
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u303031599"
+									"varname" : "u747020957"
 								}
 
 							}
@@ -4043,13 +4042,13 @@
 ,
 									"patching_rect" : [ 204.0, 20.0, 89.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p soundfiile-menu"
@@ -4061,7 +4060,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-101",
-									"items" : "<empty>",
+									"items" : [ "09 Bamboo Is.L (Snippet).wav", ",", "122 Peruano Cuchara.wav", ",", "slow-fireMetal-crackle (Snippet).wav", ",", "clock - tic toc - small windUp clock.aiff", ",", "clock - tic toc -wound up.aiff", ",", "clock - tic toc.1.aiff", ",", "clock - tic toc.2 fast thin.aiff", ",", "clock - tic toc.3 slow .aiff", ",", "clock - tic toc.4 -medium.aiff", ",", "clock - tic toc.5.aiff", ",", "clock - tic toc.aiff", ",", "pizzi - monoFile.aif", ",", "pizzi 1.1.aif", ",", "pizzi 1.2.aif", ",", "pizzi 2.1.aif", ",", "pizzi 2.2.aif", ",", "110705_00.WAV", ",", "110705_09-pitchDelay-creaking.wav", ",", "110705_09-pitchDelay-insects.wav", ",", "110705_09.WAV", ",", "cool beaty twit.wav", ",", "1-07 Hugh LeCaine_ Dripsody(Snippet).wav", ",", "drip.wav", ",", "Water Drops Single.wav", ",", "reverse-egg-pentatone.aif", ",", "snibits.aif", ",", "click1.aif_norm.aif", ",", "click10.aif_norm.aif", ",", "click11.aif_norm.aif", ",", "click12.aif_norm.aif", ",", "click13.aif_norm.aif", ",", "click14.aif_norm.aif", ",", "click15.aif_norm.aif", ",", "click16.aif_norm.aif", ",", "click17.aif_norm.aif", ",", "click18.aif_norm.aif", ",", "click19.aif_norm.aif", ",", "click2.aif_norm.aif", ",", "click20.aif_norm.aif", ",", "click21.aif_norm.aif", ",", "click22.aif_norm.aif", ",", "click23.aif_norm.aif", ",", "click3.aif_norm.aif", ",", "click4.aif_norm.aif", ",", "click5.aif_norm.aif", ",", "click6.aif_norm.aif", ",", "click7.aif_norm.aif", ",", "click8.aif_norm.aif", ",", "click9.aif_norm.aif", ",", "maxclick1.aif_norm.aif", ",", "maxclick10.aif_norm.aif", ",", "maxclick11.aif_norm.aif", ",", "maxclick12.aif_norm.aif", ",", "maxclick13.aif_norm.aif", ",", "maxclick14.aif_norm.aif", ",", "maxclick15.aif_norm.aif", ",", "maxclick16.aif_norm.aif", ",", "maxclick17.aif_norm.aif", ",", "maxclick18.aif_norm.aif", ",", "maxclick19.aif_norm.aif", ",", "maxclick2.aif_norm.aif", ",", "maxclick20.aif_norm.aif", ",", "maxclick3.aif_norm.aif", ",", "maxclick4.aif_norm.aif", ",", "maxclick5.aif_norm.aif", ",", "maxclick6.aif_norm.aif", ",", "maxclick7.aif_norm.aif", ",", "maxclick8.aif_norm.aif", ",", "maxclick9.aif_norm.aif", ",", "mc1_swp1.aif", ",", "mc1_swp2.aif", ",", "mc1_swp3vsubtle.aif", ",", "mc1_swp3vsubtle10.aif", ",", "mc1_swp3vsubtle11.aif", ",", "mc1_swp3vsubtle12.aif", ",", "mc1_swp3vsubtle13.aif", ",", "mc1_swp3vsubtle14.aif", ",", "mc1_swp3vsubtle15.aif", ",", "mc1_swp3vsubtle16.aif", ",", "mc1_swp3vsubtle17.aif", ",", "mc1_swp3vsubtle18.aif", ",", "mc1_swp3vsubtle19.aif", ",", "mc1_swp3vsubtle2.aif", ",", "mc1_swp3vsubtle20.aif", ",", "mc1_swp3vsubtle21.aif", ",", "mc1_swp3vsubtle22.aif", ",", "mc1_swp3vsubtle23.aif", ",", "mc1_swp3vsubtle24.aif", ",", "mc1_swp3vsubtle24inv1.aif", ",", "mc1_swp3vsubtle24inv2.aif", ",", "mc1_swp3vsubtle24inv3.aif", ",", "mc1_swp3vsubtle24inv3trhs1.aif", ",", "mc1_swp3vsubtle3.aif", ",", "mc1_swp3vsubtle4.aif", ",", "mc1_swp3vsubtle5.aif", ",", "mc1_swp3vsubtle6.aif", ",", "mc1_swp3vsubtle7.aif", ",", "mc1_swp3vsubtle8.aif", ",", "mc1_swp3vsubtle9.aif", ",", "mc1_swpinvthr_fltr1.aif", ",", "mc1_swpinvthr_fltr1_swp2.aif", ",", "track 2#1.aif", ",", "track 2#10.aif", ",", "track 2#11.aif", ",", "track 2#12.aif", ",", "track 2#13.aif", ",", "track 2#2.aif", ",", "track 2#3.aif", ",", "track 2#4.aif", ",", "track 2#5.aif", ",", "track 2#6.aif", ",", "track 2#7.aif", ",", "track 2#8.aif", ",", "track 2#9.aif", ",", "track 2.aif", ",", "track 5#1.aif", ",", "track 5#10.aif", ",", "track 5#11.aif", ",", "track 5#12.aif", ",", "track 5#13.aif", ",", "track 5#14.aif", ",", "track 5#15.aif", ",", "track 5#16.aif", ",", "track 5#17.aif", ",", "track 5#18.aif", ",", "track 5#19.aif", ",", "track 5#2.aif", ",", "track 5#20.aif", ",", "track 5#21.aif", ",", "track 5#22.aif", ",", "track 5#3.aif", ",", "track 5#4.aif", ",", "track 5#5.aif", ",", "track 5#6.aif", ",", "track 5#7.aif", ",", "track 5#8.aif", ",", "track 5#9.aif", ",", "track 5.aif", ",", "track1#1.aif", ",", "track1#10.aif", ",", "track1#11.aif", ",", "track1#12.aif", ",", "track1#2.aif", ",", "track1#3.aif", ",", "track1#4.aif", ",", "track1#5.aif", ",", "track1#6.aif", ",", "track1#7.aif", ",", "track1#8.aif", ",", "track1#9.aif", ",", "track1.aif", ",", "track2.aif", ",", "track3#1.aif", ",", "track3#10.aif", ",", "track3#11.aif", ",", "track3#12.aif", ",", "track3#13.aif", ",", "track3#14.aif", ",", "track3#15.aif", ",", "track3#16.aif", ",", "track3#2.aif", ",", "track3#3.aif", ",", "track3#4.aif", ",", "track3#5.aif", ",", "track3#6.aif", ",", "track3#7.aif", ",", "track3#8.aif", ",", "track3#9.aif", ",", "track3.aif", ",", "track4#1.aif", ",", "track4#10.aif", ",", "track4#11.aif", ",", "track4#12.aif", ",", "track4#13.aif", ",", "track4#14.aif", ",", "track4#15.aif", ",", "track4#16.aif", ",", "track4#17.aif", ",", "track4#18.aif", ",", "track4#19.aif", ",", "track4#2.aif", ",", "track4#20.aif", ",", "track4#21.aif", ",", "track4#22.aif", ",", "track4#23.aif", ",", "track4#24.aif", ",", "track4#25.aif", ",", "track4#26.aif", ",", "track4#27.aif", ",", "track4#28.aif", ",", "track4#29.aif", ",", "track4#3.aif", ",", "track4#30.aif", ",", "track4#4.aif", ",", "track4#5.aif", ",", "track4#6.aif", ",", "track4#7.aif", ",", "track4#8.aif", ",", "track4#9.aif", ",", "track4.aif", ",", "kzLoop.wav", ",", "Kick.aif", ",", "Kick02.aif", ",", "3spread-text01(long).aif", ",", "microplay-g2-bass-resnoise(harsh-highs).aif", ",", "microplay-g2-basscycle(uglyDC).aif", ",", "microplay-g2-runtime_convol.aif", ",", "microplay-g2-text01(long).aif", ",", "glitch-fun.aif", ",", "glitch-wowfun.aif", ",", "perf_mono.aifRegion 1.aif", ",", "perf_mono.aifRegion 2.aif", ",", "perf_mono.aifRegion 3.aif", ",", "perf_mono.aifRegion 4.aif", ",", "perf_mono.aifRegion 5.aif", ",", "perf_mono.aifRegion 6.aif", ",", "perf_mono2.aifRegion 1.aif", ",", "perf_mono2.aifRegion 2.aif", ",", "perf_mono2.aifRegion 3.aif", ",", "perf_mono2.aifRegion 4.aif", ",", "perf_mono2.aifRegion 5.aif", ",", "perf_mono3.aifRegion 1.aif", ",", "perf_mono3.aifRegion 2.aif", ",", "perf_mono3.aifRegion 3.aif", ",", "microplay-bassthump_glitch01.aif", ",", "microplay-bassthump_glitch02.aif", ",", "microplay-bassthump_glitch03.aif", ",", "microplay-clicks_warm01.aif", ",", "microplay-low-sr-pulse04.aif", ",", "microplay-pulse(slower).aif", ",", "microplay-tonepulse02.aif", ",", "microplay_thump_flutter01.aif", ",", "mono-vc3xvc4-cep.aiff", ",", "grainyMetal-OPCH.aif", ",", "rollingGlass.aif", ",", "bongosAndToms.aif", ",", "Congas06.aif", ",", "invertedSaladBowls-inWater.aif", ",", "Tube-flipFlop.aif", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Vc-pizz-lv-A#2-pp-3c.aif", ",", "Vc-pizz-lv-A3-mf-2c.aif", ",", "Vc-pizz-lv-B3-pp-1c.aif", ",", "Vc-pizz-lv-C#5-ff-1c.aif", ",", "Vc-pizz-lv-D#2-mf-4c.aif", ",", "Vc-pizz-lv-D3-ff-2c.aif", ",", "Vc-pizz-sec-A#2-pp-3c.aif", ",", "Vc-pizz-sec-A#4-ff-1c.aif", ",", "Vc-pizz-sec-A3-mf-2c.aif", ",", "Vc-pizz-sec-A4-pp-1c.aif", ",", "Vc-pizz-sec-C#2-ff-4c.aif", ",", "Vc-pizz-sec-C#5-mf-1c.aif", ",", "Vc-pizz-sec-C4-ff-1c.aif", ",", "Vc-pizz-sec-D#3-ff-2c.aif", ",", "Vc-pizz-sec-D#4-mf-1c.aif", ",", "Vc-pizz-sec-D3-mf-2c.aif", ",", "Vc-pizz-sec-D5-pp-1c.aif", ",", "Vc-pizz-sec-E4-mf-1c.aif", ",", "Vc-pizz-sec-F#3-ff-2c.aif", ",", "Vc-pizz-sec-F2-ff-4c.aif", ",", "Vc-pizz-sec-G#2-ff-3c.aif", ",", "Vc-pizz-sec-G#4-mf-1c.aif", ",", "Vc-pizz-sec-G3-mf-2c.aif", ",", "Vn-pizz-bartok-A3-ff-4c.aif", ",", "Vn-pizz-bartok-C#5-ff-2c.aif", ",", "Vn-pizz-bartok-D#5-ff-3c.aif", ",", "Vn-pizz-bartok-F#4-ff-3c.aif", ",", "Vn-pizz-bartok-G4-ff-3c.aif", ",", "Vn-pizz-lv-A#4-mf-3c.aif", ",", "Vn-pizz-lv-A#6-mf-1c.aif", ",", "Vn-pizz-lv-A4-pp-3c.aif", ",", "Vn-pizz-lv-B5-ff-2c.aif", ",", "Vn-pizz-lv-C4-mf-4c.aif", ",", "Vn-pizz-lv-C7-ff-1c.aif", ",", "Vn-pizz-lv-D4-mf-3c.aif", ",", "Vn-pizz-lv-E5-ff-3c.aif", ",", "Vn-pizz-lv-F#5-ff-1c.aif", ",", "Vn-pizz-lv-F5-ff-1c.aif", ",", "Vn-pizz-lv-G#4-pp-3c.aif", ",", "Vn-pizz-lv-G3-pp-4c.aif", ",", "Vn-pizz-lv-G6-ff-1c.aif", ",", "improvisedVoice.aif", ",", "Amelia1.aif", ",", "136 Techno Kick 01.wav", ",", "136 Techno Kick Roll.wav", ",", "138 Dance Kick.wav", ",", "138 Techno Kick Roll.wav", ",", "138 Techno Kick.wav", ",", "142 Techno Kick 00.wav", ",", "146 Techno Kick 01.wav", ",", "146 Techno Kick 02.wav", ",", "152 Techno Kick 02.wav", ",", "164 Techno Reverse Kick.wav", ",", "Kick.aif", ",", "Kick02.aif", ",", "tabla-voice  (Snippet).wav", ",", "Andre_Roy (Snippet).wav", ",", "Benat01.mono (Snippet).wav", ",", "Benat05.mono (Snippet).wav", ",", "BenatText2-text.mono (Snippet).wav", ",", "BH1.1.110206-002 (Snippet).wav", ",", "David_McGimpsey (Snippet) 2.wav", ",", "David_McGimpsey (Snippet).wav", ",", "H5.1.110204-005 (Snippet) 2.wav", ",", "H5.1.110204-005 (Snippet).wav", ",", "jason -angles (Snippet).wav", ",", "Kat (Snippet).wav", ",", "R8.1.110205-004 (Snippet).wav", ",", "Sep09 minimal voice Picked (Snippet).wav", ",", "sina - from slip 3.3 (Snippet).wav", ",", "Sina_Queyras.aif.aifc (Snippet).wav", ",", "Stephanie_Bolster.aif.aifc (Snippet).wav", ",", "Air Samba drone1 (Snippet) 2.wav", ",", "air samba drone2-DQ (Snippet).wav", ",", "gas-breath (Snippet) 2.wav", ",", "gas-breath (Snippet) 3.wav", ",", "gas101 (Snippet).wav", ",", "gas102 (Snippet).wav", ",", "MicHumFade (Snippet) 2.wav", ",", "voice-spectrlAvrg-2014 (Snippet).wav", ",", "wam-swell-GAIN_02 (Snippet).wav", ",", "wam-swell-mid-GAIN_04 (Snippet).wav", ",", "Frogs at Night (Snippet).wav", ",", "theAttackisOn (Snippet).wav", ",", "Chimpanzee Calls.aif", ",", "Forest.aif", ",", "Jungle.aif", ",", "Loon Calls.aif", ",", "Seagulls.aif", ",", "toney-sigh-slice-edited.aif", ",", "smokedSignals.aif", ",", "musiBox.aif", ",", "Bn-key-cl-A#1-mf.aif", ",", "Bn-key-cl-A#2-mf.aif", ",", "Bn-key-cl-A2-mf.aif", ",", "Bn-key-cl-B2-mf.aif", ",", "Bn-key-cl-C#2-mf.aif", ",", "Bn-key-cl-C#3-mf.aif", ",", "Bn-key-cl-C2-mf.aif", ",", "Bn-key-cl-C3-mf.aif", ",", "Bn-key-cl-D#2-mf.aif", ",", "Bn-key-cl-D#3-mf.aif", ",", "Bn-key-cl-D2-mf.aif", ",", "Bn-key-cl-D3-mf.aif", ",", "Bn-key-cl-E2-mf.aif", ",", "Bn-key-cl-E3-mf.aif", ",", "Bn-key-cl-F#2-mf.aif", ",", "Bn-key-cl-F2-mf.aif", ",", "Bn-key-cl-F3-mf.aif", ",", "Bn-key-cl-G#2-mf.aif", ",", "Bn-key-cl-G2-mf.aif", ",", "ClBb-key-cl-A#3-pp.aif", ",", "ClBb-key-cl-A3-pp.aif", ",", "ClBb-key-cl-A4-pp.aif", ",", "ClBb-key-cl-B3-pp.aif", ",", "ClBb-key-cl-C#4-pp.aif", ",", "ClBb-key-cl-C4-pp.aif", ",", "ClBb-key-cl-D#3-pp.aif", ",", "ClBb-key-cl-D#4-pp.aif", ",", "ClBb-key-cl-D3-pp.aif", ",", "ClBb-key-cl-D4-pp.aif", ",", "ClBb-key-cl-E3-pp.aif", ",", "ClBb-key-cl-E4-pp.aif", ",", "ClBb-key-cl-F#3-pp.aif", ",", "ClBb-key-cl-F#4-pp.aif", ",", "ClBb-key-cl-F3-pp.aif", ",", "ClBb-key-cl-F4-pp.aif", ",", "ClBb-key-cl-G#3-pp.aif", ",", "ClBb-key-cl-G#4-pp.aif", ",", "ClBb-key-cl-G3-pp.aif", ",", "ClBb-key-cl-G4-pp.aif", ",", "ClBb-stacc-A#3-mf.aif", ",", "ClBb-stacc-A#4-mf.aif", ",", "ClBb-stacc-A#5-mf.aif", ",", "ClBb-stacc-A#6-mf.aif", ",", "ClBb-stacc-D3-mf.aif", ",", "ClBb-stacc-D4-mf.aif", ",", "ClBb-stacc-D5-mf.aif", ",", "ClBb-stacc-D6-mf.aif", ",", "ClBb-stacc-F#3-mf.aif", ",", "ClBb-stacc-F#4-mf.aif", ",", "ClBb-stacc-F#5-mf.aif", ",", "ClBb-stacc-F#6-mf.aif", ",", "Fl-key-cl-A#4-f.aif", ",", "Fl-key-cl-A4-f.aif", ",", "Fl-key-cl-B3-f.aif", ",", "Fl-key-cl-B4-f.aif", ",", "Fl-key-cl-C#4-f.aif", ",", "Fl-key-cl-C#5-f.aif", ",", "Fl-key-cl-C4-f.aif", ",", "Fl-key-cl-C5-f.aif", ",", "Fl-key-cl-D#4-f.aif", ",", "Fl-key-cl-D4-f.aif", ",", "Fl-key-cl-E4-f.aif", ",", "Fl-key-cl-F#4-f.aif", ",", "Fl-key-cl-F4-f.aif", ",", "Fl-key-cl-G#4-f.aif", ",", "Fl-key-cl-G4-f.aif", ",", "Fl-pizz-A#4-f.aif", ",", "Fl-pizz-A4-f.aif", ",", "Fl-pizz-B3-f.aif", ",", "Fl-pizz-B4-f.aif", ",", "Fl-pizz-C#4-f.aif", ",", "Fl-pizz-C#5-f.aif", ",", "Fl-pizz-C4-f.aif", ",", "Fl-pizz-C5-f.aif", ",", "Fl-pizz-D#4-f.aif", ",", "Fl-pizz-D#5-f.aif", ",", "Fl-pizz-D4-f.aif", ",", "Fl-pizz-D5-f.aif", ",", "Fl-pizz-E4-f.aif", ",", "Fl-pizz-E5-f.aif", ",", "Fl-pizz-F#4-f.aif", ",", "Fl-pizz-F#5-f.aif", ",", "Fl-pizz-F4-f.aif", ",", "Fl-pizz-F5-f.aif", ",", "Fl-pizz-G#4-f.aif", ",", "Fl-pizz-G4-f.aif", ",", "Hn-stacc-B1-mf.aif", ",", "Hn-stacc-B2-mf.aif", ",", "Hn-stacc-B3-mf.aif", ",", "Hn-stacc-B4-mf.aif", ",", "Hn-stacc-D#2-mf.aif", ",", "Hn-stacc-D#3-mf.aif", ",", "Hn-stacc-D#4-mf.aif", ",", "Hn-stacc-D#5-mf.aif", ",", "Hn-stacc-G2-mf.aif", ",", "Hn-stacc-G3-mf.aif", ",", "Hn-stacc-G4-mf.aif", ",", "Ob-key-cl-A#3-pp.aif", ",", "Ob-key-cl-B3-pp.aif", ",", "Ob-key-cl-C#4-pp.aif", ",", "Ob-key-cl-C4-pp.aif", ",", "Ob-key-cl-D#4-pp.aif", ",", "Ob-key-cl-D4-pp.aif", ",", "Ob-key-cl-E4-pp.aif", ",", "Ob-key-cl-F#4-pp.aif", ",", "Ob-key-cl-F4-pp.aif", ",", "Ob-stacc-B3-mf.aif", ",", "Ob-stacc-B4-mf.aif", ",", "Ob-stacc-B5-mf.aif", ",", "Ob-stacc-D#4-mf.aif", ",", "Ob-stacc-D#5-mf.aif", ",", "Ob-stacc-D#6-mf.aif", ",", "Ob-stacc-G4-mf.aif", ",", "Ob-stacc-G5-mf.aif", ",", "Ob-stacc-G6-mf.aif", ",", "Cb-pizz-A#1-ff-1c.wav", ",", "Cb-pizz-A#1-ff-2c.wav", ",", "Cb-pizz-A#1-mf-1c.wav", ",", "Cb-pizz-A#1-mf-2c.wav", ",", "Cb-pizz-A#1-pp-1c.wav", ",", "Cb-pizz-A#1-pp-2c.wav", ",", "Cb-pizz-A#2-ff-1c.wav", ",", "Cb-pizz-A#2-ff-2c.wav", ",", "Cb-pizz-A#2-ff-3c.wav", ",", "Cb-pizz-A#2-ff-4c.wav", ",", "Cb-pizz-A#2-mf-1c.wav", ",", "Cb-pizz-A#2-mf-2c.wav", ",", "Cb-pizz-A#2-mf-3c.wav", ",", "Cb-pizz-A#2-mf-4c.wav", ",", "Cb-pizz-A#2-pp-1c.wav", ",", "Cb-pizz-A#2-pp-2c.wav", ",", "Cb-pizz-A#2-pp-3c.wav", ",", "Cb-pizz-A#2-pp-4c.wav", ",", "Cb-pizz-A#3-ff-3c.wav", ",", "Cb-pizz-A#3-ff-4c.wav", ",", "Cb-pizz-A#3-mf-3c.wav", ",", "Cb-pizz-A#3-mf-4c.wav", ",", "Cb-pizz-A#3-pp-3c.wav", ",", "Cb-pizz-A#3-pp-4c.wav", ",", "Cb-pizz-A1-ff-1c.wav", ",", "Cb-pizz-A1-ff-2c.wav", ",", "Cb-pizz-A1-mf-1c.wav", ",", "Cb-pizz-A1-mf-2c.wav", ",", "Cb-pizz-A1-pp-1c.wav", ",", "Cb-pizz-A1-pp-2c.wav", ",", "Cb-pizz-A2-ff-1c.wav", ",", "Cb-pizz-A2-ff-2c.wav", ",", "Cb-pizz-A2-ff-3c.wav", ",", "Cb-pizz-A2-ff-4c.wav", ",", "Cb-pizz-A2-mf-1c.wav", ",", "Cb-pizz-A2-mf-2c.wav", ",", "Cb-pizz-A2-mf-3c.wav", ",", "Cb-pizz-A2-mf-4c.wav", ",", "Cb-pizz-A2-pp-1c.wav", ",", "Cb-pizz-A2-pp-2c.wav", ",", "Cb-pizz-A2-pp-3c.wav", ",", "Cb-pizz-A2-pp-4c.wav", ",", "Cb-pizz-A3-ff-2c.wav", ",", "Cb-pizz-A3-ff-3c.wav", ",", "Cb-pizz-A3-ff-4c.wav", ",", "Cb-pizz-A3-mf-2c.wav", ",", "Cb-pizz-A3-mf-3c.wav", ",", "Cb-pizz-A3-mf-4c.wav", ",", "Cb-pizz-A3-pp-2c.wav", ",", "Cb-pizz-A3-pp-3c.wav", ",", "Cb-pizz-A3-pp-4c.wav", ",", "Cb-pizz-B1-ff-1c.wav", ",", "Cb-pizz-B1-ff-2c.wav", ",", "Cb-pizz-B1-mf-1c.wav", ",", "Cb-pizz-B1-mf-2c.wav", ",", "Cb-pizz-B1-pp-1c.wav", ",", "Cb-pizz-B1-pp-2c.wav", ",", "Cb-pizz-B2-ff-1c.wav", ",", "Cb-pizz-B2-ff-2c.wav", ",", "Cb-pizz-B2-ff-3c.wav", ",", "Cb-pizz-B2-ff-4c.wav", ",", "Cb-pizz-B2-mf-1c.wav", ",", "Cb-pizz-B2-mf-2c.wav", ",", "Cb-pizz-B2-mf-3c.wav", ",", "Cb-pizz-B2-mf-4c.wav", ",", "Cb-pizz-B2-pp-1c.wav", ",", "Cb-pizz-B2-pp-2c.wav", ",", "Cb-pizz-B2-pp-3c.wav", ",", "Cb-pizz-B2-pp-4c.wav", ",", "Cb-pizz-B3-ff-3c.wav", ",", "Cb-pizz-B3-ff-4c.wav", ",", "Cb-pizz-B3-mf-3c.wav", ",", "Cb-pizz-B3-mf-4c.wav", ",", "Cb-pizz-B3-pp-3c.wav", ",", "Cb-pizz-B3-pp-4c.wav", ",", "Cb-pizz-C#2-ff-1c.wav", ",", "Cb-pizz-C#2-ff-2c.wav", ",", "Cb-pizz-C#2-mf-1c.wav", ",", "Cb-pizz-C#2-mf-2c.wav", ",", "Cb-pizz-C#2-pp-1c.wav", ",", "Cb-pizz-C#2-pp-2c.wav", ",", "Cb-pizz-C#3-ff-1c.wav", ",", "Cb-pizz-C#3-ff-2c.wav", ",", "Cb-pizz-C#3-ff-3c.wav", ",", "Cb-pizz-C#3-ff-4c.wav", ",", "Cb-pizz-C#3-mf-1c.wav", ",", "Cb-pizz-C#3-mf-2c.wav", ",", "Cb-pizz-C#3-mf-3c.wav", ",", "Cb-pizz-C#3-mf-4c.wav", ",", "Cb-pizz-C#3-pp-1c.wav", ",", "Cb-pizz-C#3-pp-2c.wav", ",", "Cb-pizz-C#3-pp-3c.wav", ",", "Cb-pizz-C#3-pp-4c.wav", ",", "Cb-pizz-C#4-ff-3c.wav", ",", "Cb-pizz-C#4-ff-4c.wav", ",", "Cb-pizz-C#4-mf-3c.wav", ",", "Cb-pizz-C#4-mf-4c.wav", ",", "Cb-pizz-C#4-pp-3c.wav", ",", "Cb-pizz-C#4-pp-4c.wav", ",", "Cb-pizz-C2-ff-1c.wav", ",", "Cb-pizz-C2-ff-2c.wav", ",", "Cb-pizz-C2-mf-1c.wav", ",", "Cb-pizz-C2-mf-2c.wav", ",", "Cb-pizz-C2-pp-1c.wav", ",", "Cb-pizz-C2-pp-2c.wav", ",", "Cb-pizz-C3-ff-1c.wav", ",", "Cb-pizz-C3-ff-2c.wav", ",", "Cb-pizz-C3-ff-3c.wav", ",", "Cb-pizz-C3-ff-4c.wav", ",", "Cb-pizz-C3-mf-1c.wav", ",", "Cb-pizz-C3-mf-2c.wav", ",", "Cb-pizz-C3-mf-3c.wav", ",", "Cb-pizz-C3-mf-4c.wav", ",", "Cb-pizz-C3-pp-1c.wav", ",", "Cb-pizz-C3-pp-2c.wav", ",", "Cb-pizz-C3-pp-3c.wav", ",", "Cb-pizz-C3-pp-4c.wav", ",", "Cb-pizz-C4-ff-3c.wav", ",", "Cb-pizz-C4-ff-4c.wav", ",", "Cb-pizz-C4-mf-3c.wav", ",", "Cb-pizz-C4-mf-4c.wav", ",", "Cb-pizz-C4-pp-3c.wav", ",", "Cb-pizz-C4-pp-4c.wav", ",", "Cb-pizz-D#2-ff-1c.wav", ",", "Cb-pizz-D#2-ff-2c.wav", ",", "Cb-pizz-D#2-ff-3c.wav", ",", "Cb-pizz-D#2-mf-1c.wav", ",", "Cb-pizz-D#2-mf-2c.wav", ",", "Cb-pizz-D#2-mf-3c.wav", ",", "Cb-pizz-D#2-pp-1c.wav", ",", "Cb-pizz-D#2-pp-2c.wav", ",", "Cb-pizz-D#2-pp-3c.wav", ",", "Cb-pizz-D#3-ff-1c.wav", ",", "Cb-pizz-D#3-ff-2c.wav", ",", "Cb-pizz-D#3-ff-3c.wav", ",", "Cb-pizz-D#3-ff-4c.wav", ",", "Cb-pizz-D#3-mf-1c.wav", ",", "Cb-pizz-D#3-mf-2c.wav", ",", "Cb-pizz-D#3-mf-3c.wav", ",", "Cb-pizz-D#3-mf-4c.wav", ",", "Cb-pizz-D#3-pp-1c.wav", ",", "Cb-pizz-D#3-pp-2c.wav", ",", "Cb-pizz-D#3-pp-3c.wav", ",", "Cb-pizz-D#3-pp-4c.wav", ",", "Cb-pizz-D#4-ff-4c.wav", ",", "Cb-pizz-D#4-mf-4c.wav", ",", "Cb-pizz-D#4-pp-4c.wav", ",", "Cb-pizz-D2-ff-1c.wav", ",", "Cb-pizz-D2-ff-2c.wav", ",", "Cb-pizz-D2-ff-3c.wav", ",", "Cb-pizz-D2-mf-1c.wav", ",", "Cb-pizz-D2-mf-2c.wav", ",", "Cb-pizz-D2-mf-3c.wav", ",", "Cb-pizz-D2-pp-1c.wav", ",", "Cb-pizz-D2-pp-2c.wav", ",", "Cb-pizz-D2-pp-3c.wav", ",", "Cb-pizz-D3-ff-1c.wav", ",", "Cb-pizz-D3-ff-2c.wav", ",", "Cb-pizz-D3-ff-3c.wav", ",", "Cb-pizz-D3-ff-4c.wav", ",", "Cb-pizz-D3-mf-1c.wav", ",", "Cb-pizz-D3-mf-2c.wav", ",", "Cb-pizz-D3-mf-3c.wav", ",", "Cb-pizz-D3-mf-4c.wav", ",", "Cb-pizz-D3-pp-1c.wav", ",", "Cb-pizz-D3-pp-2c.wav", ",", "Cb-pizz-D3-pp-3c.wav", ",", "Cb-pizz-D3-pp-4c.wav", ",", "Cb-pizz-D4-ff-3c.wav", ",", "Cb-pizz-D4-ff-4c.wav", ",", "Cb-pizz-D4-mf-3c.wav", ",", "Cb-pizz-D4-mf-4c.wav", ",", "Cb-pizz-D4-pp-3c.wav", ",", "Cb-pizz-D4-pp-4c.wav", ",", "Cb-pizz-E1-ff-1c.wav", ",", "Cb-pizz-E1-mf-1c.wav", ",", "Cb-pizz-E1-pp-1c.wav", ",", "Cb-pizz-E2-ff-1c.wav", ",", "Cb-pizz-E2-ff-2c.wav", ",", "Cb-pizz-E2-ff-3c.wav", ",", "Cb-pizz-E2-mf-1c.wav", ",", "Cb-pizz-E2-mf-2c.wav", ",", "Cb-pizz-E2-mf-3c.wav", ",", "Cb-pizz-E2-pp-1c.wav", ",", "Cb-pizz-E2-pp-2c.wav", ",", "Cb-pizz-E2-pp-3c.wav", ",", "Cb-pizz-E3-ff-1c.wav", ",", "Cb-pizz-E3-ff-2c.wav", ",", "Cb-pizz-E3-ff-3c.wav", ",", "Cb-pizz-E3-ff-4c.wav", ",", "Cb-pizz-E3-mf-1c.wav", ",", "Cb-pizz-E3-mf-2c.wav", ",", "Cb-pizz-E3-mf-3c.wav", ",", "Cb-pizz-E3-mf-4c.wav", ",", "Cb-pizz-E3-pp-1c.wav", ",", "Cb-pizz-E3-pp-2c.wav", ",", "Cb-pizz-E3-pp-3c.wav", ",", "Cb-pizz-E3-pp-4c.wav", ",", "Cb-pizz-E4-ff-4c.wav", ",", "Cb-pizz-E4-mf-4c.wav", ",", "Cb-pizz-E4-pp-4c.wav", ",", "Cb-pizz-F#1-ff-1c.wav", ",", "Cb-pizz-F#1-mf-1c.wav", ",", "Cb-pizz-F#1-pp-1c.wav", ",", "Cb-pizz-F#2-ff-1c.wav", ",", "Cb-pizz-F#2-ff-2c.wav", ",", "Cb-pizz-F#2-ff-3c.wav", ",", "Cb-pizz-F#2-mf-1c.wav", ",", "Cb-pizz-F#2-mf-2c.wav", ",", "Cb-pizz-F#2-mf-3c.wav", ",", "Cb-pizz-F#2-pp-1c.wav", ",", "Cb-pizz-F#2-pp-2c.wav", ",", "Cb-pizz-F#2-pp-3c.wav", ",", "Cb-pizz-F#3-ff-2c.wav", ",", "Cb-pizz-F#3-ff-3c.wav", ",", "Cb-pizz-F#3-ff-4c.wav", ",", "Cb-pizz-F#3-mf-2c.wav", ",", "Cb-pizz-F#3-mf-3c.wav", ",", "Cb-pizz-F#3-mf-4c.wav", ",", "Cb-pizz-F#3-pp-2c.wav", ",", "Cb-pizz-F#3-pp-3c.wav", ",", "Cb-pizz-F#3-pp-4c.wav", ",", "Cb-pizz-F#4-ff-4c.wav", ",", "Cb-pizz-F#4-mf-4c.wav", ",", "Cb-pizz-F#4-pp-4c.wav", ",", "Cb-pizz-F1-ff-1c.wav", ",", "Cb-pizz-F1-mf-1c.wav", ",", "Cb-pizz-F1-pp-1c.wav", ",", "Cb-pizz-F2-ff-1c.wav", ",", "Cb-pizz-F2-ff-2c.wav", ",", "Cb-pizz-F2-ff-3c.wav", ",", "Cb-pizz-F2-mf-1c.wav", ",", "Cb-pizz-F2-mf-2c.wav", ",", "Cb-pizz-F2-mf-3c.wav", ",", "Cb-pizz-F2-pp-1c.wav", ",", "Cb-pizz-F2-pp-2c.wav", ",", "Cb-pizz-F2-pp-3c.wav", ",", "Cb-pizz-F3-ff-2c.wav", ",", "Cb-pizz-F3-ff-3c.wav", ",", "Cb-pizz-F3-ff-4c.wav", ",", "Cb-pizz-F3-mf-2c.wav", ",", "Cb-pizz-F3-mf-3c.wav", ",", "Cb-pizz-F3-mf-4c.wav", ",", "Cb-pizz-F3-pp-2c.wav", ",", "Cb-pizz-F3-pp-3c.wav", ",", "Cb-pizz-F3-pp-4c.wav", ",", "Cb-pizz-F4-ff-4c.wav", ",", "Cb-pizz-F4-mf-4c.wav", ",", "Cb-pizz-F4-pp-4c.wav", ",", "Cb-pizz-G#1-ff-1c.wav", ",", "Cb-pizz-G#1-mf-1c.wav", ",", "Cb-pizz-G#1-pp-1c.wav", ",", "Cb-pizz-G#2-ff-1c.wav", ",", "Cb-pizz-G#2-ff-2c.wav", ",", "Cb-pizz-G#2-ff-3c.wav", ",", "Cb-pizz-G#2-ff-4c.wav", ",", "Cb-pizz-G#2-mf-1c.wav", ",", "Cb-pizz-G#2-mf-2c.wav", ",", "Cb-pizz-G#2-mf-3c.wav", ",", "Cb-pizz-G#2-mf-4c.wav", ",", "Cb-pizz-G#2-pp-1c.wav", ",", "Cb-pizz-G#2-pp-2c.wav", ",", "Cb-pizz-G#2-pp-3c.wav", ",", "Cb-pizz-G#2-pp-4c.wav", ",", "Cb-pizz-G#3-ff-2c.wav", ",", "Cb-pizz-G#3-ff-3c.wav", ",", "Cb-pizz-G#3-ff-4c.wav", ",", "Cb-pizz-G#3-mf-2c.wav", ",", "Cb-pizz-G#3-mf-3c.wav", ",", "Cb-pizz-G#3-mf-4c.wav", ",", "Cb-pizz-G#3-pp-2c.wav", ",", "Cb-pizz-G#3-pp-3c.wav", ",", "Cb-pizz-G#3-pp-4c.wav", ",", "Cb-pizz-G1-ff-1c.wav", ",", "Cb-pizz-G1-mf-1c.wav", ",", "Cb-pizz-G1-pp-1c.wav", ",", "Cb-pizz-G2-ff-1c.wav", ",", "Cb-pizz-G2-ff-2c.wav", ",", "Cb-pizz-G2-ff-3c.wav", ",", "Cb-pizz-G2-ff-4c.wav", ",", "Cb-pizz-G2-mf-1c.wav", ",", "Cb-pizz-G2-mf-2c.wav", ",", "Cb-pizz-G2-mf-3c.wav", ",", "Cb-pizz-G2-mf-4c.wav", ",", "Cb-pizz-G2-pp-1c.wav", ",", "Cb-pizz-G2-pp-2c.wav", ",", "Cb-pizz-G2-pp-3c.wav", ",", "Cb-pizz-G2-pp-4c.wav", ",", "Cb-pizz-G3-ff-2c.wav", ",", "Cb-pizz-G3-ff-3c.wav", ",", "Cb-pizz-G3-ff-4c.wav", ",", "Cb-pizz-G3-mf-2c.wav", ",", "Cb-pizz-G3-mf-3c.wav", ",", "Cb-pizz-G3-mf-4c.wav", ",", "Cb-pizz-G3-pp-2c.wav", ",", "Cb-pizz-G3-pp-3c.wav", ",", "Cb-pizz-G3-pp-4c.wav", ",", "Cb-pizz-G4-ff-4c.wav", ",", "Cb-pizz-G4-mf-4c.wav", ",", "Cb-pizz-G4-pp-4c.wav", ",", "Cb-pizz-bartok-A#1-ff-3c.aif", ",", "Cb-pizz-bartok-A#1-ff-4c.aif", ",", "Cb-pizz-bartok-A#2-ff-1c.aif", ",", "Cb-pizz-bartok-A#2-ff-2c.aif", ",", "Cb-pizz-bartok-A#3-ff-1c.aif", ",", "Cb-pizz-bartok-A1-ff-3c.aif", ",", "Cb-pizz-bartok-A1-ff-4c.aif", ",", "Cb-pizz-bartok-A2-ff-1c.aif", ",", "Cb-pizz-bartok-A2-ff-2c.aif", ",", "Cb-pizz-bartok-A3-ff-1c.aif", ",", "Cb-pizz-bartok-B1-ff-3c.aif", ",", "Cb-pizz-bartok-B1-ff-4c.aif", ",", "Cb-pizz-bartok-B2-ff-1c.aif", ",", "Cb-pizz-bartok-B2-ff-2c.aif", ",", "Cb-pizz-bartok-B3-ff-1c.aif", ",", "Cb-pizz-bartok-C#2-ff-3c.aif", ",", "Cb-pizz-bartok-C#2-ff-4c.aif", ",", "Cb-pizz-bartok-C#3-ff-1c.aif", ",", "Cb-pizz-bartok-C#4-ff-1c.aif", ",", "Cb-pizz-bartok-C2-ff-3c.aif", ",", "Cb-pizz-bartok-C2-ff-4c.aif", ",", "Cb-pizz-bartok-C3-ff-1c.aif", ",", "Cb-pizz-bartok-C3-ff-2c.aif", ",", "Cb-pizz-bartok-C4-ff-1c.aif", ",", "Cb-pizz-bartok-D#2-ff-2c.aif", ",", "Cb-pizz-bartok-D#2-ff-3c.aif", ",", "Cb-pizz-bartok-D#3-ff-1c.aif", ",", "Cb-pizz-bartok-D#4-ff-1c.aif", ",", "Cb-pizz-bartok-D2-ff-3c.aif", ",", "Cb-pizz-bartok-D2-ff-4c.aif", ",", "Cb-pizz-bartok-D3-ff-1c.aif", ",", "Cb-pizz-bartok-D4-ff-1c.aif", ",", "Cb-pizz-bartok-E1-ff-4c.aif", ",", "Cb-pizz-bartok-E2-ff-2c.aif", ",", "Cb-pizz-bartok-E2-ff-3c.aif", ",", "Cb-pizz-bartok-E3-ff-1c.aif", ",", "Cb-pizz-bartok-E4-ff-1c.aif", ",", "Cb-pizz-bartok-F#1-ff-4c.aif", ",", "Cb-pizz-bartok-F#2-ff-2c.aif", ",", "Cb-pizz-bartok-F#2-ff-3c.aif", ",", "Cb-pizz-bartok-F#3-ff-1c.aif", ",", "Cb-pizz-bartok-F1-ff-4c.aif", ",", "Cb-pizz-bartok-F2-ff-2c.aif", ",", "Cb-pizz-bartok-F2-ff-3c.aif", ",", "Cb-pizz-bartok-F3-ff-1c.aif", ",", "Cb-pizz-bartok-G#1-ff-4c.aif", ",", "Cb-pizz-bartok-G#2-ff-1c.aif", ",", "Cb-pizz-bartok-G#2-ff-2c.aif", ",", "Cb-pizz-bartok-G#3-ff-1c.aif", ",", "Cb-pizz-bartok-G1-ff-4c.aif", ",", "Cb-pizz-bartok-G2-ff-1c.aif", ",", "Cb-pizz-bartok-G2-ff-2c.aif", ",", "Cb-pizz-bartok-G2-ff-3c.aif", ",", "Cb-pizz-bartok-G3-ff-1c.aif", ",", "Cb-pizz-sec-A#1-ff-3c.aif", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#1-mf-3c.aif", ",", "Cb-pizz-sec-A#1-mf-4c.aif", ",", "Cb-pizz-sec-A#1-pp-3c.aif", ",", "Cb-pizz-sec-A#1-pp-4c.aif", ",", "Cb-pizz-sec-A#2-ff-1c.aif", ",", "Cb-pizz-sec-A#2-ff-2c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#2-mf-2c.aif", ",", "Cb-pizz-sec-A#2-pp-1c.aif", ",", "Cb-pizz-sec-A#2-pp-2c.aif", ",", "Cb-pizz-sec-A#3-ff-1c.aif", ",", "Cb-pizz-sec-A#3-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-ff-3c.aif", ",", "Cb-pizz-sec-A1-ff-4c.aif", ",", "Cb-pizz-sec-A1-mf-3c.aif", ",", "Cb-pizz-sec-A1-mf-4c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A1-pp-4c.aif", ",", "Cb-pizz-sec-A2-ff-1c.aif", ",", "Cb-pizz-sec-A2-ff-2c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A2-mf-2c.aif", ",", "Cb-pizz-sec-A2-pp-1c.aif", ",", "Cb-pizz-sec-A2-pp-2c.aif", ",", "Cb-pizz-sec-A3-ff-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-A3-pp-1c.aif", ",", "Cb-pizz-sec-B1-ff-3c.aif", ",", "Cb-pizz-sec-B1-ff-4c.aif", ",", "Cb-pizz-sec-B1-mf-3c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B1-pp-3c.aif", ",", "Cb-pizz-sec-B1-pp-4c.aif", ",", "Cb-pizz-sec-B2-ff-1c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B2-mf-1c.aif", ",", "Cb-pizz-sec-B2-mf-2c.aif", ",", "Cb-pizz-sec-B2-pp-1c.aif", ",", "Cb-pizz-sec-B2-pp-2c.aif", ",", "Cb-pizz-sec-B3-ff-1c.aif", ",", "Cb-pizz-sec-B3-mf-1c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-ff-3c.aif", ",", "Cb-pizz-sec-C#2-ff-4c.aif", ",", "Cb-pizz-sec-C#2-mf-3c.aif", ",", "Cb-pizz-sec-C#2-mf-4c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#2-pp-4c.aif", ",", "Cb-pizz-sec-C#3-ff-1c.aif", ",", "Cb-pizz-sec-C#3-mf-1c.aif", ",", "Cb-pizz-sec-C#3-pp-1c.aif", ",", "Cb-pizz-sec-C#4-ff-1c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C#4-pp-1c.aif", ",", "Cb-pizz-sec-C2-ff-3c.aif", ",", "Cb-pizz-sec-C2-ff-4c.aif", ",", "Cb-pizz-sec-C2-mf-3c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-C2-pp-3c.aif", ",", "Cb-pizz-sec-C2-pp-4c.aif", ",", "Cb-pizz-sec-C3-ff-1c.aif", ",", "Cb-pizz-sec-C3-ff-2c.aif", ",", "Cb-pizz-sec-C3-mf-1c.aif", ",", "Cb-pizz-sec-C3-mf-2c.aif", ",", "Cb-pizz-sec-C3-pp-1c.aif", ",", "Cb-pizz-sec-C3-pp-2c.aif", ",", "Cb-pizz-sec-C4-ff-1c.aif", ",", "Cb-pizz-sec-C4-mf-1c.aif", ",", "Cb-pizz-sec-C4-pp-1c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#2-ff-3c.aif", ",", "Cb-pizz-sec-D#2-mf-2c.aif", ",", "Cb-pizz-sec-D#2-mf-3c.aif", ",", "Cb-pizz-sec-D#2-pp-2c.aif", ",", "Cb-pizz-sec-D#2-pp-3c.aif", ",", "Cb-pizz-sec-D#3-ff-1c.aif", ",", "Cb-pizz-sec-D#3-mf-1c.aif", ",", "Cb-pizz-sec-D#3-pp-1c.aif", ",", "Cb-pizz-sec-D#4-ff-1c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-D#4-pp-1c.aif", ",", "Cb-pizz-sec-D2-ff-2c.aif", ",", "Cb-pizz-sec-D2-ff-3c.aif", ",", "Cb-pizz-sec-D2-ff-4c.aif", ",", "Cb-pizz-sec-D2-mf-2c.aif", ",", "Cb-pizz-sec-D2-mf-3c.aif", ",", "Cb-pizz-sec-D2-mf-4c.aif", ",", "Cb-pizz-sec-D2-pp-2c.aif", ",", "Cb-pizz-sec-D2-pp-3c.aif", ",", "Cb-pizz-sec-D2-pp-4c.aif", ",", "Cb-pizz-sec-D3-ff-1c.aif", ",", "Cb-pizz-sec-D3-mf-1c.aif", ",", "Cb-pizz-sec-D3-pp-1c.aif", ",", "Cb-pizz-sec-D4-ff-1c.aif", ",", "Cb-pizz-sec-D4-mf-1c.aif", ",", "Cb-pizz-sec-D4-pp-1c.aif", ",", "Cb-pizz-sec-E1-ff-4c.aif", ",", "Cb-pizz-sec-E1-mf-4c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E2-ff-2c.aif", ",", "Cb-pizz-sec-E2-ff-3c.aif", ",", "Cb-pizz-sec-E2-mf-2c.aif", ",", "Cb-pizz-sec-E2-mf-3c.aif", ",", "Cb-pizz-sec-E2-pp-2c.aif", ",", "Cb-pizz-sec-E2-pp-3c.aif", ",", "Cb-pizz-sec-E3-ff-1c.aif", ",", "Cb-pizz-sec-E3-mf-1c.aif", ",", "Cb-pizz-sec-E3-pp-1c.aif", ",", "Cb-pizz-sec-E4-ff-1c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-E4-pp-1c.aif", ",", "Cb-pizz-sec-F#1-ff-4c.aif", ",", "Cb-pizz-sec-F#1-mf-4c.aif", ",", "Cb-pizz-sec-F#1-pp-4c.aif", ",", "Cb-pizz-sec-F#2-ff-2c.aif", ",", "Cb-pizz-sec-F#2-ff-3c.aif", ",", "Cb-pizz-sec-F#2-mf-2c.aif", ",", "Cb-pizz-sec-F#2-mf-3c.aif", ",", "Cb-pizz-sec-F#2-pp-2c.aif", ",", "Cb-pizz-sec-F#2-pp-3c.aif", ",", "Cb-pizz-sec-F#3-ff-1c.aif", ",", "Cb-pizz-sec-F#3-mf-1c.aif", ",", "Cb-pizz-sec-F#3-pp-1c.aif", ",", "Cb-pizz-sec-F1-ff-4c.aif", ",", "Cb-pizz-sec-F1-mf-4c.aif", ",", "Cb-pizz-sec-F1-pp-4c.aif", ",", "Cb-pizz-sec-F2-ff-2c.aif", ",", "Cb-pizz-sec-F2-ff-3c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-F2-mf-3c.aif", ",", "Cb-pizz-sec-F2-pp-2c.aif", ",", "Cb-pizz-sec-F2-pp-3c.aif", ",", "Cb-pizz-sec-F3-ff-1c.aif", ",", "Cb-pizz-sec-F3-mf-1c.aif", ",", "Cb-pizz-sec-F3-pp-1c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G#1-mf-4c.aif", ",", "Cb-pizz-sec-G#1-pp-4c.aif", ",", "Cb-pizz-sec-G#2-ff-1c.aif", ",", "Cb-pizz-sec-G#2-ff-2c.aif", ",", "Cb-pizz-sec-G#2-mf-1c.aif", ",", "Cb-pizz-sec-G#2-mf-2c.aif", ",", "Cb-pizz-sec-G#2-pp-1c.aif", ",", "Cb-pizz-sec-G#2-pp-2c.aif", ",", "Cb-pizz-sec-G#3-ff-1c.aif", ",", "Cb-pizz-sec-G#3-mf-1c.aif", ",", "Cb-pizz-sec-G#3-pp-1c.aif", ",", "Cb-pizz-sec-G1-ff-4c.aif", ",", "Cb-pizz-sec-G1-mf-4c.aif", ",", "Cb-pizz-sec-G1-pp-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G2-ff-2c.aif", ",", "Cb-pizz-sec-G2-ff-3c.aif", ",", "Cb-pizz-sec-G2-mf-1c.aif", ",", "Cb-pizz-sec-G2-mf-2c.aif", ",", "Cb-pizz-sec-G2-mf-3c.aif", ",", "Cb-pizz-sec-G2-pp-1c.aif", ",", "Cb-pizz-sec-G2-pp-2c.aif", ",", "Cb-pizz-sec-G2-pp-3c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Cb-pizz-sec-G3-mf-1c.aif", ",", "Cb-pizz-sec-G3-pp-1c.aif", ",", "Cb-pizz-lv-A#1-ff-3c.aif", ",", "Cb-pizz-lv-A#1-ff-4c.aif", ",", "Cb-pizz-lv-A#1-mf-3c.aif", ",", "Cb-pizz-lv-A#1-mf-4c.aif", ",", "Cb-pizz-lv-A#1-pp-3c.aif", ",", "Cb-pizz-lv-A#1-pp-4c.aif", ",", "Cb-pizz-lv-A#2-ff-1c.aif", ",", "Cb-pizz-lv-A#2-ff-2c.aif", ",", "Cb-pizz-lv-A#2-mf-1c.aif", ",", "Cb-pizz-lv-A#2-mf-2c.aif", ",", "Cb-pizz-lv-A#2-pp-1c.aif", ",", "Cb-pizz-lv-A#2-pp-2c.aif", ",", "Cb-pizz-lv-A#3-ff-1c.aif", ",", "Cb-pizz-lv-A#3-mf-1c.aif", ",", "Cb-pizz-lv-A#3-pp-1c.aif", ",", "Cb-pizz-lv-A1-ff-3c.aif", ",", "Cb-pizz-lv-A1-ff-4c.aif", ",", "Cb-pizz-lv-A1-mf-3c.aif", ",", "Cb-pizz-lv-A1-mf-4c.aif", ",", "Cb-pizz-lv-A1-pp-3c.aif", ",", "Cb-pizz-lv-A1-pp-4c.aif", ",", "Cb-pizz-lv-A2-ff-1c.aif", ",", "Cb-pizz-lv-A2-ff-2c.aif", ",", "Cb-pizz-lv-A2-mf-1c.aif", ",", "Cb-pizz-lv-A2-mf-2c.aif", ",", "Cb-pizz-lv-A2-pp-1c.aif", ",", "Cb-pizz-lv-A2-pp-2c.aif", ",", "Cb-pizz-lv-A3-ff-1c.aif", ",", "Cb-pizz-lv-A3-mf-1c.aif", ",", "Cb-pizz-lv-A3-pp-1c.aif", ",", "Cb-pizz-lv-B1-ff-3c.aif", ",", "Cb-pizz-lv-B1-ff-4c.aif", ",", "Cb-pizz-lv-B1-mf-3c.aif", ",", "Cb-pizz-lv-B1-mf-4c.aif", ",", "Cb-pizz-lv-B1-pp-3c.aif", ",", "Cb-pizz-lv-B1-pp-4c.aif", ",", "Cb-pizz-lv-B2-ff-1c.aif", ",", "Cb-pizz-lv-B2-ff-2c.aif", ",", "Cb-pizz-lv-B2-mf-1c.aif", ",", "Cb-pizz-lv-B2-mf-2c.aif", ",", "Cb-pizz-lv-B2-pp-1c.aif", ",", "Cb-pizz-lv-B2-pp-2c.aif", ",", "Cb-pizz-lv-B3-ff-1c.aif", ",", "Cb-pizz-lv-B3-mf-1c.aif", ",", "Cb-pizz-lv-B3-pp-1c.aif", ",", "Cb-pizz-lv-C#2-ff-3c.aif", ",", "Cb-pizz-lv-C#2-ff-4c.aif", ",", "Cb-pizz-lv-C#2-mf-3c.aif", ",", "Cb-pizz-lv-C#2-mf-4c.aif", ",", "Cb-pizz-lv-C#2-pp-3c.aif", ",", "Cb-pizz-lv-C#2-pp-4c.aif", ",", "Cb-pizz-lv-C#3-ff-1c.aif", ",", "Cb-pizz-lv-C#3-mf-1c.aif", ",", "Cb-pizz-lv-C#3-pp-1c.aif", ",", "Cb-pizz-lv-C#4-ff-1c.aif", ",", "Cb-pizz-lv-C#4-mf-1c.aif", ",", "Cb-pizz-lv-C#4-pp-1c.aif", ",", "Cb-pizz-lv-C2-ff-3c.aif", ",", "Cb-pizz-lv-C2-ff-4c.aif", ",", "Cb-pizz-lv-C2-mf-3c.aif", ",", "Cb-pizz-lv-C2-mf-4c.aif", ",", "Cb-pizz-lv-C2-pp-3c.aif", ",", "Cb-pizz-lv-C2-pp-4c.aif", ",", "Cb-pizz-lv-C3-ff-1c.aif", ",", "Cb-pizz-lv-C3-ff-2c.aif", ",", "Cb-pizz-lv-C3-mf-1c.aif", ",", "Cb-pizz-lv-C3-mf-2c.aif", ",", "Cb-pizz-lv-C3-pp-1c.aif", ",", "Cb-pizz-lv-C3-pp-2c.aif", ",", "Cb-pizz-lv-C4-ff-1c.aif", ",", "Cb-pizz-lv-C4-mf-1c.aif", ",", "Cb-pizz-lv-C4-pp-1c.aif", ",", "Cb-pizz-lv-D#2-ff-2c.aif", ",", "Cb-pizz-lv-D#2-ff-3c.aif", ",", "Cb-pizz-lv-D#2-mf-2c.aif", ",", "Cb-pizz-lv-D#2-mf-3c.aif", ",", "Cb-pizz-lv-D#2-pp-2c.aif", ",", "Cb-pizz-lv-D#2-pp-3c.aif", ",", "Cb-pizz-lv-D#3-ff-1c.aif", ",", "Cb-pizz-lv-D#3-mf-1c.aif", ",", "Cb-pizz-lv-D#3-pp-1c.aif", ",", "Cb-pizz-lv-D#4-ff-1c.aif", ",", "Cb-pizz-lv-D#4-mf-1c.aif", ",", "Cb-pizz-lv-D#4-pp-1c.aif", ",", "Cb-pizz-lv-D2-ff-2c.aif", ",", "Cb-pizz-lv-D2-ff-3c.aif", ",", "Cb-pizz-lv-D2-ff-4c.aif", ",", "Cb-pizz-lv-D2-mf-2c.aif", ",", "Cb-pizz-lv-D2-mf-3c.aif", ",", "Cb-pizz-lv-D2-mf-4c.aif", ",", "Cb-pizz-lv-D2-pp-2c.aif", ",", "Cb-pizz-lv-D2-pp-3c.aif", ",", "Cb-pizz-lv-D2-pp-4c.aif", ",", "Cb-pizz-lv-D3-mf-1c.aif", ",", "Cb-pizz-lv-D3-pp-1c.aif", ",", "Cb-pizz-lv-D4-ff-1c.aif", ",", "Cb-pizz-lv-D4-mf-1c.aif", ",", "Cb-pizz-lv-D4-pp-1c.aif", ",", "Cb-pizz-lv-E1-ff-4c.aif", ",", "Cb-pizz-lv-E1-mf-4c.aif", ",", "Cb-pizz-lv-E1-pp-4c.aif", ",", "Cb-pizz-lv-E2-ff-2c.aif", ",", "Cb-pizz-lv-E2-ff-3c.aif", ",", "Cb-pizz-lv-E2-mf-2c.aif", ",", "Cb-pizz-lv-E2-mf-3c.aif", ",", "Cb-pizz-lv-E2-pp-2c.aif", ",", "Cb-pizz-lv-E2-pp-3c.aif", ",", "Cb-pizz-lv-E3-ff-1c.aif", ",", "Cb-pizz-lv-E3-mf-1c.aif", ",", "Cb-pizz-lv-E3-pp-1c.aif", ",", "Cb-pizz-lv-E4-ff-1c.aif", ",", "Cb-pizz-lv-E4-mf-1c.aif", ",", "Cb-pizz-lv-E4-pp-1c.aif", ",", "Cb-pizz-lv-F#1-ff-4c.aif", ",", "Cb-pizz-lv-F#1-mf-4c.aif", ",", "Cb-pizz-lv-F#1-pp-4c.aif", ",", "Cb-pizz-lv-F#2-ff-2c.aif", ",", "Cb-pizz-lv-F#2-ff-3c.aif", ",", "Cb-pizz-lv-F#2-mf-2c.aif", ",", "Cb-pizz-lv-F#2-mf-3c.aif", ",", "Cb-pizz-lv-F#2-pp-2c.aif", ",", "Cb-pizz-lv-F#2-pp-3c.aif", ",", "Cb-pizz-lv-F#3-ff-1c.aif", ",", "Cb-pizz-lv-F#3-mf-1c.aif", ",", "Cb-pizz-lv-F#3-pp-1c.aif", ",", "Cb-pizz-lv-F1-ff-4c.aif", ",", "Cb-pizz-lv-F1-mf-4c.aif", ",", "Cb-pizz-lv-F1-pp-4c.aif", ",", "Cb-pizz-lv-F2-ff-2c.aif", ",", "Cb-pizz-lv-F2-ff-3c.aif", ",", "Cb-pizz-lv-F2-mf-2c.aif", ",", "Cb-pizz-lv-F2-mf-3c.aif", ",", "Cb-pizz-lv-F2-pp-2c.aif", ",", "Cb-pizz-lv-F2-pp-3c.aif", ",", "Cb-pizz-lv-F3-ff-1c.aif", ",", "Cb-pizz-lv-F3-mf-1c.aif", ",", "Cb-pizz-lv-F3-pp-1c.aif", ",", "Cb-pizz-lv-G#1-ff-4c.aif", ",", "Cb-pizz-lv-G#1-mf-4c.aif", ",", "Cb-pizz-lv-G#1-pp-4c.aif", ",", "Cb-pizz-lv-G#2-ff-1c.aif", ",", "Cb-pizz-lv-G#2-ff-2c.aif", ",", "Cb-pizz-lv-G#2-mf-1c.aif", ",", "Cb-pizz-lv-G#2-mf-2c.aif", ",", "Cb-pizz-lv-G#2-pp-1c.aif", ",", "Cb-pizz-lv-G#2-pp-2c.aif", ",", "Cb-pizz-lv-G#3-ff-1c.aif", ",", "Cb-pizz-lv-G#3-mf-1c.aif", ",", "Cb-pizz-lv-G#3-pp-1c.aif", ",", "Cb-pizz-lv-G1-ff-4c.aif", ",", "Cb-pizz-lv-G1-mf-4c.aif", ",", "Cb-pizz-lv-G1-pp-4c.aif", ",", "Cb-pizz-lv-G2-ff-1c.aif", ",", "Cb-pizz-lv-G2-ff-2c.aif", ",", "Cb-pizz-lv-G2-ff-3c.aif", ",", "Cb-pizz-lv-G2-mf-1c.aif", ",", "Cb-pizz-lv-G2-mf-2c.aif", ",", "Cb-pizz-lv-G2-mf-3c.aif", ",", "Cb-pizz-lv-G2-pp-1c.aif", ",", "Cb-pizz-lv-G2-pp-2c.aif", ",", "Cb-pizz-lv-G2-pp-3c.aif", ",", "Cb-pizz-lv-G3-ff-1c.aif", ",", "Cb-pizz-lv-G3-mf-1c.aif", ",", "Cb-pizz-lv-G3-pp-1c.aif", ",", "Cb-stacc-A#2-mf-2c.aif", ",", "Cb-stacc-A1-mf-3c.aif", ",", "Cb-stacc-B2-mf-1c.aif", ",", "Cb-stacc-B3-mf-1c.aif", ",", "Cb-stacc-C#2-mf-3c.aif", ",", "Cb-stacc-C2-mf-4c.aif", ",", "Cb-stacc-D#3-mf-1c.aif", ",", "Cb-stacc-D#4-mf-1c.aif", ",", "Cb-stacc-D2-mf-2c.aif", ",", "Cb-stacc-E1-mf-4c.aif", ",", "Cb-stacc-F#2-mf-2c.aif", ",", "Cb-stacc-F2-mf-3c.aif", ",", "Cb-stacc-G#1-mf-4c.aif", ",", "Cb-stacc-G2-mf-1c.aif", ",", "Cb-stacc-G3-mf-1c.aif", ",", "Cb-stacc-G4-mf-1c.aif", ",", "Va-pizz-sec-A#3-ff-3c.aif", ",", "Va-pizz-sec-A#3-ff-4c.aif", ",", "Va-pizz-sec-A#3-mf-3c.aif", ",", "Va-pizz-sec-A#3-mf-4c.aif", ",", "Va-pizz-sec-A#3-pp-3c.aif", ",", "Va-pizz-sec-A#3-pp-4c.aif", ",", "Va-pizz-sec-A#4-ff-1c.aif", ",", "Va-pizz-sec-A#4-ff-2c.aif", ",", "Va-pizz-sec-A#4-mf-1c.aif", ",", "Va-pizz-sec-A#4-mf-2c.aif", ",", "Va-pizz-sec-A#4-pp-1c.aif", ",", "Va-pizz-sec-A#4-pp-2c.aif", ",", "Va-pizz-sec-A3-ff-3c.aif", ",", "Va-pizz-sec-A3-ff-4c.aif", ",", "Va-pizz-sec-A3-mf-3c.aif", ",", "Va-pizz-sec-A3-mf-4c.aif", ",", "Va-pizz-sec-A3-pp-3c.aif", ",", "Va-pizz-sec-A3-pp-4c.aif", ",", "Va-pizz-sec-A4-ff-1c.aif", ",", "Va-pizz-sec-A4-ff-2c.aif", ",", "Va-pizz-sec-A4-mf-1c.aif", ",", "Va-pizz-sec-A4-pp-1c.aif", ",", "Va-pizz-sec-A4-pp-2c.aif", ",", "Va-pizz-sec-A5-ff-1c.aif", ",", "Va-pizz-sec-A5-mf-1c.aif", ",", "Va-pizz-sec-A5-pp-1c.aif", ",", "Va-pizz-sec-B3-ff-3c.aif", ",", "Va-pizz-sec-B3-ff-4c.aif", ",", "Va-pizz-sec-B3-mf-3c.aif", ",", "Va-pizz-sec-B3-mf-4c.aif", ",", "Va-pizz-sec-B3-pp-3c.aif", ",", "Va-pizz-sec-B3-pp-4c.aif", ",", "Va-pizz-sec-B4-ff-1c.aif", ",", "Va-pizz-sec-B4-ff-2c.aif", ",", "Va-pizz-sec-B4-mf-1c.aif", ",", "Va-pizz-sec-B4-mf-2c.aif", ",", "Va-pizz-sec-B4-pp-1c.aif", ",", "Va-pizz-sec-B4-pp-2c.aif", ",", "Va-pizz-sec-C#3-ff-4c.aif", ",", "Va-pizz-sec-C#3-mf-4c.aif", ",", "Va-pizz-sec-C#3-pp-4c.aif", ",", "Va-pizz-sec-C#4-ff-3c.aif", ",", "Va-pizz-sec-C#4-mf-3c.aif", ",", "Va-pizz-sec-C#4-pp-3c.aif", ",", "Va-pizz-sec-C#5-ff-1c.aif", ",", "Va-pizz-sec-C#5-ff-2c.aif", ",", "Va-pizz-sec-C#5-mf-1c.aif", ",", "Va-pizz-sec-C#5-mf-2c.aif", ",", "Va-pizz-sec-C#5-pp-1c.aif", ",", "Va-pizz-sec-C#5-pp-2c.aif", ",", "Va-pizz-sec-C3-ff-4c.aif", ",", "Va-pizz-sec-C3-mf-4c.aif", ",", "Va-pizz-sec-C3-pp-4c.aif", ",", "Va-pizz-sec-C4-ff-3c.aif", ",", "Va-pizz-sec-C4-ff-4c.aif", ",", "Va-pizz-sec-C4-mf-3c.aif", ",", "Va-pizz-sec-C4-mf-4c.aif", ",", "Va-pizz-sec-C4-pp-3c.aif", ",", "Va-pizz-sec-C4-pp-4c.aif", ",", "Va-pizz-sec-C5-ff-1c.aif", ",", "Va-pizz-sec-C5-ff-2c.aif", ",", "Va-pizz-sec-C5-mf-1c.aif", ",", "Va-pizz-sec-C5-mf-2c.aif", ",", "Va-pizz-sec-C5-pp-2c.aif", ",", "Va-pizz-sec-D#3-ff-4c.aif", ",", "Va-pizz-sec-D#3-mf-4c.aif", ",", "Va-pizz-sec-D#3-pp-4c.aif", ",", "Va-pizz-sec-D#4-ff-2c.aif", ",", "Va-pizz-sec-D#4-ff-3c.aif", ",", "Va-pizz-sec-D#4-mf-2c.aif", ",", "Va-pizz-sec-D#4-mf-3c.aif", ",", "Va-pizz-sec-D#4-pp-2c.aif", ",", "Va-pizz-sec-D#4-pp-3c.aif", ",", "Va-pizz-sec-D#5-ff-1c.aif", ",", "Va-pizz-sec-D#5-mf-1c.aif", ",", "Va-pizz-sec-D#5-pp-1c.aif", ",", "Va-pizz-sec-D3-ff-4c.aif", ",", "Va-pizz-sec-D3-mf-4c.aif", ",", "Va-pizz-sec-D3-pp-4c.aif", ",", "Va-pizz-sec-D4-ff-2c.aif", ",", "Va-pizz-sec-D4-ff-3c.aif", ",", "Va-pizz-sec-D4-mf-2c.aif", ",", "Va-pizz-sec-D4-mf-3c.aif", ",", "Va-pizz-sec-D4-pp-2c.aif", ",", "Va-pizz-sec-D4-pp-3c.aif", ",", "Va-pizz-sec-D5-ff-1c.aif", ",", "Va-pizz-sec-D5-ff-2c.aif", ",", "Va-pizz-sec-D5-mf-1c.aif", ",", "Va-pizz-sec-D5-mf-2c.aif", ",", "Va-pizz-sec-D5-pp-1c.aif", ",", "Va-pizz-sec-D5-pp-2c.aif", ",", "Va-pizz-sec-E3-ff-4c.aif", ",", "Va-pizz-sec-E3-mf-4c.aif", ",", "Va-pizz-sec-E3-pp-4c.aif", ",", "Va-pizz-sec-E4-ff-2c.aif", ",", "Va-pizz-sec-E4-ff-3c.aif", ",", "Va-pizz-sec-E4-mf-2c.aif", ",", "Va-pizz-sec-E4-mf-3c.aif", ",", "Va-pizz-sec-E4-pp-2c.aif", ",", "Va-pizz-sec-E4-pp-3c.aif", ",", "Va-pizz-sec-E5-ff-1c.aif", ",", "Va-pizz-sec-E5-mf-1c.aif", ",", "Va-pizz-sec-E5-pp-1c.aif", ",", "Va-pizz-sec-F#3-ff-4c.aif", ",", "Va-pizz-sec-F#3-mf-4c.aif", ",", "Va-pizz-sec-F#3-pp-4c.aif", ",", "Va-pizz-sec-F#4-ff-2c.aif", ",", "Va-pizz-sec-F#4-ff-3c.aif", ",", "Va-pizz-sec-F#4-mf-2c.aif", ",", "Va-pizz-sec-F#4-mf-3c.aif", ",", "Va-pizz-sec-F#4-pp-2c.aif", ",", "Va-pizz-sec-F#4-pp-3c.aif", ",", "Va-pizz-sec-F#5-ff-1c.aif", ",", "Va-pizz-sec-F#5-mf-1c.aif", ",", "Va-pizz-sec-F#5-pp-1c.aif", ",", "Va-pizz-sec-F3-ff-4c.aif", ",", "Va-pizz-sec-F3-mf-4c.aif", ",", "Va-pizz-sec-F3-pp-4c.aif", ",", "Va-pizz-sec-F4-ff-2c.aif", ",", "Va-pizz-sec-F4-ff-3c.aif", ",", "Va-pizz-sec-F4-mf-2c.aif", ",", "Va-pizz-sec-F4-mf-3c.aif", ",", "Va-pizz-sec-F4-pp-2c.aif", ",", "Va-pizz-sec-F4-pp-3c.aif", ",", "Va-pizz-sec-F5-ff-1c.aif", ",", "Va-pizz-sec-F5-mf-1c.aif", ",", "Va-pizz-sec-F5-pp-1c.aif", ",", "Va-pizz-sec-G#3-ff-3c.aif", ",", "Va-pizz-sec-G#3-ff-4c.aif", ",", "Va-pizz-sec-G#3-mf-3c.aif", ",", "Va-pizz-sec-G#3-mf-4c.aif", ",", "Va-pizz-sec-G#3-pp-3c.aif", ",", "Va-pizz-sec-G#3-pp-4c.aif", ",", "Va-pizz-sec-G#4-ff-2c.aif", ",", "Va-pizz-sec-G#4-mf-2c.aif", ",", "Va-pizz-sec-G#4-pp-2c.aif", ",", "Va-pizz-sec-G#5-ff-1c.aif", ",", "Va-pizz-sec-G#5-mf-1c.aif", ",", "Va-pizz-sec-G#5-pp-1c.aif", ",", "Va-pizz-sec-G3-ff-3c.aif", ",", "Va-pizz-sec-G3-ff-4c.aif", ",", "Va-pizz-sec-G3-mf-3c.aif", ",", "Va-pizz-sec-G3-mf-4c.aif", ",", "Va-pizz-sec-G3-pp-3c.aif", ",", "Va-pizz-sec-G3-pp-4c.aif", ",", "Va-pizz-sec-G4-ff-2c.aif", ",", "Va-pizz-sec-G4-ff-3c.aif", ",", "Va-pizz-sec-G4-mf-2c.aif", ",", "Va-pizz-sec-G4-mf-3c.aif", ",", "Va-pizz-sec-G4-pp-2c.aif", ",", "Va-pizz-sec-G4-pp-3c.aif", ",", "Va-pizz-sec-G5-ff-1c.aif", ",", "Va-pizz-sec-G5-mf-1c.aif", ",", "Va-pizz-sec-G5-pp-1c.aif", ",", "Vn-pizz-sec-A#3-ff-4c.aif", ",", "Vn-pizz-sec-A#3-mf-4c.aif", ",", "Vn-pizz-sec-A#3-pp-4c.aif", ",", "Vn-pizz-sec-A#4-ff-2c.aif", ",", "Vn-pizz-sec-A#4-ff-3c.aif", ",", "Vn-pizz-sec-A#4-ff-4c.aif", ",", "Vn-pizz-sec-A#4-mf-2c.aif", ",", "Vn-pizz-sec-A#4-mf-3c.aif", ",", "Vn-pizz-sec-A#4-mf-4c.aif", ",", "Vn-pizz-sec-A#4-pp-2c.aif", ",", "Vn-pizz-sec-A#4-pp-3c.aif", ",", "Vn-pizz-sec-A#4-pp-4c.aif", ",", "Vn-pizz-sec-A#5-ff-1c.aif", ",", "Vn-pizz-sec-A#5-ff-2c.aif", ",", "Vn-pizz-sec-A#5-mf-1c.aif", ",", "Vn-pizz-sec-A#5-mf-2c.aif", ",", "Vn-pizz-sec-A#5-pp-1c.aif", ",", "Vn-pizz-sec-A#5-pp-2c.aif", ",", "Vn-pizz-sec-A3-ff-4c.aif", ",", "Vn-pizz-sec-A3-mf-4c.aif", ",", "Vn-pizz-sec-A3-pp-4c.aif", ",", "Vn-pizz-sec-A4-ff-2c.aif", ",", "Vn-pizz-sec-A4-ff-3c.aif", ",", "Vn-pizz-sec-A4-ff-4c.aif", ",", "Vn-pizz-sec-A4-mf-2c.aif", ",", "Vn-pizz-sec-A4-mf-3c.aif", ",", "Vn-pizz-sec-A4-mf-4c.aif", ",", "Vn-pizz-sec-A4-pp-2c.aif", ",", "Vn-pizz-sec-A4-pp-3c.aif", ",", "Vn-pizz-sec-A4-pp-4c.aif", ",", "Vn-pizz-sec-A5-ff-1c.aif", ",", "Vn-pizz-sec-A5-ff-2c.aif", ",", "Vn-pizz-sec-A5-ff-3c.aif", ",", "Vn-pizz-sec-A5-mf-1c.aif", ",", "Vn-pizz-sec-A5-mf-2c.aif", ",", "Vn-pizz-sec-A5-mf-3c.aif", ",", "Vn-pizz-sec-A5-pp-1c.aif", ",", "Vn-pizz-sec-A5-pp-2c.aif", ",", "Vn-pizz-sec-A5-pp-3c.aif", ",", "Vn-pizz-sec-B3-ff-4c.aif", ",", "Vn-pizz-sec-B3-mf-4c.aif", ",", "Vn-pizz-sec-B3-pp-4c.aif", ",", "Vn-pizz-sec-B4-ff-2c.aif", ",", "Vn-pizz-sec-B4-ff-3c.aif", ",", "Vn-pizz-sec-B4-ff-4c.aif", ",", "Vn-pizz-sec-B4-mf-2c.aif", ",", "Vn-pizz-sec-B4-mf-3c.aif", ",", "Vn-pizz-sec-B4-mf-4c.aif", ",", "Vn-pizz-sec-B4-pp-2c.aif", ",", "Vn-pizz-sec-B4-pp-3c.aif", ",", "Vn-pizz-sec-B4-pp-4c.aif", ",", "Vn-pizz-sec-B5-ff-2c.aif", ",", "Vn-pizz-sec-B5-mf-2c.aif", ",", "Vn-pizz-sec-B5-pp-2c.aif", ",", "Vn-pizz-sec-C#4-ff-4c.aif", ",", "Vn-pizz-sec-C#4-mf-4c.aif", ",", "Vn-pizz-sec-C#4-pp-4c.aif", ",", "Vn-pizz-sec-C#5-ff-2c.aif", ",", "Vn-pizz-sec-C#5-ff-3c.aif", ",", "Vn-pizz-sec-C#5-mf-2c.aif", ",", "Vn-pizz-sec-C#5-mf-3c.aif", ",", "Vn-pizz-sec-C#5-pp-2c.aif", ",", "Vn-pizz-sec-C#5-pp-3c.aif", ",", "Vn-pizz-sec-C#6-ff-2c.aif", ",", "Vn-pizz-sec-C#6-mf-2c.aif", ",", "Vn-pizz-sec-C#6-pp-2c.aif", ",", "Vn-pizz-sec-C4-ff-4c.aif", ",", "Vn-pizz-sec-C4-mf-4c.aif", ",", "Vn-pizz-sec-C4-pp-4c.aif", ",", "Vn-pizz-sec-C5-ff-2c.aif", ",", "Vn-pizz-sec-C5-ff-3c.aif", ",", "Vn-pizz-sec-C5-ff-4c.aif", ",", "Vn-pizz-sec-C5-mf-2c.aif", ",", "Vn-pizz-sec-C5-mf-3c.aif", ",", "Vn-pizz-sec-C5-mf-4c.aif", ",", "Vn-pizz-sec-C5-pp-2c.aif", ",", "Vn-pizz-sec-C5-pp-3c.aif", ",", "Vn-pizz-sec-C5-pp-4c.aif", ",", "Vn-pizz-sec-C6-ff-2c.aif", ",", "Vn-pizz-sec-C6-mf-2c.aif", ",", "Vn-pizz-sec-C6-pp-2c.aif", ",", "Vn-pizz-sec-D#4-ff-3c.aif", ",", "Vn-pizz-sec-D#4-ff-4c.aif", ",", "Vn-pizz-sec-D#4-mf-3c.aif", ",", "Vn-pizz-sec-D#4-mf-4c.aif", ",", "Vn-pizz-sec-D#4-pp-3c.aif", ",", "Vn-pizz-sec-D#4-pp-4c.aif", ",", "Vn-pizz-sec-D#5-ff-2c.aif", ",", "Vn-pizz-sec-D#5-ff-3c.aif", ",", "Vn-pizz-sec-D#5-mf-2c.aif", ",", "Vn-pizz-sec-D#5-mf-3c.aif", ",", "Vn-pizz-sec-D#5-pp-2c.aif", ",", "Vn-pizz-sec-D#5-pp-3c.aif", ",", "Vn-pizz-sec-D4-ff-3c.aif", ",", "Vn-pizz-sec-D4-ff-4c.aif", ",", "Vn-pizz-sec-D4-mf-3c.aif", ",", "Vn-pizz-sec-D4-mf-4c.aif", ",", "Vn-pizz-sec-D4-pp-3c.aif", ",", "Vn-pizz-sec-D4-pp-4c.aif", ",", "Vn-pizz-sec-D5-ff-2c.aif", ",", "Vn-pizz-sec-D5-ff-3c.aif", ",", "Vn-pizz-sec-D5-mf-2c.aif", ",", "Vn-pizz-sec-D5-mf-3c.aif", ",", "Vn-pizz-sec-D5-pp-2c.aif", ",", "Vn-pizz-sec-D5-pp-3c.aif", ",", "Vn-pizz-sec-D6-ff-2c.aif", ",", "Vn-pizz-sec-D6-mf-2c.aif", ",", "Vn-pizz-sec-D6-pp-2c.aif", ",", "Vn-pizz-sec-E4-ff-3c.aif", ",", "Vn-pizz-sec-E4-ff-4c.aif", ",", "Vn-pizz-sec-E4-mf-3c.aif", ",", "Vn-pizz-sec-E4-mf-4c.aif", ",", "Vn-pizz-sec-E4-pp-3c.aif", ",", "Vn-pizz-sec-E4-pp-4c.aif", ",", "Vn-pizz-sec-E5-ff-1c.aif", ",", "Vn-pizz-sec-E5-ff-2c.aif", ",", "Vn-pizz-sec-E5-ff-3c.aif", ",", "Vn-pizz-sec-E5-mf-1c.aif", ",", "Vn-pizz-sec-E5-mf-2c.aif", ",", "Vn-pizz-sec-E5-mf-3c.aif", ",", "Vn-pizz-sec-E5-pp-1c.aif", ",", "Vn-pizz-sec-E5-pp-2c.aif", ",", "Vn-pizz-sec-E5-pp-3c.aif", ",", "Vn-pizz-sec-F#4-ff-3c.aif", ",", "Vn-pizz-sec-F#4-ff-4c.aif", ",", "Vn-pizz-sec-F#4-mf-3c.aif", ",", "Vn-pizz-sec-F#4-mf-4c.aif", ",", "Vn-pizz-sec-F#4-pp-3c.aif", ",", "Vn-pizz-sec-F#4-pp-4c.aif", ",", "Vn-pizz-sec-F#5-ff-1c.aif", ",", "Vn-pizz-sec-F#5-ff-2c.aif", ",", "Vn-pizz-sec-F#5-ff-3c.aif", ",", "Vn-pizz-sec-F#5-mf-1c.aif", ",", "Vn-pizz-sec-F#5-mf-2c.aif", ",", "Vn-pizz-sec-F#5-mf-3c.aif", ",", "Vn-pizz-sec-F#5-pp-1c.aif", ",", "Vn-pizz-sec-F#5-pp-2c.aif", ",", "Vn-pizz-sec-F#5-pp-3c.aif", ",", "Vn-pizz-sec-F4-ff-3c.aif", ",", "Vn-pizz-sec-F4-ff-4c.aif", ",", "Vn-pizz-sec-F4-mf-3c.aif", ",", "Vn-pizz-sec-F4-mf-4c.aif", ",", "Vn-pizz-sec-F4-pp-3c.aif", ",", "Vn-pizz-sec-F4-pp-4c.aif", ",", "Vn-pizz-sec-F5-ff-1c.aif", ",", "Vn-pizz-sec-F5-ff-2c.aif", ",", "Vn-pizz-sec-F5-ff-3c.aif", ",", "Vn-pizz-sec-F5-mf-1c.aif", ",", "Vn-pizz-sec-F5-mf-2c.aif", ",", "Vn-pizz-sec-F5-mf-3c.aif", ",", "Vn-pizz-sec-F5-pp-1c.aif", ",", "Vn-pizz-sec-F5-pp-2c.aif", ",", "Vn-pizz-sec-F5-pp-3c.aif", ",", "Vn-pizz-sec-G#3-ff-4c.aif", ",", "Vn-pizz-sec-G#3-mf-4c.aif", ",", "Vn-pizz-sec-G#3-pp-4c.aif", ",", "Vn-pizz-sec-G#4-ff-3c.aif", ",", "Vn-pizz-sec-G#4-ff-4c.aif", ",", "Vn-pizz-sec-G#4-mf-3c.aif", ",", "Vn-pizz-sec-G#4-mf-4c.aif", ",", "Vn-pizz-sec-G#4-pp-3c.aif", ",", "Vn-pizz-sec-G#4-pp-4c.aif", ",", "Vn-pizz-sec-G#5-ff-1c.aif", ",", "Vn-pizz-sec-G#5-ff-2c.aif", ",", "Vn-pizz-sec-G#5-ff-3c.aif", ",", "Vn-pizz-sec-G#5-mf-1c.aif", ",", "Vn-pizz-sec-G#5-mf-2c.aif", ",", "Vn-pizz-sec-G#5-mf-3c.aif", ",", "Vn-pizz-sec-G#5-pp-1c.aif", ",", "Vn-pizz-sec-G#5-pp-2c.aif", ",", "Vn-pizz-sec-G#5-pp-3c.aif", ",", "Vn-pizz-sec-G3-ff-4c.aif", ",", "Vn-pizz-sec-G3-mf-4c.aif", ",", "Vn-pizz-sec-G3-pp-4c.aif", ",", "Vn-pizz-sec-G4-ff-3c.aif", ",", "Vn-pizz-sec-G4-ff-4c.aif", ",", "Vn-pizz-sec-G4-mf-3c.aif", ",", "Vn-pizz-sec-G4-mf-4c.aif", ",", "Vn-pizz-sec-G4-pp-3c.aif", ",", "Vn-pizz-sec-G4-pp-4c.aif", ",", "Vn-pizz-sec-G5-ff-1c.aif", ",", "Vn-pizz-sec-G5-ff-2c.aif", ",", "Vn-pizz-sec-G5-ff-3c.aif", ",", "Vn-pizz-sec-G5-mf-1c.aif", ",", "Vn-pizz-sec-G5-mf-2c.aif", ",", "Vn-pizz-sec-G5-mf-3c.aif", ",", "Vn-pizz-sec-G5-pp-1c.aif", ",", "Vn-pizz-sec-G5-pp-2c.aif", ",", "Vn-pizz-sec-G5-pp-3c.aif", ",", "Vn-pizz-bartok-A#3-ff-4c.aif", ",", "Vn-pizz-bartok-A#4-ff-2c.aif", ",", "Vn-pizz-bartok-A#4-ff-3c.aif", ",", "Vn-pizz-bartok-A#4-ff-4c.aif", ",", "Vn-pizz-bartok-A#5-ff-2c.aif", ",", "Vn-pizz-bartok-A3-ff-4c.aif", ",", "Vn-pizz-bartok-A4-ff-2c.aif", ",", "Vn-pizz-bartok-A4-ff-3c.aif", ",", "Vn-pizz-bartok-A4-ff-4c.aif", ",", "Vn-pizz-bartok-A5-ff-1c.aif", ",", "Vn-pizz-bartok-A5-ff-2c.aif", ",", "Vn-pizz-bartok-B3-ff-4c.aif", ",", "Vn-pizz-bartok-B4-ff-2c.aif", ",", "Vn-pizz-bartok-B4-ff-3c.aif", ",", "Vn-pizz-bartok-B5-ff-2c.aif", ",", "Vn-pizz-bartok-C#4-ff-4c.aif", ",", "Vn-pizz-bartok-C#5-ff-2c.aif", ",", "Vn-pizz-bartok-C#5-ff-3c.aif", ",", "Vn-pizz-bartok-C4-ff-4c.aif", ",", "Vn-pizz-bartok-C5-ff-2c.aif", ",", "Vn-pizz-bartok-C5-ff-3c.aif", ",", "Vn-pizz-bartok-C6-ff-2c.aif", ",", "Vn-pizz-bartok-D#4-ff-3c.aif", ",", "Vn-pizz-bartok-D#4-ff-4c.aif", ",", "Vn-pizz-bartok-D#5-ff-2c.aif", ",", "Vn-pizz-bartok-D#5-ff-3c.aif", ",", "Vn-pizz-bartok-D4-ff-3c.aif", ",", "Vn-pizz-bartok-D4-ff-4c.aif", ",", "Vn-pizz-bartok-D5-ff-2c.aif", ",", "Vn-pizz-bartok-D5-ff-3c.aif", ",", "Vn-pizz-bartok-E4-ff-3c.aif", ",", "Vn-pizz-bartok-E4-ff-4c.aif", ",", "Vn-pizz-bartok-E5-ff-1c.aif", ",", "Vn-pizz-bartok-E5-ff-2c.aif", ",", "Vn-pizz-bartok-E5-ff-3c.aif", ",", "Vn-pizz-bartok-F#4-ff-3c.aif", ",", "Vn-pizz-bartok-F#4-ff-4c.aif", ",", "Vn-pizz-bartok-F#5-ff-1c.aif", ",", "Vn-pizz-bartok-F#5-ff-2c.aif", ",", "Vn-pizz-bartok-F4-ff-3c.aif", ",", "Vn-pizz-bartok-F4-ff-4c.aif", ",", "Vn-pizz-bartok-F5-ff-1c.aif", ",", "Vn-pizz-bartok-F5-ff-2c.aif", ",", "Vn-pizz-bartok-G#3-ff-4c.aif", ",", "Vn-pizz-bartok-G#4-ff-3c.aif", ",", "Vn-pizz-bartok-G#4-ff-4c.aif", ",", "Vn-pizz-bartok-G#5-ff-1c.aif", ",", "Vn-pizz-bartok-G#5-ff-2c.aif", ",", "Vn-pizz-bartok-G3-ff-4c.aif", ",", "Vn-pizz-bartok-G4-ff-3c.aif", ",", "Vn-pizz-bartok-G4-ff-4c.aif", ",", "Vn-pizz-bartok-G5-ff-1c.aif", ",", "Vn-pizz-bartok-G5-ff-2c.aif", ",", "Vc-pizz-sec-A#2-ff-3c.aif", ",", "Vc-pizz-sec-A#2-mf-3c.aif", ",", "Vc-pizz-sec-A#2-pp-3c.aif", ",", "Vc-pizz-sec-A#3-ff-1c.aif", ",", "Vc-pizz-sec-A#3-ff-2c.aif", ",", "Vc-pizz-sec-A#3-mf-1c.aif", ",", "Vc-pizz-sec-A#3-mf-2c.aif", ",", "Vc-pizz-sec-A#3-pp-1c.aif", ",", "Vc-pizz-sec-A#3-pp-2c.aif", ",", "Vc-pizz-sec-A#4-ff-1c.aif", ",", "Vc-pizz-sec-A#4-mf-1c.aif", ",", "Vc-pizz-sec-A#4-pp-1c.aif", ",", "Vc-pizz-sec-A2-ff-3c.aif", ",", "Vc-pizz-sec-A2-mf-3c.aif", ",", "Vc-pizz-sec-A2-pp-3c.aif", ",", "Vc-pizz-sec-A3-ff-1c.aif", ",", "Vc-pizz-sec-A3-ff-2c.aif", ",", "Vc-pizz-sec-A3-mf-1c.aif", ",", "Vc-pizz-sec-A3-mf-2c.aif", ",", "Vc-pizz-sec-A3-pp-1c.aif", ",", "Vc-pizz-sec-A3-pp-2c.aif", ",", "Vc-pizz-sec-A4-mf-1c.aif", ",", "Vc-pizz-sec-A4-pp-1c.aif", ",", "Vc-pizz-sec-B2-ff-3c.aif", ",", "Vc-pizz-sec-B2-mf-3c.aif", ",", "Vc-pizz-sec-B2-pp-3c.aif", ",", "Vc-pizz-sec-B3-ff-1c.aif", ",", "Vc-pizz-sec-B3-mf-1c.aif", ",", "Vc-pizz-sec-B3-pp-1c.aif", ",", "Vc-pizz-sec-B4-ff-1c.aif", ",", "Vc-pizz-sec-B4-mf-1c.aif", ",", "Vc-pizz-sec-B4-pp-1c.aif", ",", "Vc-pizz-sec-C#2-ff-4c.aif", ",", "Vc-pizz-sec-C#2-mf-4c.aif", ",", "Vc-pizz-sec-C#2-pp-4c.aif", ",", "Vc-pizz-sec-C#3-ff-3c.aif", ",", "Vc-pizz-sec-C#3-mf-3c.aif", ",", "Vc-pizz-sec-C#3-pp-3c.aif", ",", "Vc-pizz-sec-C#4-ff-1c.aif", ",", "Vc-pizz-sec-C#4-mf-1c.aif", ",", "Vc-pizz-sec-C#4-pp-1c.aif", ",", "Vc-pizz-sec-C#5-ff-1c.aif", ",", "Vc-pizz-sec-C#5-mf-1c.aif", ",", "Vc-pizz-sec-C#5-pp-1c.aif", ",", "Vc-pizz-sec-C2-ff-4c.aif", ",", "Vc-pizz-sec-C2-mf-4c.aif", ",", "Vc-pizz-sec-C2-pp-4c.aif", ",", "Vc-pizz-sec-C3-ff-3c.aif", ",", "Vc-pizz-sec-C3-mf-3c.aif", ",", "Vc-pizz-sec-C3-pp-3c.aif", ",", "Vc-pizz-sec-C4-ff-1c.aif", ",", "Vc-pizz-sec-C4-mf-1c.aif", ",", "Vc-pizz-sec-C4-pp-1c.aif", ",", "Vc-pizz-sec-C5-ff-1c.aif", ",", "Vc-pizz-sec-C5-mf-1c.aif", ",", "Vc-pizz-sec-C5-pp-1c.aif", ",", "Vc-pizz-sec-D#2-ff-4c.aif", ",", "Vc-pizz-sec-D#2-mf-4c.aif", ",", "Vc-pizz-sec-D#2-pp-4c.aif", ",", "Vc-pizz-sec-D#3-ff-2c.aif", ",", "Vc-pizz-sec-D#3-ff-3c.aif", ",", "Vc-pizz-sec-D#3-mf-2c.aif", ",", "Vc-pizz-sec-D#3-mf-3c.aif", ",", "Vc-pizz-sec-D#3-pp-2c.aif", ",", "Vc-pizz-sec-D#3-pp-3c.aif", ",", "Vc-pizz-sec-D#4-ff-1c.aif", ",", "Vc-pizz-sec-D#4-mf-1c.aif", ",", "Vc-pizz-sec-D#4-pp-1c.aif", ",", "Vc-pizz-sec-D2-ff-4c.aif", ",", "Vc-pizz-sec-D2-mf-4c.aif", ",", "Vc-pizz-sec-D2-pp-4c.aif", ",", "Vc-pizz-sec-D3-ff-2c.aif", ",", "Vc-pizz-sec-D3-ff-3c.aif", ",", "Vc-pizz-sec-D3-mf-2c.aif", ",", "Vc-pizz-sec-D3-mf-3c.aif", ",", "Vc-pizz-sec-D3-pp-2c.aif", ",", "Vc-pizz-sec-D3-pp-3c.aif", ",", "Vc-pizz-sec-D4-ff-1c.aif", ",", "Vc-pizz-sec-D4-mf-1c.aif", ",", "Vc-pizz-sec-D4-pp-1c.aif", ",", "Vc-pizz-sec-D5-ff-1c.aif", ",", "Vc-pizz-sec-D5-mf-1c.aif", ",", "Vc-pizz-sec-D5-pp-1c.aif", ",", "Vc-pizz-sec-E2-ff-4c.aif", ",", "Vc-pizz-sec-E2-mf-4c.aif", ",", "Vc-pizz-sec-E2-pp-4c.aif", ",", "Vc-pizz-sec-E3-ff-2c.aif", ",", "Vc-pizz-sec-E3-mf-2c.aif", ",", "Vc-pizz-sec-E3-pp-2c.aif", ",", "Vc-pizz-sec-E4-ff-1c.aif", ",", "Vc-pizz-sec-E4-mf-1c.aif", ",", "Vc-pizz-sec-E4-pp-1c.aif", ",", "Vc-pizz-sec-F#2-ff-4c.aif", ",", "Vc-pizz-sec-F#2-mf-4c.aif", ",", "Vc-pizz-sec-F#2-pp-4c.aif", ",", "Vc-pizz-sec-F#3-ff-2c.aif", ",", "Vc-pizz-sec-F#3-mf-2c.aif", ",", "Vc-pizz-sec-F#3-pp-2c.aif", ",", "Vc-pizz-sec-F#4-ff-1c.aif", ",", "Vc-pizz-sec-F#4-mf-1c.aif", ",", "Vc-pizz-sec-F#4-pp-1c.aif", ",", "Vc-pizz-sec-F2-ff-4c.aif", ",", "Vc-pizz-sec-F2-mf-4c.aif", ",", "Vc-pizz-sec-F2-pp-4c.aif", ",", "Vc-pizz-sec-F3-ff-2c.aif", ",", "Vc-pizz-sec-F3-mf-2c.aif", ",", "Vc-pizz-sec-F3-pp-2c.aif", ",", "Vc-pizz-sec-F4-ff-1c.aif", ",", "Vc-pizz-sec-F4-mf-1c.aif", ",", "Vc-pizz-sec-F4-pp-1c.aif", ",", "Vc-pizz-sec-G#2-ff-3c.aif", ",", "Vc-pizz-sec-G#2-mf-3c.aif", ",", "Vc-pizz-sec-G#2-pp-3c.aif", ",", "Vc-pizz-sec-G#3-ff-2c.aif", ",", "Vc-pizz-sec-G#3-mf-2c.aif", ",", "Vc-pizz-sec-G#3-pp-2c.aif", ",", "Vc-pizz-sec-G#4-ff-1c.aif", ",", "Vc-pizz-sec-G#4-mf-1c.aif", ",", "Vc-pizz-sec-G#4-pp-1c.aif", ",", "Vc-pizz-sec-G2-ff-3c.aif", ",", "Vc-pizz-sec-G2-mf-3c.aif", ",", "Vc-pizz-sec-G2-pp-3c.aif", ",", "Vc-pizz-sec-G3-ff-2c.aif", ",", "Vc-pizz-sec-G3-mf-2c.aif", ",", "Vc-pizz-sec-G3-pp-2c.aif", ",", "Vc-pizz-sec-G4-ff-1c.aif", ",", "Vc-pizz-sec-G4-mf-1c.aif", ",", "Vc-pizz-sec-G4-pp-1c.aif", ",", "184_grace1.aif", ",", "184_mid1(prepdrop-bend).aif", ",", "184_mid2(tinny).aif", ",", "184_short1.aif", ",", "414a_grace1.aif", ",", "414a_mid1(prepdrop-bend).aif", ",", "414a_mid2(tinny).aif", ",", "414a_short1.aif", ",", "414b_grace1.aif", ",", "414b_mid1(prepdrop-bend).aif", ",", "414b_mid2(tinny).aif", ",", "414b_short1.aif", ",", "451_grace1.aif", ",", "451_mid1(prepdrop-bend).aif", ",", "451_mid2(tinny).aif", ",", "451_short1.aif", ",", "ms_grace1.aif", ",", "ms_mid1(prepdrop-bend).aif", ",", "ms_mid2(tinny).aif", ",", "ms_short1.aif" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4671,13 +4670,13 @@
 ,
 									"patching_rect" : [ 80.0, 118.0, 80.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p soundset-menu"
@@ -4689,7 +4688,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-64",
-									"items" : " ",
+									"items" : [ " ", ",", "Bamboo", ",", "5pizzi-droplets", ",", "clock - tic Toc", ",", "crispPizzies", ",", "Crispy Frog", ",", "Flying gestures", ",", "PizziSines", ",", "waterPizzi", ",", "woodPenta", ",", "clicks_norm", ",", "ClicksProcessed", ",", "doepfer ", ",", "dums", ",", "GlichSus", ",", "Glitch", ",", "GlitchIntrmitnt", ",", "GlitchTim", ",", "GrainyPizzi", ",", "percussion", ",", "pizzi2", ",", "Voice", ",", "amelia", ",", "1Kick", ",", "3TablaVoice", ",", "3voice-takattida", ",", "4gas", ",", "Animals", ",", "breath-Tony", ",", "GesturalVoice", ",", "musicBox", ",", "key-click-basson", ",", "key-click-clarinet", ",", "staccato", ",", "key-click-flute", ",", "pizzicato-flute", ",", "staccato-horn", ",", "key-click-Oboe", ",", "staccato-Oboe", ",", "pizzicato-bass", ",", "pizzicato-bartok-bass", ",", "pizzicato-secco-bass", ",", "pizzicato-l-vib-bass", ",", "staccato-bass", ",", "pizzicato-secco-viola", ",", "pizzicato-secco", ",", "pizzicato-bartok-violin", ",", "piano-prepared-single" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5406,13 +5405,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 29.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 13.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 13.0
+						"default_fontsize" : 13.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p SOUNDsets",
@@ -5598,7 +5597,7 @@
 					"patching_rect" : [ 406.0, 519.0, 195.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 195.0, 174.0, 15.0 ],
-					"text" : "set-descriptors 0 15"
+					"text" : "set-descriptors 17 22"
 				}
 
 			}
@@ -5859,7 +5858,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 6.0, 125.0, 170.0, 25.0 ],
-					"text" : "loaded 0 units in 0 sound files of 0. min using 0. MB RAM"
+					"text" : "loaded 5264 units in 1709 sound files of 73.7 min using 809.901733 MB RAM"
 				}
 
 			}
@@ -6956,11 +6955,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-151::obj-18" : [ "width[1]", "width", 0 ],
+			"obj-151::obj-2" : [ "damp[1]", "damp", 0 ],
 			"obj-151::obj-15" : [ "decay[1]", "decay", 0 ],
 			"obj-151::obj-23" : [ "dry[1]", "dry", 0 ],
-			"obj-151::obj-22" : [ "wet[1]", "wet", 0 ],
-			"obj-151::obj-18" : [ "width[1]", "width", 0 ],
-			"obj-151::obj-2" : [ "damp[1]", "damp", 0 ]
+			"obj-151::obj-22" : [ "wet[1]", "wet", 0 ]
 		}
 
 	}
