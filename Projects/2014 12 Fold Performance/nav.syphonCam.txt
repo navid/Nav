@@ -1,0 +1,66 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /syphonCues 99 1 /rotate% 99 1 /syphonserver% 99 1 /spotmask% 99 1 /syphonclient% 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /syphonCues 
+ 	 	 	 	 /syphonCues/view/freeze 0 
+ 	 	 	 	 /syphonCues/view/highlight 0 
+ # 
+ # Module /rotate% 
+ 	 	 	 	 /rotate%/anchor 0.500000 0.500000 
+ 	 	 	 	 /rotate%/boundmode 1 
+ 	 	 	 	 /rotate%/destination camera_capture 
+ 	 	 	 	 /rotate%/offset 0.000000 0.000000 
+ 	 	 	 	 /rotate%/rotate 0.000000 
+ 	 	 	 	 /rotate%/video/bypass 0 
+ 	 	 	 	 /rotate%/video/freeze 0 
+ 	 	 	 	 /rotate%/video/mute 0 
+ 	 	 	 	 /rotate%/video/preview 0 
+ 	 	 	 	 /rotate%/view/freeze 0 
+ 	 	 	 	 /rotate%/view/highlight 0 
+ 	 	 	 	 /rotate%/zoom 1.000000 1.000000 
+ # 
+ # Module /syphonserver% 
+ 	 	 	 	 /syphonserver%/destination camera_capture 
+ 	 	 	 	 /syphonserver%/servername Camera with oval mask 
+ 	 	 	 	 /syphonserver%/video/bypass 0 
+ 	 	 	 	 /syphonserver%/video/freeze 0 
+ 	 	 	 	 /syphonserver%/video/mute 0 
+ 	 	 	 	 /syphonserver%/video/preview 0 
+ 	 	 	 	 /syphonserver%/view/freeze 0 
+ 	 	 	 	 /syphonserver%/view/highlight 0 
+ # 
+ # Module /spotmask% 
+ 	 	 	 	 /spotmask%/destination camera_capture 
+ 	 	 	 	 /spotmask%/fade 1.000000 
+ 	 	 	 	 /spotmask%/position 0.500000 0.500000 
+ 	 	 	 	 /spotmask%/radius 0.500000 
+ 	 	 	 	 /spotmask%/shape 1.000000 0.500000 
+ 	 	 	 	 /spotmask%/video/bypass 0 
+ 	 	 	 	 /spotmask%/video/freeze 0 
+ 	 	 	 	 /spotmask%/video/mute 0 
+ 	 	 	 	 /spotmask%/video/preview 0 
+ 	 	 	 	 /spotmask%/view/freeze 0 
+ 	 	 	 	 /spotmask%/view/highlight 0 
+ # 
+ # Module /syphonclient% 
+ 	 	 	 	 /syphonclient%/destination camera_capture 
+ 	 	 	 	 /syphonclient%/matrixdim 640 480 
+ 	 	 	 	 /syphonclient%/matrixoutput 0 
+ 	 	 	 	 /syphonclient%/server 0 
+ 	 	 	 	 /syphonclient%/video/bypass 0 
+ 	 	 	 	 /syphonclient%/video/freeze 0 
+ 	 	 	 	 /syphonclient%/video/mute 0 
+ 	 	 	 	 /syphonclient%/video/preview 0 
+ 	 	 	 	 /syphonclient%/view/freeze 1 
+ 	 	 	 	 /syphonclient%/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
