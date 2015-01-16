@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 10.0, 45.0, 397.0, 629.0 ],
+		"rect" : [ 32.0, 45.0, 1362.0, 1138.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 10.0, 45.0, 397.0, 629.0 ],
+		"defrect" : [ 32.0, 45.0, 1362.0, 1138.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -245,12 +245,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 8.0,
 									"id" : "obj-70",
-									"linecount" : 23,
+									"linecount" : 22,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 180.0, 384.0, 216.0 ],
+									"patching_rect" : [ 50.0, 180.0, 386.0, 207.0 ],
 									"text" : "aperture 80. 80. 80. 80., aperturecolor 0. 0. 0. 1.984375, areasmonitoring 0, autozoom 0, backgroundimage none, backgroundimageangle 0., backgroundimageopacity 1., backgroundimagequality medium, backgroundimagescale 1., backgroundimagexoffset 0., backgroundimageyoffset 0., circularconstraint 0, cluster 0. 0. -2.4 -4.65 250. 4000., cluster_distr 0.48, cluster_end 113.44, cluster_start 41.92, defer 1, direct 0. 0. 0. 0. 250. 4000., display 1, early 0. 0. 0. -0.4 250. 4000., early_distr 0.45, early_end 46.58, early_shape 0.5, early_start 25.51, early_width 30., fh 6910., fl 250., format aed, gain 0., globalproportion 0.1, gridlines 3, gridmode circular, gridspacing 1., infinite 0, listenereditable 0, listenerpitch 0., listenerposition 0. 0. 0., listenerproportion 0.15, listenerroll 0., listeneryaw 0., modaldensity 0.72, name \"1\" \"2\" \"3\" \"4\", numanchors 0, numangulardivisions 8, numareas 0, numinternals 8, numsources 4, numspeakers 2, orientationmode yawconstraint yawconstraint yawconstraint yawconstraint, radius 1. 1. 1. 1., radiusconstraint 0, reverb_start 102.09, rightclicklock 0, room -19.95 0. 0. -2.3 250. 4000., roomairabsorption 1, roomairrolloff 10000., shoeboxcorners 0. 0. 0. 1. -1. 0., showanchors 0, showanchorslabel 0, showangulardivisions 1, showaperture 0, showareas 0, showbackgroundimage 1, showfps 0, showheadphones 0, showlegend 1, showlistener 1, showradius 0, showshoebox 0, showsources 1, showsourceslabel 1, showsourceslevels 0, showspeakers 1, showspeakershull 0, showspeakerslabel 1, showspeakerslevels 0, showspeakersprojection 0, showspeakersradius 0, showspeakerstriangulation 0, showviewer 1, sourcecolor 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1. 0.490196 1. 0. 1., sourceproportion 0.07, sourceseditable 1, sourceslevels -60. -60. -60. -60., sourcespositions -0.58147 0.492013 0. 0.57508 0.517572 0. 0.907348 0.408946 0.00639 -0.894569 0.408946 -0.019169, speakerseditable 1, speakerslevels -60. -60., speakerspositions -0.707107 0.707107 0. 0.715655 0.734824 0., speakersproportion 0.1, tr0 4.29, trh 0.2, trl 1., trm 1., useopengl 0, viewpoint top, windowtitle IrcamVerb, xoffset 0., yaw 0. 0. 0. 0., yoffset 0., zoffset 0., zoom 1., zoomlock 0,"
 								}
 
@@ -359,13 +359,13 @@
 ,
 					"patching_rect" : [ 353.0, 704.0, 18.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -1072,13 +1072,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 519.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p init"
@@ -1108,8 +1108,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 1059.0, 110.0, 20.0 ],
-					"text" : "dac~ 1 2 1 2"
+					"patching_rect" : [ 128.0, 1059.0, 77.0, 20.0 ],
+					"text" : "dac~ 1 3 4 8"
 				}
 
 			}
@@ -1478,13 +1478,13 @@
 ,
 					"patching_rect" : [ 868.0, 263.0, 80.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p pattr priority"
@@ -1497,7 +1497,7 @@
 						"catart::corpusname" : 0
 					}
 ,
-					"autorestore" : "cataRT.Montreal.json",
+					"autorestore" : "cataRT.tableTap.json",
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -1508,10 +1508,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 867.0, 288.0, 189.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"storage_rect" : [ 891, 44, 1341, 1130 ],
+						"client_rect" : [ 901, 45, 1711, 1201 ],
 						"parameter_enable" : 0,
-						"paraminitmode" : 0,
-						"client_rect" : [ 901, 45, 1711, 1201 ]
+						"storage_rect" : [ 891, 44, 1341, 1130 ],
+						"paraminitmode" : 0
 					}
 ,
 					"text" : "pattrstorage catart.lcd @flat 1 @savemode 0",
@@ -1682,13 +1682,13 @@
 ,
 					"patching_rect" : [ 342.0, 540.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p percussions"
@@ -1884,7 +1884,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 107.0, 114.0, 50.0, 19.0 ],
-									"text" : "18 16"
+									"text" : "all"
 								}
 
 							}
@@ -2473,13 +2473,13 @@
 ,
 									"patching_rect" : [ 8.0, 183.0, 92.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 9.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 9.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"fontsize" : 9.0
 									}
 ,
 									"text" : "p lookup-descriptors"
@@ -2510,7 +2510,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 95.0, 152.0, 195.0, 15.0 ],
-									"text" : "set-descriptors 18 16"
+									"text" : "set-descriptors 14 15 16 17 18 19 20 21 22 23"
 								}
 
 							}
@@ -2943,13 +2943,13 @@
 ,
 					"patching_rect" : [ 603.0, 495.0, 128.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adapt-cataRT targtutcorpus"
@@ -3131,13 +3131,13 @@
 ,
 					"patching_rect" : [ 258.0, 541.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p percussions"
@@ -3456,13 +3456,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 46.0, 49.0, 72.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p remoteZL"
@@ -3477,13 +3477,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 319.0, 33.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p IO"
@@ -3541,9 +3541,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 412.0, 45.0, 153.0, 978.0 ],
+						"rect" : [ 439.0, 61.0, 153.0, 978.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 412.0, 45.0, 153.0, 978.0 ],
+						"defrect" : [ 439.0, 61.0, 153.0, 978.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 13.0,
@@ -3628,11 +3628,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 556.0, 99.0, 111.0, 17.0 ],
 									"restore" : 									{
-										"SoundSetMatrix" : [ 0, 5, 1, 0, 7, 1, 0, 8, 1, 0, 10, 1, 0, 29, 1, 0, 31, 1, 0, 35, 1 ]
+										"SoundSetMatrix" : [ 0, 1, 1, 0, 2, 1, 0, 3, 1 ]
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u741021842"
+									"varname" : "u725031626"
 								}
 
 							}
@@ -4229,13 +4229,13 @@
 ,
 									"patching_rect" : [ 204.0, 20.0, 89.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p soundfiile-menu"
@@ -4247,7 +4247,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-101",
-									"items" : [ "01 - Flowing River (Snippet).wav", ",", "guanglinshan (Snippet).wav", ",", "01 Luyen Nam Cung.aif", ",", "03 Nhip Duoi.aif", ",", "08 Nam Ai.aif", ",", "10 Truong Tuong Tu.aif", ",", "bongosAndToms.aif", ",", "invertedSaladBowls-inWater.aif", ",", "Tube-flipFlop.aif", ",", "TumbakLoop.aif", ",", "crispyFrog-monoEdite.aif", ",", "Felix-CosmicWinter.aif", ",", "felix-Test.aif", ",", "smokedSignals.aif", ",", "track12.aif", ",", "track4.aif", ",", "sandbox-eden3.aif", ",", "184_grace1.aif", ",", "184_mid1(prepdrop-bend).aif", ",", "184_mid2(tinny).aif", ",", "184_short1.aif", ",", "414a_grace1.aif", ",", "414a_mid1(prepdrop-bend).aif", ",", "414a_mid2(tinny).aif", ",", "414a_short1.aif", ",", "414b_grace1.aif", ",", "414b_mid1(prepdrop-bend).aif", ",", "414b_mid2(tinny).aif", ",", "414b_short1.aif", ",", "451_grace1.aif", ",", "451_mid1(prepdrop-bend).aif", ",", "451_mid2(tinny).aif", ",", "451_short1.aif", ",", "ms_grace1.aif", ",", "ms_mid1(prepdrop-bend).aif", ",", "ms_mid2(tinny).aif", ",", "ms_short1.aif", ",", "184_high1(wood).aif", ",", "184_low1(varied-tones).aif", ",", "184_low2(heavyrattle-4hits.aif", ",", "184_mid1(bounces).aif", ",", "184_mid2(2hits).aif", ",", "184_mid3(damp-rattle).aif", ",", "184_mid4(paper-rattles).aif", ",", "184_mid5(many-perc-wood).aif", ",", "184_range1.aif", ",", "414a_high1(wood).aif", ",", "414a_low1(varied-tones).aif", ",", "414a_low2(heavyrattle-4hits.aif", ",", "414a_mid1(bounces).aif", ",", "414a_mid2(2hits).aif", ",", "414a_mid3(damp-rattle).aif", ",", "414a_mid4(paper-rattles).aif", ",", "414a_mid5(many-perc-wood).aif", ",", "414a_range1.aif", ",", "414b_high1(wood).aif", ",", "414b_low1(varied-tones).aif", ",", "414b_low2(heavyrattle-4hits.aif", ",", "414b_mid1(bounces).aif", ",", "414b_mid2(2hits).aif", ",", "414b_mid3(damp-rattle).aif", ",", "414b_mid4(paper-rattles).aif", ",", "414b_mid5(many-perc-wood).aif", ",", "414b_range1.aif", ",", "451_high1(wood).aif", ",", "451_low1(varied-tones).aif", ",", "451_low2(heavyrattle-4hits.aif", ",", "451_mid1(bounces).aif", ",", "451_mid2(2hits).aif", ",", "451_mid3(damp-rattle).aif", ",", "451_mid4(paper-rattles).aif", ",", "451_mid5(many-perc-wood).aif", ",", "451_range1.aif", ",", "ms_high1(wood).aif", ",", "ms_low1(varied-tones).aif", ",", "ms_low2(heavyrattle-4hits.aif", ",", "ms_mid1(bounces).aif", ",", "ms_mid2(2hits).aif", ",", "ms_mid3(damp-rattle).aif", ",", "ms_mid4(paper-rattles).aif", ",", "ms_mid5(many-perc-wood).aif", ",", "ms_range1.aif", ",", "Bn-key-cl-A#1-mf.aif", ",", "Bn-key-cl-A#2-mf.aif", ",", "Bn-key-cl-A2-mf.aif", ",", "Bn-key-cl-B2-mf.aif", ",", "Bn-key-cl-C#2-mf.aif", ",", "Bn-key-cl-C#3-mf.aif", ",", "Bn-key-cl-C2-mf.aif", ",", "Bn-key-cl-C3-mf.aif", ",", "Bn-key-cl-D#2-mf.aif", ",", "Bn-key-cl-D#3-mf.aif", ",", "Bn-key-cl-D2-mf.aif", ",", "Bn-key-cl-D3-mf.aif", ",", "Bn-key-cl-E2-mf.aif", ",", "Bn-key-cl-E3-mf.aif", ",", "Bn-key-cl-F#2-mf.aif", ",", "Bn-key-cl-F2-mf.aif", ",", "Bn-key-cl-F3-mf.aif", ",", "Bn-key-cl-G#2-mf.aif", ",", "Bn-key-cl-G2-mf.aif", ",", "Bn-harm-fngr-F#4-f.aif", ",", "Bn-harm-fngr-F#4-p.aif", ",", "Bn-harm-fngr-F4-f.aif", ",", "Bn-harm-fngr-F4-p.aif", ",", "Bn-harm-fngr-G#4-f.aif", ",", "Bn-harm-fngr-G#4-p.aif", ",", "Bn-harm-fngr-G4-f.aif", ",", "Bn-harm-fngr-G4-p.aif", ",", "Bn-fp-B1-fp.aif", ",", "Bn-fp-B2-fp.aif", ",", "Bn-fp-B3-fp.aif", ",", "Bn-fp-B4-fp.aif", ",", "Bn-fp-D#2-fp.aif", ",", "Bn-fp-D#3-fp.aif", ",", "Bn-fp-D#4-fp.aif", ",", "Bn-fp-D#5-fp.aif", ",", "Bn-fp-G2-fp.aif", ",", "Bn-fp-G3-fp.aif", ",", "Bn-fp-G4-fp.aif", ",", "Bn-stacc-A#1-mf.aif", ",", "Bn-stacc-A#2-mf.aif", ",", "Bn-stacc-A#3-mf.aif", ",", "Bn-stacc-A#4-mf.aif", ",", "Bn-stacc-D2-mf.aif", ",", "Bn-stacc-D3-mf.aif", ",", "Bn-stacc-D4-mf.aif", ",", "Bn-stacc-D5-mf.aif", ",", "Bn-stacc-F#2-mf.aif", ",", "Bn-stacc-F#3-mf.aif", ",", "Bn-stacc-F#4-mf.aif", ",", "Fl-tng-ram-A3-mf.aif", ",", "Fl-tng-ram-B3-mf.aif", ",", "Fl-tng-ram-C#3-mf.aif", ",", "Fl-tng-ram-C#4-mf.aif", ",", "Fl-tng-ram-C3-mf.aif", ",", "Fl-tng-ram-C4-mf.aif", ",", "Fl-tng-ram-D#3-mf.aif", ",", "Fl-tng-ram-D#4-mf.aif", ",", "Fl-tng-ram-D3-mf.aif", ",", "Fl-tng-ram-D4-mf.aif", ",", "Fl-tng-ram-E3-mf.aif", ",", "Fl-tng-ram-F#3-mf.aif", ",", "Fl-tng-ram-F3-mf.aif", ",", "Fl-tng-ram-G#3-mf.aif", ",", "Fl-tng-ram-G3-mf.aif", ",", "Fl-pizz-A#4-f.aif", ",", "Fl-pizz-A4-f.aif", ",", "Fl-pizz-B3-f.aif", ",", "Fl-pizz-B4-f.aif", ",", "Fl-pizz-C#4-f.aif", ",", "Fl-pizz-C#5-f.aif", ",", "Fl-pizz-C4-f.aif", ",", "Fl-pizz-C5-f.aif", ",", "Fl-pizz-D#4-f.aif", ",", "Fl-pizz-D#5-f.aif", ",", "Fl-pizz-D4-f.aif", ",", "Fl-pizz-D5-f.aif", ",", "Fl-pizz-E4-f.aif", ",", "Fl-pizz-E5-f.aif", ",", "Fl-pizz-F#4-f.aif", ",", "Fl-pizz-F#5-f.aif", ",", "Fl-pizz-F4-f.aif", ",", "Fl-pizz-F5-f.aif", ",", "Fl-pizz-G#4-f.aif", ",", "Fl-pizz-G4-f.aif", ",", "Fl-harm-fngr-A#5-f.aif", ",", "Fl-harm-fngr-A#5-p.aif", ",", "Fl-harm-fngr-A#6-f.aif", ",", "Fl-harm-fngr-A#6-p.aif", ",", "Fl-harm-fngr-A5-f.aif", ",", "Fl-harm-fngr-A5-p.aif", ",", "Fl-harm-fngr-A6-f.aif", ",", "Fl-harm-fngr-A6-p.aif", ",", "Fl-harm-fngr-B5-f.aif", ",", "Fl-harm-fngr-B5-p.aif", ",", "Fl-harm-fngr-B6-f.aif", ",", "Fl-harm-fngr-B6-p.aif", ",", "Fl-harm-fngr-C#6-f.aif", ",", "Fl-harm-fngr-C#6-p.aif", ",", "Fl-harm-fngr-C6-f.aif", ",", "Fl-harm-fngr-C6-p.aif", ",", "Fl-harm-fngr-C7-f.aif", ",", "Fl-harm-fngr-C7-p.aif", ",", "Fl-harm-fngr-D#6-f.aif", ",", "Fl-harm-fngr-D#6-p.aif", ",", "Fl-harm-fngr-D6-f.aif", ",", "Fl-harm-fngr-D6-p.aif", ",", "Fl-harm-fngr-E6-f.aif", ",", "Fl-harm-fngr-E6-p.aif", ",", "Fl-harm-fngr-F#5-f.aif", ",", "Fl-harm-fngr-F#5-p.aif", ",", "Fl-harm-fngr-F#6-f.aif", ",", "Fl-harm-fngr-F#6-p.aif", ",", "Fl-harm-fngr-F6-f.aif", ",", "Fl-harm-fngr-F6-p.aif", ",", "Fl-harm-fngr-G#5-f.aif", ",", "Fl-harm-fngr-G#5-p.aif", ",", "Fl-harm-fngr-G#6-f.aif", ",", "Fl-harm-fngr-G#6-p.aif", ",", "Fl-harm-fngr-G5-f.aif", ",", "Fl-harm-fngr-G5-p.aif", ",", "Fl-harm-fngr-G6-f.aif", ",", "Fl-harm-fngr-G6-p.aif", ",", "Fl-aeol-A#4-p.aif", ",", "Fl-aeol-A4-p.aif", ",", "Fl-aeol-B3-p.aif", ",", "Fl-aeol-B4-p.aif", ",", "Fl-aeol-C#4-p.aif", ",", "Fl-aeol-C4-p.aif", ",", "Fl-aeol-D#4-p.aif", ",", "Fl-aeol-D4-p.aif", ",", "Fl-aeol-E4-p.aif", ",", "Fl-aeol-F#4-p.aif", ",", "Fl-aeol-F4-p.aif", ",", "Fl-aeol-G#4-p.aif", ",", "Fl-aeol-G4-p.aif", ",", "Hn-stacc-B1-mf.aif", ",", "Hn-stacc-B2-mf.aif", ",", "Hn-stacc-B3-mf.aif", ",", "Hn-stacc-B4-mf.aif", ",", "Hn-stacc-D#2-mf.aif", ",", "Hn-stacc-D#3-mf.aif", ",", "Hn-stacc-D#4-mf.aif", ",", "Hn-stacc-D#5-mf.aif", ",", "Hn-stacc-G2-mf.aif", ",", "Hn-stacc-G3-mf.aif", ",", "Hn-stacc-G4-mf.aif", ",", "Ob-stacc-B3-mf.aif", ",", "Ob-stacc-B4-mf.aif", ",", "Ob-stacc-B5-mf.aif", ",", "Ob-stacc-D#4-mf.aif", ",", "Ob-stacc-D#5-mf.aif", ",", "Ob-stacc-D#6-mf.aif", ",", "Ob-stacc-G4-mf.aif", ",", "Ob-stacc-G5-mf.aif", ",", "Ob-stacc-G6-mf.aif", ",", "Cb-stacc-A#2-mf-2c.aif", ",", "Cb-stacc-A1-mf-3c.aif", ",", "Cb-stacc-B2-mf-1c.aif", ",", "Cb-stacc-B3-mf-1c.aif", ",", "Cb-stacc-C#2-mf-3c.aif", ",", "Cb-stacc-C2-mf-4c.aif", ",", "Cb-stacc-D#3-mf-1c.aif", ",", "Cb-stacc-D#4-mf-1c.aif", ",", "Cb-stacc-D2-mf-2c.aif", ",", "Cb-stacc-E1-mf-4c.aif", ",", "Cb-stacc-F#2-mf-2c.aif", ",", "Cb-stacc-F2-mf-3c.aif", ",", "Cb-stacc-G#1-mf-4c.aif", ",", "Cb-stacc-G2-mf-1c.aif", ",", "Cb-stacc-G3-mf-1c.aif", ",", "Cb-stacc-G4-mf-1c.aif", ",", "Cb-pizz-sec-A#1-ff-3c.aif", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#1-mf-3c.aif", ",", "Cb-pizz-sec-A#1-mf-4c.aif", ",", "Cb-pizz-sec-A#1-pp-3c.aif", ",", "Cb-pizz-sec-A#1-pp-4c.aif", ",", "Cb-pizz-sec-A#2-ff-1c.aif", ",", "Cb-pizz-sec-A#2-ff-2c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#2-mf-2c.aif", ",", "Cb-pizz-sec-A#2-pp-1c.aif", ",", "Cb-pizz-sec-A#2-pp-2c.aif", ",", "Cb-pizz-sec-A#3-ff-1c.aif", ",", "Cb-pizz-sec-A#3-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-ff-3c.aif", ",", "Cb-pizz-sec-A1-ff-4c.aif", ",", "Cb-pizz-sec-A1-mf-3c.aif", ",", "Cb-pizz-sec-A1-mf-4c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A1-pp-4c.aif", ",", "Cb-pizz-sec-A2-ff-1c.aif", ",", "Cb-pizz-sec-A2-ff-2c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A2-mf-2c.aif", ",", "Cb-pizz-sec-A2-pp-1c.aif", ",", "Cb-pizz-sec-A2-pp-2c.aif", ",", "Cb-pizz-sec-A3-ff-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-A3-pp-1c.aif", ",", "Cb-pizz-sec-B1-ff-3c.aif", ",", "Cb-pizz-sec-B1-ff-4c.aif", ",", "Cb-pizz-sec-B1-mf-3c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B1-pp-3c.aif", ",", "Cb-pizz-sec-B1-pp-4c.aif", ",", "Cb-pizz-sec-B2-ff-1c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B2-mf-1c.aif", ",", "Cb-pizz-sec-B2-mf-2c.aif", ",", "Cb-pizz-sec-B2-pp-1c.aif", ",", "Cb-pizz-sec-B2-pp-2c.aif", ",", "Cb-pizz-sec-B3-ff-1c.aif", ",", "Cb-pizz-sec-B3-mf-1c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-ff-3c.aif", ",", "Cb-pizz-sec-C#2-ff-4c.aif", ",", "Cb-pizz-sec-C#2-mf-3c.aif", ",", "Cb-pizz-sec-C#2-mf-4c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#2-pp-4c.aif", ",", "Cb-pizz-sec-C#3-ff-1c.aif", ",", "Cb-pizz-sec-C#3-mf-1c.aif", ",", "Cb-pizz-sec-C#3-pp-1c.aif", ",", "Cb-pizz-sec-C#4-ff-1c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C#4-pp-1c.aif", ",", "Cb-pizz-sec-C2-ff-3c.aif", ",", "Cb-pizz-sec-C2-ff-4c.aif", ",", "Cb-pizz-sec-C2-mf-3c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-C2-pp-3c.aif", ",", "Cb-pizz-sec-C2-pp-4c.aif", ",", "Cb-pizz-sec-C3-ff-1c.aif", ",", "Cb-pizz-sec-C3-ff-2c.aif", ",", "Cb-pizz-sec-C3-mf-1c.aif", ",", "Cb-pizz-sec-C3-mf-2c.aif", ",", "Cb-pizz-sec-C3-pp-1c.aif", ",", "Cb-pizz-sec-C3-pp-2c.aif", ",", "Cb-pizz-sec-C4-ff-1c.aif", ",", "Cb-pizz-sec-C4-mf-1c.aif", ",", "Cb-pizz-sec-C4-pp-1c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#2-ff-3c.aif", ",", "Cb-pizz-sec-D#2-mf-2c.aif", ",", "Cb-pizz-sec-D#2-mf-3c.aif", ",", "Cb-pizz-sec-D#2-pp-2c.aif", ",", "Cb-pizz-sec-D#2-pp-3c.aif", ",", "Cb-pizz-sec-D#3-ff-1c.aif", ",", "Cb-pizz-sec-D#3-mf-1c.aif", ",", "Cb-pizz-sec-D#3-pp-1c.aif", ",", "Cb-pizz-sec-D#4-ff-1c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-D#4-pp-1c.aif", ",", "Cb-pizz-sec-D2-ff-2c.aif", ",", "Cb-pizz-sec-D2-ff-3c.aif", ",", "Cb-pizz-sec-D2-ff-4c.aif", ",", "Cb-pizz-sec-D2-mf-2c.aif", ",", "Cb-pizz-sec-D2-mf-3c.aif", ",", "Cb-pizz-sec-D2-mf-4c.aif", ",", "Cb-pizz-sec-D2-pp-2c.aif", ",", "Cb-pizz-sec-D2-pp-3c.aif", ",", "Cb-pizz-sec-D2-pp-4c.aif", ",", "Cb-pizz-sec-D3-ff-1c.aif", ",", "Cb-pizz-sec-D3-mf-1c.aif", ",", "Cb-pizz-sec-D3-pp-1c.aif", ",", "Cb-pizz-sec-D4-ff-1c.aif", ",", "Cb-pizz-sec-D4-mf-1c.aif", ",", "Cb-pizz-sec-D4-pp-1c.aif", ",", "Cb-pizz-sec-E1-ff-4c.aif", ",", "Cb-pizz-sec-E1-mf-4c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E2-ff-2c.aif", ",", "Cb-pizz-sec-E2-ff-3c.aif", ",", "Cb-pizz-sec-E2-mf-2c.aif", ",", "Cb-pizz-sec-E2-mf-3c.aif", ",", "Cb-pizz-sec-E2-pp-2c.aif", ",", "Cb-pizz-sec-E2-pp-3c.aif", ",", "Cb-pizz-sec-E3-ff-1c.aif", ",", "Cb-pizz-sec-E3-mf-1c.aif", ",", "Cb-pizz-sec-E3-pp-1c.aif", ",", "Cb-pizz-sec-E4-ff-1c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-E4-pp-1c.aif", ",", "Cb-pizz-sec-F#1-ff-4c.aif", ",", "Cb-pizz-sec-F#1-mf-4c.aif", ",", "Cb-pizz-sec-F#1-pp-4c.aif", ",", "Cb-pizz-sec-F#2-ff-2c.aif", ",", "Cb-pizz-sec-F#2-ff-3c.aif", ",", "Cb-pizz-sec-F#2-mf-2c.aif", ",", "Cb-pizz-sec-F#2-mf-3c.aif", ",", "Cb-pizz-sec-F#2-pp-2c.aif", ",", "Cb-pizz-sec-F#2-pp-3c.aif", ",", "Cb-pizz-sec-F#3-ff-1c.aif", ",", "Cb-pizz-sec-F#3-mf-1c.aif", ",", "Cb-pizz-sec-F#3-pp-1c.aif", ",", "Cb-pizz-sec-F1-ff-4c.aif", ",", "Cb-pizz-sec-F1-mf-4c.aif", ",", "Cb-pizz-sec-F1-pp-4c.aif", ",", "Cb-pizz-sec-F2-ff-2c.aif", ",", "Cb-pizz-sec-F2-ff-3c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-F2-mf-3c.aif", ",", "Cb-pizz-sec-F2-pp-2c.aif", ",", "Cb-pizz-sec-F2-pp-3c.aif", ",", "Cb-pizz-sec-F3-ff-1c.aif", ",", "Cb-pizz-sec-F3-mf-1c.aif", ",", "Cb-pizz-sec-F3-pp-1c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G#1-mf-4c.aif", ",", "Cb-pizz-sec-G#1-pp-4c.aif", ",", "Cb-pizz-sec-G#2-ff-1c.aif", ",", "Cb-pizz-sec-G#2-ff-2c.aif", ",", "Cb-pizz-sec-G#2-mf-1c.aif", ",", "Cb-pizz-sec-G#2-mf-2c.aif", ",", "Cb-pizz-sec-G#2-pp-1c.aif", ",", "Cb-pizz-sec-G#2-pp-2c.aif", ",", "Cb-pizz-sec-G#3-ff-1c.aif", ",", "Cb-pizz-sec-G#3-mf-1c.aif", ",", "Cb-pizz-sec-G#3-pp-1c.aif", ",", "Cb-pizz-sec-G1-ff-4c.aif", ",", "Cb-pizz-sec-G1-mf-4c.aif", ",", "Cb-pizz-sec-G1-pp-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G2-ff-2c.aif", ",", "Cb-pizz-sec-G2-ff-3c.aif", ",", "Cb-pizz-sec-G2-mf-1c.aif", ",", "Cb-pizz-sec-G2-mf-2c.aif", ",", "Cb-pizz-sec-G2-mf-3c.aif", ",", "Cb-pizz-sec-G2-pp-1c.aif", ",", "Cb-pizz-sec-G2-pp-2c.aif", ",", "Cb-pizz-sec-G2-pp-3c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Cb-pizz-sec-G3-mf-1c.aif", ",", "Cb-pizz-sec-G3-pp-1c.aif", ",", "Cb-pizz-bartok-A#1-ff-3c.aif", ",", "Cb-pizz-bartok-A#1-ff-4c.aif", ",", "Cb-pizz-bartok-A#2-ff-1c.aif", ",", "Cb-pizz-bartok-A#2-ff-2c.aif", ",", "Cb-pizz-bartok-A#3-ff-1c.aif", ",", "Cb-pizz-bartok-A1-ff-3c.aif", ",", "Cb-pizz-bartok-A1-ff-4c.aif", ",", "Cb-pizz-bartok-A2-ff-1c.aif", ",", "Cb-pizz-bartok-A2-ff-2c.aif", ",", "Cb-pizz-bartok-A3-ff-1c.aif", ",", "Cb-pizz-bartok-B1-ff-3c.aif", ",", "Cb-pizz-bartok-B1-ff-4c.aif", ",", "Cb-pizz-bartok-B2-ff-1c.aif", ",", "Cb-pizz-bartok-B2-ff-2c.aif", ",", "Cb-pizz-bartok-B3-ff-1c.aif", ",", "Cb-pizz-bartok-C#2-ff-3c.aif", ",", "Cb-pizz-bartok-C#2-ff-4c.aif", ",", "Cb-pizz-bartok-C#3-ff-1c.aif", ",", "Cb-pizz-bartok-C#4-ff-1c.aif", ",", "Cb-pizz-bartok-C2-ff-3c.aif", ",", "Cb-pizz-bartok-C2-ff-4c.aif", ",", "Cb-pizz-bartok-C3-ff-1c.aif", ",", "Cb-pizz-bartok-C3-ff-2c.aif", ",", "Cb-pizz-bartok-C4-ff-1c.aif", ",", "Cb-pizz-bartok-D#2-ff-2c.aif", ",", "Cb-pizz-bartok-D#2-ff-3c.aif", ",", "Cb-pizz-bartok-D#3-ff-1c.aif", ",", "Cb-pizz-bartok-D#4-ff-1c.aif", ",", "Cb-pizz-bartok-D2-ff-3c.aif", ",", "Cb-pizz-bartok-D2-ff-4c.aif", ",", "Cb-pizz-bartok-D3-ff-1c.aif", ",", "Cb-pizz-bartok-D4-ff-1c.aif", ",", "Cb-pizz-bartok-E1-ff-4c.aif", ",", "Cb-pizz-bartok-E2-ff-2c.aif", ",", "Cb-pizz-bartok-E2-ff-3c.aif", ",", "Cb-pizz-bartok-E3-ff-1c.aif", ",", "Cb-pizz-bartok-E4-ff-1c.aif", ",", "Cb-pizz-bartok-F#1-ff-4c.aif", ",", "Cb-pizz-bartok-F#2-ff-2c.aif", ",", "Cb-pizz-bartok-F#2-ff-3c.aif", ",", "Cb-pizz-bartok-F#3-ff-1c.aif", ",", "Cb-pizz-bartok-F1-ff-4c.aif", ",", "Cb-pizz-bartok-F2-ff-2c.aif", ",", "Cb-pizz-bartok-F2-ff-3c.aif", ",", "Cb-pizz-bartok-F3-ff-1c.aif", ",", "Cb-pizz-bartok-G#1-ff-4c.aif", ",", "Cb-pizz-bartok-G#2-ff-1c.aif", ",", "Cb-pizz-bartok-G#2-ff-2c.aif", ",", "Cb-pizz-bartok-G#3-ff-1c.aif", ",", "Cb-pizz-bartok-G1-ff-4c.aif", ",", "Cb-pizz-bartok-G2-ff-1c.aif", ",", "Cb-pizz-bartok-G2-ff-2c.aif", ",", "Cb-pizz-bartok-G2-ff-3c.aif", ",", "Cb-pizz-bartok-G3-ff-1c.aif", ",", "Cb-pizz-lv-A#1-ff-3c.aif", ",", "Cb-pizz-lv-A#1-ff-4c.aif", ",", "Cb-pizz-lv-A#1-mf-3c.aif", ",", "Cb-pizz-lv-A#1-mf-4c.aif", ",", "Cb-pizz-lv-A#1-pp-3c.aif", ",", "Cb-pizz-lv-A#1-pp-4c.aif", ",", "Cb-pizz-lv-A#2-ff-1c.aif", ",", "Cb-pizz-lv-A#2-ff-2c.aif", ",", "Cb-pizz-lv-A#2-mf-1c.aif", ",", "Cb-pizz-lv-A#2-mf-2c.aif", ",", "Cb-pizz-lv-A#2-pp-1c.aif", ",", "Cb-pizz-lv-A#2-pp-2c.aif", ",", "Cb-pizz-lv-A#3-ff-1c.aif", ",", "Cb-pizz-lv-A#3-mf-1c.aif", ",", "Cb-pizz-lv-A#3-pp-1c.aif", ",", "Cb-pizz-lv-A1-ff-3c.aif", ",", "Cb-pizz-lv-A1-ff-4c.aif", ",", "Cb-pizz-lv-A1-mf-3c.aif", ",", "Cb-pizz-lv-A1-mf-4c.aif", ",", "Cb-pizz-lv-A1-pp-3c.aif", ",", "Cb-pizz-lv-A1-pp-4c.aif", ",", "Cb-pizz-lv-A2-ff-1c.aif", ",", "Cb-pizz-lv-A2-ff-2c.aif", ",", "Cb-pizz-lv-A2-mf-1c.aif", ",", "Cb-pizz-lv-A2-mf-2c.aif", ",", "Cb-pizz-lv-A2-pp-1c.aif", ",", "Cb-pizz-lv-A2-pp-2c.aif", ",", "Cb-pizz-lv-A3-ff-1c.aif", ",", "Cb-pizz-lv-A3-mf-1c.aif", ",", "Cb-pizz-lv-A3-pp-1c.aif", ",", "Cb-pizz-lv-B1-ff-3c.aif", ",", "Cb-pizz-lv-B1-ff-4c.aif", ",", "Cb-pizz-lv-B1-mf-3c.aif", ",", "Cb-pizz-lv-B1-mf-4c.aif", ",", "Cb-pizz-lv-B1-pp-3c.aif", ",", "Cb-pizz-lv-B1-pp-4c.aif", ",", "Cb-pizz-lv-B2-ff-1c.aif", ",", "Cb-pizz-lv-B2-ff-2c.aif", ",", "Cb-pizz-lv-B2-mf-1c.aif", ",", "Cb-pizz-lv-B2-mf-2c.aif", ",", "Cb-pizz-lv-B2-pp-1c.aif", ",", "Cb-pizz-lv-B2-pp-2c.aif", ",", "Cb-pizz-lv-B3-ff-1c.aif", ",", "Cb-pizz-lv-B3-mf-1c.aif", ",", "Cb-pizz-lv-B3-pp-1c.aif", ",", "Cb-pizz-lv-C#2-ff-3c.aif", ",", "Cb-pizz-lv-C#2-ff-4c.aif", ",", "Cb-pizz-lv-C#2-mf-3c.aif", ",", "Cb-pizz-lv-C#2-mf-4c.aif", ",", "Cb-pizz-lv-C#2-pp-3c.aif", ",", "Cb-pizz-lv-C#2-pp-4c.aif", ",", "Cb-pizz-lv-C#3-ff-1c.aif", ",", "Cb-pizz-lv-C#3-mf-1c.aif", ",", "Cb-pizz-lv-C#3-pp-1c.aif", ",", "Cb-pizz-lv-C#4-ff-1c.aif", ",", "Cb-pizz-lv-C#4-mf-1c.aif", ",", "Cb-pizz-lv-C#4-pp-1c.aif", ",", "Cb-pizz-lv-C2-ff-3c.aif", ",", "Cb-pizz-lv-C2-ff-4c.aif", ",", "Cb-pizz-lv-C2-mf-3c.aif", ",", "Cb-pizz-lv-C2-mf-4c.aif", ",", "Cb-pizz-lv-C2-pp-3c.aif", ",", "Cb-pizz-lv-C2-pp-4c.aif", ",", "Cb-pizz-lv-C3-ff-1c.aif", ",", "Cb-pizz-lv-C3-ff-2c.aif", ",", "Cb-pizz-lv-C3-mf-1c.aif", ",", "Cb-pizz-lv-C3-mf-2c.aif", ",", "Cb-pizz-lv-C3-pp-1c.aif", ",", "Cb-pizz-lv-C3-pp-2c.aif", ",", "Cb-pizz-lv-C4-ff-1c.aif", ",", "Cb-pizz-lv-C4-mf-1c.aif", ",", "Cb-pizz-lv-C4-pp-1c.aif", ",", "Cb-pizz-lv-D#2-ff-2c.aif", ",", "Cb-pizz-lv-D#2-ff-3c.aif", ",", "Cb-pizz-lv-D#2-mf-2c.aif", ",", "Cb-pizz-lv-D#2-mf-3c.aif", ",", "Cb-pizz-lv-D#2-pp-2c.aif", ",", "Cb-pizz-lv-D#2-pp-3c.aif", ",", "Cb-pizz-lv-D#3-ff-1c.aif", ",", "Cb-pizz-lv-D#3-mf-1c.aif", ",", "Cb-pizz-lv-D#3-pp-1c.aif", ",", "Cb-pizz-lv-D#4-ff-1c.aif", ",", "Cb-pizz-lv-D#4-mf-1c.aif", ",", "Cb-pizz-lv-D#4-pp-1c.aif", ",", "Cb-pizz-lv-D2-ff-2c.aif", ",", "Cb-pizz-lv-D2-ff-3c.aif", ",", "Cb-pizz-lv-D2-ff-4c.aif", ",", "Cb-pizz-lv-D2-mf-2c.aif", ",", "Cb-pizz-lv-D2-mf-3c.aif", ",", "Cb-pizz-lv-D2-mf-4c.aif", ",", "Cb-pizz-lv-D2-pp-2c.aif", ",", "Cb-pizz-lv-D2-pp-3c.aif", ",", "Cb-pizz-lv-D2-pp-4c.aif", ",", "Cb-pizz-lv-D3-mf-1c.aif", ",", "Cb-pizz-lv-D3-pp-1c.aif", ",", "Cb-pizz-lv-D4-ff-1c.aif", ",", "Cb-pizz-lv-D4-mf-1c.aif", ",", "Cb-pizz-lv-D4-pp-1c.aif", ",", "Cb-pizz-lv-E1-ff-4c.aif", ",", "Cb-pizz-lv-E1-mf-4c.aif", ",", "Cb-pizz-lv-E1-pp-4c.aif", ",", "Cb-pizz-lv-E2-ff-2c.aif", ",", "Cb-pizz-lv-E2-ff-3c.aif", ",", "Cb-pizz-lv-E2-mf-2c.aif", ",", "Cb-pizz-lv-E2-mf-3c.aif", ",", "Cb-pizz-lv-E2-pp-2c.aif", ",", "Cb-pizz-lv-E2-pp-3c.aif", ",", "Cb-pizz-lv-E3-ff-1c.aif", ",", "Cb-pizz-lv-E3-mf-1c.aif", ",", "Cb-pizz-lv-E3-pp-1c.aif", ",", "Cb-pizz-lv-E4-ff-1c.aif", ",", "Cb-pizz-lv-E4-mf-1c.aif", ",", "Cb-pizz-lv-E4-pp-1c.aif", ",", "Cb-pizz-lv-F#1-ff-4c.aif", ",", "Cb-pizz-lv-F#1-mf-4c.aif", ",", "Cb-pizz-lv-F#1-pp-4c.aif", ",", "Cb-pizz-lv-F#2-ff-2c.aif", ",", "Cb-pizz-lv-F#2-ff-3c.aif", ",", "Cb-pizz-lv-F#2-mf-2c.aif", ",", "Cb-pizz-lv-F#2-mf-3c.aif", ",", "Cb-pizz-lv-F#2-pp-2c.aif", ",", "Cb-pizz-lv-F#2-pp-3c.aif", ",", "Cb-pizz-lv-F#3-ff-1c.aif", ",", "Cb-pizz-lv-F#3-mf-1c.aif", ",", "Cb-pizz-lv-F#3-pp-1c.aif", ",", "Cb-pizz-lv-F1-ff-4c.aif", ",", "Cb-pizz-lv-F1-mf-4c.aif", ",", "Cb-pizz-lv-F1-pp-4c.aif", ",", "Cb-pizz-lv-F2-ff-2c.aif", ",", "Cb-pizz-lv-F2-ff-3c.aif", ",", "Cb-pizz-lv-F2-mf-2c.aif", ",", "Cb-pizz-lv-F2-mf-3c.aif", ",", "Cb-pizz-lv-F2-pp-2c.aif", ",", "Cb-pizz-lv-F2-pp-3c.aif", ",", "Cb-pizz-lv-F3-ff-1c.aif", ",", "Cb-pizz-lv-F3-mf-1c.aif", ",", "Cb-pizz-lv-F3-pp-1c.aif", ",", "Cb-pizz-lv-G#1-ff-4c.aif", ",", "Cb-pizz-lv-G#1-mf-4c.aif", ",", "Cb-pizz-lv-G#1-pp-4c.aif", ",", "Cb-pizz-lv-G#2-ff-1c.aif", ",", "Cb-pizz-lv-G#2-ff-2c.aif", ",", "Cb-pizz-lv-G#2-mf-1c.aif", ",", "Cb-pizz-lv-G#2-mf-2c.aif", ",", "Cb-pizz-lv-G#2-pp-1c.aif", ",", "Cb-pizz-lv-G#2-pp-2c.aif", ",", "Cb-pizz-lv-G#3-ff-1c.aif", ",", "Cb-pizz-lv-G#3-mf-1c.aif", ",", "Cb-pizz-lv-G#3-pp-1c.aif", ",", "Cb-pizz-lv-G1-ff-4c.aif", ",", "Cb-pizz-lv-G1-mf-4c.aif", ",", "Cb-pizz-lv-G1-pp-4c.aif", ",", "Cb-pizz-lv-G2-ff-1c.aif", ",", "Cb-pizz-lv-G2-ff-2c.aif", ",", "Cb-pizz-lv-G2-ff-3c.aif", ",", "Cb-pizz-lv-G2-mf-1c.aif", ",", "Cb-pizz-lv-G2-mf-2c.aif", ",", "Cb-pizz-lv-G2-mf-3c.aif", ",", "Cb-pizz-lv-G2-pp-1c.aif", ",", "Cb-pizz-lv-G2-pp-2c.aif", ",", "Cb-pizz-lv-G2-pp-3c.aif", ",", "Cb-pizz-lv-G3-ff-1c.aif", ",", "Cb-pizz-lv-G3-mf-1c.aif", ",", "Cb-pizz-lv-G3-pp-1c.aif", ",", "Va-stacc-A#4-mf-2c.aif", ",", "Va-stacc-A4-mf-1c.aif", ",", "Va-stacc-A5-mf-1c.aif", ",", "Va-stacc-A6-mf-1c.aif", ",", "Va-stacc-B3-mf-3c.aif", ",", "Va-stacc-C#5-mf-1c.aif", ",", "Va-stacc-C#6-mf-1c.aif", ",", "Va-stacc-C3-mf-4c.aif", ",", "Va-stacc-C4-mf-4c.aif", ",", "Va-stacc-D#4-mf-3c.aif", ",", "Va-stacc-D4-mf-2c.aif", ",", "Va-stacc-D5-mf-2c.aif", ",", "Va-stacc-E3-mf-4c.aif", ",", "Va-stacc-F#4-mf-2c.aif", ",", "Va-stacc-F5-mf-1c.aif", ",", "Va-stacc-F6-mf-1c.aif", ",", "Va-stacc-G#3-mf-4c.aif", ",", "Va-stacc-G3-mf-3c.aif", ",", "Va-stacc-G4-mf-3c.aif", ",", "Va-pizz-sec-A#3-ff-3c.aif", ",", "Va-pizz-sec-A#3-ff-4c.aif", ",", "Va-pizz-sec-A#3-mf-3c.aif", ",", "Va-pizz-sec-A#3-mf-4c.aif", ",", "Va-pizz-sec-A#3-pp-3c.aif", ",", "Va-pizz-sec-A#3-pp-4c.aif", ",", "Va-pizz-sec-A#4-ff-1c.aif", ",", "Va-pizz-sec-A#4-ff-2c.aif", ",", "Va-pizz-sec-A#4-mf-1c.aif", ",", "Va-pizz-sec-A#4-mf-2c.aif", ",", "Va-pizz-sec-A#4-pp-1c.aif", ",", "Va-pizz-sec-A#4-pp-2c.aif", ",", "Va-pizz-sec-A3-ff-3c.aif", ",", "Va-pizz-sec-A3-ff-4c.aif", ",", "Va-pizz-sec-A3-mf-3c.aif", ",", "Va-pizz-sec-A3-mf-4c.aif", ",", "Va-pizz-sec-A3-pp-3c.aif", ",", "Va-pizz-sec-A3-pp-4c.aif", ",", "Va-pizz-sec-A4-ff-1c.aif", ",", "Va-pizz-sec-A4-ff-2c.aif", ",", "Va-pizz-sec-A4-mf-1c.aif", ",", "Va-pizz-sec-A4-pp-1c.aif", ",", "Va-pizz-sec-A4-pp-2c.aif", ",", "Va-pizz-sec-A5-ff-1c.aif", ",", "Va-pizz-sec-A5-mf-1c.aif", ",", "Va-pizz-sec-A5-pp-1c.aif", ",", "Va-pizz-sec-B3-ff-3c.aif", ",", "Va-pizz-sec-B3-ff-4c.aif", ",", "Va-pizz-sec-B3-mf-3c.aif", ",", "Va-pizz-sec-B3-mf-4c.aif", ",", "Va-pizz-sec-B3-pp-3c.aif", ",", "Va-pizz-sec-B3-pp-4c.aif", ",", "Va-pizz-sec-B4-ff-1c.aif", ",", "Va-pizz-sec-B4-ff-2c.aif", ",", "Va-pizz-sec-B4-mf-1c.aif", ",", "Va-pizz-sec-B4-mf-2c.aif", ",", "Va-pizz-sec-B4-pp-1c.aif", ",", "Va-pizz-sec-B4-pp-2c.aif", ",", "Va-pizz-sec-C#3-ff-4c.aif", ",", "Va-pizz-sec-C#3-mf-4c.aif", ",", "Va-pizz-sec-C#3-pp-4c.aif", ",", "Va-pizz-sec-C#4-ff-3c.aif", ",", "Va-pizz-sec-C#4-mf-3c.aif", ",", "Va-pizz-sec-C#4-pp-3c.aif", ",", "Va-pizz-sec-C#5-ff-1c.aif", ",", "Va-pizz-sec-C#5-ff-2c.aif", ",", "Va-pizz-sec-C#5-mf-1c.aif", ",", "Va-pizz-sec-C#5-mf-2c.aif", ",", "Va-pizz-sec-C#5-pp-1c.aif", ",", "Va-pizz-sec-C#5-pp-2c.aif", ",", "Va-pizz-sec-C3-ff-4c.aif", ",", "Va-pizz-sec-C3-mf-4c.aif", ",", "Va-pizz-sec-C3-pp-4c.aif", ",", "Va-pizz-sec-C4-ff-3c.aif", ",", "Va-pizz-sec-C4-ff-4c.aif", ",", "Va-pizz-sec-C4-mf-3c.aif", ",", "Va-pizz-sec-C4-mf-4c.aif", ",", "Va-pizz-sec-C4-pp-3c.aif", ",", "Va-pizz-sec-C4-pp-4c.aif", ",", "Va-pizz-sec-C5-ff-1c.aif", ",", "Va-pizz-sec-C5-ff-2c.aif", ",", "Va-pizz-sec-C5-mf-1c.aif", ",", "Va-pizz-sec-C5-mf-2c.aif", ",", "Va-pizz-sec-C5-pp-2c.aif", ",", "Va-pizz-sec-D#3-ff-4c.aif", ",", "Va-pizz-sec-D#3-mf-4c.aif", ",", "Va-pizz-sec-D#3-pp-4c.aif", ",", "Va-pizz-sec-D#4-ff-2c.aif", ",", "Va-pizz-sec-D#4-ff-3c.aif", ",", "Va-pizz-sec-D#4-mf-2c.aif", ",", "Va-pizz-sec-D#4-mf-3c.aif", ",", "Va-pizz-sec-D#4-pp-2c.aif", ",", "Va-pizz-sec-D#4-pp-3c.aif", ",", "Va-pizz-sec-D#5-ff-1c.aif", ",", "Va-pizz-sec-D#5-mf-1c.aif", ",", "Va-pizz-sec-D#5-pp-1c.aif", ",", "Va-pizz-sec-D3-ff-4c.aif", ",", "Va-pizz-sec-D3-mf-4c.aif", ",", "Va-pizz-sec-D3-pp-4c.aif", ",", "Va-pizz-sec-D4-ff-2c.aif", ",", "Va-pizz-sec-D4-ff-3c.aif", ",", "Va-pizz-sec-D4-mf-2c.aif", ",", "Va-pizz-sec-D4-mf-3c.aif", ",", "Va-pizz-sec-D4-pp-2c.aif", ",", "Va-pizz-sec-D4-pp-3c.aif", ",", "Va-pizz-sec-D5-ff-1c.aif", ",", "Va-pizz-sec-D5-ff-2c.aif", ",", "Va-pizz-sec-D5-mf-1c.aif", ",", "Va-pizz-sec-D5-mf-2c.aif", ",", "Va-pizz-sec-D5-pp-1c.aif", ",", "Va-pizz-sec-D5-pp-2c.aif", ",", "Va-pizz-sec-E3-ff-4c.aif", ",", "Va-pizz-sec-E3-mf-4c.aif", ",", "Va-pizz-sec-E3-pp-4c.aif", ",", "Va-pizz-sec-E4-ff-2c.aif", ",", "Va-pizz-sec-E4-ff-3c.aif", ",", "Va-pizz-sec-E4-mf-2c.aif", ",", "Va-pizz-sec-E4-mf-3c.aif", ",", "Va-pizz-sec-E4-pp-2c.aif", ",", "Va-pizz-sec-E4-pp-3c.aif", ",", "Va-pizz-sec-E5-ff-1c.aif", ",", "Va-pizz-sec-E5-mf-1c.aif", ",", "Va-pizz-sec-E5-pp-1c.aif", ",", "Va-pizz-sec-F#3-ff-4c.aif", ",", "Va-pizz-sec-F#3-mf-4c.aif", ",", "Va-pizz-sec-F#3-pp-4c.aif", ",", "Va-pizz-sec-F#4-ff-2c.aif", ",", "Va-pizz-sec-F#4-ff-3c.aif", ",", "Va-pizz-sec-F#4-mf-2c.aif", ",", "Va-pizz-sec-F#4-mf-3c.aif", ",", "Va-pizz-sec-F#4-pp-2c.aif", ",", "Va-pizz-sec-F#4-pp-3c.aif", ",", "Va-pizz-sec-F#5-ff-1c.aif", ",", "Va-pizz-sec-F#5-mf-1c.aif", ",", "Va-pizz-sec-F#5-pp-1c.aif", ",", "Va-pizz-sec-F3-ff-4c.aif", ",", "Va-pizz-sec-F3-mf-4c.aif", ",", "Va-pizz-sec-F3-pp-4c.aif", ",", "Va-pizz-sec-F4-ff-2c.aif", ",", "Va-pizz-sec-F4-ff-3c.aif", ",", "Va-pizz-sec-F4-mf-2c.aif", ",", "Va-pizz-sec-F4-mf-3c.aif", ",", "Va-pizz-sec-F4-pp-2c.aif", ",", "Va-pizz-sec-F4-pp-3c.aif", ",", "Va-pizz-sec-F5-ff-1c.aif", ",", "Va-pizz-sec-F5-mf-1c.aif", ",", "Va-pizz-sec-F5-pp-1c.aif", ",", "Va-pizz-sec-G#3-ff-3c.aif", ",", "Va-pizz-sec-G#3-ff-4c.aif", ",", "Va-pizz-sec-G#3-mf-3c.aif", ",", "Va-pizz-sec-G#3-mf-4c.aif", ",", "Va-pizz-sec-G#3-pp-3c.aif", ",", "Va-pizz-sec-G#3-pp-4c.aif", ",", "Va-pizz-sec-G#4-ff-2c.aif", ",", "Va-pizz-sec-G#4-mf-2c.aif", ",", "Va-pizz-sec-G#4-pp-2c.aif", ",", "Va-pizz-sec-G#5-ff-1c.aif", ",", "Va-pizz-sec-G#5-mf-1c.aif", ",", "Va-pizz-sec-G#5-pp-1c.aif", ",", "Va-pizz-sec-G3-ff-3c.aif", ",", "Va-pizz-sec-G3-ff-4c.aif", ",", "Va-pizz-sec-G3-mf-3c.aif", ",", "Va-pizz-sec-G3-mf-4c.aif", ",", "Va-pizz-sec-G3-pp-3c.aif", ",", "Va-pizz-sec-G3-pp-4c.aif", ",", "Va-pizz-sec-G4-ff-2c.aif", ",", "Va-pizz-sec-G4-ff-3c.aif", ",", "Va-pizz-sec-G4-mf-2c.aif", ",", "Va-pizz-sec-G4-mf-3c.aif", ",", "Va-pizz-sec-G4-pp-2c.aif", ",", "Va-pizz-sec-G4-pp-3c.aif", ",", "Va-pizz-sec-G5-ff-1c.aif", ",", "Va-pizz-sec-G5-mf-1c.aif", ",", "Va-pizz-sec-G5-pp-1c.aif", ",", "Vc-stacc-A#3-mf-2c.aif", ",", "Vc-stacc-A3-mf-1c.aif", ",", "Vc-stacc-A4-mf-1c.aif", ",", "Vc-stacc-B2-mf-3c.aif", ",", "Vc-stacc-C#4-mf-1c.aif", ",", "Vc-stacc-C#5-mf-1c.aif", ",", "Vc-stacc-C2-mf-4c.aif", ",", "Vc-stacc-D#3-mf-3c.aif", ",", "Vc-stacc-D3-mf-2c.aif", ",", "Vc-stacc-E2-mf-4c.aif", ",", "Vc-stacc-F#3-mf-2c.aif", ",", "Vc-stacc-F4-mf-1c.aif", ",", "Vc-stacc-G#2-mf-3c.aif", ",", "Vc-pizz-lv-A#2-ff-3c.aif", ",", "Vc-pizz-lv-A#2-mf-3c.aif", ",", "Vc-pizz-lv-A#2-pp-3c.aif", ",", "Vc-pizz-lv-A#3-ff-1c.aif", ",", "Vc-pizz-lv-A#3-ff-2c.aif", ",", "Vc-pizz-lv-A#3-mf-1c.aif", ",", "Vc-pizz-lv-A#3-mf-2c.aif", ",", "Vc-pizz-lv-A#3-pp-1c.aif", ",", "Vc-pizz-lv-A#3-pp-2c.aif", ",", "Vc-pizz-lv-A#4-ff-1c.aif", ",", "Vc-pizz-lv-A#4-mf-1c.aif", ",", "Vc-pizz-lv-A#4-pp-1c.aif", ",", "Vc-pizz-lv-A2-ff-3c.aif", ",", "Vc-pizz-lv-A2-mf-3c.aif", ",", "Vc-pizz-lv-A2-pp-3c.aif", ",", "Vc-pizz-lv-A3-ff-1c.aif", ",", "Vc-pizz-lv-A3-ff-2c.aif", ",", "Vc-pizz-lv-A3-mf-1c.aif", ",", "Vc-pizz-lv-A3-mf-2c.aif", ",", "Vc-pizz-lv-A3-pp-1c.aif", ",", "Vc-pizz-lv-A3-pp-2c.aif", ",", "Vc-pizz-lv-A4-ff-1c.aif", ",", "Vc-pizz-lv-A4-mf-1c.aif", ",", "Vc-pizz-lv-A4-pp-1c.aif", ",", "Vc-pizz-lv-B2-ff-3c.aif", ",", "Vc-pizz-lv-B2-mf-3c.aif", ",", "Vc-pizz-lv-B2-pp-3c.aif", ",", "Vc-pizz-lv-B3-ff-1c.aif", ",", "Vc-pizz-lv-B3-mf-1c.aif", ",", "Vc-pizz-lv-B3-pp-1c.aif", ",", "Vc-pizz-lv-B4-ff-1c.aif", ",", "Vc-pizz-lv-B4-mf-1c.aif", ",", "Vc-pizz-lv-B4-pp-1c.aif", ",", "Vc-pizz-lv-C#2-ff-4c.aif", ",", "Vc-pizz-lv-C#2-mf-4c.aif", ",", "Vc-pizz-lv-C#2-pp-4c.aif", ",", "Vc-pizz-lv-C#3-ff-3c.aif", ",", "Vc-pizz-lv-C#3-mf-3c.aif", ",", "Vc-pizz-lv-C#3-pp-3c.aif", ",", "Vc-pizz-lv-C#4-ff-1c.aif", ",", "Vc-pizz-lv-C#4-mf-1c.aif", ",", "Vc-pizz-lv-C#4-pp-1c.aif", ",", "Vc-pizz-lv-C#5-ff-1c.aif", ",", "Vc-pizz-lv-C#5-mf-1c.aif", ",", "Vc-pizz-lv-C#5-pp-1c.aif", ",", "Vc-pizz-lv-C2-ff-4c.aif", ",", "Vc-pizz-lv-C2-mf-4c.aif", ",", "Vc-pizz-lv-C2-pp-4c.aif", ",", "Vc-pizz-lv-C3-ff-3c.aif", ",", "Vc-pizz-lv-C3-mf-3c.aif", ",", "Vc-pizz-lv-C3-pp-3c.aif", ",", "Vc-pizz-lv-C4-ff-1c.aif", ",", "Vc-pizz-lv-C4-mf-1c.aif", ",", "Vc-pizz-lv-C4-pp-1c.aif", ",", "Vc-pizz-lv-C5-ff-1c.aif", ",", "Vc-pizz-lv-C5-mf-1c.aif", ",", "Vc-pizz-lv-C5-pp-1c.aif", ",", "Vc-pizz-lv-D#2-ff-4c.aif", ",", "Vc-pizz-lv-D#2-mf-4c.aif", ",", "Vc-pizz-lv-D#2-pp-4c.aif", ",", "Vc-pizz-lv-D#3-ff-2c.aif", ",", "Vc-pizz-lv-D#3-ff-3c.aif", ",", "Vc-pizz-lv-D#3-mf-2c.aif", ",", "Vc-pizz-lv-D#3-mf-3c.aif", ",", "Vc-pizz-lv-D#3-pp-2c.aif", ",", "Vc-pizz-lv-D#4-ff-1c.aif", ",", "Vc-pizz-lv-D#4-mf-1c.aif", ",", "Vc-pizz-lv-D#4-pp-1c.aif", ",", "Vc-pizz-lv-D#5-ff-1c.aif", ",", "Vc-pizz-lv-D#5-mf-1c.aif", ",", "Vc-pizz-lv-D#5-pp-1c.aif", ",", "Vc-pizz-lv-D2-ff-4c.aif", ",", "Vc-pizz-lv-D2-mf-4c.aif", ",", "Vc-pizz-lv-D2-pp-4c.aif", ",", "Vc-pizz-lv-D3-ff-2c.aif", ",", "Vc-pizz-lv-D3-ff-3c.aif", ",", "Vc-pizz-lv-D3-mf-2c.aif", ",", "Vc-pizz-lv-D3-mf-3c.aif", ",", "Vc-pizz-lv-D3-pp-2c.aif", ",", "Vc-pizz-lv-D3-pp-3c.aif", ",", "Vc-pizz-lv-D4-ff-1c.aif", ",", "Vc-pizz-lv-D4-mf-1c.aif", ",", "Vc-pizz-lv-D4-pp-1c.aif", ",", "Vc-pizz-lv-D5-ff-1c.aif", ",", "Vc-pizz-lv-D5-mf-1c.aif", ",", "Vc-pizz-lv-D5-pp-1c.aif", ",", "Vc-pizz-lv-E2-ff-4c.aif", ",", "Vc-pizz-lv-E2-mf-4c.aif", ",", "Vc-pizz-lv-E2-pp-4c.aif", ",", "Vc-pizz-lv-E3-ff-2c.aif", ",", "Vc-pizz-lv-E3-mf-2c.aif", ",", "Vc-pizz-lv-E3-pp-2c.aif", ",", "Vc-pizz-lv-E4-ff-1c.aif", ",", "Vc-pizz-lv-E4-mf-1c.aif", ",", "Vc-pizz-lv-E4-pp-1c.aif", ",", "Vc-pizz-lv-E5-ff-1c.aif", ",", "Vc-pizz-lv-E5-mf-1c.aif", ",", "Vc-pizz-lv-E5-pp-1c.aif", ",", "Vc-pizz-lv-F#2-ff-4c.aif", ",", "Vc-pizz-lv-F#2-mf-4c.aif", ",", "Vc-pizz-lv-F#2-pp-4c.aif", ",", "Vc-pizz-lv-F#3-ff-2c.aif", ",", "Vc-pizz-lv-F#3-mf-2c.aif", ",", "Vc-pizz-lv-F#3-pp-2c.aif", ",", "Vc-pizz-lv-F#4-ff-1c.aif", ",", "Vc-pizz-lv-F#4-mf-1c.aif", ",", "Vc-pizz-lv-F#4-pp-1c.aif", ",", "Vc-pizz-lv-F2-ff-4c.aif", ",", "Vc-pizz-lv-F2-mf-4c.aif", ",", "Vc-pizz-lv-F2-pp-4c.aif", ",", "Vc-pizz-lv-F3-ff-2c.aif", ",", "Vc-pizz-lv-F3-mf-2c.aif", ",", "Vc-pizz-lv-F3-pp-2c.aif", ",", "Vc-pizz-lv-F4-ff-1c.aif", ",", "Vc-pizz-lv-F4-mf-1c.aif", ",", "Vc-pizz-lv-F4-pp-1c.aif", ",", "Vc-pizz-lv-G#2-ff-3c.aif", ",", "Vc-pizz-lv-G#2-mf-3c.aif", ",", "Vc-pizz-lv-G#2-pp-3c.aif", ",", "Vc-pizz-lv-G#3-ff-2c.aif", ",", "Vc-pizz-lv-G#3-mf-2c.aif", ",", "Vc-pizz-lv-G#3-pp-2c.aif", ",", "Vc-pizz-lv-G#4-ff-1c.aif", ",", "Vc-pizz-lv-G#4-mf-1c.aif", ",", "Vc-pizz-lv-G#4-pp-1c.aif", ",", "Vc-pizz-lv-G2-ff-3c.aif", ",", "Vc-pizz-lv-G2-mf-3c.aif", ",", "Vc-pizz-lv-G2-pp-3c.aif", ",", "Vc-pizz-lv-G3-ff-2c.aif", ",", "Vc-pizz-lv-G3-mf-2c.aif", ",", "Vc-pizz-lv-G3-pp-2c.aif", ",", "Vc-pizz-lv-G4-ff-1c.aif", ",", "Vc-pizz-lv-G4-mf-1c.aif", ",", "Vc-pizz-lv-G4-pp-1c.aif", ",", "BTb-pdl-tone-A#0-ff.aif", ",", "BTb-pdl-tone-A#0-mf.aif", ",", "BTb-pdl-tone-A#0-pp.aif", ",", "BTb-pdl-tone-A0-ff.aif", ",", "BTb-pdl-tone-A0-mf.aif", ",", "BTb-pdl-tone-A0-pp.aif", ",", "BTb-pdl-tone-B0-ff.aif", ",", "BTb-pdl-tone-B0-mf.aif", ",", "BTb-pdl-tone-B0-pp.aif", ",", "BTb-pdl-tone-C#1-ff.aif", ",", "BTb-pdl-tone-C#1-mf.aif", ",", "BTb-pdl-tone-C#1-pp.aif", ",", "BTb-pdl-tone-C1-ff.aif", ",", "BTb-pdl-tone-C1-mf.aif", ",", "BTb-pdl-tone-C1-pp.aif", ",", "BTb-pdl-tone-D#1-ff.aif", ",", "BTb-pdl-tone-D#1-mf.aif", ",", "BTb-pdl-tone-D#1-pp.aif", ",", "BTb-pdl-tone-D1-ff.aif", ",", "BTb-pdl-tone-D1-mf.aif", ",", "BTb-pdl-tone-D1-pp.aif", ",", "BTb-pdl-tone-E1-ff.aif", ",", "BTb-pdl-tone-E1-mf.aif", ",", "BTb-pdl-tone-E1-pp.aif", ",", "BTb-pdl-tone-F1-ff.aif", ",", "BTb-pdl-tone-F1-mf.aif", ",", "BTb-pdl-tone-F1-pp.aif", ",", "BTb-pdl-tone-G#0-ff.aif", ",", "BTb-pdl-tone-G#0-mf.aif", ",", "BTb-pdl-tone-G#0-pp.aif", ",", "136 Techno Kick 01.wav", ",", "136 Techno Kick Roll.wav", ",", "138 Dance Kick.wav", ",", "138 Techno Kick Roll.wav", ",", "138 Techno Kick.wav", ",", "142 Techno Kick 00.wav", ",", "146 Techno Kick 01.wav", ",", "146 Techno Kick 02.wav", ",", "152 Techno Kick 02.wav", ",", "164 Techno Reverse Kick.wav", ",", "Kick.aif", ",", "Kick02.aif", ",", "134 Techno Kick 02.wav", ",", "144 Techno Kick.wav", ",", "148 Techno Kick.wav", ",", "164 Techno Kick 02.wav", ",", "164 Techno Kick 03.wav", ",", "group2-snip.wav", ",", "mouth-cough01.aif", ",", "laugh-long-many.aif", ",", "mouth-gasp02(laugh).aif", ",", "indian chanting only.aif", ",", "improvisedVoice.aif", ",", "glitch-fun.aif", ",", "glitch-wowfun.aif", ",", "perf_mono.aifRegion 1.aif", ",", "perf_mono.aifRegion 2.aif", ",", "perf_mono.aifRegion 3.aif", ",", "perf_mono.aifRegion 4.aif", ",", "perf_mono.aifRegion 5.aif", ",", "perf_mono.aifRegion 6.aif", ",", "perf_mono2.aifRegion 1.aif", ",", "perf_mono2.aifRegion 2.aif", ",", "perf_mono2.aifRegion 3.aif", ",", "perf_mono2.aifRegion 4.aif", ",", "perf_mono2.aifRegion 5.aif", ",", "perf_mono3.aifRegion 1.aif", ",", "perf_mono3.aifRegion 2.aif", ",", "perf_mono3.aifRegion 3.aif", ",", "Bamboo2.wav", ",", "Bamboo.aif", ",", "Andre_Roy (Snippet).wav", ",", "Benat01.mono (Snippet).wav", ",", "Benat05.mono (Snippet).wav", ",", "BenatText2-text.mono (Snippet).wav", ",", "BH1.1.110206-002 (Snippet).wav", ",", "David_McGimpsey (Snippet) 2.wav", ",", "David_McGimpsey (Snippet).wav", ",", "H5.1.110204-005 (Snippet) 2.wav", ",", "H5.1.110204-005 (Snippet).wav", ",", "jason -angles (Snippet).wav", ",", "Kat (Snippet).wav", ",", "R8.1.110205-004 (Snippet).wav", ",", "Sep09 minimal voice Picked (Snippet).wav", ",", "sina - from slip 3.3 (Snippet).wav", ",", "Sina_Queyras.aif.aifc (Snippet).wav", ",", "Stephanie_Bolster.aif.aifc (Snippet).wav", ",", "Amelia1.aif", ",", "tabla-voice  (Snippet).wav", ",", "a1.wav", ",", "a2.wav", ",", "a3.wav", ",", "b1.wav", ",", "b2.wav", ",", "c1.wav", ",", "c2.wav", ",", "d1.wav", ",", "d2.wav", ",", "e1.wav", ",", "e2.wav", ",", "f1.wav", ",", "f2.wav", ",", "g1.wav", ",", "g2.wav", ",", "g3.wav", ",", "080 Indian Idakka.wav", ",", "080 Indian Khanjira Fill.wav", ",", "090 Indian Ghatam 001.wav", ",", "120 Indian Idakka.wav", ",", "127 South American Cajon.wav", ",", "Tabla- Mukti (Snippet).wav", ",", "tabla-voice  (Snippet) 2.wav", ",", "090 Indian Ghatam 001.aiff", ",", "27-03 Bongos Latin Rhythm.aif", ",", "Ghatam 001EQ.aif", ",", "Tabla-shfr-loop.aif", ",", "Vn-art-harm-A#5-mf-4c.aif", ",", "Vn-art-harm-A#6-mf-2c.aif", ",", "Vn-art-harm-A#6-mf-3c.aif", ",", "Vn-art-harm-A#7-mf-1c.aif", ",", "Vn-art-harm-A5-mf-4c.aif", ",", "Vn-art-harm-A6-mf-2c.aif", ",", "Vn-art-harm-A6-mf-3c.aif", ",", "Vn-art-harm-A7-mf-1c.aif", ",", "Vn-art-harm-A7-mf-2c.aif", ",", "Vn-art-harm-B5-mf-4c.aif", ",", "Vn-art-harm-B6-mf-2c.aif", ",", "Vn-art-harm-B6-mf-3c.aif", ",", "Vn-art-harm-B7-mf-1c.aif", ",", "Vn-art-harm-C#6-mf-4c.aif", ",", "Vn-art-harm-C#7-mf-2c.aif", ",", "Vn-art-harm-C#7-mf-3c.aif", ",", "Vn-art-harm-C6-mf-4c.aif", ",", "Vn-art-harm-C7-mf-2c.aif", ",", "Vn-art-harm-C7-mf-3c.aif", ",", "Vn-art-harm-D#6-mf-3c.aif", ",", "Vn-art-harm-D#6-mf-4c.aif", ",", "Vn-art-harm-D#7-mf-2c.aif", ",", "Vn-art-harm-D#7-mf-3c.aif", ",", "Vn-art-harm-D6-mf-3c.aif", ",", "Vn-art-harm-D6-mf-4c.aif", ",", "Vn-art-harm-D7-mf-2c.aif", ",", "Vn-art-harm-D7-mf-3c.aif", ",", "Vn-art-harm-E6-mf-3c.aif", ",", "Vn-art-harm-E6-mf-4c.aif", ",", "Vn-art-harm-E7-mf-1c.aif", ",", "Vn-art-harm-E7-mf-2c.aif", ",", "Vn-art-harm-F#6-mf-3c.aif", ",", "Vn-art-harm-F#6-mf-4c.aif", ",", "Vn-art-harm-F#7-mf-1c.aif", ",", "Vn-art-harm-F#7-mf-2c.aif", ",", "Vn-art-harm-F6-mf-3c.aif", ",", "Vn-art-harm-F6-mf-4c.aif", ",", "Vn-art-harm-F7-mf-1c.aif", ",", "Vn-art-harm-F7-mf-2c.aif", ",", "Vn-art-harm-G#5-mf-4c.aif", ",", "Vn-art-harm-G#6-mf-3c.aif", ",", "Vn-art-harm-G#6-mf-4c.aif", ",", "Vn-art-harm-G#7-mf-1c.aif", ",", "Vn-art-harm-G#7-mf-2c.aif", ",", "Vn-art-harm-G5-mf-4c.aif", ",", "Vn-art-harm-G6-mf-3c.aif", ",", "Vn-art-harm-G6-mf-4c.aif", ",", "Vn-art-harm-G7-mf-1c.aif", ",", "Vn-art-harm-G7-mf-2c.aif", ",", "Bn-ord-C2-pp.wav", ",", "Bn-ord-A#1-pp.aif", ",", "Bn-ord-A#2-pp.aif", ",", "Bn-ord-A#3-pp.aif", ",", "Bn-ord-A#4-pp.aif", ",", "Bn-ord-A2-pp.aif", ",", "Bn-ord-A3-pp.aif", ",", "Bn-ord-A4-pp.aif", ",", "Bn-ord-B1-pp.aif", ",", "Bn-ord-B2-pp.aif", ",", "Bn-ord-B3-pp.aif", ",", "Bn-ord-B4-pp.aif", ",", "Bn-ord-C#2-pp.aif", ",", "Bn-ord-C#3-pp.aif", ",", "Bn-ord-C#4-pp.aif", ",", "Bn-ord-C#5-pp.aif", ",", "Bn-ord-C3-pp.aif", ",", "Bn-ord-C4-pp.aif", ",", "Bn-ord-C5-pp.aif", ",", "Bn-ord-D#2-pp.aif", ",", "Bn-ord-D#3-pp.aif", ",", "Bn-ord-D#4-pp.aif", ",", "Bn-ord-D#5-ff.aif", ",", "Bn-ord-D#5-mf.aif", ",", "Bn-ord-D#5-pp.aif", ",", "Bn-ord-D2-pp.aif", ",", "Bn-ord-D3-pp.aif", ",", "Bn-ord-D4-pp.aif", ",", "Bn-ord-D5-pp.aif", ",", "Bn-ord-E2-pp.aif", ",", "Bn-ord-E3-pp.aif", ",", "Bn-ord-E4-pp.aif", ",", "Bn-ord-F#2-pp.aif", ",", "Bn-ord-F#3-pp.aif", ",", "Bn-ord-F#4-pp.aif", ",", "Bn-ord-F2-pp.aif", ",", "Bn-ord-F3-pp.aif", ",", "Bn-ord-F4-pp.aif", ",", "Bn-ord-G#2-pp.aif", ",", "Bn-ord-G#3-pp.aif", ",", "Bn-ord-G#4-pp.aif", ",", "Bn-ord-G2-pp.aif", ",", "Bn-ord-G3-pp.aif", ",", "Bn-ord-G4-pp.aif", ",", "track 2#1.aif", ",", "track 2#10.aif", ",", "track 2#11.aif", ",", "track 2#12.aif", ",", "track 2#13.aif", ",", "track 2#2.aif", ",", "track 2#3.aif", ",", "track 2#4.aif", ",", "track 2#5.aif", ",", "track 2#6.aif", ",", "track 2#7.aif", ",", "track 2#8.aif", ",", "track 2#9.aif", ",", "track 2.aif", ",", "track 5#1.aif", ",", "track 5#10.aif", ",", "track 5#11.aif", ",", "track 5#12.aif", ",", "track 5#13.aif", ",", "track 5#14.aif", ",", "track 5#15.aif", ",", "track 5#16.aif", ",", "track 5#17.aif", ",", "track 5#18.aif", ",", "track 5#19.aif", ",", "track 5#2.aif", ",", "track 5#20.aif", ",", "track 5#21.aif", ",", "track 5#22.aif", ",", "track 5#3.aif", ",", "track 5#4.aif", ",", "track 5#5.aif", ",", "track 5#6.aif", ",", "track 5#7.aif", ",", "track 5#8.aif", ",", "track 5#9.aif", ",", "track 5.aif", ",", "track1#1.aif", ",", "track1#10.aif", ",", "track1#11.aif", ",", "track1#12.aif", ",", "track1#2.aif", ",", "track1#3.aif", ",", "track1#4.aif", ",", "track1#5.aif", ",", "track1#6.aif", ",", "track1#7.aif", ",", "track1#8.aif", ",", "track1#9.aif", ",", "track1.aif", ",", "track2.aif", ",", "track3#1.aif", ",", "track3#10.aif", ",", "track3#11.aif", ",", "track3#12.aif", ",", "track3#13.aif", ",", "track3#14.aif", ",", "track3#15.aif", ",", "track3#16.aif", ",", "track3#2.aif", ",", "track3#3.aif", ",", "track3#4.aif", ",", "track3#5.aif", ",", "track3#6.aif", ",", "track3#7.aif", ",", "track3#8.aif", ",", "track3#9.aif", ",", "track3.aif", ",", "track4#1.aif", ",", "track4#10.aif", ",", "track4#11.aif", ",", "track4#12.aif", ",", "track4#13.aif", ",", "track4#14.aif", ",", "track4#15.aif", ",", "track4#16.aif", ",", "track4#17.aif", ",", "track4#18.aif", ",", "track4#19.aif", ",", "track4#2.aif", ",", "track4#20.aif", ",", "track4#21.aif", ",", "track4#22.aif", ",", "track4#23.aif", ",", "track4#24.aif", ",", "track4#25.aif", ",", "track4#26.aif", ",", "track4#27.aif", ",", "track4#28.aif", ",", "track4#29.aif", ",", "track4#3.aif", ",", "track4#30.aif", ",", "track4#4.aif", ",", "track4#5.aif", ",", "track4#6.aif", ",", "track4#7.aif", ",", "track4#8.aif", ",", "track4#9.aif", ",", "track4.aif" ],
+									"items" : [ "170 D&B Drums 01.wav", ",", "170 D&B Drums 02.wav", ",", "170 D&B Drums 03.wav", ",", "175 D&B Drums 04.wav", ",", "175 D&B Drums 05.wav", ",", "175 D&B Drums 06.wav", ",", "175 D&B Drums 07.wav", ",", "175 D&B Drums 08.wav", ",", "175 D&B Drums 09.wav", ",", "175 D&B Drums 10.wav", ",", "175 D&B Drums 11.wav", ",", "175 D&B Drums 12.wav", ",", "175 D&B Drums 13.wav", ",", "175 D&B Drums 14.wav", ",", "175 D&B Drums 15.wav", ",", "175 D&B Drums 16.wav", ",", "175 D&B Drums 17.wav", ",", "175 D&B Drums 18.wav", ",", "175 D&B Drums 19.wav", ",", "175 D&B Drums 20.wav", ",", "175 D&B Drums 21.wav", ",", "175 D&B Drums 22.wav", ",", "175 D&B Drums 23.wav", ",", "175 D&B Drums 24.wav", ",", "175 D&B Drums 25.wav", ",", "175 D&B Drums 26.wav", ",", "175 D&B Drums 27.wav", ",", "175 D&B Drums 28.wav", ",", "175 D&B Drums 29.wav", ",", "175 D&B Drums 30.wav", ",", "175 D&B Drums 31.wav", ",", "175 D&B Drums 32.wav", ",", "175 D&B Drums 33.wav", ",", "175 D&B Drums 34.wav", ",", "175 D&B Drums 35.wav", ",", "175 D&B Drums 36.wav", ",", "175 D&B Drums 37.wav", ",", "kzLoop.wav", ",", "134 Techno Kick 02.wav", ",", "136 Techno Kick 01.wav", ",", "136 Techno Kick Roll.wav", ",", "138 Dance Kick.wav", ",", "138 Techno Kick Roll.wav", ",", "138 Techno Kick.wav", ",", "144 Techno Kick.wav", ",", "146 Techno Kick 01.wav", ",", "146 Techno Kick 02.wav", ",", "148 Techno Kick.wav", ",", "152 Techno Kick 02.wav", ",", "164 Techno Kick 02.wav", ",", "164 Techno Kick 03.wav", ",", "164 Techno Reverse Kick.wav", ",", "Kick.aif", ",", "Kick02.aif", ",", "074 HipHop Combo_C.wav", ",", "140 Dance Combo 01_G.wav", ",", "168 Reggae Combo_G#.wav", ",", "175 D&B Combo 10_F#m.wav", ",", "080 Indian Basstabla 01.wav", ",", "110 Indian Basstabla 01.wav", ",", "080 Indian Basstabla 02.wav", ",", "080 Indian Basstabla 03.wav", ",", "080 Indian Tabla 02.wav", ",", "080 Indian Tabla 03.wav", ",", "090 Indian Basstabla 01.wav", ",", "090 Indian Basstabla 02.wav", ",", "090 Indian Tabla 01.wav", ",", "090 Indian Tabla 02.wav", ",", "090 Indian Tabla Fill.wav", ",", "100 Indian Basstabla 01.wav", ",", "100 Indian Tabla (Trp).wav", ",", "100 Indian Tabla 02.wav", ",", "100 Indian Tabla Fill.wav", ",", "110 Indian Basstabla 01.wav", ",", "110 Indian Tabla (Trp).wav", ",", "110 Indian Tabla 01.wav", ",", "120 Indian Basstabla.wav", ",", "120 Indian Tabla 01.wav", ",", "080 Indian Idakka.wav", ",", "080 Indian Khanjira Fill.wav", ",", "090 Indian Ghatam 001.wav", ",", "120 Indian Idakka.wav", ",", "127 South American Cajon.wav", ",", "Tabla- Mukti (Snippet).wav", ",", "tabla-voice  (Snippet) 2.wav", ",", "090 Indian Ghatam 001.aiff", ",", "27-03 Bongos Latin Rhythm.aif", ",", "Ghatam 001EQ.aif", ",", "Tabla-shfr-loop.aif", ",", "group2-snip.wav", ",", "mouth-cough01.aif", ",", "laugh-long-many.aif", ",", "mouth-gasp02(laugh).aif", ",", "indian chanting only.aif", ",", "tabla-voice  (Snippet).wav", ",", "Andre_Roy (Snippet).wav", ",", "Benat01.mono (Snippet).wav", ",", "Benat05.mono (Snippet).wav", ",", "BenatText2-text.mono (Snippet).wav", ",", "BH1.1.110206-002 (Snippet).wav", ",", "David_McGimpsey (Snippet) 2.wav", ",", "David_McGimpsey (Snippet).wav", ",", "H5.1.110204-005 (Snippet) 2.wav", ",", "H5.1.110204-005 (Snippet).wav", ",", "jason -angles (Snippet).wav", ",", "Kat (Snippet).wav", ",", "R8.1.110205-004 (Snippet).wav", ",", "Sep09 minimal voice Picked (Snippet).wav", ",", "sina - from slip 3.3 (Snippet).wav", ",", "Sina_Queyras.aif.aifc (Snippet).wav", ",", "Stephanie_Bolster.aif.aifc (Snippet).wav", ",", "group2 (Snippet) 2.wav", ",", "one (Snippet) 2.wav", ",", "one (Snippet).wav", ",", "Breath-one-soo.aif", ",", "breathInOut-Soo.aif", ",", "liselyn-BreathOut.aif", ",", "softBreath.aif", ",", "SoftBreathingSoo.aif", ",", "breathe-snore01.aif", ",", "breathe-snore02(long).aif", ",", "breathe01(snortbuzz).aif", ",", "breathein01.aif", ",", "breathein02.aif", ",", "breathein03.aif", ",", "breatheout01.aif", ",", "mdrive-breath03(x2).aif", ",", "PV-SpectralDelay--0.aiff", ",", "Air Samba drone1 (Snippet) 2.wav", ",", "air samba drone2-DQ (Snippet).wav", ",", "gas-breath (Snippet) 2.wav", ",", "gas-breath (Snippet) 3.wav", ",", "gas101 (Snippet).wav", ",", "gas102 (Snippet).wav", ",", "MicHumFade (Snippet) 2.wav", ",", "voice-spectrlAvrg-2014 (Snippet).wav", ",", "wam-swell-GAIN_02 (Snippet).wav", ",", "wam-swell-mid-GAIN_04 (Snippet).wav", ",", "Frogs at Night (Snippet).wav", ",", "theAttackisOn (Snippet).wav", ",", "Chimpanzee Calls.aif", ",", "Forest.aif", ",", "Jungle.aif", ",", "Loon Calls.aif", ",", "Seagulls.aif", ",", "Bamboo2.wav", ",", "Bamboo.aif", ",", "Synthbass116_E.wav", ",", "E-Bass_Dm.aif", ",", "E-Bass_Gm.aif", ",", "a1.wav", ",", "a2.wav", ",", "a3.wav", ",", "b1.wav", ",", "b2.wav", ",", "c1.wav", ",", "c2.wav", ",", "d1.wav", ",", "d2.wav", ",", "e1.wav", ",", "e2.wav", ",", "f1.wav", ",", "f2.wav", ",", "g1.wav", ",", "g2.wav", ",", "g3.wav", ",", "Multimode (Snippet).wav", ",", "Multimode (Snippet).wav", ",", "click1.aif_norm.aif", ",", "click10.aif_norm.aif", ",", "click11.aif_norm.aif", ",", "click12.aif_norm.aif", ",", "click13.aif_norm.aif", ",", "click14.aif_norm.aif", ",", "click15.aif_norm.aif", ",", "click16.aif_norm.aif", ",", "click17.aif_norm.aif", ",", "click18.aif_norm.aif", ",", "click19.aif_norm.aif", ",", "click2.aif_norm.aif", ",", "click20.aif_norm.aif", ",", "click21.aif_norm.aif", ",", "click22.aif_norm.aif", ",", "click23.aif_norm.aif", ",", "click3.aif_norm.aif", ",", "click4.aif_norm.aif", ",", "click5.aif_norm.aif", ",", "click6.aif_norm.aif", ",", "click7.aif_norm.aif", ",", "click8.aif_norm.aif", ",", "click9.aif_norm.aif", ",", "maxclick1.aif_norm.aif", ",", "maxclick10.aif_norm.aif", ",", "maxclick11.aif_norm.aif", ",", "maxclick12.aif_norm.aif", ",", "maxclick13.aif_norm.aif", ",", "maxclick14.aif_norm.aif", ",", "maxclick15.aif_norm.aif", ",", "maxclick16.aif_norm.aif", ",", "maxclick17.aif_norm.aif", ",", "maxclick18.aif_norm.aif", ",", "maxclick19.aif_norm.aif", ",", "maxclick2.aif_norm.aif", ",", "maxclick20.aif_norm.aif", ",", "maxclick3.aif_norm.aif", ",", "maxclick4.aif_norm.aif", ",", "maxclick5.aif_norm.aif", ",", "maxclick6.aif_norm.aif", ",", "maxclick7.aif_norm.aif", ",", "maxclick8.aif_norm.aif", ",", "maxclick9.aif_norm.aif", ",", "mc1_swp1.aif", ",", "mc1_swp2.aif", ",", "mc1_swp3vsubtle.aif", ",", "mc1_swp3vsubtle10.aif", ",", "mc1_swp3vsubtle11.aif", ",", "mc1_swp3vsubtle12.aif", ",", "mc1_swp3vsubtle13.aif", ",", "mc1_swp3vsubtle14.aif", ",", "mc1_swp3vsubtle15.aif", ",", "mc1_swp3vsubtle16.aif", ",", "mc1_swp3vsubtle17.aif", ",", "mc1_swp3vsubtle18.aif", ",", "mc1_swp3vsubtle19.aif", ",", "mc1_swp3vsubtle2.aif", ",", "mc1_swp3vsubtle20.aif", ",", "mc1_swp3vsubtle21.aif", ",", "mc1_swp3vsubtle22.aif", ",", "mc1_swp3vsubtle23.aif", ",", "mc1_swp3vsubtle24.aif", ",", "mc1_swp3vsubtle24inv1.aif", ",", "mc1_swp3vsubtle24inv2.aif", ",", "mc1_swp3vsubtle24inv3.aif", ",", "mc1_swp3vsubtle24inv3trhs1.aif", ",", "mc1_swp3vsubtle3.aif", ",", "mc1_swp3vsubtle4.aif", ",", "mc1_swp3vsubtle5.aif", ",", "mc1_swp3vsubtle6.aif", ",", "mc1_swp3vsubtle7.aif", ",", "mc1_swp3vsubtle8.aif", ",", "mc1_swp3vsubtle9.aif", ",", "mc1_swpinvthr_fltr1.aif", ",", "mc1_swpinvthr_fltr1_swp2.aif", ",", "track 2#1.aif", ",", "track 2#10.aif", ",", "track 2#11.aif", ",", "track 2#12.aif", ",", "track 2#13.aif", ",", "track 2#2.aif", ",", "track 2#3.aif", ",", "track 2#4.aif", ",", "track 2#5.aif", ",", "track 2#6.aif", ",", "track 2#7.aif", ",", "track 2#8.aif", ",", "track 2#9.aif", ",", "track 2.aif", ",", "track 5#1.aif", ",", "track 5#10.aif", ",", "track 5#11.aif", ",", "track 5#12.aif", ",", "track 5#13.aif", ",", "track 5#14.aif", ",", "track 5#15.aif", ",", "track 5#16.aif", ",", "track 5#17.aif", ",", "track 5#18.aif", ",", "track 5#19.aif", ",", "track 5#2.aif", ",", "track 5#20.aif", ",", "track 5#21.aif", ",", "track 5#22.aif", ",", "track 5#3.aif", ",", "track 5#4.aif", ",", "track 5#5.aif", ",", "track 5#6.aif", ",", "track 5#7.aif", ",", "track 5#8.aif", ",", "track 5#9.aif", ",", "track 5.aif", ",", "track1#1.aif", ",", "track1#10.aif", ",", "track1#11.aif", ",", "track1#12.aif", ",", "track1#2.aif", ",", "track1#3.aif", ",", "track1#4.aif", ",", "track1#5.aif", ",", "track1#6.aif", ",", "track1#7.aif", ",", "track1#8.aif", ",", "track1#9.aif", ",", "track1.aif", ",", "track2.aif", ",", "track3#1.aif", ",", "track3#10.aif", ",", "track3#11.aif", ",", "track3#12.aif", ",", "track3#13.aif", ",", "track3#14.aif", ",", "track3#15.aif", ",", "track3#16.aif", ",", "track3#2.aif", ",", "track3#3.aif", ",", "track3#4.aif", ",", "track3#5.aif", ",", "track3#6.aif", ",", "track3#7.aif", ",", "track3#8.aif", ",", "track3#9.aif", ",", "track3.aif", ",", "track4#1.aif", ",", "track4#10.aif", ",", "track4#11.aif", ",", "track4#12.aif", ",", "track4#13.aif", ",", "track4#14.aif", ",", "track4#15.aif", ",", "track4#16.aif", ",", "track4#17.aif", ",", "track4#18.aif", ",", "track4#19.aif", ",", "track4#2.aif", ",", "track4#20.aif", ",", "track4#21.aif", ",", "track4#22.aif", ",", "track4#23.aif", ",", "track4#24.aif", ",", "track4#25.aif", ",", "track4#26.aif", ",", "track4#27.aif", ",", "track4#28.aif", ",", "track4#29.aif", ",", "track4#3.aif", ",", "track4#30.aif", ",", "track4#4.aif", ",", "track4#5.aif", ",", "track4#6.aif", ",", "track4#7.aif", ",", "track4#8.aif", ",", "track4#9.aif", ",", "track4.aif", ",", "glitch-fun.aif", ",", "glitch-wowfun.aif", ",", "perf_mono.aifRegion 1.aif", ",", "perf_mono.aifRegion 2.aif", ",", "perf_mono.aifRegion 3.aif", ",", "perf_mono.aifRegion 4.aif", ",", "perf_mono.aifRegion 5.aif", ",", "perf_mono.aifRegion 6.aif", ",", "perf_mono2.aifRegion 1.aif", ",", "perf_mono2.aifRegion 2.aif", ",", "perf_mono2.aifRegion 3.aif", ",", "perf_mono2.aifRegion 4.aif", ",", "perf_mono2.aifRegion 5.aif", ",", "perf_mono3.aifRegion 1.aif", ",", "perf_mono3.aifRegion 2.aif", ",", "perf_mono3.aifRegion 3.aif", ",", "microplay-bassthump_glitch01.aif", ",", "microplay-bassthump_glitch02.aif", ",", "microplay-bassthump_glitch03.aif", ",", "microplay-clicks_warm01.aif", ",", "microplay-low-sr-pulse04.aif", ",", "microplay-pulse(slower).aif", ",", "microplay-tonepulse02.aif", ",", "microplay_thump_flutter01.aif", ",", "mono-vc3xvc4-cep.aiff", ",", "pizzi-bouncy2.wav", ",", "Cb-pizz-sec-A#1-ff-4c.aif", ",", "Cb-pizz-sec-A#2-mf-1c.aif", ",", "Cb-pizz-sec-A#3-pp-1c.aif", ",", "Cb-pizz-sec-A1-pp-3c.aif", ",", "Cb-pizz-sec-A2-mf-1c.aif", ",", "Cb-pizz-sec-A3-mf-1c.aif", ",", "Cb-pizz-sec-B1-mf-4c.aif", ",", "Cb-pizz-sec-B2-ff-2c.aif", ",", "Cb-pizz-sec-B3-pp-1c.aif", ",", "Cb-pizz-sec-C#2-pp-3c.aif", ",", "Cb-pizz-sec-C#4-mf-1c.aif", ",", "Cb-pizz-sec-C2-mf-4c.aif", ",", "Cb-pizz-sec-D#2-ff-2c.aif", ",", "Cb-pizz-sec-D#4-mf-1c.aif", ",", "Cb-pizz-sec-E1-pp-4c.aif", ",", "Cb-pizz-sec-E4-mf-1c.aif", ",", "Cb-pizz-sec-F2-mf-2c.aif", ",", "Cb-pizz-sec-G#1-ff-4c.aif", ",", "Cb-pizz-sec-G2-ff-1c.aif", ",", "Cb-pizz-sec-G3-ff-1c.aif", ",", "Vc-pizz-lv-A#2-pp-3c.aif", ",", "Vc-pizz-lv-A3-mf-2c.aif", ",", "Vc-pizz-lv-B3-pp-1c.aif", ",", "Vc-pizz-lv-C#5-ff-1c.aif", ",", "Vc-pizz-lv-D#2-mf-4c.aif", ",", "Vc-pizz-lv-D3-ff-2c.aif", ",", "Vc-pizz-sec-A#2-pp-3c.aif", ",", "Vc-pizz-sec-A#4-ff-1c.aif", ",", "Vc-pizz-sec-A3-mf-2c.aif", ",", "Vc-pizz-sec-A4-pp-1c.aif", ",", "Vc-pizz-sec-C#2-ff-4c.aif", ",", "Vc-pizz-sec-C#5-mf-1c.aif", ",", "Vc-pizz-sec-C4-ff-1c.aif", ",", "Vc-pizz-sec-D#3-ff-2c.aif", ",", "Vc-pizz-sec-D#4-mf-1c.aif", ",", "Vc-pizz-sec-D3-mf-2c.aif", ",", "Vc-pizz-sec-D5-pp-1c.aif", ",", "Vc-pizz-sec-E4-mf-1c.aif", ",", "Vc-pizz-sec-F#3-ff-2c.aif", ",", "Vc-pizz-sec-F2-ff-4c.aif", ",", "Vc-pizz-sec-G#2-ff-3c.aif", ",", "Vc-pizz-sec-G#4-mf-1c.aif", ",", "Vc-pizz-sec-G3-mf-2c.aif", ",", "Vn-pizz-bartok-A3-ff-4c.aif", ",", "Vn-pizz-bartok-C#5-ff-2c.aif", ",", "Vn-pizz-bartok-D#5-ff-3c.aif", ",", "Vn-pizz-bartok-F#4-ff-3c.aif", ",", "Vn-pizz-bartok-G4-ff-3c.aif", ",", "Vn-pizz-lv-A#4-mf-3c.aif", ",", "Vn-pizz-lv-A#6-mf-1c.aif", ",", "Vn-pizz-lv-A4-pp-3c.aif", ",", "Vn-pizz-lv-B5-ff-2c.aif", ",", "Vn-pizz-lv-C4-mf-4c.aif", ",", "Vn-pizz-lv-C7-ff-1c.aif", ",", "Vn-pizz-lv-D4-mf-3c.aif", ",", "Vn-pizz-lv-E5-ff-3c.aif", ",", "Vn-pizz-lv-F#5-ff-1c.aif", ",", "Vn-pizz-lv-F5-ff-1c.aif", ",", "Vn-pizz-lv-G#4-pp-3c.aif", ",", "Vn-pizz-lv-G3-pp-4c.aif", ",", "Vn-pizz-lv-G6-ff-1c.aif", ",", "improvisedVoice.aif", ",", "breath-01.wav", ",", "breath-02.wav", ",", "breath-03.wav", ",", "breath-04.wav", ",", "breath-06.wav", ",", "breath-07.wav", ",", "breath-08.wav", ",", "breath-09.wav", ",", "breath-10.wav", ",", "breath-11.wav", ",", "breath-12.wav", ",", "breath-13.wav", ",", "breath-14.wav", ",", "breath-16.wav", ",", "breath-17.wav", ",", "breath-18.wav", ",", "breath-19.wav", ",", "breath-20.wav", ",", "breath-21.wav", ",", "breath-22.wav", ",", "breath-23.wav", ",", "breath-24.wav", ",", "breath-25.wav", ",", "toney-sigh-slice-edited.aif", ",", "toney-sigh-slice-edited.aif" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4857,13 +4857,13 @@
 ,
 									"patching_rect" : [ 80.0, 118.0, 80.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p soundset-menu"
@@ -4875,7 +4875,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-64",
-									"items" : [ " ", ",", "china-Qin-thuy", ",", "Percussive", ",", "crispyFrog", ",", "Felix", ",", "GesturalVoice", ",", "Porzellanmusik", ",", "speech", ",", "piano-prepared-single", ",", "multiple", ",", "key-click-basson", ",", "harmonic-fingering-basson", ",", "fortepiano-basson", ",", "staccato-basson", ",", "tongue-ram-flute", ",", "pizzicato-flute", ",", "harmonic-fingering-flute", ",", "aeolian-flute", ",", "staccato-horn", ",", "staccato-Oboe", ",", "staccato-bass", ",", "pizzicato-secco-bass", ",", "pizzicato-bartok-bass", ",", "pizzicato-l-vib-bass", ",", "staccato-Viola", ",", "pizzicato-secco-viola", ",", "staccato-cello", ",", "pizzicato-l-vib-cello", ",", "pedal-tone-tuba", ",", "1Kick", ",", "1KickLaser", ",", "3Cough", ",", "3Laugh", ",", "3Roger-Indian", ",", "Roger-improv", ",", "Glitch", ",", "GlitchIntrmitnt", ",", "Bambo", ",", "3voice-takattida", ",", "amelia", ",", "3TablaVoice", ",", "bells", ",", "2Tabla2", ",", "artificial-harmonic", ",", "ordinario", ",", "doepfer " ],
+									"items" : [ " ", ",", "1Drum n Bass", ",", "1Kick", ",", "1rhythm-combos", ",", "2Bass Tabla", ",", "2Tabla", ",", "2Tabla2", ",", "3Cough", ",", "3Laugh", ",", "3Roger-Indian", ",", "3TablaVoice", ",", "3voice-takattida", ",", "4breath-cava", ",", "4breathe-tml", ",", "4BreathSPCTRL", ",", "4gas", ",", "Animals", ",", "Bambo", ",", "Bass", ",", "bells", ",", "bell-multimode", ",", "clicks_norm", ",", "ClicksProcessed", ",", "doepfer ", ",", "Glitch", ",", "GlitchIntrmitnt", ",", "GlitchTim", ",", "Pizzi", ",", "pizzi2", ",", "Roger-improv", ",", "breath", ",", "breath-Tony" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5592,13 +5592,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 29.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 13.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p SOUNDsets",
@@ -5777,14 +5777,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-79",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 519.0, 195.0, 15.0 ],
+					"patching_rect" : [ 406.0, 519.0, 195.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 195.0, 174.0, 15.0 ],
-					"text" : "set-descriptors 18 16"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 2.0, 195.0, 174.0, 36.0 ],
+					"text" : "select 56.584869 0.000146 0.266044 0.004376 248.34491 0.000001 0.001125 490883.25 0.083741 0."
 				}
 
 			}
@@ -6045,7 +6047,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 6.0, 125.0, 170.0, 25.0 ],
-					"text" : "loaded 4959 units in 1264 sound files of 83.7 min using 920.097046 MB RAM"
+					"text" : "loaded 9771 units in 455 sound files of 36. min using 395.626831 MB RAM"
 				}
 
 			}
