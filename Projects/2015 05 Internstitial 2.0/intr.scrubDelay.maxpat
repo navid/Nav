@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 341.0, 45.0, 798.0, 383.0 ],
+		"rect" : [ 341.0, 45.0, 968.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 241.0, 300.0, 140.0 ],
+					"patching_rect" : [ 495.0, 234.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 140.0 ],
 					"varname" : "jmod.output~"
 				}
@@ -205,106 +205,106 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "nav.delay.scrub.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/snd/Nav.delay.scrub~",
-				"patcherrelativepath" : "../../Code/Nav/snd/Nav.delay.scrub~",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/Nav.delay.scrub~",
+				"patcherrelativepath" : "../../snd/Nav.delay.scrub~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Archive/Probability",
-				"patcherrelativepath" : "../../Code/Nav/Archive/Probability",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Archive/Probability",
+				"patcherrelativepath" : "../../Archive/Probability",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.between.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Archive/Probability",
-				"patcherrelativepath" : "../../Code/Nav/Archive/Probability",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Archive/Probability",
+				"patcherrelativepath" : "../../Archive/Probability",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.gain~.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd",
+				"patcherrelativepath" : "../../snd",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.input~.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/snd/ADC-DAC~",
-				"patcherrelativepath" : "../../Code/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/snd/ADC-DAC~",
+				"patcherrelativepath" : "../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nav.gain~.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/snd",
-				"patcherrelativepath" : "../../Code/Nav/snd",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.vst~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/vst~",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/vst~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/vst~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.vst~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/vst~",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/vst~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/vst~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.midi.channel_messages_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/midi.channel_messages_receive",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/midi.channel_messages_receive",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/midi.channel_messages_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patchdescribe.js",
 				"bootpath" : "/Applications/Max 6.1/examples/javascript/patcher-scripting",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/javascript/patcher-scripting",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/javascript/patcher-scripting",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
