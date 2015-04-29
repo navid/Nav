@@ -26,7 +26,8 @@
     <item name='noise/range' type='integer' priority='0' mixweight='1'>1</item>
     <item name='noise/ring' type='decimal' priority='0' mixweight='1'>0.200000</item>
     <item name='noise/ripple' type='decimal' priority='0' mixweight='1'>0.200000</item>
-    <item name='slide' type='decimal' priority='0' mixweight='1'>6.000000</item>
+    <item name='slide/down' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='slide/up' type='decimal' priority='0' mixweight='1'>0</item>
     <item name='threshold/amount' type='decimal' priority='0' mixweight='1'>0.040000</item>
     <item name='threshold/mode' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='threshold/radius' type='integer' priority='0' mixweight='1'>8</item>

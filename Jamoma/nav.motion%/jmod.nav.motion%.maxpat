@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 806.0, 298.0, 300.0, 70.0 ],
+		"rect" : [ 121.0, 132.0, 742.0, 652.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,42 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "Level of slide for thre trails",
+					"fontname" : "Verdana",
+					"fontsize" : 9.0,
+					"id" : "obj-28",
+					"maxclass" : "flonum",
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 130.681595, 414.0, 39.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 81.500397, 45.636425, 32.5, 17.0 ],
+					"triangle" : 0,
+					"triscale" : 0.9,
+					"varname" : "slide[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 130.681595, 434.495361, 442.0, 19.0 ],
+					"text" : "jcom.parameter slide/down @type decimal @description \"Level of slide for thre trails\"",
+					"varname" : "slide[3]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -69,7 +105,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -93,7 +129,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -544,6 +579,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
+					"hidden" : 1,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -606,6 +642,7 @@
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"hidden" : 1,
 					"id" : "obj-30",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -701,7 +738,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1097,7 +1134,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1273,7 +1310,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1449,7 +1486,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2566,7 +2603,7 @@
 				"box" : 				{
 					"annotation" : "Edge threshold",
 					"fontname" : "Verdana",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"id" : "obj-19",
 					"maxclass" : "flonum",
 					"minimum" : 0.0,
@@ -2574,9 +2611,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 33.681591, 553.139709, 43.0, 19.0 ],
+					"patching_rect" : [ 33.681591, 553.139709, 40.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.909256, 45.409161, 43.0, 19.0 ],
+					"presentation_rect" : [ 198.409256, 45.636425, 35.5, 17.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
 					"varname" : "edge_threshold"
@@ -2586,6 +2623,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Edge detection",
+					"arrow" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
@@ -2598,7 +2636,7 @@
 					"patching_rect" : [ 35.0, 495.0, 106.0, 19.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 134.090958, 45.409161, 55.727364, 19.0 ],
+					"presentation_rect" : [ 146.272858, 44.500118, 51.454514, 19.0 ],
 					"varname" : "edge_algorithm"
 				}
 
@@ -2614,7 +2652,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.0, 42.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.545471, 46.545467, 37.0, 19.0 ],
+					"presentation_rect" : [ 114.727371, 45.636425, 37.0, 19.0 ],
 					"text" : "edge"
 				}
 
@@ -2623,7 +2661,7 @@
 				"box" : 				{
 					"annotation" : "Level of slide for thre trails",
 					"fontname" : "Verdana",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"id" : "obj-22",
 					"maxclass" : "flonum",
 					"minimum" : 0.0,
@@ -2631,9 +2669,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 33.681591, 439.504639, 41.0, 19.0 ],
+					"patching_rect" : [ 33.681591, 439.504639, 39.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.181892, 44.636425, 43.0, 19.0 ],
+					"presentation_rect" : [ 47.954624, 45.636425, 32.5, 17.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
 					"varname" : "slide"
@@ -2655,7 +2693,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 33.681591, 380.776672, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.954628, 45.636425, 18.0, 18.0 ],
+					"presentation_rect" : [ 29.954624, 45.636425, 18.0, 18.0 ],
 					"size" : 1,
 					"values" : [ 0 ],
 					"varname" : "trails"
@@ -2673,8 +2711,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 42.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.545473, 46.545467, 33.759708, 19.0 ],
-					"text" : "trails"
+					"presentation_rect" : [ 3.545471, 45.636425, 33.759708, 19.0 ],
+					"text" : "slide"
 				}
 
 			}
@@ -2702,8 +2740,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 33.681591, 460.0, 425.0, 19.0 ],
-					"text" : "jcom.parameter slide @type decimal @description \"Level of slide for thre trails\"",
+					"patching_rect" : [ 33.681591, 460.0, 428.0, 19.0 ],
+					"text" : "jcom.parameter slide/up @type decimal @description \"Level of slide for thre trails\"",
 					"varname" : "slide[1]"
 				}
 
@@ -2740,7 +2778,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 133.727371, 22.545475, 18.0, 18.0 ],
 					"size" : 1,
-					"values" : [ 1 ],
+					"values" : [ 0 ],
 					"varname" : "noise"
 				}
 
@@ -2947,7 +2985,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ -0.227469, 0.318011, 300.0, 70.0 ],
-					"text" : "/nav.motion%"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -3115,6 +3153,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3158,6 +3205,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 43.181591, 360.0, 26.0, 360.0, 26.0, 315.0, 43.181591, 315.0 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 140.181595, 455.495361, 125.0, 455.495361, 125.0, 409.495361, 140.181595, 409.495361 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -3378,6 +3435,107 @@
 					"source" : [ "obj-91", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jalg.nav.motion%.maxpat",
+				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/nav.motion%",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.motion%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.checkplanes%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.absdiff.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.autoscale.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.passmatrixinfo%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.rgb2luma%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.sum%.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.pass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "cv.jit.threshold.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
