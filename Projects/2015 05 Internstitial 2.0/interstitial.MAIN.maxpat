@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 96.0, 465.0, 295.0 ],
+		"rect" : [ 25.0, 96.0, 208.0, 106.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,11 +31,24 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 82.0, 4.0, 63.0, 20.0 ],
+					"text" : "intr.preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 94.0, 121.0, 20.0 ],
+					"patching_rect" : [ 2.0, 83.0, 121.0, 20.0 ],
 					"text" : "GB.motion.analysis2"
 				}
 
@@ -49,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 67.0, 109.0, 20.0 ],
+					"patching_rect" : [ 2.0, 56.0, 109.0, 20.0 ],
 					"text" : "intr.camera.motion"
 				}
 
@@ -63,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 41.0, 115.0, 20.0 ],
+					"patching_rect" : [ 2.0, 30.0, 115.0, 20.0 ],
 					"text" : "intr.camera.process"
 				}
 
@@ -77,7 +90,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 8.0, 15.0, 70.0, 20.0 ],
+					"patching_rect" : [ 2.0, 4.0, 70.0, 20.0 ],
 					"text" : "intr.camera"
 				}
 
@@ -287,6 +300,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "intr.preset.maxpat",
+				"bootpath" : "/Users/Cooking/Code/Nav/Projects/2015 05 Internstitial 2.0",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jmod.cueManager.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.initialized.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jcom.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -344,6 +378,22 @@
 			}
 , 			{
 				"name" : "jcom.delta.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.cuemanager.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.route.mxo",
 				"type" : "iLaX"
 			}
  ]
