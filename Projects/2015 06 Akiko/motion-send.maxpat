@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 45.0, 172.0, 110.0 ],
+		"rect" : [ 4.0, 45.0, 172.0, 104.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,8 +35,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 81.0, 165.0, 21.0 ],
-					"text" : "udpsend 127.0.0.1 898988"
+					"patching_rect" : [ 0.0, 81.0, 172.0, 21.0 ],
+					"text" : "udpsend 10.10.10.2 898988"
 				}
 
 			}
@@ -111,141 +112,141 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-35" : [ "live.menu[6]", "live.menu", 0 ],
 			"obj-2::obj-63" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-2::obj-118" : [ "live.text[4]", "hj", 0 ]
+			"obj-2::obj-118" : [ "live.text[4]", "hj", 0 ],
+			"obj-2::obj-35" : [ "live.menu[6]", "live.menu", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "intr.camera.maxpat",
-				"bootpath" : "/Users/NavNav/Desktop/Akiko/2015 05 Internstitial 2.0",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Cooking/Code/Nav/Projects/2015 06 Akiko",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intr.camera.process.maxpat",
-				"bootpath" : "/Users/NavNav/Desktop/Akiko/2015 05 Internstitial 2.0",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Cooking/Code/Nav/Projects/2015 06 Akiko",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.brcosa%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/brcosa%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/brcosa%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.brcosa%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/video/brcosa%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/modules/video/brcosa%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/pwindow.mouse",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intr.camera.motion.maxpat",
-				"bootpath" : "/Users/NavNav/Desktop/Akiko/2015 05 Internstitial 2.0",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Cooking/Code/Nav/Projects/2015 06 Akiko",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.motion%.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/nav.motion%",
-				"patcherrelativepath" : "../../../code/Git/Nav/Jamoma/nav.motion%",
+				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/nav.motion%",
+				"patcherrelativepath" : "../../Jamoma/nav.motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.motion%.maxpat",
-				"bootpath" : "/Users/NavNav/code/Git/Nav/Jamoma/nav.motion%",
-				"patcherrelativepath" : "../../../code/Git/Nav/Jamoma/nav.motion%",
+				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/nav.motion%",
+				"patcherrelativepath" : "../../Jamoma/nav.motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.motion%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/motion%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/motion%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.checkplanes%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/checkplanes%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/checkplanes%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/absdiff",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.passmatrixinfo%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/passmatrixinfo%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/passmatrixinfo%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.rgb2luma%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/rgb2luma%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/rgb2luma%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sum%.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/sum%",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/sum%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}

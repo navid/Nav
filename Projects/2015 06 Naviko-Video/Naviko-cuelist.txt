@@ -1,0 +1,296 @@
+
+ 
+ KEYCUE "init-hex" 
+ 
+ 
+ 	 	 	 	 /CONFIG /delay3 99 1 /delay2 99 1 /delay1 99 1 /slide%3 99 1 /slide%2 99 1 /slide%1 99 1 /orsize2 99 1 /orsize1 99 1 /LenkaCues 99 1 /orsize1.1 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /delay3 
+ 	 	 	 	 /delay3/crossfade 1.000000 
+ 	 	 	 	 /delay3/delay 60 
+ 	 	 	 	 /delay3/feedback 0.000000 
+ 	 	 	 	 /delay3/maxDelay 120 
+ 	 	 	 	 /delay3/video/bypass 0 
+ 	 	 	 	 /delay3/video/freeze 0 
+ 	 	 	 	 /delay3/video/mute 1 
+ 	 	 	 	 /delay3/view/freeze 0 
+ 	 	 	 	 /delay3/view/highlight 0 
+ # 
+ # Module /delay2 
+ 	 	 	 	 /delay2/crossfade 1.000000 
+ 	 	 	 	 /delay2/delay 120 
+ 	 	 	 	 /delay2/feedback 0.000000 
+ 	 	 	 	 /delay2/maxDelay 120 
+ 	 	 	 	 /delay2/video/bypass 0 
+ 	 	 	 	 /delay2/video/freeze 0 
+ 	 	 	 	 /delay2/video/mute 0 
+ 	 	 	 	 /delay2/view/freeze 0 
+ 	 	 	 	 /delay2/view/highlight 0 
+ # 
+ # Module /delay1 
+ 	 	 	 	 /delay1/crossfade 1.000000 
+ 	 	 	 	 /delay1/delay 1 
+ 	 	 	 	 /delay1/feedback 0.000000 
+ 	 	 	 	 /delay1/maxDelay 120 
+ 	 	 	 	 /delay1/video/bypass 1 
+ 	 	 	 	 /delay1/video/freeze 0 
+ 	 	 	 	 /delay1/video/mute 0 
+ 	 	 	 	 /delay1/view/freeze 0 
+ 	 	 	 	 /delay1/view/highlight 0 
+ # 
+ # Module /slide%3 
+ 	 	 	 	 /slide%3/feedback 0.000000 
+ 	 	 	 	 /slide%3/scalebias/bias 0 
+ 	 	 	 	 /slide%3/scalebias/scale 1.000000 
+ 	 	 	 	 /slide%3/slideDown 132.000000 
+ 	 	 	 	 /slide%3/slideUp 5.000000 
+ 	 	 	 	 /slide%3/smooth 0 
+ 	 	 	 	 /slide%3/video/bypass 0 
+ 	 	 	 	 /slide%3/video/freeze 0 
+ 	 	 	 	 /slide%3/video/mute 1 
+ 	 	 	 	 /slide%3/view/freeze 0 
+ 	 	 	 	 /slide%3/view/highlight 0 
+ # 
+ # Module /slide%2 
+ 	 	 	 	 /slide%2/feedback 0.000000 
+ 	 	 	 	 /slide%2/scalebias/bias 0 
+ 	 	 	 	 /slide%2/scalebias/scale 1.100000 
+ 	 	 	 	 /slide%2/slideDown 240.000000 
+ 	 	 	 	 /slide%2/slideUp 23.000000 
+ 	 	 	 	 /slide%2/smooth 0 
+ 	 	 	 	 /slide%2/video/bypass 0 
+ 	 	 	 	 /slide%2/video/freeze 0 
+ 	 	 	 	 /slide%2/video/mute 0 
+ 	 	 	 	 /slide%2/view/freeze 0 
+ 	 	 	 	 /slide%2/view/highlight 0 
+ # 
+ # Module /slide%1 
+ 	 	 	 	 /slide%1/feedback 0.000000 
+ 	 	 	 	 /slide%1/scalebias/bias 0 
+ 	 	 	 	 /slide%1/scalebias/scale 1.000000 
+ 	 	 	 	 /slide%1/slideDown 195.000000 
+ 	 	 	 	 /slide%1/slideUp 8.000000 
+ 	 	 	 	 /slide%1/smooth 0 
+ 	 	 	 	 /slide%1/video/bypass 0 
+ 	 	 	 	 /slide%1/video/freeze 0 
+ 	 	 	 	 /slide%1/video/mute 0 
+ 	 	 	 	 /slide%1/view/freeze 0 
+ 	 	 	 	 /slide%1/view/highlight 0 
+ # 
+ # Module /orsize2 
+ 	 	 	 	 /orsize2/angle -99 
+ 	 	 	 	 /orsize2/boundmode clear 
+ 	 	 	 	 /orsize2/mirror 1 
+ 	 	 	 	 /orsize2/offsetX -0.070000 
+ 	 	 	 	 /orsize2/offsetY 0.000000 
+ 	 	 	 	 /orsize2/rotate1 0 
+ 	 	 	 	 /orsize2/rotate2 0 
+ 	 	 	 	 /orsize2/video/bypass 0 
+ 	 	 	 	 /orsize2/video/freeze 0 
+ 	 	 	 	 /orsize2/video/mute 1 
+ 	 	 	 	 /orsize2/video/preview 0 
+ 	 	 	 	 /orsize2/view/freeze 0 
+ 	 	 	 	 /orsize2/view/highlight 0 
+ 	 	 	 	 /orsize2/zoomX 1.000000 
+ 	 	 	 	 /orsize2/zoomY 1.000000 
+ # 
+ # Module /orsize1 
+ 	 	 	 	 /orsize1/angle -131 
+ 	 	 	 	 /orsize1/boundmode clear 
+ 	 	 	 	 /orsize1/mirror 1 
+ 	 	 	 	 /orsize1/offsetX -0.021000 
+ 	 	 	 	 /orsize1/offsetY -0.110000 
+ 	 	 	 	 /orsize1/rotate1 0 
+ 	 	 	 	 /orsize1/rotate2 0 
+ 	 	 	 	 /orsize1/video/bypass 0 
+ 	 	 	 	 /orsize1/video/freeze 0 
+ 	 	 	 	 /orsize1/video/mute 0 
+ 	 	 	 	 /orsize1/video/preview 0 
+ 	 	 	 	 /orsize1/view/freeze 0 
+ 	 	 	 	 /orsize1/view/highlight 0 
+ 	 	 	 	 /orsize1/zoomX 1.000000 
+ 	 	 	 	 /orsize1/zoomY 1.000000 
+ # 
+ # Module /LenkaCues 
+ 	 	 	 	 /LenkaCues/view/freeze 0 
+ 	 	 	 	 /LenkaCues/view/highlight 0 
+ # 
+ # Module /orsize1.1 
+ 	 	 	 	 /orsize1.1/angle -180 
+ 	 	 	 	 /orsize1.1/boundmode clear 
+ 	 	 	 	 /orsize1.1/mirror 0 
+ 	 	 	 	 /orsize1.1/offsetX 0.000000 
+ 	 	 	 	 /orsize1.1/offsetY 0.071000 
+ 	 	 	 	 /orsize1.1/rotate1 0 
+ 	 	 	 	 /orsize1.1/rotate2 0 
+ 	 	 	 	 /orsize1.1/video/bypass 0 
+ 	 	 	 	 /orsize1.1/video/freeze 0 
+ 	 	 	 	 /orsize1.1/video/mute 0 
+ 	 	 	 	 /orsize1.1/video/preview 0 
+ 	 	 	 	 /orsize1.1/view/freeze 0 
+ 	 	 	 	 /orsize1.1/view/highlight 0 
+ 	 	 	 	 /orsize1.1/zoomX 0.900000 
+ 	 	 	 	 /orsize1.1/zoomY 1.000000 
+ # 
+ ######################## 
+ 
+ 
+ 
+ KEYCUE "init2" 
+ 
+ 
+ 	 	 	 	 /CONFIG /orsize-4 99 1 /delay3 99 1 /delay2 99 1 /slide%3 99 1 /slide%2 99 1 /slide%1 99 1 /orsize2-3 99 1 /orsize1 99 1 /LenkaCues 99 1 /orsize-2 99 1 /delay1 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /orsize-4 
+ 	 	 	 	 /orsize-4/angle 0 
+ 	 	 	 	 /orsize-4/boundmode clip 
+ 	 	 	 	 /orsize-4/mirror 1 
+ 	 	 	 	 /orsize-4/offsetX 0.000000 
+ 	 	 	 	 /orsize-4/offsetY 0.000000 
+ 	 	 	 	 /orsize-4/rotate1 0 
+ 	 	 	 	 /orsize-4/rotate2 0 
+ 	 	 	 	 /orsize-4/video/bypass 0 
+ 	 	 	 	 /orsize-4/video/freeze 0 
+ 	 	 	 	 /orsize-4/video/mute 1 
+ 	 	 	 	 /orsize-4/video/preview 0 
+ 	 	 	 	 /orsize-4/view/freeze 0 
+ 	 	 	 	 /orsize-4/view/highlight 0 
+ 	 	 	 	 /orsize-4/zoomX 1.000000 
+ 	 	 	 	 /orsize-4/zoomY 1.000000 
+ # 
+ # Module /delay3 
+ 	 	 	 	 /delay3/crossfade 1.000000 
+ 	 	 	 	 /delay3/delay 120 
+ 	 	 	 	 /delay3/feedback 0.000000 
+ 	 	 	 	 /delay3/maxDelay 190 
+ 	 	 	 	 /delay3/video/bypass 0 
+ 	 	 	 	 /delay3/video/freeze 0 
+ 	 	 	 	 /delay3/video/mute 1 
+ 	 	 	 	 /delay3/view/freeze 0 
+ 	 	 	 	 /delay3/view/highlight 0 
+ # 
+ # Module /delay2 
+ 	 	 	 	 /delay2/crossfade 1.000000 
+ 	 	 	 	 /delay2/delay 120 
+ 	 	 	 	 /delay2/feedback 0.000000 
+ 	 	 	 	 /delay2/maxDelay 120 
+ 	 	 	 	 /delay2/video/bypass 0 
+ 	 	 	 	 /delay2/video/freeze 0 
+ 	 	 	 	 /delay2/video/mute 1 
+ 	 	 	 	 /delay2/view/freeze 0 
+ 	 	 	 	 /delay2/view/highlight 0 
+ # 
+ # Module /slide%3 
+ 	 	 	 	 /slide%3/feedback 0.000000 
+ 	 	 	 	 /slide%3/scalebias/bias 0 
+ 	 	 	 	 /slide%3/scalebias/scale 1.000000 
+ 	 	 	 	 /slide%3/slideDown 0.000000 
+ 	 	 	 	 /slide%3/slideUp 0.000000 
+ 	 	 	 	 /slide%3/smooth 0 
+ 	 	 	 	 /slide%3/video/bypass 0 
+ 	 	 	 	 /slide%3/video/freeze 0 
+ 	 	 	 	 /slide%3/video/mute 1 
+ 	 	 	 	 /slide%3/view/freeze 0 
+ 	 	 	 	 /slide%3/view/highlight 0 
+ # 
+ # Module /slide%2 
+ 	 	 	 	 /slide%2/feedback 0.000000 
+ 	 	 	 	 /slide%2/scalebias/bias 0 
+ 	 	 	 	 /slide%2/scalebias/scale 1.000000 
+ 	 	 	 	 /slide%2/slideDown 0.000000 
+ 	 	 	 	 /slide%2/slideUp 0.000000 
+ 	 	 	 	 /slide%2/smooth 0 
+ 	 	 	 	 /slide%2/video/bypass 0 
+ 	 	 	 	 /slide%2/video/freeze 0 
+ 	 	 	 	 /slide%2/video/mute 1 
+ 	 	 	 	 /slide%2/view/freeze 0 
+ 	 	 	 	 /slide%2/view/highlight 0 
+ # 
+ # Module /slide%1 
+ 	 	 	 	 /slide%1/feedback 0.314685 
+ 	 	 	 	 /slide%1/scalebias/bias 0 
+ 	 	 	 	 /slide%1/scalebias/scale 1.000000 
+ 	 	 	 	 /slide%1/slideDown 40.000000 
+ 	 	 	 	 /slide%1/slideUp 15.000000 
+ 	 	 	 	 /slide%1/smooth 1 
+ 	 	 	 	 /slide%1/video/bypass 0 
+ 	 	 	 	 /slide%1/video/freeze 0 
+ 	 	 	 	 /slide%1/video/mute 1 
+ 	 	 	 	 /slide%1/view/freeze 0 
+ 	 	 	 	 /slide%1/view/highlight 0 
+ # 
+ # Module /orsize2-3 
+ 	 	 	 	 /orsize2-3/angle 0 
+ 	 	 	 	 /orsize2-3/boundmode clip 
+ 	 	 	 	 /orsize2-3/mirror 1 
+ 	 	 	 	 /orsize2-3/offsetX -0.062000 
+ 	 	 	 	 /orsize2-3/offsetY 0.000000 
+ 	 	 	 	 /orsize2-3/rotate1 0 
+ 	 	 	 	 /orsize2-3/rotate2 0 
+ 	 	 	 	 /orsize2-3/video/bypass 0 
+ 	 	 	 	 /orsize2-3/video/freeze 0 
+ 	 	 	 	 /orsize2-3/video/mute 0 
+ 	 	 	 	 /orsize2-3/video/preview 0 
+ 	 	 	 	 /orsize2-3/view/freeze 0 
+ 	 	 	 	 /orsize2-3/view/highlight 0 
+ 	 	 	 	 /orsize2-3/zoomX 1.000000 
+ 	 	 	 	 /orsize2-3/zoomY 1.000000 
+ # 
+ # Module /orsize1 
+ 	 	 	 	 /orsize1/angle 0 
+ 	 	 	 	 /orsize1/boundmode clear 
+ 	 	 	 	 /orsize1/mirror 1 
+ 	 	 	 	 /orsize1/offsetX 0.416000 
+ 	 	 	 	 /orsize1/offsetY 0.000000 
+ 	 	 	 	 /orsize1/rotate1 0 
+ 	 	 	 	 /orsize1/rotate2 0 
+ 	 	 	 	 /orsize1/video/bypass 0 
+ 	 	 	 	 /orsize1/video/freeze 0 
+ 	 	 	 	 /orsize1/video/mute 0 
+ 	 	 	 	 /orsize1/video/preview 0 
+ 	 	 	 	 /orsize1/view/freeze 0 
+ 	 	 	 	 /orsize1/view/highlight 0 
+ 	 	 	 	 /orsize1/zoomX 1.000000 
+ 	 	 	 	 /orsize1/zoomY 1.000000 
+ # 
+ # Module /LenkaCues 
+ 	 	 	 	 /LenkaCues/view/freeze 0 
+ 	 	 	 	 /LenkaCues/view/highlight 0 
+ # 
+ # Module /orsize-2 
+ 	 	 	 	 /orsize-2/angle -180 
+ 	 	 	 	 /orsize-2/boundmode clear 
+ 	 	 	 	 /orsize-2/mirror 0 
+ 	 	 	 	 /orsize-2/offsetX -0.013000 
+ 	 	 	 	 /orsize-2/offsetY 0.120000 
+ 	 	 	 	 /orsize-2/rotate1 0 
+ 	 	 	 	 /orsize-2/rotate2 0 
+ 	 	 	 	 /orsize-2/video/bypass 0 
+ 	 	 	 	 /orsize-2/video/freeze 0 
+ 	 	 	 	 /orsize-2/video/mute 0 
+ 	 	 	 	 /orsize-2/video/preview 0 
+ 	 	 	 	 /orsize-2/view/freeze 0 
+ 	 	 	 	 /orsize-2/view/highlight 0 
+ 	 	 	 	 /orsize-2/zoomX 1.000000 
+ 	 	 	 	 /orsize-2/zoomY 1.000000 
+ # 
+ # Module /delay1 
+ 	 	 	 	 /delay1/crossfade 0.000000 
+ 	 	 	 	 /delay1/delay 70 
+ 	 	 	 	 /delay1/feedback 0.000000 
+ 	 	 	 	 /delay1/maxDelay 120 
+ 	 	 	 	 /delay1/video/bypass 0 
+ 	 	 	 	 /delay1/video/freeze 0 
+ 	 	 	 	 /delay1/video/mute 1 
+ 	 	 	 	 /delay1/view/freeze 0 
+ 	 	 	 	 /delay1/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
