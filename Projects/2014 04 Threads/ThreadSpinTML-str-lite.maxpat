@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 1686.0, 576.0 ],
+		"rect" : [ 3.0, 45.0, 1686.0, 576.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -276,7 +276,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -299,6 +299,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -531,7 +532,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 4 ],
+									"args" : [ 1 ],
 									"border" : 1,
 									"id" : "obj-29",
 									"maxclass" : "bpatcher",
@@ -815,6 +816,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -932,7 +942,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1344,7 +1354,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1504,7 +1514,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1669,7 +1679,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1843,7 +1853,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2120,7 +2130,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2217,7 +2227,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2390,7 +2400,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2563,7 +2573,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2736,7 +2746,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2909,7 +2919,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3068,7 +3078,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3227,7 +3237,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3430,11 +3440,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1837.0, 44.0, 604.0, 425.0 ],
+						"rect" : [ 1837.0, 45.0, 604.0, 425.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3453,6 +3463,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3657,7 +3668,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4084,7 +4095,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4281,7 +4292,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4465,7 +4476,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4616,7 +4627,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4767,7 +4778,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4951,7 +4962,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5135,7 +5146,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5426,7 +5437,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -6031,83 +6042,83 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36::obj-108::obj-87" : [ "Direction[15]", "Direction", 0 ],
-			"obj-7::obj-108::obj-103" : [ "Direction[6]", "Direction", 0 ],
-			"obj-36::obj-51" : [ "Soundfile[7]", "Soundfile", 0 ],
-			"obj-54::obj-108::obj-67" : [ "SelectAll[9]", "SelectAll", 0 ],
-			"obj-7::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-1::obj-1::obj-108::obj-32" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-54::obj-69" : [ "SelectFile[9]", "SelectFile", 0 ],
-			"obj-7::obj-69" : [ "SelectFile[2]", "SelectFile", 0 ],
-			"obj-8::obj-69" : [ "SelectFile[3]", "SelectFile", 0 ],
-			"obj-9::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[6]", "Mode", 0 ],
-			"obj-9::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
-			"obj-9::obj-74" : [ "note[4]", "Note", 0 ],
-			"obj-10::obj-108::obj-87" : [ "Direction[11]", "Direction", 0 ],
-			"obj-10::obj-69" : [ "SelectFile[5]", "SelectFile", 0 ],
-			"obj-36::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[9]", "Mode", 0 ],
-			"obj-36::obj-108::obj-101" : [ "Scrub[7]", "Scrub", 0 ],
-			"obj-7::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
-			"obj-36::obj-89" : [ "lock[7]", "Lock", 0 ],
-			"obj-54::obj-108::obj-32" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-108::obj-87" : [ "Direction[17]", "Direction", 0 ],
-			"obj-54::obj-74" : [ "note[9]", "Note", 0 ],
-			"obj-7::obj-68" : [ "DropFile[2]", "DropFile", 0 ],
-			"obj-9::obj-108::obj-103" : [ "Direction[10]", "Direction", 0 ],
-			"obj-9::obj-89" : [ "lock[4]", "Lock", 0 ],
-			"obj-10::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[7]", "Mode", 0 ],
-			"obj-8::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
-			"obj-10::obj-108::obj-103" : [ "Direction[12]", "Direction", 0 ],
-			"obj-10::obj-74" : [ "note[5]", "Note", 0 ],
-			"obj-36::obj-108::obj-32" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-36::obj-74" : [ "note[7]", "Note", 0 ],
-			"obj-54::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[11]", "Mode", 0 ],
-			"obj-7::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[10]", "Mode", 0 ],
-			"obj-54::obj-108::obj-101" : [ "Scrub[9]", "Scrub", 0 ],
-			"obj-7::obj-51" : [ "Soundfile[2]", "Soundfile", 0 ],
-			"obj-8::obj-108::obj-103" : [ "Direction[8]", "Direction", 0 ],
-			"obj-1::obj-1::obj-108::obj-101" : [ "Scrub[8]", "Scrub", 0 ],
-			"obj-54::obj-51" : [ "Soundfile[9]", "Soundfile", 0 ],
-			"obj-8::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
-			"obj-9::obj-108::obj-87" : [ "Direction[9]", "Direction", 0 ],
-			"obj-9::obj-51" : [ "Soundfile[4]", "Soundfile", 0 ],
-			"obj-10::obj-108::obj-67" : [ "SelectAll[5]", "SelectAll", 0 ],
-			"obj-10::obj-89" : [ "lock[5]", "Lock", 0 ],
-			"obj-1::obj-1::obj-69" : [ "SelectFile[8]", "SelectFile", 0 ],
-			"obj-8::obj-68" : [ "DropFile[3]", "DropFile", 0 ],
-			"obj-36::obj-108::obj-103" : [ "Direction[16]", "Direction", 0 ],
-			"obj-7::obj-108::obj-87" : [ "Direction[5]", "Direction", 0 ],
-			"obj-36::obj-69" : [ "SelectFile[7]", "SelectFile", 0 ],
-			"obj-54::obj-108::obj-103" : [ "Direction[20]", "Direction", 0 ],
-			"obj-7::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-8::obj-108::obj-87" : [ "Direction[7]", "Direction", 0 ],
 			"obj-1::obj-1::obj-108::obj-67" : [ "SelectAll[8]", "SelectAll", 0 ],
-			"obj-54::obj-89" : [ "lock[9]", "Lock", 0 ],
-			"obj-1::obj-1::obj-51" : [ "Soundfile[8]", "Soundfile", 0 ],
-			"obj-8::obj-74" : [ "note[3]", "Note", 0 ],
-			"obj-9::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
-			"obj-9::obj-69" : [ "SelectFile[4]", "SelectFile", 0 ],
-			"obj-10::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-8::obj-108::obj-67" : [ "SelectAll[3]", "SelectAll", 0 ],
-			"obj-10::obj-68" : [ "DropFile[5]", "DropFile", 0 ],
-			"obj-1::obj-1::obj-74" : [ "note[8]", "Note", 0 ],
-			"obj-36::obj-108::obj-67" : [ "SelectAll[7]", "SelectAll", 0 ],
-			"obj-7::obj-108::obj-67" : [ "SelectAll[2]", "SelectAll", 0 ],
-			"obj-36::obj-68" : [ "DropFile[7]", "DropFile", 0 ],
+			"obj-10::obj-89" : [ "lock[3]", "Lock", 0 ],
+			"obj-54::obj-89" : [ "lock[6]", "Lock", 0 ],
+			"obj-10::obj-108::obj-87" : [ "Direction[13]", "Direction", 0 ],
+			"obj-36::obj-69" : [ "SelectFile[6]", "SelectFile", 0 ],
+			"obj-10::obj-108::obj-101" : [ "Scrub[6]", "Scrub", 0 ],
+			"obj-1::obj-1::obj-108::obj-87" : [ "Direction[18]", "Direction", 0 ],
 			"obj-54::obj-108::obj-87" : [ "Direction[19]", "Direction", 0 ],
-			"obj-7::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
-			"obj-1::obj-1::obj-108::obj-103" : [ "Direction[18]", "Direction", 0 ],
-			"obj-54::obj-68" : [ "DropFile[9]", "DropFile", 0 ],
-			"obj-1::obj-1::obj-89" : [ "lock[8]", "Lock", 0 ],
-			"obj-8::obj-89" : [ "lock[3]", "Lock", 0 ],
-			"obj-9::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-8::obj-51" : [ "Soundfile[3]", "Soundfile", 0 ],
-			"obj-9::obj-68" : [ "DropFile[4]", "DropFile", 0 ],
-			"obj-10::obj-108::obj-101" : [ "Scrub[5]", "Scrub", 0 ],
+			"obj-36::obj-108::obj-67" : [ "SelectAll[7]", "SelectAll", 0 ],
+			"obj-7::obj-89" : [ "lock", "Lock", 0 ],
+			"obj-7::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
+			"obj-36::obj-51" : [ "Soundfile[6]", "Soundfile", 0 ],
+			"obj-54::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-8::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-10::obj-69" : [ "SelectFile[5]", "SelectFile", 0 ],
+			"obj-7::obj-68" : [ "DropFile[3]", "DropFile", 0 ],
+			"obj-1::obj-1::obj-51" : [ "Soundfile[7]", "Soundfile", 0 ],
+			"obj-54::obj-108::obj-101" : [ "Scrub[9]", "Scrub", 0 ],
+			"obj-1::obj-1::obj-69" : [ "SelectFile[7]", "SelectFile", 0 ],
+			"obj-10::obj-108::obj-67" : [ "SelectAll[6]", "SelectAll", 0 ],
+			"obj-54::obj-69" : [ "SelectFile[8]", "SelectFile", 0 ],
+			"obj-7::obj-108::obj-87" : [ "Direction[7]", "Direction", 0 ],
+			"obj-36::obj-108::obj-103" : [ "Direction[16]", "Direction", 0 ],
+			"obj-54::obj-68" : [ "DropFile[8]", "DropFile", 0 ],
+			"obj-54::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[9]", "Mode", 0 ],
+			"obj-9::obj-108::obj-87" : [ "Direction[12]", "Direction", 0 ],
+			"obj-1::obj-1::obj-108::obj-103" : [ "Direction[17]", "Direction", 0 ],
+			"obj-7::obj-69" : [ "SelectFile[3]", "SelectFile", 0 ],
+			"obj-36::obj-68" : [ "DropFile[6]", "DropFile", 0 ],
 			"obj-10::obj-51" : [ "Soundfile[5]", "Soundfile", 0 ],
-			"obj-1::obj-1::obj-68" : [ "DropFile[8]", "DropFile", 0 ],
-			"obj-8::obj-108::obj-32" : [ "live.text[6]", "live.text[3]", 0 ]
+			"obj-36::obj-108::obj-32" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-7::obj-108::obj-67" : [ "SelectAll[3]", "SelectAll", 0 ],
+			"obj-8::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-9::obj-51" : [ "Soundfile[4]", "Soundfile", 0 ],
+			"obj-36::obj-74" : [ "note[4]", "Note", 0 ],
+			"obj-10::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[6]", "Mode", 0 ],
+			"obj-36::obj-89" : [ "lock[4]", "Lock", 0 ],
+			"obj-7::obj-108::obj-103" : [ "Direction[8]", "Direction", 0 ],
+			"obj-9::obj-108::obj-67" : [ "SelectAll[5]", "SelectAll", 0 ],
+			"obj-9::obj-69" : [ "SelectFile[4]", "SelectFile", 0 ],
+			"obj-9::obj-68" : [ "DropFile[4]", "DropFile", 0 ],
+			"obj-1::obj-1::obj-108::obj-101" : [ "Scrub[8]", "Scrub", 0 ],
+			"obj-1::obj-1::obj-74" : [ "note[5]", "Note", 0 ],
+			"obj-54::obj-51" : [ "Soundfile[8]", "Soundfile", 0 ],
+			"obj-9::obj-108::obj-101" : [ "Scrub[5]", "Scrub", 0 ],
+			"obj-10::obj-108::obj-32" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-10::obj-68" : [ "DropFile[5]", "DropFile", 0 ],
+			"obj-7::obj-108::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-9::obj-108::obj-32" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-54::obj-108::obj-103" : [ "Direction[20]", "Direction", 0 ],
+			"obj-10::obj-108::obj-103" : [ "Direction[14]", "Direction", 0 ],
+			"obj-54::obj-108::obj-67" : [ "SelectAll[9]", "SelectAll", 0 ],
+			"obj-7::obj-108::obj-101" : [ "Scrub[3]", "Scrub", 0 ],
+			"obj-9::obj-74" : [ "note[2]", "Note", 0 ],
+			"obj-9::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[5]", "Mode", 0 ],
+			"obj-9::obj-89" : [ "lock[2]", "Lock", 0 ],
+			"obj-8::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-36::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[7]", "Mode", 0 ],
+			"obj-7::obj-74" : [ "note", "Note", 0 ],
+			"obj-36::obj-108::obj-101" : [ "Scrub[7]", "Scrub", 0 ],
+			"obj-1::obj-1::obj-89" : [ "lock[5]", "Lock", 0 ],
+			"obj-10::obj-74" : [ "note[3]", "Note", 0 ],
+			"obj-7::obj-51" : [ "Soundfile[3]", "Soundfile", 0 ],
+			"obj-8::obj-108::obj-101" : [ "Scrub[4]", "Scrub", 0 ],
+			"obj-1::obj-1::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[8]", "Mode", 0 ],
+			"obj-8::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
+			"obj-54::obj-74" : [ "note[6]", "Note", 0 ],
+			"obj-9::obj-108::obj-103" : [ "Direction[11]", "Direction", 0 ],
+			"obj-36::obj-108::obj-87" : [ "Direction[15]", "Direction", 0 ],
+			"obj-8::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
+			"obj-8::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-8::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-8::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-1::obj-1::obj-68" : [ "DropFile[7]", "DropFile", 0 ],
+			"obj-8::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
+			"obj-8::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
+			"obj-1::obj-1::obj-108::obj-32" : [ "live.text[5]", "live.text[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6154,14 +6165,14 @@
 			}
 , 			{
 				"name" : "jmod.nav.rogs~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/Jamoma/jmod.nav.rogs~",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.rogs~",
 				"patcherrelativepath" : "../../Jamoma/jmod.nav.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.rogs~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/Jamoma/jmod.nav.rogs~",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.rogs~",
 				"patcherrelativepath" : "../../Jamoma/jmod.nav.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6175,7 +6186,7 @@
 			}
 , 			{
 				"name" : "jcom.nav.oscroute.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/Jamoma/jmod.nav.oscRoute",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.oscRoute",
 				"patcherrelativepath" : "../../Jamoma/jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6231,21 +6242,21 @@
 			}
 , 			{
 				"name" : "jmod.nav.env~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/Jamoma/jmod.nav.env~",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.env~",
 				"patcherrelativepath" : "../../Jamoma/jmod.nav.env~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.env~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/Jamoma/jmod.nav.env~",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.env~",
 				"patcherrelativepath" : "../../Jamoma/jmod.nav.env~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.input~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/ADC-DAC~",
 				"patcherrelativepath" : "../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6259,8 +6270,8 @@
 			}
 , 			{
 				"name" : "jmod.tap.reverb~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/TapTools/audio/reverb~",
-				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/TapTools/audio/reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6280,7 +6291,7 @@
 			}
 , 			{
 				"name" : "nav.gain~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/snd",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd",
 				"patcherrelativepath" : "../../snd",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6308,42 +6319,42 @@
 			}
 , 			{
 				"name" : "jmod.sur.reverb~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.reverb~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FDN16-16-16d.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FDN.gain.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vary_unit.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC-and-friends/spatialization/sur.reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/ViMiC/spatialization/sur.reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6392,7 +6403,7 @@
 			}
 , 			{
 				"name" : "nav.adc~.maxpat",
-				"bootpath" : "/Users/PaperThreads/Code/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/ADC-DAC~",
 				"patcherrelativepath" : "../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
