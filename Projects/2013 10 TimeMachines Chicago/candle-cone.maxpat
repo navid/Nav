@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 26.0, 821.0, 149.0, 68.0 ],
@@ -38,11 +39,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 584.0, 46.0, 904.0, 707.0 ],
+						"rect" : [ 584.0, 46.0, 1626.0, 917.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -63,6 +65,31 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 1335.0, 435.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 465.0, 735.0, 156.0, 18.0 ],
+									"text" : "load candle-cone-cuelist.txt"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -117,11 +144,12 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 257.0, 197.0 ],
+										"rect" : [ 2197.0, 205.0, 257.0, 197.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -159,8 +187,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.0, 14.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 42.0, 43.0, 0.0, 0.0 ]
+													"patching_rect" : [ 17.0, 14.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -192,11 +219,12 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 9,
+															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 1102.0, 1085.0, 327.0, 257.0 ],
+														"rect" : [ 2153.0, 394.0, 327.0, 257.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 13.0,
@@ -451,8 +479,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 9,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 1461.0, 857.0, 218.0, 337.0 ],
@@ -1070,11 +1099,12 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 9,
+											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 110.0, 55.0, 430.0, 311.0 ],
+										"rect" : [ 1607.0, 521.0, 831.0, 487.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -1105,7 +1135,7 @@
 													"patching_rect" : [ 127.0, 83.0, 88.0, 21.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 2,
-													"presentation_rect" : [ 68.799965, 23.300014, 57.400002, 36.0 ],
+													"presentation_rect" : [ 68.799965, 23.300014, 58.0, 36.0 ],
 													"text" : "Duration(ms)",
 													"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 												}
@@ -1193,7 +1223,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 48.499992, 333.0, 300.0, 140.0 ],
+													"patching_rect" : [ 30.0, 330.0, 300.0, 140.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 9.399965, 197.900024, 300.0, 140.0 ]
 												}
@@ -1223,7 +1253,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 760.0, 126.0, 45.0, 19.0 ],
-													"presentation_rect" : [ 731.0, 131.0, 0.0, 0.0 ],
 													"text" : "$1 20"
 												}
 
@@ -1238,7 +1267,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "signal", "bang" ],
 													"patching_rect" : [ 760.0, 151.0, 40.0, 21.0 ],
-													"presentation_rect" : [ 731.0, 156.0, 0.0, 0.0 ],
 													"text" : "line~"
 												}
 
@@ -1259,14 +1287,14 @@
 													"presentation_rect" : [ 327.400024, 162.900024, 136.0, 35.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_mmin" : -70.0,
-															"parameter_initial" : [ -70 ],
-															"parameter_type" : 0,
-															"parameter_initial_enable" : 1,
-															"parameter_shortname" : "live.gain~",
 															"parameter_longname" : "live.gain~[2]",
-															"parameter_unitstyle" : 4,
-															"parameter_mmax" : 6.0
+															"parameter_shortname" : "live.gain~",
+															"parameter_type" : 0,
+															"parameter_mmin" : -70.0,
+															"parameter_mmax" : 6.0,
+															"parameter_initial_enable" : 1,
+															"parameter_initial" : [ -70 ],
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -1293,12 +1321,12 @@
 													"presentation_rect" : [ 409.400024, 140.299988, 54.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 440.0 ],
+															"parameter_longname" : "flonum[3]",
+															"parameter_shortname" : "flonum",
 															"parameter_type" : 3,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "flonum",
-															"parameter_longname" : "flonum[3]"
+															"parameter_initial" : [ 440.0 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -1318,7 +1346,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 760.0, 176.0, 69.0, 21.0 ],
-													"presentation_rect" : [ 731.0, 181.0, 0.0, 0.0 ],
 													"text" : "cycle~ 80."
 												}
 
@@ -1347,7 +1374,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 594.0, 126.0, 45.0, 19.0 ],
-													"presentation_rect" : [ 663.0, 208.0, 0.0, 0.0 ],
 													"text" : "$1 20"
 												}
 
@@ -1362,7 +1388,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "signal", "bang" ],
 													"patching_rect" : [ 594.0, 151.0, 40.0, 21.0 ],
-													"presentation_rect" : [ 663.0, 233.0, 0.0, 0.0 ],
 													"text" : "line~"
 												}
 
@@ -1383,14 +1408,14 @@
 													"presentation_rect" : [ 175.199982, 162.900024, 136.0, 35.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_mmin" : -70.0,
-															"parameter_initial" : [ -70 ],
-															"parameter_type" : 0,
-															"parameter_initial_enable" : 1,
-															"parameter_shortname" : "live.gain~",
 															"parameter_longname" : "live.gain~[1]",
-															"parameter_unitstyle" : 4,
-															"parameter_mmax" : 6.0
+															"parameter_shortname" : "live.gain~",
+															"parameter_type" : 0,
+															"parameter_mmin" : -70.0,
+															"parameter_mmax" : 6.0,
+															"parameter_initial_enable" : 1,
+															"parameter_initial" : [ -70 ],
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -1417,12 +1442,12 @@
 													"presentation_rect" : [ 257.200012, 138.299988, 54.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 440.0 ],
+															"parameter_longname" : "flonum[2]",
+															"parameter_shortname" : "flonum",
 															"parameter_type" : 3,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "flonum",
-															"parameter_longname" : "flonum[2]"
+															"parameter_initial" : [ 440.0 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -1538,14 +1563,14 @@
 													"presentation_rect" : [ 23.399973, 162.900024, 136.0, 35.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_mmin" : -70.0,
-															"parameter_initial" : [ -70 ],
-															"parameter_type" : 0,
-															"parameter_initial_enable" : 1,
-															"parameter_shortname" : "live.gain~",
 															"parameter_longname" : "live.gain~",
-															"parameter_unitstyle" : 4,
-															"parameter_mmax" : 6.0
+															"parameter_shortname" : "live.gain~",
+															"parameter_type" : 0,
+															"parameter_mmin" : -70.0,
+															"parameter_mmax" : 6.0,
+															"parameter_initial_enable" : 1,
+															"parameter_initial" : [ -70 ],
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -1572,12 +1597,12 @@
 													"presentation_rect" : [ 105.399971, 138.299988, 54.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 440.0 ],
+															"parameter_longname" : "flonum[1]",
+															"parameter_shortname" : "flonum",
 															"parameter_type" : 3,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "flonum",
-															"parameter_longname" : "flonum[1]"
+															"parameter_initial" : [ 440.0 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -1635,12 +1660,12 @@
 													"presentation_rect" : [ 300.599976, 2.300012, 50.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 0.8 ],
+															"parameter_longname" : "flonum",
+															"parameter_shortname" : "flonum",
 															"parameter_type" : 0,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "flonum",
-															"parameter_longname" : "flonum"
+															"parameter_initial" : [ 0.8 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -1664,12 +1689,12 @@
 													"presentation_rect" : [ 391.899963, 2.300012, 50.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 1000 ],
+															"parameter_longname" : "number[4]",
+															"parameter_shortname" : "number[2]",
 															"parameter_type" : 3,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "number[2]",
-															"parameter_longname" : "number[4]"
+															"parameter_initial" : [ 1000 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -1693,12 +1718,12 @@
 													"presentation_rect" : [ 221.799988, 2.300012, 50.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 100 ],
+															"parameter_longname" : "number[2]",
+															"parameter_shortname" : "number[2]",
 															"parameter_type" : 3,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "number[2]",
-															"parameter_longname" : "number[2]"
+															"parameter_initial" : [ 100 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -1722,12 +1747,12 @@
 													"presentation_rect" : [ 145.799973, 2.300012, 50.0, 21.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_initial" : [ 10 ],
+															"parameter_longname" : "number[3]",
+															"parameter_shortname" : "number[2]",
 															"parameter_type" : 3,
 															"parameter_initial_enable" : 1,
-															"parameter_invisible" : 1,
-															"parameter_shortname" : "number[2]",
-															"parameter_longname" : "number[3]"
+															"parameter_initial" : [ 10 ],
+															"parameter_invisible" : 1
 														}
 
 													}
@@ -2701,6 +2726,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2809,6 +2843,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-61", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2905,310 +2948,289 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-52::obj-8" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-9::obj-52::obj-43" : [ "number[2]", "number[2]", 0 ],
-			"obj-9::obj-52::obj-44" : [ "number[3]", "number[2]", 0 ],
-			"obj-9::obj-1::obj-90" : [ "Trans[1]", "Trans", 0 ],
-			"obj-9::obj-1::obj-34" : [ "TriggerLock[1]", "Lock", 0 ],
-			"obj-9::obj-1::obj-52" : [ "Play[1]", "Play", 0 ],
-			"obj-9::obj-1::obj-55" : [ "Size[1]", "Size", 0 ],
-			"obj-9::obj-52::obj-38" : [ "flonum[1]", "flonum", 0 ],
-			"obj-9::obj-52::obj-36" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-9::obj-1::obj-30" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-9::obj-1::obj-24" : [ "Rec[1]", "Rec", 0 ],
-			"obj-9::obj-1::obj-14" : [ "TriggersFreq[1]", "Freq", 0 ],
-			"obj-9::obj-1::obj-32" : [ "Freeze[1]", "Freeze", 0 ],
-			"obj-9::obj-1::obj-10" : [ "Append[1]", "Append", 0 ],
-			"obj-9::obj-52::obj-42" : [ "number[4]", "number[2]", 0 ],
-			"obj-9::obj-1::obj-64::obj-24" : [ "Selection[1]", "Selection", 0 ],
-			"obj-9::obj-1::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
-			"obj-9::obj-1::obj-76" : [ "GrainSize[1]", "GrainSize", 0 ],
-			"obj-9::obj-1::obj-91" : [ "PitchVar[1]", "PitchVar", 0 ],
-			"obj-9::obj-1::obj-95" : [ "Gain[1]", "Gain", 0 ],
-			"obj-9::obj-1::obj-48" : [ "Fade[1]", "Fade", 0 ],
-			"obj-9::obj-1::obj-38" : [ "Stretch[1]", "Stretch", 0 ],
-			"obj-9::obj-1::obj-53" : [ "Clear[1]", "Clear", 0 ],
-			"obj-9::obj-1::obj-23" : [ "Dry/Wet[1]", "Dry/Wet", 0 ],
-			"obj-9::obj-52::obj-10" : [ "flonum[2]", "flonum", 0 ],
-			"obj-9::obj-52::obj-41" : [ "flonum", "flonum", 0 ],
-			"obj-9::obj-1::obj-39" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-9::obj-52::obj-16" : [ "flonum[3]", "flonum", 0 ],
 			"obj-9::obj-1::obj-40" : [ "TriggerNote[1]", "Note", 0 ],
-			"obj-9::obj-1::obj-77" : [ "OnsetVar[1]", "OnsetVar", 0 ],
+			"obj-9::obj-1::obj-38" : [ "Stretch[1]", "Stretch", 0 ],
+			"obj-9::obj-52::obj-16" : [ "flonum[3]", "flonum", 0 ],
+			"obj-9::obj-1::obj-34" : [ "TriggerLock[1]", "Lock", 0 ],
+			"obj-9::obj-52::obj-8" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-9::obj-1::obj-10" : [ "Append[1]", "Append", 0 ],
+			"obj-9::obj-1::obj-48" : [ "Fade[1]", "Fade", 0 ],
+			"obj-9::obj-52::obj-44" : [ "number[3]", "number[2]", 0 ],
+			"obj-9::obj-1::obj-64::obj-24" : [ "Selection[1]", "Selection", 0 ],
+			"obj-9::obj-1::obj-91" : [ "PitchVar[1]", "PitchVar", 0 ],
+			"obj-9::obj-1::obj-23" : [ "Dry/Wet[1]", "Dry/Wet", 0 ],
+			"obj-9::obj-1::obj-52" : [ "Play[1]", "Play", 0 ],
+			"obj-9::obj-1::obj-53" : [ "Clear[1]", "Clear", 0 ],
 			"obj-9::obj-1::obj-33" : [ "Direction[1]", "Direction", 0 ],
-			"obj-9::obj-52::obj-15" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-9::obj-1::obj-90" : [ "Trans[1]", "Trans", 0 ],
+			"obj-9::obj-1::obj-30" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-9::obj-1::obj-76" : [ "GrainSize[1]", "GrainSize", 0 ],
+			"obj-9::obj-52::obj-36" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-9::obj-1::obj-14" : [ "TriggersFreq[1]", "Freq", 0 ],
+			"obj-9::obj-1::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-9::obj-1::obj-32" : [ "Freeze[1]", "Freeze", 0 ],
+			"obj-9::obj-1::obj-24" : [ "Rec[1]", "Rec", 0 ],
+			"obj-9::obj-52::obj-41" : [ "flonum", "flonum", 0 ],
+			"obj-9::obj-52::obj-43" : [ "number[2]", "number[2]", 0 ],
+			"obj-9::obj-1::obj-77" : [ "OnsetVar[1]", "OnsetVar", 0 ],
+			"obj-9::obj-1::obj-39" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-9::obj-1::obj-55" : [ "Size[1]", "Size", 0 ],
+			"obj-9::obj-52::obj-10" : [ "flonum[2]", "flonum", 0 ],
+			"obj-9::obj-1::obj-95" : [ "Gain[1]", "Gain", 0 ],
+			"obj-9::obj-52::obj-15" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-9::obj-52::obj-38" : [ "flonum[1]", "flonum", 0 ],
+			"obj-9::obj-52::obj-42" : [ "number[4]", "number[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SoundBox.RogsLiveDevice.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/ForumMaxApps-All/Soundbox",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/ForumMaxApps-All/Soundbox",
+				"bootpath" : "/Applications/Max 6.1/packages/ForumMaxApps-All/misc/Soundbox",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Soundbox",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.pan2~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/m4l-patches/Tools resources",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/m4l-patches/Tools resources",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Tools resources",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/m4l-patches/Tools resources",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/m4l-patches/Tools resources",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Tools resources",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FMA.Preset.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/ForumMaxApps-All/Utilities",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/ForumMaxApps-All/Utilities",
+				"bootpath" : "/Applications/Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SoundBox.RogsLivePresets.json",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/ForumMaxApps-All/Soundbox",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/ForumMaxApps-All/Soundbox",
+				"bootpath" : "/Applications/Max 6.1/packages/ForumMaxApps-All/misc/Soundbox",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Soundbox",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/input~",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/input~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/input~",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/audioOnOff",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.output~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/output~",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/output~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/javascript",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/javascript",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.filter~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/filter~",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/filter~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.filter~.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/audio/filter~",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/modules/audio/filter~",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.tap.reverb~.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/JamomaUserLib/Tap.Tools/audio/reverb~",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/JamomaUserLib/Tap.Tools/audio/reverb~",
+				"bootpath" : "/Users/tml-audio/code/SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
+				"patcherrelativepath" : "../../../SearchPath/JamomaUsers/TapTools/max/patchers/jamoma-modules/audio/reverb~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.rand.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.rand",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.rand",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.rand",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.rand.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.rand",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.rand",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.rand",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/absdiff",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/absdiff",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.smartGate~.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/snd/gates",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/Nav/snd/gates",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MFCCs.zsa.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MFCCs.zsa-core.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MFCCs.alphabet.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
+				"patcherrelativepath" : "../../snd/gates",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.vufader.maxpat",
-				"bootpath" : "/Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
-				"patcherrelativepath" : "../../../Code/MaxSearchPath/IRCAM/OMax_y 4.5.2 /OMax Patches&Objects",
+				"bootpath" : "/Users/tml-audio/code/Nav/Omax/Omax.nav/Omax.main",
+				"patcherrelativepath" : "../../Omax/Omax.nav/Omax.main",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/modules/control/cueManager",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/modules/control/cueManager",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/initialized",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/initialized",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.env~.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.env~",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.env~",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.env~",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.env~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.env~.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.env~",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.env~",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.env~",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.env~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.input~.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/snd/ADC-DAC~",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/Nav/snd/ADC-DAC~",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/ADC-DAC~",
+				"patcherrelativepath" : "../../snd/ADC-DAC~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max6/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.sur.rogs~.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/julian/tml_candle/Candle/rogsBuff",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/julian/tml_candle/Candle/rogsBuff",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.sur.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.sur.rogs~.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/julian/tml_candle/Candle/rogsBuff",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/julian/tml_candle/Candle/rogsBuff",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.sur.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.nav.oscroute.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/julian/tml_candle/Candle/rogsBuff",
-				"patcherrelativepath" : "../../../Code/Git/MaxLibraries/julian/tml_candle/Candle/rogsBuff",
+				"bootpath" : "/Users/tml-audio/code/Nav/Jamoma/jmod.nav.oscRoute",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getAllAttributes",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/getAllAttributes",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/getReturnNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getParameterNames",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/getParameterNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getMessageNames",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/getMessageNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3297,14 +3319,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "zsa.mfcc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.dist.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.loader.mxo",
 				"type" : "iLaX"
 			}
@@ -3333,15 +3347,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.unpack≈.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.oscinstance.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.unpack≈.mxo",
 				"type" : "iLaX"
 			}
  ]
