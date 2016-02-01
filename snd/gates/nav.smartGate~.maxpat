@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 889.0, 146.0, 153.0, 84.0 ],
+		"rect" : [ 117.0, 45.0, 152.0, 85.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -156,8 +157,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -679,8 +681,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 695.0, 161.0, 376.0, 604.0 ],
@@ -1409,8 +1412,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 29.0, 69.0, 412.0, 515.0 ],
@@ -2140,8 +2144,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "int" ],
-					"patching_rect" : [ 234.221069, 554.0, 269.0, 20.0 ],
-					"text" : "MFCCs.alphabet 10"
+					"patching_rect" : [ 234.221069, 554.0, 151.0, 20.0 ],
+					"text" : "omax.MFCCs-alphabet 10"
 				}
 
 			}
@@ -2447,8 +2451,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 234.007446, 227.5, 124.0, 18.0 ],
-					"text" : "MFCCs.zsa 4096 4 10 0",
+					"patching_rect" : [ 234.007446, 227.5, 146.0, 18.0 ],
+					"text" : "omax.MFCCs-zsa 4096 4 10 0",
 					"varname" : "MFCCs[1]"
 				}
 
