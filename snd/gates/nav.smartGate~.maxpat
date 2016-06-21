@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1247.0, 45.0, 919.0, 1012.0 ],
+		"rect" : [ 1247.0, 45.0, 952.0, 471.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "audio input",
+					"id" : "obj-1",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 753.57843, 35.338951, 25.0, 25.0 ],
+					"presentation_rect" : [ 753.57843, 35.338951, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "reset",
 					"id" : "obj-173",
@@ -70,7 +83,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.57843, 56.338951, 25.0, 25.0 ]
 				}
 
@@ -162,7 +175,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 480.0, 252.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -595,7 +608,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 318.299866, 788.5, 20.0, 20.0 ],
+					"patching_rect" : [ 317.299866, 804.5, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.330566, 4.0, 30.0, 30.0 ]
 				}
@@ -629,7 +642,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.762878, 789.996094, 61.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.743561, 34.0, 52.0, 18.0 ],
+					"presentation_rect" : [ 95.743561, 34.0, 51.0, 18.0 ],
 					"text" : "Segment"
 				}
 
@@ -644,8 +657,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.57843, 767.5, 67.0, 17.0 ],
-					"text" : "loadmess 500"
+					"patching_rect" : [ 452.57843, 768.5, 62.0, 17.0 ],
+					"text" : "loadmess 10"
 				}
 
 			}
@@ -655,15 +668,16 @@
 					"fontsize" : 9.0,
 					"id" : "obj-32",
 					"maxclass" : "number",
-					"minimum" : 50,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 451.57843, 789.996094, 46.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.006714, 34.0, 35.736839, 17.0 ],
+					"presentation_rect" : [ 68.006714, 34.0, 31.736839, 17.0 ],
 					"textcolor" : [ 0.015686, 0.0, 0.0, 1.0 ],
+					"triangle" : 0,
 					"triscale" : 0.5,
 					"varname" : "Sections"
 				}
@@ -1407,8 +1421,8 @@
 					"id" : "obj-162",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1418,7 +1432,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 69.0, 412.0, 515.0 ],
+						"rect" : [ 779.0, 264.0, 412.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1652,17 +1666,6 @@
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 272.5, 237.0, 45.0, 20.0 ],
 									"text" : ">= 40."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "LED",
-									"id" : "obj-17",
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 272.5, 433.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2098,15 +2101,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-77", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-75", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2193,14 +2187,19 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 339.221069, 201.0, 33.0, 20.0 ],
+					"patching_rect" : [ 339.221069, 201.0, 30.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 29.221069, 83.0, 30.0, 18.0 ],
+					"triangle" : 0,
 					"triscale" : 0.5
 				}
 
@@ -2433,13 +2432,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-124",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.639038, 201.0, 77.0, 18.0 ],
+					"patching_rect" : [ 373.639038, 201.0, 66.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 62.639038, 85.0, 66.0, 16.0 ],
 					"text" : "Quantisation"
 				}
 
@@ -2487,6 +2488,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
@@ -2893,6 +2903,43 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "nav.mfcc.zsa.maxpat",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.mfcc.zsa.core.maxpat",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.mfcc.alphabet.maxpat",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.vufader.maxpat",
+				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.mfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.dist.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
