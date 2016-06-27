@@ -1,0 +1,21 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+function linear
+bypass 1
+clipmode low
+data/active 1
+input none
+input/max 1.000000
+input/min 0.000000
+mode 0.000000
+mute 0
+output/max 1.000000
+output/min 0.000000
+rampTime 0.000000
+slide/down 0.000000
+slide/up 0.000000
+# 
+# ###########################################

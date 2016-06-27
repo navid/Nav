@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1238.0, 896.0, 1106.0, 272.0 ],
+		"rect" : [ 346.0, 82.0, 1106.0, 272.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -25,7 +25,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 8,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -37,6 +37,63 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "audio.connect", "", "", "", "" ],
+					"patching_rect" : [ 967.0, 53.0, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "j.info="
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "audio.connect", "" ],
+					"patching_rect" : [ 967.0, 29.0, 79.0, 22.0 ],
+					"style" : "",
+					"text" : "j.limiter="
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 333.0, 241.0, 42.0, 21.0 ],
+					"style" : "",
+					"text" : "j.out="
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 9.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 9.0, 187.0, 32.0, 19.0 ],
+					"style" : "",
+					"text" : "j.in~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-135",
@@ -1113,7 +1170,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1864.0, 591.0, 462.0, 371.0 ],
+						"rect" : [ 1424.0, 591.0, 462.0, 371.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -4893,7 +4950,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1582.0, 736.0, 595.0, 497.0 ],
+						"rect" : [ 1217.0, 427.0, 595.0, 497.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -14736,6 +14793,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -14764,6 +14830,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-42", 0 ]
@@ -14826,14 +14901,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "Rec", "Rec", 0 ],
+			"obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
 			"obj-15" : [ "Append", "Append", 0 ],
-			"obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ]
+			"obj-20" : [ "Rec", "Rec", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "./Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14863,6 +14938,22 @@
 			}
 , 			{
 				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out=.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.limiter=.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.info=.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -52,7 +52,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 4.0, 150.0, 105.0 ],
+					"patching_rect" : [ 0.0, 1.0, 150.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"viewvisibility" : 1
 				}
