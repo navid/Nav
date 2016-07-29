@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 70.0, 322.0, 315.0 ],
+		"rect" : [ 25.0, 70.0, 320.0, 312.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 413.0, 257.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.233318, 72.907898, 24.0, 24.0 ]
+					"presentation_rect" : [ 0.233318, 71.907898, 24.0, 24.0 ]
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 340.0, 120.0, 80.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.233307, 276.907928, 80.0, 34.0 ],
+					"presentation_rect" : [ 240.233307, 275.907928, 80.0, 34.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -112,7 +112,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 35.0, 175.0, 320.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.233318, 72.907898, 320.0, 240.0 ]
+					"presentation_rect" : [ 0.233318, 71.907898, 320.0, 240.0 ]
 				}
 
 			}
@@ -128,7 +128,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 35.0, 61.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.233318, 0.907902, 300.0, 70.0 ],
+					"presentation_rect" : [ 1.233318, -0.092098, 300.0, 70.0 ],
 					"varname" : "/motion%"
 				}
 
@@ -187,114 +187,6 @@
 					"source" : [ "obj-7", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jmod.nav.motion%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/nav.motion%",
-				"patcherrelativepath" : "../../Jamoma/nav.motion%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jalg.nav.motion%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/nav.motion%",
-				"patcherrelativepath" : "../../Jamoma/nav.motion%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.motion%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.checkplanes%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.passmatrixinfo%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.rgb2luma%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.sum%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cv.jit.threshold.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

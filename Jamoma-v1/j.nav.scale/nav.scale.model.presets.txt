@@ -1,0 +1,36 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+function linear
+function/symmetry none
+function/parameter2 1.040000
+function/parameter1 21.000000
+clip 1
+data/active 1
+data/bypass 0
+diffMode 0
+filter/mode 1
+filter/samples 10
+offset 0.000000
+pre-slide/down 3
+pre-slide/up 3
+ramp/grain 1
+ramp/time 0
+scale/input/max 100.000000
+scale/input/min 0.000000
+scale/max 1.000000
+scale/min 0.000000
+scale/mode 3
+scale/window 500
+schmitt/debounce 0
+schmitt/lower 0.700000
+schmitt/on 1
+schmitt/ramp 0
+schmitt/upper 0.300000
+slide/down 1
+slide/up 1
+visualize 1
+# 
+# ###########################################
