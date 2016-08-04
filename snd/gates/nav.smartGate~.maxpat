@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1247.0, 45.0, 952.0, 471.0 ],
+		"rect" : [ 343.0, 45.0, 952.0, 1000.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -35,9 +35,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 753.57843, 35.338951, 25.0, 25.0 ],
-					"presentation_rect" : [ 753.57843, 35.338951, 0.0, 0.0 ]
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 753.57843, 35.338951, 25.0, 25.0 ]
 				}
 
 			}
@@ -48,7 +47,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 31.5, 38.5, 25.0, 25.0 ]
 				}
 
@@ -60,7 +59,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 284.299866, 732.0, 25.0, 25.0 ]
 				}
 
@@ -83,7 +82,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 439.57843, 56.338951, 25.0, 25.0 ]
 				}
 
@@ -139,7 +138,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.221069, 50.5, 79.0, 20.0 ],
+					"patching_rect" : [ 322.186615, 49.5, 79.0, 20.0 ],
 					"text" : "r #0-Reset"
 				}
 
@@ -175,7 +174,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 480.0, 252.0, 640.0, 480.0 ],
+						"rect" : [ 603.0, 402.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2257,8 +2256,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 363.221069, 443.0, 75.0, 20.0 ],
-					"text" : "loadmess 5."
+					"patching_rect" : [ 363.221069, 443.0, 82.0, 20.0 ],
+					"text" : "loadmess 25."
 				}
 
 			}
@@ -2903,43 +2902,6 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "nav.mfcc.zsa.maxpat",
-				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nav.mfcc.zsa.core.maxpat",
-				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nav.mfcc.alphabet.maxpat",
-				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nav.vufader.maxpat",
-				"bootpath" : "/Users/tml-audio/code/Nav/snd/gates",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.mfcc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.dist.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
