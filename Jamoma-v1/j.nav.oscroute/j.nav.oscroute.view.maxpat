@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1285.0, 45.0, 169.0, 28.0 ],
+		"rect" : [ 548.0, 203.0, 696.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -206,7 +206,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -595,7 +595,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -798,7 +798,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -1014,7 +1014,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -1058,7 +1058,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -1291,7 +1291,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -1517,7 +1517,7 @@
 																							"major" : 7,
 																							"minor" : 2,
 																							"revision" : 3,
-																							"architecture" : "x86",
+																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
 ,
@@ -2079,7 +2079,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -2224,7 +2224,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -2319,7 +2319,7 @@
 																							"major" : 7,
 																							"minor" : 2,
 																							"revision" : 3,
-																							"architecture" : "x86",
+																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
 ,
@@ -2658,7 +2658,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -2825,7 +2825,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -2934,7 +2934,7 @@
 																							"major" : 7,
 																							"minor" : 2,
 																							"revision" : 3,
-																							"architecture" : "x86",
+																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
 ,
@@ -3861,7 +3861,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -4163,7 +4163,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -4435,7 +4435,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -4897,7 +4897,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -5115,7 +5115,7 @@
 																			"major" : 7,
 																			"minor" : 2,
 																			"revision" : 3,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -5828,7 +5828,7 @@
 															"major" : 7,
 															"minor" : 2,
 															"revision" : 3,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -7669,7 +7669,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8470,9 +8470,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 155.666626, 165.0, 123.0, 22.0 ],
+					"patching_rect" : [ 155.666626, 165.0, 129.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote input"
+					"text" : "j.remote input/address"
 				}
 
 			}
@@ -8612,8 +8612,8 @@
  ],
 		"parameters" : 		{
 			"obj-10::obj-196" : [ "live.text[7]", "live.text", 0 ],
-			"obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-10::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ]
+			"obj-10::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-182" : [ "live.text[4]", "live.text[4]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
