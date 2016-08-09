@@ -1,0 +1,15 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+data/active 1
+interpolate 1000
+max 1.000000
+min 0.000000
+on 0
+rate/max 2000
+rate/min 500
+step 1.000000
+# 
+# ###########################################
