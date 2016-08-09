@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 761.0, 149.0, 300.0, 140.0 ],
+		"rect" : [ -79.0, 110.0, 300.0, 140.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -256,12 +256,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1056.0, 500.0, 547.0, 86.0 ],
+						"rect" : [ 1131.0, 437.0, 547.0, 86.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1087,7 +1087,7 @@
 									"allowdrag" : 0,
 									"annotation" : "Select a portion of sound to play - extend the selection using the shift key.",
 									"bgcolor" : [ 0.027451, 0.035294, 0.043137, 0.0 ],
-									"buffername" : "1054-Audio",
+									"buffername" : "1031-Audio",
 									"fontsize" : 9.0,
 									"gridcolor" : [ 0.666667, 0.698039, 0.717647, 0.13 ],
 									"id" : "obj-102",
@@ -1759,12 +1759,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 980.0, 433.0, 156.0, 148.0 ],
+						"rect" : [ 980.0, 433.0, 179.0, 167.0 ],
 						"bgcolor" : [ 0.792157, 0.792157, 0.792157, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1794,7 +1794,7 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"annotation" : "rate of change of temporal variance in Hz ",
+									"annotation" : "rate of change of temporal variance in Hz",
 									"bgcolor" : [ 0.989256, 0.417462, 0.031845, 0.698039 ],
 									"fgcolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ],
 									"fontface" : 0,
@@ -2360,7 +2360,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3266,12 +3266,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 258.0, 316.0, 292.0, 234.0 ],
+						"rect" : [ 259.0, 316.0, 307.0, 233.0 ],
 						"bgcolor" : [ 0.72549, 0.721569, 0.721569, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3300,6 +3300,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"title" : "/nav_rogsLive=(view)",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -3334,7 +3335,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 416.5, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 212.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 212.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3358,7 +3359,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 380.0, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 189.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 189.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3382,7 +3383,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 347.5, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 167.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 167.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3406,7 +3407,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 299.5, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 144.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 144.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3430,7 +3431,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 262.5, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 121.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 121.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3454,7 +3455,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 221.5, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 99.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 99.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3478,7 +3479,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 672.5, 184.0, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 77.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 77.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3502,7 +3503,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 672.5, 139.0, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 55.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 55.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3526,7 +3527,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 672.5, 93.0, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 33.0, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 33.0, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3550,7 +3551,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 672.5, 65.5, 169.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 121.5, 10.5, 169.0, 18.0 ],
+									"presentation_rect" : [ 134.0, 10.5, 169.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -3600,7 +3601,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3881,7 +3882,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-129",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -3889,9 +3890,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 416.5, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 416.5, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 212.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 212.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -4424,7 +4425,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -4705,7 +4706,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -4986,7 +4987,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -5267,7 +5268,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -5548,7 +5549,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -5829,7 +5830,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6110,7 +6111,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6391,7 +6392,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6672,7 +6673,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6953,7 +6954,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-80",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -6961,9 +6962,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 382.5, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 382.5, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 190.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 190.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -6983,7 +6984,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-79",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -6991,9 +6992,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 347.5, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 347.5, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 167.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 167.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7013,7 +7014,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-78",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7021,9 +7022,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 302.0, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 302.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 121.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 121.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7043,7 +7044,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-77",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7051,9 +7052,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 265.0, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 265.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 99.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 99.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7073,7 +7074,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-76",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7081,9 +7082,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 224.0, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 224.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 144.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 144.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7103,7 +7104,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-75",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7111,9 +7112,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 184.0, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 184.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 77.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 77.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7133,7 +7134,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-74",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7141,9 +7142,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 141.5, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 141.5, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 55.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 55.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7163,7 +7164,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-71",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7171,9 +7172,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 95.5, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 95.5, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 33.0, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 33.0, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7193,7 +7194,7 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 8.0,
 									"id" : "obj-69",
 									"items" : [ "<--", ",", "Master", ",", "Slave" ],
 									"maxclass" : "umenu",
@@ -7201,9 +7202,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 855.5, 65.5, 19.0, 19.0 ],
+									"patching_rect" : [ 855.5, 65.5, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.0, 10.5, 13.0, 19.0 ],
+									"presentation_rect" : [ 120.0, 10.5, 15.0, 17.0 ],
 									"style" : "",
 									"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ]
 								}
@@ -7394,7 +7395,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 76.5, 346.5, 52.0, 19.0 ],
+									"patching_rect" : [ 76.5, 346.5, 53.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 37.0, 167.0, 46.0, 19.0 ],
 									"style" : "",
@@ -7805,7 +7806,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 74.5, 301.0, 52.0, 19.0 ],
+									"patching_rect" : [ 74.5, 301.0, 53.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 37.0, 121.0, 46.0, 19.0 ],
 									"style" : "",
@@ -8143,7 +8144,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 40.532745, 517.327393, 65.0, 21.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 258, 316, 550, 550, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 259, 316, 566, 549, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -9909,7 +9910,7 @@
 					"patching_rect" : [ 782.0, 97.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/test"
+					"text" : "/boilRog"
 				}
 
 			}
