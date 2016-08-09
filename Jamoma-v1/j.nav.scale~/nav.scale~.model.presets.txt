@@ -1,0 +1,42 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+audio/bypass 0
+audio/gain 0.000000
+audio/mix 100.000000
+audio/mute 0
+autoscale/audio/bypass 0
+autoscale/audio/gain 0.000000
+autoscale/audio/mix 100.000000
+autoscale/audio/mute 0
+autoscale/exp 1.000000
+autoscale/input/max 1.000000
+autoscale/input/min -1.000000
+autoscale/lock 2
+autoscale/maximum 1.000000
+autoscale/minimum 0.000000
+average/period 0
+average/type 0
+clip/minMax -1.000000 1.000000
+clip/mode 0
+cutoff 900
+data/active 1
+filter/frequency 35.000000
+filter/gain 0.500000
+filter/q 0.500000
+filter/type none
+mute 0
+offset 0.000000
+pre-slide/down 5.000000
+pre-slide/up 0.000000
+preview 1
+ramp/down 0.000000
+ramp/up 0.000000
+slide/down 0.000000
+slide/up 0.000000
+snapshot/interval 5
+snapshot/on 1
+# 
+# ###########################################

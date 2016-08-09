@@ -1,0 +1,16 @@
+
+- preset "default"
+- description "something about this preset"
+# ###########################################
+# 
+audio/bypass 0
+audio/gain 0.000000
+audio/mix 100.000000
+audio/mute 0
+exp 1.000000
+input/max 0.050186
+input/min -0.049239
+lock 0
+maximum 1.000000
+# 
+# ###########################################
