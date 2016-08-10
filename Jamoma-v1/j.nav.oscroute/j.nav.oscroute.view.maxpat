@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 50.0, 915.0, 665.0 ],
+		"rect" : [ 823.0, 195.0, 172.0, 28.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -176,9 +176,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 152.500122, 231.0, 78.0, 21.0 ],
+					"patching_rect" : [ 152.500122, 231.0, 82.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote mute",
+					"text" : "j.remote active",
 					"varname" : "clip[3]"
 				}
 
@@ -247,8 +247,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -636,8 +636,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -839,8 +839,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -1056,8 +1056,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -1100,8 +1100,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -1333,8 +1333,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -1559,8 +1559,8 @@
 																						"appversion" : 																						{
 																							"major" : 7,
 																							"minor" : 2,
-																							"revision" : 3,
-																							"architecture" : "x64",
+																							"revision" : 4,
+																							"architecture" : "x86",
 																							"modernui" : 1
 																						}
 ,
@@ -2121,8 +2121,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -2266,8 +2266,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -2361,8 +2361,8 @@
 																						"appversion" : 																						{
 																							"major" : 7,
 																							"minor" : 2,
-																							"revision" : 3,
-																							"architecture" : "x64",
+																							"revision" : 4,
+																							"architecture" : "x86",
 																							"modernui" : 1
 																						}
 ,
@@ -2700,8 +2700,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -2867,8 +2867,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -2976,8 +2976,8 @@
 																						"appversion" : 																						{
 																							"major" : 7,
 																							"minor" : 2,
-																							"revision" : 3,
-																							"architecture" : "x64",
+																							"revision" : 4,
+																							"architecture" : "x86",
 																							"modernui" : 1
 																						}
 ,
@@ -3903,8 +3903,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -4205,8 +4205,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -4477,8 +4477,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -4939,8 +4939,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -5157,8 +5157,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 3,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -5870,8 +5870,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 3,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -7711,8 +7711,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 3,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -8671,6 +8671,60 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
+			"obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
+			"obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "j.namespacebrowser.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.get_onscreen_position.js",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
