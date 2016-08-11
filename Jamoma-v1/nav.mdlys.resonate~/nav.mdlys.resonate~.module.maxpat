@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 535.0, 272.0, 300.0, 210.0 ],
+		"rect" : [ 411.0, 262.0, 300.0, 210.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -126,20 +126,20 @@
 				"box" : 				{
 					"annotation" : "none",
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 385.0, 268.0, 100.0, 35.0 ],
+					"patching_rect" : [ 385.0, 268.0, 198.0, 22.0 ],
 					"style" : "",
-					"text" : "nav.mdlys.resonate~.model"
+					"text" : "nav.mdlys.resonate~.model #1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "none",
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
