@@ -180,7 +180,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 449.0, 70.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 44.0, 34.794701, 35.0 ],
+					"presentation_rect" : [ 138.0, 45.0, 34.794701, 35.0 ],
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -3300,7 +3300,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"title" : "/nav_rogsLive=(view)",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -6525,7 +6524,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
@@ -9641,7 +9639,7 @@
 					"patching_rect" : [ 782.0, 97.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/boilRog"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -10098,7 +10096,117 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-7::obj-123::obj-10::obj-196" : [ "live.text[16]", "live.text", 0 ],
+			"obj-7::obj-68::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-7::obj-70::obj-10::obj-196" : [ "live.text[5]", "live.text", 0 ],
+			"obj-89" : [ "lock", "Lock", 0 ],
+			"obj-7::obj-121::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
+			"obj-7::obj-124::obj-10::obj-196" : [ "live.text[18]", "live.text", 0 ],
+			"obj-7::obj-66::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
+			"obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-7::obj-105::obj-10::obj-196" : [ "live.text[14]", "live.text", 0 ],
+			"obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
+			"obj-7::obj-123::obj-182" : [ "live.text[17]", "live.text[4]", 0 ],
+			"obj-7::obj-133::obj-182" : [ "live.text[21]", "live.text[4]", 0 ],
+			"obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
+			"obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
+			"obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
+			"obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-7::obj-121::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
+			"obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-7::obj-66::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
+			"obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-74" : [ "note", "Note", 0 ],
+			"obj-108::obj-15" : [ "Size[1]", "Size", 0 ],
+			"obj-7::obj-124::obj-182" : [ "live.text[19]", "live.text[4]", 0 ],
+			"obj-108::obj-49" : [ "Append[2]", "Append", 0 ],
+			"obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-7::obj-67::obj-10::obj-196" : [ "live.text[1]", "live.text", 0 ],
+			"obj-7::obj-105::obj-182" : [ "live.text[15]", "live.text[4]", 0 ],
+			"obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-7::obj-133::obj-10::obj-196" : [ "live.text[20]", "live.text", 0 ],
+			"obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-7::obj-67::obj-182" : [ "live.text[2]", "live.text[4]", 0 ],
+			"obj-7::obj-70::obj-182" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-50" : [ "Rec[1]", "Rec", 0 ],
+			"obj-7::obj-68::obj-10::obj-196" : [ "live.text[3]", "live.text", 0 ],
+			"obj-7::obj-117::obj-10::obj-196" : [ "live.text[12]", "live.text", 0 ],
+			"obj-18" : [ "Clear", "Clear", 0 ],
+			"obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
+			"obj-7::obj-117::obj-182" : [ "live.text[13]", "live.text[4]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "j.nav.oscroute.view.maxpat",
+				"bootpath" : "~/Documents/code/Nav/Jamoma-v1/j.nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.namespacebrowser.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.get_onscreen_position.js",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscroute.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
