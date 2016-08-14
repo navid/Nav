@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 909.0, -993.0, 416.0, 652.0 ],
+		"rect" : [ 1167.0, 79.0, 416.0, 652.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.0, 335.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 301.5, 335.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -118,7 +117,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "" ],
 					"patching_rect" : [ 200.0, 285.0, 126.0, 22.0 ],
@@ -151,6 +150,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -178,37 +186,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-76" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-118" : [ "live.text[2]", "FILTER", 0 ]
+			"obj-1::obj-118" : [ "live.text[2]", "FILTER", 0 ],
+			"obj-1::obj-76" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "j.nav.scale~.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.scale~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.nav.autoscale~.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.autoscale~",
+				"name" : "j.nav.autoscale~.model.maxpat",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.autoscale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.route~.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.route~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.route~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.clip~.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.clip~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.clip~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale~.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.scale~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -217,15 +225,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -234,6 +234,22 @@
 			}
 , 			{
 				"name" : "j.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -249,15 +265,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
