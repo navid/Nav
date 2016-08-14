@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 325.0, 79.0, 979.0, 739.0 ],
+		"rect" : [ 378.0, 79.0, 656.0, 589.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -42,7 +42,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 330.0, 61.0, 23.0 ],
+					"patching_rect" : [ 135.0, 330.0, 61.0, 23.0 ],
 					"style" : "",
 					"text" : "dac~ 1 2"
 				}
@@ -58,7 +58,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 15.0, 233.5, 165.0, 48.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Gain[1]",
@@ -134,7 +134,7 @@
 					"annotation" : "Envelope follower and audio signal processor.",
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "" ],
 					"patching_rect" : [ 30.0, 405.0, 159.0, 23.0 ],
@@ -171,14 +171,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-6",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 450.0, 50.0, 67.0 ],
+					"patching_rect" : [ 75.0, 495.0, 120.0, 23.0 ],
 					"style" : "",
-					"text" : "envelope 0.159538"
+					"text" : "envelope 0.205633"
 				}
 
 			}
@@ -291,49 +290,49 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-58" : [ "live.text[9]", "live.text[4]", 0 ],
-			"obj-1::obj-59" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-45" : [ "live.text[2]", "live.text", 0 ],
-			"obj-1::obj-62" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-1::obj-1::obj-42" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-29::obj-48" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-1::obj-74" : [ "live.dial[1]", "Transpose", 0 ],
-			"obj-1::obj-108" : [ "live.text[7]", "live.text[4]", 0 ],
-			"obj-1::obj-1::obj-5" : [ "Preamp", "Preamp", 0 ],
 			"obj-1::obj-47" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-1::obj-45" : [ "live.text[5]", "live.text", 0 ],
-			"obj-9" : [ "Gain[1]", "Gain", 0 ],
+			"obj-1::obj-4" : [ "live.text[10]", "live.text[1]", 0 ],
 			"obj-1::obj-1::obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-1::obj-1::obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-1::obj-1::obj-27" : [ "Threshold", "Threshold", 0 ],
 			"obj-7::obj-76" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-1::obj-6" : [ "live.text[4]", "live.text", 0 ],
-			"obj-1::obj-48" : [ "live.menu[2]", "live.menu", 0 ],
 			"obj-1::obj-1::obj-13" : [ "Release", "Release", 0 ],
 			"obj-1::obj-55" : [ "Master Gain[1]", "Master Gain", 0 ],
-			"obj-1::obj-1::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-1::obj-74" : [ "live.dial[1]", "Transpose", 0 ],
+			"obj-1::obj-45" : [ "live.text[5]", "live.text", 0 ],
+			"obj-7::obj-118" : [ "live.text[3]", "FILTER", 0 ],
+			"obj-1::obj-62" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-1::obj-108" : [ "live.text[7]", "live.text[4]", 0 ],
+			"obj-9" : [ "Gain[1]", "Gain", 0 ],
+			"obj-1::obj-1::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-1::obj-6" : [ "live.text[4]", "live.text", 0 ],
+			"obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-1::obj-82" : [ "pan", "Pan", 0 ],
+			"obj-1::obj-1::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-1::obj-1::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-1::obj-59" : [ "live.text[8]", "live.text[3]", 0 ],
+			"obj-1::obj-29::obj-48" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-1::obj-48" : [ "live.menu[2]", "live.menu", 0 ],
 			"obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-1::obj-4" : [ "live.text[10]", "live.text[1]", 0 ],
-			"obj-7::obj-118" : [ "live.text[3]", "FILTER", 0 ]
+			"obj-1::obj-1::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-1::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-1::obj-1::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-1::obj-58" : [ "live.text[9]", "live.text[4]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "j.nav.scale~.view.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/AUDIO/Development/j.nav.scale~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.scale~.model.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/AUDIO/Development/j.nav.scale~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.nav.autoscale~.model.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/AUDIO/Development/j.nav.autoscale~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.autoscale~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -345,7 +344,7 @@
 			}
 , 			{
 				"name" : "j.nav.clip~.model.maxpat",
-				"bootpath" : "~/code/Git/TML-depo/TML-code/AUDIO/Development/j.nav.clip~",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.clip~",
 				"type" : "JSON",
 				"implicit" : 1
 			}

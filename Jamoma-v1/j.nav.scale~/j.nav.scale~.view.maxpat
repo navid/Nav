@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1167.0, 79.0, 150.0, 315.0 ],
+		"rect" : [ 1306.0, 334.0, 150.0, 315.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -84,9 +84,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 680.0, 472.0, 95.0, 22.0 ],
+					"patching_rect" : [ 680.0, 472.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive~ audio"
+					"text" : "j.receive~ audio/out.envelope"
 				}
 
 			}
@@ -763,7 +763,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_shortname" : "FILTER",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -776,7 +776,7 @@
 ,
 					"text" : "snapshot",
 					"texton" : "snapshot",
-					"varname" : "live.text[3]"
+					"varname" : "live.text[2]"
 				}
 
 			}
@@ -2717,7 +2717,7 @@
 					"patching_rect" : [ -10.0, -413.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 315.0 ],
-					"text" : "/#1"
+					"text" : "/scale~"
 				}
 
 			}
