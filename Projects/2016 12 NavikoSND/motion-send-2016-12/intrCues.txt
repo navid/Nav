@@ -1,0 +1,92 @@
+
+ 
+ KEYCUE "Init_cue" 
+ 
+ 
+ 	 	 	 	 /CONFIG /intrCues 99 1 /nav.motion% 99 1 /brcosa% 99 1 /intrCam 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /intrCues 
+ 	 	 	 	 /intrCues/view/freeze 0 
+ 	 	 	 	 /intrCues/view/highlight 0 
+ # 
+ # Module /nav.motion% 
+ 	 	 	 	 /nav.motion%/centroid/color 0.000000 255.000000 255.000000 
+ 	 	 	 	 /nav.motion%/centroid/on 0 
+ 	 	 	 	 /nav.motion%/centroid/size/on 0 
+ 	 	 	 	 /nav.motion%/color 0 
+ 	 	 	 	 /nav.motion%/contraction/color 0.000000 255.000000 255.000000 
+ 	 	 	 	 /nav.motion%/contraction/max/color 0.000000 255.000000 255.000000 
+ 	 	 	 	 /nav.motion%/contraction/max/on 0 
+ 	 	 	 	 /nav.motion%/contraction/on 0 
+ 	 	 	 	 /nav.motion%/contraction/slide 0.000000 
+ 	 	 	 	 /nav.motion%/data/smoothing 0.000000 
+ 	 	 	 	 /nav.motion%/edge/algorithm 0 
+ 	 	 	 	 /nav.motion%/edge/threshold 0.100000 
+ 	 	 	 	 /nav.motion%/inverse 0 
+ 	 	 	 	 /nav.motion%/noise/center 0.300000 
+ 	 	 	 	 /nav.motion%/noise/on 0 
+ 	 	 	 	 /nav.motion%/noise/range 1 
+ 	 	 	 	 /nav.motion%/noise/ring 0.200000 
+ 	 	 	 	 /nav.motion%/noise/ripple 0.200000 
+ 	 	 	 	 /nav.motion%/slide/down 3.000000 
+ 	 	 	 	 /nav.motion%/slide/up 0.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 0.030000 
+ 	 	 	 	 /nav.motion%/threshold/mode 0 
+ 	 	 	 	 /nav.motion%/threshold/radius 8 
+ 	 	 	 	 /nav.motion%/trails 0 
+ 	 	 	 	 /nav.motion%/video/bypass 0 
+ 	 	 	 	 /nav.motion%/video/freeze 0 
+ 	 	 	 	 /nav.motion%/video/mute 0 
+ 	 	 	 	 /nav.motion%/video/preview 0 
+ 	 	 	 	 /nav.motion%/view/freeze 0 
+ 	 	 	 	 /nav.motion%/view/highlight 0 
+ # 
+ # Module /brcosa% 
+ 	 	 	 	 /brcosa%/brightness 1.000000 
+ 	 	 	 	 /brcosa%/contrast 1.000000 
+ 	 	 	 	 /brcosa%/monochrome 0 
+ 	 	 	 	 /brcosa%/saturation 1.000000 
+ 	 	 	 	 /brcosa%/video/bypass 0 
+ 	 	 	 	 /brcosa%/video/freeze 0 
+ 	 	 	 	 /brcosa%/video/mute 0 
+ 	 	 	 	 /brcosa%/video/preview 0 
+ 	 	 	 	 /brcosa%/view/freeze 0 
+ 	 	 	 	 /brcosa%/view/highlight 0 
+ # 
+ # Module /intrCam 
+ 	 	 	 	 /intrCam/active 0 
+ 	 	 	 	 /intrCam/camera/camera none 
+ 	 	 	 	 /intrCam/camera/device ADVC-55 
+ 	 	 	 	 /intrCam/camera/size 1 
+ 	 	 	 	 /intrCam/camera/updaterate 1 
+ 	 	 	 	 /intrCam/desktop/offset/x 0 
+ 	 	 	 	 /intrCam/desktop/offset/y 0 
+ 	 	 	 	 /intrCam/desktop/size/x 320 
+ 	 	 	 	 /intrCam/desktop/size/y 240 
+ 	 	 	 	 /intrCam/file/autostart 1 
+ 	 	 	 	 /intrCam/file/framedump 0 
+ 	 	 	 	 /intrCam/file/loop/bounds 0.000000 
+ 	 	 	 	 /intrCam/file/loop/mode 1 
+ 	 	 	 	 /intrCam/file/open traffic.mov 
+ 	 	 	 	 /intrCam/file/rate 1.000000 
+ 	 	 	 	 /intrCam/file/size 2 
+ 	 	 	 	 /intrCam/source camera 
+ 	 	 	 	 /intrCam/synth/color/active 0 
+ 	 	 	 	 /intrCam/synth/color set 
+ 	 	 	 	 /intrCam/synth/noise/planes 4 
+ 	 	 	 	 /intrCam/synth/noise/size/x 320 
+ 	 	 	 	 /intrCam/synth/noise/size/y 240 
+ 	 	 	 	 /intrCam/updaterate 1 
+ 	 	 	 	 /intrCam/video/freeze 0 
+ 	 	 	 	 /intrCam/video/gain 100.000000 
+ 	 	 	 	 /intrCam/video/mute 0 
+ 	 	 	 	 /intrCam/video/preview 0 
+ 	 	 	 	 /intrCam/view/freeze 0 
+ 	 	 	 	 /intrCam/view/highlight none 
+ # 
+ ######################## 
+ 
+ 
