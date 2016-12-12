@@ -1,0 +1,356 @@
+
+ 
+ KEYCUE "morishita1" 
+ 
+ 
+ 	 	 	 	 /CONFIG /centerX 99 1 /centerY 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /intrCues 99 1 /nav.motion% 99 1 /brcosa% 99 1 /intrCam 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /centerX 
+ 	 	 	 	 /centerX/function 0 
+ 	 	 	 	 /centerX/function/symmetry 0 
+ 	 	 	 	 /centerX/function/parameter2 0.000000 
+ 	 	 	 	 /centerX/function/parameter1 0.000000 
+ 	 	 	 	 /centerX/bypass 0 
+ 	 	 	 	 /centerX/clip 1 
+ 	 	 	 	 /centerX/diffMode 0 
+ 	 	 	 	 /centerX/filter/mode 0 
+ 	 	 	 	 /centerX/filter/samples 5 
+ 	 	 	 	 /centerX/mute 0 
+ 	 	 	 	 /centerX/offset 0.000000 
+ 	 	 	 	 /centerX/pre-slide/down 1 
+ 	 	 	 	 /centerX/pre-slide/up 1 
+ 	 	 	 	 /centerX/ramp/grain 10 
+ 	 	 	 	 /centerX/ramp/time 40 
+ 	 	 	 	 /centerX/scale/input/max 0.530000 
+ 	 	 	 	 /centerX/scale/input/min 0.430000 
+ 	 	 	 	 /centerX/scale/max 1.000000 
+ 	 	 	 	 /centerX/scale/min -1.000000 
+ 	 	 	 	 /centerX/scale/mode 5 
+ 	 	 	 	 /centerX/scale/window 500 
+ 	 	 	 	 /centerX/schmitt/debounce 100 
+ 	 	 	 	 /centerX/schmitt/lower 0.400000 
+ 	 	 	 	 /centerX/schmitt/on 0 
+ 	 	 	 	 /centerX/schmitt/ramp 0 
+ 	 	 	 	 /centerX/schmitt/upper 0.800000 
+ 	 	 	 	 /centerX/slide/down 0 
+ 	 	 	 	 /centerX/slide/up 0 
+ 	 	 	 	 /centerX/view/freeze 0 
+ 	 	 	 	 /centerX/view/highlight none 
+ 	 	 	 	 /centerX/visualize 1 
+ # 
+ # Module /centerY 
+ 	 	 	 	 /centerY/function 0 
+ 	 	 	 	 /centerY/function/symmetry 0 
+ 	 	 	 	 /centerY/function/parameter2 0.000000 
+ 	 	 	 	 /centerY/function/parameter1 0.000000 
+ 	 	 	 	 /centerY/bypass 0 
+ 	 	 	 	 /centerY/clip 1 
+ 	 	 	 	 /centerY/diffMode 0 
+ 	 	 	 	 /centerY/filter/mode 0 
+ 	 	 	 	 /centerY/filter/samples 5 
+ 	 	 	 	 /centerY/mute 0 
+ 	 	 	 	 /centerY/offset 0.000000 
+ 	 	 	 	 /centerY/pre-slide/down 1 
+ 	 	 	 	 /centerY/pre-slide/up 1 
+ 	 	 	 	 /centerY/ramp/grain 10 
+ 	 	 	 	 /centerY/ramp/time 40 
+ 	 	 	 	 /centerY/scale/input/max 0.000000 
+ 	 	 	 	 /centerY/scale/input/min 65556.000000 
+ 	 	 	 	 /centerY/scale/max 1.000000 
+ 	 	 	 	 /centerY/scale/min -1.000000 
+ 	 	 	 	 /centerY/scale/mode 3 
+ 	 	 	 	 /centerY/scale/window 500 
+ 	 	 	 	 /centerY/schmitt/debounce 100 
+ 	 	 	 	 /centerY/schmitt/lower 0.400000 
+ 	 	 	 	 /centerY/schmitt/on 0 
+ 	 	 	 	 /centerY/schmitt/ramp 0 
+ 	 	 	 	 /centerY/schmitt/upper 0.800000 
+ 	 	 	 	 /centerY/slide/down 0 
+ 	 	 	 	 /centerY/slide/up 0 
+ 	 	 	 	 /centerY/view/freeze 0 
+ 	 	 	 	 /centerY/view/highlight none 
+ 	 	 	 	 /centerY/visualize 0 
+ # 
+ # Module /height 
+ 	 	 	 	 /height/function 0 
+ 	 	 	 	 /height/function/symmetry 0 
+ 	 	 	 	 /height/function/parameter2 0.000000 
+ 	 	 	 	 /height/function/parameter1 0.000000 
+ 	 	 	 	 /height/bypass 0 
+ 	 	 	 	 /height/clip 1 
+ 	 	 	 	 /height/diffMode 0 
+ 	 	 	 	 /height/filter/mode 0 
+ 	 	 	 	 /height/filter/samples 7 
+ 	 	 	 	 /height/mute 1 
+ 	 	 	 	 /height/offset 0.000000 
+ 	 	 	 	 /height/pre-slide/down 0 
+ 	 	 	 	 /height/pre-slide/up 0 
+ 	 	 	 	 /height/ramp/grain 10 
+ 	 	 	 	 /height/ramp/time 5 
+ 	 	 	 	 /height/scale/input/max 0.000000 
+ 	 	 	 	 /height/scale/input/min 65556.000000 
+ 	 	 	 	 /height/scale/max 1.000000 
+ 	 	 	 	 /height/scale/min 0.000000 
+ 	 	 	 	 /height/scale/mode 3 
+ 	 	 	 	 /height/scale/window 2000 
+ 	 	 	 	 /height/schmitt/debounce 100 
+ 	 	 	 	 /height/schmitt/lower 0.400000 
+ 	 	 	 	 /height/schmitt/on 0 
+ 	 	 	 	 /height/schmitt/ramp 0 
+ 	 	 	 	 /height/schmitt/upper 0.800000 
+ 	 	 	 	 /height/slide/down 0 
+ 	 	 	 	 /height/slide/up 0 
+ 	 	 	 	 /height/view/freeze 0 
+ 	 	 	 	 /height/view/highlight none 
+ 	 	 	 	 /height/visualize 1 
+ # 
+ # Module /area 
+ 	 	 	 	 /area/function 0 
+ 	 	 	 	 /area/function/symmetry 0 
+ 	 	 	 	 /area/function/parameter2 0.000000 
+ 	 	 	 	 /area/function/parameter1 0.000000 
+ 	 	 	 	 /area/bypass 0 
+ 	 	 	 	 /area/clip 1 
+ 	 	 	 	 /area/diffMode 0 
+ 	 	 	 	 /area/filter/mode 0 
+ 	 	 	 	 /area/filter/samples 7 
+ 	 	 	 	 /area/mute 0 
+ 	 	 	 	 /area/offset 0.000000 
+ 	 	 	 	 /area/pre-slide/down 5 
+ 	 	 	 	 /area/pre-slide/up 5 
+ 	 	 	 	 /area/ramp/grain 10 
+ 	 	 	 	 /area/ramp/time 5 
+ 	 	 	 	 /area/scale/input/max 0.000000 
+ 	 	 	 	 /area/scale/input/min 65556.000000 
+ 	 	 	 	 /area/scale/max 1.000000 
+ 	 	 	 	 /area/scale/min 0.000000 
+ 	 	 	 	 /area/scale/mode 3 
+ 	 	 	 	 /area/scale/window 1500 
+ 	 	 	 	 /area/schmitt/debounce 100 
+ 	 	 	 	 /area/schmitt/lower 0.400000 
+ 	 	 	 	 /area/schmitt/on 0 
+ 	 	 	 	 /area/schmitt/ramp 0 
+ 	 	 	 	 /area/schmitt/upper 0.800000 
+ 	 	 	 	 /area/slide/down 0 
+ 	 	 	 	 /area/slide/up 0 
+ 	 	 	 	 /area/view/freeze 0 
+ 	 	 	 	 /area/view/highlight none 
+ 	 	 	 	 /area/visualize 0 
+ # 
+ # Module /width 
+ 	 	 	 	 /width/function 0 
+ 	 	 	 	 /width/function/symmetry 0 
+ 	 	 	 	 /width/function/parameter2 0.000000 
+ 	 	 	 	 /width/function/parameter1 0.000000 
+ 	 	 	 	 /width/bypass 0 
+ 	 	 	 	 /width/clip 1 
+ 	 	 	 	 /width/diffMode 0 
+ 	 	 	 	 /width/filter/mode 0 
+ 	 	 	 	 /width/filter/samples 7 
+ 	 	 	 	 /width/mute 0 
+ 	 	 	 	 /width/offset 0.000000 
+ 	 	 	 	 /width/pre-slide/down 5 
+ 	 	 	 	 /width/pre-slide/up 5 
+ 	 	 	 	 /width/ramp/grain 10 
+ 	 	 	 	 /width/ramp/time 5 
+ 	 	 	 	 /width/scale/input/max 0.000000 
+ 	 	 	 	 /width/scale/input/min 65556.000000 
+ 	 	 	 	 /width/scale/max 1.000000 
+ 	 	 	 	 /width/scale/min 0.000000 
+ 	 	 	 	 /width/scale/mode 3 
+ 	 	 	 	 /width/scale/window 1200 
+ 	 	 	 	 /width/schmitt/debounce 100 
+ 	 	 	 	 /width/schmitt/lower 0.400000 
+ 	 	 	 	 /width/schmitt/on 0 
+ 	 	 	 	 /width/schmitt/ramp 0 
+ 	 	 	 	 /width/schmitt/upper 0.800000 
+ 	 	 	 	 /width/slide/down 0 
+ 	 	 	 	 /width/slide/up 0 
+ 	 	 	 	 /width/view/freeze 0 
+ 	 	 	 	 /width/view/highlight none 
+ 	 	 	 	 /width/visualize 0 
+ # 
+ # Module /all 
+ 	 	 	 	 /all/function 0 
+ 	 	 	 	 /all/function/symmetry 0 
+ 	 	 	 	 /all/function/parameter2 0.000000 
+ 	 	 	 	 /all/function/parameter1 0.000000 
+ 	 	 	 	 /all/bypass 0 
+ 	 	 	 	 /all/clip 1 
+ 	 	 	 	 /all/diffMode 0 
+ 	 	 	 	 /all/filter/mode 0 
+ 	 	 	 	 /all/filter/samples 7 
+ 	 	 	 	 /all/mute 0 
+ 	 	 	 	 /all/offset 0.000000 
+ 	 	 	 	 /all/pre-slide/down 0 
+ 	 	 	 	 /all/pre-slide/up 0 
+ 	 	 	 	 /all/ramp/grain 10 
+ 	 	 	 	 /all/ramp/time 5 
+ 	 	 	 	 /all/scale/input/max 0.000000 
+ 	 	 	 	 /all/scale/input/min 65556.000000 
+ 	 	 	 	 /all/scale/max 1.000000 
+ 	 	 	 	 /all/scale/min 0.000000 
+ 	 	 	 	 /all/scale/mode 3 
+ 	 	 	 	 /all/scale/window 2000 
+ 	 	 	 	 /all/schmitt/debounce 100 
+ 	 	 	 	 /all/schmitt/lower 0.400000 
+ 	 	 	 	 /all/schmitt/on 0 
+ 	 	 	 	 /all/schmitt/ramp 0 
+ 	 	 	 	 /all/schmitt/upper 0.800000 
+ 	 	 	 	 /all/slide/down 0 
+ 	 	 	 	 /all/slide/up 0 
+ 	 	 	 	 /all/view/freeze 0 
+ 	 	 	 	 /all/view/highlight none 
+ 	 	 	 	 /all/visualize 0 
+ # 
+ # Module /large 
+ 	 	 	 	 /large/function 0 
+ 	 	 	 	 /large/function/symmetry 0 
+ 	 	 	 	 /large/function/parameter2 0.000000 
+ 	 	 	 	 /large/function/parameter1 0.000000 
+ 	 	 	 	 /large/bypass 0 
+ 	 	 	 	 /large/clip 1 
+ 	 	 	 	 /large/diffMode 0 
+ 	 	 	 	 /large/filter/mode 0 
+ 	 	 	 	 /large/filter/samples 7 
+ 	 	 	 	 /large/mute 0 
+ 	 	 	 	 /large/offset 0.000000 
+ 	 	 	 	 /large/pre-slide/down 0 
+ 	 	 	 	 /large/pre-slide/up 0 
+ 	 	 	 	 /large/ramp/grain 10 
+ 	 	 	 	 /large/ramp/time 5 
+ 	 	 	 	 /large/scale/input/max 0.012000 
+ 	 	 	 	 /large/scale/input/min 0.000005 
+ 	 	 	 	 /large/scale/max 1.000000 
+ 	 	 	 	 /large/scale/min 0.000000 
+ 	 	 	 	 /large/scale/mode 5 
+ 	 	 	 	 /large/scale/window 2000 
+ 	 	 	 	 /large/schmitt/debounce 100 
+ 	 	 	 	 /large/schmitt/lower 0.400000 
+ 	 	 	 	 /large/schmitt/on 0 
+ 	 	 	 	 /large/schmitt/ramp 0 
+ 	 	 	 	 /large/schmitt/upper 0.800000 
+ 	 	 	 	 /large/slide/down 0 
+ 	 	 	 	 /large/slide/up 0 
+ 	 	 	 	 /large/view/freeze 0 
+ 	 	 	 	 /large/view/highlight none 
+ 	 	 	 	 /large/visualize 1 
+ # 
+ # Module /small 
+ 	 	 	 	 /small/function 0 
+ 	 	 	 	 /small/function/symmetry 0 
+ 	 	 	 	 /small/function/parameter2 0.000000 
+ 	 	 	 	 /small/function/parameter1 0.000000 
+ 	 	 	 	 /small/bypass 0 
+ 	 	 	 	 /small/clip 1 
+ 	 	 	 	 /small/diffMode 0 
+ 	 	 	 	 /small/filter/mode 0 
+ 	 	 	 	 /small/filter/samples 3 
+ 	 	 	 	 /small/mute 0 
+ 	 	 	 	 /small/offset 0.000000 
+ 	 	 	 	 /small/pre-slide/down 0 
+ 	 	 	 	 /small/pre-slide/up 0 
+ 	 	 	 	 /small/ramp/grain 10 
+ 	 	 	 	 /small/ramp/time 5 
+ 	 	 	 	 /small/scale/input/max 0.004000 
+ 	 	 	 	 /small/scale/input/min 0.000004 
+ 	 	 	 	 /small/scale/max 1.000000 
+ 	 	 	 	 /small/scale/min 0.000000 
+ 	 	 	 	 /small/scale/mode 5 
+ 	 	 	 	 /small/scale/window 2000 
+ 	 	 	 	 /small/schmitt/debounce 100 
+ 	 	 	 	 /small/schmitt/lower 0.400000 
+ 	 	 	 	 /small/schmitt/on 0 
+ 	 	 	 	 /small/schmitt/ramp 0 
+ 	 	 	 	 /small/schmitt/upper 0.800000 
+ 	 	 	 	 /small/slide/down 0 
+ 	 	 	 	 /small/slide/up 0 
+ 	 	 	 	 /small/view/freeze 0 
+ 	 	 	 	 /small/view/highlight none 
+ 	 	 	 	 /small/visualize 1 
+ # 
+ # Module /intrCues 
+ 	 	 	 	 /intrCues/view/freeze 0 
+ 	 	 	 	 /intrCues/view/highlight 0 
+ # 
+ # Module /nav.motion% 
+ 	 	 	 	 /nav.motion%/centroid/color 0.000000 255.000000 255.000000 
+ 	 	 	 	 /nav.motion%/centroid/on 1 
+ 	 	 	 	 /nav.motion%/centroid/size/on 0 
+ 	 	 	 	 /nav.motion%/color 0 
+ 	 	 	 	 /nav.motion%/contraction/color 0.000000 255.000000 255.000000 
+ 	 	 	 	 /nav.motion%/contraction/max/color 0.000000 255.000000 255.000000 
+ 	 	 	 	 /nav.motion%/contraction/max/on 0 
+ 	 	 	 	 /nav.motion%/contraction/on 0 
+ 	 	 	 	 /nav.motion%/contraction/slide 3.000000 
+ 	 	 	 	 /nav.motion%/data/smoothing 0.000000 
+ 	 	 	 	 /nav.motion%/edge/algorithm 0 
+ 	 	 	 	 /nav.motion%/edge/threshold 0.100000 
+ 	 	 	 	 /nav.motion%/inverse 0 
+ 	 	 	 	 /nav.motion%/noise/center 0.300000 
+ 	 	 	 	 /nav.motion%/noise/on 1 
+ 	 	 	 	 /nav.motion%/noise/range 1 
+ 	 	 	 	 /nav.motion%/noise/ring 0.200000 
+ 	 	 	 	 /nav.motion%/noise/ripple 0.200000 
+ 	 	 	 	 /nav.motion%/slide/down 3.000000 
+ 	 	 	 	 /nav.motion%/slide/up 0.000000 
+ 	 	 	 	 /nav.motion%/threshold/amount 0.027500 
+ 	 	 	 	 /nav.motion%/threshold/mode 0 
+ 	 	 	 	 /nav.motion%/threshold/radius 8 
+ 	 	 	 	 /nav.motion%/trails 0 
+ 	 	 	 	 /nav.motion%/video/bypass 0 
+ 	 	 	 	 /nav.motion%/video/freeze 0 
+ 	 	 	 	 /nav.motion%/video/mute 0 
+ 	 	 	 	 /nav.motion%/video/preview 0 
+ 	 	 	 	 /nav.motion%/view/freeze 0 
+ 	 	 	 	 /nav.motion%/view/highlight 0 
+ # 
+ # Module /brcosa% 
+ 	 	 	 	 /brcosa%/brightness 0.980000 
+ 	 	 	 	 /brcosa%/contrast 1.000000 
+ 	 	 	 	 /brcosa%/monochrome 1 
+ 	 	 	 	 /brcosa%/saturation 1.000000 
+ 	 	 	 	 /brcosa%/video/bypass 0 
+ 	 	 	 	 /brcosa%/video/freeze 0 
+ 	 	 	 	 /brcosa%/video/mute 0 
+ 	 	 	 	 /brcosa%/video/preview 0 
+ 	 	 	 	 /brcosa%/view/freeze 0 
+ 	 	 	 	 /brcosa%/view/highlight 0 
+ # 
+ # Module /intrCam 
+ 	 	 	 	 /intrCam/active 1 
+ 	 	 	 	 /intrCam/camera/camera none 
+ 	 	 	 	 /intrCam/camera/device ADVC-55 
+ 	 	 	 	 /intrCam/camera/size 0 
+ 	 	 	 	 /intrCam/camera/updaterate 1 
+ 	 	 	 	 /intrCam/desktop/offset/x 0 
+ 	 	 	 	 /intrCam/desktop/offset/y 0 
+ 	 	 	 	 /intrCam/desktop/size/x 320 
+ 	 	 	 	 /intrCam/desktop/size/y 240 
+ 	 	 	 	 /intrCam/file/autostart 1 
+ 	 	 	 	 /intrCam/file/framedump 0 
+ 	 	 	 	 /intrCam/file/loop/bounds 0.000000 
+ 	 	 	 	 /intrCam/file/loop/mode 1 
+ 	 	 	 	 /intrCam/file/open traffic.mov 
+ 	 	 	 	 /intrCam/file/rate 1.000000 
+ 	 	 	 	 /intrCam/file/size 2 
+ 	 	 	 	 /intrCam/source camera 
+ 	 	 	 	 /intrCam/synth/color/active 0 
+ 	 	 	 	 /intrCam/synth/color set 
+ 	 	 	 	 /intrCam/synth/noise/planes 4 
+ 	 	 	 	 /intrCam/synth/noise/size/x 320 
+ 	 	 	 	 /intrCam/synth/noise/size/y 240 
+ 	 	 	 	 /intrCam/updaterate 1 
+ 	 	 	 	 /intrCam/video/freeze 0 
+ 	 	 	 	 /intrCam/video/gain 100.000000 
+ 	 	 	 	 /intrCam/video/mute 0 
+ 	 	 	 	 /intrCam/video/preview 0 
+ 	 	 	 	 /intrCam/view/freeze 0 
+ 	 	 	 	 /intrCam/view/highlight none 
+ # 
+ ######################## 
+ 
+ 
