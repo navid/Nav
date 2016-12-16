@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 772.0, 45.0, 1318.0, 914.0 ],
+		"rect" : [ 596.0, 145.0, 150.0, 245.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -368,7 +368,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 76.0, 495.0, 857.0, 345.0 ],
+						"rect" : [ 76.0, 495.0, 141.0, 96.0 ],
 						"bgcolor" : [ 0.792157, 0.792157, 0.792157, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -388,6 +388,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "Turn tigger detection on.",
@@ -1036,7 +1037,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1990,13 +1990,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-40",
-									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 817.0, 373.0, 50.0, 19.0 ],
-									"text" : "/parameter1:/ramp/drive/get none"
+									"text" : "\"0\""
 								}
 
 							}
@@ -4196,7 +4195,7 @@
 					"patching_rect" : [ 15.0, 15.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
-					"text" : "/QoM2"
+					"text" : "/small"
 				}
 
 			}

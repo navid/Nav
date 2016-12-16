@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 398.0, 297.0, 205.0, 142.0 ],
+		"rect" : [ 1284.0, 171.0, 205.0, 142.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 82.0, 121.0, 20.0 ],
-					"text" : "GB.motion.analysis2"
+					"patching_rect" : [ 0.0, 82.0, 135.0, 20.0 ],
+					"text" : "GB.motion.analysisOsc"
 				}
 
 			}
@@ -172,21 +172,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-5::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-5::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-5::obj-51::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-5::obj-48::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-5::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-5::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-2::obj-7" : [ "live.text[7]", "hj", 0 ],
 			"obj-5::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-2::obj-9" : [ "live.menu[1]", "live.menu", 0 ]
+			"obj-5::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-5::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-2::obj-9" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-7" : [ "live.text[7]", "hj", 0 ],
+			"obj-5::obj-34::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-5::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "intr.camera.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -194,34 +194,34 @@
 , 			{
 				"name" : "jmod.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intr.camera.process.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -229,41 +229,41 @@
 , 			{
 				"name" : "jmod.brcosa%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.brcosa%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intr.camera.motion.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.motion%.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.motion%.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -271,55 +271,55 @@
 , 			{
 				"name" : "jcom.motion%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.checkplanes%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.passmatrixinfo%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.rgb2luma%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sum%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intr.preset.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -327,34 +327,34 @@
 , 			{
 				"name" : "jmod.cueManager.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GB.motion.analysis2.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"name" : "GB.motion.analysisOsc.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.scale.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.scale.maxpat",
-				"bootpath" : "/Users/naviko/code/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
+				"bootpath" : "/Users/NavNav/code/Git/Nav/Projects/2016 12 NavikoSND/motion-send-2016-12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -362,7 +362,7 @@
 , 			{
 				"name" : "jcom.qom.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
