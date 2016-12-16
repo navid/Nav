@@ -730,6 +730,10 @@
 															"number" : 1,
 															"data" : [ 5, "obj-13", "number", "int", 313, 5, "obj-4", "number", "int", 347, 5, "obj-15", "number", "int", 1050, 5, "obj-16", "number", "int", 854, 5, "obj-63", "live.menu", "float", 2.0, 5, "obj-118", "live.text", "float", 0.0 ]
 														}
+, 														{
+															"number" : 2,
+															"data" : [ 5, "obj-13", "number", "int", 162, 5, "obj-4", "number", "int", 399, 5, "obj-15", "number", "int", 1088, 5, "obj-16", "number", "int", 950, 5, "obj-63", "live.menu", "float", 2.0, 5, "obj-118", "live.text", "float", 0.0 ]
+														}
  ]
 												}
 
@@ -762,7 +766,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 1029.0, 345.0, 643.0, 485.0 ],
+														"rect" : [ 554.0, 75.0, 643.0, 485.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 1,
 														"default_fontsize" : 12.0,
@@ -1987,7 +1991,7 @@
 																	"fontsize" : 12.0,
 																	"framecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"id" : "obj-16",
-																	"items" : "Syphon1394",
+																	"items" : [ "dc1394SyphonDebug", ",", "dc1394SyphonDebug" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -2017,7 +2021,7 @@
 																	"fontsize" : 12.0,
 																	"framecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 																	"id" : "obj-11",
-																	"items" : "",
+																	"items" : [ "dc1394 0", ",", "dc1394 1" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -3168,92 +3172,92 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21::obj-41" : [ "slider[1]", "slider[1]", 0 ],
-			"obj-4::obj-10::obj-63" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-21::obj-1" : [ "umenu", "umenu", 0 ],
 			"obj-55::obj-50" : [ "live.text[4]", "FILTER", 0 ],
-			"obj-4::obj-10::obj-118" : [ "live.text[5]", "hj", 0 ],
-			"obj-21::obj-55" : [ "slider[3]", "slider[3]", 0 ],
 			"obj-54::obj-50" : [ "live.text[3]", "FILTER", 0 ],
-			"obj-21::obj-77" : [ "slider", "slider", 0 ],
+			"obj-21::obj-55" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-21::obj-1" : [ "umenu", "umenu", 0 ],
+			"obj-4::obj-10::obj-63" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-4::obj-10::obj-118" : [ "live.text[5]", "hj", 0 ],
 			"obj-21::obj-66" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-49::obj-50" : [ "live.text[2]", "FILTER", 0 ]
+			"obj-21::obj-41" : [ "slider[1]", "slider[1]", 0 ],
+			"obj-49::obj-50" : [ "live.text[2]", "FILTER", 0 ],
+			"obj-21::obj-77" : [ "slider", "slider", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.nav.mixer%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/jmod.nav.mixer%",
-				"patcherrelativepath" : "../../Code/Nav/Jamoma/jmod.nav.mixer%",
+				"bootpath" : "/Users/naviko/code/Nav/Jamoma/jmod.nav.mixer%",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.mixer%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.orsize%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.orsize%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.slide%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/jmod.nav.slide%",
-				"patcherrelativepath" : "../../Code/Nav/Jamoma/jmod.nav.slide%",
+				"bootpath" : "/Users/naviko/code/Nav/Jamoma/jmod.nav.slide%",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.slide%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/jmod.nav.slide%",
-				"patcherrelativepath" : "../../Code/Nav/Jamoma/jmod.nav.slide%",
+				"bootpath" : "/Users/naviko/code/Nav/Jamoma/jmod.nav.slide%",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.delay%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/jmod.nav.delay%",
-				"patcherrelativepath" : "../../Code/Nav/Jamoma/jmod.nav.delay%",
+				"bootpath" : "/Users/naviko/code/Nav/Jamoma/jmod.nav.delay%",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.delay%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.delay%.maxpat",
-				"bootpath" : "/Users/Cooking/Code/Nav/Jamoma/jmod.nav.delay%",
-				"patcherrelativepath" : "../../Code/Nav/Jamoma/jmod.nav.delay%",
+				"bootpath" : "/Users/naviko/code/Nav/Jamoma/jmod.nav.delay%",
+				"patcherrelativepath" : "../../Jamoma/jmod.nav.delay%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
