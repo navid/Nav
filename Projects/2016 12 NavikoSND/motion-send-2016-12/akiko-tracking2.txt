@@ -1358,7 +1358,7 @@
  	 	 	 	 /nav.motion%/noise/ripple 0.200000 
  	 	 	 	 /nav.motion%/slide/down 3.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 0.021000 
+ 	 	 	 	 /nav.motion%/threshold/amount 0.023000 
  	 	 	 	 /nav.motion%/threshold/mode 0 
  	 	 	 	 /nav.motion%/threshold/radius 8 
  	 	 	 	 /nav.motion%/trails 0 
