@@ -1607,7 +1607,7 @@
  	 	 	 	 /large/pre-slide/up 1 
  	 	 	 	 /large/ramp/grain 10 
  	 	 	 	 /large/ramp/time 5 
- 	 	 	 	 /large/scale/input/max 0.030000 
+ 	 	 	 	 /large/scale/input/max 0.010200 
  	 	 	 	 /large/scale/input/min 0.000008 
  	 	 	 	 /large/scale/max 1.000000 
  	 	 	 	 /large/scale/min 0.000000 
@@ -1618,7 +1618,7 @@
  	 	 	 	 /large/schmitt/on 1 
  	 	 	 	 /large/schmitt/ramp 1042 
  	 	 	 	 /large/schmitt/upper 0.800000 
- 	 	 	 	 /large/slide/down 5 
+ 	 	 	 	 /large/slide/down 7 
  	 	 	 	 /large/slide/up 0 
  	 	 	 	 /large/view/freeze 0 
  	 	 	 	 /large/view/highlight none 
@@ -1640,7 +1640,7 @@
  	 	 	 	 /small/pre-slide/up 1 
  	 	 	 	 /small/ramp/grain 26 
  	 	 	 	 /small/ramp/time 0 
- 	 	 	 	 /small/scale/input/max 0.013000 
+ 	 	 	 	 /small/scale/input/max 0.008400 
  	 	 	 	 /small/scale/input/min 0.000008 
  	 	 	 	 /small/scale/max 1.000000 
  	 	 	 	 /small/scale/min 0.000000 
@@ -2567,9 +2567,9 @@
  	 	 	 	 /large/pre-slide/down 0 
  	 	 	 	 /large/pre-slide/up 0 
  	 	 	 	 /large/ramp/grain 10 
- 	 	 	 	 /large/ramp/time 5 
- 	 	 	 	 /large/scale/input/max 0.034000 
- 	 	 	 	 /large/scale/input/min 0.000200 
+ 	 	 	 	 /large/ramp/time 0 
+ 	 	 	 	 /large/scale/input/max 0.035000 
+ 	 	 	 	 /large/scale/input/min 0.000450 
  	 	 	 	 /large/scale/max 1.000000 
  	 	 	 	 /large/scale/min 0.000000 
  	 	 	 	 /large/scale/mode 5 
@@ -2579,7 +2579,7 @@
  	 	 	 	 /large/schmitt/on 1 
  	 	 	 	 /large/schmitt/ramp 1042 
  	 	 	 	 /large/schmitt/upper 0.800000 
- 	 	 	 	 /large/slide/down 2 
+ 	 	 	 	 /large/slide/down 0 
  	 	 	 	 /large/slide/up 0 
  	 	 	 	 /large/view/freeze 0 
  	 	 	 	 /large/view/highlight none 
@@ -2601,8 +2601,8 @@
  	 	 	 	 /small/pre-slide/up 0 
  	 	 	 	 /small/ramp/grain 26 
  	 	 	 	 /small/ramp/time 0 
- 	 	 	 	 /small/scale/input/max 0.033000 
- 	 	 	 	 /small/scale/input/min 0.000190 
+ 	 	 	 	 /small/scale/input/max 0.028000 
+ 	 	 	 	 /small/scale/input/min 0.000350 
  	 	 	 	 /small/scale/max 1.000000 
  	 	 	 	 /small/scale/min 0.000000 
  	 	 	 	 /small/scale/mode 5 
