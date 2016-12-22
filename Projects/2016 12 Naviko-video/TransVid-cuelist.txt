@@ -610,9 +610,9 @@
  # 
  # Module /delay3 
  	 	 	 	 /delay3/crossfade 1.000000 
- 	 	 	 	 /delay3/delay 195 
+ 	 	 	 	 /delay3/delay 200 
  	 	 	 	 /delay3/feedback 0.000000 
- 	 	 	 	 /delay3/maxDelay 190 
+ 	 	 	 	 /delay3/maxDelay 200 
  	 	 	 	 /delay3/video/bypass 0 
  	 	 	 	 /delay3/video/freeze 0 
  	 	 	 	 /delay3/video/mute 0 
@@ -621,9 +621,9 @@
  # 
  # Module /delay2 
  	 	 	 	 /delay2/crossfade 1.000000 
- 	 	 	 	 /delay2/delay 150 
+ 	 	 	 	 /delay2/delay 200 
  	 	 	 	 /delay2/feedback 0.000000 
- 	 	 	 	 /delay2/maxDelay 150 
+ 	 	 	 	 /delay2/maxDelay 200 
  	 	 	 	 /delay2/video/bypass 0 
  	 	 	 	 /delay2/video/freeze 0 
  	 	 	 	 /delay2/video/mute 0 
