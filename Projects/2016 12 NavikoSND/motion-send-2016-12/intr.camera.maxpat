@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 168.0, 50.0, 301.0, 192.0 ],
+		"rect" : [ 204.0, 496.0, 301.0, 192.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 361.0, 202.0, 643.0, 485.0 ],
+						"rect" : [ 488.0, 83.0, 643.0, 485.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -63,6 +63,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -103,7 +104,7 @@
 ,
 					"patching_rect" : [ 240.0, 247.5, 62.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 155.5, 62.0, 20.0 ],
+					"presentation_rect" : [ 72.0, 157.5, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -915,6 +916,10 @@
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-19", "number", "int", 59, 5, "obj-18", "number", "int", 960, 5, "obj-17", "number", "int", 1240, 5, "obj-14", "number", "int", 0, 5, "obj-9", "live.menu", "float", 2.0, 5, "obj-7", "live.text", "float", 0.0 ]
+						}
+, 						{
+							"number" : 2,
+							"data" : [ 5, "obj-19", "number", "int", 97, 5, "obj-18", "number", "int", 1526, 5, "obj-17", "number", "int", 1100, 5, "obj-14", "number", "int", -202, 5, "obj-9", "live.menu", "float", 2.0, 5, "obj-7", "live.text", "float", 0.0 ]
 						}
  ]
 				}
