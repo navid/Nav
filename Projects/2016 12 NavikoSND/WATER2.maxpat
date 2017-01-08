@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 208.0, 125.0, 306.0, 529.0 ],
+		"rect" : [ 8.0, 365.0, 304.0, 455.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -18,7 +18,7 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 0,
@@ -28,6 +28,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 88.0, 66.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 232.0, 2.0, 70.0, 20.0 ],
+					"text" : "REVERB!!!"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -66,7 +82,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 274.0, 30.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 29.0, 127.0, 20.0 ],
+					"presentation_rect" : [ 71.0, 29.0, 127.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
@@ -114,7 +130,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 765.0, 464.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -185,7 +201,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 50.0, 100.0, 34.0, 20.0 ],
-									"text" : "< 45"
+									"text" : "< 53"
 								}
 
 							}
@@ -1163,7 +1179,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 564.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 388.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 2.0, 383.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -1178,7 +1194,7 @@
 					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 58.0, 409.0, 300.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 248.0, 300.0, 140.0 ]
+					"presentation_rect" : [ 2.0, 243.0, 300.0, 140.0 ]
 				}
 
 			}
