@@ -1,0 +1,137 @@
+
+ 
+ KEYCUE "init" 
+ 
+ 
+ 	 	 	 	 /CONFIG /inputBrcs 99 1 /fileInout 99 1 /liveFluidCam 99 1 /o4.fluids 99 1 /LenkaCues 99 1 /orsize-2 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /inputBrcs 
+ 	 	 	 	 /inputBrcs/brightness 2.000000 
+ 	 	 	 	 /inputBrcs/contrast 2.700000 
+ 	 	 	 	 /inputBrcs/monochrome 0 
+ 	 	 	 	 /inputBrcs/saturation 1.000000 
+ 	 	 	 	 /inputBrcs/video/bypass 0 
+ 	 	 	 	 /inputBrcs/video/freeze 0 
+ 	 	 	 	 /inputBrcs/video/mute 0 
+ 	 	 	 	 /inputBrcs/video/preview 0 
+ 	 	 	 	 /inputBrcs/view/freeze 0 
+ 	 	 	 	 /inputBrcs/view/highlight 0 
+ # 
+ # Module /fileInout 
+ 	 	 	 	 /fileInout/active 1 
+ 	 	 	 	 /fileInout/camera/camera none 
+ 	 	 	 	 /fileInout/camera/device none 
+ 	 	 	 	 /fileInout/camera/size 1 
+ 	 	 	 	 /fileInout/camera/updaterate 1 
+ 	 	 	 	 /fileInout/desktop/offset/x 0 
+ 	 	 	 	 /fileInout/desktop/offset/y 0 
+ 	 	 	 	 /fileInout/desktop/size/x 320 
+ 	 	 	 	 /fileInout/desktop/size/y 240 
+ 	 	 	 	 /fileInout/file/autostart 1 
+ 	 	 	 	 /fileInout/file/framedump 0 
+ 	 	 	 	 /fileInout/file/loop/bounds 0.000000 
+ 	 	 	 	 /fileInout/file/loop/mode 1 
+ 	 	 	 	 /fileInout/file/open 0 
+ 	 	 	 	 /fileInout/file/rate 1.000000 
+ 	 	 	 	 /fileInout/file/size 2 
+ 	 	 	 	 /fileInout/source file 
+ 	 	 	 	 /fileInout/synth/color/active 0 
+ 	 	 	 	 /fileInout/synth/color set 
+ 	 	 	 	 /fileInout/synth/noise/planes 4 
+ 	 	 	 	 /fileInout/synth/noise/size/x 320 
+ 	 	 	 	 /fileInout/synth/noise/size/y 240 
+ 	 	 	 	 /fileInout/updaterate 1 
+ 	 	 	 	 /fileInout/video/freeze 0 
+ 	 	 	 	 /fileInout/video/gain 100.000000 
+ 	 	 	 	 /fileInout/video/mute 0 
+ 	 	 	 	 /fileInout/video/preview 0 
+ 	 	 	 	 /fileInout/view/freeze 0 
+ 	 	 	 	 /fileInout/view/highlight none 
+ # 
+ # Module /liveFluidCam 
+ 	 	 	 	 /liveFluidCam/active 1 
+ 	 	 	 	 /liveFluidCam/camera/camera none 
+ 	 	 	 	 /liveFluidCam/camera/device FaceTime HD Camera (Built-in) 
+ 	 	 	 	 /liveFluidCam/camera/size 3 
+ 	 	 	 	 /liveFluidCam/camera/updaterate 1 
+ 	 	 	 	 /liveFluidCam/desktop/offset/x 0 
+ 	 	 	 	 /liveFluidCam/desktop/offset/y 0 
+ 	 	 	 	 /liveFluidCam/desktop/size/x 320 
+ 	 	 	 	 /liveFluidCam/desktop/size/y 240 
+ 	 	 	 	 /liveFluidCam/file/autostart 1 
+ 	 	 	 	 /liveFluidCam/file/framedump 0 
+ 	 	 	 	 /liveFluidCam/file/loop/bounds 0.000000 
+ 	 	 	 	 /liveFluidCam/file/loop/mode 1 
+ 	 	 	 	 /liveFluidCam/file/open traffic.mov 
+ 	 	 	 	 /liveFluidCam/file/rate 1.000000 
+ 	 	 	 	 /liveFluidCam/file/size 2 
+ 	 	 	 	 /liveFluidCam/source camera 
+ 	 	 	 	 /liveFluidCam/synth/color/active 0 
+ 	 	 	 	 /liveFluidCam/synth/color set 
+ 	 	 	 	 /liveFluidCam/synth/noise/planes 4 
+ 	 	 	 	 /liveFluidCam/synth/noise/size/x 320 
+ 	 	 	 	 /liveFluidCam/synth/noise/size/y 240 
+ 	 	 	 	 /liveFluidCam/updaterate 60 
+ 	 	 	 	 /liveFluidCam/video/freeze 0 
+ 	 	 	 	 /liveFluidCam/video/gain 100.000000 
+ 	 	 	 	 /liveFluidCam/video/mute 0 
+ 	 	 	 	 /liveFluidCam/video/preview 0 
+ 	 	 	 	 /liveFluidCam/view/freeze 0 
+ 	 	 	 	 /liveFluidCam/view/highlight none 
+ # 
+ # Module /o4.fluids 
+ 	 	 	 	 /o4.fluids/densityBlend 0.940000 
+ 	 	 	 	 /o4.fluids/densityFade 1.000000 
+ 	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 1.000000 
+ 	 	 	 	 /o4.fluids/flowOp addition 
+ 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.250000 
+ 	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/reset 1 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/timestep 1.000000 
+ 	 	 	 	 /o4.fluids/velocityBlend 0.800000 
+ 	 	 	 	 /o4.fluids/velocityFade 0.992000 
+ 	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityMultiply 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/velocityOutHeight 144 
+ 	 	 	 	 /o4.fluids/velocityOutWidth 256 
+ 	 	 	 	 /o4.fluids/velocityScale 0.000000 0.000000 0.000000 0.000000 
+ 	 	 	 	 /o4.fluids/video/bypass 0 
+ 	 	 	 	 /o4.fluids/video/mute 0 
+ 	 	 	 	 /o4.fluids/video/preview 1 
+ 	 	 	 	 /o4.fluids/view/freeze 1 
+ 	 	 	 	 /o4.fluids/view/highlight none 
+ 	 	 	 	 /o4.fluids/viscosity 1.000000 
+ 	 	 	 	 /o4.fluids/vorticity 0.100000 
+ # 
+ # Module /LenkaCues 
+ 	 	 	 	 /LenkaCues/view/freeze 0 
+ 	 	 	 	 /LenkaCues/view/highlight 0 
+ # 
+ # Module /orsize-2 
+ 	 	 	 	 /orsize-2/angle 0 
+ 	 	 	 	 /orsize-2/boundmode clip 
+ 	 	 	 	 /orsize-2/mirror 1 
+ 	 	 	 	 /orsize-2/offsetX 0.000000 
+ 	 	 	 	 /orsize-2/offsetY 0.000000 
+ 	 	 	 	 /orsize-2/rotate1 0 
+ 	 	 	 	 /orsize-2/rotate2 0 
+ 	 	 	 	 /orsize-2/video/bypass 0 
+ 	 	 	 	 /orsize-2/video/freeze 0 
+ 	 	 	 	 /orsize-2/video/mute 0 
+ 	 	 	 	 /orsize-2/video/preview 0 
+ 	 	 	 	 /orsize-2/view/freeze 0 
+ 	 	 	 	 /orsize-2/view/highlight 0 
+ 	 	 	 	 /orsize-2/zoomX 1.000000 
+ 	 	 	 	 /orsize-2/zoomY 1.000000 
+ # 
+ ######################## 
+ 
+ 
