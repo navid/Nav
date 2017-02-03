@@ -3,7 +3,7 @@
  KEYCUE "noCrash" 
  
  
- 	 	 	 	 /CONFIG /inputBrcs 99 1 /liveFluidCam 99 1 /o4.fluids 99 1 /LenkaCues 99 1 /flipCam 99 1 
+ 	 	 	 	 /CONFIG /inputBrcs 99 1 /flipCam 99 1 /liveFluidCam 99 1 /o4.fluids 99 1 /LenkaCues 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
@@ -20,10 +20,27 @@
  	 	 	 	 /inputBrcs/view/freeze 0 
  	 	 	 	 /inputBrcs/view/highlight 0 
  # 
+ # Module /flipCam 
+ 	 	 	 	 /flipCam/angle 0 
+ 	 	 	 	 /flipCam/boundmode clip 
+ 	 	 	 	 /flipCam/mirror 1 
+ 	 	 	 	 /flipCam/offsetX 0.000000 
+ 	 	 	 	 /flipCam/offsetY 0.000000 
+ 	 	 	 	 /flipCam/rotate1 0 
+ 	 	 	 	 /flipCam/rotate2 0 
+ 	 	 	 	 /flipCam/video/bypass 0 
+ 	 	 	 	 /flipCam/video/freeze 0 
+ 	 	 	 	 /flipCam/video/mute 0 
+ 	 	 	 	 /flipCam/video/preview 0 
+ 	 	 	 	 /flipCam/view/freeze 0 
+ 	 	 	 	 /flipCam/view/highlight 0 
+ 	 	 	 	 /flipCam/zoomX 1.000000 
+ 	 	 	 	 /flipCam/zoomY 1.000000 
+ # 
  # Module /liveFluidCam 
  	 	 	 	 /liveFluidCam/active 1 
  	 	 	 	 /liveFluidCam/camera/camera none 
- 	 	 	 	 /liveFluidCam/camera/device FaceTime HD Camera (Built-in) 
+ 	 	 	 	 /liveFluidCam/camera/device FaceTime 
  	 	 	 	 /liveFluidCam/camera/size 1 
  	 	 	 	 /liveFluidCam/camera/updaterate 1 
  	 	 	 	 /liveFluidCam/desktop/offset/x 0 
@@ -52,7 +69,7 @@
  	 	 	 	 /liveFluidCam/view/highlight none 
  # 
  # Module /o4.fluids 
- 	 	 	 	 /o4.fluids/densityBlend 0.880000 
+ 	 	 	 	 /o4.fluids/densityBlend 0.868000 
  	 	 	 	 /o4.fluids/densityFade 1.000000 
  	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 1.000000 
  	 	 	 	 /o4.fluids/flowOp addition 
@@ -83,23 +100,6 @@
  # Module /LenkaCues 
  	 	 	 	 /LenkaCues/view/freeze 0 
  	 	 	 	 /LenkaCues/view/highlight 0 
- # 
- # Module /flipCam 
- 	 	 	 	 /flipCam/angle 0 
- 	 	 	 	 /flipCam/boundmode clip 
- 	 	 	 	 /flipCam/mirror 1 
- 	 	 	 	 /flipCam/offsetX 0.000000 
- 	 	 	 	 /flipCam/offsetY 0.000000 
- 	 	 	 	 /flipCam/rotate1 0 
- 	 	 	 	 /flipCam/rotate2 0 
- 	 	 	 	 /flipCam/video/bypass 0 
- 	 	 	 	 /flipCam/video/freeze 0 
- 	 	 	 	 /flipCam/video/mute 0 
- 	 	 	 	 /flipCam/video/preview 0 
- 	 	 	 	 /flipCam/view/freeze 0 
- 	 	 	 	 /flipCam/view/highlight 0 
- 	 	 	 	 /flipCam/zoomX 1.000000 
- 	 	 	 	 /flipCam/zoomY 1.000000 
  # 
  ######################## 
  
