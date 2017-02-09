@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 868.0, 641.0, 558.0, 422.0 ],
+		"rect" : [ 1135.0, 581.0, 558.0, 422.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1813,6 +1813,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -4243,12 +4244,12 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 5,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 15.0, 140.0, 439.0, 22.0 ],
 									"style" : "",
-									"text" : "OSC-route /pressure /distance /altitude /azimuth"
+									"text" : "j.oscroute pressure distance altitude azimuth"
 								}
 
 							}
@@ -4256,12 +4257,12 @@
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 102.0, 119.0, 22.0 ],
+									"patching_rect" : [ 15.0, 102.0, 114.0, 22.0 ],
 									"style" : "",
-									"text" : "OSC-route /sonifeye"
+									"text" : "j.oscroute /sonifeye"
 								}
 
 							}
@@ -4383,7 +4384,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
