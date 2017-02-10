@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 9.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 37.0, 62.0, 27.0 ],
+					"style" : "",
+					"text" : "feb 9 2017\nNavid Navab"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -3295,16 +3309,16 @@
 										"AudioSetup" : [ 0.0 ],
 										"ForceAmp" : [ 80.0 ],
 										"ForcePosX" : [ 62.0 ],
-										"ForcePosY" : [ 98.0 ],
+										"ForcePosY" : [ 59.0 ],
 										"ForceSmooth" : [ 100.0 ],
 										"ForceWeight" : [ 100.0 ],
-										"PickupLPosX" : [ 26.0 ],
-										"PickupLPosY" : [ 79.0 ],
-										"PickupRPosX" : [ 83.0 ],
-										"PickupRPosY" : [ 6.0 ],
+										"PickupLPosX" : [ 24.0 ],
+										"PickupLPosY" : [ 70.0 ],
+										"PickupRPosX" : [ 82.0 ],
+										"PickupRPosY" : [ 21.0 ],
 										"PickupSmooth" : [ 100.0 ],
 										"PlateBrightness" : [ 20.0 ],
-										"PlateDamping" : [ 89.861702 ],
+										"PlateDamping" : [ 63.585106 ],
 										"PlateDetune" : [ 0.0 ],
 										"PlateKeybOctave" : [ 1.0 ],
 										"PlateModes" : [ 256.0 ],
@@ -3314,7 +3328,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u023008040"
+									"varname" : "u273010451"
 								}
 
 							}
@@ -10147,7 +10161,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 284.0, 240.0, 939.0, 707.0 ],
+						"rect" : [ 557.0, 79.0, 939.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10183,7 +10197,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 449.0, 539.0, 69.0, 21.0 ],
-									"presentation_rect" : [ 540.25, 541.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "visualize"
 								}
@@ -10198,7 +10211,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 68.5, 461.0, 35.0, 21.0 ],
-									"presentation_rect" : [ 328.0, 405.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "clip"
 								}
@@ -10213,7 +10225,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 415.5, 318.0, 41.0, 21.0 ],
-									"presentation_rect" : [ 526.5, 319.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "slide"
 								}
@@ -10228,7 +10239,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 556.099976, 194.0, 108.0, 21.0 ],
-									"presentation_rect" : [ 664.5, 191.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "scale/normalize"
 								}
@@ -10243,7 +10253,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 477.199951, 116.0, 147.0, 21.0 ],
-									"presentation_rect" : [ 585.199951, 117.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "slide/smooth/lowpass"
 								}
@@ -10258,7 +10267,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 460.0, 44.0, 89.0, 21.0 ],
-									"presentation_rect" : [ 573.0, 43.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "median filter"
 								}
@@ -10273,7 +10281,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 915.71875, 516.0, 45.0, 20.0 ],
-									"presentation_rect" : [ 1085.199951, 574.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "ms"
 								}
@@ -10288,7 +10295,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 860.71875, 498.0, 67.0, 20.0 ],
-									"presentation_rect" : [ 1036.71875, 554.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "debounce"
 								}
@@ -10307,7 +10313,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 859.0, 516.0, 53.0, 22.0 ],
-									"presentation_rect" : [ 1036.71875, 572.0, 0.0, 0.0 ],
 									"style" : "",
 									"tricolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 								}
@@ -12769,8 +12774,8 @@
 			"obj-1::obj-5.1::obj-46" : [ "gswitch2[1]", "gswitch2", 0 ],
 			"obj-1::obj-5.5::obj-46" : [ "gswitch2[5]", "gswitch2", 0 ],
 			"obj-10::obj-25" : [ "AudioOutputGain", "Gain", 0 ],
-			"obj-10::obj-10" : [ "ForcePosY", "PosY", 0 ],
 			"obj-10::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-10::obj-10" : [ "ForcePosY", "PosY", 0 ],
 			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
 			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
 			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
@@ -12794,8 +12799,8 @@
 			"obj-1::obj-6" : [ "Volume", "Vol", 0 ],
 			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ],
 			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
-			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
 			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
+			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
 			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
 			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
 			"obj-10::obj-109" : [ "PlatePitch", "Pitch", 0 ],
