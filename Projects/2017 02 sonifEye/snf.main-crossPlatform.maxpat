@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1021.0, 514.0, 272.0, 119.0 ],
+		"rect" : [ 145.0, 79.0, 248.0, 104.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1755,7 +1755,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 140.0, 76.0, 99.0, 22.0 ],
+					"patching_rect" : [ 140.0, 71.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -10114,7 +10114,7 @@
 						"default_bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 9.0, 76.0, 100.0, 22.0 ],
+					"patching_rect" : [ 9.0, 71.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"description" : "",
@@ -12567,7 +12567,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 89.0, 42.0, 75.0, 22.0 ],
+					"patching_rect" : [ 89.0, 37.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -12742,7 +12742,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 71.0, 9.0, 119.0, 22.0 ],
+					"patching_rect" : [ 71.0, 4.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
