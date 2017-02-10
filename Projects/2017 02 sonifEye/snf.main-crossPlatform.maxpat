@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 35.0, 62.0, 27.0 ],
+					"patching_rect" : [ 9.0, 32.0, 62.0, 27.0 ],
 					"style" : "",
 					"text" : "feb 9 2017\nNavid Navab"
 				}
@@ -94,7 +94,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "Snap to grid",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-38",
@@ -1828,7 +1827,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -3357,7 +3355,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u325010927"
+									"varname" : "u478011117"
 								}
 
 							}
@@ -10209,7 +10207,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 557.0, 79.0, 939.0, 707.0 ],
+						"rect" : [ 544.0, 132.0, 939.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10663,7 +10661,7 @@
 									"patching_rect" : [ 250.0, 602.0, 100.0, 40.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-2", "flonum", "float", 6.0, 5, "obj-6", "flonum", "float", 1.0, 5, "obj-7", "flonum", "float", 3.0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 1.0, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-17", "flonum", "float", 0.97, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 8.0, 5, "obj-39", "flonum", "float", -0.02, 5, "obj-56", "flonum", "float", 7.0, 5, "obj-54", "flonum", "float", 0.0, 5, "obj-53", "flonum", "float", 0.0, 5, "obj-51", "flonum", "float", 0.0, 5, "obj-50", "flonum", "float", 1.0, 5, "obj-49", "flonum", "float", 0.0, 5, "obj-48", "flonum", "float", 1.0, 5, "obj-13", "flonum", "float", 0.0, 5, "obj-12", "flonum", "float", 0.0, 5, "obj-61", "multislider", "list", 0.0, 5, "obj-63", "toggle", "int", 0, 5, "obj-67", "multislider", "list", 0.0, 5, "obj-65", "toggle", "int", 0, 5, "obj-73", "flonum", "float", 0.97, 5, "obj-72", "flonum", "float", 0.7, 5, "obj-80", "toggle", "int", 0, 5, "obj-83", "flonum", "float", 700.0 ]
+											"data" : [ 5, "obj-2", "flonum", "float", 6.0, 5, "obj-6", "flonum", "float", 1.0, 5, "obj-7", "flonum", "float", 3.0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 1.0, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-17", "flonum", "float", 0.97, 5, "obj-32", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 8.0, 5, "obj-39", "flonum", "float", -0.02, 5, "obj-56", "flonum", "float", 7.0, 5, "obj-54", "flonum", "float", 0.0, 5, "obj-53", "flonum", "float", 0.0, 5, "obj-51", "flonum", "float", 0.0, 5, "obj-50", "flonum", "float", 1.0, 5, "obj-49", "flonum", "float", 0.0, 5, "obj-48", "flonum", "float", 1.0, 5, "obj-13", "flonum", "float", 0.0, 5, "obj-12", "flonum", "float", 0.0, 5, "obj-61", "multislider", "list", 0.0, 5, "obj-63", "toggle", "int", 0, 5, "obj-67", "multislider", "list", 0.0, 5, "obj-65", "toggle", "int", 0, 5, "obj-73", "flonum", "float", 0.3, 5, "obj-72", "flonum", "float", 0.015, 5, "obj-80", "toggle", "int", 0, 5, "obj-83", "flonum", "float", 700.0 ]
 										}
  ],
 									"stored1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
@@ -12813,8 +12811,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-5.8::obj-46" : [ "gswitch2[8]", "gswitch2", 0 ],
-			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
 			"obj-10::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
 			"obj-10::obj-32" : [ "PlateDamping", "Damping", 0 ],
 			"obj-10::obj-106" : [ "ResetAll", "ResetAll", 0 ],
 			"obj-1::obj-5.13::obj-46" : [ "gswitch2[13]", "gswitch2", 0 ],
@@ -12827,14 +12825,14 @@
 			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
 			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
 			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
-			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
 			"obj-1::obj-43" : [ "slider[2]", "slider", 0 ],
+			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
 			"obj-1::obj-14" : [ "octave", "octave", 0 ],
 			"obj-1::obj-22" : [ "modes", "modes", 0 ],
 			"obj-1::obj-5.2::obj-46" : [ "gswitch2[2]", "gswitch2", 0 ],
 			"obj-1::obj-5.7::obj-46" : [ "gswitch2[7]", "gswitch2", 0 ],
-			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
 			"obj-10::obj-148" : [ "ForceSmooth", "Smooth", 0 ],
+			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
 			"obj-10::obj-123" : [ "PickupRPosY", "PosY", 0 ],
 			"obj-10::obj-20" : [ "PlateKeybOctave", "Octave", 0 ],
 			"obj-1::obj-5.12::obj-46" : [ "gswitch2[12]", "gswitch2", 0 ],
@@ -12847,8 +12845,8 @@
 			"obj-1::obj-6" : [ "Volume", "Vol", 0 ],
 			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ],
 			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
-			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
 			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
+			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
 			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
 			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
 			"obj-10::obj-109" : [ "PlatePitch", "Pitch", 0 ],
