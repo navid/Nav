@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 1133.0, 638.0 ],
+		"rect" : [ 100.0, 100.0, 953.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 240.0, 330.0, 37.0 ],
-					"presentation_rect" : [ 629.0, 194.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "select from direct input (x), first difference (Δx), second difference (Δx2), velocity (Vx) or quantity of motion (QoM)"
 				}
@@ -61,9 +60,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 480.0, 135.0, 19.0 ],
-					"presentation_rect" : [ 16.0, 502.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "0.75"
+					"text" : "0.33"
 				}
 
 			}
@@ -76,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 375.0, 70.0, 21.0 ],
-					"presentation_rect" : [ 46.0, 399.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend set"
 				}
@@ -104,7 +101,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 300.0, 135.0, 19.0 ],
 					"style" : "",
-					"text" : "206"
+					"text" : "122"
 				}
 
 			}
@@ -134,7 +131,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 210.0, 210.0, 25.0 ],
-					"presentation_rect" : [ 503.0, 254.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "slide: input smoothing via [slide]."
 				}
@@ -167,7 +163,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 315.0, 255.0, 25.0 ],
-					"presentation_rect" : [ 524.0, 363.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "out min/max: set range of scaled output."
 				}
@@ -200,7 +195,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 375.0, 255.0, 25.0 ],
-					"presentation_rect" : [ 515.0, 436.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "offset: add constant offset to output."
 				}
@@ -209,7 +203,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 0.5,
 					"bubbleside" : 3,
 					"bubbletextmargin" : 6,
 					"id" : "obj-28",
@@ -217,7 +210,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 345.0, 210.0, 25.0 ],
-					"presentation_rect" : [ 507.0, 399.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "slide: output smoothing via [slide]."
 				}
@@ -234,7 +226,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 405.0, 255.0, 25.0 ],
-					"presentation_rect" : [ 513.0, 420.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "ramp: additional output smoothing via [line]."
 				}
@@ -250,7 +241,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 240.0, 285.0, 25.0 ],
-					"presentation_rect" : [ 760.0, 251.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "reset: reset input min and max to default values."
 				}
@@ -267,7 +257,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 510.0, 435.0, 141.0, 159.0 ],
-					"presentation_rect" : [ 470.0, 438.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "clip mode:\n----: none\n---|: high\n|---: low\n|--|: both\nfold: reflect at bounds\nwrap: wrap at bounds\n\nNote that clipping takes place after offset has been applied."
 				}
@@ -283,7 +272,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 375.0, 260.0, 35.0 ],
-					"presentation_rect" : [ 627.0, 389.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "click the top-right corner of the multislider to toggle display on and off."
 				}
@@ -299,7 +287,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 330.0, 285.0, 35.0 ],
-					"presentation_rect" : [ 631.0, 353.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Schmitt trigger: trigger with hysteresis. See inside for toggle, debounce and ramp controls."
 				}
@@ -410,8 +397,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -783,7 +770,7 @@
 			}
 , 			{
 				"name" : "j.nav.scale.model.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.scale",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -813,7 +800,7 @@
 			}
 , 			{
 				"name" : "j.nav.scale.view.maxpat",
-				"bootpath" : "~/Github/TML-depo/TML-code/AUDIO/Development/j.nav.scale",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
