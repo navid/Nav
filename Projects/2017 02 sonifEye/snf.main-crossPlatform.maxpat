@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 32.0, 62.0, 27.0 ],
+					"patching_rect" : [ 10.0, 32.0, 62.0, 27.0 ],
 					"style" : "",
 					"text" : "feb 9 2017\nNavid Navab"
 				}
