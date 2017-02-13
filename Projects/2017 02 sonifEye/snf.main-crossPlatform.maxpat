@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 145.0, 79.0, 248.0, 104.0 ],
+		"rect" : [ 72.0, 79.0, 248.0, 104.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 32.0, 62.0, 27.0 ],
+					"patching_rect" : [ 9.0, 31.0, 62.0, 27.0 ],
 					"style" : "",
 					"text" : "feb 9 2017\nNavid Navab"
 				}
@@ -67,7 +67,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 509.0, 133.0, 680.0, 256.0 ],
+						"rect" : [ 428.0, 346.0, 679.0, 261.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -95,6 +95,20 @@
 						"style" : "",
 						"subpatcher_template" : "Snap to grid",
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 97.0, 19.399994, 73.0, 22.0 ],
+									"style" : "",
+									"text" : "r audioGain"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-38",
 									"maxclass" : "button",
@@ -1329,6 +1343,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1800,7 +1823,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 675.0, 530.0, 492.0, 508.0 ],
+						"rect" : [ 282.0, 243.0, 489.0, 506.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1828,6 +1851,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"id" : "obj-56",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 851.666687, 419.399994, 73.0, 22.0 ],
+									"style" : "",
+									"text" : "r audioGain"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"format" : 6,
 									"id" : "obj-44",
@@ -3331,7 +3368,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 131.0, 696.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"AudioOutputGain" : [ -0.976378 ],
+										"AudioOutputGain" : [ 0.0 ],
 										"AudioRecord" : [ 0.0 ],
 										"AudioSetup" : [ 0.0 ],
 										"ForceAmp" : [ 80.0 ],
@@ -3355,7 +3392,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u478011117"
+									"varname" : "u817000932"
 								}
 
 							}
@@ -10118,6 +10155,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -10207,7 +10253,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 544.0, 132.0, 939.0, 707.0 ],
+						"rect" : [ 791.0, 120.0, 939.0, 707.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12649,7 +12695,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 352.0, 564.0, 465.0, 215.0 ],
+						"rect" : [ 492.0, 113.0, 859.0, 351.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12678,12 +12724,49 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 381.133331, 166.399994, 45.0, 45.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 473.666687, 204.399994, 95.0, 22.0 ],
+									"style" : "",
+									"text" : "send audioGain"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 473.666687, 166.399994, 41.0, 22.0 ],
+									"style" : "",
+									"text" : "atodb"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 116.0, 178.0, 85.0, 22.0 ],
+									"patching_rect" : [ 107.199997, 178.0, 85.0, 22.0 ],
 									"style" : "",
 									"text" : "send distance"
 								}
@@ -12706,12 +12789,12 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 5,
-									"numoutlets" : 5,
-									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 11.0, 115.0, 439.0, 22.0 ],
+									"numinlets" : 7,
+									"numoutlets" : 7,
+									"outlettype" : [ "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 11.0, 115.0, 574.200012, 22.0 ],
 									"style" : "",
-									"text" : "j.oscroute pressure distance altitude azimuth"
+									"text" : "j.oscroute pressure distance altitude azimuth /audio/on /audio/gain"
 								}
 
 							}
@@ -12765,6 +12848,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -12778,6 +12879,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -12810,70 +12920,74 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
 			"obj-1::obj-5.8::obj-46" : [ "gswitch2[8]", "gswitch2", 0 ],
-			"obj-10::obj-113" : [ "PickupLPosY", "PosY", 0 ],
-			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
-			"obj-10::obj-32" : [ "PlateDamping", "Damping", 0 ],
-			"obj-10::obj-106" : [ "ResetAll", "ResetAll", 0 ],
+			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
 			"obj-1::obj-5.13::obj-46" : [ "gswitch2[13]", "gswitch2", 0 ],
-			"obj-1::obj-27" : [ "freq. loss", "freq. loss", 0 ],
-			"obj-1::obj-5.1::obj-46" : [ "gswitch2[1]", "gswitch2", 0 ],
 			"obj-1::obj-5.5::obj-46" : [ "gswitch2[5]", "gswitch2", 0 ],
+			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
+			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
+			"obj-10::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-1::obj-27" : [ "freq. loss", "freq. loss", 0 ],
+			"obj-10::obj-32" : [ "PlateDamping", "Damping", 0 ],
+			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
+			"obj-1::obj-14" : [ "octave", "octave", 0 ],
+			"obj-1::obj-5.2::obj-46" : [ "gswitch2[2]", "gswitch2", 0 ],
+			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
 			"obj-10::obj-25" : [ "AudioOutputGain", "Gain", 0 ],
 			"obj-10::obj-10" : [ "ForcePosY", "PosY", 0 ],
-			"obj-10::obj-125" : [ "PickupRPosX", "PosX", 0 ],
-			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
-			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
-			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
-			"obj-1::obj-43" : [ "slider[2]", "slider", 0 ],
-			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
-			"obj-1::obj-14" : [ "octave", "octave", 0 ],
-			"obj-1::obj-22" : [ "modes", "modes", 0 ],
-			"obj-1::obj-5.2::obj-46" : [ "gswitch2[2]", "gswitch2", 0 ],
 			"obj-1::obj-5.7::obj-46" : [ "gswitch2[7]", "gswitch2", 0 ],
-			"obj-10::obj-148" : [ "ForceSmooth", "Smooth", 0 ],
-			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
-			"obj-10::obj-123" : [ "PickupRPosY", "PosY", 0 ],
-			"obj-10::obj-20" : [ "PlateKeybOctave", "Octave", 0 ],
-			"obj-1::obj-5.12::obj-46" : [ "gswitch2[12]", "gswitch2", 0 ],
-			"obj-1::obj-5.4::obj-46" : [ "gswitch2[4]", "gswitch2", 0 ],
-			"obj-10::obj-70" : [ "ForceWeight", "Weight", 0 ],
-			"obj-10::obj-165" : [ "AudioSetup", "Setup", 0 ],
-			"obj-1::obj-5.9::obj-46" : [ "gswitch2[9]", "gswitch2", 0 ],
-			"obj-10::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
-			"obj-10::obj-22" : [ "PlateModes", "Modes", 0 ],
+			"obj-10::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
+			"obj-1::obj-5.1::obj-46" : [ "gswitch2[1]", "gswitch2", 0 ],
 			"obj-1::obj-6" : [ "Volume", "Vol", 0 ],
-			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ],
-			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
-			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
-			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
-			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
-			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
+			"obj-1::obj-5.12::obj-46" : [ "gswitch2[12]", "gswitch2", 0 ],
 			"obj-10::obj-109" : [ "PlatePitch", "Pitch", 0 ],
-			"obj-1::obj-5.3::obj-46" : [ "gswitch2[3]", "gswitch2", 0 ]
+			"obj-1::obj-5.4::obj-46" : [ "gswitch2[4]", "gswitch2", 0 ],
+			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
+			"obj-10::obj-148" : [ "ForceSmooth", "Smooth", 0 ],
+			"obj-10::obj-123" : [ "PickupRPosY", "PosY", 0 ],
+			"obj-1::obj-5.9::obj-46" : [ "gswitch2[9]", "gswitch2", 0 ],
+			"obj-10::obj-20" : [ "PlateKeybOctave", "Octave", 0 ],
+			"obj-10::obj-106" : [ "ResetAll", "ResetAll", 0 ],
+			"obj-10::obj-165" : [ "AudioSetup", "Setup", 0 ],
+			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ],
+			"obj-1::obj-22" : [ "modes", "modes", 0 ],
+			"obj-10::obj-70" : [ "ForceWeight", "Weight", 0 ],
+			"obj-10::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
+			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
+			"obj-10::obj-22" : [ "PlateModes", "Modes", 0 ],
+			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
+			"obj-1::obj-43" : [ "slider[2]", "slider", 0 ],
+			"obj-1::obj-5.3::obj-46" : [ "gswitch2[3]", "gswitch2", 0 ],
+			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Fma.PictsliderKnob.png",
 				"bootpath" : "./Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snf.main-crossPlatform.json",
 				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
+				"patcherrelativepath" : "../../../../Nav/Projects/2017 02 sonifEye",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../../../Shared/Max 7/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snf.mdly.Mbira.maxpat",
 				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
+				"patcherrelativepath" : "../../../../Nav/Projects/2017 02 sonifEye",
 				"type" : "JSON",
 				"implicit" : 1
 			}
