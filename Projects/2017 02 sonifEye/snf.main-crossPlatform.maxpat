@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 31.0, 62.0, 27.0 ],
+					"patching_rect" : [ 9.0, 32.0, 62.0, 27.0 ],
 					"style" : "",
 					"text" : "feb 9 2017\nNavid Navab"
 				}
@@ -1823,7 +1823,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 282.0, 243.0, 489.0, 506.0 ],
+						"rect" : [ 72.0, 274.0, 489.0, 506.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -12695,7 +12695,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 492.0, 113.0, 859.0, 351.0 ],
+						"rect" : [ 492.0, 113.0, 742.0, 314.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12766,7 +12766,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 107.199997, 178.0, 85.0, 22.0 ],
+									"patching_rect" : [ 103.533333, 178.0, 85.0, 22.0 ],
 									"style" : "",
 									"text" : "send distance"
 								}
@@ -12794,7 +12794,7 @@
 									"outlettype" : [ "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 11.0, 115.0, 574.200012, 22.0 ],
 									"style" : "",
-									"text" : "j.oscroute pressure distance altitude azimuth /audio/on /audio/gain"
+									"text" : "j.oscroute pressure distance altitude azimuth audio/on audio/gain"
 								}
 
 							}
