@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 32.0, 62.0, 27.0 ],
+					"patching_rect" : [ 13.0, 33.0, 62.0, 27.0 ],
 					"style" : "",
 					"text" : "feb 9 2017\nNavid Navab"
 				}
@@ -12664,7 +12664,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 89.0, 37.0, 75.0, 22.0 ],
+					"patching_rect" : [ 89.0, 33.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -12695,7 +12695,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 492.0, 113.0, 742.0, 314.0 ],
+						"rect" : [ 492.0, 113.0, 707.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12728,7 +12728,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 381.133331, 166.399994, 45.0, 45.0 ],
+									"patching_rect" : [ 314.428589, 166.5, 45.0, 45.0 ],
 									"style" : ""
 								}
 
@@ -12740,7 +12740,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 473.666687, 204.399994, 95.0, 22.0 ],
+									"patching_rect" : [ 390.285736, 196.5, 95.0, 22.0 ],
 									"style" : "",
 									"text" : "send audioGain"
 								}
@@ -12753,7 +12753,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 473.666687, 166.399994, 41.0, 22.0 ],
+									"patching_rect" : [ 390.285736, 158.5, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "atodb"
 								}
@@ -12789,12 +12789,12 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 7,
-									"numoutlets" : 7,
-									"outlettype" : [ "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 11.0, 115.0, 574.200012, 22.0 ],
+									"numinlets" : 8,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 11.00001, 105.400002, 550.0, 22.0 ],
 									"style" : "",
-									"text" : "j.oscroute pressure distance altitude azimuth audio/on audio/gain"
+									"text" : "j.oscroute pressure distance altitude azimuth audio/on audio/gain poop"
 								}
 
 							}
@@ -12805,7 +12805,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 11.0, 77.0, 114.0, 22.0 ],
+									"patching_rect" : [ 11.0, 68.199997, 114.0, 22.0 ],
 									"style" : "",
 									"text" : "j.oscroute /sonifeye"
 								}
@@ -12817,7 +12817,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 158.0, 12.0, 150.0, 20.0 ],
+									"patching_rect" : [ 187.600006, 30.4, 150.0, 20.0 ],
 									"style" : "",
 									"text" : "udp recieve (Port#)"
 								}
@@ -12903,7 +12903,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 71.0, 4.0, 119.0, 22.0 ],
+					"patching_rect" : [ 71.0, 3.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
