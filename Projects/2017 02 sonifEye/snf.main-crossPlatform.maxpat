@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 33.0, 62.0, 27.0 ],
+					"patching_rect" : [ 17.0, 33.0, 62.0, 27.0 ],
 					"style" : "",
 					"text" : "feb 9 2017\nNavid Navab"
 				}
@@ -12789,12 +12789,12 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 8,
-									"numoutlets" : 8,
-									"outlettype" : [ "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 11.00001, 105.400002, 550.0, 22.0 ],
+									"numinlets" : 7,
+									"numoutlets" : 7,
+									"outlettype" : [ "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 11.00001, 105.400002, 356.0, 22.0 ],
 									"style" : "",
-									"text" : "j.oscroute pressure distance altitude azimuth audio/on audio/gain poop"
+									"text" : "j.oscroute pressure distance altitude azimuth audio/on audio/gain"
 								}
 
 							}
