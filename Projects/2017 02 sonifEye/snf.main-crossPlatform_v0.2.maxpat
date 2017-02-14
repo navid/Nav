@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 72.0, 79.0, 248.0, 104.0 ],
+		"rect" : [ 72.0, 79.0, 351.0, 110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
+					"fontname" : "Arial Bold",
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 244.0, 71.0, 99.0, 22.0 ],
+					"style" : "",
+					"text" : "snf.mdlys.cello",
+					"varname" : "snf.mdlys.cello"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 9.0,
 					"id" : "obj-3",
 					"linecount" : 2,
@@ -46,13 +61,15 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 33.0, 62.0, 27.0 ],
 					"style" : "",
-					"text" : "feb 9 2017\nNavid Navab"
+					"text" : "feb 2017\nNavid Navab"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -67,7 +84,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 428.0, 346.0, 679.0, 261.0 ],
+						"rect" : [ 700.0, 799.0, 679.0, 261.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -94,7 +111,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "Snap to grid",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
@@ -1160,7 +1176,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"local" : 1,
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -1793,7 +1808,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 140.0, 71.0, 99.0, 22.0 ],
+					"patching_rect" : [ 129.0, 71.0, 108.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1810,6 +1825,8 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1824,7 +1841,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 72.0, 274.0, 489.0, 506.0 ],
+						"rect" : [ 69.0, 385.0, 500.0, 506.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1851,7 +1868,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
@@ -3375,7 +3391,7 @@
 										"AudioSetup" : [ 0.0 ],
 										"ForceAmp" : [ 80.0 ],
 										"ForcePosX" : [ 62.0 ],
-										"ForcePosY" : [ 98.0 ],
+										"ForcePosY" : [ 93.0 ],
 										"ForceSmooth" : [ 100.0 ],
 										"ForceWeight" : [ 100.0 ],
 										"PickupLPosX" : [ 26.0 ],
@@ -3384,7 +3400,7 @@
 										"PickupRPosY" : [ 14.0 ],
 										"PickupSmooth" : [ 100.0 ],
 										"PlateBrightness" : [ 20.0 ],
-										"PlateDamping" : [ 86.0 ],
+										"PlateDamping" : [ 83.419037 ],
 										"PlateDetune" : [ 0.0 ],
 										"PlateKeybOctave" : [ 1.0 ],
 										"PlateModes" : [ 256.0 ],
@@ -3394,7 +3410,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u379005031"
+									"varname" : "u553009676"
 								}
 
 							}
@@ -3847,7 +3863,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 720.0, 183.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 1057, 45, 1680, 849 ],
 										"parameter_enable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
@@ -10222,7 +10238,7 @@
 						"default_bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 9.0, 71.0, 100.0, 22.0 ],
+					"patching_rect" : [ 9.0, 71.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"description" : "",
@@ -12666,7 +12682,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 89.0, 33.0, 75.0, 22.0 ],
+					"patching_rect" : [ 141.0, 33.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -12724,7 +12740,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
@@ -12928,7 +12943,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 71.0, 3.0, 119.0, 22.0 ],
+					"patching_rect" : [ 123.0, 3.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -12945,46 +12960,84 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-17::obj-2" : [ "Phase", "Phase", 0 ],
 			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
 			"obj-1::obj-22" : [ "modes", "modes", 0 ],
 			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
+			"obj-2::obj-15" : [ "PlectrumFreqLoss", "FreqLoss", 0 ],
 			"obj-10::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-2::obj-51" : [ "PluckPos", "Pos", 0 ],
 			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
+			"obj-2::obj-32" : [ "StringDamping", "Damping", 0 ],
+			"obj-2::obj-10" : [ "StringModes", "Modes", 0 ],
 			"obj-1::obj-5.3::obj-46" : [ "gswitch2[3]", "gswitch2", 0 ],
+			"obj-2::obj-43::obj-37" : [ "OutMin", "Max", 0 ],
+			"obj-2::obj-17::obj-18" : [ "Mode", "Mode", 1 ],
 			"obj-1::obj-5.8::obj-46" : [ "gswitch2[8]", "gswitch2", 0 ],
-			"obj-1::obj-14" : [ "octave", "octave", 0 ],
+			"obj-2::obj-17::obj-45" : [ "Enable", "Enable", 0 ],
+			"obj-2::obj-17::obj-8" : [ "ResetPhase", "ResetPhase", 0 ],
 			"obj-1::obj-43" : [ "slider[2]", "slider", 0 ],
+			"obj-1::obj-14" : [ "octave", "octave", 0 ],
 			"obj-1::obj-5.13::obj-46" : [ "gswitch2[13]", "gswitch2", 0 ],
 			"obj-1::obj-27" : [ "freq. loss", "freq. loss", 0 ],
+			"obj-2::obj-55" : [ "PickupPosL", "PosL", 0 ],
 			"obj-10::obj-10" : [ "ForcePosY", "PosY", 0 ],
+			"obj-2::obj-7" : [ "AudioOutputGain[1]", "Gain", 0 ],
+			"obj-2::obj-100" : [ "PlectrumLargeMass", "LargeMass", 0 ],
 			"obj-10::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-2::obj-148" : [ "PluckSmooth", "Smooth", 0 ],
 			"obj-10::obj-20" : [ "PlateKeybOctave", "Octave", 0 ],
+			"obj-2::obj-108" : [ "StringDetune", "Detune", 0 ],
+			"obj-2::obj-109" : [ "StringPitch", "Pitch", 0 ],
+			"obj-2::obj-43::obj-25" : [ "Compand", "Comp", 0 ],
 			"obj-1::obj-5.5::obj-46" : [ "gswitch2[5]", "gswitch2", 0 ],
+			"obj-2::obj-43::obj-72" : [ "Smooth", "Smooth", 0 ],
+			"obj-2::obj-43::obj-4" : [ "Gain", "Gain", 0 ],
+			"obj-2::obj-17::obj-14" : [ "Freq", "Freq", 0 ],
 			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
 			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
+			"obj-2::obj-17::obj-20" : [ "Waveform", "Waveform", 0 ],
 			"obj-10::obj-25" : [ "AudioOutputGain", "Gain", 0 ],
 			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
+			"obj-2::obj-59" : [ "PickupPosR", "PosR", 0 ],
 			"obj-10::obj-148" : [ "ForceSmooth", "Smooth", 0 ],
+			"obj-2::obj-12" : [ "PlectrumSmallMass", "SmallMass", 0 ],
 			"obj-10::obj-123" : [ "PickupRPosY", "PosY", 0 ],
+			"obj-2::obj-70" : [ "PluckWeight", "Weight", 0 ],
 			"obj-10::obj-22" : [ "PlateModes", "Modes", 0 ],
+			"obj-2::obj-106" : [ "ResetAll[1]", "ResetAll", 0 ],
+			"obj-2::obj-40" : [ "StringInharm", "Inharm", 0 ],
 			"obj-1::obj-5.2::obj-46" : [ "gswitch2[2]", "gswitch2", 0 ],
+			"obj-2::obj-43::obj-88" : [ "Drive", "Drive", 0 ],
 			"obj-1::obj-5.7::obj-46" : [ "gswitch2[7]", "gswitch2", 0 ],
+			"obj-2::obj-17::obj-21" : [ "Mult", "Mult", 0 ],
 			"obj-1::obj-5.12::obj-46" : [ "gswitch2[12]", "gswitch2", 0 ],
 			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
 			"obj-10::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
 			"obj-10::obj-70" : [ "ForceWeight", "Weight", 0 ],
-			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
+			"obj-2::obj-37" : [ "PlectrumStiffness", "Stiffness", 0 ],
 			"obj-10::obj-106" : [ "ResetAll", "ResetAll", 0 ],
+			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
 			"obj-10::obj-109" : [ "PlatePitch", "Pitch", 0 ],
+			"obj-2::obj-20" : [ "StringKeybOctave", "Octave", 0 ],
 			"obj-1::obj-5.4::obj-46" : [ "gswitch2[4]", "gswitch2", 0 ],
+			"obj-2::obj-43::obj-20" : [ "Invert", "Invert", 0 ],
 			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
+			"obj-2::obj-65" : [ "PickupSmooth[1]", "Smooth", 0 ],
 			"obj-1::obj-5.9::obj-46" : [ "gswitch2[9]", "gswitch2", 0 ],
+			"obj-2::obj-17::obj-13" : [ "Note", "Note", 0 ],
 			"obj-10::obj-165" : [ "AudioSetup", "Setup", 0 ],
 			"obj-1::obj-6" : [ "Volume", "Vol", 0 ],
 			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
+			"obj-2::obj-26" : [ "PlectrumDamping", "Damping", 0 ],
 			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
+			"obj-2::obj-18" : [ "PluckBreakForce", "BreakForce", 0 ],
 			"obj-10::obj-32" : [ "PlateDamping", "Damping", 0 ],
+			"obj-2::obj-35" : [ "StringBrightness", "Brightness", 0 ],
+			"obj-2::obj-44" : [ "StringMaterial", "Material", 0 ],
 			"obj-1::obj-5.1::obj-46" : [ "gswitch2[1]", "gswitch2", 0 ],
+			"obj-2::obj-43::obj-38" : [ "OutMax", "Min", 0 ],
+			"obj-2::obj-43::obj-41" : [ "Enable[1]", "Enable", 0 ],
 			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ]
 		}
 ,
@@ -13008,6 +13061,72 @@
 			}
 , 			{
 				"name" : "snf.mdly.Mbira.maxpat",
+				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snf.mdlys.cello.maxpat",
+				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FMA.SignalMapper~.maxpat",
+				"bootpath" : "./Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FMA.LFO~.maxpat",
+				"bootpath" : "./Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "up.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "down.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "updown.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Mlys.Materials.coll.txt",
+				"bootpath" : "./Max 6.1/packages/ForumMaxApps-All/misc/Mlys",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snf.mdlys.cello.json",
 				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
 				"type" : "JSON",
 				"implicit" : 1
@@ -13054,6 +13173,18 @@
 			}
 , 			{
 				"name" : "mlys.position.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mlys.mono-two-mass.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mlys.pluck.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mlys.mono-string.mxo",
 				"type" : "iLaX"
 			}
  ],

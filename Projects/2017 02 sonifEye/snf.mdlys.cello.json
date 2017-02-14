@@ -1,0 +1,99 @@
+{
+	"pattrstorage" : 	{
+		"name" : "snf.mdlys.cello",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlectrumDamping" : [ 25.984251 ],
+					"PlectrumFreqLoss" : [ 63.385826 ],
+					"PlectrumLargeMass" : [ 10.0 ],
+					"PlectrumSmallMass" : [ 10.0 ],
+					"PlectrumStiffness" : [ 50.0 ],
+					"PluckBreakForce" : [ 0.0 ],
+					"PluckPos" : [ 57.0 ],
+					"PluckSmooth" : [ 100.0 ],
+					"PluckWeight" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"StringBrightness" : [ 20.551182 ],
+					"StringDamping" : [ 25.433071 ],
+					"StringDetune" : [ 0.0 ],
+					"StringInharm" : [ 0.700499 ],
+					"StringKeybOctave" : [ 2.0 ],
+					"StringMaterial" : [ 0.0 ],
+					"StringModes" : [ 135.0 ],
+					"StringPitch" : [ 36.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.291339 ],
+					"Fma.SignalMapper~::Drive" : [  ],
+					"Fma.SignalMapper~::Enable" : [  ],
+					"Fma.SignalMapper~::Gain" : [  ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -0.49995 ],
+					"Fma.SignalMapper~::OutMin" : [ 0.49995 ],
+					"Fma.SignalMapper~::Smooth" : [ 4.544611 ],
+					"Fma.LFO~::Enable" : [ 1.0 ],
+					"Fma.LFO~::Freq" : [ 0.0 ],
+					"Fma.LFO~::Mode" : [  ],
+					"Fma.LFO~::Mult" : [  ],
+					"Fma.LFO~::Note" : [  ],
+					"Fma.LFO~::Phase" : [  ],
+					"Fma.LFO~::ResetPhase" : [  ],
+					"Fma.LFO~::Waveform" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlectrumDamping" : [ 29.921259 ],
+					"PlectrumFreqLoss" : [ 50.0 ],
+					"PlectrumLargeMass" : [ 10.0 ],
+					"PlectrumSmallMass" : [ 10.0 ],
+					"PlectrumStiffness" : [ 50.0 ],
+					"PluckBreakForce" : [ 0.0 ],
+					"PluckPos" : [ 52.0 ],
+					"PluckSmooth" : [ 100.0 ],
+					"PluckWeight" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"StringBrightness" : [ 29.527559 ],
+					"StringDamping" : [ 58.661419 ],
+					"StringDetune" : [ 0.0 ],
+					"StringInharm" : [ 0.0 ],
+					"StringKeybOctave" : [ 3.0 ],
+					"StringMaterial" : [ 0.0 ],
+					"StringModes" : [ 122.0 ],
+					"StringPitch" : [ 48.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.393701 ],
+					"Fma.SignalMapper~::Drive" : [  ],
+					"Fma.SignalMapper~::Enable" : [  ],
+					"Fma.SignalMapper~::Gain" : [  ],
+					"Fma.SignalMapper~::Invert" : [  ],
+					"Fma.SignalMapper~::OutMax" : [ -0.49995 ],
+					"Fma.SignalMapper~::OutMin" : [ 0.49995 ],
+					"Fma.SignalMapper~::Smooth" : [  ],
+					"Fma.LFO~::Enable" : [ 1.0 ],
+					"Fma.LFO~::Freq" : [ 5.525742 ],
+					"Fma.LFO~::Mode" : [  ],
+					"Fma.LFO~::Mult" : [  ],
+					"Fma.LFO~::Note" : [  ],
+					"Fma.LFO~::Phase" : [  ],
+					"Fma.LFO~::ResetPhase" : [  ],
+					"Fma.LFO~::Waveform" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -67,7 +67,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 428.0, 346.0, 679.0, 261.0 ],
+						"rect" : [ 825.0, 398.0, 679.0, 261.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1824,7 +1824,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 72.0, 274.0, 489.0, 506.0 ],
+						"rect" : [ 427.0, 248.0, 1852.0, 1083.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1854,13 +1854,100 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-89",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "nav.rand.module.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 926.0, 128.0, 150.0, 70.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-85",
+									"maxclass" : "live.gain~",
+									"numinlets" : 2,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 568.5, 635.5, 54.0, 165.0 ],
+									"presentation_rect" : [ 60.0, 60.0, 48.0, 50.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Gain[1]",
+											"parameter_shortname" : "Gain",
+											"parameter_type" : 0,
+											"parameter_mmin" : -70.0,
+											"parameter_mmax" : 6.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ -30 ],
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"varname" : "live.gain~[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "Spectral shifting with feedback",
+									"args" : [ "spectral_shift_help" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-87",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "spectral_shift~.view.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 800.5, 566.0, 300.0, 70.0 ],
+									"presentation_rect" : [ 600.0, 494.0, 300.0, 70.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "Spectral shifting with feedback",
+									"id" : "obj-88",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "signal", "signal", "" ],
+									"patching_rect" : [ 597.5, 575.5, 155.0, 35.0 ],
+									"style" : "",
+									"text" : "spectral_shift~.model spectral_shift_help"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"id" : "obj-56",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 851.666687, 419.399994, 73.0, 22.0 ],
+									"patching_rect" : [ 623.5, 352.399994, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "r audioGain"
 								}
@@ -2034,7 +2121,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.5, 568.0, 56.0, 29.0 ],
+									"patching_rect" : [ 616.5, 824.0, 56.0, 29.0 ],
 									"style" : "",
 									"text" : "< Reverb + Limiter"
 								}
@@ -2783,7 +2870,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 637.5, 608.0, 31.0, 18.0 ],
+									"patching_rect" : [ 608.5, 909.0, 31.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 382.0, 388.0, 32.0, 18.0 ],
 									"style" : "",
@@ -3320,7 +3407,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 597.5, 568.0, 38.0, 20.0 ],
+									"patching_rect" : [ 568.5, 824.0, 38.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3370,12 +3457,12 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 131.0, 696.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"AudioOutputGain" : [ -0.976378 ],
+										"AudioOutputGain" : [ 1.154856 ],
 										"AudioRecord" : [ 0.0 ],
 										"AudioSetup" : [ 0.0 ],
 										"ForceAmp" : [ 80.0 ],
 										"ForcePosX" : [ 62.0 ],
-										"ForcePosY" : [ 98.0 ],
+										"ForcePosY" : [ 48.0 ],
 										"ForceSmooth" : [ 100.0 ],
 										"ForceWeight" : [ 100.0 ],
 										"PickupLPosX" : [ 26.0 ],
@@ -3384,17 +3471,18 @@
 										"PickupRPosY" : [ 14.0 ],
 										"PickupSmooth" : [ 100.0 ],
 										"PlateBrightness" : [ 20.0 ],
-										"PlateDamping" : [ 86.0 ],
+										"PlateDamping" : [ 61.137051 ],
 										"PlateDetune" : [ 0.0 ],
 										"PlateKeybOctave" : [ 1.0 ],
 										"PlateModes" : [ 256.0 ],
 										"PlatePitch" : [ 41.0 ],
-										"ResetAll" : [ 0.0 ]
+										"ResetAll" : [ 0.0 ],
+										"live.gain~[1]" : [ -5.685127 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u379005031"
+									"varname" : "u817000932"
 								}
 
 							}
@@ -3847,9 +3935,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 720.0, 183.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 82, 44, 484, 832 ],
 										"parameter_enable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 0, 0, 640, 240 ]
 									}
 ,
 									"style" : "",
@@ -9265,7 +9353,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 597.5, 600.0, 38.0, 38.0 ],
+									"patching_rect" : [ 568.5, 901.0, 38.0, 38.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 377.0, 406.0, 40.0, 40.0 ],
 									"prototypename" : "M4L.white",
@@ -9954,7 +10042,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 1 ],
+									"destination" : [ "obj-88", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 1 ]
@@ -9963,7 +10051,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
+									"destination" : [ "obj-88", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
@@ -10197,6 +10285,52 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 586.75, 807.5, 597.0, 807.5 ],
+									"source" : [ "obj-85", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-85", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-85", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-88", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-85", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-88", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-89", 0 ]
 								}
 
 							}
@@ -12697,7 +12831,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 492.0, 113.0, 535.0, 248.0 ],
+						"rect" : [ 492.0, 113.0, 707.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12724,21 +12858,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 124.533333, 144.0, 79.0, 22.0 ],
-									"style" : "",
-									"text" : "send altitude"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "ezdac~",
@@ -12900,15 +13020,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -12945,70 +13056,158 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
-			"obj-1::obj-22" : [ "modes", "modes", 0 ],
-			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
-			"obj-10::obj-113" : [ "PickupLPosY", "PosY", 0 ],
-			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
-			"obj-1::obj-5.3::obj-46" : [ "gswitch2[3]", "gswitch2", 0 ],
+			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
 			"obj-1::obj-5.8::obj-46" : [ "gswitch2[8]", "gswitch2", 0 ],
-			"obj-1::obj-14" : [ "octave", "octave", 0 ],
-			"obj-1::obj-43" : [ "slider[2]", "slider", 0 ],
-			"obj-1::obj-5.13::obj-46" : [ "gswitch2[13]", "gswitch2", 0 ],
-			"obj-1::obj-27" : [ "freq. loss", "freq. loss", 0 ],
-			"obj-10::obj-10" : [ "ForcePosY", "PosY", 0 ],
-			"obj-10::obj-125" : [ "PickupRPosX", "PosX", 0 ],
-			"obj-10::obj-20" : [ "PlateKeybOctave", "Octave", 0 ],
-			"obj-1::obj-5.5::obj-46" : [ "gswitch2[5]", "gswitch2", 0 ],
-			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
-			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
-			"obj-10::obj-25" : [ "AudioOutputGain", "Gain", 0 ],
-			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
-			"obj-10::obj-148" : [ "ForceSmooth", "Smooth", 0 ],
-			"obj-10::obj-123" : [ "PickupRPosY", "PosY", 0 ],
-			"obj-10::obj-22" : [ "PlateModes", "Modes", 0 ],
-			"obj-1::obj-5.2::obj-46" : [ "gswitch2[2]", "gswitch2", 0 ],
-			"obj-1::obj-5.7::obj-46" : [ "gswitch2[7]", "gswitch2", 0 ],
-			"obj-1::obj-5.12::obj-46" : [ "gswitch2[12]", "gswitch2", 0 ],
-			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
-			"obj-10::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
-			"obj-10::obj-70" : [ "ForceWeight", "Weight", 0 ],
+			"obj-10::obj-87::obj-7" : [ "live.dial[3]", "Feedback time", 0 ],
+			"obj-10::obj-87::obj-6" : [ "live.text[3]", "live.text", 0 ],
 			"obj-10::obj-35" : [ "PlateBrightness", "Brightness", 0 ],
-			"obj-10::obj-106" : [ "ResetAll", "ResetAll", 0 ],
+			"obj-1::obj-5.13::obj-46" : [ "gswitch2[13]", "gswitch2", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-5.5::obj-46" : [ "gswitch2[5]", "gswitch2", 0 ],
+			"obj-10::obj-87::obj-4" : [ "live.dial[1]", "Freq shift", 0 ],
+			"obj-10::obj-51" : [ "ForcePosX", "PosX", 0 ],
+			"obj-1::obj-28" : [ "const. loss", "const. loss", 0 ],
+			"obj-10::obj-113" : [ "PickupLPosY", "PosY", 0 ],
+			"obj-1::obj-27" : [ "freq. loss", "freq. loss", 0 ],
+			"obj-10::obj-32" : [ "PlateDamping", "Damping", 0 ],
+			"obj-1::obj-5.10::obj-46" : [ "gswitch2[10]", "gswitch2", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-1::obj-14" : [ "octave", "octave", 0 ],
+			"obj-1::obj-5.2::obj-46" : [ "gswitch2[2]", "gswitch2", 0 ],
+			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
+			"obj-10::obj-25" : [ "AudioOutputGain", "Gain", 0 ],
+			"obj-10::obj-10" : [ "ForcePosY", "PosY", 0 ],
+			"obj-1::obj-5.7::obj-46" : [ "gswitch2[7]", "gswitch2", 0 ],
+			"obj-10::obj-125" : [ "PickupRPosX", "PosX", 0 ],
+			"obj-10::obj-108" : [ "PlateDetune", "Detune", 0 ],
+			"obj-1::obj-5.1::obj-46" : [ "gswitch2[1]", "gswitch2", 0 ],
+			"obj-1::obj-6" : [ "Volume", "Vol", 0 ],
+			"obj-1::obj-5.12::obj-46" : [ "gswitch2[12]", "gswitch2", 0 ],
 			"obj-10::obj-109" : [ "PlatePitch", "Pitch", 0 ],
 			"obj-1::obj-5.4::obj-46" : [ "gswitch2[4]", "gswitch2", 0 ],
-			"obj-1::obj-13" : [ "slider[4]", "slider[1]", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-10::obj-167" : [ "AudioRecord", "Record", 0 ],
+			"obj-10::obj-148" : [ "ForceSmooth", "Smooth", 0 ],
+			"obj-10::obj-123" : [ "PickupRPosY", "PosY", 0 ],
 			"obj-1::obj-5.9::obj-46" : [ "gswitch2[9]", "gswitch2", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-13" : [ "Release", "Release", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-10::obj-20" : [ "PlateKeybOctave", "Octave", 0 ],
+			"obj-10::obj-106" : [ "ResetAll", "ResetAll", 0 ],
+			"obj-10::obj-87::obj-3" : [ "live.dial", "Pitch shift", 0 ],
 			"obj-10::obj-165" : [ "AudioSetup", "Setup", 0 ],
-			"obj-1::obj-6" : [ "Volume", "Vol", 0 ],
-			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ],
-			"obj-10::obj-118" : [ "PickupLPosX", "PosX", 0 ],
-			"obj-10::obj-32" : [ "PlateDamping", "Damping", 0 ],
-			"obj-1::obj-5.1::obj-46" : [ "gswitch2[1]", "gswitch2", 0 ],
-			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ]
+			"obj-1::obj-5.6::obj-46" : [ "gswitch2[6]", "gswitch2", 0 ],
+			"obj-1::obj-22" : [ "modes", "modes", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-10::obj-70" : [ "ForceWeight", "Weight", 0 ],
+			"obj-10::obj-65" : [ "PickupSmooth", "Smooth", 0 ],
+			"obj-1::obj-61" : [ "slider[3]", "slider", 0 ],
+			"obj-10::obj-22" : [ "PlateModes", "Modes", 0 ],
+			"obj-1::obj-5.11::obj-46" : [ "gswitch2[11]", "gswitch2", 0 ],
+			"obj-1::obj-43" : [ "slider[2]", "slider", 0 ],
+			"obj-10::obj-87::obj-16::obj-2::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-10::obj-85" : [ "Gain[1]", "Gain", 0 ],
+			"obj-1::obj-5.3::obj-46" : [ "gswitch2[3]", "gswitch2", 0 ],
+			"obj-10::obj-9" : [ "ForceAmp", "Amp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Fma.PictsliderKnob.png",
 				"bootpath" : "./Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snf.main-crossPlatform.json",
 				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
+				"patcherrelativepath" : "../../../Projects/2017 02 sonifEye",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../../../Shared/Max 7/Examples/effects/reverb/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spectral_shift~.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.spectral_shift_voice~.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "limiter~.model.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "limiter.parametersAndMessages.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spectral_shift~.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "limiter~.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.rand.module.maxpat",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../Jamoma-v1/j.nav.rand",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.rand.model.maxpat",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../Jamoma-v1/j.nav.rand",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.absdiff.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
+				"patcherrelativepath" : "../../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.rand.view.maxpat",
+				"bootpath" : "~/code/Git/Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snf.mdly.Mbira.maxpat",
 				"bootpath" : "~/code/Git/Nav/Projects/2017 02 sonifEye",
+				"patcherrelativepath" : "../../../Projects/2017 02 sonifEye",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13042,6 +13241,58 @@
 			}
 , 			{
 				"name" : "mlys.rect-plate.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.limiter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
 				"type" : "iLaX"
 			}
 , 			{
