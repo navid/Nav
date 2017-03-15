@@ -427,7 +427,7 @@
 /coneMic/autoscale/audio/gain 0.000000
 /coneMic/autoscale/audio/mix 100.000000
 /coneMic/autoscale/audio/mute 0
-/coneMic/autoscale/input/max 0.339348
+/coneMic/autoscale/input/max 0.000000
 /coneMic/autoscale/input/min 0.000000
 /coneMic/autoscale/exp 1.000000
 /coneMic/autoscale/lock 0
@@ -483,20 +483,20 @@
 /eqbottom.1/filter.4/type highshelf
 # 
 /light1/data/active 1
-/light1/rate/max 2063
-/light1/rate/min 1499
-/light1/interpolate 2012
-/light1/max 1.000000
-/light1/min 0.000000
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 1.300000
+/light1/min -0.100000
 /light1/on 0
 /light1/step 1.000000
 # 
 /light2/data/active 1
-/light2/rate/max 2354
-/light2/rate/min 1522
-/light2/interpolate 1800
-/light2/max 1.000000
-/light2/min 0.000000
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7000
+/light2/max 1.100000
+/light2/min -0.300000
 /light2/on 0
 /light2/step 1.000000
 # 
@@ -504,17 +504,17 @@
 /speed/rate/max 2875
 /speed/rate/min 1899
 /speed/interpolate 1107
-/speed/max 0.313000
-/speed/min 0.190000
+/speed/max 0.330000
+/speed/min 0.110000
 /speed/on 0
 /speed/step 1.000000
 # 
 /tilt/data/active 1
-/tilt/rate/max 2575
-/tilt/rate/min 1665
-/tilt/interpolate 210
+/tilt/rate/max 2130
+/tilt/rate/min 806
+/tilt/interpolate 0
 /tilt/max 0.510000
-/tilt/min 0.390000
+/tilt/min 0.490000
 /tilt/on 0
 /tilt/step 1.000000
 # 
