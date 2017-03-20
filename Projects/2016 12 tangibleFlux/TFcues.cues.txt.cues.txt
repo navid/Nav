@@ -11,8 +11,8 @@
 /boilRogBottom/grain/trigger/lock 0
 /boilRogBottom/grain/trigger/mode 0
 /boilRogBottom/grain/trigger/note 0
-/boilRogBottom/grain/duration 210.000000
-/boilRogBottom/grain/onsetVar 150.000000
+/boilRogBottom/grain/duration 58.000000
+/boilRogBottom/grain/onsetVar 798.000000
 /boilRogBottom/grain/overlap 100
 # 
 /boilRogBottom/mapGain/data/active 1
@@ -202,10 +202,10 @@
 /boilRogBottom/mod/trigger 0.000000
 /boilRogBottom/mod/turn 0.000000
 /boilRogBottom/pan/mode 0
-/boilRogBottom/pan/rate 0.000000
-/boilRogBottom/pan/spread 0.000000
-/boilRogBottom/pitch/transpose -2000.000000
-/boilRogBottom/pitch/variation 1000.000000
+/boilRogBottom/pan/rate 0.860000
+/boilRogBottom/pan/spread 1.000000
+/boilRogBottom/pitch/transpose -340.000000
+/boilRogBottom/pitch/variation 3347.000000
 /boilRogBottom/playback/direction 2
 /boilRogBottom/playback/speed 1.000000
 /boilRogBottom/playback/position 0.000000
@@ -520,7 +520,7 @@
 # 
 /spectral_shift_help/feedback/gain -19.984255
 /spectral_shift_help/feedback/time 28.346487
-/spectral_shift_help/audio/mute 1
+/spectral_shift_help/audio/mute 0
 /spectral_shift_help/audio/bypass 0
 /spectral_shift_help/audio/mix 100.000000
 /spectral_shift_help/audio/gain 0.000000
@@ -563,10 +563,10 @@
 /eqtop/audio/bypass 0
 /eqtop/audio/mix 100.000000
 /eqtop/audio/gain 0.000000
-/eqtop/filter.1/octave_bandwidth 2.511622
-/eqtop/filter.1/gain 0.755906
-/eqtop/filter.1/frequency 546.968504
-/eqtop/filter.1/type lowpass
+/eqtop/filter.1/octave_bandwidth 1.000000
+/eqtop/filter.1/gain 0.000000
+/eqtop/filter.1/frequency 75.000000
+/eqtop/filter.1/type lowshelf
 /eqtop/filter.2/octave_bandwidth 1.000000
 /eqtop/filter.2/gain 0.000000
 /eqtop/filter.2/frequency 300.000000
@@ -2263,6 +2263,48 @@
 /tilt/interpolate 200
 /tilt/max 0.640000
 /tilt/min 0.321000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "test"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 1.100000
+/light1/min 0.400000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7000
+/light2/max 1.100000
+/light2/min 0.500000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 3353
+/speed/rate/min 1899
+/speed/interpolate 330
+/speed/max 0.160000
+/speed/min 0.130000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2471
+/tilt/rate/min 1721
+/tilt/interpolate 1650
+/tilt/max 0.505000
+/tilt/min 0.495000
 /tilt/on 1
 /tilt/step 1.000000
 # 
