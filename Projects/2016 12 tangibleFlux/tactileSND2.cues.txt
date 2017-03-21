@@ -360,12 +360,12 @@
 /boilRogBottom/grain/trigger/variance/rateVar/randomnessRate 0.165045
 /boilRogBottom/grain/trigger/variance/rateVar/spread 14.183197
 /boilRogBottom/grain/trigger/variance/on 1
-/boilRogBottom/grain/trigger/freq 79.000000
+/boilRogBottom/grain/trigger/freq 69.000000
 /boilRogBottom/grain/trigger/lock 0
 /boilRogBottom/grain/trigger/mode 0
 /boilRogBottom/grain/trigger/note 0
-/boilRogBottom/grain/duration 206.000000
-/boilRogBottom/grain/onsetVar 0.000000
+/boilRogBottom/grain/duration 58.000000
+/boilRogBottom/grain/onsetVar 798.000000
 /boilRogBottom/grain/overlap 100
 # 
 /boilRogBottom/mapGain/data/active 1
@@ -528,12 +528,12 @@
 /boilRogBottom/mapTurn/active 0
 /boilRogBottom/mapTurn/scalebypass 1
 /boilRogBottom/audio/bypass 0
-/boilRogBottom/audio/gain 0.000000
+/boilRogBottom/audio/gain 12.000000
 /boilRogBottom/audio/mix 100.000000
-/boilRogBottom/audio/mute 0
+/boilRogBottom/audio/mute 1
 /boilRogBottom/buffer/append 1
 /boilRogBottom/buffer/rec 1
-/boilRogBottom/buffer/size 600.083740
+/boilRogBottom/buffer/size 1400.753784
 /boilRogBottom/mapperGate/gain 0
 /boilRogBottom/mapperGate/onsetVar 0
 /boilRogBottom/mapperGate/pitch 0
@@ -557,13 +557,13 @@
 /boilRogBottom/pan/mode 0
 /boilRogBottom/pan/rate 0.860000
 /boilRogBottom/pan/spread 1.000000
-/boilRogBottom/pitch/transpose -3200.000000
-/boilRogBottom/pitch/variation 2.000000
+/boilRogBottom/pitch/transpose -340.000000
+/boilRogBottom/pitch/variation 3347.000000
 /boilRogBottom/playback/direction 2
-/boilRogBottom/playback/speed 0.100000
+/boilRogBottom/playback/speed 1.000000
 /boilRogBottom/playback/position 0.000000
 /boilRogBottom/selection/mode 0
-/boilRogBottom/selection/range 0.000000 328.895844
+/boilRogBottom/selection/range 0.000000 1400.750000
 # 
 # 
 /spectral_shift_help/limiter/dcblocker/active 1
@@ -579,7 +579,7 @@
 /spectral_shift_help/audio/mix 100.000000
 /spectral_shift_help/audio/mute 0
 /spectral_shift_help/feedback/gain -19.984255
-/spectral_shift_help/feedback/time 0.000000
+/spectral_shift_help/feedback/time 28.346487
 /spectral_shift_help/frequency/scale -48.000000
 /spectral_shift_help/frequency/shift -59.055199
 # 
@@ -610,7 +610,7 @@
 /eqbottom2/audio/mix 100.000000
 /eqbottom2/audio/mute 0
 /eqbottom2/filter.1/type lowshelf
-/eqbottom2/filter.1/frequency 67.196854
+/eqbottom2/filter.1/frequency 75.000000
 /eqbottom2/filter.1/gain 0.000000
 /eqbottom2/filter.1/octave_bandwidth 1.000000
 /eqbottom2/filter.2/octave_bandwidth 1.000000
@@ -623,7 +623,7 @@
 /eqbottom2/filter.3/type peaknotch
 /eqbottom2/filter.4/octave_bandwidth 1.755811
 /eqbottom2/filter.4/gain 3.023624
-/eqbottom2/filter.4/frequency 53.180740
+/eqbottom2/filter.4/frequency 68.913025
 /eqbottom2/filter.4/type lowpass
 /eqbottom2/bands 4
 # 
@@ -673,14 +673,14 @@
 /mdlys~/excite/active 1
 /mdlys~/excite/rate 1500.000000
 /mdlys~/excite/smooth 5000
-/mdlys~/excite/x1 45
-/mdlys~/excite/y1 14
+/mdlys~/excite/x1 71
+/mdlys~/excite/y1 71
 /mdlys~/pitch/detune 0
 /mdlys~/pitch/ramp 0
-/mdlys~/pitch/transp -1
-/mdlys~/pitch/midi 31
-/mdlys~/instrument/brightness 60.236187
-/mdlys~/instrument/damping 54.330727
+/mdlys~/pitch/transp -3
+/mdlys~/pitch/midi 43
+/mdlys~/instrument/brightness 68.110207
+/mdlys~/instrument/damping 51.181126
 /mdlys~/instrument/inharm 0.000000
 /mdlys~/instrument/matter 0
 /mdlys~/instrument/modes 51

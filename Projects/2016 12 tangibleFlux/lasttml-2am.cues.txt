@@ -2880,16 +2880,16 @@
 /light1/rate/max 53
 /light1/rate/min 10
 /light1/interpolate 25
-/light1/max 0.152000
+/light1/max 0.260000
 /light1/min 0.000000
 /light1/on 1
 /light1/step 1.000000
 # 
 /light2/data/active 1
-/light2/rate/max 2887
-/light2/rate/min 2833
-/light2/interpolate 0
-/light2/max 0.000000
+/light2/rate/max 112
+/light2/rate/min 40
+/light2/interpolate 51
+/light2/max 0.300000
 /light2/min 0.000000
 /light2/on 1
 /light2/step 1.000000
@@ -2907,7 +2907,7 @@
 /tilt/rate/max 2368
 /tilt/rate/min 1056
 /tilt/interpolate 247
-/tilt/max 0.420000
+/tilt/max 0.430000
 /tilt/min 0.280000
 /tilt/on 1
 /tilt/step 1.000000
