@@ -9,10 +9,10 @@
  ######################## 
  # 
  # Module /inputBrcs 
- 	 	 	 	 /inputBrcs/brightness 2.100000 
- 	 	 	 	 /inputBrcs/contrast 1.000000 
+ 	 	 	 	 /inputBrcs/brightness 1.700000 
+ 	 	 	 	 /inputBrcs/contrast 1.800000 
  	 	 	 	 /inputBrcs/monochrome 0 
- 	 	 	 	 /inputBrcs/saturation 1.000000 
+ 	 	 	 	 /inputBrcs/saturation 0.400000 
  	 	 	 	 /inputBrcs/video/bypass 0 
  	 	 	 	 /inputBrcs/video/freeze 0 
  	 	 	 	 /inputBrcs/video/mute 0 
@@ -69,19 +69,19 @@
  	 	 	 	 /liveFluidCam/view/highlight none 
  # 
  # Module /o4.fluids 
- 	 	 	 	 /o4.fluids/densityBlend 0.868000 
+ 	 	 	 	 /o4.fluids/densityBlend 0.880000 
  	 	 	 	 /o4.fluids/densityFade 1.000000 
  	 	 	 	 /o4.fluids/densityScale 1.000000 1.000000 1.000000 1.000000 
  	 	 	 	 /o4.fluids/flowOp addition 
- 	 	 	 	 /o4.fluids/gravityAngle 0.000000 
+ 	 	 	 	 /o4.fluids/gravityAngle 3.109637 
  	 	 	 	 /o4.fluids/gravityMagnitude 0.000000 
  	 	 	 	 /o4.fluids/pressureIMultiply 0.000000 0.000000 0.000000 0.000000 
  	 	 	 	 /o4.fluids/pressureMultiply 0.000000 0.000000 0.000000 0.250000 
  	 	 	 	 /o4.fluids/pressureScale 0.000000 0.000000 0.000000 0.000000 
  	 	 	 	 /o4.fluids/reset 1 
- 	 	 	 	 /o4.fluids/temperatureMagnitude 0.000000 
+ 	 	 	 	 /o4.fluids/temperatureMagnitude 0.060000 
  	 	 	 	 /o4.fluids/timestep 1.000000 
- 	 	 	 	 /o4.fluids/velocityBlend 0.990000 
+ 	 	 	 	 /o4.fluids/velocityBlend 0.995000 
  	 	 	 	 /o4.fluids/velocityFade 0.980000 
  	 	 	 	 /o4.fluids/velocityIMultiply 0.000000 0.000000 0.000000 0.000000 
  	 	 	 	 /o4.fluids/velocityIScale 0.000000 0.000000 0.000000 0.000000 
