@@ -1,0 +1,328 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/brcosa/data/active 1
+/brcosa/data/bypass 0
+/brcosa/context default
+/brcosa/active 1
+/brcosa/adapt 1
+/brcosa/antialias 0
+/brcosa/automatic 1
+/brcosa/brightness 1.000000
+/brcosa/contrast 1.000000
+/brcosa/dim 720.000000 480.000000
+/brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa/saturation 0.800000
+/brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_rota1/data/active 1
+/gl_rota1/data/bypass 0
+/gl_rota1/context default
+/gl_rota1/active 1
+/gl_rota1/adapt 1
+/gl_rota1/anchor 0.500000 0.500000
+/gl_rota1/antialias 0
+/gl_rota1/automatic 1
+/gl_rota1/boundmode alpha
+/gl_rota1/dim 720.000000 480.000000
+/gl_rota1/offset 500.000000 0.000000
+/gl_rota1/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota1/theta 0.000000
+/gl_rota1/zoom 0.500000 0.500000
+# 
+/gl_rota2/data/active 1
+/gl_rota2/data/bypass 0
+/gl_rota2/context default
+/gl_rota2/active 1
+/gl_rota2/adapt 1
+/gl_rota2/anchor 0.500000 0.500000
+/gl_rota2/antialias 0
+/gl_rota2/automatic 1
+/gl_rota2/boundmode alpha
+/gl_rota2/dim 720.000000 480.000000
+/gl_rota2/offset 0.000000 0.000000
+/gl_rota2/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota2/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota2/theta 0.000000
+/gl_rota2/zoom 0.500000 0.500000
+# 
+/gl_rota3/data/active 1
+/gl_rota3/data/bypass 0
+/gl_rota3/context default
+/gl_rota3/active 1
+/gl_rota3/adapt 1
+/gl_rota3/anchor 0.500000 0.500000
+/gl_rota3/antialias 0
+/gl_rota3/automatic 1
+/gl_rota3/boundmode alpha
+/gl_rota3/dim 720.000000 480.000000
+/gl_rota3/offset -500.000000 0.000000
+/gl_rota3/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota3/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota3/theta 0.000000
+/gl_rota3/zoom 0.500000 0.500000
+# 
+/gl_rota_master/data/active 1
+/gl_rota_master/data/bypass 0
+/gl_rota_master/context default
+/gl_rota_master/active 1
+/gl_rota_master/adapt 1
+/gl_rota_master/anchor 0.500000 0.500000
+/gl_rota_master/antialias 0
+/gl_rota_master/automatic 1
+/gl_rota_master/boundmode alpha
+/gl_rota_master/dim 720.000000 480.000000
+/gl_rota_master/offset 0.000000 160.000000
+/gl_rota_master/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota_master/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota_master/theta 180.000000
+/gl_rota_master/zoom 1.000000 0.900000
+# 
+/gl_texset/data/active 1
+/gl_texset/data/bypass 0
+/gl_texset/context default
+/gl_texset/active 1
+/gl_texset/adapt 1
+/gl_texset/antialias 0
+/gl_texset/automatic 1
+/gl_texset/delay1 1.000000
+/gl_texset/delay2 0.000000
+/gl_texset/delay3 0.500000
+/gl_texset/delay4 0.000000
+/gl_texset/dim 720.000000 480.000000
+/gl_texset/quantity 700
+/gl_texset/rect 0.000000 0.000000 1.000000 1.000000
+/gl_texset/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 0
+/slide1/context default
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 0
+/slide2/context default
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 0.000000
+/slide2/slide_up 0.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3/data/active 1
+/slide3/data/bypass 0
+/slide3/context default
+/slide3/active 1
+/slide3/adapt 1
+/slide3/antialias 0
+/slide3/automatic 1
+/slide3/dim 720.000000 480.000000
+/slide3/rect 0.000000 0.000000 1.000000 1.000000
+/slide3/slide_down 10.000000
+/slide3/slide_up 10.000000
+/slide3/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/tml_fluids%/data/active 0
+/tml_fluids%/data/bypass 0
+/tml_fluids%/densityBlend 0.970000
+/tml_fluids%/densityFade 1.000000
+/tml_fluids%/densityScale 1.000000 1.000000 1.000000 0.000000
+/tml_fluids%/flowOp addition
+/tml_fluids%/gravityAngle 3.002622
+/tml_fluids%/gravityMagnitude 0.001000
+/tml_fluids%/pressureIMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/pressureMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/pressureScale 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/reset 0
+/tml_fluids%/temperatureMagnitude 0.011000
+/tml_fluids%/timestep 1.000000
+/tml_fluids%/velocityBlend 0.980000
+/tml_fluids%/velocityFade 0.993000
+/tml_fluids%/velocityIMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/velocityIScale 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/velocityMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/velocityOutHeight 240
+/tml_fluids%/velocityOutWidth 320
+/tml_fluids%/velocityScale 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/viscosity 1.000000
+/tml_fluids%/vorticity 0.000000
+# 
+# ###########################################
+
+- cue "poop"
+- description "something about this cue"
+# ###########################################
+# 
+/brcosa/data/active 1
+/brcosa/data/bypass 0
+/brcosa/context default
+/brcosa/active 1
+/brcosa/adapt 1
+/brcosa/antialias 0
+/brcosa/automatic 1
+/brcosa/brightness 1.000000
+/brcosa/contrast 1.000000
+/brcosa/dim 720.000000 480.000000
+/brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/brcosa/saturation 1.000000
+/brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_rota1/data/active 1
+/gl_rota1/data/bypass 0
+/gl_rota1/context default
+/gl_rota1/active 1
+/gl_rota1/adapt 1
+/gl_rota1/anchor 0.500000 0.500000
+/gl_rota1/antialias 0
+/gl_rota1/automatic 1
+/gl_rota1/boundmode alpha
+/gl_rota1/dim 720.000000 480.000000
+/gl_rota1/offset 500.000000 0.000000
+/gl_rota1/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota1/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota1/theta 0.000000
+/gl_rota1/zoom 0.500000 0.500000
+# 
+/gl_rota2/data/active 1
+/gl_rota2/data/bypass 0
+/gl_rota2/context default
+/gl_rota2/active 1
+/gl_rota2/adapt 1
+/gl_rota2/anchor 0.500000 0.500000
+/gl_rota2/antialias 0
+/gl_rota2/automatic 1
+/gl_rota2/boundmode alpha
+/gl_rota2/dim 720.000000 480.000000
+/gl_rota2/offset 0.000000 0.000000
+/gl_rota2/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota2/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota2/theta 0.000000
+/gl_rota2/zoom 0.500000 0.500000
+# 
+/gl_rota3/data/active 1
+/gl_rota3/data/bypass 0
+/gl_rota3/context default
+/gl_rota3/active 1
+/gl_rota3/adapt 1
+/gl_rota3/anchor 0.500000 0.500000
+/gl_rota3/antialias 0
+/gl_rota3/automatic 1
+/gl_rota3/boundmode alpha
+/gl_rota3/dim 720.000000 480.000000
+/gl_rota3/offset -500.000000 0.000000
+/gl_rota3/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota3/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota3/theta 0.000000
+/gl_rota3/zoom 0.500000 0.500000
+# 
+/gl_rota_master/data/active 1
+/gl_rota_master/data/bypass 0
+/gl_rota_master/context default
+/gl_rota_master/active 1
+/gl_rota_master/adapt 1
+/gl_rota_master/anchor 0.500000 0.500000
+/gl_rota_master/antialias 0
+/gl_rota_master/automatic 1
+/gl_rota_master/boundmode alpha
+/gl_rota_master/dim 720.000000 480.000000
+/gl_rota_master/offset 0.000000 0.000000
+/gl_rota_master/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota_master/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota_master/theta 0.000000
+/gl_rota_master/zoom 1.000000 1.000000
+# 
+/gl_texset/data/active 1
+/gl_texset/data/bypass 0
+/gl_texset/context default
+/gl_texset/active 1
+/gl_texset/adapt 1
+/gl_texset/antialias 0
+/gl_texset/automatic 1
+/gl_texset/delay1 1.000000
+/gl_texset/delay2 0.108571
+/gl_texset/delay3 0.485238
+/gl_texset/delay4 0.857143
+/gl_texset/dim 720.000000 480.000000
+/gl_texset/quantity 700
+/gl_texset/rect 0.000000 0.000000 1.000000 1.000000
+/gl_texset/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide1/data/active 1
+/slide1/data/bypass 1
+/slide1/context default
+/slide1/active 1
+/slide1/adapt 1
+/slide1/antialias 0
+/slide1/automatic 1
+/slide1/dim 720.000000 480.000000
+/slide1/rect 0.000000 0.000000 1.000000 1.000000
+/slide1/slide_down 10.000000
+/slide1/slide_up 10.000000
+/slide1/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide2/data/active 1
+/slide2/data/bypass 1
+/slide2/context default
+/slide2/active 1
+/slide2/adapt 1
+/slide2/antialias 0
+/slide2/automatic 1
+/slide2/dim 720.000000 480.000000
+/slide2/rect 0.000000 0.000000 1.000000 1.000000
+/slide2/slide_down 10.000000
+/slide2/slide_up 10.000000
+/slide2/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/slide3/data/active 1
+/slide3/data/bypass 1
+/slide3/context default
+/slide3/active 1
+/slide3/adapt 1
+/slide3/antialias 0
+/slide3/automatic 1
+/slide3/dim 720.000000 480.000000
+/slide3/rect 0.000000 0.000000 1.000000 1.000000
+/slide3/slide_down 10.000000
+/slide3/slide_up 10.000000
+/slide3/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/tml_fluids%/data/active 1
+/tml_fluids%/data/bypass 0
+/tml_fluids%/densityBlend 0.990000
+/tml_fluids%/densityFade 1.000000
+/tml_fluids%/densityScale 1.000000 1.000000 1.000000 0.000000
+/tml_fluids%/flowOp addition
+/tml_fluids%/gravityAngle 3.002622
+/tml_fluids%/gravityMagnitude 0.001000
+/tml_fluids%/pressureIMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/pressureMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/pressureScale 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/reset 0
+/tml_fluids%/temperatureMagnitude 0.011000
+/tml_fluids%/timestep 1.000000
+/tml_fluids%/velocityBlend 0.980000
+/tml_fluids%/velocityFade 0.993000
+/tml_fluids%/velocityIMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/velocityIScale 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/velocityMultiply 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/velocityOutHeight 240
+/tml_fluids%/velocityOutWidth 320
+/tml_fluids%/velocityScale 0.000000 0.000000 0.000000 0.000000
+/tml_fluids%/viscosity 1.000000
+/tml_fluids%/vorticity 0.000000
+# 
+# ###########################################
+
