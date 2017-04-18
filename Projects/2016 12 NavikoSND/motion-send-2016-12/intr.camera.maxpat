@@ -63,7 +63,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -104,7 +103,7 @@
 ,
 					"patching_rect" : [ 240.0, 247.5, 62.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 157.5, 62.0, 20.0 ],
+					"presentation_rect" : [ 64.0, 156.5, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -915,7 +914,7 @@
 					"presentation_rect" : [ 94.0, 72.5, 40.0, 17.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-19", "number", "int", 59, 5, "obj-18", "number", "int", 960, 5, "obj-17", "number", "int", 1240, 5, "obj-14", "number", "int", 0, 5, "obj-9", "live.menu", "float", 2.0, 5, "obj-7", "live.text", "float", 0.0 ]
+							"data" : [ 5, "obj-19", "number", "int", 37, 5, "obj-18", "number", "int", 977, 5, "obj-17", "number", "int", 1156, 5, "obj-14", "number", "int", 31, 5, "obj-9", "live.menu", "float", 2.0, 5, "obj-7", "live.text", "float", 0.0 ]
 						}
 , 						{
 							"number" : 2,
