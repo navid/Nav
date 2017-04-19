@@ -1143,7 +1143,7 @@
  	 	 	 	 /all/diffMode 0 
  	 	 	 	 /all/filter/mode 0 
  	 	 	 	 /all/filter/samples 0 
- 	 	 	 	 /all/mute 1 
+ 	 	 	 	 /all/mute 0 
  	 	 	 	 /all/offset 0.000000 
  	 	 	 	 /all/pre-slide/down 0 
  	 	 	 	 /all/pre-slide/up 0 
@@ -1215,7 +1215,7 @@
  	 	 	 	 /small/pre-slide/up 0 
  	 	 	 	 /small/ramp/grain 26 
  	 	 	 	 /small/ramp/time 0 
- 	 	 	 	 /small/scale/input/max 0.007500 
+ 	 	 	 	 /small/scale/input/max 0.006000 
  	 	 	 	 /small/scale/input/min 0.001500 
  	 	 	 	 /small/scale/max 1.000000 
  	 	 	 	 /small/scale/min 0.000000 
@@ -1253,7 +1253,7 @@
  	 	 	 	 /nav.motion%/noise/ripple 0.200000 
  	 	 	 	 /nav.motion%/slide/down 3.000000 
  	 	 	 	 /nav.motion%/slide/up 0.000000 
- 	 	 	 	 /nav.motion%/threshold/amount 0.018000 
+ 	 	 	 	 /nav.motion%/threshold/amount 0.020000 
  	 	 	 	 /nav.motion%/threshold/mode 0 
  	 	 	 	 /nav.motion%/threshold/radius 8 
  	 	 	 	 /nav.motion%/trails 0 
