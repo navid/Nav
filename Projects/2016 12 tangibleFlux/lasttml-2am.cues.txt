@@ -2923,7 +2923,7 @@
 /light1/rate/min 6000
 /light1/interpolate 7000
 /light1/max 1.100000
-/light1/min 0.400000
+/light1/min 0.200000
 /light1/on 1
 /light1/step 1.000000
 # 
@@ -2932,16 +2932,16 @@
 /light2/rate/min 6000
 /light2/interpolate 7000
 /light2/max 1.100000
-/light2/min 0.500000
+/light2/min 0.290000
 /light2/on 1
 /light2/step 1.000000
 # 
 /speed/data/active 1
-/speed/rate/max 3353
+/speed/rate/max 2570
 /speed/rate/min 1899
 /speed/interpolate 1749
-/speed/max 0.162000
-/speed/min 0.120000
+/speed/max 0.140000
+/speed/min 0.100000
 /speed/on 1
 /speed/step 1.000000
 # 
@@ -3119,6 +3119,48 @@
 /tilt/interpolate 7000
 /tilt/max 0.551000
 /tilt/min 0.442000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "insane"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 2000
+/light1/rate/min 1000
+/light1/interpolate 938
+/light1/max 1.020000
+/light1/min 0.140000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 2000
+/light2/rate/min 1000
+/light2/interpolate 1069
+/light2/max 1.020000
+/light2/min 0.140000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 2875
+/speed/rate/min 1899
+/speed/interpolate 662
+/speed/max 0.900000
+/speed/min 0.190000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 233
+/tilt/rate/min 50
+/tilt/interpolate 0
+/tilt/max 0.800000
+/tilt/min 0.200000
 /tilt/on 1
 /tilt/step 1.000000
 # 

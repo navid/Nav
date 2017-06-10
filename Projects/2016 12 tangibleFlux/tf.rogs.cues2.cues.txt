@@ -174,7 +174,7 @@
 /rogs-I/mapTurn/slide/up 0.000000
 /rogs-I/mapTurn/active 0
 /rogs-I/mapTurn/scalebypass 1
-/rogs-I/audio/gain -29.000000
+/rogs-I/audio/gain -38.000000
 /rogs-I/audio/mute 1
 /rogs-I/file/open "Macintosh HD:/Users/NavNav/Sounds/Buffer-Audio/Rogs/Electricity/Electricity-tool-EQ-txtr.aif"
 /rogs-I/mapperGate/gain 2
@@ -206,8 +206,8 @@
 /rogs-I/playback/speed 0.050000
 /rogs-I/playback/position 0.000000
 /rogs-I/selection/mode 0
-/rogs-I/selection/range 0.000000
-/rogs-I/waveform/normalize 0.000000
+/rogs-I/selection/range 0.000000 154703.359375
+/rogs-I/waveform/normalize 0.900000
 /rogs-I/numChannels 1
 # 
 /rogs2/grain/trigger/variance/gainVar/randomnessRate 0.000000
@@ -382,9 +382,9 @@
 /rogs2/mapTurn/slide/up 0.000000
 /rogs2/mapTurn/active 0
 /rogs2/mapTurn/scalebypass 1
-/rogs2/audio/gain -45.000000
+/rogs2/audio/gain -41.000000
 /rogs2/audio/mute 1
-/rogs2/file/open "Macintosh HD:/Users/NavNav/Sounds/Buffer-Audio/Rogs/Voice/ShaylaSqueeks-txtr.aif"
+/rogs2/file/open "Macintosh HD:/Users/topologicalmedialab/Desktop/snd/Derome-Le magasin1.aif"
 /rogs2/mapperGate/gain 2
 /rogs2/mapperGate/onsetVar 2
 /rogs2/mapperGate/pitch 2
@@ -408,13 +408,13 @@
 /rogs2/pan/mode 0
 /rogs2/pan/rate 0.000000
 /rogs2/pan/spread 0.000000
-/rogs2/pitch/transpose 0.000000
+/rogs2/pitch/transpose 569.000000
 /rogs2/pitch/variation 0.000000
 /rogs2/playback/direction 0
 /rogs2/playback/speed 0.000000
 /rogs2/playback/position 0.000000
 /rogs2/selection/mode 0
-/rogs2/selection/range 0.000000
+/rogs2/selection/range 0.000000 59498.207031
 /rogs2/waveform/normalize 0.000000
 /rogs2/numChannels 1
 # 
@@ -631,8 +631,8 @@
 /tfEnv/autoscale/audio/gain 0.000000
 /tfEnv/autoscale/audio/mix 100.000000
 /tfEnv/autoscale/audio/mute 0
-/tfEnv/autoscale/input/max 0.015000
-/tfEnv/autoscale/input/min 0.005000
+/tfEnv/autoscale/input/max 0.008000
+/tfEnv/autoscale/input/min 0.000008
 /tfEnv/autoscale/exp 1.000000
 /tfEnv/autoscale/lock 2
 /tfEnv/autoscale/maximum 1.000000
@@ -648,12 +648,12 @@
 /tfEnv/clip/mode 0
 /tfEnv/data/active 1
 /tfEnv/filter/frequency 85.000000
-/tfEnv/filter/gain 0.000000
+/tfEnv/filter/gain 0.500000
 /tfEnv/filter/q 0.500000
 /tfEnv/filter/type none
 /tfEnv/pre-slide/down 1.000000
 /tfEnv/pre-slide/up 0.500000
-/tfEnv/ramp/down 0.000000
+/tfEnv/ramp/down 4.000000
 /tfEnv/ramp/up 0.000000
 /tfEnv/slide/down 1.000000
 /tfEnv/slide/up 0.000000
@@ -662,7 +662,7 @@
 /tfEnv/cutoff 1100
 /tfEnv/mute 0
 /tfEnv/offset -0.001100
-/tfEnv/preview 0
+/tfEnv/preview 1
 # 
 /rogsGainCntrl/rogs1/finalGain 127
 /rogsGainCntrl/rogs1/rvrbGain 90
@@ -673,6 +673,547 @@
 # 
 /rogsRvrb/rvrbGain 0.000000
 /rogsRvrb/rvrbLength 3.800000
+# 
+# ###########################################
+
+- cue "cornerG2"
+- description "something about this cue"
+# ###########################################
+# 
+/rogs-I/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs-I/grain/trigger/variance/gainVar/range 0.000000
+/rogs-I/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs-I/grain/trigger/variance/rateVar/spread 0.000000
+/rogs-I/grain/trigger/variance/on 0
+/rogs-I/grain/trigger/freq 30.000000
+/rogs-I/grain/trigger/lock 0
+/rogs-I/grain/trigger/mode 0
+/rogs-I/grain/trigger/note 0
+/rogs-I/grain/duration 10.000000
+/rogs-I/grain/onsetVar 50.000000
+/rogs-I/grain/overlap 206
+# 
+/rogs-I/mapGain/data/active 1
+/rogs-I/mapGain/function/parameters.1 0.000000
+/rogs-I/mapGain/input/address /tfEnv/envelope
+/rogs-I/mapGain/input/max 1.000000
+/rogs-I/mapGain/input/min 0.000000
+/rogs-I/mapGain/output/max 1.000000
+/rogs-I/mapGain/output/min 0.000000
+/rogs-I/mapGain/process/function freehand
+/rogs-I/mapGain/process/clipmode both
+/rogs-I/mapGain/process/mode 0.000000
+/rogs-I/mapGain/process/rampTime 0.000000
+/rogs-I/mapGain/slide/down 0.000000
+/rogs-I/mapGain/slide/up 0.000000
+/rogs-I/mapGain/active 1
+/rogs-I/mapGain/scalebypass 1
+# 
+/rogs-I/mapOnsetVar/data/active 1
+/rogs-I/mapOnsetVar/function/parameters.1 0.000000
+/rogs-I/mapOnsetVar/input/address none
+/rogs-I/mapOnsetVar/input/max 1.000000
+/rogs-I/mapOnsetVar/input/min 0.000000
+/rogs-I/mapOnsetVar/output/max 1.000000
+/rogs-I/mapOnsetVar/output/min 0.000000
+/rogs-I/mapOnsetVar/process/function freehand
+/rogs-I/mapOnsetVar/process/clipmode both
+/rogs-I/mapOnsetVar/process/mode 0.000000
+/rogs-I/mapOnsetVar/process/rampTime 0.000000
+/rogs-I/mapOnsetVar/slide/down 0.000000
+/rogs-I/mapOnsetVar/slide/up 0.000000
+/rogs-I/mapOnsetVar/active 0
+/rogs-I/mapOnsetVar/scalebypass 1
+# 
+/rogs-I/mapPitch/data/active 1
+/rogs-I/mapPitch/function/parameters.1 0.000000
+/rogs-I/mapPitch/input/address none
+/rogs-I/mapPitch/input/max 1.000000
+/rogs-I/mapPitch/input/min 0.000000
+/rogs-I/mapPitch/output/max 1.000000
+/rogs-I/mapPitch/output/min 0.000000
+/rogs-I/mapPitch/process/function freehand
+/rogs-I/mapPitch/process/clipmode both
+/rogs-I/mapPitch/process/mode 0.000000
+/rogs-I/mapPitch/process/rampTime 0.000000
+/rogs-I/mapPitch/slide/down 0.000000
+/rogs-I/mapPitch/slide/up 0.000000
+/rogs-I/mapPitch/active 0
+/rogs-I/mapPitch/scalebypass 1
+# 
+/rogs-I/mapPosition/data/active 1
+/rogs-I/mapPosition/function/parameters.1 0.000000
+/rogs-I/mapPosition/input/address none
+/rogs-I/mapPosition/input/max 1.000000
+/rogs-I/mapPosition/input/min 0.000000
+/rogs-I/mapPosition/output/max 1.000000
+/rogs-I/mapPosition/output/min 0.000000
+/rogs-I/mapPosition/process/function freehand
+/rogs-I/mapPosition/process/clipmode both
+/rogs-I/mapPosition/process/mode 0.000000
+/rogs-I/mapPosition/process/rampTime 0.000000
+/rogs-I/mapPosition/slide/down 0.000000
+/rogs-I/mapPosition/slide/up 0.000000
+/rogs-I/mapPosition/active 0
+/rogs-I/mapPosition/scalebypass 1
+# 
+/rogs-I/mapPvar/data/active 1
+/rogs-I/mapPvar/function/parameters.1 0.000000
+/rogs-I/mapPvar/input/address none
+/rogs-I/mapPvar/input/max 1.000000
+/rogs-I/mapPvar/input/min 0.000000
+/rogs-I/mapPvar/output/max 1.000000
+/rogs-I/mapPvar/output/min 0.000000
+/rogs-I/mapPvar/process/function freehand
+/rogs-I/mapPvar/process/clipmode both
+/rogs-I/mapPvar/process/mode 0.000000
+/rogs-I/mapPvar/process/rampTime 0.000000
+/rogs-I/mapPvar/slide/down 0.000000
+/rogs-I/mapPvar/slide/up 0.000000
+/rogs-I/mapPvar/active 0
+/rogs-I/mapPvar/scalebypass 1
+# 
+/rogs-I/mapSize/data/active 1
+/rogs-I/mapSize/function/parameters.1 0.000000
+/rogs-I/mapSize/input/address none
+/rogs-I/mapSize/input/max 1.000000
+/rogs-I/mapSize/input/min 0.000000
+/rogs-I/mapSize/output/max 1.000000
+/rogs-I/mapSize/output/min 0.000000
+/rogs-I/mapSize/process/function freehand
+/rogs-I/mapSize/process/clipmode both
+/rogs-I/mapSize/process/mode 0.000000
+/rogs-I/mapSize/process/rampTime 0.000000
+/rogs-I/mapSize/slide/down 0.000000
+/rogs-I/mapSize/slide/up 0.000000
+/rogs-I/mapSize/active 0
+/rogs-I/mapSize/scalebypass 1
+# 
+/rogs-I/mapSpeed/data/active 1
+/rogs-I/mapSpeed/function/parameters.1 0.000000
+/rogs-I/mapSpeed/input/address /tfEnv/envelope
+/rogs-I/mapSpeed/input/max 1.000000
+/rogs-I/mapSpeed/input/min 0.000000
+/rogs-I/mapSpeed/output/max 1.000000
+/rogs-I/mapSpeed/output/min 0.000000
+/rogs-I/mapSpeed/process/function freehand
+/rogs-I/mapSpeed/process/clipmode both
+/rogs-I/mapSpeed/process/mode 0.000000
+/rogs-I/mapSpeed/process/rampTime 0.000000
+/rogs-I/mapSpeed/slide/down 0.000000
+/rogs-I/mapSpeed/slide/up 0.000000
+/rogs-I/mapSpeed/active 1
+/rogs-I/mapSpeed/scalebypass 1
+# 
+/rogs-I/mapSpread/data/active 1
+/rogs-I/mapSpread/function/parameters.1 0.000000
+/rogs-I/mapSpread/input/address none
+/rogs-I/mapSpread/input/max 1.000000
+/rogs-I/mapSpread/input/min 0.000000
+/rogs-I/mapSpread/output/max 1.000000
+/rogs-I/mapSpread/output/min 0.000000
+/rogs-I/mapSpread/process/function freehand
+/rogs-I/mapSpread/process/clipmode both
+/rogs-I/mapSpread/process/mode 0.000000
+/rogs-I/mapSpread/process/rampTime 0.000000
+/rogs-I/mapSpread/slide/down 0.000000
+/rogs-I/mapSpread/slide/up 0.000000
+/rogs-I/mapSpread/active 0
+/rogs-I/mapSpread/scalebypass 1
+# 
+/rogs-I/mapTrigger/data/active 1
+/rogs-I/mapTrigger/function/parameters.1 0.000000
+/rogs-I/mapTrigger/input/address none
+/rogs-I/mapTrigger/input/max 1.000000
+/rogs-I/mapTrigger/input/min 0.000000
+/rogs-I/mapTrigger/output/max 1.000000
+/rogs-I/mapTrigger/output/min 0.000000
+/rogs-I/mapTrigger/process/function freehand
+/rogs-I/mapTrigger/process/clipmode both
+/rogs-I/mapTrigger/process/mode 0.000000
+/rogs-I/mapTrigger/process/rampTime 0.000000
+/rogs-I/mapTrigger/slide/down 0.000000
+/rogs-I/mapTrigger/slide/up 0.000000
+/rogs-I/mapTrigger/active 0
+/rogs-I/mapTrigger/scalebypass 1
+# 
+/rogs-I/mapTurn/data/active 1
+/rogs-I/mapTurn/function/parameters.1 0.000000
+/rogs-I/mapTurn/input/address none
+/rogs-I/mapTurn/input/max 1.000000
+/rogs-I/mapTurn/input/min 0.000000
+/rogs-I/mapTurn/output/max 1.000000
+/rogs-I/mapTurn/output/min 0.000000
+/rogs-I/mapTurn/process/function freehand
+/rogs-I/mapTurn/process/clipmode both
+/rogs-I/mapTurn/process/mode 0.000000
+/rogs-I/mapTurn/process/rampTime 0.000000
+/rogs-I/mapTurn/slide/down 0.000000
+/rogs-I/mapTurn/slide/up 0.000000
+/rogs-I/mapTurn/active 0
+/rogs-I/mapTurn/scalebypass 1
+/rogs-I/audio/gain -23.000000
+/rogs-I/audio/mute 0
+/rogs-I/file/open Electricity-tool-EQ.aif
+/rogs-I/mapperGate/gain 0
+/rogs-I/mapperGate/onsetVar 2
+/rogs-I/mapperGate/pitch 2
+/rogs-I/mapperGate/pitchVar 0
+/rogs-I/mapperGate/position 0
+/rogs-I/mapperGate/size 2
+/rogs-I/mapperGate/speed 1
+/rogs-I/mapperGate/spread 0
+/rogs-I/mapperGate/trigger 2
+/rogs-I/mapperGate/turn 0
+/rogs-I/mod/gain 30.000000
+/rogs-I/mod/onsetVar 1000.000000
+/rogs-I/mod/pitch 50.000000
+/rogs-I/mod/pitchVar 0.000000
+/rogs-I/mod/position 0.000000
+/rogs-I/mod/size 100.000000
+/rogs-I/mod/speed 0.400000
+/rogs-I/mod/spread 0.000000
+/rogs-I/mod/trigger 50.000000
+/rogs-I/mod/turn 0.000000
+/rogs-I/pan/mode 0
+/rogs-I/pan/rate 0.000000
+/rogs-I/pan/spread 0.000000
+/rogs-I/pitch/transpose 0.000000
+/rogs-I/pitch/variation 0.000000
+/rogs-I/playback/direction 0
+/rogs-I/playback/speed 0.150000
+/rogs-I/playback/position 0.000000
+/rogs-I/selection/mode 0
+/rogs-I/selection/range 2815.250000 36530.332031
+/rogs-I/waveform/normalize 0.900000
+/rogs-I/numChannels 1
+# 
+/rogs2/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/rogs2/grain/trigger/variance/gainVar/range 0.000000
+/rogs2/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/rogs2/grain/trigger/variance/rateVar/spread 0.000000
+/rogs2/grain/trigger/variance/on 0
+/rogs2/grain/trigger/freq 46.000000
+/rogs2/grain/trigger/lock 0
+/rogs2/grain/trigger/mode 0
+/rogs2/grain/trigger/note 0
+/rogs2/grain/duration 69.000000
+/rogs2/grain/onsetVar 0.000000
+/rogs2/grain/overlap 100
+# 
+/rogs2/mapGain/data/active 1
+/rogs2/mapGain/function/parameters.1 0.000000
+/rogs2/mapGain/input/address none
+/rogs2/mapGain/input/max 1.000000
+/rogs2/mapGain/input/min 0.000000
+/rogs2/mapGain/output/max 1.000000
+/rogs2/mapGain/output/min 0.000000
+/rogs2/mapGain/process/function freehand
+/rogs2/mapGain/process/clipmode both
+/rogs2/mapGain/process/mode 0.000000
+/rogs2/mapGain/process/rampTime 0.000000
+/rogs2/mapGain/slide/down 0.000000
+/rogs2/mapGain/slide/up 0.000000
+/rogs2/mapGain/active 0
+/rogs2/mapGain/scalebypass 1
+# 
+/rogs2/mapOnsetVar/data/active 1
+/rogs2/mapOnsetVar/function/parameters.1 0.000000
+/rogs2/mapOnsetVar/input/address none
+/rogs2/mapOnsetVar/input/max 1.000000
+/rogs2/mapOnsetVar/input/min 0.000000
+/rogs2/mapOnsetVar/output/max 1.000000
+/rogs2/mapOnsetVar/output/min 0.000000
+/rogs2/mapOnsetVar/process/function freehand
+/rogs2/mapOnsetVar/process/clipmode both
+/rogs2/mapOnsetVar/process/mode 0.000000
+/rogs2/mapOnsetVar/process/rampTime 0.000000
+/rogs2/mapOnsetVar/slide/down 0.000000
+/rogs2/mapOnsetVar/slide/up 0.000000
+/rogs2/mapOnsetVar/active 0
+/rogs2/mapOnsetVar/scalebypass 1
+# 
+/rogs2/mapPitch/data/active 1
+/rogs2/mapPitch/function/parameters.1 0.000000
+/rogs2/mapPitch/input/address none
+/rogs2/mapPitch/input/max 1.000000
+/rogs2/mapPitch/input/min 0.000000
+/rogs2/mapPitch/output/max 1.000000
+/rogs2/mapPitch/output/min 0.000000
+/rogs2/mapPitch/process/function freehand
+/rogs2/mapPitch/process/clipmode both
+/rogs2/mapPitch/process/mode 0.000000
+/rogs2/mapPitch/process/rampTime 0.000000
+/rogs2/mapPitch/slide/down 0.000000
+/rogs2/mapPitch/slide/up 0.000000
+/rogs2/mapPitch/active 0
+/rogs2/mapPitch/scalebypass 1
+# 
+/rogs2/mapPosition/data/active 1
+/rogs2/mapPosition/function/parameters.1 0.000000
+/rogs2/mapPosition/input/address none
+/rogs2/mapPosition/input/max 1.000000
+/rogs2/mapPosition/input/min 0.000000
+/rogs2/mapPosition/output/max 1.000000
+/rogs2/mapPosition/output/min 0.000000
+/rogs2/mapPosition/process/function freehand
+/rogs2/mapPosition/process/clipmode both
+/rogs2/mapPosition/process/mode 0.000000
+/rogs2/mapPosition/process/rampTime 0.000000
+/rogs2/mapPosition/slide/down 0.000000
+/rogs2/mapPosition/slide/up 0.000000
+/rogs2/mapPosition/active 0
+/rogs2/mapPosition/scalebypass 1
+# 
+/rogs2/mapPvar/data/active 1
+/rogs2/mapPvar/function/parameters.1 0.000000
+/rogs2/mapPvar/input/address none
+/rogs2/mapPvar/input/max 1.000000
+/rogs2/mapPvar/input/min 0.000000
+/rogs2/mapPvar/output/max 1.000000
+/rogs2/mapPvar/output/min 0.000000
+/rogs2/mapPvar/process/function freehand
+/rogs2/mapPvar/process/clipmode both
+/rogs2/mapPvar/process/mode 0.000000
+/rogs2/mapPvar/process/rampTime 0.000000
+/rogs2/mapPvar/slide/down 0.000000
+/rogs2/mapPvar/slide/up 0.000000
+/rogs2/mapPvar/active 0
+/rogs2/mapPvar/scalebypass 1
+# 
+/rogs2/mapSize/data/active 1
+/rogs2/mapSize/function/parameters.1 0.000000
+/rogs2/mapSize/input/address none
+/rogs2/mapSize/input/max 1.000000
+/rogs2/mapSize/input/min 0.000000
+/rogs2/mapSize/output/max 1.000000
+/rogs2/mapSize/output/min 0.000000
+/rogs2/mapSize/process/function freehand
+/rogs2/mapSize/process/clipmode both
+/rogs2/mapSize/process/mode 0.000000
+/rogs2/mapSize/process/rampTime 0.000000
+/rogs2/mapSize/slide/down 0.000000
+/rogs2/mapSize/slide/up 0.000000
+/rogs2/mapSize/active 0
+/rogs2/mapSize/scalebypass 1
+# 
+/rogs2/mapSpeed/data/active 1
+/rogs2/mapSpeed/function/parameters.1 0.000000
+/rogs2/mapSpeed/input/address /tfEnv/envelope
+/rogs2/mapSpeed/input/max 1.000000
+/rogs2/mapSpeed/input/min 0.000000
+/rogs2/mapSpeed/output/max 1.000000
+/rogs2/mapSpeed/output/min 0.000000
+/rogs2/mapSpeed/process/function freehand
+/rogs2/mapSpeed/process/clipmode both
+/rogs2/mapSpeed/process/mode 0.000000
+/rogs2/mapSpeed/process/rampTime 0.000000
+/rogs2/mapSpeed/slide/down 0.000000
+/rogs2/mapSpeed/slide/up 0.000000
+/rogs2/mapSpeed/active 1
+/rogs2/mapSpeed/scalebypass 1
+# 
+/rogs2/mapSpread/data/active 1
+/rogs2/mapSpread/function/parameters.1 0.000000
+/rogs2/mapSpread/input/address none
+/rogs2/mapSpread/input/max 1.000000
+/rogs2/mapSpread/input/min 0.000000
+/rogs2/mapSpread/output/max 1.000000
+/rogs2/mapSpread/output/min 0.000000
+/rogs2/mapSpread/process/function freehand
+/rogs2/mapSpread/process/clipmode both
+/rogs2/mapSpread/process/mode 0.000000
+/rogs2/mapSpread/process/rampTime 0.000000
+/rogs2/mapSpread/slide/down 0.000000
+/rogs2/mapSpread/slide/up 0.000000
+/rogs2/mapSpread/active 0
+/rogs2/mapSpread/scalebypass 1
+# 
+/rogs2/mapTrigger/data/active 1
+/rogs2/mapTrigger/function/parameters.1 0.000000
+/rogs2/mapTrigger/input/address none
+/rogs2/mapTrigger/input/max 1.000000
+/rogs2/mapTrigger/input/min 0.000000
+/rogs2/mapTrigger/output/max 1.000000
+/rogs2/mapTrigger/output/min 0.000000
+/rogs2/mapTrigger/process/function freehand
+/rogs2/mapTrigger/process/clipmode both
+/rogs2/mapTrigger/process/mode 0.000000
+/rogs2/mapTrigger/process/rampTime 0.000000
+/rogs2/mapTrigger/slide/down 0.000000
+/rogs2/mapTrigger/slide/up 0.000000
+/rogs2/mapTrigger/active 0
+/rogs2/mapTrigger/scalebypass 1
+# 
+/rogs2/mapTurn/data/active 1
+/rogs2/mapTurn/function/parameters.1 0.000000
+/rogs2/mapTurn/input/address none
+/rogs2/mapTurn/input/max 1.000000
+/rogs2/mapTurn/input/min 0.000000
+/rogs2/mapTurn/output/max 1.000000
+/rogs2/mapTurn/output/min 0.000000
+/rogs2/mapTurn/process/function freehand
+/rogs2/mapTurn/process/clipmode both
+/rogs2/mapTurn/process/mode 0.000000
+/rogs2/mapTurn/process/rampTime 0.000000
+/rogs2/mapTurn/slide/down 0.000000
+/rogs2/mapTurn/slide/up 0.000000
+/rogs2/mapTurn/active 0
+/rogs2/mapTurn/scalebypass 1
+/rogs2/audio/gain -27.000000
+/rogs2/audio/mute 0
+/rogs2/file/open ShaylaSqueeks.aif
+/rogs2/mapperGate/gain 2
+/rogs2/mapperGate/onsetVar 2
+/rogs2/mapperGate/pitch 2
+/rogs2/mapperGate/pitchVar 0
+/rogs2/mapperGate/position 0
+/rogs2/mapperGate/size 2
+/rogs2/mapperGate/speed 1
+/rogs2/mapperGate/spread 0
+/rogs2/mapperGate/trigger 2
+/rogs2/mapperGate/turn 0
+/rogs2/mod/gain 67.000000
+/rogs2/mod/onsetVar 150.000000
+/rogs2/mod/pitch 300.000000
+/rogs2/mod/pitchVar 0.000000
+/rogs2/mod/position 0.000000
+/rogs2/mod/size -91.000000
+/rogs2/mod/speed 0.400000
+/rogs2/mod/spread 0.000000
+/rogs2/mod/trigger -38.000000
+/rogs2/mod/turn 0.000000
+/rogs2/pan/mode 0
+/rogs2/pan/rate 0.000000
+/rogs2/pan/spread 0.000000
+/rogs2/pitch/transpose 569.000000
+/rogs2/pitch/variation 0.000000
+/rogs2/playback/direction 0
+/rogs2/playback/speed 0.000000
+/rogs2/playback/position 0.000000
+/rogs2/selection/mode 0
+/rogs2/selection/range 567.354187 12033.708008
+/rogs2/waveform/normalize 0.000000
+/rogs2/numChannels 1
+# 
+# 
+/tfEnv/autoscale/audio/bypass 0
+/tfEnv/autoscale/audio/gain 0.000000
+/tfEnv/autoscale/audio/mix 100.000000
+/tfEnv/autoscale/audio/mute 0
+/tfEnv/autoscale/input/max 0.013000
+/tfEnv/autoscale/input/min 0.001000
+/tfEnv/autoscale/exp 1.000000
+/tfEnv/autoscale/lock 2
+/tfEnv/autoscale/maximum 1.000000
+/tfEnv/autoscale/minimum 0.000000
+/tfEnv/audio/bypass 0
+/tfEnv/audio/gain 0.000000
+/tfEnv/audio/mix 100.000000
+/tfEnv/audio/mute 0
+/tfEnv/average/period 16
+/tfEnv/average/type 0
+# 
+/tfEnv/clip/minMax -1.000000 1.000000
+/tfEnv/clip/mode 3
+/tfEnv/data/active 1
+/tfEnv/filter/frequency 30.000000
+/tfEnv/filter/gain 0.500000
+/tfEnv/filter/q 0.500000
+/tfEnv/filter/type none
+/tfEnv/pre-slide/down 1.000000
+/tfEnv/pre-slide/up 0.500000
+/tfEnv/ramp/down 4.000000
+/tfEnv/ramp/up 0.000000
+/tfEnv/slide/down 1.000000
+/tfEnv/slide/up 1.000000
+/tfEnv/snapshot/interval 5
+/tfEnv/snapshot/on 1
+/tfEnv/cutoff 988
+/tfEnv/mute 0
+/tfEnv/offset -0.001100
+/tfEnv/preview 1
+# 
+/rogsGainCntrl/rogs1/finalGain 106
+/rogsGainCntrl/rogs1/rvrbGain 127
+/rogsGainCntrl/rogs2/finalGain 91
+/rogsGainCntrl/rogs2/rvrbGain 88
+# 
+/rogsRvrb/rvrbGain -0.476146
+/rogsRvrb/rvrbLength 3.793530
+# 
+/cue_manager_osc/file/path none
+# 
+/test2/squareorsaw 0
+/test2/modratioman 0
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+/test2/modratio 0.000000
+/test2/modindex 0.448819
+/test2/modfreq 3.438200
+/test2/carriersinsaw 0.047244
+/test2/carrierfreq 782.403198
+/test2/audio/mute 1
+/test2/audio/gain -25.000000
+# 
+/test/squareorsaw 0
+/test/modratioman 0
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+/test/modratio 1.000000
+/test/modindex 0.236220
+/test/modfreq 3.438200
+/test/carriersinsaw 0.000000
+/test/carrierfreq 35.000000
+/test/audio/mute 1
+/test/audio/gain -14.000000
+# 
+/timeIT/data/active 1
+/timeIT/interpolate 1000
+/timeIT/min 0.000000
+/timeIT/max 1.000000
+/timeIT/on 0
+/timeIT/rate/min 500
+/timeIT/rate/max 2000
+/timeIT/step 1.000000
+# 
+/cue_manager_help/file/path "Macintosh HD:/Users/topologicalmedialab/code/Nav/Projects/2016 12 tangibleFlux/lasttml-2am.cues.txt"
+# 
+/light2/data/active 1
+/light2/interpolate 51
+/light2/min 0.000000
+/light2/max 0.300000
+/light2/on 1
+/light2/rate/min 40
+/light2/rate/max 112
+/light2/step 1.000000
+# 
+/light1/data/active 1
+/light1/interpolate 25
+/light1/min 0.000000
+/light1/max 0.260000
+/light1/on 1
+/light1/rate/min 10
+/light1/rate/max 53
+/light1/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/interpolate 247
+/tilt/min 0.280000
+/tilt/max 0.430000
+/tilt/on 1
+/tilt/rate/min 1056
+/tilt/rate/max 2368
+/tilt/step 1.000000
+# 
+/speed/data/active 1
+/speed/interpolate 2338
+/speed/min 0.370000
+/speed/max 0.540000
+/speed/on 1
+/speed/rate/min 1899
+/speed/rate/max 2875
+/speed/step 1.000000
 # 
 # ###########################################
 
