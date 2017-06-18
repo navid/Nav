@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -204,7 +204,7 @@
 					"annotation" : "Complex PM oscillator",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 74.0, 49.0, 169.0, 22.0 ],
@@ -264,7 +264,7 @@
 					"annotation" : "Complex PM oscillator",
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 27.0, 23.0, 162.0, 22.0 ],
@@ -277,26 +277,13 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -304,19 +291,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -324,8 +298,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -333,8 +305,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
@@ -343,8 +313,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
@@ -352,18 +320,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -371,79 +328,83 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-6::obj-12" : [ "live.dial[5]", "index", 0 ],
 			"obj-6::obj-10" : [ "live.dial[6]", "morph", 0 ],
-			"obj-43::obj-41" : [ "Enable", "Enable", 0 ],
-			"obj-43::obj-72" : [ "Smooth", "Smooth", 0 ],
-			"obj-6::obj-40" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-6::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-6::obj-36" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-43::obj-4" : [ "Gain", "Gain", 0 ],
 			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
-			"obj-6::obj-45" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-6::obj-30" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-43::obj-20" : [ "Invert", "Invert", 0 ],
-			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-6::obj-43" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-6::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
 			"obj-43::obj-25" : [ "Compand", "Comp", 0 ],
 			"obj-43::obj-38" : [ "OutMax", "Min", 0 ],
-			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-6::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-6::obj-30" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
+			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-43::obj-88" : [ "Drive", "Drive", 0 ],
+			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
+			"obj-43::obj-37" : [ "OutMin", "Max", 0 ],
+			"obj-6::obj-12" : [ "live.dial[5]", "index", 0 ],
+			"obj-6::obj-36" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-43::obj-41" : [ "Enable", "Enable", 0 ],
+			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-43::obj-72" : [ "Smooth", "Smooth", 0 ],
+			"obj-6::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-6::obj-40" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-43::obj-4" : [ "Gain", "Gain", 0 ],
+			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
 			"obj-6::obj-16" : [ "live.dial[4]", "noise", 0 ],
 			"obj-6::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-43::obj-88" : [ "Drive", "Drive", 0 ],
-			"obj-43::obj-37" : [ "OutMin", "Max", 0 ]
+			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-43::obj-20" : [ "Invert", "Invert", 0 ],
+			"obj-6::obj-45" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-6::obj-43" : [ "live.numbox[2]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pvh.complexosc~.model.maxpat",
 				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polycomplexosc.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/necessaryfiles",
+				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/include",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/include",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "complexosc.gendsp",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/necessaryfiles",
+				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/include",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/include",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pvh.complexosc~.view.maxpat",
 				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
+				"patcherrelativepath" : "../../../../TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FMA.SignalMapper~.maxpat",
 				"bootpath" : "./Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/ForumMaxApps-All/misc/Utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -456,18 +417,21 @@
 , 			{
 				"name" : "j.datetime.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.namespace_selector.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
