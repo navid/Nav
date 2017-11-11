@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1176.0, 585.0 ],
+		"rect" : [ 92.0, 103.0, 1176.0, 585.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 801.0, 237.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "0.315"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -45,7 +58,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 679.0, 327.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0.414"
+					"text" : "0."
 				}
 
 			}
@@ -73,7 +86,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 486.0, 365.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -87,7 +100,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 410.5, 465.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 420.5, 529.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "circle"
 				}
@@ -103,7 +115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 511.5, 475.0, 46.0, 22.0 ],
-					"presentation_rect" : [ 414.5, 498.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "insane"
 				}
@@ -119,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.5, 465.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 370.5, 469.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Schizo"
 				}
@@ -135,7 +145,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 366.5, 423.5, 49.0, 22.0 ],
-					"presentation_rect" : [ 368.5, 430.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Classic"
 				}
@@ -151,7 +160,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.5, 390.0, 70.0, 22.0 ],
-					"presentation_rect" : [ 366.5, 389.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "motorHead"
 				}
@@ -163,7 +171,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -174,7 +182,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 221.0, 527.0, 232.0, 247.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -201,6 +209,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -384,7 +393,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 137.0, 232.0, 242.0, 315.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -555,7 +564,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 991.5, 210.32666, 50.0, 22.0 ],
-					"presentation_rect" : [ 991.5, 209.32666, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -568,7 +576,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 991.5, 235.0, 42.0, 22.0 ],
-					"presentation_rect" : [ 991.5, 234.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "* 255."
 				}
@@ -1205,7 +1212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.785706, 83.15332, 44.0, 20.0 ],
+					"patching_rect" : [ 440.785706, 75.500031, 44.0, 20.0 ],
 					"style" : "",
 					"text" : "--"
 				}
@@ -1811,6 +1818,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"order" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 1 ],
+					"order" : 1,
 					"source" : [ "obj-60", 0 ]
 				}
 
