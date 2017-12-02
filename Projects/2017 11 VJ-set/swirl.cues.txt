@@ -1,0 +1,108 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/B/data/active 1
+/B/rate/max 1000
+/B/rate/min 5000
+/B/interpolate 1000
+/B/max 1.000000
+/B/min 0.700000
+/B/on 1
+/B/step 1.000000
+# 
+/G/data/active 1
+/G/rate/max 10000
+/G/rate/min 5000
+/G/interpolate 1000
+/G/max 1.000000
+/G/min 0.700000
+/G/on 1
+/G/step 1.000000
+# 
+/R/data/active 1
+/R/rate/max 1000
+/R/rate/min 5000
+/R/interpolate 1000
+/R/max 1.000000
+/R/min 0.700000
+/R/on 1
+/R/step 1.000000
+# 
+/anchorXs/data/active 1
+/anchorXs/rate/max 8000
+/anchorXs/rate/min 5000
+/anchorXs/interpolate 7000
+/anchorXs/max 0.600000
+/anchorXs/min 0.400000
+/anchorXs/on 1
+/anchorXs/step 1.000000
+# 
+/anchorYs/data/active 1
+/anchorYs/rate/max 8000
+/anchorYs/rate/min 5000
+/anchorYs/interpolate 7000
+/anchorYs/max 0.600000
+/anchorYs/min 0.400000
+/anchorYs/on 1
+/anchorYs/step 1.000000
+# 
+/gl_brcosa-wrap/data/active 1
+/gl_brcosa-wrap/data/bypass 0
+/gl_brcosa-wrap/context sceneswirl
+/gl_brcosa-wrap/active 1
+/gl_brcosa-wrap/adapt 1
+/gl_brcosa-wrap/antialias 0
+/gl_brcosa-wrap/automatic 1
+/gl_brcosa-wrap/brightness 1.000000
+/gl_brcosa-wrap/contrast 1.000000
+/gl_brcosa-wrap/dim 720.000000 480.000000
+/gl_brcosa-wrap/rect 0.000000 0.000000 1.000000 1.000000
+/gl_brcosa-wrap/saturation 1.000000
+/gl_brcosa-wrap/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_rota-wrap/data/active 1
+/gl_rota-wrap/data/bypass 0
+/gl_rota-wrap/context sceneswirl
+/gl_rota-wrap/active 1
+/gl_rota-wrap/adapt 1
+/gl_rota-wrap/anchor 0.432765 0.539114
+/gl_rota-wrap/antialias 0
+/gl_rota-wrap/automatic 1
+/gl_rota-wrap/boundmode alpha
+/gl_rota-wrap/dim 720.000000 480.000000
+/gl_rota-wrap/offset 0.000000 0.000000
+/gl_rota-wrap/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota-wrap/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota-wrap/theta 0.000000
+/gl_rota-wrap/zoom -1.016300 1.016300
+# 
+/hue2/data/active 1
+/hue2/rate/max 6000
+/hue2/rate/min 4000
+/hue2/interpolate 5000
+/hue2/max 9.000000
+/hue2/min -1.000000
+/hue2/on 1
+/hue2/step 1.000000
+# 
+/thetas/data/active 0
+/thetas/rate/max 8000
+/thetas/rate/min 5000
+/thetas/interpolate 7000
+/thetas/max 20.000000
+/thetas/min -20.000000
+/thetas/on 1
+/thetas/step 1.000000
+# 
+/zoomS/data/active 1
+/zoomS/rate/max 8000
+/zoomS/rate/min 5000
+/zoomS/interpolate 7000
+/zoomS/max 1.200000
+/zoomS/min 0.900000
+/zoomS/on 1
+/zoomS/step 1.000000
+# 
+# ###########################################
+

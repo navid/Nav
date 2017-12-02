@@ -1,0 +1,119 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/micCheck/autoscale/audio/bypass 0
+/micCheck/autoscale/audio/gain 0.000000
+/micCheck/autoscale/audio/mix 100.000000
+/micCheck/autoscale/audio/mute 0
+/micCheck/autoscale/input/max 4.900000
+/micCheck/autoscale/input/min 0.000000
+/micCheck/autoscale/exp 1.000000
+/micCheck/autoscale/lock 2
+/micCheck/autoscale/maximum 0.390000
+/micCheck/autoscale/minimum 0.000000
+/micCheck/audio/bypass 0
+/micCheck/audio/gain 0.000000
+/micCheck/audio/mix 100.000000
+/micCheck/audio/mute 0
+/micCheck/average/period 10
+/micCheck/average/type 0
+# 
+/micCheck/clip/minMax -1.000000 1.000000
+/micCheck/clip/mode 0
+/micCheck/data/active 1
+/micCheck/filter/frequency 40.000000
+/micCheck/filter/gain 0.000000
+/micCheck/filter/q 0.500000
+/micCheck/filter/type none
+/micCheck/pre-slide/down 5.000000
+/micCheck/pre-slide/up 1.000000
+/micCheck/ramp/down 50.000000
+/micCheck/ramp/up 20.000000
+/micCheck/slide/down 0.000000
+/micCheck/slide/up 0.000000
+/micCheck/snapshot/interval 10
+/micCheck/snapshot/on 1
+/micCheck/cutoff 950
+/micCheck/mute 0
+/micCheck/offset 0.000000
+/micCheck/preview 1
+# 
+/anchorX/data/active 1
+/anchorX/rate/max 9000
+/anchorX/rate/min 5000
+/anchorX/interpolate 8000
+/anchorX/max 0.650000
+/anchorX/min 0.350000
+/anchorX/on 1
+/anchorX/step 1.000000
+# 
+/anchorY/data/active 1
+/anchorY/rate/max 9000
+/anchorY/rate/min 5000
+/anchorY/interpolate 8000
+/anchorY/max 0.650000
+/anchorY/min 0.350000
+/anchorY/on 1
+/anchorY/step 1.000000
+# 
+/gl_brcosa/data/active 1
+/gl_brcosa/data/bypass 0
+/gl_brcosa/context party
+/gl_brcosa/active 1
+/gl_brcosa/adapt 1
+/gl_brcosa/antialias 0
+/gl_brcosa/automatic 1
+/gl_brcosa/brightness 1.000000
+/gl_brcosa/contrast 1.000000
+/gl_brcosa/dim 720.000000 480.000000
+/gl_brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/gl_brcosa/saturation 0.200000
+/gl_brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_rota/data/active 1
+/gl_rota/data/bypass 0
+/gl_rota/context party
+/gl_rota/active 1
+/gl_rota/adapt 1
+/gl_rota/anchor 0.396292 0.508961
+/gl_rota/antialias 0
+/gl_rota/automatic 1
+/gl_rota/boundmode fold
+/gl_rota/dim 720.000000 480.000000
+/gl_rota/offset 0.000000 0.000000
+/gl_rota/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota/theta -1.781210
+/gl_rota/zoom -1.442007 1.442007
+# 
+/sinF/data/active 1
+/sinF/rate/max 6000
+/sinF/rate/min 4000
+/sinF/interpolate 5000
+/sinF/max 30.000000
+/sinF/min 0.000000
+/sinF/on 1
+/sinF/step 1.000000
+# 
+/theta/data/active 1
+/theta/rate/max 12000
+/theta/rate/min 7000
+/theta/interpolate 10000
+/theta/max 20.000000
+/theta/min -20.000000
+/theta/on 1
+/theta/step 1.000000
+# 
+/zoom/data/active 1
+/zoom/rate/max 9000
+/zoom/rate/min 6000
+/zoom/interpolate 8000
+/zoom/max 1.500000
+/zoom/min 0.600000
+/zoom/on 1
+/zoom/step 1.000000
+# 
+# ###########################################
+
