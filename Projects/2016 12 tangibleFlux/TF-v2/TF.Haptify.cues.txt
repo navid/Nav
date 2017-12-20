@@ -1,0 +1,72 @@
+- cue "haptify-alvin"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/spectral_shift_help/limiter/dcblocker/active 1
+/spectral_shift_help/limiter/active 1
+/spectral_shift_help/limiter/lookahead 100
+/spectral_shift_help/limiter/mode exponential
+/spectral_shift_help/limiter/postamp 0.000000
+/spectral_shift_help/limiter/preamp 6.000000
+/spectral_shift_help/limiter/release 250.000000
+/spectral_shift_help/limiter/threshold 0.000000
+/spectral_shift_help/audio/bypass 0
+/spectral_shift_help/audio/gain 0.000000
+/spectral_shift_help/audio/mix 100.000000
+/spectral_shift_help/audio/mute 0
+/spectral_shift_help/feedback/gain -59.480316
+/spectral_shift_help/feedback/time 9.448819
+/spectral_shift_help/frequency/scale -46.488190
+/spectral_shift_help/frequency/shift -389.763702
+# 
+/eqbottom2/audio/bypass 0
+/eqbottom2/audio/gain -13.000000
+/eqbottom2/audio/mix 100.000000
+/eqbottom2/audio/mute 0
+/eqbottom2/filter.1/type lowshelf
+/eqbottom2/filter.1/frequency 79.192032
+/eqbottom2/filter.1/gain 4.779150
+/eqbottom2/filter.1/octave_bandwidth 0.691780
+/eqbottom2/filter.2/octave_bandwidth 1.744286
+/eqbottom2/filter.2/gain -24.000000
+/eqbottom2/filter.2/frequency 259.490234
+/eqbottom2/filter.2/type peaknotch
+/eqbottom2/filter.3/octave_bandwidth 3.076522
+/eqbottom2/filter.3/gain -24.000000
+/eqbottom2/filter.3/frequency 1000.000000
+/eqbottom2/filter.3/type peaknotch
+/eqbottom2/filter.4/octave_bandwidth 1.041321
+/eqbottom2/filter.4/gain 8.737963
+/eqbottom2/filter.4/frequency 71.652061
+/eqbottom2/filter.4/type lowpass
+/eqbottom2/bands 4
+# 
+# 
+/haptOut~/record/file/type aiff
+/haptOut~/record/samptype int24
+# 
+/haptOut~/balance/mode FastMode
+/haptOut~/balance/shape EqualPower
+/haptOut~/balance/position 0.000000
+# 
+/haptOut~/limiter/active 1
+/haptOut~/limiter/dcblocker/active 0
+/haptOut~/limiter/mode exponential
+/haptOut~/limiter/release 300.000000
+/haptOut~/limiter/lookahead 64
+/haptOut~/limiter/threshold -1.000000
+/haptOut~/limiter/postamp 0.000000
+/haptOut~/limiter/preamp 6.000000
+# 
+/haptOut~/saturation/active 1
+/haptOut~/saturation/preamp 0.000000
+/haptOut~/saturation/mode 0.000000
+/haptOut~/saturation/depth 10.000000
+/haptOut~/audio/mute 0
+/haptOut~/audio/gain -0.316435
+/haptOut~/ch.2 2
+/haptOut~/ch.1 1
+# 
+# ###########################################
+

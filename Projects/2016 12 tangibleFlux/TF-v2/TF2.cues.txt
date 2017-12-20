@@ -3388,3 +3388,188 @@
 # 
 # ###########################################
 
+- cue "alvn-circ"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 0.100000
+/light1/min -0.010000
+/light1/on 0
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 5000
+/light2/interpolate 6000
+/light2/max 0.100000
+/light2/min -0.010000
+/light2/on 0
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 5000
+/speed/rate/min 3000
+/speed/interpolate 4000
+/speed/max 0.140000
+/speed/min 0.040000
+/speed/on 0
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2471
+/tilt/rate/min 1721
+/tilt/interpolate 3097
+/tilt/max 0.510000
+/tilt/min 0.494000
+/tilt/on 0
+/tilt/step 1.000000
+# 
+/tiltY/data/active 0
+/tiltY/rate/max 5000
+/tiltY/rate/min 3000
+/tiltY/interpolate 3000
+/tiltY/max 0.520000
+/tiltY/min 0.507000
+/tiltY/on 0
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "melodicRub"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 0.200000
+/light1/min -0.004000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7000
+/light2/max 0.130000
+/light2/min -0.002000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 5000
+/speed/rate/min 1899
+/speed/interpolate 1107
+/speed/max 1.000000
+/speed/min 0.100000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 4158
+/tilt/rate/min 806
+/tilt/interpolate 0
+/tilt/max 0.580000
+/tilt/min 0.390000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "calmYourBalls"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 0.700000
+/light1/min -0.002000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7000
+/light2/max 0.500000
+/light2/min -0.002000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 5000
+/speed/rate/min 1899
+/speed/interpolate 1107
+/speed/max 0.190000
+/speed/min 0.085000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 3200
+/tilt/rate/min 2000
+/tilt/interpolate 3000
+/tilt/max 0.520000
+/tilt/min 0.480000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# 
+/haptOut~/record/file/type aiff
+/haptOut~/record/samptype int24
+# 
+/haptOut~/balance/mode FastMode
+/haptOut~/balance/shape EqualPower
+/haptOut~/balance/position 0.000000
+# 
+/haptOut~/limiter/active 1
+/haptOut~/limiter/dcblocker/active 0
+/haptOut~/limiter/mode exponential
+/haptOut~/limiter/release 300.000000
+/haptOut~/limiter/lookahead 64
+/haptOut~/limiter/threshold -1.000000
+/haptOut~/limiter/postamp 0.000000
+/haptOut~/limiter/preamp 6.000000
+# 
+/haptOut~/saturation/active 1
+/haptOut~/saturation/preamp 0.000000
+/haptOut~/saturation/mode 0.000000
+/haptOut~/saturation/depth 10.000000
+/haptOut~/audio/mute 0
+/haptOut~/audio/gain -1.346453
+/haptOut~/ch.2 2
+/haptOut~/ch.1 1
+# 
+/cue_manager_tactile/file/path "HD:/Users/tangibleflux/code/Nav/Projects/2016 12 tangibleFlux/TF-v2/TF.Haptify.cues.txt"
+# 
+/eqbottom2/bands 4
+/eqbottom2/audio/mute 0
+/eqbottom2/audio/bypass 0
+/eqbottom2/audio/mix 100.000000
+/eqbottom2/audio/gain -5.000000
+/eqbottom2/filter.1/octave_bandwidth 0.691780
+/eqbottom2/filter.1/gain 4.779150
+/eqbottom2/filter.1/frequency 79.192032
+/eqbottom2/filter.1/type lowshelf
+/eqbottom2/filter.2/octave_bandwidth 1.744286
+/eqbottom2/filter.2/gain -24.000000
+/eqbottom2/filter.2/frequency 259.490234
+/eqbottom2/filter.2/type peaknotch
+/eqbottom2/filter.3/octave_bandwidth 3.076522
+/eqbottom2/filter.3/gain -24.000000
+/eqbottom2/filter.3/frequency 1000.000000
+/eqbottom2/filter.3/type peaknotch
+/eqbottom2/filter.4/octave_bandwidth 1.041321
+/eqbottom2/filter.4/gain 8.737963
+/eqbottom2/filter.4/frequency 71.652061
+/eqbottom2/filter.4/type lowpass
+# 
+# ###########################################
+
