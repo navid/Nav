@@ -1,0 +1,44 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.899911
+/drive/scale/range/min -0.009999
+/drive/scale/comp 0.110236
+/drive/scale/drive 0.000000
+/drive/scale/gain 30.000000
+/drive/scale/invert 0
+/drive/scale/smooth 0.031863
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -4.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 1.500000
+/test/modratio 0.000000
+/test/carrierfreq 25.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -4.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 1.500000
+/test2/modratio 0.000000
+/test2/carrierfreq 25.000000
+/test2/carriersinsaw 0.007874
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+

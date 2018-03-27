@@ -1110,8 +1110,8 @@
 /light1/rate/max 7000
 /light1/rate/min 6000
 /light1/interpolate 7000
-/light1/max 0.100000
-/light1/min 0.002000
+/light1/max 0.060000
+/light1/min 0.001000
 /light1/on 1
 /light1/step 1.000000
 # 
@@ -1119,17 +1119,17 @@
 /light2/rate/max 7000
 /light2/rate/min 6000
 /light2/interpolate 7000
-/light2/max 0.100000
+/light2/max 0.060000
 /light2/min 0.001000
 /light2/on 1
 /light2/step 1.000000
 # 
 /speed/data/active 1
-/speed/rate/max 2875
-/speed/rate/min 1899
-/speed/interpolate 1107
+/speed/rate/max 3241
+/speed/rate/min 1833
+/speed/interpolate 2612
 /speed/max 0.330000
-/speed/min 0.110000
+/speed/min 0.120000
 /speed/on 1
 /speed/step 1.000000
 # 
@@ -3006,8 +3006,8 @@
 /light1/rate/max 7000
 /light1/rate/min 6000
 /light1/interpolate 7000
-/light1/max 1.100000
-/light1/min 0.200000
+/light1/max 1.000000
+/light1/min -0.134000
 /light1/on 1
 /light1/step 1.000000
 # 
@@ -3015,8 +3015,8 @@
 /light2/rate/max 7000
 /light2/rate/min 6000
 /light2/interpolate 7000
-/light2/max 1.100000
-/light2/min 0.200000
+/light2/max 1.000000
+/light2/min -0.270000
 /light2/on 1
 /light2/step 1.000000
 # 
@@ -3025,7 +3025,7 @@
 /speed/rate/min 1968
 /speed/interpolate 2458
 /speed/max 0.360000
-/speed/min 0.150000
+/speed/min 0.096000
 /speed/on 1
 /speed/step 1.000000
 # 
@@ -3033,9 +3033,9 @@
 /tilt/rate/max 2015
 /tilt/rate/min 1094
 /tilt/interpolate 2229
-/tilt/max 0.512000
-/tilt/min 0.490000
-/tilt/on 0
+/tilt/max 0.660000
+/tilt/min 0.320000
+/tilt/on 1
 /tilt/step 1.000000
 # 
 # ###########################################
@@ -3335,27 +3335,27 @@
 /light1/data/active 1
 /light1/rate/max 7000
 /light1/rate/min 6000
-/light1/interpolate 7000
-/light1/max 1.100000
-/light1/min 0.100000
+/light1/interpolate 8000
+/light1/max 1.000000
+/light1/min 0.000000
 /light1/on 1
 /light1/step 1.000000
 # 
 /light2/data/active 1
 /light2/rate/max 7000
 /light2/rate/min 6000
-/light2/interpolate 7000
-/light2/max 1.100000
-/light2/min 0.100000
+/light2/interpolate 8000
+/light2/max 1.000000
+/light2/min 0.000000
 /light2/on 1
 /light2/step 1.000000
 # 
 /speed/data/active 1
-/speed/rate/max 2570
-/speed/rate/min 1899
-/speed/interpolate 1749
-/speed/max 0.210000
-/speed/min 0.160000
+/speed/rate/max 5173
+/speed/rate/min 3575
+/speed/interpolate 3349
+/speed/max 0.134000
+/speed/min 0.065000
 /speed/on 1
 /speed/step 1.000000
 # 
@@ -3363,8 +3363,8 @@
 /tilt/rate/max 2471
 /tilt/rate/min 1721
 /tilt/interpolate 3097
-/tilt/max 0.520000
-/tilt/min 0.480000
+/tilt/max 0.515000
+/tilt/min 0.485000
 /tilt/on 1
 /tilt/step 1.000000
 # 
@@ -3379,8 +3379,8 @@
 # 
 /tiltY/data/active 1
 /tiltY/interpolate 2936
-/tiltY/min 0.430000
-/tiltY/max 0.630000
+/tiltY/min 0.480000
+/tiltY/max 0.620000
 /tiltY/on 1
 /tiltY/rate/min 1827
 /tiltY/rate/max 2517
@@ -3456,7 +3456,7 @@
 /light2/rate/max 7000
 /light2/rate/min 6000
 /light2/interpolate 7000
-/light2/max 0.130000
+/light2/max 0.280000
 /light2/min -0.002000
 /light2/on 1
 /light2/step 1.000000
@@ -3466,7 +3466,7 @@
 /speed/rate/min 1899
 /speed/interpolate 1107
 /speed/max 1.000000
-/speed/min 0.100000
+/speed/min 0.300000
 /speed/on 1
 /speed/step 1.000000
 # 
@@ -3504,11 +3504,11 @@
 /light2/step 1.000000
 # 
 /speed/data/active 1
-/speed/rate/max 5000
+/speed/rate/max 4000
 /speed/rate/min 1899
-/speed/interpolate 1107
-/speed/max 0.190000
-/speed/min 0.085000
+/speed/interpolate 2000
+/speed/max 0.290000
+/speed/min 0.090000
 /speed/on 1
 /speed/step 1.000000
 # 
@@ -3570,6 +3570,463 @@
 /eqbottom2/filter.4/gain 8.737963
 /eqbottom2/filter.4/frequency 71.652061
 /eqbottom2/filter.4/type lowpass
+# 
+# ###########################################
+
+- cue "calmBalls"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 0.700000
+/light1/min -0.002000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7000
+/light2/max 0.500000
+/light2/min -0.002000
+/light2/on 1
+/light2/step 1.000000
+# 
+/main/light/L 0.603732
+/main/light/R 0.076278
+/main/tilt/x 0.516591
+/main/tilt/y 0.417640
+/main/motor 0.153723
+# 
+/speed/data/active 1
+/speed/rate/max 3000
+/speed/rate/min 1899
+/speed/interpolate 2200
+/speed/max 0.190000
+/speed/min 0.090000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 3200
+/tilt/rate/min 2000
+/tilt/interpolate 3000
+/tilt/max 0.550000
+/tilt/min 0.450000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 3300
+/tiltY/rate/min 2500
+/tiltY/interpolate 3000
+/tiltY/max 0.650000
+/tiltY/min 0.240000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+/time/data/active 1
+/time/rate/max 2000
+/time/rate/min 500
+/time/interpolate 1000
+/time/max 1.000000
+/time/min 0.000000
+/time/on 0
+/time/step 1.000000
+# 
+# ###########################################
+
+- cue "cornrGltch2"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 101
+/light1/rate/min 39
+/light1/interpolate 38
+/light1/max 0.070000
+/light1/min -0.001000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 104
+/light2/rate/min 31
+/light2/interpolate 104
+/light2/max 0.060000
+/light2/min -0.001000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 2875
+/speed/rate/min 1899
+/speed/interpolate 2338
+/speed/max 0.900000
+/speed/min 0.380000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2368
+/tilt/rate/min 1056
+/tilt/interpolate 247
+/tilt/max 0.450000
+/tilt/min 0.200000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "everywhereGlitch"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 140
+/light1/rate/min 1
+/light1/interpolate 0
+/light1/max 0.980000
+/light1/min -3.000000
+/light1/on 1
+/light1/step 0.350000
+# 
+/light2/data/active 1
+/light2/rate/max 167
+/light2/rate/min 1
+/light2/interpolate 0
+/light2/max 0.980000
+/light2/min -3.000000
+/light2/on 1
+/light2/step 0.350000
+# 
+/speed/data/active 1
+/speed/rate/max 3115
+/speed/rate/min 521
+/speed/interpolate 274
+/speed/max 0.700000
+/speed/min 0.350000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2528
+/tilt/rate/min 90
+/tilt/interpolate 0
+/tilt/max 0.950000
+/tilt/min 0.100000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "triangulations"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7323
+/light1/max 0.180000
+/light1/min -0.002000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7417
+/light2/max 0.176000
+/light2/min -0.002000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 4621
+/speed/rate/min 3426
+/speed/interpolate 3583
+/speed/max 0.480000
+/speed/min 0.310000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2130
+/tilt/rate/min 993
+/tilt/interpolate 1160
+/tilt/max 0.515000
+/tilt/min 0.485000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "verticalExpansions"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 4000
+/light1/interpolate 6000
+/light1/max 0.980000
+/light1/min -0.100000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 6000
+/light2/rate/min 5000
+/light2/interpolate 5000
+/light2/max 0.270000
+/light2/min -0.510000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 10000
+/speed/rate/min 6000
+/speed/interpolate 8000
+/speed/max 0.770000
+/speed/min 0.550000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 4413
+/tilt/rate/min 1557
+/tilt/interpolate 0
+/tilt/max 0.586000
+/tilt/min 0.470000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "cornerGlitchVari"
+- description "something about this cue"
+# ###########################################
+# 
+/cue_manager_tactile/file/path "HD:/Users/tangibleflux/code/Nav/Projects/2016 12 tangibleFlux/TF-v2/TF.Haptify.cues.txt"
+# 
+/eqbottom2/audio/bypass 0
+/eqbottom2/audio/gain -6.000000
+/eqbottom2/audio/mix 100.000000
+/eqbottom2/audio/mute 0
+/eqbottom2/filter.1/type lowshelf
+/eqbottom2/filter.1/frequency 57.631142
+/eqbottom2/filter.1/gain 9.955703
+/eqbottom2/filter.1/octave_bandwidth 0.285422
+/eqbottom2/filter.2/type peaknotch
+/eqbottom2/filter.2/frequency 108.548706
+/eqbottom2/filter.2/gain -24.000000
+/eqbottom2/filter.2/octave_bandwidth 1.406260
+/eqbottom2/filter.3/type peaknotch
+/eqbottom2/filter.3/frequency 295.778595
+/eqbottom2/filter.3/gain -24.000000
+/eqbottom2/filter.3/octave_bandwidth 2.647367
+/eqbottom2/filter.4/type lowpass
+/eqbottom2/filter.4/frequency 68.148865
+/eqbottom2/filter.4/gain 9.346850
+/eqbottom2/filter.4/octave_bandwidth 0.997783
+/eqbottom2/bands 4
+# 
+/light1/data/active 1
+/light1/rate/max 53
+/light1/rate/min 10
+/light1/interpolate 95
+/light1/max 0.980000
+/light1/min 0.120000
+/light1/on 1
+/light1/step 0.700000
+# 
+/light2/data/active 1
+/light2/rate/max 112
+/light2/rate/min 40
+/light2/interpolate 144
+/light2/max 0.960000
+/light2/min 0.130000
+/light2/on 1
+/light2/step 0.600000
+# 
+/main/light/L 0.859000
+/main/light/R 0.958000
+/main/tilt/x 0.345000
+/main/tilt/y 0.500000
+/main/motor 0.443000
+# 
+/speed/data/active 1
+/speed/rate/max 2875
+/speed/rate/min 1899
+/speed/interpolate 2338
+/speed/max 0.540000
+/speed/min 0.370000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2368
+/tilt/rate/min 1056
+/tilt/interpolate 247
+/tilt/max 0.490000
+/tilt/min 0.240000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 2000
+/tiltY/rate/min 500
+/tiltY/interpolate 1000
+/tiltY/max 1.000000
+/tiltY/min 0.000000
+/tiltY/on 0
+/tiltY/step 1.000000
+# 
+/time2/data/active 1
+/time2/rate/max 2000
+/time2/rate/min 500
+/time2/interpolate 1000
+/time2/max 1.000000
+/time2/min 0.000000
+/time2/on 0
+/time2/step 1.000000
+# 
+/cue_manager_osc/file/path none
+# 
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+/drive/scale/range/max 0.000000
+/drive/scale/range/min 0.000000
+/drive/scale/visualize 0.000000
+/drive/scale/invert 0.000000
+/drive/scale/comp 0.000000
+/drive/scale/drive 0.000000
+/drive/scale/gain 0.000000
+/drive/scale/smooth 0.000000
+/drive/data/active 1
+/drive/audio/mute 0
+/drive/audio/bypass 0
+/drive/audio/mix 100.000000
+/drive/audio/gain 0.000000
+# 
+/test2/modratioman 0
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+/test2/modratio 0.000000
+/test2/modindex 0.000000
+/test2/modfreq 0.000000
+/test2/carriersinsaw 0.000000
+/test2/carrierfreq 0.000000
+/test2/audio/mute 0
+/test2/audio/gain 0.000000
+# 
+/test/modratioman 0
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+/test/modratio 0.000000
+/test/modindex 0.000000
+/test/modfreq 0.000000
+/test/carriersinsaw 0.000000
+/test/carrierfreq 0.000000
+/test/audio/mute 0
+/test/audio/gain 0.000000
+# 
+# ###########################################
+
+- cue "fullRangeMatra"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 7000
+/light1/max 1.000000
+/light1/min -0.134000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 7000
+/light2/max 1.000000
+/light2/min -0.270000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 3219
+/speed/rate/min 1968
+/speed/interpolate 2458
+/speed/max 0.360000
+/speed/min 0.096000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2015
+/tilt/rate/min 1094
+/tilt/interpolate 2229
+/tilt/max 0.660000
+/tilt/min 0.320000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+# ###########################################
+
+- cue "verticalSpeedMorph"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/interpolate 8000
+/light1/max 1.000000
+/light1/min 0.000000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/interpolate 8000
+/light2/max 1.000000
+/light2/min 0.000000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 6000
+/speed/rate/min 4000
+/speed/interpolate 5000
+/speed/max 1.000000
+/speed/min 0.800000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2471
+/tilt/rate/min 1721
+/tilt/interpolate 3097
+/tilt/max 0.515000
+/tilt/min 0.485000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 6000
+/tiltY/rate/min 4000
+/tiltY/interpolate 5000
+/tiltY/max 0.950000
+/tiltY/min 0.100000
+/tiltY/on 1
+/tiltY/step 1.000000
 # 
 # ###########################################
 

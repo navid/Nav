@@ -21,24 +21,24 @@
 /spectral_shift_help/frequency/shift -389.763702
 # 
 /eqbottom2/audio/bypass 0
-/eqbottom2/audio/gain -13.000000
+/eqbottom2/audio/gain -6.000000
 /eqbottom2/audio/mix 100.000000
 /eqbottom2/audio/mute 0
 /eqbottom2/filter.1/type lowshelf
-/eqbottom2/filter.1/frequency 79.192032
-/eqbottom2/filter.1/gain 4.779150
-/eqbottom2/filter.1/octave_bandwidth 0.691780
-/eqbottom2/filter.2/octave_bandwidth 1.744286
+/eqbottom2/filter.1/frequency 57.631142
+/eqbottom2/filter.1/gain 9.955703
+/eqbottom2/filter.1/octave_bandwidth 0.285422
+/eqbottom2/filter.2/octave_bandwidth 1.406260
 /eqbottom2/filter.2/gain -24.000000
-/eqbottom2/filter.2/frequency 259.490234
+/eqbottom2/filter.2/frequency 108.548706
 /eqbottom2/filter.2/type peaknotch
-/eqbottom2/filter.3/octave_bandwidth 3.076522
+/eqbottom2/filter.3/octave_bandwidth 2.647367
 /eqbottom2/filter.3/gain -24.000000
-/eqbottom2/filter.3/frequency 1000.000000
+/eqbottom2/filter.3/frequency 295.778595
 /eqbottom2/filter.3/type peaknotch
-/eqbottom2/filter.4/octave_bandwidth 1.041321
-/eqbottom2/filter.4/gain 8.737963
-/eqbottom2/filter.4/frequency 71.652061
+/eqbottom2/filter.4/octave_bandwidth 0.997783
+/eqbottom2/filter.4/gain 9.346850
+/eqbottom2/filter.4/frequency 68.148865
 /eqbottom2/filter.4/type lowpass
 /eqbottom2/bands 4
 # 
