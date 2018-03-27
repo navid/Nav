@@ -1,3 +1,0 @@
-Add a "Hold Length Variance" parameter
-Add a "Brightness" parameter
-Add a "Highpass cutoff" parameter 
