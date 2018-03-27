@@ -1,0 +1,150 @@
+- cue "test"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/output~/limiter/dcblocker/active 0
+/output~/limiter/active 1
+/output~/limiter/lookahead 64
+/output~/limiter/mode exponential
+/output~/limiter/postamp 0.000000
+/output~/limiter/preamp 6.000000
+/output~/limiter/release 300.000000
+/output~/limiter/threshold -1.000000
+# 
+/output~/record/file/type aiff
+/output~/record/samptype int24
+/output~/audio/gain 0.000000
+/output~/audio/mute 0
+# 
+/output~/balance/mode FastMode
+/output~/balance/position 0.000000
+/output~/balance/shape EqualPower
+# 
+/output~/saturation/active 1
+/output~/saturation/depth 10.000000
+/output~/saturation/mode 0.000000
+/output~/saturation/preamp 0.000000
+/output~/ch.1 1
+/output~/ch.2 2
+# 
+/osc1/audio/gain 0.000000
+/osc1/audio/mute 0
+/osc1/modratioman 0
+/osc1/modfreq 0.000000
+/osc1/modratio 0.000000
+/osc1/carrierfreq 200.000000
+/osc1/carriersinsaw 0.181102
+/osc1/modindex 4.645669
+/osc1/modnoise 0.000000
+/osc1/noisefilt 0.000000
+/osc1/squareorsaw 1
+/osc1/wavefolder 0.000000
+# 
+/function1/attack 5.000000
+/function1/attack_shape 0.000000
+/function1/decay 414.583191
+/function1/decay_shape -0.472441
+# 
+# ###########################################
+
+- cue "flutter"
+- description "something about this cue"
+# ###########################################
+# 
+/function1/attack 0.000000
+/function1/attack_shape -0.346457
+/function1/decay 159.970084
+/function1/decay_shape -0.874016
+# 
+/osc1/audio/gain -10.000000
+/osc1/audio/mute 0
+/osc1/modratioman 0
+/osc1/modfreq 0.055777
+/osc1/modratio 0.000000
+/osc1/carrierfreq 8956.785837
+/osc1/carriersinsaw 0.362205
+/osc1/modindex 0.000000
+/osc1/modnoise 0.000000
+/osc1/noisefilt 787.401575
+/osc1/squareorsaw 1
+/osc1/wavefolder 0.133858
+# 
+# 
+/output~/limiter/dcblocker/active 0
+/output~/limiter/active 1
+/output~/limiter/lookahead 64
+/output~/limiter/mode exponential
+/output~/limiter/postamp 0.000000
+/output~/limiter/preamp 6.000000
+/output~/limiter/release 300.000000
+/output~/limiter/threshold -1.000000
+# 
+/output~/record/file/type aiff
+/output~/record/samptype int24
+/output~/audio/gain 0.000000
+/output~/audio/mute 0
+# 
+/output~/balance/mode FastMode
+/output~/balance/position 0.000000
+/output~/balance/shape EqualPower
+# 
+/output~/saturation/active 1
+/output~/saturation/depth 10.000000
+/output~/saturation/mode 0.000000
+/output~/saturation/preamp 0.000000
+/output~/ch.1 1
+/output~/ch.2 2
+# 
+# ###########################################
+
+- cue "onduls"
+- description "something about this cue"
+# ###########################################
+# 
+/function1/attack 45.211272
+/function1/attack_shape -0.433071
+/function1/decay 96.090428
+/function1/decay_shape 0.559055
+# 
+/osc1/audio/gain -10.000000
+/osc1/audio/mute 0
+/osc1/modratioman 0
+/osc1/modfreq 0.030424
+/osc1/modratio 2.299213
+/osc1/carrierfreq 8956.785837
+/osc1/carriersinsaw 0.078740
+/osc1/modindex 0.944882
+/osc1/modnoise 0.023622
+/osc1/noisefilt 19370.078740
+/osc1/squareorsaw 1
+/osc1/wavefolder 0.307087
+# 
+# 
+/output~/limiter/dcblocker/active 0
+/output~/limiter/active 1
+/output~/limiter/lookahead 64
+/output~/limiter/mode exponential
+/output~/limiter/postamp 0.000000
+/output~/limiter/preamp 6.000000
+/output~/limiter/release 300.000000
+/output~/limiter/threshold -1.000000
+# 
+/output~/record/file/type aiff
+/output~/record/samptype int24
+/output~/audio/gain 0.000000
+/output~/audio/mute 0
+# 
+/output~/balance/mode FastMode
+/output~/balance/position 0.000000
+/output~/balance/shape EqualPower
+# 
+/output~/saturation/active 1
+/output~/saturation/depth 10.000000
+/output~/saturation/mode 0.000000
+/output~/saturation/preamp 0.000000
+/output~/ch.1 1
+/output~/ch.2 2
+# 
+# ###########################################
+
