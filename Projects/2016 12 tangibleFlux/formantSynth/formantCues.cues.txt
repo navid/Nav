@@ -1,0 +1,46 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/f1-hz/data/active 1
+/f1-hz/rate/max 3589
+/f1-hz/rate/min 1823
+/f1-hz/grain 35
+/f1-hz/interpolate 1069
+/f1-hz/max 102.000000
+/f1-hz/min 0.000000
+/f1-hz/on 0
+/f1-hz/step 0.800000
+# 
+/formant/data/active 1
+/formant/rate/max 4000
+/formant/rate/min 2000
+/formant/grain 25
+/formant/interpolate 4545
+/formant/max 838.000000
+/formant/min 198.000000
+/formant/on 1
+/formant/step 1.000000
+# 
+/modulate/data/active 1
+/modulate/rate/max 1458
+/modulate/rate/min 943
+/modulate/grain 37
+/modulate/interpolate 1250
+/modulate/max 104.000000
+/modulate/min 0.000000
+/modulate/on 1
+/modulate/step 1.000000
+# 
+/width/data/active 1
+/width/rate/max 2000
+/width/rate/min 549
+/width/grain 56
+/width/interpolate 1092
+/width/max 28.000000
+/width/min 0.000000
+/width/on 1
+/width/step 1.000000
+# 
+# ###########################################
+
