@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 3.0, 45.0, 214.0, 90.0 ],
+		"rect" : [ 4.0, 45.0, 214.0, 90.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,12 +47,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 91.0, 296.0, 894.0, 546.0 ],
+						"rect" : [ 91.0, 295.0, 894.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -79,6 +79,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -245,8 +246,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -982,8 +983,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2112,7 +2113,7 @@
 							}
 , 							{
 								"box" : 								{
-									"embedstate" : [ [ "CreateNFunctions", 7, "/speed", "/x", "/y", "/LED1", "/LED2", "/sonic1", "/sonic2", 0, 1, 0, 1000, -1, 1, 0, 1000, -1, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "SetColor", 2, "brgb", 204, 204, 204 ], [ "SetColor", 2, "frgb", 82, 82, 82 ], [ "SetColor", 2, "rgb2", 107, 107, 107 ], [ "SetColor", 2, "rgb3", 255, 0, 0 ], [ "SetColor", 2, "rgb4", 51, 51, 51 ], [ "SetColor", 2, "rgb5", 128, 128, 128 ], [ "SetColor", 2, "rgb6", 107, 107, 107 ], [ "SetColor", 3, "brgb", 204, 204, 204 ], [ "SetColor", 3, "frgb", 82, 82, 82 ], [ "SetColor", 3, "rgb2", 107, 107, 107 ], [ "SetColor", 3, "rgb3", 255, 0, 0 ], [ "SetColor", 3, "rgb4", 51, 51, 51 ], [ "SetColor", 3, "rgb5", 128, 128, 128 ], [ "SetColor", 3, "rgb6", 107, 107, 107 ], [ "SetColor", 4, "brgb", 204, 204, 204 ], [ "SetColor", 4, "frgb", 82, 82, 82 ], [ "SetColor", 4, "rgb2", 107, 107, 107 ], [ "SetColor", 4, "rgb3", 255, 0, 0 ], [ "SetColor", 4, "rgb4", 51, 51, 51 ], [ "SetColor", 4, "rgb5", 128, 128, 128 ], [ "SetColor", 4, "rgb6", 107, 107, 107 ], [ "SetColor", 5, "brgb", 204, 204, 204 ], [ "SetColor", 5, "frgb", 82, 82, 82 ], [ "SetColor", 5, "rgb2", 107, 107, 107 ], [ "SetColor", 5, "rgb3", 255, 0, 0 ], [ "SetColor", 5, "rgb4", 51, 51, 51 ], [ "SetColor", 5, "rgb5", 128, 128, 128 ], [ "SetColor", 5, "rgb6", 107, 107, 107 ], [ "SetColor", 6, "brgb", 204, 204, 204 ], [ "SetColor", 6, "frgb", 82, 82, 82 ], [ "SetColor", 6, "rgb2", 107, 107, 107 ], [ "SetColor", 6, "rgb3", 255, 0, 0 ], [ "SetColor", 6, "rgb4", 51, 51, 51 ], [ "SetColor", 6, "rgb5", 128, 128, 128 ], [ "SetColor", 6, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clickadd", 1 ], [ "timedisplay", 0 ], [ "nbfunction", 7 ], [ "movemode", 0 ], [ "legend", 1 ], [ "autocursor", 1 ], [ "snap2grid", 0 ], [ "pointsize", 5 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "bordersync", 0 ], [ "ghost", 20 ], [ "notifyrecalled", 0 ], [ "numcurvepoints", 12 ], [ "cacheddrawing", 0 ], [ "clicksustain", 1 ], [ "drawtoedges", 0 ], [ "mousereport", 0 ], [ "grid", 3 ], [ "hiddenpoint", 0 ], [ "clickmove", 1 ], [ "outputmode", 0 ] ],
+									"embedstate" : [ [ "CreateNFunctions", 5, "/LED1", "/LED2", "/y", "/x", "/speed", 0, 1, 0, 1000, 0, 1, 0, 1000, -1, 1, 0, 1000, -1, 1, 0, 1000, 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "SetColor", 2, "brgb", 204, 204, 204 ], [ "SetColor", 2, "frgb", 82, 82, 82 ], [ "SetColor", 2, "rgb2", 107, 107, 107 ], [ "SetColor", 2, "rgb3", 255, 0, 0 ], [ "SetColor", 2, "rgb4", 51, 51, 51 ], [ "SetColor", 2, "rgb5", 128, 128, 128 ], [ "SetColor", 2, "rgb6", 107, 107, 107 ], [ "SetColor", 3, "brgb", 204, 204, 204 ], [ "SetColor", 3, "frgb", 82, 82, 82 ], [ "SetColor", 3, "rgb2", 107, 107, 107 ], [ "SetColor", 3, "rgb3", 255, 0, 0 ], [ "SetColor", 3, "rgb4", 51, 51, 51 ], [ "SetColor", 3, "rgb5", 128, 128, 128 ], [ "SetColor", 3, "rgb6", 107, 107, 107 ], [ "SetColor", 4, "brgb", 204, 204, 204 ], [ "SetColor", 4, "frgb", 82, 82, 82 ], [ "SetColor", 4, "rgb2", 107, 107, 107 ], [ "SetColor", 4, "rgb3", 255, 0, 0 ], [ "SetColor", 4, "rgb4", 51, 51, 51 ], [ "SetColor", 4, "rgb5", 128, 128, 128 ], [ "SetColor", 4, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "grid", 3 ], [ "hiddenpoint", 0 ], [ "timedisplay", 0 ], [ "mode", 1 ], [ "mousereport", 0 ], [ "pointsize", 5 ], [ "clickadd", 1 ], [ "bordersync", 0 ], [ "movemode", 0 ], [ "cacheddrawing", 0 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "notifyrecalled", 0 ], [ "outputmode", 0 ], [ "autocursor", 1 ], [ "legend", 1 ], [ "numcurvepoints", 12 ], [ "nbfunction", 5 ], [ "drawtoedges", 0 ] ],
 									"filename" : "ej.function.js",
 									"id" : "obj-46",
 									"maxclass" : "jsui",
@@ -2140,8 +2141,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2669,8 +2670,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3171,8 +3172,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3764,13 +3765,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 9.0, 237.0, 59.5, 21.0 ],
 									"restore" : 									{
-										"ej.function[1]" : [ 6, 7, 5, 4, 8, 10, 8, 14, 2, "/speed", 0, 1000, 0, 1, 100, 0.1, 0, 0.083799, 0, 0, 173.714286, 0.357542, 0, 0, 378.285714, 0.369955, -0.365, 0, 640, 0.418994, -0.48, 0, 1000, 0, -0.655, 0, "/x", 0, 1000, -1, 1, 100, 0.1, 0.0, 0.0, 0, 0, 266.285714, 0.080717, 0, 0, 636.571429, -0.089686, 0, 0, 1000.0, 0.004484, 0, 0, "/y", 0, 1000, -1, 1, 100, 0.1, 0.0, 0.569507, 0, 0, 201.142857, -0.349776, -0.32, 0, 364.571429, 0.443946, -0.42, 0, 523.428571, -0.672646, -0.32, 0, 672.0, 0.125561, -0.26, 0, 828.571429, -0.008969, 0.86, 0, 964.571429, 0.013453, -0.18, 0, 1000.0, -1.0, 0.38, 0, "/LED1", 0, 1000, 0, 1, 100, 0.1, 0.0, 0.0, 0, 0, 211.428571, 0.100897, 0, 0, 334.857143, 0.098655, 0, 0, 397.714286, 0.399103, 0, 0, 478.857143, 0.0, 0, 0, 549.714286, 0.0, 0, 0, 661.714286, 0.596413, 0, 0, 763.428571, 0.338565, 0, 0, 858.285714, 1.0, 0, 0, 1000.0, 0.0, 0, 0, "/LED2", 0, 1000, 0, 1, 100, 0.1, 0.0, 0.042601, 0, 0, 100.571429, 0.733184, 0, 0, 386.285714, 0.221973, 0, 0, 493.714286, 0.174888, 0, 0, 549.714286, 0.941704, 0, 0, 676.571429, 0.304933, 0, 0, 862.857143, 0.668161, 0, 0, 1000.0, 0.11435, 0, 0, "/sonic1", 0, 1000, 0, 1, 100, 0.1, 0.0, 0.0, 0, 0, 94.857143, 0.914798, -0.54, 0, 192.0, 0.165919, -0.22, 0, 260.571429, 1.0, 0.34, 0, 325.714286, 0.103139, 0, 0, 341.714286, 0.100897, -0.26, 0, 370.285714, 0.105381, 0, 0, 427.428571, 0.845291, 0.22, 0, 520.0, 0.0, -0.28, 0, 653.714286, 0.867713, 0.12, 0, 722.285714, 1.0, -0.22, 0, 778.285714, 1.0, 0, 0, 904.0, 1.0, -0.52, 0, 1000.0, 0.0, -0.185, 0, "/sonic2", 0, 1000, 0, 1, 100, 0.1, 0.0, 1.0, 0, 0, 1000.0, 0.0, 0, 0 ],
-										"time" : [ 30000 ]
+										"ej.function[1]" : [ 6, 5, 4, 4, 8, 5, 9, "/LED1", 0, 1000, 0, 1, 100, 0.1, 0, 0, 0, 0, 261.714294, 1, -0.735, 0, 492.571442, 0.639013, 0.2, 0, 1000, 0, -0.635, 0, "/LED2", 0, 1000, 0, 1, 100, 0.1, 0, 0, 0, 0, 507.428558, 0.639013, 0.635, 0, 738.285706, 1, -0.2, 0, 1000, 0, 0.735, 0, "/y", 0, 1000, -1, 1, 100, 0.1, 0, 0.004484, 0, 0, 144, 0, 0, 0, 301.714294, -0.188341, -0.365, 0, 412.571442, 0.197309, 0.22, 0, 493.714294, 0.358744, -0.48, 0, 601.142883, -0.035874, 0.3, 0, 649.142883, -0.188341, -0.665, 0, 1000, -0.098655, -0.655, 0, "/x", 0, 1000, -1, 1, 100, 0.1, 0, 0, 0, 0, 241.142853, -0.085202, -0.36, 0, 593.142883, 0.179372, 0.52, 0, 682.285706, 0.242152, -0.595, 0, 1000, 0, 0.655, 0, "/speed", 0, 1000, 0, 1, 20, 0.1, 0, 0.159193, 0, 0, 114.285713, 0.282511, 0, 0, 209.142853, 0.087444, 0, 0, 315.428558, 0.159193, 0, 0, 525.714294, 0.369955, 0, 0, 604.571411, 0.360987, 0, 0, 674.285706, 0.195067, 0, 0, 868.571411, 0.233184, 0, 0, 1000, 0.251121, 0, 0 ],
+										"time" : [ 4000 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u671004458"
+									"varname" : "u533000938"
 								}
 
 							}
@@ -3859,8 +3860,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -4602,8 +4603,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4952,12 +4953,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 12.0, 159.0, 340.0, 510.0 ],
+						"rect" : [ 12.0, 158.0, 340.0, 510.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5111,8 +5112,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5964,12 +5965,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 527.0, 336.0, 737.0, 545.0 ],
+						"rect" : [ 232.0, 88.0, 737.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6124,8 +6125,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -6284,8 +6285,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -6488,8 +6489,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -6719,8 +6720,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -7391,12 +7392,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 676.0, 70.0, 844.0, 373.0 ],
+						"rect" : [ 308.0, 70.0, 844.0, 373.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7423,6 +7424,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-34",
@@ -7434,8 +7436,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -7529,8 +7531,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -8063,7 +8065,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-12", 1 ],
-																	"midpoints" : [ 52.5, 210.0, 35.0, 210.0, 35.0, 178.0, 175.970589, 178.0 ],
+																	"midpoints" : [ 52.5, 210.0, 35.0, 210.0, 35.0, 178.0, 175.970581, 178.0 ],
 																	"order" : 0,
 																	"source" : [ "obj-9", 0 ]
 																}
@@ -8174,8 +8176,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -9432,21 +9434,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "cue_manager.module.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.model.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.view.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -9459,55 +9461,55 @@
 , 			{
 				"name" : "j.datetime.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.namespace_selector.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.module.maxpat",
 				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.rand",
-				"patcherrelativepath" : "../../../../code/Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.model.maxpat",
 				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.rand",
-				"patcherrelativepath" : "../../../../code/Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.absdiff.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.view.maxpat",
 				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.rand",
-				"patcherrelativepath" : "../../../../code/Nav/Jamoma-v1/j.nav.rand",
+				"patcherrelativepath" : "../../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TFfunctions.json",
-				"bootpath" : "~/Desktop/tangibleFlux/formantSynthesis/TF-v3",
+				"bootpath" : "~/code/Nav/Projects/2016 12 tangibleFlux/TF-v3",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9515,7 +9517,7 @@
 , 			{
 				"name" : "ej.function.js",
 				"bootpath" : "~/Documents/Max 7/Packages/ejies/jsui",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/ejies/jsui",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/ejies/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
