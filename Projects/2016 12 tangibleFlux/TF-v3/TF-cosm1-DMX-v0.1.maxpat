@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -47,12 +47,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x86",
+							"revision" : 5,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 78.0, 223.0, 1143.0, 652.0 ],
+						"rect" : [ 78.0, 223.0, 1143.0, 615.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -79,7 +79,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-90",
@@ -91,8 +90,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -877,8 +876,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -985,8 +984,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
-															"architecture" : "x86",
+															"revision" : 5,
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -1519,7 +1518,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-12", 1 ],
-																	"midpoints" : [ 52.5, 210.0, 35.0, 210.0, 35.0, 178.0, 175.970581, 178.0 ],
+																	"midpoints" : [ 52.5, 210.0, 35.0, 210.0, 35.0, 178.0, 175.970589, 178.0 ],
 																	"order" : 0,
 																	"source" : [ "obj-9", 0 ]
 																}
@@ -1637,8 +1636,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2616,8 +2615,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3353,8 +3352,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4483,7 +4482,7 @@
 							}
 , 							{
 								"box" : 								{
-									"embedstate" : [ [ "CreateNFunctions", 7, "/speed", "/x", "/y", "/LED1", "/LED2", "/sonic1", "/sonic2", 0, 1, 0, 1000, -1, 1, 0, 1000, -1, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "SetColor", 2, "brgb", 204, 204, 204 ], [ "SetColor", 2, "frgb", 82, 82, 82 ], [ "SetColor", 2, "rgb2", 107, 107, 107 ], [ "SetColor", 2, "rgb3", 255, 0, 0 ], [ "SetColor", 2, "rgb4", 51, 51, 51 ], [ "SetColor", 2, "rgb5", 128, 128, 128 ], [ "SetColor", 2, "rgb6", 107, 107, 107 ], [ "SetColor", 3, "brgb", 204, 204, 204 ], [ "SetColor", 3, "frgb", 82, 82, 82 ], [ "SetColor", 3, "rgb2", 107, 107, 107 ], [ "SetColor", 3, "rgb3", 255, 0, 0 ], [ "SetColor", 3, "rgb4", 51, 51, 51 ], [ "SetColor", 3, "rgb5", 128, 128, 128 ], [ "SetColor", 3, "rgb6", 107, 107, 107 ], [ "SetColor", 4, "brgb", 204, 204, 204 ], [ "SetColor", 4, "frgb", 82, 82, 82 ], [ "SetColor", 4, "rgb2", 107, 107, 107 ], [ "SetColor", 4, "rgb3", 255, 0, 0 ], [ "SetColor", 4, "rgb4", 51, 51, 51 ], [ "SetColor", 4, "rgb5", 128, 128, 128 ], [ "SetColor", 4, "rgb6", 107, 107, 107 ], [ "SetColor", 5, "brgb", 204, 204, 204 ], [ "SetColor", 5, "frgb", 82, 82, 82 ], [ "SetColor", 5, "rgb2", 107, 107, 107 ], [ "SetColor", 5, "rgb3", 255, 0, 0 ], [ "SetColor", 5, "rgb4", 51, 51, 51 ], [ "SetColor", 5, "rgb5", 128, 128, 128 ], [ "SetColor", 5, "rgb6", 107, 107, 107 ], [ "SetColor", 6, "brgb", 204, 204, 204 ], [ "SetColor", 6, "frgb", 82, 82, 82 ], [ "SetColor", 6, "rgb2", 107, 107, 107 ], [ "SetColor", 6, "rgb3", 255, 0, 0 ], [ "SetColor", 6, "rgb4", 51, 51, 51 ], [ "SetColor", 6, "rgb5", 128, 128, 128 ], [ "SetColor", 6, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "outputmode", 0 ], [ "clicksustain", 1 ], [ "legend", 1 ], [ "ghost", 20 ], [ "pointsize", 5 ], [ "nbfunction", 7 ], [ "movemode", 0 ], [ "hiddenpoint", 0 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "cacheddrawing", 0 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "bordersync", 0 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "clickadd", 1 ], [ "notifyrecalled", 0 ], [ "numcurvepoints", 12 ], [ "mode", 1 ], [ "drawtoedges", 0 ], [ "autocursor", 1 ] ],
+									"embedstate" : [ [ "CreateNFunctions", 7, "/speed", "/x", "/y", "/LED1", "/LED2", "/sonic1", "/sonic2", 0, 1, 0, 1000, -1, 1, 0, 1000, -1, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "SetColor", 2, "brgb", 204, 204, 204 ], [ "SetColor", 2, "frgb", 82, 82, 82 ], [ "SetColor", 2, "rgb2", 107, 107, 107 ], [ "SetColor", 2, "rgb3", 255, 0, 0 ], [ "SetColor", 2, "rgb4", 51, 51, 51 ], [ "SetColor", 2, "rgb5", 128, 128, 128 ], [ "SetColor", 2, "rgb6", 107, 107, 107 ], [ "SetColor", 3, "brgb", 204, 204, 204 ], [ "SetColor", 3, "frgb", 82, 82, 82 ], [ "SetColor", 3, "rgb2", 107, 107, 107 ], [ "SetColor", 3, "rgb3", 255, 0, 0 ], [ "SetColor", 3, "rgb4", 51, 51, 51 ], [ "SetColor", 3, "rgb5", 128, 128, 128 ], [ "SetColor", 3, "rgb6", 107, 107, 107 ], [ "SetColor", 4, "brgb", 204, 204, 204 ], [ "SetColor", 4, "frgb", 82, 82, 82 ], [ "SetColor", 4, "rgb2", 107, 107, 107 ], [ "SetColor", 4, "rgb3", 255, 0, 0 ], [ "SetColor", 4, "rgb4", 51, 51, 51 ], [ "SetColor", 4, "rgb5", 128, 128, 128 ], [ "SetColor", 4, "rgb6", 107, 107, 107 ], [ "SetColor", 5, "brgb", 204, 204, 204 ], [ "SetColor", 5, "frgb", 82, 82, 82 ], [ "SetColor", 5, "rgb2", 107, 107, 107 ], [ "SetColor", 5, "rgb3", 255, 0, 0 ], [ "SetColor", 5, "rgb4", 51, 51, 51 ], [ "SetColor", 5, "rgb5", 128, 128, 128 ], [ "SetColor", 5, "rgb6", 107, 107, 107 ], [ "SetColor", 6, "brgb", 204, 204, 204 ], [ "SetColor", 6, "frgb", 82, 82, 82 ], [ "SetColor", 6, "rgb2", 107, 107, 107 ], [ "SetColor", 6, "rgb3", 255, 0, 0 ], [ "SetColor", 6, "rgb4", 51, 51, 51 ], [ "SetColor", 6, "rgb5", 128, 128, 128 ], [ "SetColor", 6, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "autocursor", 1 ], [ "nbfunction", 7 ], [ "legend", 1 ], [ "clickmove", 1 ], [ "hiddenpoint", 0 ], [ "grid", 3 ], [ "bordersync", 0 ], [ "outputmode", 0 ], [ "ghost", 20 ], [ "clickadd", 1 ], [ "timedisplay", 0 ], [ "cacheddrawing", 0 ], [ "notifyrecalled", 0 ], [ "numcurvepoints", 12 ], [ "clicksustain", 1 ], [ "drawtoedges", 0 ], [ "snap2grid", 0 ], [ "mousereport", 1 ], [ "pointsize", 5 ], [ "mode", 1 ], [ "movemode", 0 ], [ "autosustain", 0 ] ],
 									"filename" : "ej.function.js",
 									"id" : "obj-46",
 									"maxclass" : "jsui",
@@ -4511,8 +4510,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -5040,8 +5039,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -5542,8 +5541,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -6146,7 +6145,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u825002294"
+									"varname" : "u154001206"
 								}
 
 							}
@@ -6235,8 +6234,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -7143,8 +7142,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x86",
+							"revision" : 5,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -7175,7 +7174,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-41",
@@ -7302,8 +7300,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8155,8 +8153,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x86",
+							"revision" : 5,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8315,8 +8313,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8475,8 +8473,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8679,8 +8677,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8910,8 +8908,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x86",
+											"revision" : 5,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -9602,11 +9600,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-45" : [ "live.text[6]", "FILTER", 0 ],
-			"obj-11::obj-64" : [ "live.text[2]", "FILTER", 0 ],
-			"obj-11::obj-63" : [ "live.text[3]", "FILTER", 0 ],
 			"obj-11::obj-62" : [ "live.text[4]", "FILTER", 0 ],
-			"obj-11::obj-53" : [ "live.text[5]", "FILTER", 0 ]
+			"obj-11::obj-64" : [ "live.text[2]", "FILTER", 0 ],
+			"obj-11::obj-53" : [ "live.text[5]", "FILTER", 0 ],
+			"obj-11::obj-63" : [ "live.text[3]", "FILTER", 0 ],
+			"obj-11::obj-45" : [ "live.text[6]", "FILTER", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -1,0 +1,392 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 6000
+/LED1/rate/min 4000
+/LED1/grain 35
+/LED1/interpolate 5000
+/LED1/max 270.000000
+/LED1/min 0.000000
+/LED1/on 1
+/LED1/step 1.000000
+# 
+/LED2/data/active 1
+/LED2/rate/max 6000
+/LED2/rate/min 4000
+/LED2/grain 35
+/LED2/interpolate 5000
+/LED2/max 255.000000
+/LED2/min 0.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 6000
+/servo1/rate/min 4000
+/servo1/grain 35
+/servo1/interpolate 5000
+/servo1/max 270.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 6000
+/servo2/rate/min 4000
+/servo2/grain 35
+/servo2/interpolate 5000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 6000
+/servo3/rate/min 4000
+/servo3/grain 35
+/servo3/interpolate 5000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
+- cue "slowRight"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 7500
+/LED1/rate/min 6000
+/LED1/grain 35
+/LED1/interpolate 7000
+/LED1/max 34.000000
+/LED1/min -20.000000
+/LED1/on 1
+/LED1/step 1.000000
+# 
+/LED2/data/active 1
+/LED2/rate/max 7500
+/LED2/rate/min 6000
+/LED2/grain 33
+/LED2/interpolate 7000
+/LED2/max 270.000000
+/LED2/min -10.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 6000
+/servo1/rate/min 4000
+/servo1/grain 35
+/servo1/interpolate 6000
+/servo1/max 255.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 6000
+/servo2/rate/min 4000
+/servo2/grain 35
+/servo2/interpolate 6000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 6000
+/servo3/rate/min 4000
+/servo3/grain 35
+/servo3/interpolate 6000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
+- cue "fast"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 3000
+/LED1/rate/min 2000
+/LED1/grain 35
+/LED1/interpolate 3000
+/LED1/max 255.000000
+/LED1/min 0.000000
+/LED1/on 1
+/LED1/step 1.000000
+# 
+/LED2/data/active 1
+/LED2/rate/max 3000
+/LED2/rate/min 2000
+/LED2/grain 35
+/LED2/interpolate 3000
+/LED2/max 255.000000
+/LED2/min 0.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 2000
+/servo1/rate/min 1500
+/servo1/grain 35
+/servo1/interpolate 2000
+/servo1/max 255.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 2000
+/servo2/rate/min 1500
+/servo2/grain 35
+/servo2/interpolate 2000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 2000
+/servo3/rate/min 1500
+/servo3/grain 35
+/servo3/interpolate 2000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
+- cue "strob1"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 100
+/LED1/rate/min 10
+/LED1/grain 25
+/LED1/interpolate 0
+/LED1/max 160.000000
+/LED1/min -6000.000000
+/LED1/on 1
+/LED1/step 1.000000
+# 
+/LED2/data/active 1
+/LED2/rate/max 100
+/LED2/rate/min 10
+/LED2/grain 25
+/LED2/interpolate 0
+/LED2/max 200.000000
+/LED2/min -5000.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 2000
+/servo1/rate/min 1500
+/servo1/grain 35
+/servo1/interpolate 2000
+/servo1/max 255.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 2000
+/servo2/rate/min 1500
+/servo2/grain 35
+/servo2/interpolate 2000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 2000
+/servo3/rate/min 1500
+/servo3/grain 35
+/servo3/interpolate 2000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
+- cue "strob2"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 1000
+/LED1/rate/min 800
+/LED1/grain 2
+/LED1/interpolate 1000
+/LED1/max 6.500000
+/LED1/min -5.000000
+/LED1/on 1
+/LED1/step 0.300000
+# 
+/LED2/data/active 1
+/LED2/rate/max 70
+/LED2/rate/min 3
+/LED2/grain 1
+/LED2/interpolate 0
+/LED2/max 170.000000
+/LED2/min -600000.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 3000
+/servo1/rate/min 2000
+/servo1/grain 35
+/servo1/interpolate 3000
+/servo1/max 255.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 3000
+/servo2/rate/min 2000
+/servo2/grain 35
+/servo2/interpolate 3000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 3000
+/servo3/rate/min 2000
+/servo3/grain 35
+/servo3/interpolate 3000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
+- cue "led1Slow"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 4000
+/LED1/rate/min 3000
+/LED1/grain 35
+/LED1/interpolate 4000
+/LED1/max 255.000000
+/LED1/min 70.000000
+/LED1/on 1
+/LED1/step 1.000000
+# 
+/LED2/data/active 1
+/LED2/rate/max 4000
+/LED2/rate/min 3000
+/LED2/grain 35
+/LED2/interpolate 4000
+/LED2/max 73.000000
+/LED2/min 0.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 2000
+/servo1/rate/min 1500
+/servo1/grain 35
+/servo1/interpolate 3000
+/servo1/max 255.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 2000
+/servo2/rate/min 1500
+/servo2/grain 35
+/servo2/interpolate 3000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 2000
+/servo3/rate/min 1500
+/servo3/grain 35
+/servo3/interpolate 3000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
+- cue "dotted"
+- description "something about this cue"
+# ###########################################
+# 
+/LED1/data/active 1
+/LED1/rate/max 3000
+/LED1/rate/min 2000
+/LED1/grain 35
+/LED1/interpolate 3000
+/LED1/max 60.000000
+/LED1/min 0.000000
+/LED1/on 1
+/LED1/step 1.000000
+# 
+/LED2/data/active 1
+/LED2/rate/max 3000
+/LED2/rate/min 2000
+/LED2/grain 35
+/LED2/interpolate 3000
+/LED2/max 100.000000
+/LED2/min 20.000000
+/LED2/on 1
+/LED2/step 1.000000
+# 
+/servo1/data/active 1
+/servo1/rate/max 2000
+/servo1/rate/min 1500
+/servo1/grain 35
+/servo1/interpolate 2000
+/servo1/max 255.000000
+/servo1/min 0.000000
+/servo1/on 1
+/servo1/step 1.000000
+# 
+/servo2/data/active 1
+/servo2/rate/max 2000
+/servo2/rate/min 1500
+/servo2/grain 35
+/servo2/interpolate 2000
+/servo2/max 255.000000
+/servo2/min 0.000000
+/servo2/on 1
+/servo2/step 1.000000
+# 
+/servo3/data/active 1
+/servo3/rate/max 2000
+/servo3/rate/min 1500
+/servo3/grain 35
+/servo3/interpolate 2000
+/servo3/max 255.000000
+/servo3/min 0.000000
+/servo3/on 1
+/servo3/step 1.000000
+# 
+# ###########################################
+
