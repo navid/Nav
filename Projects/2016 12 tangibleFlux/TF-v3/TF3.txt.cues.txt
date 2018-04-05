@@ -3082,48 +3082,6 @@
 # 
 # ###########################################
 
-- cue "insane"
-- description "something about this cue"
-# ###########################################
-# 
-/light1/data/active 1
-/light1/rate/max 2000
-/light1/rate/min 1000
-/light1/interpolate 938
-/light1/max 1.020000
-/light1/min 0.140000
-/light1/on 1
-/light1/step 1.000000
-# 
-/light2/data/active 1
-/light2/rate/max 2000
-/light2/rate/min 1000
-/light2/interpolate 1069
-/light2/max 1.020000
-/light2/min 0.140000
-/light2/on 1
-/light2/step 1.000000
-# 
-/speed/data/active 1
-/speed/rate/max 2875
-/speed/rate/min 1899
-/speed/interpolate 662
-/speed/max 0.900000
-/speed/min 0.190000
-/speed/on 1
-/speed/step 1.000000
-# 
-/tilt/data/active 1
-/tilt/rate/max 233
-/tilt/rate/min 50
-/tilt/interpolate 0
-/tilt/max 0.800000
-/tilt/min 0.200000
-/tilt/on 1
-/tilt/step 1.000000
-# 
-# ###########################################
-
 - cue "motorHead"
 - description "something about this cue"
 # ###########################################
@@ -3141,7 +3099,7 @@
 /light2/rate/max 200
 /light2/rate/min 0
 /light2/interpolate 0
-/light2/max 0.300000
+/light2/max 0.600000
 /light2/min -0.400000
 /light2/on 1
 /light2/step 1.000000
@@ -3150,7 +3108,7 @@
 /speed/rate/max 3402
 /speed/rate/min 2067
 /speed/interpolate 1833
-/speed/max 0.950000
+/speed/max 0.970000
 /speed/min 0.700000
 /speed/on 1
 /speed/step 1.000000
@@ -3159,8 +3117,8 @@
 /tilt/rate/max 2471
 /tilt/rate/min 1721
 /tilt/interpolate 1650
-/tilt/max 0.600000
-/tilt/min 0.030000
+/tilt/max 0.200000
+/tilt/min -0.900000
 /tilt/on 1
 /tilt/step 1.000000
 # 
@@ -3175,8 +3133,8 @@
 # 
 /tiltY/data/active 1
 /tiltY/interpolate 353
-/tiltY/min 0.290000
-/tiltY/max 0.800000
+/tiltY/min -0.400000
+/tiltY/max 0.400000
 /tiltY/on 1
 /tiltY/rate/min 2000
 /tiltY/rate/max 4000
@@ -3241,48 +3199,6 @@
 /tiltY/rate/min 2000
 /tiltY/rate/max 4000
 /tiltY/step 1.000000
-# 
-# ###########################################
-
-- cue "Schizo"
-- description "something about this cue"
-# ###########################################
-# 
-/light1/data/active 1
-/light1/rate/max 2000
-/light1/rate/min 1000
-/light1/interpolate 938
-/light1/max 1.020000
-/light1/min 0.140000
-/light1/on 1
-/light1/step 1.000000
-# 
-/light2/data/active 1
-/light2/rate/max 2000
-/light2/rate/min 1000
-/light2/interpolate 1069
-/light2/max 1.020000
-/light2/min 0.140000
-/light2/on 1
-/light2/step 1.000000
-# 
-/speed/data/active 1
-/speed/rate/max 1179
-/speed/rate/min 1487
-/speed/interpolate 432
-/speed/max 0.800000
-/speed/min 0.400000
-/speed/on 1
-/speed/step 1.000000
-# 
-/tilt/data/active 1
-/tilt/rate/max 190
-/tilt/rate/min 50
-/tilt/interpolate 0
-/tilt/max 0.930000
-/tilt/min 0.070000
-/tilt/on 1
-/tilt/step 1.000000
 # 
 # ###########################################
 
@@ -4039,6 +3955,398 @@
 /tiltY/interpolate 353
 /tiltY/max 0.040000
 /tiltY/min -0.040000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "Schizo"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 2000
+/light1/rate/min 1000
+/light1/grain 25
+/light1/interpolate 938
+/light1/max 1.020000
+/light1/min 0.137000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 2000
+/light2/rate/min 1000
+/light2/grain 25
+/light2/interpolate 1069
+/light2/max 1.020000
+/light2/min 0.050000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 1179
+/speed/rate/min 1487
+/speed/grain 25
+/speed/interpolate 432
+/speed/max 0.800000
+/speed/min 0.400000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 190
+/tilt/rate/min 50
+/tilt/grain 25
+/tilt/interpolate 0
+/tilt/max 0.700000
+/tilt/min -0.600000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 1000
+/tiltY/rate/min 600
+/tiltY/grain 25
+/tiltY/interpolate 0
+/tiltY/max 0.670000
+/tiltY/min -0.700000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "insane"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 2000
+/light1/rate/min 1000
+/light1/grain 25
+/light1/interpolate 938
+/light1/max 1.020000
+/light1/min 0.140000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 2000
+/light2/rate/min 1000
+/light2/grain 25
+/light2/interpolate 1069
+/light2/max 0.400000
+/light2/min -0.400000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 2875
+/speed/rate/min 1899
+/speed/grain 25
+/speed/interpolate 662
+/speed/max 0.900000
+/speed/min 0.190000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 233
+/tilt/rate/min 50
+/tilt/grain 25
+/tilt/interpolate 0
+/tilt/max 0.600000
+/tilt/min -0.600000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 4000
+/tiltY/rate/min 2000
+/tiltY/grain 25
+/tiltY/interpolate 353
+/tiltY/max 0.700000
+/tiltY/min -0.800000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "classicMovesFast"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 2000
+/light1/rate/min 1000
+/light1/grain 25
+/light1/interpolate 938
+/light1/max 1.020000
+/light1/min 0.140000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 2000
+/light2/rate/min 1000
+/light2/grain 25
+/light2/interpolate 1069
+/light2/max 1.020000
+/light2/min 0.140000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 2875
+/speed/rate/min 1899
+/speed/grain 25
+/speed/interpolate 662
+/speed/max 0.430000
+/speed/min 0.200000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 233
+/tilt/rate/min 50
+/tilt/grain 25
+/tilt/interpolate 200
+/tilt/max 0.270000
+/tilt/min -0.270000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 4000
+/tiltY/rate/min 2000
+/tiltY/grain 25
+/tiltY/interpolate 353
+/tiltY/max 0.120000
+/tiltY/min -0.700000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "classicRange"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/grain 25
+/light1/interpolate 7323
+/light1/max 0.870000
+/light1/min -0.002000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/grain 25
+/light2/interpolate 7417
+/light2/max 0.440000
+/light2/min -0.002000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 4621
+/speed/rate/min 3426
+/speed/grain 25
+/speed/interpolate 3583
+/speed/max 0.410000
+/speed/min 0.170000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2130
+/tilt/rate/min 993
+/tilt/grain 25
+/tilt/interpolate 1160
+/tilt/max 0.040000
+/tilt/min -0.040000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 6000
+/tiltY/rate/min 4000
+/tiltY/grain 25
+/tiltY/interpolate 5000
+/tiltY/max 0.060000
+/tiltY/min -0.090000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "classicDimStable"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/grain 25
+/light1/interpolate 7000
+/light1/max 0.142000
+/light1/min 0.000000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/grain 25
+/light2/interpolate 7000
+/light2/max 0.100000
+/light2/min 0.002000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 2875
+/speed/rate/min 1899
+/speed/grain 25
+/speed/interpolate 1107
+/speed/max 0.300000
+/speed/min 0.193000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2130
+/tilt/rate/min 806
+/tilt/grain 25
+/tilt/interpolate 0
+/tilt/max 0.030000
+/tilt/min 0.030000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 6000
+/tiltY/rate/min 4000
+/tiltY/grain 25
+/tiltY/interpolate 5000
+/tiltY/max 0.060000
+/tiltY/min -0.090000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "classicBrightStable"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 2000
+/light1/rate/min 1000
+/light1/grain 25
+/light1/interpolate 938
+/light1/max 1.200000
+/light1/min 0.690000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 2000
+/light2/rate/min 1000
+/light2/grain 25
+/light2/interpolate 1069
+/light2/max 1.200000
+/light2/min 0.670000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 3000
+/speed/rate/min 2000
+/speed/grain 25
+/speed/interpolate 2000
+/speed/max 0.380000
+/speed/min 0.130000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2130
+/tilt/rate/min 806
+/tilt/grain 25
+/tilt/interpolate 0
+/tilt/max 0.020000
+/tilt/min -0.030000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 6000
+/tiltY/rate/min 4000
+/tiltY/grain 25
+/tiltY/interpolate 5000
+/tiltY/max 0.060000
+/tiltY/min -0.130000
+/tiltY/on 1
+/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "dimBackForthClassic"
+- description "something about this cue"
+# ###########################################
+# 
+/light1/data/active 1
+/light1/rate/max 7000
+/light1/rate/min 6000
+/light1/grain 25
+/light1/interpolate 7000
+/light1/max 0.223000
+/light1/min 0.001000
+/light1/on 1
+/light1/step 1.000000
+# 
+/light2/data/active 1
+/light2/rate/max 7000
+/light2/rate/min 6000
+/light2/grain 25
+/light2/interpolate 7000
+/light2/max 0.213000
+/light2/min 0.001000
+/light2/on 1
+/light2/step 1.000000
+# 
+/speed/data/active 1
+/speed/rate/max 3241
+/speed/rate/min 1926
+/speed/grain 25
+/speed/interpolate 2612
+/speed/max 0.440000
+/speed/min 0.150000
+/speed/on 1
+/speed/step 1.000000
+# 
+/tilt/data/active 1
+/tilt/rate/max 2130
+/tilt/rate/min 806
+/tilt/grain 25
+/tilt/interpolate 0
+/tilt/max 0.030000
+/tilt/min -0.030000
+/tilt/on 1
+/tilt/step 1.000000
+# 
+/tiltY/data/active 1
+/tiltY/rate/max 6000
+/tiltY/rate/min 4000
+/tiltY/grain 25
+/tiltY/interpolate 5000
+/tiltY/max 0.500000
+/tiltY/min -0.550000
 /tiltY/on 1
 /tiltY/step 1.000000
 # 
