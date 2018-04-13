@@ -477,7 +477,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 380.0, 84.0, 324.0, 383.0 ],
+						"rect" : [ 380.0, 79.0, 324.0, 383.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -521,7 +521,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 981.0, 131.0, 458.0, 333.0 ],
+										"rect" : [ 1165.0, 79.0, 349.0, 333.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -559,7 +559,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 309.0, 205.0, 44.0, 22.0 ],
-													"presentation_rect" : [ 309.0, 205.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "dotted"
 												}
@@ -575,7 +574,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 242.0, 205.0, 59.0, 22.0 ],
-													"presentation_rect" : [ 242.0, 205.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "led1Slow"
 												}
@@ -1647,7 +1645,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 835.0, 127.0, 412.0, 507.0 ],
+										"rect" : [ 765.0, 79.0, 331.0, 507.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2598,6 +2596,7 @@
 												"default" : 												{
 													"fontface" : [ 1 ],
 													"fontsize" : [ 11.0 ],
+													"fontname" : [ "Arial" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2606,8 +2605,7 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-,
-													"fontname" : [ "Arial" ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -2634,6 +2632,7 @@
 												"name" : "jbb",
 												"default" : 												{
 													"fontsize" : [ 9.0 ],
+													"fontname" : [ "Arial" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2642,8 +2641,7 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-,
-													"fontname" : [ "Arial" ]
+
 												}
 ,
 												"parentstyle" : "",
