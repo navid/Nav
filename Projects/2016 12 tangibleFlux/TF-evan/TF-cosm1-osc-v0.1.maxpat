@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 892.0, 177.0, 597.0, 682.0 ],
+		"rect" : [ 289.0, 166.0, 492.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,32 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 357.0, 535.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 329.0, 571.0, 191.0, 22.0 ],
-					"style" : "",
-					"text" : "j.remote /cue_manager_osc/recall"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -86,8 +60,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -424,7 +398,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.760872, 600.0, 221.0, 22.0 ],
+					"patching_rect" : [ 3.760872, 476.0, 221.0, 22.0 ],
 					"style" : "",
 					"text" : "cue_manager.model cue_manager_osc"
 				}
@@ -523,7 +497,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.5, 2.5, 150.0, 350.0 ],
+					"patching_rect" : [ 338.260864, 2.5, 150.0, 350.0 ],
 					"presentation_rect" : [ 377.0, 63.0, 150.0, 350.0 ],
 					"viewvisibility" : 1
 				}
@@ -584,7 +558,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.260864, 2.5, 150.0, 350.0 ],
+					"patching_rect" : [ 180.260864, 2.5, 150.0, 350.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 350.0 ],
 					"viewvisibility" : 1
 				}
@@ -714,13 +688,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
@@ -775,58 +742,58 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-16::obj-1::obj-118" : [ "live.text[3]", "FILTER", 0 ],
+			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
 			"obj-6::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-6::obj-43" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-6::obj-45" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-16::obj-1::obj-25" : [ "OutMin", "Max", 0 ],
-			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-6::obj-36" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-6::obj-40" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-6::obj-12" : [ "live.dial[5]", "index", 0 ],
-			"obj-6::obj-16" : [ "live.dial[4]", "noise", 0 ],
+			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
 			"obj-16::obj-1::obj-9" : [ "Invert", "Invert", 0 ],
 			"obj-16::obj-1::obj-72" : [ "Smooth", "Smooth", 0 ],
-			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-16::obj-1::obj-17" : [ "Gain", "Gain", 0 ],
-			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-6::obj-36" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-16::obj-1::obj-38" : [ "OutMax", "Min", 0 ],
-			"obj-16::obj-1::obj-88" : [ "Drive", "Drive", 0 ],
-			"obj-16::obj-1::obj-27" : [ "Compand", "Comp", 0 ],
 			"obj-6::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-6::obj-40" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-16::obj-1::obj-17" : [ "Gain", "Gain", 0 ],
 			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-6::obj-10" : [ "live.dial[6]", "morph", 0 ],
+			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
+			"obj-16::obj-1::obj-25" : [ "OutMin", "Max", 0 ],
 			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
-			"obj-16::obj-1::obj-118" : [ "live.text[3]", "FILTER", 0 ]
+			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-6::obj-16" : [ "live.dial[4]", "noise", 0 ],
+			"obj-6::obj-45" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-16::obj-1::obj-38" : [ "OutMax", "Min", 0 ],
+			"obj-6::obj-43" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-16::obj-1::obj-88" : [ "Drive", "Drive", 0 ],
+			"obj-6::obj-10" : [ "live.dial[6]", "morph", 0 ],
+			"obj-16::obj-1::obj-27" : [ "Compand", "Comp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "nav.complexosc~.model.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.osc~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.osc~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.osc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.polysin2saw5.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.osc~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.osc~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.osc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sawphasdist.gendsp",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.osc~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.osc~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.osc~",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.complexosc~.view.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.osc~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.osc~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.osc~",
 				"type" : "JSON",
 				"implicit" : 1
@@ -867,21 +834,21 @@
 			}
 , 			{
 				"name" : "nav.cook~.module.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.cook~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.cook~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.cook~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.cook~.view.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.cook~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.cook~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.cook~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.cook~.model.maxpat",
-				"bootpath" : "~/Github/Nav/Jamoma-v1/nav.cook~",
+				"bootpath" : "~/code/Nav/Jamoma-v1/nav.cook~",
 				"patcherrelativepath" : "../../../Jamoma-v1/nav.cook~",
 				"type" : "JSON",
 				"implicit" : 1
