@@ -477,7 +477,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 380.0, 84.0, 324.0, 383.0 ],
+						"rect" : [ 380.0, 79.0, 324.0, 383.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -507,6 +507,20 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 7.0, 85.5, 92.0, 35.0 ],
+									"style" : "",
+									"text" : "nav.rand.module motor"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-29",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -521,7 +535,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 981.0, 131.0, 458.0, 333.0 ],
+										"rect" : [ 1165.0, 79.0, 349.0, 333.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -559,7 +573,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 309.0, 205.0, 44.0, 22.0 ],
-													"presentation_rect" : [ 309.0, 205.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "dotted"
 												}
@@ -575,7 +588,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 242.0, 205.0, 59.0, 22.0 ],
-													"presentation_rect" : [ 242.0, 205.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "led1Slow"
 												}
@@ -1647,7 +1659,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 835.0, 127.0, 412.0, 507.0 ],
+										"rect" : [ 765.0, 79.0, 331.0, 507.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2041,8 +2053,8 @@
 													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "signal", "signal", "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 6.5, 376.0, 166.0, 33.0 ],
 													"style" : "",
 													"text" : "spat5.ircamverb~ @sources 2 @speakers 2 @internals 8"
@@ -2597,7 +2609,6 @@
 												"name" : "Default M4L-1",
 												"default" : 												{
 													"fontface" : [ 1 ],
-													"fontsize" : [ 11.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2607,6 +2618,7 @@
 														"proportion" : 0.39
 													}
 ,
+													"fontsize" : [ 11.0 ],
 													"fontname" : [ "Arial" ]
 												}
 ,
@@ -2633,7 +2645,6 @@
 , 											{
 												"name" : "jbb",
 												"default" : 												{
-													"fontsize" : [ 9.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2643,6 +2654,7 @@
 														"proportion" : 0.39
 													}
 ,
+													"fontsize" : [ 9.0 ],
 													"fontname" : [ "Arial" ]
 												}
 ,
@@ -4129,6 +4141,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-116", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 6 ],
 									"source" : [ "obj-69", 0 ]
 								}
@@ -4258,8 +4277,8 @@
 			}
 , 			{
 				"name" : "j.absdiff.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/absdiff",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/components/data/absdiff",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/components/data/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4279,22 +4298,22 @@
 			}
 , 			{
 				"name" : "cue_manager.module.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue_manager.view.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/data/cue_manager",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/models/data/cue_manager",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/models/data/cue_manager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4306,22 +4325,22 @@
 			}
 , 			{
 				"name" : "j.datetime.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/components/data/datetime",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/components/data/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.namespace_selector.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespace_selector",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/components/namespace/namespace_selector",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/components/namespace/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/components/data/initialized",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma-nightly/patchers/components/data/initialized",
+				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma-nightly/patchers/components/data/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4355,10 +4374,6 @@
 			}
 , 			{
 				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.ircamverb~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
