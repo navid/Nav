@@ -1,0 +1,455 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.899911
+/drive/scale/range/min -0.009999
+/drive/scale/comp 0.110236
+/drive/scale/drive 0.000000
+/drive/scale/gain 30.000000
+/drive/scale/invert 0
+/drive/scale/smooth 0.031863
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -4.000000
+/test/audio/mute 1
+/test/modratioman 0
+/test/modfreq 1.500000
+/test/modratio 0.000000
+/test/carrierfreq 25.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -4.000000
+/test2/audio/mute 1
+/test2/modratioman 0
+/test2/modfreq 1.500000
+/test2/modratio 0.000000
+/test2/carrierfreq 25.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "init2"
+- description "something about this cue"
+# ###########################################
+# 
+/test/audio/gain -4.000000
+/test/audio/mute 0
+/test/modratioman 1
+/test/modfreq 5.119398
+/test/modratio 1.354331
+/test/carrierfreq 48.698170
+/test/carriersinsaw 0.039370
+/test/modindex 0.078740
+/test/modnoise 0.000000
+/test/wavefolder 0.039370
+# 
+/test2/audio/gain -4.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 10.329131
+/test2/modratio 0.000000
+/test2/carrierfreq 42.015652
+/test2/carriersinsaw 0.102362
+/test2/modindex 0.866142
+/test2/modnoise 0.000000
+/test2/wavefolder 0.039370
+# 
+/lpgtest/resonance 0.595276
+# 
+/lpgtest/mapresonance/process/rampTime 0.000000
+/lpgtest/mapresonance/process/mode 0.000000
+/lpgtest/mapresonance/process/clipmode both
+/lpgtest/mapresonance/process/function freehand
+/lpgtest/mapresonance/slide/down 0.000000
+/lpgtest/mapresonance/slide/up 0.000000
+/lpgtest/mapresonance/output/max 1.000000
+/lpgtest/mapresonance/output/min 0.000000
+/lpgtest/mapresonance/input/max 1.000000
+/lpgtest/mapresonance/input/min 0.000000
+/lpgtest/mapresonance/input/address none
+/lpgtest/mapresonance/scalebypass 1
+/lpgtest/mapresonance/function/parameters.1 0.000000
+/lpgtest/mapresonance/active 0
+/lpgtest/mapresonance/data/active 1
+/lpgtest/mod/resonance 0.000000
+/lpgtest/mod/vcaness 0.000000
+/lpgtest/mod/offset 0.000000
+/lpgtest/mod/offset.1 0.000000
+/lpgtest/vcaness 0.181102
+# 
+/lpgtest/mapvcaness/process/rampTime 0.000000
+/lpgtest/mapvcaness/process/mode 0.000000
+/lpgtest/mapvcaness/process/clipmode both
+/lpgtest/mapvcaness/process/function freehand
+/lpgtest/mapvcaness/slide/down 0.000000
+/lpgtest/mapvcaness/slide/up 0.000000
+/lpgtest/mapvcaness/output/max 1.000000
+/lpgtest/mapvcaness/output/min 0.000000
+/lpgtest/mapvcaness/input/max 1.000000
+/lpgtest/mapvcaness/input/min 0.000000
+/lpgtest/mapvcaness/input/address none
+/lpgtest/mapvcaness/scalebypass 1
+/lpgtest/mapvcaness/function/parameters.1 0.000000
+/lpgtest/mapvcaness/active 0
+/lpgtest/mapvcaness/data/active 1
+/lpgtest/offset 0.000000
+/lpgtest/offset.1 0.000000
+# 
+/lpgtest/mapoffset/process/rampTime 0.000000
+/lpgtest/mapoffset/process/mode 0.000000
+/lpgtest/mapoffset/process/clipmode both
+/lpgtest/mapoffset/process/function freehand
+/lpgtest/mapoffset/slide/down 0.000000
+/lpgtest/mapoffset/slide/up 0.000000
+/lpgtest/mapoffset/output/max 1.000000
+/lpgtest/mapoffset/output/min 0.000000
+/lpgtest/mapoffset/input/max 1.000000
+/lpgtest/mapoffset/input/min 0.000000
+/lpgtest/mapoffset/input/address none
+/lpgtest/mapoffset/scalebypass 1
+/lpgtest/mapoffset/function/parameters.1 0.000000
+/lpgtest/mapoffset/active 0
+/lpgtest/mapoffset/data/active 1
+# 
+/lpgtest/mapoffset.1/process/rampTime 0.000000
+/lpgtest/mapoffset.1/process/mode 0.000000
+/lpgtest/mapoffset.1/process/clipmode both
+/lpgtest/mapoffset.1/process/function freehand
+/lpgtest/mapoffset.1/slide/down 0.000000
+/lpgtest/mapoffset.1/slide/up 0.000000
+/lpgtest/mapoffset.1/output/max 1.000000
+/lpgtest/mapoffset.1/output/min 0.000000
+/lpgtest/mapoffset.1/input/max 1.000000
+/lpgtest/mapoffset.1/input/min 0.000000
+/lpgtest/mapoffset.1/input/address none
+/lpgtest/mapoffset.1/scalebypass 1
+/lpgtest/mapoffset.1/function/parameters.1 0.000000
+/lpgtest/mapoffset.1/active 0
+/lpgtest/mapoffset.1/data/active 1
+/lpgtest/nonlinmode 1
+/lpgtest/lpmode 1
+# 
+# ###########################################
+
+- cue "droneAttractor"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.369963
+/drive/scale/comp 0.015748
+/drive/scale/drive -0.078740
+/drive/scale/gain 25.158382
+/drive/scale/invert 0
+/drive/scale/smooth 0.104623
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -8.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 35.000000
+/test/modratio 0.000000
+/test/carrierfreq 50.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -8.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 36.000000
+/test2/modratio 0.000000
+/test2/carrierfreq 100.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "circle1"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.089991
+/drive/scale/comp 0.015748
+/drive/scale/drive -0.047244
+/drive/scale/gain 24.743750
+/drive/scale/invert 0
+/drive/scale/smooth 1.936407
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -4.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 200.000000
+/test/modratio 0.000000
+/test/carrierfreq 20.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -3.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 20.000000
+/test2/modratio 0.000000
+/test2/carrierfreq 80.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "circle1.1"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.089991
+/drive/scale/comp 0.031496
+/drive/scale/drive -0.125984
+/drive/scale/gain 25.571222
+/drive/scale/invert 0
+/drive/scale/smooth 0.501218
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -4.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 80.000000
+/test/modratio 0.000000
+/test/carrierfreq 24.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -3.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 15.000000
+/test2/modratio 0.000000
+/test2/carrierfreq 50.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "droneAttractor2"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.069993
+/drive/scale/comp 0.062992
+/drive/scale/drive -0.094488
+/drive/scale/gain 30.000000
+/drive/scale/invert 0
+/drive/scale/smooth 0.613462
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -8.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 9.000000
+/test/modratio 0.000000
+/test/carrierfreq 50.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -6.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 13.000000
+/test2/modratio 0.000000
+/test2/carrierfreq 100.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "circle1-cleaner"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.029997
+/drive/scale/comp 0.055118
+/drive/scale/drive -0.125984
+/drive/scale/gain 22.216793
+/drive/scale/invert 0
+/drive/scale/smooth 0.888802
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -4.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 200.000000
+/test/modratio 0.000000
+/test/carrierfreq 20.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -9.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 300.000000
+/test2/modratio 0.000000
+/test2/carrierfreq 20.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "circle2"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.089991
+/drive/scale/comp 0.015748
+/drive/scale/drive -0.047244
+/drive/scale/gain 24.743750
+/drive/scale/invert 0
+/drive/scale/smooth 1.936407
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -5.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 50.000000
+/test/modratio 0.000000
+/test/carrierfreq 20.000000
+/test/carriersinsaw 0.000000
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -3.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 40.000000
+/test2/modratio 0.000000
+/test2/carrierfreq 80.000000
+/test2/carriersinsaw 0.000000
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
+- cue "noise-insane"
+- description "something about this cue"
+# ###########################################
+# 
+/drive/scale/range/max 0.999901
+/drive/scale/range/min -0.039996
+/drive/scale/comp 0.047244
+/drive/scale/drive -0.094488
+/drive/scale/gain 24.327291
+/drive/scale/invert 0
+/drive/scale/smooth 0.031863
+/drive/scale/visualize 1
+/drive/audio/bypass 0
+/drive/audio/gain -10.000000
+/drive/audio/mix 99.000000
+/drive/audio/mute 0
+/drive/data/active 1
+/drive/snapshot/interval 0
+/drive/snapshot/on 0
+# 
+/test/audio/gain -11.000000
+/test/audio/mute 0
+/test/modratioman 0
+/test/modfreq 14960.626953
+/test/modratio 0.000000
+/test/carrierfreq 80.000000
+/test/carriersinsaw 0.496063
+/test/modindex 0.000000
+/test/modnoise 0.000000
+/test/wavefolder 0.000000
+# 
+/test2/audio/gain -3.000000
+/test2/audio/mute 0
+/test2/modratioman 0
+/test2/modfreq 15845.670898
+/test2/modratio 0.000000
+/test2/carrierfreq 39.000000
+/test2/carriersinsaw 0.275591
+/test2/modindex 0.000000
+/test2/modnoise 0.000000
+/test2/wavefolder 0.000000
+# 
+# ###########################################
+
