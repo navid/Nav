@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 40.0, 79.0, 271.0, 176.0 ],
+		"rect" : [ 40.0, 79.0, 251.0, 176.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -250,7 +250,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 158.0, 45.0, 36.0, 22.0 ],
+					"patching_rect" : [ 159.0, 43.5, 36.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 833.5, 509.0, 36.0, 22.0 ],
 					"saved_object_attributes" : 					{
@@ -276,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 7.0, 109.0, 31.0 ],
+					"patching_rect" : [ 139.0, 5.0, 109.0, 31.0 ],
 					"style" : "",
 					"text" : "cue_manager.module cosm2"
 				}
@@ -439,7 +439,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.0, 145.0, 127.0, 19.0 ],
+					"patching_rect" : [ 133.0, 145.0, 80.0, 19.0 ],
 					"style" : ""
 				}
 
@@ -1720,7 +1720,6 @@
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 458.0, 275.5, 50.0, 22.0 ],
-													"presentation_rect" : [ 458.0, 273.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -1735,7 +1734,6 @@
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 364.0, 390.0, 50.0, 22.0 ],
-													"presentation_rect" : [ 364.0, 390.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -1761,7 +1759,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 439.666687, 321.0, 42.0, 22.0 ],
-													"presentation_rect" : [ 280.5, 414.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "*~ 0.9"
 												}
@@ -1787,7 +1784,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 286.0, 340.0, 42.0, 22.0 ],
-													"presentation_rect" : [ 289.0, 337.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "*~ 0.7"
 												}
@@ -2012,8 +2008,8 @@
 , 															{
 																"name" : "Default M4L",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
 																	"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+																	"fontsize" : [ 11.0 ],
 																	"fontname" : [ "Arial Bold" ]
 																}
 ,
@@ -2023,8 +2019,8 @@
 , 															{
 																"name" : "Default M4L Poletti",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
 																	"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+																	"fontsize" : [ 10.0 ],
 																	"fontname" : [ "Arial Bold" ]
 																}
 ,
@@ -3002,8 +2998,8 @@
 , 											{
 												"name" : "Default M4L",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
 													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+													"fontsize" : [ 11.0 ],
 													"fontname" : [ "Arial Bold" ]
 												}
 ,
@@ -3013,8 +3009,8 @@
 , 											{
 												"name" : "Default M4L Poletti",
 												"default" : 												{
-													"fontsize" : [ 10.0 ],
 													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+													"fontsize" : [ 10.0 ],
 													"fontname" : [ "Arial Bold" ]
 												}
 ,
@@ -4629,7 +4625,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
-					"midpoints" : [ 196.5, 168.0, 265.0, 168.0, 265.0, 107.0, 12.5, 107.0 ],
+					"midpoints" : [ 173.0, 168.0, 240.0, 168.0, 240.0, 107.0, 12.5, 107.0 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -4678,11 +4674,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-37::obj-1::obj-8::obj-76::obj-62" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-37::obj-1::obj-8::obj-76::obj-72" : [ "live.text[14]", "live.text[8]", 0 ],
 			"obj-37::obj-1::obj-8::obj-76::obj-58" : [ "live.text[10]", "live.text[9]", 0 ],
-			"obj-37::obj-1::obj-8::obj-76::obj-57" : [ "live.text[9]", "live.text[9]", 0 ],
 			"obj-37::obj-1::obj-8::obj-76::obj-3" : [ "live.text[1]", "live.text[9]", 0 ],
-			"obj-37::obj-1::obj-8::obj-76::obj-72" : [ "live.text[14]", "live.text[8]", 0 ]
+			"obj-37::obj-1::obj-8::obj-76::obj-62" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-37::obj-1::obj-8::obj-76::obj-57" : [ "live.text[9]", "live.text[9]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
