@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 19.0, 45.0, 178.0, 169.0 ],
+		"rect" : [ 6.0, 45.0, 176.0, 155.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 116.0, 143.0, 53.0, 22.0 ],
+					"patching_rect" : [ 117.785706, 113.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "j.model"
 				}
@@ -752,7 +752,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.785706, 139.0, 91.0, 22.0 ],
+					"patching_rect" : [ 8.785706, 127.0, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -10669,7 +10669,7 @@
 							}
 , 							{
 								"box" : 								{
-									"embedstate" : [ [ "CreateNFunctions", 7, "/speed", "/x", "/y", "/LED1", "/LED2", "/sonic1", "/sonic2", 0, 1, 0, 1000, -1, 1, 0, 1000, -1, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "SetColor", 2, "brgb", 204, 204, 204 ], [ "SetColor", 2, "frgb", 82, 82, 82 ], [ "SetColor", 2, "rgb2", 107, 107, 107 ], [ "SetColor", 2, "rgb3", 255, 0, 0 ], [ "SetColor", 2, "rgb4", 51, 51, 51 ], [ "SetColor", 2, "rgb5", 128, 128, 128 ], [ "SetColor", 2, "rgb6", 107, 107, 107 ], [ "SetColor", 3, "brgb", 204, 204, 204 ], [ "SetColor", 3, "frgb", 82, 82, 82 ], [ "SetColor", 3, "rgb2", 107, 107, 107 ], [ "SetColor", 3, "rgb3", 255, 0, 0 ], [ "SetColor", 3, "rgb4", 51, 51, 51 ], [ "SetColor", 3, "rgb5", 128, 128, 128 ], [ "SetColor", 3, "rgb6", 107, 107, 107 ], [ "SetColor", 4, "brgb", 204, 204, 204 ], [ "SetColor", 4, "frgb", 82, 82, 82 ], [ "SetColor", 4, "rgb2", 107, 107, 107 ], [ "SetColor", 4, "rgb3", 255, 0, 0 ], [ "SetColor", 4, "rgb4", 51, 51, 51 ], [ "SetColor", 4, "rgb5", 128, 128, 128 ], [ "SetColor", 4, "rgb6", 107, 107, 107 ], [ "SetColor", 5, "brgb", 204, 204, 204 ], [ "SetColor", 5, "frgb", 82, 82, 82 ], [ "SetColor", 5, "rgb2", 107, 107, 107 ], [ "SetColor", 5, "rgb3", 255, 0, 0 ], [ "SetColor", 5, "rgb4", 51, 51, 51 ], [ "SetColor", 5, "rgb5", 128, 128, 128 ], [ "SetColor", 5, "rgb6", 107, 107, 107 ], [ "SetColor", 6, "brgb", 204, 204, 204 ], [ "SetColor", 6, "frgb", 82, 82, 82 ], [ "SetColor", 6, "rgb2", 107, 107, 107 ], [ "SetColor", 6, "rgb3", 255, 0, 0 ], [ "SetColor", 6, "rgb4", 51, 51, 51 ], [ "SetColor", 6, "rgb5", 128, 128, 128 ], [ "SetColor", 6, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "hiddenpoint", 0 ], [ "numcurvepoints", 12 ], [ "drawtoedges", 0 ], [ "timedisplay", 0 ], [ "clickadd", 1 ], [ "legend", 1 ], [ "cacheddrawing", 0 ], [ "autocursor", 1 ], [ "movemode", 0 ], [ "grid", 3 ], [ "bordersync", 0 ], [ "mousereport", 1 ], [ "mode", 1 ], [ "outputmode", 0 ], [ "clicksustain", 1 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "pointsize", 5 ], [ "autosustain", 0 ], [ "nbfunction", 7 ], [ "notifyrecalled", 0 ] ],
+									"embedstate" : [ [ "CreateNFunctions", 7, "/speed", "/x", "/y", "/LED1", "/LED2", "/sonic1", "/sonic2", 0, 1, 0, 1000, -1, 1, 0, 1000, -1, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000, 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "SetColor", 2, "brgb", 204, 204, 204 ], [ "SetColor", 2, "frgb", 82, 82, 82 ], [ "SetColor", 2, "rgb2", 107, 107, 107 ], [ "SetColor", 2, "rgb3", 255, 0, 0 ], [ "SetColor", 2, "rgb4", 51, 51, 51 ], [ "SetColor", 2, "rgb5", 128, 128, 128 ], [ "SetColor", 2, "rgb6", 107, 107, 107 ], [ "SetColor", 3, "brgb", 204, 204, 204 ], [ "SetColor", 3, "frgb", 82, 82, 82 ], [ "SetColor", 3, "rgb2", 107, 107, 107 ], [ "SetColor", 3, "rgb3", 255, 0, 0 ], [ "SetColor", 3, "rgb4", 51, 51, 51 ], [ "SetColor", 3, "rgb5", 128, 128, 128 ], [ "SetColor", 3, "rgb6", 107, 107, 107 ], [ "SetColor", 4, "brgb", 204, 204, 204 ], [ "SetColor", 4, "frgb", 82, 82, 82 ], [ "SetColor", 4, "rgb2", 107, 107, 107 ], [ "SetColor", 4, "rgb3", 255, 0, 0 ], [ "SetColor", 4, "rgb4", 51, 51, 51 ], [ "SetColor", 4, "rgb5", 128, 128, 128 ], [ "SetColor", 4, "rgb6", 107, 107, 107 ], [ "SetColor", 5, "brgb", 204, 204, 204 ], [ "SetColor", 5, "frgb", 82, 82, 82 ], [ "SetColor", 5, "rgb2", 107, 107, 107 ], [ "SetColor", 5, "rgb3", 255, 0, 0 ], [ "SetColor", 5, "rgb4", 51, 51, 51 ], [ "SetColor", 5, "rgb5", 128, 128, 128 ], [ "SetColor", 5, "rgb6", 107, 107, 107 ], [ "SetColor", 6, "brgb", 204, 204, 204 ], [ "SetColor", 6, "frgb", 82, 82, 82 ], [ "SetColor", 6, "rgb2", 107, 107, 107 ], [ "SetColor", 6, "rgb3", 255, 0, 0 ], [ "SetColor", 6, "rgb4", 51, 51, 51 ], [ "SetColor", 6, "rgb5", 128, 128, 128 ], [ "SetColor", 6, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "hiddenpoint", 0 ], [ "numcurvepoints", 12 ], [ "drawtoedges", 0 ], [ "timedisplay", 0 ], [ "outputmode", 0 ], [ "clickadd", 1 ], [ "cacheddrawing", 0 ], [ "autocursor", 1 ], [ "movemode", 0 ], [ "bordersync", 0 ], [ "clicksustain", 1 ], [ "mousereport", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "mode", 1 ], [ "clickmove", 1 ], [ "pointsize", 5 ], [ "autosustain", 0 ], [ "nbfunction", 7 ], [ "grid", 3 ], [ "legend", 1 ], [ "notifyrecalled", 0 ] ],
 									"filename" : "ej.function.js",
 									"id" : "obj-46",
 									"maxclass" : "jsui",
@@ -12332,7 +12332,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u280001070"
+									"varname" : "u789001023"
 								}
 
 							}
@@ -13392,7 +13392,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 243.0, 351.0, 518.0 ],
+						"rect" : [ 5.0, 223.0, 351.0, 518.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -16391,22 +16391,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-60::obj-9" : [ "multislider[4]", "multislider[4]", 0 ],
-			"obj-60::obj-4" : [ "multislider[3]", "multislider[3]", 0 ],
-			"obj-60::obj-6" : [ "number[1]", "number[1]", 0 ],
-			"obj-11::obj-53" : [ "live.text[5]", "FILTER", 0 ],
-			"obj-60::obj-27" : [ "number", "number", 0 ],
-			"obj-60::obj-50" : [ "number[4]", "number[4]", 0 ],
-			"obj-60::obj-38" : [ "multislider[1]", "multislider[1]", 0 ],
-			"obj-11::obj-63" : [ "live.text[3]", "FILTER", 0 ],
-			"obj-60::obj-56" : [ "multislider[5]", "multislider", 0 ],
 			"obj-60::obj-7" : [ "number[2]", "number[2]", 0 ],
+			"obj-60::obj-30" : [ "multislider", "multislider", 0 ],
+			"obj-11::obj-64" : [ "live.text[2]", "FILTER", 0 ],
+			"obj-60::obj-4" : [ "multislider[3]", "multislider[3]", 0 ],
+			"obj-11::obj-53" : [ "live.text[5]", "FILTER", 0 ],
+			"obj-60::obj-17" : [ "number[3]", "number[3]", 0 ],
+			"obj-60::obj-38" : [ "multislider[1]", "multislider[1]", 0 ],
+			"obj-60::obj-27" : [ "number", "number", 0 ],
+			"obj-11::obj-63" : [ "live.text[3]", "FILTER", 0 ],
+			"obj-60::obj-9" : [ "multislider[4]", "multislider[4]", 0 ],
+			"obj-60::obj-6" : [ "number[1]", "number[1]", 0 ],
+			"obj-60::obj-56" : [ "multislider[5]", "multislider", 0 ],
+			"obj-60::obj-50" : [ "number[4]", "number[4]", 0 ],
 			"obj-11::obj-45" : [ "live.text[6]", "FILTER", 0 ],
 			"obj-60::obj-39" : [ "multislider[2]", "multislider[2]", 0 ],
-			"obj-11::obj-62" : [ "live.text[4]", "FILTER", 0 ],
-			"obj-60::obj-30" : [ "multislider", "multislider", 0 ],
-			"obj-60::obj-17" : [ "number[3]", "number[3]", 0 ],
-			"obj-11::obj-64" : [ "live.text[2]", "FILTER", 0 ]
+			"obj-11::obj-62" : [ "live.text[4]", "FILTER", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
