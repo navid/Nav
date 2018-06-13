@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 168.0, 207.0, 242.0, 111.0 ],
+		"rect" : [ 168.0, 207.0, 223.0, 94.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.0, 34.0, 105.0, 29.0 ],
+					"patching_rect" : [ 124.0, 56.0, 105.0, 29.0 ],
 					"presentation_rect" : [ 131.5, 345.0, 110.0, 61.0 ],
 					"viewvisibility" : 1
 				}
@@ -74,7 +74,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 464.0, 116.0, 462.0, 582.0 ],
+						"rect" : [ 818.0, 178.0, 1118.0, 582.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -102,6 +102,118 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"linecount" : 58,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 561.0, 141.0, 399.0, 786.0 ],
+									"style" : "",
+									"text" : "/equalizer/samplerate 48000, /equalizer/bypass 0, /equalizer/gain 0, /equalizer/filter/1/active 0, /equalizer/filter/1/freq 50, /equalizer/filter/1/order 2, /equalizer/filter/2/active 0, /equalizer/filter/2/freq 456, /equalizer/filter/2/gain -14.2, /equalizer/filter/2/q 1, /equalizer/filter/3/active 1, /equalizer/filter/3/freq 30, /equalizer/filter/3/gain -7.1, /equalizer/filter/3/q 15.71, /equalizer/filter/4/active 1, /equalizer/filter/4/freq 5643, /equalizer/filter/4/gain 15.2, /equalizer/filter/4/q 13.44, /equalizer/filter/5/active 1, /equalizer/filter/5/freq 30, /equalizer/filter/5/gain -15.7, /equalizer/filter/5/q 1.63, /equalizer/filter/6/active 1, /equalizer/filter/6/freq 608, /equalizer/filter/6/gain 7.5, /equalizer/filter/6/q 7.72, /equalizer/filter/7/active 0, /equalizer/filter/7/freq 3888, /equalizer/filter/7/gain -22, /equalizer/filter/7/q 1.41, /equalizer/filter/8/active 0, /equalizer/filter/8/freq 5282, /equalizer/filter/8/order 2, /equalizer/filter/1/color 0 0 0.560784 1, /equalizer/filter/2/color 0 0.12549 1 1, /equalizer/filter/3/color 0 0.686275 1 1, /equalizer/filter/4/color 0.25098 1 0.74902 1, /equalizer/filter/5/color 0.811765 1 0.188235 1, /equalizer/filter/6/color 1 0.623529 0 1, /equalizer/filter/7/color 1 0.062745 0 1, /equalizer/filter/8/color 0.501961 0 0 1, /filtergraph/curve/number 9, /filtergraph/samplerate 0, /filtergraph/title, /filtergraph/curve/1/visible 0, /filtergraph/curve/1/foreground/color 0 0 0.560784 1, /filtergraph/curve/1/color 0 0 0.560784 1, /filtergraph/curve/1/fill 0, /filtergraph/curve/1/thickness 1, /filtergraph/curve/2/visible 0, /filtergraph/curve/2/foreground/color 0 0.12549 1 1, /filtergraph/curve/2/color 0 0.12549 1 1, /filtergraph/curve/2/fill 0, /filtergraph/curve/2/thickness 1, /filtergraph/curve/3/visible 1, /filtergraph/curve/3/foreground/color 0 0.686275 1 1, /filtergraph/curve/3/color 0 0.686275 1 1, /filtergraph/curve/3/fill 0, /filtergraph/curve/3/thickness 1, /filtergraph/curve/4/visible 1, /filtergraph/curve/4/foreground/color 0.25098 1 0.74902 1, /filtergraph/curve/4/color 0.25098 1 0.74902 1, /filtergraph/curve/4/fill 0, /filtergraph/curve/4/thickness 1, /filtergraph/curve/5/visible 1, /filtergraph/curve/5/foreground/color 0.811765 1 0.188235 1, /filtergraph/curve/5/color 0.811765 1 0.188235 1, /filtergraph/curve/5/fill 0, /filtergraph/curve/5/thickness 1, /filtergraph/curve/6/visible 1, /filtergraph/curve/6/foreground/color 1 0.623529 0 1, /filtergraph/curve/6/color 1 0.623529 0 1, /filtergraph/curve/6/fill 0, /filtergraph/curve/6/thickness 1, /filtergraph/curve/7/visible 0, /filtergraph/curve/7/foreground/color 1 0.062745 0 1, /filtergraph/curve/7/color 1 0.062745 0 1, /filtergraph/curve/7/fill 0, /filtergraph/curve/7/thickness 1, /filtergraph/curve/8/visible 0, /filtergraph/curve/8/foreground/color 0.501961 0 0 1, /filtergraph/curve/8/color 0.501961 0 0 1, /filtergraph/curve/8/fill 0, /filtergraph/curve/8/thickness 1, /filtergraph/curve/9/visible 1, /filtergraph/curve/9/foreground/color 0 0 0 0.2, /filtergraph/curve/9/color 0 0 0 1, /filtergraph/curve/9/fill 1, /filtergraph/curve/9/thickness 3, /filtergraph/mode magnitude, /filtergraph/font/size 10, /filtergraph/grid/visible 1, /filtergraph/grid/color 0.501961 0.501961 0.501961 1, /filtergraph/phase/unwrap 0, /filtergraph/phase/min -180, /filtergraph/phase/max 180, /filtergraph/freq/min 20, /filtergraph/freq/max 22050, /filtergraph/freq/logscale 1, /filtergraph/magnitude/min -12, /filtergraph/magnitude/max 12, /filtergraph/magnitude/logscale 1, /filtergraph/xtick/visible 1, /filtergraph/ytick/visible 1, /filtergraph/cursor/visible 0, /filtergraph/cursor/color 1 0 0 1, /filtergraph/background/color 1 1 1 0, /filtergraph/frame/visible 1, /filtergraph/frame/color 0 0 0 1, /filtergraph/frame/rounded 5, /filtergraph/frame/thickness 2, /controllers/visible 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 557.0, 97.0, 73.0, 22.0 ],
+									"style" : "",
+									"text" : "fromsymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 557.0, 71.0, 79.0, 22.0 ],
+									"style" : "",
+									"text" : "route symbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 414.0, 29.0, 50.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 532.0, 34.0, 50.5, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"style" : "",
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 466.0, 96.0, 41.0, 22.0 ],
+									"presentation_rect" : [ 466.0, 96.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "name"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-16",
+									"linecount" : 37,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 466.0, 131.0, 432.0, 381.0 ],
+									"style" : "",
+									"text" : "/equalizer/samplerate 48000, /equalizer/bypass 0, /equalizer/gain 0, /equalizer/filter/1/active 0, /equalizer/filter/1/freq 50, /equalizer/filter/1/order 2, /equalizer/filter/2/active 0, /equalizer/filter/2/freq 456, /equalizer/filter/2/gain -14.2, /equalizer/filter/2/q 1, /equalizer/filter/3/active 1, /equalizer/filter/3/freq 500, /equalizer/filter/3/gain 0, /equalizer/filter/3/q 1, /equalizer/filter/4/active 1, /equalizer/filter/4/freq 18009, /equalizer/filter/4/gain 15.2, /equalizer/filter/4/q 13.44, /equalizer/filter/5/active 1, /equalizer/filter/5/freq 30, /equalizer/filter/5/gain -15.7, /equalizer/filter/5/q 1.63, /equalizer/filter/6/active 1, /equalizer/filter/6/freq 2345, /equalizer/filter/6/gain 7.5, /equalizer/filter/6/q 7.72, /equalizer/filter/7/active 1, /equalizer/filter/7/freq 3888, /equalizer/filter/7/gain -22, /equalizer/filter/7/q 1.41, /equalizer/filter/8/active 0, /equalizer/filter/8/freq 5282, /equalizer/filter/8/order 2, /equalizer/filter/1/color 0 0 0.560784 1, /equalizer/filter/2/color 0 0.12549 1 1, /equalizer/filter/3/color 0 0.686275 1 1, /equalizer/filter/4/color 0.25098 1 0.74902 1, /equalizer/filter/5/color 0.811765 1 0.188235 1, /equalizer/filter/6/color 1 0.623529 0 1, /equalizer/filter/7/color 1 0.062745 0 1, /equalizer/filter/8/color 0.501961 0 0 1, /filtergraph/curve/number 9, /filtergraph/samplerate 0, /filtergraph/title, /filtergraph/curve/1/visible 0, /filtergraph/curve/1/foreground/color 0 0 0.560784 1, /filtergraph/curve/1/color 0 0 0.560784 1, /filtergraph/curve/1/fill 0, /filtergraph/curve/1/thickness 1, /filtergraph/curve/2/visible 0, /filtergraph/curve/2/foreground/color 0 0.12549 1 1, /filtergraph/curve/2/color 0 0.12549 1 1, /filtergraph/curve/2/fill 0, /filtergraph/curve/2/thickness 1, /filtergraph/curve/3/visible 1, /filtergraph/curve/3/foreground/color 0 0.686275 1 1, /filtergraph/curve/3/color 0 0.686275 1 1, /filtergraph/curve/3/fill 0, /filtergraph/curve/3/thickness 1, /filtergraph/curve/4/visible 1, /filtergraph/curve/4/foreground/color 0.25098 1 0.74902 1, /filtergraph/curve/4/color 0.25098 1 0.74902 1, /filtergraph/curve/4/fill 0, /filtergraph/curve/4/thickness 1, /filtergraph/curve/5/visible 1, /filtergraph/curve/5/foreground/color 0.811765 1 0.188235 1, /filtergraph/curve/5/color 0.811765 1 0.188235 1, /filtergraph/curve/5/fill 0, /filtergraph/curve/5/thickness 1, /filtergraph/curve/6/visible 1, /filtergraph/curve/6/foreground/color 1 0.623529 0 1, /filtergraph/curve/6/color 1 0.623529 0 1, /filtergraph/curve/6/fill 0, /filtergraph/curve/6/thickness 1, /filtergraph/curve/7/visible 1, /filtergraph/curve/7/foreground/color 1 0.062745 0 1, /filtergraph/curve/7/color 1 0.062745 0 1, /filtergraph/curve/7/fill 0, /filtergraph/curve/7/thickness 1, /filtergraph/curve/8/visible 0, /filtergraph/curve/8/foreground/color 0.501961 0 0 1, /filtergraph/curve/8/color 0.501961 0 0 1, /filtergraph/curve/8/fill 0, /filtergraph/curve/8/thickness 1, /filtergraph/curve/9/visible 1, /filtergraph/curve/9/foreground/color 0 0 0 0.2, /filtergraph/curve/9/color 0 0 0 1, /filtergraph/curve/9/fill 1, /filtergraph/curve/9/thickness 3, /filtergraph/mode magnitude, /filtergraph/font/size 10, /filtergraph/grid/visible 1, /filtergraph/grid/color 0.501961 0.501961 0.501961 1, /filtergraph/phase/unwrap 0, /filtergraph/phase/min -180, /filtergraph/phase/max 180, /filtergraph/freq/min 20, /filtergraph/freq/max 22050, /filtergraph/freq/logscale 1, /filtergraph/magnitude/min -12, /filtergraph/magnitude/max 12, /filtergraph/magnitude/logscale 1, /filtergraph/xtick/visible 1, /filtergraph/ytick/visible 1, /filtergraph/cursor/visible 0, /filtergraph/cursor/color 1 0 0 1, /filtergraph/background/color 1 1 1 0, /filtergraph/frame/visible 1, /filtergraph/frame/color 0 0 0 1, /filtergraph/frame/rounded 5, /filtergraph/frame/thickness 2, /controllers/visible 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 68.0, 532.0, 46.0, 22.0 ],
+									"style" : "",
+									"text" : "/status"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "newobj",
@@ -163,10 +275,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 131.0, 424.0, 391.0 ],
-									"presentation_rect" : [ 194.0, 257.0, 0.0, 0.0 ],
+									"patching_rect" : [ 18.0, 131.0, 429.0, 391.0 ],
 									"style" : "",
-									"text" : "/equalizer/samplerate 48000, /equalizer/bypass 0, /equalizer/gain 0, /equalizer/filter/1/active 0, /equalizer/filter/1/freq 50, /equalizer/filter/1/order 2, /equalizer/filter/2/active 0, /equalizer/filter/2/freq 455.812, /equalizer/filter/2/gain -14.2345, /equalizer/filter/2/q 1, /equalizer/filter/3/active 1, /equalizer/filter/3/freq 500, /equalizer/filter/3/gain 0, /equalizer/filter/3/q 1, /equalizer/filter/4/active 0, /equalizer/filter/4/freq 975, /equalizer/filter/4/gain 15.2, /equalizer/filter/4/q 13.44, /equalizer/filter/5/active 1, /equalizer/filter/5/freq 30, /equalizer/filter/5/gain -15.7, /equalizer/filter/5/q 1.63, /equalizer/filter/6/active 1, /equalizer/filter/6/freq 8701, /equalizer/filter/6/gain 7.5, /equalizer/filter/6/q 7.72, /equalizer/filter/7/active 1, /equalizer/filter/7/freq 3888, /equalizer/filter/7/gain -22, /equalizer/filter/7/q 1.41, /equalizer/filter/8/active 0, /equalizer/filter/8/freq 5282, /equalizer/filter/8/order 2, /equalizer/filter/1/color 0 0 0.560784 1, /equalizer/filter/2/color 0 0.12549 1 1, /equalizer/filter/3/color 0 0.686275 1 1, /equalizer/filter/4/color 0.25098 1 0.74902 1, /equalizer/filter/5/color 0.811765 1 0.188235 1, /equalizer/filter/6/color 1 0.623529 0 1, /equalizer/filter/7/color 1 0.062745 0 1, /equalizer/filter/8/color 0.501961 0 0 1, /filtergraph/curve/number 9, /filtergraph/samplerate 0, /filtergraph/title , /filtergraph/curve/1/visible 0, /filtergraph/curve/1/foreground/color 0 0 0.560784 1, /filtergraph/curve/1/color 0 0 0.560784 1, /filtergraph/curve/1/fill 0, /filtergraph/curve/1/thickness 1, /filtergraph/curve/2/visible 0, /filtergraph/curve/2/foreground/color 0 0.12549 1 1, /filtergraph/curve/2/color 0 0.12549 1 1, /filtergraph/curve/2/fill 0, /filtergraph/curve/2/thickness 1, /filtergraph/curve/3/visible 1, /filtergraph/curve/3/foreground/color 0 0.686275 1 1, /filtergraph/curve/3/color 0 0.686275 1 1, /filtergraph/curve/3/fill 0, /filtergraph/curve/3/thickness 1, /filtergraph/curve/4/visible 0, /filtergraph/curve/4/foreground/color 0.25098 1 0.74902 1, /filtergraph/curve/4/color 0.25098 1 0.74902 1, /filtergraph/curve/4/fill 0, /filtergraph/curve/4/thickness 1, /filtergraph/curve/5/visible 1, /filtergraph/curve/5/foreground/color 0.811765 1 0.188235 1, /filtergraph/curve/5/color 0.811765 1 0.188235 1, /filtergraph/curve/5/fill 0, /filtergraph/curve/5/thickness 1, /filtergraph/curve/6/visible 1, /filtergraph/curve/6/foreground/color 1 0.623529 0 1, /filtergraph/curve/6/color 1 0.623529 0 1, /filtergraph/curve/6/fill 0, /filtergraph/curve/6/thickness 1, /filtergraph/curve/7/visible 1, /filtergraph/curve/7/foreground/color 1 0.062745 0 1, /filtergraph/curve/7/color 1 0.062745 0 1, /filtergraph/curve/7/fill 0, /filtergraph/curve/7/thickness 1, /filtergraph/curve/8/visible 0, /filtergraph/curve/8/foreground/color 0.501961 0 0 1, /filtergraph/curve/8/color 0.501961 0 0 1, /filtergraph/curve/8/fill 0, /filtergraph/curve/8/thickness 1, /filtergraph/curve/9/visible 1, /filtergraph/curve/9/foreground/color 0 0 0 0.2, /filtergraph/curve/9/color 0 0 0 1, /filtergraph/curve/9/fill 1, /filtergraph/curve/9/thickness 3, /filtergraph/mode magnitude, /filtergraph/font/size 10, /filtergraph/grid/visible 1, /filtergraph/grid/color 0.501961 0.501961 0.501961 1, /filtergraph/phase/unwrap 0, /filtergraph/phase/min -180, /filtergraph/phase/max 180, /filtergraph/freq/min 20, /filtergraph/freq/max 22050, /filtergraph/freq/logscale 1, /filtergraph/magnitude/min -12, /filtergraph/magnitude/max 12, /filtergraph/magnitude/logscale 1, /filtergraph/xtick/visible 1, /filtergraph/ytick/visible 1, /filtergraph/cursor/visible 0, /filtergraph/cursor/color 1 0 0 1, /filtergraph/background/color 1 1 1 0, /filtergraph/frame/visible 1, /filtergraph/frame/color 0 0 0 1, /filtergraph/frame/rounded 5, /filtergraph/frame/thickness 2, /controllers/visible 1"
+									"text" : "/equalizer/samplerate 48000, /equalizer/bypass 0, /equalizer/gain 0, /equalizer/filter/1/active 0, /equalizer/filter/1/freq 50, /equalizer/filter/1/order 2, /equalizer/filter/2/active 0, /equalizer/filter/2/freq 456, /equalizer/filter/2/gain -14.2, /equalizer/filter/2/q 1, /equalizer/filter/3/active 1, /equalizer/filter/3/freq 30, /equalizer/filter/3/gain -7.1, /equalizer/filter/3/q 15.71, /equalizer/filter/4/active 1, /equalizer/filter/4/freq 5643, /equalizer/filter/4/gain 15.2, /equalizer/filter/4/q 13.44, /equalizer/filter/5/active 1, /equalizer/filter/5/freq 30, /equalizer/filter/5/gain -15.7, /equalizer/filter/5/q 1.63, /equalizer/filter/6/active 1, /equalizer/filter/6/freq 2345, /equalizer/filter/6/gain 7.5, /equalizer/filter/6/q 7.72, /equalizer/filter/7/active 0, /equalizer/filter/7/freq 3888, /equalizer/filter/7/gain -22, /equalizer/filter/7/q 1.41, /equalizer/filter/8/active 0, /equalizer/filter/8/freq 5282, /equalizer/filter/8/order 2, /equalizer/filter/1/color 0 0 0.560784 1, /equalizer/filter/2/color 0 0.12549 1 1, /equalizer/filter/3/color 0 0.686275 1 1, /equalizer/filter/4/color 0.25098 1 0.74902 1, /equalizer/filter/5/color 0.811765 1 0.188235 1, /equalizer/filter/6/color 1 0.623529 0 1, /equalizer/filter/7/color 1 0.062745 0 1, /equalizer/filter/8/color 0.501961 0 0 1, /filtergraph/curve/number 9, /filtergraph/samplerate 0, /filtergraph/title , /filtergraph/curve/1/visible 0, /filtergraph/curve/1/foreground/color 0 0 0.560784 1, /filtergraph/curve/1/color 0 0 0.560784 1, /filtergraph/curve/1/fill 0, /filtergraph/curve/1/thickness 1, /filtergraph/curve/2/visible 0, /filtergraph/curve/2/foreground/color 0 0.12549 1 1, /filtergraph/curve/2/color 0 0.12549 1 1, /filtergraph/curve/2/fill 0, /filtergraph/curve/2/thickness 1, /filtergraph/curve/3/visible 1, /filtergraph/curve/3/foreground/color 0 0.686275 1 1, /filtergraph/curve/3/color 0 0.686275 1 1, /filtergraph/curve/3/fill 0, /filtergraph/curve/3/thickness 1, /filtergraph/curve/4/visible 1, /filtergraph/curve/4/foreground/color 0.25098 1 0.74902 1, /filtergraph/curve/4/color 0.25098 1 0.74902 1, /filtergraph/curve/4/fill 0, /filtergraph/curve/4/thickness 1, /filtergraph/curve/5/visible 1, /filtergraph/curve/5/foreground/color 0.811765 1 0.188235 1, /filtergraph/curve/5/color 0.811765 1 0.188235 1, /filtergraph/curve/5/fill 0, /filtergraph/curve/5/thickness 1, /filtergraph/curve/6/visible 1, /filtergraph/curve/6/foreground/color 1 0.623529 0 1, /filtergraph/curve/6/color 1 0.623529 0 1, /filtergraph/curve/6/fill 0, /filtergraph/curve/6/thickness 1, /filtergraph/curve/7/visible 0, /filtergraph/curve/7/foreground/color 1 0.062745 0 1, /filtergraph/curve/7/color 1 0.062745 0 1, /filtergraph/curve/7/fill 0, /filtergraph/curve/7/thickness 1, /filtergraph/curve/8/visible 0, /filtergraph/curve/8/foreground/color 0.501961 0 0 1, /filtergraph/curve/8/color 0.501961 0 0 1, /filtergraph/curve/8/fill 0, /filtergraph/curve/8/thickness 1, /filtergraph/curve/9/visible 1, /filtergraph/curve/9/foreground/color 0 0 0 0.2, /filtergraph/curve/9/color 0 0 0 1, /filtergraph/curve/9/fill 1, /filtergraph/curve/9/thickness 3, /filtergraph/mode magnitude, /filtergraph/font/size 10, /filtergraph/grid/visible 1, /filtergraph/grid/color 0.501961 0.501961 0.501961 1, /filtergraph/phase/unwrap 0, /filtergraph/phase/min -180, /filtergraph/phase/max 180, /filtergraph/freq/min 20, /filtergraph/freq/max 22050, /filtergraph/freq/logscale 1, /filtergraph/magnitude/min -12, /filtergraph/magnitude/max 12, /filtergraph/magnitude/logscale 1, /filtergraph/xtick/visible 1, /filtergraph/ytick/visible 1, /filtergraph/cursor/visible 0, /filtergraph/cursor/color 1 0 0 1, /filtergraph/background/color 1 1 1 0, /filtergraph/frame/visible 1, /filtergraph/frame/color 0 0 0 1, /filtergraph/frame/rounded 5, /filtergraph/frame/thickness 2, /controllers/visible 1"
 								}
 
 							}
@@ -175,6 +286,48 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 1 ],
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
@@ -337,7 +490,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 34.0, 15.0, 47.0, 22.0 ],
+					"patching_rect" : [ 147.0, 29.0, 47.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -360,7 +513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 34.0, 42.0, 83.0, 21.0 ],
+					"patching_rect" : [ 29.0, 29.0, 83.0, 21.0 ],
 					"presentation_rect" : [ 295.0, 335.0, 83.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"annotation_name" : "",
@@ -380,7 +533,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 19.0, 76.0, 94.0, 22.0 ],
+					"patching_rect" : [ 14.0, 63.0, 94.0, 22.0 ],
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 20.0, 430.0, 88.0, 21.0 ],
 					"style" : "",
@@ -399,7 +552,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 131.5, 69.0, 28.5, 69.0 ],
+					"midpoints" : [ 133.5, 59.0, 23.5, 59.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
