@@ -1,0 +1,32 @@
+- cue "highpass"
+- description "something about this cue"
+# ###########################################
+# 
+/spat5_to_jamoma_adapter/spatparams /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 7010.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 106.000000 /equalizer/filter/2/gain 0.400000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 0 /equalizer/filter/3/freq 2310.000000 /equalizer/filter/3/gain -11.500000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 2902.000000 /equalizer/filter/4/gain 10.800000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 586.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 733.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2
+# 
+# ###########################################
+
+- cue "lowpass"
+- description "something about this cue"
+# ###########################################
+# 
+/spat5_to_jamoma_adapter/spatparams /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 998.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 106.000000 /equalizer/filter/2/gain 0.400000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 0 /equalizer/filter/3/freq 2310.000000 /equalizer/filter/3/gain -11.500000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 2902.000000 /equalizer/filter/4/gain 10.800000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 586.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 733.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 30.000000 /equalizer/filter/8/order 2
+# 
+# ###########################################
+
+- cue "odd"
+- description "something about this cue"
+# ###########################################
+# 
+/spat5_to_jamoma_adapter/spatparams /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain -30.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain -30.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain -30.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2
+# 
+# ###########################################
+
+- cue "even"
+- description "something about this cue"
+# ###########################################
+# 
+/spat5_to_jamoma_adapter/spatparams /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 30.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 0 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 30.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 30.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 3334.000000 /equalizer/filter/8/order 2
+# 
+# ###########################################
+
