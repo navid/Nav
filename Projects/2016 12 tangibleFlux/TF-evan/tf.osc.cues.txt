@@ -989,3 +989,32 @@
 # 
 # ###########################################
 
+- cue "firstDate-wBigBoy"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/oscillators/osc1/audio/gain -4.000000
+/oscillators/osc1/audio/mute 1
+/oscillators/osc1/modratioman 0
+/oscillators/osc1/modfreq 0.003528
+/oscillators/osc1/modratio 0.000000
+/oscillators/osc1/carrierfreq 60.176605
+/oscillators/osc1/carriersinsaw 0.023622
+/oscillators/osc1/modindex 0.000000
+/oscillators/osc1/modnoise 0.000000
+/oscillators/osc1/wavefolder 0.000000
+# 
+/oscillators/osc2/audio/gain -4.000000
+/oscillators/osc2/audio/mute 0
+/oscillators/osc2/modratioman 0
+/oscillators/osc2/modfreq 1.500000
+/oscillators/osc2/modratio 0.000000
+/oscillators/osc2/carrierfreq 25.000000
+/oscillators/osc2/carriersinsaw 0.000000
+/oscillators/osc2/modindex 0.000000
+/oscillators/osc2/modnoise 0.000000
+/oscillators/osc2/wavefolder 0.000000
+# 
+# ###########################################
+
