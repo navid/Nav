@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 885.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.0, 885.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "0.6"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -159,7 +185,6 @@
 					}
 ,
 					"patching_rect" : [ 2415.0, 1185.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 2431.0, 1189.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -296,7 +321,6 @@
 					}
 ,
 					"patching_rect" : [ 2175.0, 1185.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 2176.0, 1189.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -433,7 +457,6 @@
 					}
 ,
 					"patching_rect" : [ 1890.0, 1200.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 1886.0, 1198.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -706,7 +729,6 @@
 					}
 ,
 					"patching_rect" : [ 90.0, 1425.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 91.0, 1418.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -979,7 +1001,6 @@
 					}
 ,
 					"patching_rect" : [ 1080.0, 1425.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 1064.0, 1487.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1136,7 +1157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1251.0, 329.0, 149.0, 22.0 ],
+					"patching_rect" : [ 1245.0, 330.0, 149.0, 22.0 ],
 					"style" : "",
 					"text" : "j.remote osc.scaler~/micR"
 				}
@@ -1193,7 +1214,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1207.0, 329.0, 40.0, 20.0 ],
+					"patching_rect" : [ 1185.0, 330.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 985.0, 282.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1225,7 +1246,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1139.0, 329.0, 40.0, 20.0 ],
+					"patching_rect" : [ 1125.0, 330.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 955.0, 282.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -4771,8 +4792,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -4782,8 +4803,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -4793,7 +4814,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4803,6 +4823,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -7454,8 +7475,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -7465,8 +7486,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -7476,7 +7497,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7486,6 +7506,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -10419,8 +10440,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -10430,8 +10451,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -10441,7 +10462,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10451,6 +10471,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -11294,8 +11315,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -11305,8 +11326,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -11316,7 +11337,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11326,6 +11346,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -11593,7 +11614,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -12441,6 +12461,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-183", 1 ],
+					"order" : 1,
+					"source" : [ "obj-181", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"order" : 0,
 					"source" : [ "obj-181", 0 ]
 				}
 
@@ -12448,6 +12477,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-184", 1 ],
+					"order" : 1,
+					"source" : [ "obj-182", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"order" : 0,
 					"source" : [ "obj-182", 0 ]
 				}
 
@@ -14194,21 +14232,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-426", 0 ],
+					"destination" : [ "obj-426", 1 ],
 					"source" : [ "obj-422", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-427", 0 ],
+					"destination" : [ "obj-427", 1 ],
 					"source" : [ "obj-422", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-426", 1 ],
+					"destination" : [ "obj-426", 0 ],
 					"order" : 1,
 					"source" : [ "obj-424", 0 ]
 				}
@@ -14224,7 +14262,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-427", 1 ],
+					"destination" : [ "obj-427", 0 ],
 					"order" : 1,
 					"source" : [ "obj-425", 0 ]
 				}
@@ -14771,249 +14809,249 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-156::obj-1::obj-117::obj-182" : [ "live.text[163]", "live.text[4]", 0 ],
-			"obj-6::obj-1::obj-68::obj-10::obj-196" : [ "live.text[20]", "live.text", 0 ],
-			"obj-122::obj-25" : [ "OutMin[3]", "Max", 0 ],
-			"obj-424" : [ "live.text[192]", "live.text[192]", 0 ],
-			"obj-156::obj-1::obj-67::obj-182" : [ "live.text[171]", "live.text[4]", 0 ],
-			"obj-154::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[51]", "live.menu", 0 ],
-			"obj-2::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-2::obj-9" : [ "live.dial[5]", "noise_filt", 0 ],
-			"obj-34::obj-6::obj-67::obj-10::obj-196" : [ "live.text[179]", "live.text", 0 ],
-			"obj-113::obj-38" : [ "OutMax", "Min", 0 ],
-			"obj-6::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-156::obj-1::obj-70::obj-10::obj-196" : [ "live.text[168]", "live.text", 0 ],
-			"obj-154::obj-1::obj-117::obj-182" : [ "live.text[60]", "live.text[4]", 0 ],
-			"obj-2::obj-16" : [ "live.dial[6]", "noise", 0 ],
-			"obj-2::obj-10" : [ "live.dial[11]", "morph", 0 ],
-			"obj-6::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-34::obj-10" : [ "live.text[175]", "1", 2 ],
-			"obj-341::obj-58" : [ "live.text[130]", "live.text[9]", 0 ],
-			"obj-2::obj-1::obj-66::obj-10::obj-196" : [ "live.text[38]", "live.text", 0 ],
-			"obj-11::obj-22" : [ "live.menu[1]", "Shape", 0 ],
-			"obj-345::obj-58" : [ "live.text[134]", "live.text[9]", 0 ],
-			"obj-156::obj-12" : [ "live.dial[17]", "index", 0 ],
-			"obj-154::obj-43" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[28]", "live.menu", 0 ],
-			"obj-406" : [ "live.numbox[43]", "live.numbox[8]", 4 ],
-			"obj-154::obj-12" : [ "live.dial[14]", "index", 0 ],
-			"obj-6::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-39::obj-3" : [ "live.tab", "live.tab", 0 ],
-			"obj-114::obj-27" : [ "Compand[2]", "Comp", 0 ],
-			"obj-414" : [ "live.numbox[50]", "live.numbox[8]", 4 ],
-			"obj-154::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[55]", "live.menu", 0 ],
-			"obj-154::obj-45" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-70::obj-182" : [ "live.text[31]", "live.text[4]", 0 ],
-			"obj-33::obj-6::obj-68::obj-10::obj-196" : [ "live.text[185]", "live.text", 0 ],
-			"obj-99::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-405" : [ "live.numbox[42]", "live.numbox[8]", 4 ],
-			"obj-154::obj-51" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-6::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
-			"obj-114::obj-9" : [ "Invert[2]", "Invert", 0 ],
-			"obj-66" : [ "live.text[138]", "live.text[2]", 0 ],
-			"obj-413" : [ "live.numbox[49]", "live.numbox[8]", 4 ],
-			"obj-156::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[37]", "live.menu", 0 ],
-			"obj-154::obj-1::obj-67::obj-182" : [ "live.text[157]", "live.text[4]", 0 ],
-			"obj-2::obj-1::obj-117::obj-10::obj-196" : [ "live.text[28]", "live.text", 0 ],
-			"obj-33::obj-10" : [ "live.text[182]", "1", 2 ],
-			"obj-77" : [ "live.text[140]", "live.text[2]", 0 ],
-			"obj-156::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[32]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-67::obj-182" : [ "live.text[21]", "live.text[4]", 0 ],
-			"obj-122::obj-118" : [ "live.text[148]", "FILTER", 0 ],
-			"obj-156::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[36]", "live.menu", 0 ],
-			"obj-154::obj-1::obj-70::obj-10::obj-196" : [ "live.text[154]", "live.text", 0 ],
-			"obj-2::obj-1::obj-105::obj-10::obj-196" : [ "live.text[26]", "live.text", 0 ],
-			"obj-34::obj-6::obj-66::obj-182" : [ "live.text[180]", "live.text[4]", 0 ],
-			"obj-336::obj-17" : [ "live.dial[21]", " ", 0 ],
-			"obj-156::obj-1::obj-105::obj-182" : [ "live.text[161]", "live.text[4]", 0 ],
-			"obj-6::obj-1::obj-70::obj-10::obj-196" : [ "live.text[18]", "live.text", 0 ],
-			"obj-421::obj-118" : [ "live.text[191]", "FILTER", 0 ],
-			"obj-4" : [ "live.text[135]", "live.text[135]", 0 ],
-			"obj-410" : [ "live.numbox[47]", "live.numbox[8]", 4 ],
-			"obj-156::obj-1::obj-68::obj-182" : [ "live.text[169]", "live.text[4]", 0 ],
-			"obj-154::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[50]", "live.menu", 0 ],
-			"obj-2::obj-30" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-6::obj-1::obj-121::obj-182" : [ "live.text[15]", "live.text[4]", 0 ],
-			"obj-34::obj-6::obj-68::obj-10::obj-196" : [ "live.text[177]", "live.text", 0 ],
-			"obj-336::obj-18" : [ "live.dial[7]", " ", 0 ],
-			"obj-341::obj-6::obj-6" : [ "live.text[127]", "live.text", 0 ],
-			"obj-156::obj-51" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-2::obj-40" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-113::obj-9" : [ "Invert", "Invert", 0 ],
-			"obj-154::obj-1::obj-105::obj-182" : [ "live.text[58]", "live.text[4]", 0 ],
-			"obj-6::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-39::obj-7" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-336::obj-19" : [ "live.dial[8]", " ", 0 ],
-			"obj-345::obj-6::obj-3" : [ "live.text[132]", "live.text", 0 ],
-			"obj-415" : [ "live.numbox[51]", "live.numbox[8]", 4 ],
-			"obj-156::obj-36" : [ "live.numbox[40]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-67::obj-10::obj-196" : [ "live.text[36]", "live.text", 0 ],
-			"obj-33::obj-6::obj-66::obj-182" : [ "live.text[188]", "live.text[4]", 0 ],
-			"obj-39::obj-10" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-113::obj-72" : [ "Smooth", "Smooth", 0 ],
-			"obj-154::obj-31" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-156::obj-45" : [ "live.numbox[37]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
-			"obj-6::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-33::obj-6::obj-67::obj-182" : [ "live.text[186]", "live.text[4]", 0 ],
-			"obj-99::obj-10" : [ "live.numbox[36]", "live.numbox", 0 ],
-			"obj-113::obj-17" : [ "Gain", "Gain", 0 ],
-			"obj-154::obj-9" : [ "live.dial[12]", "noise_filt", 0 ],
-			"obj-6::obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-114::obj-72" : [ "Smooth[2]", "Smooth", 0 ],
-			"obj-154::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[54]", "live.menu", 0 ],
-			"obj-2::obj-1::obj-121::obj-182" : [ "live.text[29]", "live.text[4]", 0 ],
-			"obj-6::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-34::obj-1" : [ "vcaness", "vcaness", 0 ],
-			"obj-156::obj-1::obj-121::obj-10::obj-196" : [ "live.text[166]", "live.text", 0 ],
-			"obj-6::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-217::obj-10" : [ "Pan[1]", "Pan", 0 ],
-			"obj-122::obj-88" : [ "Drive[3]", "Drive", 0 ],
-			"obj-156::obj-1::obj-66::obj-10::obj-196" : [ "live.text[174]", "live.text", 0 ],
-			"obj-154::obj-1::obj-68::obj-182" : [ "live.text[155]", "live.text[4]", 0 ],
-			"obj-34::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[58]", "live.menu", 0 ],
-			"obj-156::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[31]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-68::obj-182" : [ "live.text[19]", "live.text[4]", 0 ],
-			"obj-122::obj-38" : [ "OutMax[3]", "Min", 0 ],
-			"obj-156::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[35]", "live.menu", 0 ],
-			"obj-154::obj-1::obj-121::obj-10::obj-196" : [ "live.text[152]", "live.text", 0 ],
-			"obj-2::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-34::obj-6::obj-67::obj-182" : [ "live.text[178]", "live.text[4]", 0 ],
-			"obj-363" : [ "live.numbox[8]", "live.numbox[8]", 4 ],
-			"obj-156::obj-10" : [ "live.dial[18]", "morph", 0 ],
-			"obj-6::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-411" : [ "live.numbox[48]", "live.numbox[8]", 4 ],
 			"obj-156::obj-1::obj-70::obj-182" : [ "live.text[167]", "live.text[4]", 0 ],
-			"obj-154::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[49]", "live.menu", 0 ],
-			"obj-11::obj-21" : [ "live.menu", "Shape", 0 ],
-			"obj-341::obj-62" : [ "live.text[129]", "live.text[9]", 0 ],
-			"obj-90" : [ "live.text[144]", "live.text[2]", 0 ],
-			"obj-417" : [ "live.numbox[53]", "live.numbox[8]", 4 ],
-			"obj-2::obj-1::obj-66::obj-182" : [ "live.text[37]", "live.text[4]", 0 ],
-			"obj-6::obj-1::obj-105::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
-			"obj-33::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[61]", "live.menu", 0 ],
-			"obj-39::obj-15" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-154::obj-16" : [ "live.dial[13]", "noise", 0 ],
-			"obj-416" : [ "live.numbox[52]", "live.numbox[8]", 4 ],
-			"obj-123" : [ "live.text[149]", "live.text[2]", 0 ],
-			"obj-156::obj-16" : [ "live.dial[16]", "noise", 0 ],
-			"obj-2::obj-1::obj-68::obj-10::obj-196" : [ "live.text[34]", "live.text", 0 ],
-			"obj-33::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[60]", "live.menu", 0 ],
-			"obj-154::obj-10" : [ "live.dial[22]", "morph", 0 ],
-			"obj-114::obj-25" : [ "OutMin[2]", "Max", 0 ],
-			"obj-121" : [ "live.text", "live.text", 0 ],
-			"obj-154::obj-1::obj-66::obj-10::obj-196" : [ "live.text[160]", "live.text", 0 ],
-			"obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
-			"obj-33::obj-6::obj-68::obj-182" : [ "live.text[184]", "live.text[4]", 0 ],
-			"obj-99::obj-15" : [ "live.numbox[35]", "live.numbox", 0 ],
-			"obj-6::obj-1::obj-66::obj-10::obj-196" : [ "live.text[24]", "live.text", 0 ],
-			"obj-114::obj-38" : [ "OutMax[2]", "Min", 0 ],
-			"obj-154::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[53]", "live.menu", 0 ],
-			"obj-2::obj-1::obj-117::obj-182" : [ "live.text[27]", "live.text[4]", 0 ],
-			"obj-33::obj-1" : [ "vcaness[1]", "vcaness", 0 ],
-			"obj-113::obj-25" : [ "OutMin", "Max", 0 ],
-			"obj-156::obj-1::obj-117::obj-10::obj-196" : [ "live.text[164]", "live.text", 0 ],
-			"obj-6::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-105::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
-			"obj-122::obj-72" : [ "Smooth[3]", "Smooth", 0 ],
-			"obj-425" : [ "live.text[193]", "live.text[192]", 0 ],
-			"obj-156::obj-1::obj-67::obj-10::obj-196" : [ "live.text[172]", "live.text", 0 ],
-			"obj-154::obj-1::obj-70::obj-182" : [ "live.text[153]", "live.text[4]", 0 ],
-			"obj-2::obj-1::obj-105::obj-182" : [ "live.text[25]", "live.text[4]", 0 ],
-			"obj-6::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-6::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-34::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[57]", "live.menu", 0 ],
-			"obj-418" : [ "live.numbox[54]", "live.numbox[8]", 4 ],
-			"obj-156::obj-31" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-6::obj-1::obj-70::obj-182" : [ "live.text[17]", "live.text[4]", 0 ],
-			"obj-62" : [ "live.text[137]", "live.text[2]", 0 ],
-			"obj-156::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[34]", "live.menu", 0 ],
-			"obj-154::obj-1::obj-117::obj-10::obj-196" : [ "live.text[150]", "live.text", 0 ],
-			"obj-2::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-6::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-34::obj-6::obj-68::obj-182" : [ "live.text[176]", "live.text[4]", 0 ],
-			"obj-341::obj-6::obj-3" : [ "live.text[128]", "live.text", 0 ],
-			"obj-156::obj-30" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[30]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-117::obj-182" : [ "live.text[13]", "live.text[4]", 0 ],
-			"obj-345::obj-62" : [ "live.text[133]", "live.text[9]", 0 ],
-			"obj-156::obj-40" : [ "live.numbox[39]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-67::obj-182" : [ "live.text[35]", "live.text[4]", 0 ],
-			"obj-39::obj-19" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-82" : [ "live.text[141]", "live.text[2]", 0 ],
-			"obj-59" : [ "live.text[136]", "live.text[2]", 0 ],
-			"obj-154::obj-30" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-113::obj-27" : [ "Compand", "Comp", 0 ],
-			"obj-114::obj-88" : [ "Drive[2]", "Drive", 0 ],
-			"obj-156::obj-9" : [ "live.dial[15]", "noise_filt", 0 ],
-			"obj-2::obj-1::obj-70::obj-10::obj-196" : [ "live.text[32]", "live.text", 0 ],
-			"obj-6::obj-16" : [ "live.dial[3]", "noise", 0 ],
-			"obj-33::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[59]", "live.menu", 0 ],
-			"obj-99::obj-19" : [ "live.numbox[33]", "live.numbox", 0 ],
-			"obj-154::obj-48" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-6::obj-1::obj-121::obj-10::obj-196" : [ "live.text[16]", "live.text", 0 ],
-			"obj-6::obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-114::obj-118" : [ "live.text[147]", "FILTER", 0 ],
-			"obj-154::obj-1::obj-67::obj-10::obj-196" : [ "live.text[158]", "live.text", 0 ],
-			"obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
-			"obj-33::obj-66" : [ "offset[1]", "offset", 0 ],
-			"obj-34::obj-66" : [ "offset", "offset", 0 ],
-			"obj-92" : [ "live.text[145]", "live.text[2]", 0 ],
-			"obj-156::obj-1::obj-121::obj-182" : [ "live.text[165]", "live.text[4]", 0 ],
-			"obj-6::obj-1::obj-67::obj-10::obj-196" : [ "live.text[22]", "live.text", 0 ],
-			"obj-217::obj-22" : [ "live.menu[47]", "Shape", 0 ],
-			"obj-122::obj-27" : [ "Compand[3]", "Comp", 0 ],
-			"obj-48" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-156::obj-1::obj-66::obj-182" : [ "live.text[173]", "live.text[4]", 0 ],
-			"obj-154::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[52]", "live.menu", 0 ],
-			"obj-34::obj-6::obj-66::obj-10::obj-196" : [ "live.text[181]", "live.text", 0 ],
-			"obj-156::obj-1::obj-105::obj-10::obj-196" : [ "live.text[162]", "live.text", 0 ],
-			"obj-6::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-113::obj-118" : [ "live.text[3]", "FILTER", 0 ],
-			"obj-122::obj-9" : [ "Invert[3]", "Invert", 0 ],
-			"obj-85" : [ "live.text[142]", "live.text[2]", 0 ],
-			"obj-156::obj-1::obj-68::obj-10::obj-196" : [ "live.text[170]", "live.text", 0 ],
-			"obj-154::obj-1::obj-121::obj-182" : [ "live.text[151]", "live.text[4]", 0 ],
-			"obj-2::obj-12" : [ "live.dial[9]", "index", 0 ],
+			"obj-2::obj-1::obj-67::obj-10::obj-196" : [ "live.text[36]", "live.text", 0 ],
 			"obj-34::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[56]", "live.menu", 0 ],
-			"obj-156::obj-48" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-421::obj-76" : [ "live.text[190]", "live.text", 0 ],
-			"obj-156::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[33]", "live.menu", 0 ],
+			"obj-39::obj-7" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-11::obj-22" : [ "live.menu[1]", "Shape", 0 ],
+			"obj-113::obj-27" : [ "Compand", "Comp", 0 ],
+			"obj-66" : [ "live.text[138]", "live.text[2]", 0 ],
+			"obj-154::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[52]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-68::obj-182" : [ "live.text[19]", "live.text[4]", 0 ],
+			"obj-6::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-122::obj-72" : [ "Smooth[3]", "Smooth", 0 ],
+			"obj-411" : [ "live.numbox[48]", "live.numbox[8]", 4 ],
+			"obj-123" : [ "live.text[149]", "live.text[2]", 0 ],
+			"obj-156::obj-1::obj-117::obj-10::obj-196" : [ "live.text[164]", "live.text", 0 ],
+			"obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
+			"obj-6::obj-16" : [ "live.dial[3]", "noise", 0 ],
+			"obj-39::obj-15" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-154::obj-1::obj-121::obj-182" : [ "live.text[151]", "live.text[4]", 0 ],
+			"obj-6::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-117::obj-182" : [ "live.text[13]", "live.text[4]", 0 ],
+			"obj-122::obj-17" : [ "Gain[3]", "Gain", 0 ],
+			"obj-156::obj-30" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-121::obj-182" : [ "live.text[29]", "live.text[4]", 0 ],
+			"obj-6::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-62" : [ "live.text[137]", "live.text[2]", 0 ],
+			"obj-363" : [ "live.numbox[8]", "live.numbox[8]", 4 ],
 			"obj-154::obj-1::obj-105::obj-10::obj-196" : [ "live.text[59]", "live.text", 0 ],
-			"obj-345::obj-6::obj-6" : [ "live.text[131]", "live.text", 0 ],
-			"obj-113::obj-88" : [ "Drive", "Drive", 0 ],
-			"obj-68" : [ "live.text[139]", "live.text[2]", 0 ],
-			"obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[29]", "live.menu", 0 ],
-			"obj-33::obj-6::obj-66::obj-10::obj-196" : [ "live.text[189]", "live.text", 0 ],
-			"obj-95" : [ "live.text[146]", "live.text[2]", 0 ],
-			"obj-404" : [ "live.numbox[41]", "live.numbox[8]", 4 ],
-			"obj-154::obj-40" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-336::obj-20" : [ "live.dial[10]", " ", 0 ],
-			"obj-156::obj-43" : [ "live.numbox[38]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-68::obj-182" : [ "live.text[33]", "live.text[4]", 0 ],
-			"obj-2::obj-43" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-33::obj-6::obj-67::obj-10::obj-196" : [ "live.text[187]", "live.text", 0 ],
-			"obj-154::obj-36" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-6::obj-1::obj-117::obj-10::obj-196" : [ "live.text[14]", "live.text", 0 ],
-			"obj-34::obj-9" : [ "live.text[5]", "1", 2 ],
-			"obj-114::obj-17" : [ "Gain[2]", "Gain", 0 ],
+			"obj-156::obj-51" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-105::obj-10::obj-196" : [ "live.text[26]", "live.text", 0 ],
+			"obj-99::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-87" : [ "live.text[143]", "live.text[2]", 0 ],
+			"obj-154::obj-48" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-33::obj-31" : [ "resonance[1]", "reson", 0 ],
+			"obj-156::obj-36" : [ "live.numbox[40]", "live.numbox", 0 ],
+			"obj-2::obj-36" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-34::obj-31" : [ "resonance", "reson", 0 ],
+			"obj-345::obj-62" : [ "live.text[133]", "live.text[9]", 0 ],
+			"obj-59" : [ "live.text[136]", "live.text[2]", 0 ],
+			"obj-4" : [ "live.text[135]", "live.text[135]", 0 ],
+			"obj-415" : [ "live.numbox[51]", "live.numbox[8]", 4 ],
+			"obj-156::obj-1::obj-67::obj-10::obj-196" : [ "live.text[172]", "live.text", 0 ],
+			"obj-154::obj-31" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-33::obj-1" : [ "vcaness[1]", "vcaness", 0 ],
 			"obj-154::obj-1::obj-66::obj-182" : [ "live.text[159]", "live.text[4]", 0 ],
-			"obj-2::obj-1::obj-121::obj-10::obj-196" : [ "live.text[30]", "live.text", 0 ],
-			"obj-2::obj-45" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-33::obj-9" : [ "live.text[183]", "1", 2 ],
+			"obj-6::obj-1::obj-66::obj-10::obj-196" : [ "live.text[24]", "live.text", 0 ],
+			"obj-6::obj-1::obj-105::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
+			"obj-34::obj-66" : [ "offset", "offset", 0 ],
+			"obj-114::obj-17" : [ "Gain[2]", "Gain", 0 ],
+			"obj-156::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[34]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-66::obj-182" : [ "live.text[37]", "live.text[4]", 0 ],
+			"obj-34::obj-6::obj-67::obj-10::obj-196" : [ "live.text[179]", "live.text", 0 ],
+			"obj-11::obj-21" : [ "live.menu", "Shape", 0 ],
+			"obj-154::obj-1::obj-68::obj-10::obj-196" : [ "live.text[156]", "live.text", 0 ],
+			"obj-6::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
+			"obj-122::obj-88" : [ "Drive[3]", "Drive", 0 ],
+			"obj-156::obj-1::obj-121::obj-182" : [ "live.text[165]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-68::obj-10::obj-196" : [ "live.text[34]", "live.text", 0 ],
+			"obj-34::obj-10" : [ "live.text[175]", "1", 2 ],
+			"obj-336::obj-20" : [ "live.dial[10]", " ", 0 ],
+			"obj-154::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[51]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-70::obj-182" : [ "live.text[17]", "live.text[4]", 0 ],
+			"obj-6::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-122::obj-38" : [ "OutMax[3]", "Min", 0 ],
+			"obj-156::obj-1::obj-105::obj-10::obj-196" : [ "live.text[162]", "live.text", 0 ],
+			"obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
+			"obj-6::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
+			"obj-121" : [ "live.text", "live.text", 0 ],
+			"obj-48" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-154::obj-1::obj-117::obj-182" : [ "live.text[60]", "live.text[4]", 0 ],
+			"obj-33::obj-6::obj-66::obj-182" : [ "live.text[188]", "live.text[4]", 0 ],
+			"obj-421::obj-118" : [ "live.text[191]", "FILTER", 0 ],
+			"obj-406" : [ "live.numbox[43]", "live.numbox[8]", 4 ],
+			"obj-95" : [ "live.text[146]", "live.text[2]", 0 ],
+			"obj-156::obj-31" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-2::obj-1::obj-117::obj-182" : [ "live.text[27]", "live.text[4]", 0 ],
+			"obj-6::obj-1::obj-105::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
 			"obj-99::obj-7" : [ "live.numbox[31]", "live.numbox", 0 ],
 			"obj-11::obj-10" : [ "Pan", "Pan", 0 ],
-			"obj-6::obj-1::obj-66::obj-182" : [ "live.text[23]", "live.text[4]", 0 ],
+			"obj-154::obj-51" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-6::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-33::obj-6::obj-68::obj-10::obj-196" : [ "live.text[185]", "live.text", 0 ],
+			"obj-156::obj-12" : [ "live.dial[17]", "index", 0 ],
+			"obj-2::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
 			"obj-217::obj-21" : [ "live.menu[48]", "Shape", 0 ],
-			"obj-122::obj-17" : [ "Gain[3]", "Gain", 0 ],
-			"obj-154::obj-1::obj-68::obj-10::obj-196" : [ "live.text[156]", "live.text", 0 ],
-			"obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-345::obj-6::obj-3" : [ "live.text[132]", "live.text", 0 ],
+			"obj-424" : [ "live.text[192]", "live.text[192]", 0 ],
+			"obj-156::obj-1::obj-66::obj-182" : [ "live.text[173]", "live.text[4]", 0 ],
+			"obj-154::obj-40" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-2::obj-9" : [ "live.dial[5]", "noise_filt", 0 ],
+			"obj-33::obj-9" : [ "live.text[183]", "1", 2 ],
+			"obj-154::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[55]", "live.menu", 0 ],
+			"obj-2::obj-40" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-2::obj-10" : [ "live.dial[11]", "morph", 0 ],
+			"obj-114::obj-72" : [ "Smooth[2]", "Smooth", 0 ],
+			"obj-156::obj-1::obj-68::obj-10::obj-196" : [ "live.text[170]", "live.text", 0 ],
+			"obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[30]", "live.menu", 0 ],
+			"obj-2::obj-16" : [ "live.dial[6]", "noise", 0 ],
+			"obj-34::obj-6::obj-66::obj-182" : [ "live.text[180]", "live.text[4]", 0 ],
+			"obj-154::obj-1::obj-67::obj-182" : [ "live.text[157]", "live.text[4]", 0 ],
+			"obj-6::obj-1::obj-67::obj-10::obj-196" : [ "live.text[22]", "live.text", 0 ],
 			"obj-6::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-6::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
-			"obj-33::obj-31" : [ "resonance[1]", "reson", 0 ],
-			"obj-34::obj-31" : [ "resonance", "reson", 0 ]
+			"obj-114::obj-88" : [ "Drive[2]", "Drive", 0 ],
+			"obj-82" : [ "live.text[141]", "live.text[2]", 0 ],
+			"obj-413" : [ "live.numbox[49]", "live.numbox[8]", 4 ],
+			"obj-156::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[33]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-67::obj-182" : [ "live.text[35]", "live.text[4]", 0 ],
+			"obj-34::obj-6::obj-68::obj-10::obj-196" : [ "live.text[177]", "live.text", 0 ],
+			"obj-154::obj-1::obj-70::obj-10::obj-196" : [ "live.text[154]", "live.text", 0 ],
+			"obj-6::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-122::obj-9" : [ "Invert[3]", "Invert", 0 ],
+			"obj-156::obj-1::obj-117::obj-182" : [ "live.text[163]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-70::obj-10::obj-196" : [ "live.text[32]", "live.text", 0 ],
+			"obj-39::obj-10" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-154::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[50]", "live.menu", 0 ],
+			"obj-33::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[61]", "live.menu", 0 ],
+			"obj-421::obj-76" : [ "live.text[190]", "live.text", 0 ],
+			"obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
+			"obj-34::obj-9" : [ "live.text[5]", "1", 2 ],
+			"obj-99::obj-10" : [ "live.numbox[36]", "live.numbox", 0 ],
+			"obj-154::obj-1::obj-105::obj-182" : [ "live.text[58]", "live.text[4]", 0 ],
+			"obj-33::obj-6::obj-67::obj-182" : [ "live.text[186]", "live.text[4]", 0 ],
+			"obj-113::obj-25" : [ "OutMin", "Max", 0 ],
+			"obj-113::obj-9" : [ "Invert", "Invert", 0 ],
+			"obj-156::obj-48" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-154::obj-43" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-105::obj-182" : [ "live.text[25]", "live.text[4]", 0 ],
+			"obj-34::obj-1" : [ "vcaness", "vcaness", 0 ],
+			"obj-341::obj-62" : [ "live.text[129]", "live.text[9]", 0 ],
+			"obj-85" : [ "live.text[142]", "live.text[2]", 0 ],
+			"obj-416" : [ "live.numbox[52]", "live.numbox[8]", 4 ],
+			"obj-154::obj-9" : [ "live.dial[12]", "noise_filt", 0 ],
+			"obj-336::obj-17" : [ "live.dial[21]", " ", 0 ],
+			"obj-113::obj-72" : [ "Smooth", "Smooth", 0 ],
+			"obj-404" : [ "live.numbox[41]", "live.numbox[8]", 4 ],
+			"obj-156::obj-16" : [ "live.dial[16]", "noise", 0 ],
+			"obj-154::obj-45" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-156::obj-1::obj-67::obj-182" : [ "live.text[171]", "live.text[4]", 0 ],
+			"obj-154::obj-10" : [ "live.dial[22]", "morph", 0 ],
+			"obj-34::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[58]", "live.menu", 0 ],
+			"obj-336::obj-18" : [ "live.dial[7]", " ", 0 ],
+			"obj-113::obj-17" : [ "Gain", "Gain", 0 ],
+			"obj-154::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[54]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-66::obj-182" : [ "live.text[23]", "live.text[4]", 0 ],
+			"obj-341::obj-6::obj-6" : [ "live.text[127]", "live.text", 0 ],
+			"obj-114::obj-38" : [ "OutMax[2]", "Min", 0 ],
+			"obj-156::obj-1::obj-70::obj-10::obj-196" : [ "live.text[168]", "live.text", 0 ],
+			"obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[29]", "live.menu", 0 ],
+			"obj-34::obj-6::obj-67::obj-182" : [ "live.text[178]", "live.text[4]", 0 ],
+			"obj-336::obj-19" : [ "live.dial[8]", " ", 0 ],
+			"obj-154::obj-1::obj-68::obj-182" : [ "live.text[155]", "live.text[4]", 0 ],
+			"obj-2::obj-43" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-68::obj-10::obj-196" : [ "live.text[20]", "live.text", 0 ],
+			"obj-6::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-122::obj-27" : [ "Compand[3]", "Comp", 0 ],
+			"obj-156::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[32]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-68::obj-182" : [ "live.text[33]", "live.text[4]", 0 ],
+			"obj-90" : [ "live.text[144]", "live.text[2]", 0 ],
+			"obj-154::obj-1::obj-121::obj-10::obj-196" : [ "live.text[152]", "live.text", 0 ],
+			"obj-6::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[3]", "live.menu", 0 ],
+			"obj-122::obj-25" : [ "OutMin[3]", "Max", 0 ],
+			"obj-410" : [ "live.numbox[47]", "live.numbox[8]", 4 ],
+			"obj-156::obj-1::obj-105::obj-182" : [ "live.text[161]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-121::obj-10::obj-196" : [ "live.text[30]", "live.text", 0 ],
+			"obj-113::obj-118" : [ "live.text[3]", "FILTER", 0 ],
+			"obj-154::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[49]", "live.menu", 0 ],
+			"obj-33::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[60]", "live.menu", 0 ],
+			"obj-156::obj-9" : [ "live.dial[15]", "noise_filt", 0 ],
+			"obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-121::obj-10::obj-196" : [ "live.text[16]", "live.text", 0 ],
+			"obj-6::obj-12" : [ "live.dial[2]", "index", 0 ],
+			"obj-99::obj-19" : [ "live.numbox[33]", "live.numbox", 0 ],
+			"obj-156::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[37]", "live.menu", 0 ],
+			"obj-154::obj-30" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-33::obj-6::obj-68::obj-182" : [ "live.text[184]", "live.text[4]", 0 ],
+			"obj-156::obj-10" : [ "live.dial[18]", "morph", 0 ],
+			"obj-2::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-6::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-217::obj-22" : [ "live.menu[47]", "Shape", 0 ],
+			"obj-345::obj-58" : [ "live.text[134]", "live.text[9]", 0 ],
+			"obj-156::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[36]", "live.menu", 0 ],
+			"obj-154::obj-36" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-33::obj-10" : [ "live.text[182]", "1", 2 ],
+			"obj-92" : [ "live.text[145]", "live.text[2]", 0 ],
+			"obj-154::obj-1::obj-66::obj-10::obj-196" : [ "live.text[160]", "live.text", 0 ],
+			"obj-6::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-6::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-341::obj-6::obj-3" : [ "live.text[128]", "live.text", 0 ],
+			"obj-114::obj-118" : [ "live.text[147]", "FILTER", 0 ],
+			"obj-414" : [ "live.numbox[50]", "live.numbox[8]", 4 ],
+			"obj-156::obj-1::obj-68::obj-182" : [ "live.text[169]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-66::obj-10::obj-196" : [ "live.text[38]", "live.text", 0 ],
+			"obj-34::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[57]", "live.menu", 0 ],
+			"obj-154::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[53]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-67::obj-182" : [ "live.text[21]", "live.text[4]", 0 ],
+			"obj-6::obj-1::obj-117::obj-10::obj-196" : [ "live.text[14]", "live.text", 0 ],
+			"obj-6::obj-10" : [ "live.dial", "morph", 0 ],
+			"obj-114::obj-25" : [ "OutMin[2]", "Max", 0 ],
+			"obj-156::obj-1::obj-121::obj-10::obj-196" : [ "live.text[166]", "live.text", 0 ],
+			"obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[28]", "live.menu", 0 ],
+			"obj-34::obj-6::obj-68::obj-182" : [ "live.text[176]", "live.text[4]", 0 ],
+			"obj-154::obj-1::obj-70::obj-182" : [ "live.text[153]", "live.text[4]", 0 ],
+			"obj-6::obj-1::obj-70::obj-10::obj-196" : [ "live.text[18]", "live.text", 0 ],
+			"obj-122::obj-118" : [ "live.text[148]", "FILTER", 0 ],
+			"obj-156::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[31]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-70::obj-182" : [ "live.text[31]", "live.text[4]", 0 ],
+			"obj-39::obj-3" : [ "live.tab", "live.tab", 0 ],
+			"obj-39::obj-19" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-418" : [ "live.numbox[54]", "live.numbox[8]", 4 ],
+			"obj-154::obj-1::obj-117::obj-10::obj-196" : [ "live.text[150]", "live.text", 0 ],
+			"obj-33::obj-6::obj-66::obj-10::obj-196" : [ "live.text[189]", "live.text", 0 ],
+			"obj-77" : [ "live.text[140]", "live.text[2]", 0 ],
+			"obj-156::obj-40" : [ "live.numbox[39]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-117::obj-10::obj-196" : [ "live.text[28]", "live.text", 0 ],
+			"obj-99::obj-15" : [ "live.numbox[35]", "live.numbox", 0 ],
+			"obj-417" : [ "live.numbox[53]", "live.numbox[8]", 4 ],
+			"obj-154::obj-16" : [ "live.dial[13]", "noise", 0 ],
+			"obj-33::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[59]", "live.menu", 0 ],
+			"obj-405" : [ "live.numbox[42]", "live.numbox[8]", 4 ],
+			"obj-156::obj-43" : [ "live.numbox[38]", "live.numbox", 0 ],
+			"obj-2::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-217::obj-10" : [ "Pan[1]", "Pan", 0 ],
+			"obj-345::obj-6::obj-6" : [ "live.text[131]", "live.text", 0 ],
+			"obj-425" : [ "live.text[193]", "live.text[192]", 0 ],
+			"obj-156::obj-1::obj-66::obj-10::obj-196" : [ "live.text[174]", "live.text", 0 ],
+			"obj-154::obj-12" : [ "live.dial[14]", "index", 0 ],
+			"obj-33::obj-66" : [ "offset[1]", "offset", 0 ],
+			"obj-113::obj-38" : [ "OutMax", "Min", 0 ],
+			"obj-68" : [ "live.text[139]", "live.text[2]", 0 ],
+			"obj-156::obj-45" : [ "live.numbox[37]", "live.numbox", 0 ],
+			"obj-2::obj-12" : [ "live.dial[9]", "index", 0 ],
+			"obj-6::obj-1::obj-121::obj-182" : [ "live.text[15]", "live.text[4]", 0 ],
+			"obj-114::obj-27" : [ "Compand[2]", "Comp", 0 ],
+			"obj-156::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[35]", "live.menu", 0 ],
+			"obj-34::obj-6::obj-66::obj-10::obj-196" : [ "live.text[181]", "live.text", 0 ],
+			"obj-113::obj-88" : [ "Drive", "Drive", 0 ],
+			"obj-154::obj-1::obj-67::obj-10::obj-196" : [ "live.text[158]", "live.text", 0 ],
+			"obj-2::obj-45" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
+			"obj-341::obj-58" : [ "live.text[130]", "live.text[9]", 0 ],
+			"obj-114::obj-9" : [ "Invert[2]", "Invert", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -15426,8 +15464,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -15437,8 +15475,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -15448,7 +15486,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -15458,6 +15495,7 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ]
 				}
