@@ -9,27 +9,27 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 256.0, 322.0 ],
+		"rect" : [ 59.0, 104.0, 152.0, 142.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -40,12 +40,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.0, 228.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 256.0, 303.0, 0.0, 0.0 ],
+					"patching_rect" : [ 118.0, 181.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -54,11 +53,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 228.0, 30.0, 30.0 ],
+					"patching_rect" : [ 10.0, 181.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -71,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 163.0, 103.0, 22.0 ],
+					"patching_rect" : [ 10.0, 151.0, 127.0, 22.0 ],
 					"style" : "",
 					"text" : "j.ellipse.model #1"
 				}
@@ -79,6 +78,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -89,11 +89,13 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "j.ellipse.view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 5.0, 3.0, 150.0, 140.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2.0, 2.0, 150.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.0, 150.0, 140.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -113,67 +115,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2::obj-56" : [ "live.dial[9]", "scale", 0 ],
-			"obj-2::obj-31" : [ "live.dial[14]", "speed", 0 ],
-			"obj-2::obj-61" : [ "live.dial[19]", "extentY", 0 ],
-			"obj-2::obj-62" : [ "live.dial[11]", "extentX", 0 ],
-			"obj-2::obj-37" : [ "live.dial[15]", "radius", 0 ],
-			"obj-2::obj-59" : [ "live.dial[10]", "centerX", 0 ],
-			"obj-2::obj-60" : [ "live.dial[18]", "extentZ", 0 ],
-			"obj-2::obj-18" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-57" : [ "live.dial[16]", "centerZ", 0 ],
-			"obj-2::obj-25" : [ "live.dial[13]", "grain", 0 ],
-			"obj-2::obj-58" : [ "live.dial[17]", "centerY", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.ellipse.view.maxpat",
-				"bootpath" : "~/code/Nav/Jamoma-v1/j.ellipse",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ellipse.model.maxpat",
-				"bootpath" : "~/code/Nav/Jamoma-v1/j.ellipse",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.transform.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.osc.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
