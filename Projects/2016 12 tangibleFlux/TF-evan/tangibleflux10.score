@@ -2,7 +2,7 @@
     "Document": {
         "BaseScenario": {
             "Constraint": {
-                "Center": 15159.796608321845,
+                "Center": 98754.92818059056,
                 "Components": [
                 ],
                 "DefaultDuration": 698783.4906231936,
@@ -2656,7 +2656,7 @@
                                 "Center": 0,
                                 "Components": [
                                 ],
-                                "DefaultDuration": 1003.7892811991846,
+                                "DefaultDuration": 2707.628093085502,
                                 "EndState": 68,
                                 "FullViewRack": [
                                     {
@@ -2685,7 +2685,7 @@
                                     "id": 0,
                                     "uuid": "8884228a-d197-4b0a-b6ca-d1fb15291559"
                                 },
-                                "MaxDuration": 1003.7892811991846,
+                                "MaxDuration": 2707.628093085502,
                                 "MaxInf": false,
                                 "Metadata": {
                                     "Color": "Transparent1",
@@ -2693,7 +2693,7 @@
                                     "Label": "",
                                     "ScriptingName": "Interval.peak67"
                                 },
-                                "MinDuration": 1003.7892811991846,
+                                "MinDuration": 2707.628093085502,
                                 "MinNull": false,
                                 "ObjectName": "Scenario::IntervalModel",
                                 "Outlet": {
@@ -2756,7 +2756,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 1003.7892811991846,
+                                        "Duration": 2707.628093085502,
                                         "Height": 300,
                                         "Max": 1,
                                         "Metadata": {
@@ -2830,7 +2830,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 1003.7892811991846,
+                                        "Duration": 2707.628093085502,
                                         "Height": 300,
                                         "Max": 1,
                                         "Metadata": {
@@ -9235,12 +9235,12 @@
                                 "Center": 0,
                                 "Components": [
                                 ],
-                                "DefaultDuration": 10,
+                                "DefaultDuration": 1713.838811886317,
                                 "EndState": 39,
                                 "FullViewRack": [
                                 ],
                                 "GuiDuration": 30295.25955284465,
-                                "HeightPercentage": 0.022725190416933085,
+                                "HeightPercentage": 0.030212003416762927,
                                 "Inlet": {
                                     "Address": {
                                         "Accessors": [
@@ -9258,7 +9258,7 @@
                                     "id": 0,
                                     "uuid": "8884228a-d197-4b0a-b6ca-d1fb15291559"
                                 },
-                                "MaxDuration": 10,
+                                "MaxDuration": 1713.838811886317,
                                 "MaxInf": false,
                                 "Metadata": {
                                     "Color": "Transparent1",
@@ -9266,7 +9266,7 @@
                                     "Label": "",
                                     "ScriptingName": "Interval.rica90"
                                 },
-                                "MinDuration": 10,
+                                "MinDuration": 1713.838811886317,
                                 "MinNull": false,
                                 "ObjectName": "Scenario::IntervalModel",
                                 "Outlet": {
@@ -9302,7 +9302,7 @@
                                 "Center": 9219.460429902445,
                                 "Components": [
                                 ],
-                                "DefaultDuration": 993.7892811991846,
+                                "DefaultDuration": 993.7892811991849,
                                 "EndState": 40,
                                 "FullViewRack": [
                                     {
@@ -9322,7 +9322,7 @@
                                     }
                                 ],
                                 "GuiDuration": 44000,
-                                "HeightPercentage": 0.022725190416933085,
+                                "HeightPercentage": 0.030212003416762927,
                                 "Inlet": {
                                     "Address": {
                                         "Accessors": [
@@ -9340,7 +9340,7 @@
                                     "id": 0,
                                     "uuid": "8884228a-d197-4b0a-b6ca-d1fb15291559"
                                 },
-                                "MaxDuration": 993.7892811991846,
+                                "MaxDuration": 993.7892811991849,
                                 "MaxInf": false,
                                 "Metadata": {
                                     "Color": "Base2",
@@ -9348,7 +9348,7 @@
                                     "Label": "",
                                     "ScriptingName": "zero"
                                 },
-                                "MinDuration": 993.7892811991846,
+                                "MinDuration": 993.7892811991849,
                                 "MinNull": false,
                                 "ObjectName": "Scenario::IntervalModel",
                                 "Outlet": {
@@ -9395,7 +9395,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 993.7892811991846,
+                                        "Duration": 993.7892811991849,
                                         "Height": 20,
                                         "Max": 1,
                                         "Metadata": {
@@ -9453,7 +9453,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 993.7892811991846,
+                                        "Duration": 993.7892811991849,
                                         "Height": 332,
                                         "Max": 1,
                                         "Metadata": {
@@ -9511,7 +9511,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 993.7892811991846,
+                                        "Duration": 993.7892811991849,
                                         "Height": 20,
                                         "Max": 1,
                                         "Metadata": {
@@ -9569,7 +9569,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 993.7892811991846,
+                                        "Duration": 993.7892811991849,
                                         "Height": 20,
                                         "Max": 1,
                                         "Metadata": {
@@ -9627,7 +9627,7 @@
                                             ],
                                             "id": 45345
                                         },
-                                        "Duration": 993.7892811991846,
+                                        "Duration": 993.7892811991849,
                                         "Height": 20,
                                         "Max": 1,
                                         "Metadata": {
@@ -9676,7 +9676,7 @@
                                     }
                                 ],
                                 "SmallViewShown": true,
-                                "StartDate": 10,
+                                "StartDate": 1713.838811886317,
                                 "StartState": 39,
                                 "Zoom": 2.5331667618910414,
                                 "id": 23
@@ -15216,7 +15216,7 @@
                                     "RootNode": {
                                     }
                                 },
-                                "Date": 1003.7892811991846,
+                                "Date": 2707.628093085502,
                                 "Extent": [
                                     0.008410723879933359,
                                     0.008410723879933359
@@ -16337,10 +16337,10 @@
                                     "RootNode": {
                                     }
                                 },
-                                "Date": 1003.7892811991846,
+                                "Date": 2707.628093085502,
                                 "Extent": [
-                                    0.022725190416933085,
-                                    0.022725190416933085
+                                    0.030212003416762927,
+                                    0.030212003416762927
                                 ],
                                 "Metadata": {
                                     "Color": "Emphasis4",
@@ -16365,10 +16365,10 @@
                                     "RootNode": {
                                     }
                                 },
-                                "Date": 10,
+                                "Date": 1713.838811886317,
                                 "Extent": [
-                                    0.022725190416933085,
-                                    0.022725190416933085
+                                    0.030212003416762927,
+                                    0.030212003416762927
                                 ],
                                 "Metadata": {
                                     "Color": "Emphasis4",
@@ -17707,8 +17707,8 @@
                                 },
                                 "Date": 0,
                                 "Extent": [
-                                    0.004,
-                                    0.022725190416933085
+                                    0.004622739531548788,
+                                    0.04529090805966763
                                 ],
                                 "Metadata": {
                                     "Color": "Emphasis4",
@@ -17728,7 +17728,7 @@
                                 "id": 0
                             }
                         ],
-                        "Height": 8148.75,
+                        "Height": 8815.5,
                         "Inlet": {
                             "Address": {
                                 "Accessors": [
@@ -17838,7 +17838,7 @@
                                                                     ],
                                                                     "Following": [
                                                                     ],
-                                                                    "Name": "score_next",
+                                                                    "Name": "state",
                                                                     "Previous": [
                                                                     ],
                                                                     "Priorities": [
@@ -17848,11 +17848,7 @@
                                                                     ],
                                                                     "Unit": "none",
                                                                     "User": {
-                                                                        "Tuple": [
-                                                                            {
-                                                                                "String": "1"
-                                                                            }
-                                                                        ]
+                                                                        "String": "circle1"
                                                                     }
                                                                 }
                                                             ],
@@ -18928,7 +18924,139 @@
                                                                     ],
                                                                     "Following": [
                                                                     ],
-                                                                    "Name": "score_next",
+                                                                    "Name": "LED2",
+                                                                    "Previous": [
+                                                                        {
+                                                                            "Process": 5,
+                                                                            "Value": {
+                                                                                "Float": 0
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "Priorities": [
+                                                                        1,
+                                                                        2,
+                                                                        0
+                                                                    ],
+                                                                    "Unit": "none"
+                                                                },
+                                                                {
+                                                                    "Accessors": [
+                                                                    ],
+                                                                    "Children": [
+                                                                    ],
+                                                                    "Following": [
+                                                                    ],
+                                                                    "Name": "LED1",
+                                                                    "Previous": [
+                                                                        {
+                                                                            "Process": 4,
+                                                                            "Value": {
+                                                                                "Float": 0
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "Priorities": [
+                                                                        1,
+                                                                        2,
+                                                                        0
+                                                                    ],
+                                                                    "Unit": "none"
+                                                                },
+                                                                {
+                                                                    "Accessors": [
+                                                                    ],
+                                                                    "Children": [
+                                                                    ],
+                                                                    "Following": [
+                                                                    ],
+                                                                    "Name": "y",
+                                                                    "Previous": [
+                                                                        {
+                                                                            "Process": 3,
+                                                                            "Value": {
+                                                                                "Float": 0.5
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "Priorities": [
+                                                                        1,
+                                                                        2,
+                                                                        0
+                                                                    ],
+                                                                    "Unit": "none"
+                                                                },
+                                                                {
+                                                                    "Accessors": [
+                                                                    ],
+                                                                    "Children": [
+                                                                    ],
+                                                                    "Following": [
+                                                                    ],
+                                                                    "Name": "x",
+                                                                    "Previous": [
+                                                                        {
+                                                                            "Process": 2,
+                                                                            "Value": {
+                                                                                "Float": 0.5
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "Priorities": [
+                                                                        1,
+                                                                        2,
+                                                                        0
+                                                                    ],
+                                                                    "Unit": "none"
+                                                                },
+                                                                {
+                                                                    "Accessors": [
+                                                                    ],
+                                                                    "Children": [
+                                                                    ],
+                                                                    "Following": [
+                                                                    ],
+                                                                    "Name": "speed",
+                                                                    "Previous": [
+                                                                        {
+                                                                            "Process": 1,
+                                                                            "Value": {
+                                                                                "Float": 0
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "Priorities": [
+                                                                        1,
+                                                                        2,
+                                                                        0
+                                                                    ],
+                                                                    "Unit": "none"
+                                                                }
+                                                            ],
+                                                            "Following": [
+                                                            ],
+                                                            "Name": "main",
+                                                            "Previous": [
+                                                            ],
+                                                            "Priorities": [
+                                                                1,
+                                                                2,
+                                                                0
+                                                            ],
+                                                            "Unit": "none"
+                                                        },
+                                                        {
+                                                            "Accessors": [
+                                                            ],
+                                                            "Children": [
+                                                                {
+                                                                    "Accessors": [
+                                                                    ],
+                                                                    "Children": [
+                                                                    ],
+                                                                    "Following": [
+                                                                    ],
+                                                                    "Name": "state",
                                                                     "Previous": [
                                                                     ],
                                                                     "Priorities": [
@@ -18938,11 +19066,7 @@
                                                                     ],
                                                                     "Unit": "none",
                                                                     "User": {
-                                                                        "Tuple": [
-                                                                            {
-                                                                                "String": "4"
-                                                                            }
-                                                                        ]
+                                                                        "String": "random"
                                                                     }
                                                                 }
                                                             ],
@@ -19144,7 +19268,7 @@
                                                                     ],
                                                                     "Following": [
                                                                     ],
-                                                                    "Name": "score_next",
+                                                                    "Name": "state",
                                                                     "Previous": [
                                                                     ],
                                                                     "Priorities": [
@@ -19154,11 +19278,7 @@
                                                                     ],
                                                                     "Unit": "none",
                                                                     "User": {
-                                                                        "Tuple": [
-                                                                            {
-                                                                                "String": "3"
-                                                                            }
-                                                                        ]
+                                                                        "String": "insane"
                                                                     }
                                                                 }
                                                             ],
@@ -19607,7 +19727,7 @@
                                                                     ],
                                                                     "Following": [
                                                                     ],
-                                                                    "Name": "score_next",
+                                                                    "Name": "state",
                                                                     "Previous": [
                                                                     ],
                                                                     "Priorities": [
@@ -19617,11 +19737,7 @@
                                                                     ],
                                                                     "Unit": "none",
                                                                     "User": {
-                                                                        "Tuple": [
-                                                                            {
-                                                                                "String": "675"
-                                                                            }
-                                                                        ]
+                                                                        "String": "circle1"
                                                                     }
                                                                 }
                                                             ],
@@ -20402,7 +20518,7 @@
                                                                     ],
                                                                     "Following": [
                                                                     ],
-                                                                    "Name": "score_next",
+                                                                    "Name": "state",
                                                                     "Previous": [
                                                                     ],
                                                                     "Priorities": [
@@ -20412,11 +20528,7 @@
                                                                     ],
                                                                     "Unit": "none",
                                                                     "User": {
-                                                                        "Tuple": [
-                                                                            {
-                                                                                "String": "2"
-                                                                            }
-                                                                        ]
+                                                                        "String": "attractor"
                                                                     }
                                                                 }
                                                             ],
@@ -20910,7 +21022,7 @@
                                 "Components": [
                                 ],
                                 "Event": 0,
-                                "HeightPercentage": 0.022725190416933085,
+                                "HeightPercentage": 0.030212003416762927,
                                 "Messages": {
                                     "Accessors": [
                                     ],
@@ -21056,7 +21168,7 @@
                                 "Components": [
                                 ],
                                 "Event": 78,
-                                "HeightPercentage": 0.022725190416933085,
+                                "HeightPercentage": 0.030212003416762927,
                                 "Messages": {
                                     "Accessors": [
                                     ],
@@ -21091,7 +21203,7 @@
                                 "Components": [
                                 ],
                                 "Event": 77,
-                                "HeightPercentage": 0.022725190416933085,
+                                "HeightPercentage": 0.030212003416762927,
                                 "Messages": {
                                     "Accessors": [
                                     ],
@@ -22060,7 +22172,7 @@
                                 "Components": [
                                 ],
                                 "Event": 0,
-                                "HeightPercentage": 0.004,
+                                "HeightPercentage": 0.04529090805966763,
                                 "Messages": {
                                     "Accessors": [
                                     ],
@@ -22334,10 +22446,18 @@
                                                     {
                                                         "Children": [
                                                         ],
-                                                        "Pulse": {
-                                                            "address": {
-                                                                "Device": "tf",
-                                                                "Path": "dmx/iscore_logic/insane"
+                                                        "Relation": {
+                                                            "LHS": {
+                                                                "Address": {
+                                                                    "Device": "tf",
+                                                                    "Path": "dmx/iscore_logic/insane"
+                                                                }
+                                                            },
+                                                            "Op": 0,
+                                                            "RHS": {
+                                                                "Value": {
+                                                                    "Int": 1
+                                                                }
                                                             }
                                                         }
                                                     }
@@ -22824,10 +22944,18 @@
                                                     {
                                                         "Children": [
                                                         ],
-                                                        "Pulse": {
-                                                            "address": {
-                                                                "Device": "tf",
-                                                                "Path": "dmx/iscore_logic/attractor"
+                                                        "Relation": {
+                                                            "LHS": {
+                                                                "Address": {
+                                                                    "Device": "tf",
+                                                                    "Path": "dmx/iscore_logic/attractor"
+                                                                }
+                                                            },
+                                                            "Op": 0,
+                                                            "RHS": {
+                                                                "Value": {
+                                                                    "Int": 1
+                                                                }
                                                             }
                                                         }
                                                     }
@@ -22933,14 +23061,14 @@
                             {
                                 "Components": [
                                 ],
-                                "Date": 1003.7892811991846,
+                                "Date": 2707.628093085502,
                                 "Events": [
                                     118,
                                     78
                                 ],
                                 "Extent": [
                                     0.008410723879933359,
-                                    0.022725190416933085
+                                    0.030212003416762927
                                 ],
                                 "Metadata": {
                                     "Color": "Gray",
@@ -23105,10 +23233,18 @@
                                                     {
                                                         "Children": [
                                                         ],
-                                                        "Pulse": {
-                                                            "address": {
-                                                                "Device": "tf",
-                                                                "Path": "dmx/iscore_logic/circle1"
+                                                        "Relation": {
+                                                            "LHS": {
+                                                                "Address": {
+                                                                    "Device": "tf",
+                                                                    "Path": "dmx/iscore_logic/circle1"
+                                                                }
+                                                            },
+                                                            "Op": 0,
+                                                            "RHS": {
+                                                                "Value": {
+                                                                    "Int": 1
+                                                                }
                                                             }
                                                         }
                                                     }
@@ -23998,13 +24134,13 @@
                             {
                                 "Components": [
                                 ],
-                                "Date": 10,
+                                "Date": 1713.838811886317,
                                 "Events": [
                                     77
                                 ],
                                 "Extent": [
-                                    0.022725190416933085,
-                                    0.022725190416933085
+                                    0.030212003416762927,
+                                    0.030212003416762927
                                 ],
                                 "Metadata": {
                                     "Color": "Gray",
@@ -25294,8 +25430,8 @@
                                     0
                                 ],
                                 "Extent": [
-                                    0.004,
-                                    0.022725190416933085
+                                    0.004622739531548788,
+                                    0.04529090805966763
                                 ],
                                 "Metadata": {
                                     "Color": "Gray",
@@ -25326,7 +25462,7 @@
                 "SmallViewShown": false,
                 "StartDate": 0,
                 "StartState": 0,
-                "Zoom": 43.68817466375172,
+                "Zoom": 72.2420835264013,
                 "id": 0
             },
             "EndEvent": {
@@ -26506,7 +26642,7 @@
                                                     "priority": 0,
                                                     "valueStepsize": 1
                                                 },
-                                                "Int": 0,
+                                                "Int": 1,
                                                 "Name": "circle1",
                                                 "RepetitionFilter": false,
                                                 "Unit": "none",
