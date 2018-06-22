@@ -1788,3 +1788,98 @@
 # 
 # ###########################################
 
+- cue "vexpand-1"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/dmx/light1/data/active 1
+/dmx/light1/rate/max 7000
+/dmx/light1/rate/min 6000
+/dmx/light1/interpolate 8000
+/dmx/light1/max 1.000000
+/dmx/light1/min 0.000000
+/dmx/light1/on 1
+/dmx/light1/step 1.000000
+# 
+/dmx/light2/data/active 1
+/dmx/light2/rate/max 7000
+/dmx/light2/rate/min 6000
+/dmx/light2/interpolate 8000
+/dmx/light2/max 1.000000
+/dmx/light2/min 0.000000
+/dmx/light2/on 1
+/dmx/light2/step 1.000000
+# 
+/dmx/speed/data/active 1
+/dmx/speed/rate/max 6000
+/dmx/speed/rate/min 4000
+/dmx/speed/interpolate 5000
+/dmx/speed/max 1.000000
+/dmx/speed/min 0.800000
+/dmx/speed/on 1
+/dmx/speed/step 1.000000
+# 
+/dmx/tilt/data/active 1
+/dmx/tilt/rate/max 2471
+/dmx/tilt/rate/min 1721
+/dmx/tilt/interpolate 3097
+/dmx/tilt/max 0.030000
+/dmx/tilt/min -0.030000
+/dmx/tilt/on 1
+/dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 6000
+/dmx/tiltY/rate/min 4000
+/dmx/tiltY/interpolate 5000
+/dmx/tiltY/max 0.900000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+# ###########################################
+
+- cue "vexpand-1.1"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/dmx/light1/data/active 1
+/dmx/light1/rate/max 7000
+/dmx/light1/rate/min 6000
+/dmx/light1/interpolate 8000
+/dmx/light1/max 1.000000
+/dmx/light1/min 0.000000
+/dmx/light1/on 0
+/dmx/light1/step 1.000000
+# 
+/dmx/light2/data/active 1
+/dmx/light2/rate/max 7000
+/dmx/light2/rate/min 6000
+/dmx/light2/interpolate 8000
+/dmx/light2/max 1.000000
+/dmx/light2/min 0.000000
+/dmx/light2/on 0
+/dmx/light2/step 1.000000
+# 
+/dmx/speed/data/active 1
+/dmx/speed/rate/max 4000
+/dmx/speed/rate/min 3000
+/dmx/speed/interpolate 3000
+/dmx/speed/max 1.000000
+/dmx/speed/min 0.530000
+/dmx/speed/on 1
+/dmx/speed/step 1.000000
+# 
+/dmx/tilt/data/active 1
+/dmx/tilt/rate/max 600
+/dmx/tilt/rate/min 300
+/dmx/tilt/interpolate 500
+/dmx/tilt/max 0.120000
+/dmx/tilt/min -0.110000
+/dmx/tilt/on 1
+/dmx/tilt/step 0.700000
+# 
+# ###########################################
+
