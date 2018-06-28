@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 326.0, 45.0, 774.0, 497.0 ],
+		"rect" : [ 326.0, 45.0, 1354.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1140.0, 600.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1140.0, 570.0, 69.0, 22.0 ],
+					"style" : "",
+					"text" : "delay 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1140.0, 540.0, 141.0, 22.0 ],
+					"style" : "",
+					"text" : "j.initialized /rogs/Rogs2~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 2,
@@ -71,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1155.0, 510.0, 105.0, 33.0 ],
+					"patching_rect" : [ 1140.0, 675.0, 105.0, 33.0 ],
 					"style" : "",
 					"text" : "turning off DSP is not the way..."
 				}
@@ -1563,7 +1602,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.0, 285.0, 99.0, 22.0 ],
+					"patching_rect" : [ 945.0, 255.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 9996"
 				}
@@ -1576,7 +1615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1155.0, 465.0, 29.0, 29.0 ],
+					"patching_rect" : [ 1140.0, 630.0, 29.0, 29.0 ],
 					"style" : ""
 				}
 
@@ -1680,6 +1719,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-128", 0 ],
 					"source" : [ "obj-108", 0 ]
@@ -1806,6 +1852,13 @@
 					"destination" : [ "obj-110", 0 ],
 					"midpoints" : [ 429.5, 354.0, 405.0, 354.0, 405.0, 294.0, 429.5, 294.0 ],
 					"source" : [ "obj-129", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2046,20 +2099,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
@@ -2264,6 +2303,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-131", 0 ],
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

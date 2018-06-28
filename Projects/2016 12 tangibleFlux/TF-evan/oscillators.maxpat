@@ -255,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 200.0, 45.0, 19.0 ],
+					"patching_rect" : [ 135.0, 330.0, 45.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 200.0, 42.0, 19.0 ],
 					"style" : "",
@@ -272,7 +272,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 885.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "1."
+					"text" : "0.5"
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 885.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "1."
+					"text" : "0.6"
 				}
 
 			}
@@ -1500,11 +1500,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-429",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1245.0, 330.0, 176.0, 22.0 ],
+					"patching_rect" : [ 1485.0, 510.0, 135.0, 35.0 ],
 					"style" : "",
 					"text" : "j.remote mod/osc.scaler~/micR"
 				}
@@ -1513,11 +1514,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-428",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1202.0, 302.0, 174.0, 22.0 ],
+					"patching_rect" : [ 1320.0, 510.0, 135.0, 35.0 ],
 					"style" : "",
 					"text" : "j.remote mod/osc.scaler~/micL"
 				}
@@ -1530,7 +1532,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1187.0, 356.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1455.0, 585.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "gate~ 1 0"
 				}
@@ -1543,7 +1545,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1122.0, 356.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1290.0, 585.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "gate~ 1 0"
 				}
@@ -1562,7 +1564,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1185.0, 330.0, 40.0, 20.0 ],
+					"patching_rect" : [ 1485.0, 480.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.0, 6.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1595,7 +1597,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1125.0, 330.0, 40.0, 20.0 ],
+					"patching_rect" : [ 1320.0, 480.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 645.0, 6.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1622,7 +1624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1122.0, 303.0, 78.0, 22.0 ],
+					"patching_rect" : [ 1290.0, 435.0, 180.0, 22.0 ],
 					"style" : "",
 					"text" : "adc~ 1 2"
 				}
@@ -1645,7 +1647,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1125.0, 420.0, 150.0, 315.0 ],
+					"patching_rect" : [ 1125.0, 435.0, 150.0, 315.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 606.0, 22.0, 150.0, 315.0 ],
 					"viewvisibility" : 1
@@ -1660,7 +1662,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "" ],
-					"patching_rect" : [ 1125.0, 390.0, 170.0, 22.0 ],
+					"patching_rect" : [ 1290.0, 630.0, 170.0, 22.0 ],
 					"style" : "",
 					"text" : "j.nav.scale~.model osc.scale~"
 				}
@@ -4517,7 +4519,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 628.0, 137.0, 942.0, 662.0 ],
+						"rect" : [ 126.0, 273.0, 942.0, 662.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5005,9 +5007,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5016,9 +5018,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5027,6 +5029,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5037,8 +5040,7 @@
 									}
 ,
 									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5064,6 +5066,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5073,8 +5076,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7626,9 +7628,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7637,9 +7639,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7648,6 +7650,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7658,8 +7661,7 @@
 									}
 ,
 									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7685,6 +7687,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7694,8 +7697,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10572,9 +10574,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10583,9 +10585,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10594,6 +10596,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10604,8 +10607,7 @@
 									}
 ,
 									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10631,6 +10633,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10640,8 +10643,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11410,9 +11412,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11421,9 +11423,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11432,6 +11434,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11442,8 +11445,7 @@
 									}
 ,
 									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11469,6 +11471,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11478,8 +11481,7 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -14250,6 +14252,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-426", 1 ],
+					"midpoints" : [ 1299.5, 569.0, 1341.5, 569.0 ],
 					"source" : [ "obj-422", 0 ]
 				}
 
@@ -14257,38 +14260,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-427", 1 ],
+					"midpoints" : [ 1460.5, 574.0, 1506.5, 574.0 ],
 					"source" : [ "obj-422", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-426", 0 ],
-					"order" : 1,
-					"source" : [ "obj-424", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-428", 0 ],
-					"order" : 0,
 					"source" : [ "obj-424", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-427", 0 ],
-					"order" : 1,
-					"source" : [ "obj-425", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-429", 0 ],
-					"order" : 0,
+					"midpoints" : [ 1494.5, 501.0, 1494.5, 501.0 ],
 					"source" : [ "obj-425", 0 ]
 				}
 
@@ -14310,14 +14297,32 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-424", 0 ],
+					"midpoints" : [ 1329.5, 546.0, 1305.0, 546.0, 1305.0, 474.0, 1329.5, 474.0 ],
 					"source" : [ "obj-428", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-426", 0 ],
+					"midpoints" : [ 1368.166667, 554.0, 1299.5, 554.0 ],
+					"source" : [ "obj-428", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-425", 0 ],
+					"midpoints" : [ 1494.5, 546.0, 1470.0, 546.0, 1470.0, 474.0, 1494.5, 474.0 ],
 					"source" : [ "obj-429", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-427", 0 ],
+					"midpoints" : [ 1533.166667, 556.0, 1464.5, 556.0 ],
+					"source" : [ "obj-429", 1 ]
 				}
 
 			}
@@ -14862,9 +14867,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14873,9 +14878,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14884,6 +14889,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14894,8 +14900,7 @@
 					}
 ,
 					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14921,6 +14926,7 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14930,8 +14936,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 9.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",

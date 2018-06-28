@@ -2738,11 +2738,11 @@
 /oscillators/drive_top_r/scale/gain 0.000000
 /oscillators/drive_top_r/scale/invert 0.000000
 /oscillators/drive_top_r/scale/smooth 0.000000
-/oscillators/drive_top_r/scale/visualize 0.000000
+/oscillators/drive_top_r/scale/visualize 0
 /oscillators/drive_top_r/audio/bypass 0
 /oscillators/drive_top_r/audio/gain 0.000000
 /oscillators/drive_top_r/audio/mix 100.000000
-/oscillators/drive_top_r/audio/mute 0
+/oscillators/drive_top_r/audio/mute 1
 /oscillators/drive_top_r/data/active 1
 /oscillators/drive_top_r/snapshot/interval 0
 /oscillators/drive_top_r/snapshot/on 0
@@ -2890,13 +2890,13 @@
 /oscillators/mixer/osc3/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 61.000000 /equalizer/filter/3/gain 1.100000 /equalizer/filter/3/q 0.770000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 4 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc3/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 81.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 483.000000 /equalizer/filter/5/gain 3.200000 /equalizer/filter/5/q 1.220000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10858.000000 /equalizer/filter/7/gain 4.500000 /equalizer/filter/7/q 0.270000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc3/out/base -16.748032
-/oscillators/mixer/osc3/out/plinth -45.984253
+/oscillators/mixer/osc3/out/plinth -47.228346
 /oscillators/mixer/osc4/comp/base /attack 10.010000 /release 30.000000 /lookahead 0.000000 /compressor/threshold -30.000000 /compressor/ratio 1.000000 /expander/threshold -60.000000 /expander/ratio 1.000000 /makeup 0.000000 /link 0 /bypass 0 /grid/visible 1 /curve/fill 1 /background/color 0.858824 0.858824 0.858824 1.000000 /foreground/color 0.164706 0.615686 0.647059 0.619608 /curve/color 0.188235 0.188235 0.713726 0.619608 /curve/thickness 1.000000 /grid/color 0.501961 0.501961 0.501961 1.000000 /title bang
 /oscillators/mixer/osc4/comp/plinth 0.000000
 /oscillators/mixer/osc4/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc4/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc4/out/base -21.102362
-/oscillators/mixer/osc4/out/plinth -56.559055
+/oscillators/mixer/osc4/out/base -23.590551
+/oscillators/mixer/osc4/out/plinth -44.740157
 # 
 # 
 /oscillators/osc.scale~/autoscale/audio/bypass 0
@@ -3301,8 +3301,8 @@
 /oscillators/osc3/mapwavefolder/function/parameters.1 alpha 1.469000
 /oscillators/osc3/mapwavefolder/function/parameters.2 beta 8.400000
 /oscillators/osc3/mapwavefolder/input/address /dmx/main/y
-/oscillators/osc3/mapwavefolder/input/max 1.000000
-/oscillators/osc3/mapwavefolder/input/min -1.000000
+/oscillators/osc3/mapwavefolder/input/max 0.899000
+/oscillators/osc3/mapwavefolder/input/min -0.800000
 /oscillators/osc3/mapwavefolder/output/max 1.000000
 /oscillators/osc3/mapwavefolder/output/min 0.000000
 /oscillators/osc3/mapwavefolder/process/function kaiser
@@ -3432,32 +3432,32 @@
 # 
 /oscillators/osc4/mapwavefolder/data/active 1
 /oscillators/osc4/mapwavefolder/function/parameters.1 0.000000
-/oscillators/osc4/mapwavefolder/input/address none
+/oscillators/osc4/mapwavefolder/input/address /dmx/main/y
 /oscillators/osc4/mapwavefolder/input/max 1.000000
-/oscillators/osc4/mapwavefolder/input/min 0.000000
+/oscillators/osc4/mapwavefolder/input/min -1.000000
 /oscillators/osc4/mapwavefolder/output/max 1.000000
 /oscillators/osc4/mapwavefolder/output/min 0.000000
 /oscillators/osc4/mapwavefolder/process/function freehand
 /oscillators/osc4/mapwavefolder/process/clipmode both
 /oscillators/osc4/mapwavefolder/process/mode 0.000000
-/oscillators/osc4/mapwavefolder/process/rampTime 0.000000
+/oscillators/osc4/mapwavefolder/process/rampTime 1000.000000
 /oscillators/osc4/mapwavefolder/slide/down 0.000000
 /oscillators/osc4/mapwavefolder/slide/up 0.000000
-/oscillators/osc4/mapwavefolder/active 0
-/oscillators/osc4/mapwavefolder/scalebypass 1
+/oscillators/osc4/mapwavefolder/active 1
+/oscillators/osc4/mapwavefolder/scalebypass 0
 /oscillators/osc4/audio/gain 0.000000
 /oscillators/osc4/audio/mute 0
-/oscillators/osc4/mod/carrierfreq 0.000000
+/oscillators/osc4/mod/carrierfreq 3.000000
 /oscillators/osc4/mod/carriersinsaw 0.000000
 /oscillators/osc4/mod/modfreq 0.000000
 /oscillators/osc4/mod/modindex 0.000000
 /oscillators/osc4/mod/modnoise 0.000000
 /oscillators/osc4/mod/noisefilt 0.000000
-/oscillators/osc4/mod/wavefolder 0.000000
+/oscillators/osc4/mod/wavefolder 0.900000
 /oscillators/osc4/modratioman 0
 /oscillators/osc4/modfreq 0.000000
 /oscillators/osc4/modratio 0.000000
-/oscillators/osc4/carrierfreq 50.000000
+/oscillators/osc4/carrierfreq 49.000000
 /oscillators/osc4/carriersinsaw 0.070866
 /oscillators/osc4/modindex 0.000000
 /oscillators/osc4/modnoise 0.000000
@@ -3736,13 +3736,13 @@
 /oscillators/mixer/osc3/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 61.000000 /equalizer/filter/3/gain 1.100000 /equalizer/filter/3/q 0.770000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 4 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc3/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 81.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 483.000000 /equalizer/filter/5/gain 3.200000 /equalizer/filter/5/q 1.220000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10858.000000 /equalizer/filter/7/gain 4.500000 /equalizer/filter/7/q 0.270000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc3/out/base -16.125984
-/oscillators/mixer/osc3/out/plinth -44.740157
+/oscillators/mixer/osc3/out/plinth -44.740158
 /oscillators/mixer/osc4/comp/base /attack 10.010000 /release 30.000000 /lookahead 0.000000 /compressor/threshold -30.000000 /compressor/ratio 1.000000 /expander/threshold -60.000000 /expander/ratio 1.000000 /makeup 0.000000 /link 0 /bypass 0 /grid/visible 1 /curve/fill 1 /background/color 0.858824 0.858824 0.858824 1.000000 /foreground/color 0.164706 0.615686 0.647059 0.619608 /curve/color 0.188235 0.188235 0.713726 0.619608 /curve/thickness 1.000000 /grid/color 0.501961 0.501961 0.501961 1.000000 /title bang
 /oscillators/mixer/osc4/comp/plinth 0.000000
 /oscillators/mixer/osc4/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc4/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc4/out/base -16.748031
-/oscillators/mixer/osc4/out/plinth -45.984252
+/oscillators/mixer/osc4/out/base -16.748032
+/oscillators/mixer/osc4/out/plinth -45.984253
 # 
 # 
 /oscillators/osc.scale~/autoscale/audio/bypass 0
@@ -3906,11 +3906,11 @@
 /oscillators/osc1/modratioman 0
 /oscillators/osc1/modfreq 0.129531
 /oscillators/osc1/modratio 0.000000
-/oscillators/osc1/carrierfreq 7597.364908
+/oscillators/osc1/carrierfreq 7597.364746
 /oscillators/osc1/carriersinsaw 0.448819
 /oscillators/osc1/modindex 1.338583
 /oscillators/osc1/modnoise 0.000000
-/oscillators/osc1/noisefilt 157.480315
+/oscillators/osc1/noisefilt 157.480316
 /oscillators/osc1/squareorsaw 0
 /oscillators/osc1/wavefolder 0.031496
 # 
@@ -4042,7 +4042,7 @@
 /oscillators/osc2/carriersinsaw 0.669291
 /oscillators/osc2/modindex 0.393701
 /oscillators/osc2/modnoise 0.244094
-/oscillators/osc2/noisefilt 16377.952756
+/oscillators/osc2/noisefilt 16377.953125
 /oscillators/osc2/squareorsaw 1
 /oscillators/osc2/wavefolder 0.007874
 # 
@@ -4175,7 +4175,7 @@
 /oscillators/osc3/carriersinsaw 0.228346
 /oscillators/osc3/modindex 1.185040
 /oscillators/osc3/modnoise 0.000000
-/oscillators/osc3/noisefilt 157.480315
+/oscillators/osc3/noisefilt 157.480316
 /oscillators/osc3/squareorsaw 0
 /oscillators/osc3/wavefolder 0.000000
 # 
@@ -4331,7 +4331,7 @@
 /oscillators/ellipse1/centerY -0.472441
 /oscillators/ellipse1/centerX 0.000000
 /oscillators/ellipse1/radius 1.590551
-/oscillators/ellipse1/speed 696.850394
+/oscillators/ellipse1/speed 696.850403
 /oscillators/ellipse1/grain 10.259843
 /oscillators/ellipse1/on 1
 # 
@@ -4343,7 +4343,7 @@
 /oscillators/ellipse2/centerY 0.000000
 /oscillators/ellipse2/centerX 0.000000
 /oscillators/ellipse2/radius 1.000000
-/oscillators/ellipse2/speed -488.976378
+/oscillators/ellipse2/speed -488.976379
 /oscillators/ellipse2/grain 10.259843
 /oscillators/ellipse2/on 1
 # 

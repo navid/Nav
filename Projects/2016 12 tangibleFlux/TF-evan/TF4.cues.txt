@@ -1678,6 +1678,47 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo1/random/rate/max 100
+/dmx/lfo1/random/rate/min 10
+/dmx/lfo1/random/max 1.000000
+/dmx/lfo1/random/min 0.000000
+/dmx/lfo1/random/step 1.000000
+/dmx/lfo1/clip/high 1.000000
+/dmx/lfo1/clip/low 0.000000
+/dmx/lfo1/clip/mode 0
+/dmx/lfo1/interpolate/auto 0
+/dmx/lfo1/interpolate/grain 1
+/dmx/lfo1/interpolate/time 0
+/dmx/lfo1/bias 0.000000
+/dmx/lfo1/ease 0
+/dmx/lfo1/hz 1.000000
+/dmx/lfo1/on 0
+/dmx/lfo1/phase 0.000000
+/dmx/lfo1/pw 0.500000
+/dmx/lfo1/scale 1.000000
+/dmx/lfo1/waveform 4
+# 
+/dmx/lfo2/random/rate/max 100
+/dmx/lfo2/random/rate/min 10
+/dmx/lfo2/random/max 1.000000
+/dmx/lfo2/random/min 0.000000
+/dmx/lfo2/random/step 1.000000
+/dmx/lfo2/clip/high 1.000000
+/dmx/lfo2/clip/low 0.000000
+/dmx/lfo2/clip/mode 0
+/dmx/lfo2/interpolate/auto 0
+/dmx/lfo2/interpolate/grain 1
+/dmx/lfo2/interpolate/time 0
+/dmx/lfo2/bias 0.000000
+/dmx/lfo2/ease 0
+/dmx/lfo2/hz 1.000000
+/dmx/lfo2/on 0
+/dmx/lfo2/phase 0.000000
+/dmx/lfo2/pw 0.500000
+/dmx/lfo2/scale 1.000000
+/dmx/lfo2/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
 /dmx/light1/rate/min 1000
