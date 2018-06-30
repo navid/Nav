@@ -3553,7 +3553,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain -17.000000
 /rogs/Rogs1~/audio/mute 1
-/rogs/Rogs1~/file/ms 93131.708333
+/rogs/Rogs1~/file/ms 93131.710938
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/code/snd/Glitch-pers.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -3793,7 +3793,7 @@
 /rogs/Rogs2~/playback/speed 0.000000
 /rogs/Rogs2~/playback/position 0.523948
 /rogs/Rogs2~/selection/mode 0
-/rogs/Rogs2~/selection/range 13585.791667 17863.500000
+/rogs/Rogs2~/selection/range 13585.791992 17863.500000
 /rogs/Rogs2~/waveform/normalize 1.050000
 /rogs/Rogs2~/numChannels 2
 # 
@@ -4077,7 +4077,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain -6.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 37216.979167
+/rogs/Rogs1~/file/ms 37216.980469
 /rogs/Rogs1~/file/open Electricity-tool-EQ.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -4317,7 +4317,7 @@
 /rogs/Rogs2~/playback/speed -700.000000
 /rogs/Rogs2~/playback/position 0.523948
 /rogs/Rogs2~/selection/mode 0
-/rogs/Rogs2~/selection/range 13585.791667 17863.500000
+/rogs/Rogs2~/selection/range 13585.791992 17863.500000
 /rogs/Rogs2~/waveform/normalize 1.050000
 /rogs/Rogs2~/numChannels 2
 # 
@@ -4419,6 +4419,117 @@
 /rogs/sounds1/mute 0
 /rogs/sounds1/offset 0.000000
 /rogs/sounds1/preview 1
+# 
+# ###########################################
+
+- cue "zeroall"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/rogs/Rogs1~/grain/trigger/variance/gainVar/randomnessRate 0.342872
+/rogs/Rogs1~/grain/trigger/variance/gainVar/range 95.810310 99.288567
+/rogs/Rogs1~/grain/trigger/variance/rateVar/randomnessRate 0.678949
+/rogs/Rogs1~/grain/trigger/variance/rateVar/spread 6.471518
+/rogs/Rogs1~/grain/trigger/variance/on 0
+/rogs/Rogs1~/grain/trigger/freq 4.000000
+/rogs/Rogs1~/grain/trigger/lock 0
+/rogs/Rogs1~/grain/trigger/mode 0
+/rogs/Rogs1~/grain/trigger/note 7
+/rogs/Rogs1~/grain/duration 17.000000
+/rogs/Rogs1~/grain/onsetVar 100.000000
+/rogs/Rogs1~/grain/overlap 100
+/rogs/Rogs1~/audio/gain -96.000000
+/rogs/Rogs1~/audio/mute 1
+/rogs/Rogs1~/file/open HD:/Users/tangibleflux/Desktop/Rogs/Pizzi-transients/pizzi-bouncy-ABAB.aif
+/rogs/Rogs1~/mapperGate/gain 2
+/rogs/Rogs1~/mapperGate/onsetVar 2
+/rogs/Rogs1~/mapperGate/pitch 0
+/rogs/Rogs1~/mapperGate/pitchVar 0
+/rogs/Rogs1~/mapperGate/position 0
+/rogs/Rogs1~/mapperGate/size 2
+/rogs/Rogs1~/mapperGate/speed 1
+/rogs/Rogs1~/mapperGate/trigger 2
+/rogs/Rogs1~/mapperGate/turn 2
+/rogs/Rogs1~/mod/gain 5.000000
+/rogs/Rogs1~/mod/onsetVar -100.000000
+/rogs/Rogs1~/mod/pitch 0.000000
+/rogs/Rogs1~/mod/pitchVar 0.000000
+/rogs/Rogs1~/mod/position 0.000000
+/rogs/Rogs1~/mod/size 138.000000
+/rogs/Rogs1~/mod/speed 0.500000
+/rogs/Rogs1~/mod/trigger 52.000000
+/rogs/Rogs1~/mod/turn 1.600000
+/rogs/Rogs1~/pan/mode 1
+/rogs/Rogs1~/pan/rate 0.000000
+/rogs/Rogs1~/pan/spread 0.497000
+/rogs/Rogs1~/pitch/transpose 600.000000
+/rogs/Rogs1~/pitch/variation 2.000000
+/rogs/Rogs1~/playback/direction 0
+/rogs/Rogs1~/playback/speed 0.038000
+/rogs/Rogs1~/playback/position 0.378069
+/rogs/Rogs1~/selection/mode 0
+/rogs/Rogs1~/selection/range 0.000000 96037.890625
+/rogs/Rogs1~/waveform/normalize 1.000000
+# 
+/rogs/Rogs2~/grain/trigger/variance/gainVar/randomnessRate 0.342872
+/rogs/Rogs2~/grain/trigger/variance/gainVar/range 95.810310 99.288567
+/rogs/Rogs2~/grain/trigger/variance/rateVar/randomnessRate 0.678949
+/rogs/Rogs2~/grain/trigger/variance/rateVar/spread 6.471518
+/rogs/Rogs2~/grain/trigger/variance/on 0
+/rogs/Rogs2~/grain/trigger/freq 11.000000
+/rogs/Rogs2~/grain/trigger/lock 0
+/rogs/Rogs2~/grain/trigger/mode 0
+/rogs/Rogs2~/grain/trigger/note 7
+/rogs/Rogs2~/grain/duration 12.000000
+/rogs/Rogs2~/grain/onsetVar 0.000000
+/rogs/Rogs2~/grain/overlap 100
+/rogs/Rogs2~/audio/gain -96.000000
+/rogs/Rogs2~/audio/mute 1
+/rogs/Rogs2~/file/open HD:/Users/tangibleflux/Desktop/Rogs/Gamelan/bali-voice1.aif
+/rogs/Rogs2~/mapperGate/gain 2
+/rogs/Rogs2~/mapperGate/onsetVar 2
+/rogs/Rogs2~/mapperGate/pitch 2
+/rogs/Rogs2~/mapperGate/pitchVar 2
+/rogs/Rogs2~/mapperGate/position 0
+/rogs/Rogs2~/mapperGate/size 2
+/rogs/Rogs2~/mapperGate/speed 1
+/rogs/Rogs2~/mapperGate/trigger 2
+/rogs/Rogs2~/mapperGate/turn 2
+/rogs/Rogs2~/mod/gain 4.000000
+/rogs/Rogs2~/mod/onsetVar 0.000000
+/rogs/Rogs2~/mod/pitch 372.000000
+/rogs/Rogs2~/mod/pitchVar 1.000000
+/rogs/Rogs2~/mod/position 0.000000
+/rogs/Rogs2~/mod/size 115.000000
+/rogs/Rogs2~/mod/speed 0.700000
+/rogs/Rogs2~/mod/trigger 46.000000
+/rogs/Rogs2~/mod/turn -1.600000
+/rogs/Rogs2~/pan/mode 1
+/rogs/Rogs2~/pan/rate 0.000000
+/rogs/Rogs2~/pan/spread 0.450000
+/rogs/Rogs2~/pitch/transpose 0.000000
+/rogs/Rogs2~/pitch/variation 0.000000
+/rogs/Rogs2~/playback/direction 0
+/rogs/Rogs2~/playback/speed 0.000000
+/rogs/Rogs2~/playback/position 0.402756
+/rogs/Rogs2~/selection/mode 0
+/rogs/Rogs2~/selection/range 15200.500000 18885.228516
+/rogs/Rogs2~/waveform/normalize 1.000000
+# 
+/rogs/mixer/in/rogs1/dry 0.000000
+/rogs/mixer/in/rogs1/reverb 0.000000
+/rogs/mixer/in/rogs2/dry 0.000000
+/rogs/mixer/in/rogs2/reverb 0.000000
+/rogs/mixer/out/plinth/dry 0.000000
+/rogs/mixer/out/plinth/reverb 0.000000
+/rogs/mixer/out/top/dry 0.000000
+/rogs/mixer/out/top/reverb 0.000000
+# 
+/rogs/sounds1/pre-slide/down 0.000000
+/rogs/sounds1/pre-slide/up 1.000000
+/rogs/sounds1/slide/down 1.000000
+/rogs/sounds1/slide/up 0.000000
 # 
 # ###########################################
 
