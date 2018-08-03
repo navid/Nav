@@ -2,9 +2,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.300000
 /dmx/light1/min -0.100000
@@ -14,6 +116,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 1.100000
 /dmx/light2/min -0.300000
@@ -23,6 +126,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1107
 /dmx/speed/max 0.330000
 /dmx/speed/min 0.110000
@@ -32,11 +136,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2130
 /dmx/tilt/rate/min 806
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.510000
 /dmx/tilt/min 0.490000
 /dmx/tilt/on 0
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.000000
+/dmx/main/LED2 0.000000
+/dmx/main/speed 0.000000
+/dmx/main/x 0.000000
+/dmx/main/y 0.700000
 # 
 # ###########################################
 
@@ -44,9 +171,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 0.060000
 /dmx/light1/min 0.001000
@@ -56,6 +285,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 0.060000
 /dmx/light2/min 0.001000
@@ -65,6 +295,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 3241
 /dmx/speed/rate/min 1833
+/dmx/speed/grain 25
 /dmx/speed/interpolate 2612
 /dmx/speed/max 0.330000
 /dmx/speed/min 0.120000
@@ -74,11 +305,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2130
 /dmx/tilt/rate/min 806
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.510000
 /dmx/tilt/min 0.490000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.329559
+/dmx/main/LED2 0.209357
+/dmx/main/speed 0.306758
+/dmx/main/x 0.507000
+/dmx/main/y 0.700000
 # 
 # ###########################################
 
@@ -86,9 +340,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
 /dmx/light1/rate/min 1000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 938
 /dmx/light1/max 1.200000
 /dmx/light1/min 0.690000
@@ -98,6 +454,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 2000
 /dmx/light2/rate/min 1000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 1069
 /dmx/light2/max 1.200000
 /dmx/light2/min 0.670000
@@ -107,6 +464,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1107
 /dmx/speed/max 0.330000
 /dmx/speed/min 0.110000
@@ -116,11 +474,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2130
 /dmx/tilt/rate/min 806
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.510000
 /dmx/tilt/min 0.490000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 1.177000
+/dmx/main/LED2 0.907000
+/dmx/main/speed 0.179000
+/dmx/main/x 0.501000
+/dmx/main/y 0.700000
 # 
 # ###########################################
 
@@ -128,9 +509,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
 /dmx/light1/rate/min 1000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 938
 /dmx/light1/max 1.020000
 /dmx/light1/min 0.140000
@@ -140,6 +623,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 2000
 /dmx/light2/rate/min 1000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 1069
 /dmx/light2/max 1.020000
 /dmx/light2/min 0.140000
@@ -149,6 +633,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 662
 /dmx/speed/max 0.500000
 /dmx/speed/min 0.200000
@@ -158,11 +643,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 233
 /dmx/tilt/rate/min 50
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 200
 /dmx/tilt/max 0.640000
 /dmx/tilt/min 0.321000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.653000
+/dmx/main/LED2 0.286000
+/dmx/main/speed 0.232000
+/dmx/main/x 0.400687
+/dmx/main/y -0.710000
 # 
 # ###########################################
 
@@ -170,9 +678,91 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 10000
 /dmx/light1/rate/min 7000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 9000
 /dmx/light1/max 0.210000
 /dmx/light1/min -0.210000
@@ -182,6 +772,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 2000
 /dmx/light2/rate/min 1000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 2580
 /dmx/light2/max 0.800000
 /dmx/light2/min 0.070000
@@ -191,6 +782,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 1500
 /dmx/speed/rate/min 1000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 500
 /dmx/speed/max 0.282000
 /dmx/speed/min 0.248000
@@ -200,11 +792,37 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 6000
 /dmx/tilt/rate/min 5000
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 7000
 /dmx/tilt/max 0.551000
 /dmx/tilt/min 0.442000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/iscore_logic/go 0
+/dmx/iscore_logic/state none
+# 
+/dmx/main/LED1 -0.054369
+/dmx/main/LED2 0.432490
+/dmx/main/speed 0.254200
+/dmx/main/x 0.522783
+/dmx/main/y -0.161000
 # 
 # ###########################################
 
@@ -212,9 +830,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 0.142000
 /dmx/light1/min 0.000000
@@ -224,6 +944,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 0.100000
 /dmx/light2/min 0.002000
@@ -233,6 +954,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1107
 /dmx/speed/max 0.230000
 /dmx/speed/min 0.210000
@@ -242,11 +964,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2130
 /dmx/tilt/rate/min 806
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.510000
 /dmx/tilt/min 0.490000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.043843
+/dmx/main/LED2 0.194790
+/dmx/main/speed 0.211000
+/dmx/main/x 0.497000
+/dmx/main/y 0.224000
 # 
 # ###########################################
 
@@ -254,9 +999,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.100000
 /dmx/light1/min 0.200000
@@ -266,6 +1113,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 1.100000
 /dmx/light2/min 0.290000
@@ -275,6 +1123,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2570
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1749
 /dmx/speed/max 0.140000
 /dmx/speed/min 0.100000
@@ -284,11 +1133,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 1650
 /dmx/tilt/max 0.505000
 /dmx/tilt/min 0.495000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.716405
+/dmx/main/LED2 0.325912
+/dmx/main/speed 0.129057
+/dmx/main/x 0.498227
+/dmx/main/y -0.697000
 # 
 # ###########################################
 
@@ -296,9 +1168,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.100000
 /dmx/light1/min 0.800000
@@ -308,6 +1282,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 0.200000
 /dmx/light2/min -0.100000
@@ -317,6 +1292,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 3402
 /dmx/speed/rate/min 2067
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1833
 /dmx/speed/max 0.190000
 /dmx/speed/min 0.148000
@@ -326,11 +1302,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 1650
 /dmx/tilt/max 0.510000
 /dmx/tilt/min 0.490000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.887106
+/dmx/main/LED2 0.307369
+/dmx/main/speed 0.171432
+/dmx/main/x 0.503000
+/dmx/main/y -0.800000
 # 
 # ###########################################
 
@@ -338,9 +1337,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.000000
 /dmx/light1/min -0.134000
@@ -350,6 +1451,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 1.000000
 /dmx/light2/min -0.270000
@@ -359,6 +1461,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 3219
 /dmx/speed/rate/min 1968
+/dmx/speed/grain 25
 /dmx/speed/interpolate 2458
 /dmx/speed/max 0.360000
 /dmx/speed/min 0.096000
@@ -368,11 +1471,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2015
 /dmx/tilt/rate/min 1094
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 2229
 /dmx/tilt/max 0.660000
 /dmx/tilt/min 0.320000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 1.001598
+/dmx/main/LED2 0.739956
+/dmx/main/speed 0.345646
+/dmx/main/x 0.405090
+/dmx/main/y -0.264000
 # 
 # ###########################################
 
@@ -380,9 +1506,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.100000
 /dmx/light1/min 0.890000
@@ -392,6 +1620,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 9000
 /dmx/light2/rate/min 7000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 10000
 /dmx/light2/max 1.033000
 /dmx/light2/min 0.011000
@@ -401,6 +1630,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2028
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1749
 /dmx/speed/max 0.161000
 /dmx/speed/min 0.159000
@@ -410,11 +1640,37 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2800
 /dmx/tilt/rate/min 2000
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 2500
 /dmx/tilt/max 0.550000
 /dmx/tilt/min 0.440000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/iscore_logic/go 0
+/dmx/iscore_logic/state none
+# 
+/dmx/main/LED1 0.000000
+/dmx/main/LED2 0.376251
+/dmx/main/speed 0.158771
+/dmx/main/x 0.492939
+/dmx/main/y -0.481000
 # 
 # ###########################################
 
@@ -422,9 +1678,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 10000
 /dmx/light1/rate/min 7000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 9000
 /dmx/light1/max 0.210000
 /dmx/light1/min -0.210000
@@ -434,6 +1792,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 2000
 /dmx/light2/rate/min 1000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 2580
 /dmx/light2/max 0.800000
 /dmx/light2/min 0.070000
@@ -443,6 +1802,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 1500
 /dmx/speed/rate/min 1000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 500
 /dmx/speed/max 0.300000
 /dmx/speed/min 0.280000
@@ -452,11 +1812,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 6000
 /dmx/tilt/rate/min 5000
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 7000
 /dmx/tilt/max 0.551000
 /dmx/tilt/min 0.442000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.197056
+/dmx/main/LED2 0.492000
+/dmx/main/speed 0.300000
+/dmx/main/x 0.514847
+/dmx/main/y 0.284000
 # 
 # ###########################################
 
@@ -464,9 +1847,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 300
 /dmx/light1/rate/min 0
+/dmx/light1/grain 25
 /dmx/light1/interpolate 192
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.000000
@@ -476,6 +1961,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 200
 /dmx/light2/rate/min 0
+/dmx/light2/grain 25
 /dmx/light2/interpolate 0
 /dmx/light2/max 0.600000
 /dmx/light2/min -0.400000
@@ -485,6 +1971,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 3402
 /dmx/speed/rate/min 2067
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1833
 /dmx/speed/max 0.970000
 /dmx/speed/min 0.700000
@@ -494,29 +1981,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 1650
 /dmx/tilt/max 0.200000
 /dmx/tilt/min -0.900000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
 # 
-/timeIT/data/active 1
-/timeIT/rate/max 2000
-/timeIT/rate/min 500
-/timeIT/interpolate 1000
-/timeIT/max 1.000000
-/timeIT/min 0.000000
-/timeIT/on 0
-/timeIT/step 1.000000
-# 
 /dmx/tiltY/data/active 1
-/dmx/tiltY/interpolate 353
-/dmx/tiltY/min -0.400000
-/dmx/tiltY/max 0.400000
-/dmx/tiltY/on 1
-/dmx/tiltY/rate/min 2000
 /dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.400000
+/dmx/tiltY/min -0.400000
+/dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.215000
+/dmx/main/LED2 -0.053000
+/dmx/main/speed 0.733392
+/dmx/main/x -0.481000
+/dmx/main/y -0.400000
 # 
 # ###########################################
 
@@ -524,9 +2016,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.020000
@@ -536,6 +2130,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 0.320000
 /dmx/light2/min -0.100000
@@ -545,6 +2140,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2865
 /dmx/speed/rate/min 1977
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1833
 /dmx/speed/max 0.333000
 /dmx/speed/min 0.205000
@@ -554,29 +2150,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 1650
 /dmx/tilt/max 0.580000
 /dmx/tilt/min 0.420000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
 # 
-/timeIT/data/active 1
-/timeIT/rate/max 2000
-/timeIT/rate/min 500
-/timeIT/interpolate 1000
-/timeIT/max 1.000000
-/timeIT/min 0.000000
-/timeIT/on 0
-/timeIT/step 1.000000
-# 
 /dmx/tiltY/data/active 1
-/dmx/tiltY/interpolate 353
-/dmx/tiltY/min 0.340000
-/dmx/tiltY/max 0.640000
-/dmx/tiltY/on 1
-/dmx/tiltY/rate/min 2000
 /dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.640000
+/dmx/tiltY/min 0.340000
+/dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.319059
+/dmx/main/LED2 0.010000
+/dmx/main/speed 0.309000
+/dmx/main/x 0.514970
+/dmx/main/y 0.567000
 # 
 # ###########################################
 
@@ -584,9 +2185,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 8000
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.000000
@@ -596,6 +2299,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 8000
 /dmx/light2/max 1.000000
 /dmx/light2/min 0.000000
@@ -605,6 +2309,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 5173
 /dmx/speed/rate/min 3575
+/dmx/speed/grain 25
 /dmx/speed/interpolate 3349
 /dmx/speed/max 0.134000
 /dmx/speed/min 0.065000
@@ -614,29 +2319,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 3097
 /dmx/tilt/max 0.515000
 /dmx/tilt/min 0.485000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
 # 
-/timeIT/data/active 1
-/timeIT/rate/max 2000
-/timeIT/rate/min 500
-/timeIT/interpolate 1000
-/timeIT/max 1.000000
-/timeIT/min 0.000000
-/timeIT/on 0
-/timeIT/step 1.000000
-# 
 /dmx/tiltY/data/active 1
-/dmx/tiltY/interpolate 2936
-/dmx/tiltY/min 0.480000
-/dmx/tiltY/max 0.620000
-/dmx/tiltY/on 1
-/dmx/tiltY/rate/min 1827
 /dmx/tiltY/rate/max 2517
+/dmx/tiltY/rate/min 1827
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 2936
+/dmx/tiltY/max 0.620000
+/dmx/tiltY/min 0.480000
+/dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.224077
+/dmx/main/LED2 0.073503
+/dmx/main/speed 0.109241
+/dmx/main/x 0.496946
+/dmx/main/y 0.490898
 # 
 # ###########################################
 
@@ -644,9 +2354,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 0.100000
 /dmx/light1/min -0.010000
@@ -656,6 +2468,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 5000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 6000
 /dmx/light2/max 0.100000
 /dmx/light2/min -0.010000
@@ -665,6 +2478,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 5000
 /dmx/speed/rate/min 3000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 4000
 /dmx/speed/max 0.140000
 /dmx/speed/min 0.040000
@@ -674,6 +2488,7 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 3097
 /dmx/tilt/max 0.510000
 /dmx/tilt/min 0.494000
@@ -683,11 +2498,24 @@
 /dmx/tiltY/data/active 0
 /dmx/tiltY/rate/max 5000
 /dmx/tiltY/rate/min 3000
+/dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 3000
 /dmx/tiltY/max 0.520000
 /dmx/tiltY/min 0.507000
 /dmx/tiltY/on 0
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.000000
+/dmx/main/LED2 0.000000
+/dmx/main/speed 0.000000
+/dmx/main/x 0.000000
+/dmx/main/y 0.000000
 # 
 # ###########################################
 
@@ -695,9 +2523,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 0.200000
 /dmx/light1/min -0.004000
@@ -707,6 +2637,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 0.280000
 /dmx/light2/min -0.002000
@@ -716,6 +2647,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 5000
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 1107
 /dmx/speed/max 1.000000
 /dmx/speed/min 0.300000
@@ -725,11 +2657,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 4158
 /dmx/tilt/rate/min 806
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.580000
 /dmx/tilt/min 0.390000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.496152
+/dmx/main/LED2 0.236295
+/dmx/main/speed 0.386000
+/dmx/main/x 0.389000
+/dmx/main/y 0.700000
 # 
 # ###########################################
 
@@ -867,9 +2822,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 101
 /dmx/light1/rate/min 39
+/dmx/light1/grain 25
 /dmx/light1/interpolate 38
 /dmx/light1/max 0.070000
 /dmx/light1/min -0.001000
@@ -879,6 +2936,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 104
 /dmx/light2/rate/min 31
+/dmx/light2/grain 25
 /dmx/light2/interpolate 104
 /dmx/light2/max 0.060000
 /dmx/light2/min -0.001000
@@ -888,6 +2946,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 2338
 /dmx/speed/max 0.900000
 /dmx/speed/min 0.380000
@@ -897,11 +2956,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2368
 /dmx/tilt/rate/min 1056
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 247
 /dmx/tilt/max 0.450000
 /dmx/tilt/min 0.200000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.009000
+/dmx/main/LED2 0.046000
+/dmx/main/speed 0.745149
+/dmx/main/x 0.436000
+/dmx/main/y -0.519667
 # 
 # ###########################################
 
@@ -909,9 +2991,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 140
 /dmx/light1/rate/min 1
+/dmx/light1/grain 25
 /dmx/light1/interpolate 0
 /dmx/light1/max 0.980000
 /dmx/light1/min -3.000000
@@ -921,6 +3105,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 167
 /dmx/light2/rate/min 1
+/dmx/light2/grain 25
 /dmx/light2/interpolate 0
 /dmx/light2/max 0.980000
 /dmx/light2/min -3.000000
@@ -930,6 +3115,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 3115
 /dmx/speed/rate/min 521
+/dmx/speed/grain 25
 /dmx/speed/interpolate 274
 /dmx/speed/max 0.700000
 /dmx/speed/min 0.350000
@@ -939,11 +3125,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2528
 /dmx/tilt/rate/min 90
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.950000
 /dmx/tilt/min 0.100000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 -1.356000
+/dmx/main/LED2 -1.875000
+/dmx/main/speed 0.620636
+/dmx/main/x 0.169000
+/dmx/main/y 0.059000
 # 
 # ###########################################
 
@@ -951,9 +3160,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7323
 /dmx/light1/max 0.180000
 /dmx/light1/min -0.002000
@@ -963,6 +3274,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7417
 /dmx/light2/max 0.176000
 /dmx/light2/min -0.002000
@@ -972,6 +3284,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 4621
 /dmx/speed/rate/min 3426
+/dmx/speed/grain 25
 /dmx/speed/interpolate 3583
 /dmx/speed/max 0.480000
 /dmx/speed/min 0.310000
@@ -981,11 +3294,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2130
 /dmx/tilt/rate/min 993
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 1160
 /dmx/tilt/max 0.515000
 /dmx/tilt/min 0.485000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.118263
+/dmx/main/LED2 -0.097195
+/dmx/main/speed 0.455000
+/dmx/main/x 0.495511
+/dmx/main/y 0.352933
 # 
 # ###########################################
 
@@ -993,9 +3329,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 4000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 6000
 /dmx/light1/max 0.980000
 /dmx/light1/min -0.100000
@@ -1005,6 +3443,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 6000
 /dmx/light2/rate/min 5000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 5000
 /dmx/light2/max 0.270000
 /dmx/light2/min -0.510000
@@ -1014,6 +3453,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 10000
 /dmx/speed/rate/min 6000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 8000
 /dmx/speed/max 0.770000
 /dmx/speed/min 0.550000
@@ -1023,11 +3463,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 4413
 /dmx/tilt/rate/min 1557
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 0
 /dmx/tilt/max 0.586000
 /dmx/tilt/min 0.470000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.360750
+/dmx/main/LED2 -0.231880
+/dmx/main/speed 0.753300
+/dmx/main/x 0.504000
+/dmx/main/y 0.308000
 # 
 # ###########################################
 
@@ -1035,11 +3498,111 @@
 - description "something about this cue"
 # ###########################################
 # 
-/cue_manager_tactile/file/path "HD:/Users/tangibleflux/code/Nav/Projects/2016 12 tangibleFlux/TF-v2/TF.Haptify.cues.txt"
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 53
 /dmx/light1/rate/min 10
+/dmx/light1/grain 25
 /dmx/light1/interpolate 95
 /dmx/light1/max 0.980000
 /dmx/light1/min 0.120000
@@ -1049,6 +3612,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 112
 /dmx/light2/rate/min 40
+/dmx/light2/grain 25
 /dmx/light2/interpolate 144
 /dmx/light2/max 0.960000
 /dmx/light2/min 0.130000
@@ -1058,6 +3622,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
 /dmx/speed/rate/min 1899
+/dmx/speed/grain 25
 /dmx/speed/interpolate 2000
 /dmx/speed/max 0.590000
 /dmx/speed/min 0.380000
@@ -1067,6 +3632,7 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2368
 /dmx/tilt/rate/min 1056
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 247
 /dmx/tilt/max -0.060000
 /dmx/tilt/min -0.490000
@@ -1076,60 +3642,24 @@
 /dmx/tiltY/data/active 1
 /dmx/tiltY/rate/max 1000
 /dmx/tiltY/rate/min 600
+/dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 0
 /dmx/tiltY/max 0.500000
 /dmx/tiltY/min -0.583000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
-/time2/data/active 1
-/time2/rate/max 2000
-/time2/rate/min 500
-/time2/interpolate 1000
-/time2/max 1.000000
-/time2/min 0.000000
-/time2/on 0
-/time2/step 1.000000
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
 # 
-/cue_manager_osc/file/path none
-# 
-/drive/snapshot/interval 0
-/drive/snapshot/on 0
-/drive/scale/range/max 0.000000
-/drive/scale/range/min 0.000000
-/drive/scale/visualize 0.000000
-/drive/scale/invert 0.000000
-/drive/scale/comp 0.000000
-/drive/scale/drive 0.000000
-/drive/scale/gain 0.000000
-/drive/scale/smooth 0.000000
-/drive/data/active 1
-/drive/audio/mute 0
-/drive/audio/bypass 0
-/drive/audio/mix 100.000000
-/drive/audio/gain 0.000000
-# 
-/test2/modratioman 0
-/test2/modnoise 0.000000
-/test2/wavefolder 0.000000
-/test2/modratio 0.000000
-/test2/modindex 0.000000
-/test2/modfreq 0.000000
-/test2/carriersinsaw 0.000000
-/test2/carrierfreq 0.000000
-/test2/audio/mute 0
-/test2/audio/gain 0.000000
-# 
-/test/modratioman 0
-/test/modnoise 0.000000
-/test/wavefolder 0.000000
-/test/modratio 0.000000
-/test/modindex 0.000000
-/test/modfreq 0.000000
-/test/carriersinsaw 0.000000
-/test/carrierfreq 0.000000
-/test/audio/mute 0
-/test/audio/gain 0.000000
+/dmx/main/LED1 0.680749
+/dmx/main/LED2 0.261000
+/dmx/main/speed 0.493000
+/dmx/main/x -0.403000
+/dmx/main/y 0.244000
 # 
 # ###########################################
 
@@ -1137,9 +3667,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 7000
 /dmx/light1/max 1.000000
 /dmx/light1/min -0.134000
@@ -1149,6 +3781,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 7000
 /dmx/light2/max 1.000000
 /dmx/light2/min -0.270000
@@ -1158,6 +3791,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 3219
 /dmx/speed/rate/min 1968
+/dmx/speed/grain 25
 /dmx/speed/interpolate 2458
 /dmx/speed/max 0.360000
 /dmx/speed/min 0.096000
@@ -1167,11 +3801,34 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2015
 /dmx/tilt/rate/min 1094
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 2229
 /dmx/tilt/max 0.660000
 /dmx/tilt/min 0.320000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 1000
+/dmx/tiltY/rate/min 600
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 0
+/dmx/tiltY/max 0.500000
+/dmx/tiltY/min -0.583000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.131773
+/dmx/main/LED2 0.717047
+/dmx/main/speed 0.173879
+/dmx/main/x 0.462682
+/dmx/main/y -0.210000
 # 
 # ###########################################
 
@@ -1179,9 +3836,111 @@
 - description "something about this cue"
 # ###########################################
 # 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 8000
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.000000
@@ -1191,6 +3950,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 8000
 /dmx/light2/max 1.000000
 /dmx/light2/min 0.000000
@@ -1200,6 +3960,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 6000
 /dmx/speed/rate/min 4000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 5000
 /dmx/speed/max 1.000000
 /dmx/speed/min 0.800000
@@ -1209,6 +3970,7 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 3097
 /dmx/tilt/max 0.030000
 /dmx/tilt/min -0.030000
@@ -1218,17 +3980,131 @@
 /dmx/tiltY/data/active 1
 /dmx/tiltY/rate/max 6000
 /dmx/tiltY/rate/min 4000
+/dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 5000
 /dmx/tiltY/max 0.900000
 /dmx/tiltY/min -0.800000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.497240
+/dmx/main/LED2 0.522128
+/dmx/main/speed 0.678608
+/dmx/main/x 0.089668
+/dmx/main/y -0.345494
+# 
 # ###########################################
 
 - cue "cornerGlitch"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 53
@@ -1280,11 +4156,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.071000
+/dmx/main/LED2 0.065000
+/dmx/main/speed 0.732245
+/dmx/main/x -0.672000
+/dmx/main/y 0.034000
+# 
 # ###########################################
 
 - cue "Schizo"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
@@ -1336,11 +4325,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.535947
+/dmx/main/LED2 0.467884
+/dmx/main/speed 0.575000
+/dmx/main/x -0.400000
+/dmx/main/y -0.483000
+# 
 # ###########################################
 
 - cue "insane"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
@@ -1392,11 +4494,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 1.019000
+/dmx/main/LED2 0.310000
+/dmx/main/speed 0.888000
+/dmx/main/x 0.566000
+/dmx/main/y -0.713000
+# 
 # ###########################################
 
 - cue "classicMovesFast"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
@@ -1448,11 +4663,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.393000
+/dmx/main/LED2 0.940302
+/dmx/main/speed 0.300000
+/dmx/main/x 0.032859
+/dmx/main/y -0.351000
+# 
 # ###########################################
 
 - cue "classicRange"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
@@ -1504,11 +4832,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.603065
+/dmx/main/LED2 0.354123
+/dmx/main/speed 0.183375
+/dmx/main/x 0.001000
+/dmx/main/y -0.053978
+# 
 # ###########################################
 
 - cue "classicDimStable"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
@@ -1560,11 +5001,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.087994
+/dmx/main/LED2 0.027089
+/dmx/main/speed 0.230533
+/dmx/main/x 0.029000
+/dmx/main/y 0.005268
+# 
 # ###########################################
 
 - cue "classicBrightStable"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 2000
@@ -1616,11 +5170,124 @@
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.769000
+/dmx/main/LED2 0.939000
+/dmx/main/speed 0.143137
+/dmx/main/x -0.007000
+/dmx/main/y -0.104000
+# 
 # ###########################################
 
 - cue "dimBackForthClassic"
 - description "something about this cue"
 # ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
@@ -1671,6 +5338,18 @@
 /dmx/tiltY/min -0.550000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.469084
+/dmx/main/LED2 0.393096
+/dmx/main/speed 0.317056
+/dmx/main/x -0.021000
+/dmx/main/y -0.159701
 # 
 # ###########################################
 
@@ -1835,9 +5514,6 @@
 /dmx/iscore_in/scorein4 0.000000
 /dmx/iscore_in/scorein5 0.000000
 # 
-/dmx/iscore_logic/go 0
-/dmx/iscore_logic/state none
-# 
 /dmx/main/LED1 0.000000
 /dmx/main/LED2 0.000000
 /dmx/main/speed 0.000000
@@ -1851,9 +5527,110 @@
 # ###########################################
 # 
 # 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 8000
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.000000
@@ -1863,6 +5640,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 8000
 /dmx/light2/max 1.000000
 /dmx/light2/min 0.000000
@@ -1872,6 +5650,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 6000
 /dmx/speed/rate/min 4000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 5000
 /dmx/speed/max 1.000000
 /dmx/speed/min 0.687000
@@ -1881,6 +5660,7 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 3097
 /dmx/tilt/max 0.030000
 /dmx/tilt/min -0.030000
@@ -1890,11 +5670,24 @@
 /dmx/tiltY/data/active 1
 /dmx/tiltY/rate/max 6000
 /dmx/tiltY/rate/min 4000
+/dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 5000
 /dmx/tiltY/max 0.900000
 /dmx/tiltY/min -0.800000
 /dmx/tiltY/on 0
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.000000
+/dmx/main/LED2 0.000000
+/dmx/main/speed 0.672338
+/dmx/main/x -0.020947
+/dmx/main/y 0.000000
 # 
 # ###########################################
 
@@ -1903,9 +5696,110 @@
 # ###########################################
 # 
 # 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 8000
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.000000
@@ -1915,6 +5809,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 8000
 /dmx/light2/max 1.000000
 /dmx/light2/min 0.000000
@@ -1924,6 +5819,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 6000
 /dmx/speed/rate/min 4000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 5000
 /dmx/speed/max 1.000000
 /dmx/speed/min 0.800000
@@ -1933,6 +5829,7 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 2471
 /dmx/tilt/rate/min 1721
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 3097
 /dmx/tilt/max 0.030000
 /dmx/tilt/min -0.030000
@@ -1942,11 +5839,24 @@
 /dmx/tiltY/data/active 1
 /dmx/tiltY/rate/max 6000
 /dmx/tiltY/rate/min 4000
+/dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 5000
 /dmx/tiltY/max 0.900000
 /dmx/tiltY/min -0.800000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.355363
+/dmx/main/LED2 0.558176
+/dmx/main/speed 0.907610
+/dmx/main/x 0.000334
+/dmx/main/y 0.340395
 # 
 # ###########################################
 
@@ -1955,9 +5865,110 @@
 # ###########################################
 # 
 # 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
 /dmx/light1/data/active 1
 /dmx/light1/rate/max 7000
 /dmx/light1/rate/min 6000
+/dmx/light1/grain 25
 /dmx/light1/interpolate 8000
 /dmx/light1/max 1.000000
 /dmx/light1/min 0.000000
@@ -1967,6 +5978,7 @@
 /dmx/light2/data/active 1
 /dmx/light2/rate/max 7000
 /dmx/light2/rate/min 6000
+/dmx/light2/grain 25
 /dmx/light2/interpolate 8000
 /dmx/light2/max 1.000000
 /dmx/light2/min 0.000000
@@ -1976,6 +5988,7 @@
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 4000
 /dmx/speed/rate/min 3000
+/dmx/speed/grain 25
 /dmx/speed/interpolate 3000
 /dmx/speed/max 1.000000
 /dmx/speed/min 0.530000
@@ -1985,11 +5998,203 @@
 /dmx/tilt/data/active 1
 /dmx/tilt/rate/max 600
 /dmx/tilt/rate/min 300
+/dmx/tilt/grain 25
 /dmx/tilt/interpolate 500
 /dmx/tilt/max 0.120000
 /dmx/tilt/min -0.110000
 /dmx/tilt/on 1
 /dmx/tilt/step 0.700000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 6000
+/dmx/tiltY/rate/min 4000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 5000
+/dmx/tiltY/max 0.900000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.000000
+/dmx/main/LED2 0.000000
+/dmx/main/speed 0.559833
+/dmx/main/x -0.035445
+/dmx/main/y 0.300495
+# 
+# ###########################################
+
+- cue "insane1"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/dmx/lfo_led1/random/rate/max 100
+/dmx/lfo_led1/random/rate/min 10
+/dmx/lfo_led1/random/max 1.000000
+/dmx/lfo_led1/random/min 0.000000
+/dmx/lfo_led1/random/step 1.000000
+/dmx/lfo_led1/clip/high 1.000000
+/dmx/lfo_led1/clip/low 0.000000
+/dmx/lfo_led1/clip/mode 0
+/dmx/lfo_led1/interpolate/auto 0
+/dmx/lfo_led1/interpolate/grain 1
+/dmx/lfo_led1/interpolate/time 0
+/dmx/lfo_led1/bias 0.000000
+/dmx/lfo_led1/ease 0
+/dmx/lfo_led1/hz 1.000000
+/dmx/lfo_led1/on 0
+/dmx/lfo_led1/phase 0.000000
+/dmx/lfo_led1/pw 0.500000
+/dmx/lfo_led1/scale 1.000000
+/dmx/lfo_led1/waveform 4
+# 
+/dmx/lfo_led2/random/rate/max 100
+/dmx/lfo_led2/random/rate/min 10
+/dmx/lfo_led2/random/max 1.000000
+/dmx/lfo_led2/random/min 0.000000
+/dmx/lfo_led2/random/step 1.000000
+/dmx/lfo_led2/clip/high 1.000000
+/dmx/lfo_led2/clip/low 0.000000
+/dmx/lfo_led2/clip/mode 0
+/dmx/lfo_led2/interpolate/auto 0
+/dmx/lfo_led2/interpolate/grain 1
+/dmx/lfo_led2/interpolate/time 0
+/dmx/lfo_led2/bias 0.000000
+/dmx/lfo_led2/ease 0
+/dmx/lfo_led2/hz 1.000000
+/dmx/lfo_led2/on 0
+/dmx/lfo_led2/phase 0.000000
+/dmx/lfo_led2/pw 0.500000
+/dmx/lfo_led2/scale 1.000000
+/dmx/lfo_led2/waveform 4
+# 
+/dmx/lfo_speed/random/rate/max 100
+/dmx/lfo_speed/random/rate/min 10
+/dmx/lfo_speed/random/max 1.000000
+/dmx/lfo_speed/random/min 0.000000
+/dmx/lfo_speed/random/step 1.000000
+/dmx/lfo_speed/clip/high 1.000000
+/dmx/lfo_speed/clip/low 0.000000
+/dmx/lfo_speed/clip/mode 0
+/dmx/lfo_speed/interpolate/auto 0
+/dmx/lfo_speed/interpolate/grain 1
+/dmx/lfo_speed/interpolate/time 0
+/dmx/lfo_speed/bias 0.000000
+/dmx/lfo_speed/ease 0
+/dmx/lfo_speed/hz 1.000000
+/dmx/lfo_speed/on 0
+/dmx/lfo_speed/phase 0.000000
+/dmx/lfo_speed/pw 0.500000
+/dmx/lfo_speed/scale 1.000000
+/dmx/lfo_speed/waveform 4
+# 
+/dmx/lfo_x/random/rate/max 100
+/dmx/lfo_x/random/rate/min 10
+/dmx/lfo_x/random/max 1.000000
+/dmx/lfo_x/random/min 0.000000
+/dmx/lfo_x/random/step 1.000000
+/dmx/lfo_x/clip/high 1.000000
+/dmx/lfo_x/clip/low 0.000000
+/dmx/lfo_x/clip/mode 0
+/dmx/lfo_x/interpolate/auto 0
+/dmx/lfo_x/interpolate/grain 1
+/dmx/lfo_x/interpolate/time 0
+/dmx/lfo_x/bias 0.000000
+/dmx/lfo_x/ease 0
+/dmx/lfo_x/hz 1.000000
+/dmx/lfo_x/on 0
+/dmx/lfo_x/phase 0.000000
+/dmx/lfo_x/pw 0.500000
+/dmx/lfo_x/scale 1.000000
+/dmx/lfo_x/waveform 4
+# 
+/dmx/lfo_y/random/rate/max 100
+/dmx/lfo_y/random/rate/min 10
+/dmx/lfo_y/random/max 1.000000
+/dmx/lfo_y/random/min 0.000000
+/dmx/lfo_y/random/step 1.000000
+/dmx/lfo_y/clip/high 1.000000
+/dmx/lfo_y/clip/low 0.000000
+/dmx/lfo_y/clip/mode 0
+/dmx/lfo_y/interpolate/auto 0
+/dmx/lfo_y/interpolate/grain 1
+/dmx/lfo_y/interpolate/time 0
+/dmx/lfo_y/bias 0.000000
+/dmx/lfo_y/ease 0
+/dmx/lfo_y/hz 1.000000
+/dmx/lfo_y/on 0
+/dmx/lfo_y/phase 0.000000
+/dmx/lfo_y/pw 0.500000
+/dmx/lfo_y/scale 1.000000
+/dmx/lfo_y/waveform 4
+# 
+/dmx/light1/data/active 1
+/dmx/light1/rate/max 2000
+/dmx/light1/rate/min 1000
+/dmx/light1/grain 25
+/dmx/light1/interpolate 938
+/dmx/light1/max 1.020000
+/dmx/light1/min 0.140000
+/dmx/light1/on 1
+/dmx/light1/step 1.000000
+# 
+/dmx/light2/data/active 1
+/dmx/light2/rate/max 2000
+/dmx/light2/rate/min 1000
+/dmx/light2/grain 25
+/dmx/light2/interpolate 1069
+/dmx/light2/max 0.400000
+/dmx/light2/min -0.400000
+/dmx/light2/on 1
+/dmx/light2/step 1.000000
+# 
+/dmx/speed/data/active 1
+/dmx/speed/rate/max 2875
+/dmx/speed/rate/min 1899
+/dmx/speed/grain 25
+/dmx/speed/interpolate 662
+/dmx/speed/max 0.900000
+/dmx/speed/min 0.190000
+/dmx/speed/on 1
+/dmx/speed/step 1.000000
+# 
+/dmx/tilt/data/active 1
+/dmx/tilt/rate/max 233
+/dmx/tilt/rate/min 50
+/dmx/tilt/grain 25
+/dmx/tilt/interpolate 0
+/dmx/tilt/max 0.600000
+/dmx/tilt/min -0.600000
+/dmx/tilt/on 1
+/dmx/tilt/step 1.000000
+# 
+/dmx/tiltY/data/active 1
+/dmx/tiltY/rate/max 4000
+/dmx/tiltY/rate/min 2000
+/dmx/tiltY/grain 25
+/dmx/tiltY/interpolate 353
+/dmx/tiltY/max 0.700000
+/dmx/tiltY/min -0.800000
+/dmx/tiltY/on 1
+/dmx/tiltY/step 1.000000
+# 
+/dmx/iscore_in/scorein1 0.000000
+/dmx/iscore_in/scorein2 0.000000
+/dmx/iscore_in/scorein3 0.000000
+/dmx/iscore_in/scorein4 0.000000
+/dmx/iscore_in/scorein5 0.000000
+# 
+/dmx/main/LED1 0.798000
+/dmx/main/LED2 -0.400000
+/dmx/main/speed 0.350000
+/dmx/main/x 0.163000
+/dmx/main/y -0.705000
 # 
 # ###########################################
 

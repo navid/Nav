@@ -4,15 +4,15 @@
 
 **system-wide**
 - [ ] ensure that system boots from scratch
-	- [ ] disable Max auto-recover
-	- [ ] launchd script to relaunch patch
+	- [x] disable Max auto-recover
+	- [x] launchd script to relaunch patch
 	- [ ] master patch to monitor aliveness of other patches
 - [ ] macOS optimizations (Adrien Freed-style)
-- [ ] try launching everything at once
-- [ ] make two separate instances of Max
-	- [ ] one for DMX
-		- [ ] forward DMX outputs channels
-	- [ ] one for audio
+- [x] try launching everything at once
+- [x] make two separate instances of Max
+	- [x] one for DMX
+		- [x] forward DMX outputs channels
+	- [x] one for audio
 
 
 
@@ -21,7 +21,7 @@
 	- [x] should we keep the ej.function object and related stuff in, or remove it?
 	- [x] same with the Max preset object (vs. Jamoma presets)
 - [ ] initialization procedure
-	- [ ] ensure that motor calibration happens automatically and correctly
+	- [x] ensure that motor calibration happens automatically and correctly
 	- [ ] bonus: IMU for continual calibration
 - [ ] test that zero-all button actually works
 - [x] score/dmx communication:
