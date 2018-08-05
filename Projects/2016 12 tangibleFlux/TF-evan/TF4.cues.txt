@@ -5353,7 +5353,7 @@
 # 
 # ###########################################
 
-- cue "zeroall"
+- cue "zerostate"
 - description "something about this cue"
 # ###########################################
 # 
