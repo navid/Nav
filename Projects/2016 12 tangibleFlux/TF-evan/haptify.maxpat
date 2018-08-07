@@ -1153,9 +1153,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 1095.0, 87.5, 22.0 ],
+					"patching_rect" : [ 210.0, 1095.0, 57.0, 22.0 ],
 					"style" : "",
-					"text" : "dac~ 1 2"
+					"text" : "dac~ 3 4"
 				}
 
 			}
@@ -1793,48 +1793,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-26" : [ "live.dial[3]", " ", 0 ],
-			"obj-25" : [ "live.dial[4]", " ", 0 ],
-			"obj-27" : [ "live.dial[2]", " ", 0 ],
-			"obj-21" : [ "live.dial", " ", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.spectral_shift_voice~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/spectral/spectral_shift",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.unit.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat.limiter~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
