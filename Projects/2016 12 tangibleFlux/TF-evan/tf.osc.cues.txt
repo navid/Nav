@@ -2557,27 +2557,27 @@
 /oscillators/mod/osc2/osc/wavefolder 0.000000
 /oscillators/mod/osc2/mic/1 0.000000
 /oscillators/mod/osc2/mic/2 1.000000
-/oscillators/mod/osc3_4/osc/slide/down 10098.000000
-/oscillators/mod/osc3_4/osc/slide/up 100.000000
+/oscillators/mod/osc3_4/osc/slide/down 10000.000000
+/oscillators/mod/osc3_4/osc/slide/up 5.000000
 /oscillators/mod/osc3_4/mic/1 1.000000
 /oscillators/mod/osc3_4/mic/2 0.000000
-/oscillators/mod/osc3/osc/audioin 0.300000
+/oscillators/mod/osc3/osc/audioin 0.276000
 /oscillators/mod/osc3/osc/modindex 0.500000
 /oscillators/mod/osc3/osc/wavefolder 0.000000
 /oscillators/mod/osc4/osc/audioin 0.000000
 /oscillators/mod/osc4/osc/modindex 0.000000
-/oscillators/mod/osc4/osc/wavefolder 0.170000
+/oscillators/mod/osc4/osc/wavefolder 0.138000
 /oscillators/mod/osc.scaler~/micL 1
 /oscillators/mod/osc.scaler~/micR 1
 # 
 /oscillators/drive_btm/scale/range/max 0.979903
 /oscillators/drive_btm/scale/range/min -0.239976
-/oscillators/drive_btm/scale/comp 0.015748
-/oscillators/drive_btm/scale/drive -0.031496
+/oscillators/drive_btm/scale/comp 0.078740
+/oscillators/drive_btm/scale/drive -0.062992
 /oscillators/drive_btm/scale/gain 22.314936
 /oscillators/drive_btm/scale/invert 0.000000
-/oscillators/drive_btm/scale/smooth 7.481111
-/oscillators/drive_btm/scale/visualize 0
+/oscillators/drive_btm/scale/smooth 10.628967
+/oscillators/drive_btm/scale/visualize 1
 /oscillators/drive_btm/audio/bypass 0
 /oscillators/drive_btm/audio/gain 0.000000
 /oscillators/drive_btm/audio/mix 100.000000
@@ -2613,7 +2613,7 @@
 /oscillators/drive_top_r/audio/bypass 0
 /oscillators/drive_top_r/audio/gain 0.000000
 /oscillators/drive_top_r/audio/mix 100.000000
-/oscillators/drive_top_r/audio/mute 0
+/oscillators/drive_top_r/audio/mute 1
 /oscillators/drive_top_r/data/active 1
 /oscillators/drive_top_r/snapshot/interval 0
 /oscillators/drive_top_r/snapshot/on 0
@@ -2674,8 +2674,8 @@
 /oscillators/lpg1/mod/vcaness 0.000000
 /oscillators/lpg1/lpmode 1
 /oscillators/lpg1/nonlinmode 1
-/oscillators/lpg1/offset 0.157480
-/oscillators/lpg1/resonance 1.303937
+/oscillators/lpg1/offset 0.000000
+/oscillators/lpg1/resonance 1.459842
 /oscillators/lpg1/vcaness 0.000000
 # 
 # 
@@ -2727,7 +2727,7 @@
 /oscillators/lpg2/mapvcaness/active 0
 /oscillators/lpg2/mapvcaness/scalebypass 1
 /oscillators/lpg2/audio/gain 0.000000
-/oscillators/lpg2/audio/mute 0
+/oscillators/lpg2/audio/mute 1
 /oscillators/lpg2/audio/wetdry 0.000000
 /oscillators/lpg2/mod/offset 0.000000
 /oscillators/lpg2/mod/resonance 0.000000
@@ -2742,32 +2742,32 @@
 /oscillators/mixer/osc1/comp/top 0.000000
 /oscillators/mixer/osc1/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc1/eq/top /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 130.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc1/out/plinth 0.000000
-/oscillators/mixer/osc1/out/top 0.000000
+/oscillators/mixer/osc1/out/plinth -23.637795
+/oscillators/mixer/osc1/out/top -37.322835
 /oscillators/mixer/osc1/reverb/dry 0.000000
-/oscillators/mixer/osc1/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed 43.000000 0.000000 1.590551 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 0.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
+/oscillators/mixer/osc1/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed -149.000000 0.000000 1.590551 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 48.200001 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
 /oscillators/mixer/osc1/reverb/wet 0.000000
 /oscillators/mixer/osc2/comp/plinth 0.000000
 /oscillators/mixer/osc2/comp/top 0.000000
 /oscillators/mixer/osc2/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc2/eq/top /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 130.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc2/out/plinth 0.000000
-/oscillators/mixer/osc2/out/top 0.000000
+/oscillators/mixer/osc2/out/plinth -69.000000
+/oscillators/mixer/osc2/out/top -69.000000
 /oscillators/mixer/osc2/reverb/dry 0.000000
-/oscillators/mixer/osc2/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed 59.000000 0.000000 1.000000 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 0.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
+/oscillators/mixer/osc2/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed -69.999985 0.000000 1.000000 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 0.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
 /oscillators/mixer/osc2/reverb/wet 0.000000
 /oscillators/mixer/osc3/comp/base /attack 10.010000 /release 30.000000 /lookahead 0.000000 /compressor/threshold -28.000000 /compressor/ratio 1.310000 /expander/threshold -60.000000 /expander/ratio 1.000000 /makeup 0.000000 /link 0 /bypass 0 /grid/visible 1 /curve/fill 1 /background/color 0.858824 0.858824 0.858824 1.000000 /foreground/color 0.164706 0.615686 0.647059 0.619608 /curve/color 0.188235 0.188235 0.713726 0.619608 /curve/thickness 1.000000 /grid/color 0.501961 0.501961 0.501961 1.000000 /title bang
 /oscillators/mixer/osc3/comp/plinth 0.000000
 /oscillators/mixer/osc3/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 61.000000 /equalizer/filter/3/gain 1.100000 /equalizer/filter/3/q 0.770000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 4 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc3/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc3/out/base -32.299213
-/oscillators/mixer/osc3/out/plinth -39.763779
+/oscillators/mixer/osc3/out/base -9.283465
+/oscillators/mixer/osc3/out/plinth -27.944882
 /oscillators/mixer/osc4/comp/base /attack 10.010000 /release 30.000000 /lookahead 0.000000 /compressor/threshold -30.000000 /compressor/ratio 1.000000 /expander/threshold -60.000000 /expander/ratio 1.000000 /makeup 0.000000 /link 0 /bypass 0 /grid/visible 1 /curve/fill 1 /background/color 0.858824 0.858824 0.858824 1.000000 /foreground/color 0.164706 0.615686 0.647059 0.619608 /curve/color 0.188235 0.188235 0.713726 0.619608 /curve/thickness 1.000000 /grid/color 0.501961 0.501961 0.501961 1.000000 /title bang
 /oscillators/mixer/osc4/comp/plinth 0.000000
-/oscillators/mixer/osc4/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc4/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc4/out/base -33.543308
-/oscillators/mixer/osc4/out/plinth -35.409451
+/oscillators/mixer/osc4/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.200000 /equalizer/filter/2/q 1.810000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 48.000000 /equalizer/filter/3/gain 4.100000 /equalizer/filter/3/q 2.660000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 73.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
+/oscillators/mixer/osc4/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 0 /equalizer/filter/3/freq 294.000000 /equalizer/filter/3/gain 1.400000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
+/oscillators/mixer/osc4/out/base -8.039370
+/oscillators/mixer/osc4/out/plinth -31.677165
 # 
 # 
 /oscillators/osc.scale~/autoscale/audio/bypass 0
@@ -2931,8 +2931,8 @@
 /oscillators/osc1/modratioman 0
 /oscillators/osc1/modfreq 200.000000
 /oscillators/osc1/modratio 0.000000
-/oscillators/osc1/carrierfreq 20.000000
-/oscillators/osc1/carriersinsaw 0.000000
+/oscillators/osc1/carrierfreq 30.000000
+/oscillators/osc1/carriersinsaw 0.110236
 /oscillators/osc1/modindex 0.000000
 /oscillators/osc1/modnoise 0.000000
 /oscillators/osc1/noisefilt 0.000000
@@ -3052,7 +3052,7 @@
 /oscillators/osc2/mapwavefolder/active 0
 /oscillators/osc2/mapwavefolder/scalebypass 1
 /oscillators/osc2/audio/gain -4.000000
-/oscillators/osc2/audio/mute 0
+/oscillators/osc2/audio/mute 1
 /oscillators/osc2/mod/carrierfreq 0.000000
 /oscillators/osc2/mod/carriersinsaw 0.000000
 /oscillators/osc2/mod/modfreq 0.000000
@@ -3194,11 +3194,11 @@
 /oscillators/osc3/mod/noisefilt 0.000000
 /oscillators/osc3/mod/wavefolder 0.700000
 /oscillators/osc3/modratioman 0
-/oscillators/osc3/modfreq 40.000000
+/oscillators/osc3/modfreq 49.531208
 /oscillators/osc3/modratio 0.000000
-/oscillators/osc3/carrierfreq 40.382668
-/oscillators/osc3/carriersinsaw 0.118110
-/oscillators/osc3/modindex 0.870079
+/oscillators/osc3/carrierfreq 50.000000
+/oscillators/osc3/carriersinsaw 0.062992
+/oscillators/osc3/modindex 0.161418
 /oscillators/osc3/modnoise 0.000000
 /oscillators/osc3/noisefilt 0.000000
 /oscillators/osc3/squareorsaw 0
@@ -3326,10 +3326,10 @@
 /oscillators/osc4/mod/noisefilt 0.000000
 /oscillators/osc4/mod/wavefolder 0.900000
 /oscillators/osc4/modratioman 0
-/oscillators/osc4/modfreq 0.000000
+/oscillators/osc4/modfreq 20.000000
 /oscillators/osc4/modratio 0.000000
 /oscillators/osc4/carrierfreq 49.000000
-/oscillators/osc4/carriersinsaw 0.070866
+/oscillators/osc4/carriersinsaw 0.047244
 /oscillators/osc4/modindex 0.000000
 /oscillators/osc4/modnoise 0.000000
 /oscillators/osc4/noisefilt 0.000000
@@ -3339,13 +3339,13 @@
 /oscillators/pan3/audio/gain 0.000000
 /oscillators/pan3/audio/mute 0
 /oscillators/pan3/mode FastMode
-/oscillators/pan3/position 0.299213
+/oscillators/pan3/position 0.393701
 /oscillators/pan3/shape EqualPower
 # 
 /oscillators/pan4/audio/gain 0.000000
 /oscillators/pan4/audio/mute 0
 /oscillators/pan4/mode FastMode
-/oscillators/pan4/position -0.244094
+/oscillators/pan4/position -0.401574
 /oscillators/pan4/shape EqualPower
 # 
 /oscillators/ellipse1/centerX 0.000000
@@ -3387,7 +3387,7 @@
 /oscillators/mod/osc1/lpg/slide/up 5.000000
 /oscillators/mod/osc1/lpg/cv 0.990000
 /oscillators/mod/osc1/osc/slide/down 10000.000000
-/oscillators/mod/osc1/osc/slide/up 5.000000
+/oscillators/mod/osc1/osc/slide/up 4.000000
 /oscillators/mod/osc1/osc/audioin 0.000000
 /oscillators/mod/osc1/osc/modindex 0.600000
 /oscillators/mod/osc1/osc/wavefolder 0.500000
@@ -3396,23 +3396,23 @@
 /oscillators/mod/osc2/lpg/slide/down 500.000000
 /oscillators/mod/osc2/lpg/slide/up 5.000000
 /oscillators/mod/osc2/lpg/cv 0.000000
-/oscillators/mod/osc2/osc/slide/down 10000.000000
+/oscillators/mod/osc2/osc/slide/down 9969.000000
 /oscillators/mod/osc2/osc/slide/up 5.000000
 /oscillators/mod/osc2/osc/audioin 0.000000
 /oscillators/mod/osc2/osc/modindex 0.000000
-/oscillators/mod/osc2/osc/wavefolder 0.000000
+/oscillators/mod/osc2/osc/wavefolder 0.084000
 /oscillators/mod/osc2/mic/1 0.000000
 /oscillators/mod/osc2/mic/2 1.000000
 /oscillators/mod/osc3_4/osc/slide/down 10098.000000
 /oscillators/mod/osc3_4/osc/slide/up 100.000000
 /oscillators/mod/osc3_4/mic/1 1.000000
 /oscillators/mod/osc3_4/mic/2 0.000000
-/oscillators/mod/osc3/osc/audioin 0.300000
-/oscillators/mod/osc3/osc/modindex 0.500000
-/oscillators/mod/osc3/osc/wavefolder 0.000000
+/oscillators/mod/osc3/osc/audioin 0.100000
+/oscillators/mod/osc3/osc/modindex 0.340000
+/oscillators/mod/osc3/osc/wavefolder 0.010000
 /oscillators/mod/osc4/osc/audioin 0.000000
-/oscillators/mod/osc4/osc/modindex 0.000000
-/oscillators/mod/osc4/osc/wavefolder 0.170000
+/oscillators/mod/osc4/osc/modindex 0.134000
+/oscillators/mod/osc4/osc/wavefolder 0.000000
 /oscillators/mod/osc.scaler~/micL 1
 /oscillators/mod/osc.scaler~/micR 1
 # 
@@ -3448,18 +3448,18 @@
 /oscillators/drive_top_l/snapshot/interval 0
 /oscillators/drive_top_l/snapshot/on 0
 # 
-/oscillators/drive_top_r/scale/range/max 0.000000
-/oscillators/drive_top_r/scale/range/min 0.000000
-/oscillators/drive_top_r/scale/comp 0.000000
-/oscillators/drive_top_r/scale/drive 0.000000
-/oscillators/drive_top_r/scale/gain 0.000000
+/oscillators/drive_top_r/scale/range/max 0.619939
+/oscillators/drive_top_r/scale/range/min -0.199980
+/oscillators/drive_top_r/scale/comp 0.102362
+/oscillators/drive_top_r/scale/drive -0.078740
+/oscillators/drive_top_r/scale/gain 10.953958
 /oscillators/drive_top_r/scale/invert 0.000000
-/oscillators/drive_top_r/scale/smooth 0.000000
+/oscillators/drive_top_r/scale/smooth 3.237064
 /oscillators/drive_top_r/scale/visualize 0
 /oscillators/drive_top_r/audio/bypass 0
 /oscillators/drive_top_r/audio/gain 0.000000
 /oscillators/drive_top_r/audio/mix 100.000000
-/oscillators/drive_top_r/audio/mute 0
+/oscillators/drive_top_r/audio/mute 1
 /oscillators/drive_top_r/data/active 1
 /oscillators/drive_top_r/snapshot/interval 0
 /oscillators/drive_top_r/snapshot/on 0
@@ -3521,7 +3521,7 @@
 /oscillators/lpg1/lpmode 1
 /oscillators/lpg1/nonlinmode 1
 /oscillators/lpg1/offset 0.157480
-/oscillators/lpg1/resonance 1.303937
+/oscillators/lpg1/resonance 1.374803
 /oscillators/lpg1/vcaness 0.000000
 # 
 # 
@@ -3573,7 +3573,7 @@
 /oscillators/lpg2/mapvcaness/active 0
 /oscillators/lpg2/mapvcaness/scalebypass 1
 /oscillators/lpg2/audio/gain 0.000000
-/oscillators/lpg2/audio/mute 0
+/oscillators/lpg2/audio/mute 1
 /oscillators/lpg2/audio/wetdry 0.000000
 /oscillators/lpg2/mod/offset 0.000000
 /oscillators/lpg2/mod/resonance 0.000000
@@ -3588,32 +3588,32 @@
 /oscillators/mixer/osc1/comp/top 0.000000
 /oscillators/mixer/osc1/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc1/eq/top /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 130.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc1/out/plinth 0.000000
+/oscillators/mixer/osc1/out/plinth -29.188976
 /oscillators/mixer/osc1/out/top 0.000000
 /oscillators/mixer/osc1/reverb/dry 0.000000
-/oscillators/mixer/osc1/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed 43.000000 0.000000 1.590551 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 0.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
+/oscillators/mixer/osc1/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 1 /source/1/aed 2.176010 0.000000 1.039108 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.451442 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 62.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 -2.600000 177.000000 664.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.800003 /room/1/heaviness 25.000000 /room/1/liveness 27.799999 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 3860.000000 /room/1/early/min 25.799999 /room/1/early/max 49.700001 /room/1/early/distr 0.480000 /room/1/cluster/min 44.700001 /room/1/cluster/max 125.500000 /room/1/cluster/distr 0.530000 /room/1/reverb/min 112.900002 /room/1/reverb/density 1.140000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
 /oscillators/mixer/osc1/reverb/wet 0.000000
 /oscillators/mixer/osc2/comp/plinth 0.000000
 /oscillators/mixer/osc2/comp/top 0.000000
 /oscillators/mixer/osc2/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc2/eq/top /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 130.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 0 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc2/out/plinth 0.000000
-/oscillators/mixer/osc2/out/top 0.000000
+/oscillators/mixer/osc2/out/plinth -69.000000
+/oscillators/mixer/osc2/out/top -69.000000
 /oscillators/mixer/osc2/reverb/dry 0.000000
-/oscillators/mixer/osc2/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed 59.000000 0.000000 1.000000 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 0.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
+/oscillators/mixer/osc2/reverb/params /source/number 1 /source/1/visible 1 /source/1/editable 1 /source/1/select 0 /source/1/aed -69.999985 0.000000 1.000000 /source/1/constraint/circular 0 /source/1/coordinates/visible 1 /source/1/orientation 0.000000 0.000000 0.000000 1.000000 /source/1/proportion 0.070000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/vumeter/visible 0 /source/1/vumeter/level -60.000000 /source/1/aperture 80.000000 /source/1/aperture/visible 1 /source/1/aperture/color 1.000000 1.000000 1.000000 1.000000 /speaker/number 2 /speakers/aed -90.000000 0.000000 1.000000 90.000000 0.000000 1.000000 /speaker/1/visible 1 /speaker/1/editable 0 /speaker/1/select 0 /speaker/1/aed -90.000000 0.000000 1.000000 /speaker/1/constraint/circular 0 /speaker/1/coordinates/visible 1 /speaker/1/proportion 0.100000 /speaker/1/color 0.000000 0.000000 0.000000 1.000000 /speaker/1/vumeter/visible 0 /speaker/1/vumeter/level -60.000000 /speaker/2/visible 1 /speaker/2/editable 0 /speaker/2/select 0 /speaker/2/aed 90.000000 0.000000 1.000000 /speaker/2/constraint/circular 0 /speaker/2/coordinates/visible 1 /speaker/2/proportion 0.100000 /speaker/2/color 0.000000 0.000000 0.000000 1.000000 /speaker/2/vumeter/visible 0 /speaker/2/vumeter/level -60.000000 /stereo/number 0 /subwoofer/number 0 /listener/visible 1 /listener/editable 0 /listener/select 0 /listener/aed 90.000000 0.000000 0.000000 /listener/constraint/circular 0 /listener/coordinates/visible 1 /listener/orientation 0.000000 0.000000 0.000000 1.000000 /listener/proportion 0.150000 /listener/color 0.000000 0.000000 0.000000 0.000000 /listener/headphones/visible 0 /multi/number 0 /microphone/number 0 /eigenmike/number 0 /format aed /background/color 0.709804 0.709804 0.709804 1.000000 /backgroundimage/visible 1 /backgroundimage/opacity 1.000000 /backgroundimage/scale 100.000000 /backgroundimage/angle 0.000000 /backgroundimage/xoffset 0.000000 /backgroundimage/yoffset 0.000000 /backgroundimage/quality medium /display/zoom 0.700000 /display/offsetx 0.000000 /display/offsety 0.000000 /display/offsetz 0.000000 /display/proportion 0.100000 /display/zoom/lock 0 /axis/visible 1 /axis/label/visible 1 /axis/origin/visible 1 /axis/color 1.000000 1.000000 1.000000 1.000000 /grid/visible 1 /grid/mode circular /grid/spacing 1.000000 /grid/line/number 30 /grid/angulardivisions/number 8 /grid/angulardivisions/visible 0 /grid/dashed 0 /grid/color 1.000000 1.000000 1.000000 1.000000 /legend/visible 1 /legend/color 1.000000 1.000000 1.000000 1.000000 /emphasis/source 1 /emphasis/speaker 0 /emphasis/microphone 0 /ruler/visible 0 /ruler/color 1.000000 1.000000 1.000000 1.000000 /hoa/number 0 /anchor/number 0 /phone/number 0 /area/number 0 /speakerhull/visible 0 /speakerhull/color 0.000000 0.000000 0.000000 1.000000 /speakerhull/fill 0 /speakerhull/fill/color 0.000000 0.000000 0.000000 0.298039 /layout single /source/1/pres 0.000000 /source/1/warm 30.000000 /source/1/bril 30.000000 /source/1/prer 0.000000 /source/1/revp 34.000000 /source/1/env 24.000000 /source/1/axis/params 0.000000 0.000000 0.000000 0.000000 177.000000 5657.000000 /source/1/omni/params 0.000000 1.700000 0.000000 -3.800000 177.000000 5657.000000 /source/1/color 0.490196 1.000000 0.000000 1.000000 /source/1/doppler 0 /source/1/air 1 /source/1/air/freq 10000.000000 /source/1/drop 6.000000 /source/1/drop/mode log2 /source/1/radius 1.000000 /source/1/room/destination 1 /source/1/mute 0 /source/1/direct/mute 0 /source/1/early/mute 0 /source/1/cluster/mute 0 /source/1/reverb/mute 0 /source/1/early/width 30.000000 /source/1/early/shape 50.000000 /source/1/panrev 0.000000 /source/1/lock 0 /room/number 1 /room/1/reverberance 65.000000 /room/1/heaviness 25.000000 /room/1/liveness 35.000000 /room/1/reverb/fl 250.000000 /room/1/reverb/fh 8000.000000 /room/1/reverb/air/enable 1 /room/1/reverb/air/freq 10000.000000 /room/1/reverb/infinite 0 /room/1/reverb/room/size 2000.000000 /room/1/early/min 22.200001 /room/1/early/max 39.700001 /room/1/early/distr 0.500000 /room/1/cluster/min 42.500000 /room/1/cluster/max 105.599998 /room/1/cluster/distr 0.500000 /room/1/reverb/min 95.400002 /room/1/reverb/density 0.860000 /room/1/mute 0 /internals 8 /viewer/visible 1 /viewer/only 0
 /oscillators/mixer/osc2/reverb/wet 0.000000
 /oscillators/mixer/osc3/comp/base /attack 10.010000 /release 30.000000 /lookahead 0.000000 /compressor/threshold -28.000000 /compressor/ratio 1.310000 /expander/threshold -60.000000 /expander/ratio 1.000000 /makeup 0.000000 /link 0 /bypass 0 /grid/visible 1 /curve/fill 1 /background/color 0.858824 0.858824 0.858824 1.000000 /foreground/color 0.164706 0.615686 0.647059 0.619608 /curve/color 0.188235 0.188235 0.713726 0.619608 /curve/thickness 1.000000 /grid/color 0.501961 0.501961 0.501961 1.000000 /title bang
 /oscillators/mixer/osc3/comp/plinth 0.000000
 /oscillators/mixer/osc3/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 61.000000 /equalizer/filter/3/gain 1.100000 /equalizer/filter/3/q 0.770000 /equalizer/filter/4/active 0 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 0 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 0 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 0 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 4 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
 /oscillators/mixer/osc3/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc3/out/base -32.299213
-/oscillators/mixer/osc3/out/plinth -39.763779
+/oscillators/mixer/osc3/out/base -9.900000
+/oscillators/mixer/osc3/out/plinth -26.133858
 /oscillators/mixer/osc4/comp/base /attack 10.010000 /release 30.000000 /lookahead 0.000000 /compressor/threshold -30.000000 /compressor/ratio 1.000000 /expander/threshold -60.000000 /expander/ratio 1.000000 /makeup 0.000000 /link 0 /bypass 0 /grid/visible 1 /curve/fill 1 /background/color 0.858824 0.858824 0.858824 1.000000 /foreground/color 0.164706 0.615686 0.647059 0.619608 /curve/color 0.188235 0.188235 0.713726 0.619608 /curve/thickness 1.000000 /grid/color 0.501961 0.501961 0.501961 1.000000 /title bang
 /oscillators/mixer/osc4/comp/plinth 0.000000
-/oscillators/mixer/osc4/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 85.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc4/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 500.000000 /equalizer/filter/3/gain 0.000000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
-/oscillators/mixer/osc4/out/base -33.543308
-/oscillators/mixer/osc4/out/plinth -35.409451
+/oscillators/mixer/osc4/eq/base /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 0 /equalizer/filter/1/freq 50.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.200000 /equalizer/filter/2/q 1.810000 /equalizer/filter/3/active 1 /equalizer/filter/3/freq 48.000000 /equalizer/filter/3/gain 4.100000 /equalizer/filter/3/q 2.660000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1000.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 1 /equalizer/filter/8/freq 73.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
+/oscillators/mixer/osc4/eq/plinth /equalizer/samplerate 48000.000000 /equalizer/bypass 0 /equalizer/gain 0.000000 /equalizer/filter/1/active 1 /equalizer/filter/1/freq 67.000000 /equalizer/filter/1/order 2 /equalizer/filter/2/active 1 /equalizer/filter/2/freq 100.000000 /equalizer/filter/2/gain 0.000000 /equalizer/filter/2/q 1.000000 /equalizer/filter/3/active 0 /equalizer/filter/3/freq 294.000000 /equalizer/filter/3/gain 1.400000 /equalizer/filter/3/q 1.000000 /equalizer/filter/4/active 1 /equalizer/filter/4/freq 1819.000000 /equalizer/filter/4/gain 0.000000 /equalizer/filter/4/q 1.000000 /equalizer/filter/5/active 1 /equalizer/filter/5/freq 2000.000000 /equalizer/filter/5/gain 0.000000 /equalizer/filter/5/q 1.000000 /equalizer/filter/6/active 1 /equalizer/filter/6/freq 5000.000000 /equalizer/filter/6/gain 0.000000 /equalizer/filter/6/q 1.000000 /equalizer/filter/7/active 1 /equalizer/filter/7/freq 10000.000000 /equalizer/filter/7/gain 0.000000 /equalizer/filter/7/q 1.000000 /equalizer/filter/8/active 0 /equalizer/filter/8/freq 16000.000000 /equalizer/filter/8/order 2 /equalizer/filter/1/color 0.000000 0.000000 0.560784 1.000000 /equalizer/filter/2/color 0.000000 0.125490 1.000000 1.000000 /equalizer/filter/3/color 0.000000 0.686275 1.000000 1.000000 /equalizer/filter/4/color 0.250980 1.000000 0.749020 1.000000 /equalizer/filter/5/color 0.811765 1.000000 0.188235 1.000000 /equalizer/filter/6/color 1.000000 0.623529 0.000000 1.000000 /equalizer/filter/7/color 1.000000 0.062745 0.000000 1.000000 /equalizer/filter/8/color 0.501961 0.000000 0.000000 1.000000
+/oscillators/mixer/osc4/out/base -9.277953
+/oscillators/mixer/osc4/out/plinth -32.000000
 # 
 # 
 /oscillators/osc.scale~/autoscale/audio/bypass 0
@@ -3777,7 +3777,7 @@
 /oscillators/osc1/modratioman 0
 /oscillators/osc1/modfreq 250.000000
 /oscillators/osc1/modratio 0.000000
-/oscillators/osc1/carrierfreq 24.000000
+/oscillators/osc1/carrierfreq 20.000000
 /oscillators/osc1/carriersinsaw 0.000000
 /oscillators/osc1/modindex 0.000000
 /oscillators/osc1/modnoise 0.000000
@@ -3898,7 +3898,7 @@
 /oscillators/osc2/mapwavefolder/active 0
 /oscillators/osc2/mapwavefolder/scalebypass 1
 /oscillators/osc2/audio/gain -4.000000
-/oscillators/osc2/audio/mute 0
+/oscillators/osc2/audio/mute 1
 /oscillators/osc2/mod/carrierfreq 0.000000
 /oscillators/osc2/mod/carriersinsaw 0.000000
 /oscillators/osc2/mod/modfreq 0.000000
@@ -4040,11 +4040,11 @@
 /oscillators/osc3/mod/noisefilt 0.000000
 /oscillators/osc3/mod/wavefolder 0.700000
 /oscillators/osc3/modratioman 0
-/oscillators/osc3/modfreq 40.000000
+/oscillators/osc3/modfreq 50.000000
 /oscillators/osc3/modratio 0.000000
-/oscillators/osc3/carrierfreq 40.382668
+/oscillators/osc3/carrierfreq 20.000000
 /oscillators/osc3/carriersinsaw 0.118110
-/oscillators/osc3/modindex 0.870079
+/oscillators/osc3/modindex 0.078740
 /oscillators/osc3/modnoise 0.000000
 /oscillators/osc3/noisefilt 0.000000
 /oscillators/osc3/squareorsaw 0
@@ -4172,10 +4172,10 @@
 /oscillators/osc4/mod/noisefilt 0.000000
 /oscillators/osc4/mod/wavefolder 0.900000
 /oscillators/osc4/modratioman 0
-/oscillators/osc4/modfreq 0.000000
+/oscillators/osc4/modfreq 40.000000
 /oscillators/osc4/modratio 0.000000
-/oscillators/osc4/carrierfreq 49.000000
-/oscillators/osc4/carriersinsaw 0.070866
+/oscillators/osc4/carrierfreq 80.000000
+/oscillators/osc4/carriersinsaw 0.000000
 /oscillators/osc4/modindex 0.000000
 /oscillators/osc4/modnoise 0.000000
 /oscillators/osc4/noisefilt 0.000000
@@ -7671,7 +7671,7 @@
 /oscillators/drive_top_l/audio/bypass 0
 /oscillators/drive_top_l/audio/gain 0.000000
 /oscillators/drive_top_l/audio/mix 100.000000
-/oscillators/drive_top_l/audio/mute 0
+/oscillators/drive_top_l/audio/mute 1
 /oscillators/drive_top_l/data/active 1
 /oscillators/drive_top_l/snapshot/interval 0
 /oscillators/drive_top_l/snapshot/on 0
@@ -7741,7 +7741,7 @@
 /oscillators/lpg1/mapvcaness/active 0
 /oscillators/lpg1/mapvcaness/scalebypass 1
 /oscillators/lpg1/audio/gain -3.000000
-/oscillators/lpg1/audio/mute 0
+/oscillators/lpg1/audio/mute 1
 /oscillators/lpg1/audio/wetdry 1.000000
 /oscillators/lpg1/mod/offset 0.000000
 /oscillators/lpg1/mod/resonance 0.000000
@@ -7994,7 +7994,7 @@
 /oscillators/osc1/mapwavefolder/active 0
 /oscillators/osc1/mapwavefolder/scalebypass 1
 /oscillators/osc1/audio/gain -96.000000
-/oscillators/osc1/audio/mute 0
+/oscillators/osc1/audio/mute 1
 /oscillators/osc1/mod/carrierfreq 0.000000
 /oscillators/osc1/mod/carriersinsaw 0.000000
 /oscillators/osc1/mod/modfreq 0.000000
@@ -8125,7 +8125,7 @@
 /oscillators/osc2/mapwavefolder/slide/up 0.000000
 /oscillators/osc2/mapwavefolder/active 0
 /oscillators/osc2/mapwavefolder/scalebypass 1
-/oscillators/osc2/audio/gain -96.000000
+/oscillators/osc2/audio/gain 0.000000
 /oscillators/osc2/audio/mute 1
 /oscillators/osc2/mod/carrierfreq 0.000000
 /oscillators/osc2/mod/carriersinsaw 0.000000
@@ -8246,8 +8246,8 @@
 /oscillators/osc3/mapwavefolder/function/parameters.1 alpha 1.469000
 /oscillators/osc3/mapwavefolder/function/parameters.2 beta 8.400000
 /oscillators/osc3/mapwavefolder/input/address /dmx/main/y
-/oscillators/osc3/mapwavefolder/input/max 0.332357
-/oscillators/osc3/mapwavefolder/input/min -0.800000
+/oscillators/osc3/mapwavefolder/input/max 0.899000
+/oscillators/osc3/mapwavefolder/input/min -0.637000
 /oscillators/osc3/mapwavefolder/output/max 1.000000
 /oscillators/osc3/mapwavefolder/output/min 0.000000
 /oscillators/osc3/mapwavefolder/process/function kaiser
@@ -8258,7 +8258,7 @@
 /oscillators/osc3/mapwavefolder/slide/up 0.000000
 /oscillators/osc3/mapwavefolder/active 1
 /oscillators/osc3/mapwavefolder/scalebypass 0
-/oscillators/osc3/audio/gain -96.000000
+/oscillators/osc3/audio/gain 0.000000
 /oscillators/osc3/audio/mute 0
 /oscillators/osc3/mod/carrierfreq 0.000000
 /oscillators/osc3/mod/carriersinsaw 0.000000
@@ -8390,7 +8390,7 @@
 /oscillators/osc4/mapwavefolder/slide/up 0.000000
 /oscillators/osc4/mapwavefolder/active 1
 /oscillators/osc4/mapwavefolder/scalebypass 0
-/oscillators/osc4/audio/gain -96.000000
+/oscillators/osc4/audio/gain 0.000000
 /oscillators/osc4/audio/mute 0
 /oscillators/osc4/mod/carrierfreq 3.000000
 /oscillators/osc4/mod/carriersinsaw 0.000000

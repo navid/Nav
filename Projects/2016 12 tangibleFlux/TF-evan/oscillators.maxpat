@@ -272,7 +272,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 885.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0.5"
+					"text" : "1."
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 885.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0.6"
+					"text" : "1."
 				}
 
 			}
@@ -491,6 +491,19 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 163.0, 161.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -522,7 +535,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 178.0, 80.0, 22.0 ],
+									"patching_rect" : [ 50.0, 194.0, 80.0, 22.0 ],
 									"style" : "",
 									"text" : "/dsp/mute $1"
 								}
@@ -560,6 +573,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -5029,6 +5049,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5037,10 +5060,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -5066,6 +5086,8 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5074,9 +5096,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -7650,6 +7670,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7658,10 +7681,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -7687,6 +7707,8 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7695,9 +7717,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -10596,6 +10616,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10604,10 +10627,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -10633,6 +10653,8 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -10641,9 +10663,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -11434,6 +11454,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11442,10 +11465,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -11471,6 +11491,8 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -11479,9 +11501,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ],
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -14889,6 +14909,9 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14897,10 +14920,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14926,6 +14946,8 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontsize" : [ 9.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -14934,9 +14956,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontsize" : [ 9.0 ],
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"parentstyle" : "",
