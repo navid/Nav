@@ -272,7 +272,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 885.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0.5"
+					"text" : "1."
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 885.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0.6"
+					"text" : "1."
 				}
 
 			}
@@ -491,6 +491,19 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 163.0, 161.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -522,7 +535,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 178.0, 80.0, 22.0 ],
+									"patching_rect" : [ 50.0, 194.0, 80.0, 22.0 ],
 									"style" : "",
 									"text" : "/dsp/mute $1"
 								}
@@ -560,6 +573,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -5007,9 +5027,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5018,9 +5038,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5029,6 +5049,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -5038,9 +5060,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -5066,6 +5086,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -5075,8 +5096,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -7628,9 +7648,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7639,9 +7659,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7650,6 +7670,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -7659,9 +7681,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -7687,6 +7707,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -7696,8 +7717,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -7765,7 +7785,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 1695.0, 67.0, 47.0 ],
 					"style" : "",
-					"text" : "1/2 - base\n3/4 - top\n5/6 - plinth"
+					"text" : "1/2 - top\n3/4 - base\n5/6 - plinth"
 				}
 
 			}
@@ -7788,7 +7808,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 1785.0, 135.0, 22.0 ],
+					"patching_rect" : [ 30.0, 1815.0, 135.0, 22.0 ],
 					"style" : "",
 					"text" : "dac~ 1 2 3 4 5 6"
 				}
@@ -10574,9 +10594,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10585,9 +10605,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10596,6 +10616,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -10605,9 +10627,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -10633,6 +10653,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -10642,8 +10663,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -11412,9 +11432,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11423,9 +11443,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11434,6 +11454,8 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11443,9 +11465,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -11471,6 +11491,7 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
+									"fontsize" : [ 9.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -11480,8 +11501,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 9.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -13714,28 +13734,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-332", 3 ],
+					"destination" : [ "obj-332", 1 ],
 					"source" : [ "obj-333", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-332", 2 ],
+					"destination" : [ "obj-332", 0 ],
 					"source" : [ "obj-333", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-332", 1 ],
+					"destination" : [ "obj-332", 3 ],
 					"source" : [ "obj-333", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-332", 0 ],
+					"destination" : [ "obj-332", 2 ],
 					"source" : [ "obj-333", 0 ]
 				}
 
@@ -14867,9 +14887,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14878,9 +14898,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14889,6 +14909,8 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -14898,9 +14920,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -14926,6 +14946,7 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
+					"fontsize" : [ 9.0 ],
 					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -14935,8 +14956,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontsize" : [ 9.0 ]
+
 				}
 ,
 				"parentstyle" : "",
