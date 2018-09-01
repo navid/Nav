@@ -43,10 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 885.0, 33.0, 22.0 ],
-					"presentation_rect" : [ 284.0, 880.0, 0.0, 0.0 ],
+					"patching_rect" : [ 285.0, 885.0, 49.0, 22.0 ],
 					"style" : "",
-					"text" : "j.out"
+					"text" : "j.out int"
 				}
 
 			}
@@ -61,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 915.0, 33.0, 33.0 ],
-					"presentation_rect" : [ 284.0, 910.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -74,7 +72,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.0, 855.0, 54.0, 22.0 ],
-					"presentation_rect" : [ 257.0, 851.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "gate 1 1"
 				}
@@ -137,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 660.0, 127.0, 111.0 ],
+					"patching_rect" : [ 135.0, 660.0, 129.0, 111.0 ],
 					"style" : "",
 					"text" : "j.parameter grain @range 1. 100. @type integer @clipmode low @description \"interpolation grain in ms\"",
 					"varname" : "step[1]"
@@ -191,9 +188,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 885.0, 33.0, 22.0 ],
+					"patching_rect" : [ 30.0, 885.0, 59.0, 22.0 ],
 					"style" : "",
-					"text" : "j.out"
+					"text" : "j.out float"
 				}
 
 			}
@@ -365,7 +362,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 855.0, 118.0, 96.0 ],
+					"patching_rect" : [ 105.0, 855.0, 118.0, 96.0 ],
 					"style" : "",
 					"text" : "j.return out/final @type decimal @description \"final and interpolated output\""
 				}
@@ -1209,7 +1206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 525.0, 136.75, 96.0 ],
+					"patching_rect" : [ 105.0, 525.0, 139.0, 96.0 ],
 					"style" : "",
 					"text" : "j.return out/pre-interpolation @type decimal @description \"pre-interpolated number.\""
 				}
@@ -1498,7 +1495,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 69.5, 842.0, 99.5, 842.0 ],
+					"midpoints" : [ 69.5, 842.0, 114.5, 842.0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
