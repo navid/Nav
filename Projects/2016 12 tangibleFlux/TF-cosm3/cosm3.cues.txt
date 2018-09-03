@@ -754,7 +754,7 @@
 /rnd/w/rate/min 5000
 /rnd/w/grain 50
 /rnd/w/interpolate 9000
-/rnd/w/max 0.800000
+/rnd/w/max 0.000000
 /rnd/w/min 0.000000
 /rnd/w/on 0
 /rnd/w/step 1.000000
@@ -769,18 +769,18 @@
 /rnd/y/on 1
 /rnd/y/step 1.000000
 # 
-/main/a 0.034764
-/main/b 0.334978
-/main/g 0.147680
-/main/hor 0.031603
+/main/a 0.000000
+/main/b 0.208233
+/main/g 0.093937
+/main/hor 0.273048
 /main/motor 0.966000
-/main/r 0.371698
+/main/r 0.400689
 /main/slit 0.000000
 /main/tip 0.000000
-/main/uv 0.525691
-/main/uvtop 0.543345
+/main/uv 0.412890
+/main/uvtop 0.000000
 /main/w 0.000000
-/main/y 0.240143
+/main/y -0.204000
 # 
 /3chnl2~/mapperGate/spread 0
 /3chnl2~/mapperGate/gain 0
@@ -1063,7 +1063,7 @@
 /3chnl1~/mapPosition/function/parameters.1 0.000000
 /3chnl1~/mapPosition/active 0
 /3chnl1~/mapPosition/data/active 1
-/3chnl1~/playback/position 0.055308
+/3chnl1~/playback/position 0.090890
 /3chnl1~/playback/direction 2
 /3chnl1~/playback/speed 0.990000
 # 
@@ -1214,7 +1214,7 @@
 /Rogs3~/selection/mode 0
 /Rogs3~/selection/range 3524.000000 59752.875000
 /Rogs3~/file/open HD:/Users/tangibleflux/code/Rogs/drones/ambience-Solaris.aif
-/Rogs3~/file/ms 147206.703125
+/Rogs3~/file/ms 147206.708333
 # 
 /Rogs3~/mapGain/process/rampTime 0.000000
 /Rogs3~/mapGain/process/mode 0.000000
@@ -1234,7 +1234,7 @@
 /Rogs3~/mod/gain 0.000000
 /Rogs3~/mod/position 0.000000
 /Rogs3~/mod/speed 0.260000
-/Rogs3~/mod/size 55.000000
+/Rogs3~/mod/size 64.000000
 /Rogs3~/mod/pitchVar 0.000000
 /Rogs3~/mod/pitch 0.000000
 /Rogs3~/mod/onsetVar 0.000000
@@ -1272,7 +1272,7 @@
 /Rogs3~/mapPosition/function/parameters.1 0.000000
 /Rogs3~/mapPosition/active 0
 /Rogs3~/mapPosition/data/active 1
-/Rogs3~/playback/position 0.023939
+/Rogs3~/playback/position 1.752717
 /Rogs3~/playback/direction 0
 /Rogs3~/playback/speed 0.010000
 # 
@@ -1420,7 +1420,7 @@
 /mixer/rogs2/dry/btm 0.000000
 /mixer/rogs2/dry/top 0.829253
 /mixer/rogs1/dry/rvb 0.007067
-/mixer/rogs1/dry/btm 1.000000
+/mixer/rogs1/dry/btm 0.466469
 /mixer/rogs1/dry/top 1.000000
 # 
 /cues_rogs/file/path "HD:/Users/tangibleflux/code/Nav/Projects/2016 12 tangibleFlux/TF-cosm3/cosm3.rogs.cues.txt"
@@ -1439,7 +1439,7 @@
 /Rogs2~/selection/mode 0
 /Rogs2~/selection/range 0.000000 116607.484375
 /Rogs2~/file/open HD:/Users/tangibleflux/code/snd/PV-SpectralDelay.aiff
-/Rogs2~/file/ms 126909.976562
+/Rogs2~/file/ms 126909.977324
 # 
 /Rogs2~/mapGain/process/rampTime 0.000000
 /Rogs2~/mapGain/process/mode 0.000000
@@ -1850,16 +1850,16 @@
 # ###########################################
 # 
 /3chnl1~/grain/trigger/variance/gainVar/randomnessRate 0.000000
-/3chnl1~/grain/trigger/variance/gainVar/range 0.000000
-/3chnl1~/grain/trigger/variance/rateVar/randomnessRate 0.000000
-/3chnl1~/grain/trigger/variance/rateVar/spread 0.000000
-/3chnl1~/grain/trigger/variance/on 0
-/3chnl1~/grain/trigger/freq 0.000000
+/3chnl1~/grain/trigger/variance/gainVar/range 50.520499 50.520499
+/3chnl1~/grain/trigger/variance/rateVar/randomnessRate 0.001000
+/3chnl1~/grain/trigger/variance/rateVar/spread 2.905007
+/3chnl1~/grain/trigger/variance/on 1
+/3chnl1~/grain/trigger/freq 13.000000
 /3chnl1~/grain/trigger/lock 0
 /3chnl1~/grain/trigger/mode 0
 /3chnl1~/grain/trigger/note 0
-/3chnl1~/grain/duration 34.000000
-/3chnl1~/grain/onsetVar 2.000000
+/3chnl1~/grain/duration 68.000000
+/3chnl1~/grain/onsetVar 0.000000
 /3chnl1~/grain/overlap 100
 # 
 /3chnl1~/mapGain/data/active 1
@@ -1960,7 +1960,7 @@
 # 
 /3chnl1~/mapSpeed/data/active 1
 /3chnl1~/mapSpeed/function/parameters.1 0.000000
-/3chnl1~/mapSpeed/input/address /main/hor
+/3chnl1~/mapSpeed/input/address /main/a
 /3chnl1~/mapSpeed/input/max 1.000000
 /3chnl1~/mapSpeed/input/min 0.000000
 /3chnl1~/mapSpeed/output/max 1.000000
@@ -2021,11 +2021,11 @@
 /3chnl1~/mapTurn/slide/up 0.000000
 /3chnl1~/mapTurn/active 0
 /3chnl1~/mapTurn/scalebypass 1
-/3chnl1~/audio/gain -6.000000
+/3chnl1~/audio/gain -17.000000
 /3chnl1~/audio/mute 0
-/3chnl1~/file/ms 32894.312500
-/3chnl1~/file/open HD:/Users/tangibleflux/Desktop/Rogs/TT.rogs/MarbleOnDrum-pure.aif
-/3chnl1~/mapperGate/gain 0
+/3chnl1~/file/ms 349228.104167
+/3chnl1~/file/open HD:/Users/tangibleflux/code/Rogs/drones/slowbells.aif
+/3chnl1~/mapperGate/gain 2
 /3chnl1~/mapperGate/onsetVar 0
 /3chnl1~/mapperGate/pitch 2
 /3chnl1~/mapperGate/pitchVar 0
@@ -2035,40 +2035,40 @@
 /3chnl1~/mapperGate/spread 0
 /3chnl1~/mapperGate/trigger 2
 /3chnl1~/mapperGate/turn 0
-/3chnl1~/mod/gain 0.000000
+/3chnl1~/mod/gain 3.000000
 /3chnl1~/mod/onsetVar 0.000000
 /3chnl1~/mod/pitch 0.000000
 /3chnl1~/mod/pitchVar 0.000000
 /3chnl1~/mod/position 0.000000
-/3chnl1~/mod/size 92.000000
-/3chnl1~/mod/speed 0.800000
+/3chnl1~/mod/size 171.000000
+/3chnl1~/mod/speed 0.160000
 /3chnl1~/mod/spread 0.000000
-/3chnl1~/mod/trigger 44.000000
+/3chnl1~/mod/trigger 12.000000
 /3chnl1~/mod/turn 0.000000
 /3chnl1~/pan/mode 1
-/3chnl1~/pan/rate 3.000000
-/3chnl1~/pan/spread 0.330000
-/3chnl1~/pitch/transpose 407.000000
-/3chnl1~/pitch/variation 8.000000
+/3chnl1~/pan/rate 2.000000
+/3chnl1~/pan/spread 0.210000
+/3chnl1~/pitch/transpose 0.000000
+/3chnl1~/pitch/variation 4.000000
 /3chnl1~/playback/direction 2
-/3chnl1~/playback/speed 0.990000
-/3chnl1~/playback/position 0.055308
+/3chnl1~/playback/speed 0.030000
+/3chnl1~/playback/position 0.156826
 /3chnl1~/selection/mode 0
-/3chnl1~/selection/range 1819.312500 31741.458984
+/3chnl1~/selection/range 54768.000000 155928.562500
 /3chnl1~/waveform/normalize 0.000000
 /3chnl1~/numChannels 3
 # 
 /3chnl2~/grain/trigger/variance/gainVar/randomnessRate 0.000000
-/3chnl2~/grain/trigger/variance/gainVar/range 0.000000
-/3chnl2~/grain/trigger/variance/rateVar/randomnessRate 0.000000
-/3chnl2~/grain/trigger/variance/rateVar/spread 0.000000
-/3chnl2~/grain/trigger/variance/on 0
-/3chnl2~/grain/trigger/freq 30.000000
+/3chnl2~/grain/trigger/variance/gainVar/range 32.199889 62.734240
+/3chnl2~/grain/trigger/variance/rateVar/randomnessRate 0.301744
+/3chnl2~/grain/trigger/variance/rateVar/spread 29.220797
+/3chnl2~/grain/trigger/variance/on 1
+/3chnl2~/grain/trigger/freq 15.000000
 /3chnl2~/grain/trigger/lock 0
 /3chnl2~/grain/trigger/mode 0
 /3chnl2~/grain/trigger/note 0
-/3chnl2~/grain/duration 300.000000
-/3chnl2~/grain/onsetVar 0.000000
+/3chnl2~/grain/duration 117.000000
+/3chnl2~/grain/onsetVar 186.000000
 /3chnl2~/grain/overlap 100
 # 
 /3chnl2~/mapGain/data/active 1
@@ -2231,9 +2231,9 @@
 /3chnl2~/mapTurn/active 0
 /3chnl2~/mapTurn/scalebypass 1
 /3chnl2~/audio/gain -10.000000
-/3chnl2~/audio/mute 1
-/3chnl2~/file/ms 0.000000
-/3chnl2~/file/open none
+/3chnl2~/audio/mute 0
+/3chnl2~/file/ms 466516.812500
+/3chnl2~/file/open HD:/Users/tangibleflux/code/Rogs/highPitchSus/Tokyoku-Dronemaker-harsh.aif
 /3chnl2~/mapperGate/gain 0
 /3chnl2~/mapperGate/onsetVar 0
 /3chnl2~/mapperGate/pitch 0
@@ -2254,16 +2254,16 @@
 /3chnl2~/mod/spread 0.000000
 /3chnl2~/mod/trigger 0.000000
 /3chnl2~/mod/turn 0.000000
-/3chnl2~/pan/mode 0
-/3chnl2~/pan/rate 0.000000
-/3chnl2~/pan/spread 0.330000
+/3chnl2~/pan/mode 1
+/3chnl2~/pan/rate 6.000000
+/3chnl2~/pan/spread 0.500000
 /3chnl2~/pitch/transpose 0.000000
 /3chnl2~/pitch/variation 0.000000
 /3chnl2~/playback/direction 0
 /3chnl2~/playback/speed 1.000000
-/3chnl2~/playback/position 0.000000
+/3chnl2~/playback/position 0.005534
 /3chnl2~/selection/mode 0
-/3chnl2~/selection/range 0.000000
+/3chnl2~/selection/range 2581.854167 444142.270833
 /3chnl2~/waveform/normalize 0.000000
 /3chnl2~/numChannels 3
 # 
@@ -2272,11 +2272,11 @@
 /Rogs1~/grain/trigger/variance/rateVar/randomnessRate 0.000000
 /Rogs1~/grain/trigger/variance/rateVar/spread 0.000000
 /Rogs1~/grain/trigger/variance/on 0
-/Rogs1~/grain/trigger/freq 6.000000
+/Rogs1~/grain/trigger/freq 9.000000
 /Rogs1~/grain/trigger/lock 0
 /Rogs1~/grain/trigger/mode 0
 /Rogs1~/grain/trigger/note 0
-/Rogs1~/grain/duration 81.000000
+/Rogs1~/grain/duration 9.000000
 /Rogs1~/grain/onsetVar 0.000000
 /Rogs1~/grain/overlap 100
 # 
@@ -2378,7 +2378,7 @@
 # 
 /Rogs1~/mapSpeed/data/active 1
 /Rogs1~/mapSpeed/function/parameters.1 0.000000
-/Rogs1~/mapSpeed/input/address /main/hor
+/Rogs1~/mapSpeed/input/address /main/uv
 /Rogs1~/mapSpeed/input/max 1.000000
 /Rogs1~/mapSpeed/input/min 0.000000
 /Rogs1~/mapSpeed/output/max 1.000000
@@ -2439,13 +2439,13 @@
 /Rogs1~/mapTurn/slide/up 0.000000
 /Rogs1~/mapTurn/active 0
 /Rogs1~/mapTurn/scalebypass 1
-/Rogs1~/audio/gain -3.000000
+/Rogs1~/audio/gain -1.000000
 /Rogs1~/audio/mute 0
-/Rogs1~/file/ms 39087.187500
-/Rogs1~/file/open HD:/Users/tangibleflux/Desktop/CONCERT/beaTZ-noBass-pure.aif
+/Rogs1~/file/ms 37216.979167
+/Rogs1~/file/open HD:/Users/tangibleflux/code/Rogs/Electricity/Electricity-tool-EQ.aif
 /Rogs1~/mapperGate/gain 0
-/Rogs1~/mapperGate/onsetVar 2
-/Rogs1~/mapperGate/pitch 2
+/Rogs1~/mapperGate/onsetVar 0
+/Rogs1~/mapperGate/pitch 0
 /Rogs1~/mapperGate/pitchVar 0
 /Rogs1~/mapperGate/position 0
 /Rogs1~/mapperGate/size 2
@@ -2454,25 +2454,25 @@
 /Rogs1~/mapperGate/trigger 2
 /Rogs1~/mapperGate/turn 0
 /Rogs1~/mod/gain 0.000000
-/Rogs1~/mod/onsetVar 3.000000
-/Rogs1~/mod/pitch 8.000000
+/Rogs1~/mod/onsetVar 0.000000
+/Rogs1~/mod/pitch 0.000000
 /Rogs1~/mod/pitchVar 0.000000
 /Rogs1~/mod/position 0.000000
-/Rogs1~/mod/size -48.000000
-/Rogs1~/mod/speed 1.700000
+/Rogs1~/mod/size 45.000000
+/Rogs1~/mod/speed 0.400000
 /Rogs1~/mod/spread 0.000000
-/Rogs1~/mod/trigger 43.000000
+/Rogs1~/mod/trigger 10.000000
 /Rogs1~/mod/turn 0.000000
-/Rogs1~/pan/mode 1
+/Rogs1~/pan/mode 0
 /Rogs1~/pan/rate 4.000000
-/Rogs1~/pan/spread 0.050000
-/Rogs1~/pitch/transpose -1200.000000
+/Rogs1~/pan/spread 0.120000
+/Rogs1~/pitch/transpose -700.000000
 /Rogs1~/pitch/variation 0.000000
 /Rogs1~/playback/direction 2
-/Rogs1~/playback/speed -0.050000
-/Rogs1~/playback/position 0.946296
+/Rogs1~/playback/speed 0.500000
+/Rogs1~/playback/position 0.064576
 /Rogs1~/selection/mode 0
-/Rogs1~/selection/range 0.000000 37013.062500
+/Rogs1~/selection/range 2403.250000 31655.020833
 /Rogs1~/waveform/normalize 0.000000
 /Rogs1~/numChannels 2
 # 
@@ -2481,11 +2481,11 @@
 /Rogs2~/grain/trigger/variance/rateVar/randomnessRate 0.000000
 /Rogs2~/grain/trigger/variance/rateVar/spread 0.000000
 /Rogs2~/grain/trigger/variance/on 0
-/Rogs2~/grain/trigger/freq 0.000000
+/Rogs2~/grain/trigger/freq 8.000000
 /Rogs2~/grain/trigger/lock 0
 /Rogs2~/grain/trigger/mode 0
 /Rogs2~/grain/trigger/note 0
-/Rogs2~/grain/duration 36.000000
+/Rogs2~/grain/duration 7.000000
 /Rogs2~/grain/onsetVar 10.000000
 /Rogs2~/grain/overlap 100
 # 
@@ -2587,7 +2587,7 @@
 # 
 /Rogs2~/mapSpeed/data/active 1
 /Rogs2~/mapSpeed/function/parameters.1 0.000000
-/Rogs2~/mapSpeed/input/address /main/uvtop
+/Rogs2~/mapSpeed/input/address /main/slit
 /Rogs2~/mapSpeed/input/max 1.000000
 /Rogs2~/mapSpeed/input/min 0.000000
 /Rogs2~/mapSpeed/output/max 1.000000
@@ -2657,7 +2657,7 @@
 /Rogs2~/mapperGate/pitch 0
 /Rogs2~/mapperGate/pitchVar 0
 /Rogs2~/mapperGate/position 0
-/Rogs2~/mapperGate/size 0
+/Rogs2~/mapperGate/size 2
 /Rogs2~/mapperGate/speed 1
 /Rogs2~/mapperGate/spread 0
 /Rogs2~/mapperGate/trigger 2
@@ -2667,18 +2667,18 @@
 /Rogs2~/mod/pitch 0.000000
 /Rogs2~/mod/pitchVar 0.000000
 /Rogs2~/mod/position 0.000000
-/Rogs2~/mod/size 0.000000
-/Rogs2~/mod/speed 0.300000
+/Rogs2~/mod/size 33.000000
+/Rogs2~/mod/speed 0.900000
 /Rogs2~/mod/spread 0.000000
-/Rogs2~/mod/trigger 52.000000
+/Rogs2~/mod/trigger 25.000000
 /Rogs2~/mod/turn 0.000000
 /Rogs2~/pan/mode 0
-/Rogs2~/pan/rate 1.000000
-/Rogs2~/pan/spread 0.341000
-/Rogs2~/pitch/transpose 3000.000000
+/Rogs2~/pan/rate -2.000000
+/Rogs2~/pan/spread 0.160000
+/Rogs2~/pitch/transpose 1200.000000
 /Rogs2~/pitch/variation 1.000000
 /Rogs2~/playback/direction 2
-/Rogs2~/playback/speed 0.670000
+/Rogs2~/playback/speed 0.000000
 /Rogs2~/playback/position 0.918818
 /Rogs2~/selection/mode 0
 /Rogs2~/selection/range 0.000000 116607.484375
@@ -2857,10 +2857,10 @@
 /Rogs3~/mapTurn/slide/up 0.000000
 /Rogs3~/mapTurn/active 0
 /Rogs3~/mapTurn/scalebypass 1
-/Rogs3~/audio/gain -13.000000
+/Rogs3~/audio/gain -6.000000
 /Rogs3~/audio/mute 0
-/Rogs3~/file/ms 147206.703125
-/Rogs3~/file/open HD:/Users/tangibleflux/code/Rogs/drones/ambience-Solaris.aif
+/Rogs3~/file/ms 34091.562500
+/Rogs3~/file/open HD:/Users/tangibleflux/code/Rogs/Rust/theWaterDrum.aif
 /Rogs3~/mapperGate/gain 0
 /Rogs3~/mapperGate/onsetVar 0
 /Rogs3~/mapperGate/pitch 0
@@ -2877,20 +2877,20 @@
 /Rogs3~/mod/pitchVar 0.000000
 /Rogs3~/mod/position 0.000000
 /Rogs3~/mod/size 55.000000
-/Rogs3~/mod/speed 0.260000
+/Rogs3~/mod/speed 0.900000
 /Rogs3~/mod/spread 0.000000
-/Rogs3~/mod/trigger 70.000000
+/Rogs3~/mod/trigger 99.000000
 /Rogs3~/mod/turn 0.000000
 /Rogs3~/pan/mode 1
 /Rogs3~/pan/rate 1.600000
 /Rogs3~/pan/spread 0.400000
 /Rogs3~/pitch/transpose 0.000000
 /Rogs3~/pitch/variation 2.000000
-/Rogs3~/playback/direction 0
+/Rogs3~/playback/direction 2
 /Rogs3~/playback/speed 0.010000
-/Rogs3~/playback/position 0.023939
+/Rogs3~/playback/position 0.501827
 /Rogs3~/selection/mode 0
-/Rogs3~/selection/range 3524.000000 59752.875000
+/Rogs3~/selection/range 880.375000 17108.729167
 /Rogs3~/waveform/normalize 0.000000
 /Rogs3~/numChannels 2
 # 
@@ -3147,29 +3147,29 @@
 /lfo/y/scale 0.000000
 /lfo/y/waveform 3
 # 
-/mixer/rogs1/dry/btm 1.000000
-/mixer/rogs1/dry/rvb 0.007067
-/mixer/rogs1/dry/top 1.000000
-/mixer/rogs2/dry/btm 0.000000
-/mixer/rogs2/dry/rvb 0.491587
-/mixer/rogs2/dry/top 0.829253
+/mixer/rogs1/dry/btm 0.402827
+/mixer/rogs1/dry/rvb 0.205164
+/mixer/rogs1/dry/top 0.917809
+/mixer/rogs2/dry/btm 0.160452
+/mixer/rogs2/dry/rvb 0.111913
+/mixer/rogs2/dry/top 0.815884
 /mixer/rogs3/dry/btm 0.239033
-/mixer/rogs3/dry/rvb 0.162455
+/mixer/rogs3/dry/rvb 0.815884
 /mixer/rogs3/dry/top 0.188568
-/mixer/3chnl1/dry 0.367279
-/mixer/3chnl1/rvb 0.135314
-/mixer/3chnl2/dry 0.000000
-/mixer/3chnl2/rvb 0.000000
+/mixer/3chnl1/dry 0.000000
+/mixer/3chnl1/rvb 0.807942
+/mixer/3chnl2/dry 0.841275
+/mixer/3chnl2/rvb 0.464982
 # 
 # 
 /rnd/a/data/active 1
-/rnd/a/rate/max 10000
-/rnd/a/rate/min 7470
+/rnd/a/rate/max 8000
+/rnd/a/rate/min 4000
 /rnd/a/grain 50
-/rnd/a/interpolate 8857
-/rnd/a/max 0.620000
-/rnd/a/min -0.473000
-/rnd/a/on 0
+/rnd/a/interpolate 5000
+/rnd/a/max 1.370000
+/rnd/a/min -2.800000
+/rnd/a/on 1
 /rnd/a/step 1.000000
 # 
 /rnd/b/data/active 1
@@ -3177,9 +3177,9 @@
 /rnd/b/rate/min 6000
 /rnd/b/grain 50
 /rnd/b/interpolate 9000
-/rnd/b/max 0.660000
-/rnd/b/min 0.000000
-/rnd/b/on 0
+/rnd/b/max 0.800000
+/rnd/b/min -0.400000
+/rnd/b/on 1
 /rnd/b/step 1.000000
 # 
 /rnd/g/data/active 1
@@ -3187,7 +3187,7 @@
 /rnd/g/rate/min 5000
 /rnd/g/grain 50
 /rnd/g/interpolate 8000
-/rnd/g/max 0.300000
+/rnd/g/max 0.100000
 /rnd/g/min 0.000000
 /rnd/g/on 0
 /rnd/g/step 1.000000
@@ -3197,7 +3197,7 @@
 /rnd/hor/rate/min 1000
 /rnd/hor/grain 50
 /rnd/hor/interpolate 6000
-/rnd/hor/max 0.980000
+/rnd/hor/max 0.200000
 /rnd/hor/min -0.160000
 /rnd/hor/on 0
 /rnd/hor/step 1.000000
@@ -3208,7 +3208,7 @@
 /rnd/motor/grain 100
 /rnd/motor/interpolate 0
 /rnd/motor/max 1.030000
-/rnd/motor/min 0.997000
+/rnd/motor/min 0.997600
 /rnd/motor/on 0
 /rnd/motor/step 1.000000
 # 
@@ -3219,7 +3219,7 @@
 /rnd/r/interpolate 9000
 /rnd/r/max 1.000000
 /rnd/r/min 0.000000
-/rnd/r/on 0
+/rnd/r/on 1
 /rnd/r/step 1.000000
 # 
 /rnd/slit/data/active 1
@@ -3227,9 +3227,9 @@
 /rnd/slit/rate/min 500
 /rnd/slit/grain 50
 /rnd/slit/interpolate 7000
-/rnd/slit/max 0.800000
+/rnd/slit/max 1.000000
 /rnd/slit/min 0.000000
-/rnd/slit/on 0
+/rnd/slit/on 1
 /rnd/slit/step 1.000000
 # 
 /rnd/tip/data/active 1
@@ -3247,9 +3247,9 @@
 /rnd/uv/rate/min 5000
 /rnd/uv/grain 50
 /rnd/uv/interpolate 8000
-/rnd/uv/max 0.700000
-/rnd/uv/min -0.300000
-/rnd/uv/on 0
+/rnd/uv/max 1.000000
+/rnd/uv/min 0.000000
+/rnd/uv/on 1
 /rnd/uv/step 1.000000
 # 
 /rnd/uvtop/data/active 1
@@ -3267,35 +3267,35 @@
 /rnd/w/rate/min 5000
 /rnd/w/grain 50
 /rnd/w/interpolate 9000
-/rnd/w/max 0.800000
+/rnd/w/max 0.000000
 /rnd/w/min 0.000000
 /rnd/w/on 0
 /rnd/w/step 1.000000
 # 
 /rnd/y/data/active 1
-/rnd/y/rate/max 4500
+/rnd/y/rate/max 4000
 /rnd/y/rate/min 3000
 /rnd/y/grain 50
 /rnd/y/interpolate 2800
-/rnd/y/max 0.860000
-/rnd/y/min 0.000000
-/rnd/y/on 0
+/rnd/y/max 0.393000
+/rnd/y/min 0.089700
+/rnd/y/on 1
 /rnd/y/step 1.000000
 # 
 /cues_rogs/file/path "HD:/Users/tangibleflux/code/Nav/Projects/2016 12 tangibleFlux/TF-cosm3/cosm3.rogs.cues.txt"
 # 
-/main/a 1.000000
-/main/b 1.000000
-/main/g 0.044000
+/main/a 0.000000
+/main/b 0.125846
+/main/g 0.000000
 /main/hor 0.000000
 /main/motor 1.000000
-/main/r 0.000000
-/main/slit 0.000000
+/main/r 0.725133
+/main/slit 0.455668
 /main/tip 0.000000
-/main/uv 0.000000
+/main/uv 0.384802
 /main/uvtop 0.000000
-/main/w 1.000000
-/main/y 0.000000
+/main/w 0.000000
+/main/y 0.259000
 # 
 # ###########################################
 
