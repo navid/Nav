@@ -207,7 +207,7 @@
 /3chnl1~/playback/speed 0.990000
 /3chnl1~/playback/position 0.055308
 /3chnl1~/selection/mode 0
-/3chnl1~/selection/range 1819.312500 31741.458333
+/3chnl1~/selection/range 1819.312500 31741.458984
 /3chnl1~/waveform/normalize 0.000000
 /3chnl1~/numChannels 3
 # 
@@ -803,7 +803,7 @@
 /Rogs2~/mapTurn/scalebypass 1
 /Rogs2~/audio/gain -10.000000
 /Rogs2~/audio/mute 0
-/Rogs2~/file/ms 126909.977324
+/Rogs2~/file/ms 126909.976562
 /Rogs2~/file/open HD:/Users/tangibleflux/code/snd/PV-SpectralDelay.aiff
 /Rogs2~/mapperGate/gain 0
 /Rogs2~/mapperGate/onsetVar 0
@@ -834,12 +834,12 @@
 /Rogs2~/playback/speed 0.670000
 /Rogs2~/playback/position 0.918818
 /Rogs2~/selection/mode 0
-/Rogs2~/selection/range 0.000000 116607.487028
+/Rogs2~/selection/range 0.000000 116607.484375
 /Rogs2~/waveform/normalize 0.000000
 /Rogs2~/numChannels 2
 # 
 /Rogs3~/grain/trigger/variance/gainVar/randomnessRate 0.000000
-/Rogs3~/grain/trigger/variance/gainVar/range 78.001415 78.001415
+/Rogs3~/grain/trigger/variance/gainVar/range 78.001411 78.001411
 /Rogs3~/grain/trigger/variance/rateVar/randomnessRate 0.465789
 /Rogs3~/grain/trigger/variance/rateVar/spread 8.544102
 /Rogs3~/grain/trigger/variance/on 1
@@ -1012,7 +1012,7 @@
 /Rogs3~/mapTurn/scalebypass 1
 /Rogs3~/audio/gain -17.000000
 /Rogs3~/audio/mute 0
-/Rogs3~/file/ms 147206.708333
+/Rogs3~/file/ms 147206.703125
 /Rogs3~/file/open HD:/Users/tangibleflux/code/Rogs/drones/ambience-Solaris.aif
 /Rogs3~/mapperGate/gain 0
 /Rogs3~/mapperGate/onsetVar 0
