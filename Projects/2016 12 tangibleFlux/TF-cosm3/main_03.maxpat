@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 32.0, 224.0, 151.0, 179.0 ],
+		"rect" : [ 32.0, 224.0, 151.0, 246.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,26 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 120.0, 108.0, 35.0 ],
+					"style" : "",
+					"text" : "j.initialized cosm3 3000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 84.0, 22.0 ],
+					"patching_rect" : [ 15.0, 165.0, 84.0, 22.0 ],
 					"style" : "",
 					"text" : "load rogs-no3"
 				}
@@ -56,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 53.0, 22.0 ],
+					"patching_rect" : [ 15.0, 195.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -20644,6 +20658,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -20651,58 +20672,58 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-37::obj-115" : [ "slider[1]", "slider[1]", 0 ],
-			"obj-2::obj-37::obj-6" : [ "number[7]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-73" : [ "slider[7]", "slider[5]", 0 ],
-			"obj-2::obj-37::obj-59" : [ "live.text[15]", "live.text", 0 ],
-			"obj-2::obj-37::obj-30" : [ "number[1]", "number[1]", 0 ],
-			"obj-1" : [ "live.text[30]", "live.text[30]", 0 ],
-			"obj-2::obj-37::obj-93" : [ "live.text[50]", "live.text", 0 ],
-			"obj-2::obj-37::obj-74" : [ "slider[8]", "slider[4]", 0 ],
-			"obj-2::obj-37::obj-56" : [ "live.text[45]", "live.text", 0 ],
 			"obj-2::obj-37::obj-12" : [ "number[8]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-50" : [ "number[5]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-109" : [ "live.text[58]", "live.text", 0 ],
-			"obj-2::obj-37::obj-113" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-2::obj-37::obj-25" : [ "number[10]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-110" : [ "live.text[59]", "live.text", 0 ],
-			"obj-2::obj-37::obj-53" : [ "number[6]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-116" : [ "slider", "slider", 0 ],
-			"obj-2::obj-37::obj-90" : [ "live.text[49]", "live.text", 0 ],
-			"obj-2::obj-37::obj-89" : [ "live.text[48]", "live.text", 0 ],
-			"obj-2::obj-37::obj-47" : [ "number[4]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-54" : [ "live.text[44]", "live.text", 0 ],
-			"obj-2::obj-37::obj-133" : [ "live.text[64]", "live.text", 0 ],
-			"obj-2::obj-37::obj-105" : [ "live.text[56]", "live.text", 0 ],
-			"obj-2::obj-37::obj-111" : [ "slider[5]", "slider[5]", 0 ],
-			"obj-2::obj-37::obj-28" : [ "live.text[42]", "live.text", 0 ],
-			"obj-2::obj-37::obj-112" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-2::obj-37::obj-106" : [ "live.text[57]", "live.text", 0 ],
-			"obj-2::obj-37::obj-49" : [ "live.text[43]", "live.text", 0 ],
-			"obj-2::obj-37::obj-85" : [ "live.text[46]", "live.text", 0 ],
-			"obj-2::obj-37::obj-86" : [ "live.text[47]", "live.text", 0 ],
-			"obj-2::obj-37::obj-23" : [ "live.text[29]", "live.text", 0 ],
-			"obj-2::obj-37::obj-35" : [ "number[12]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-24" : [ "live.text[41]", "live.text", 0 ],
-			"obj-2::obj-37::obj-10" : [ "live.text[38]", "live.text", 0 ],
-			"obj-2::obj-37::obj-172" : [ "live.text[62]", "live.text", 0 ],
-			"obj-2::obj-37::obj-18" : [ "number[9]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-16" : [ "live.text[40]", "live.text", 0 ],
-			"obj-2::obj-37::obj-44" : [ "number[3]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-78" : [ "slider[12]", "slider", 0 ],
 			"obj-2::obj-37::obj-14" : [ "live.text[39]", "live.text", 0 ],
-			"obj-2::obj-37::obj-121" : [ "live.text[60]", "live.text", 0 ],
-			"obj-2::obj-37::obj-20" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-37::obj-69" : [ "slider[6]", "slider[6]", 0 ],
+			"obj-2::obj-37::obj-10" : [ "live.text[38]", "live.text", 0 ],
+			"obj-2::obj-37::obj-47" : [ "number[4]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-73" : [ "slider[7]", "slider[5]", 0 ],
+			"obj-2::obj-37::obj-74" : [ "slider[8]", "slider[4]", 0 ],
 			"obj-2::obj-37::obj-122" : [ "live.text[61]", "live.text", 0 ],
-			"obj-2::obj-37::obj-76" : [ "slider[10]", "slider[2]", 0 ],
-			"obj-2::obj-37::obj-32" : [ "number[11]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-77" : [ "slider[11]", "slider[1]", 0 ],
-			"obj-2::obj-37::obj-126" : [ "live.text[63]", "live.text", 0 ],
-			"obj-2::obj-37::obj-41" : [ "number[2]", "number[1]", 0 ],
-			"obj-2::obj-37::obj-94" : [ "live.text[51]", "live.text", 0 ],
 			"obj-2::obj-37::obj-75" : [ "slider[9]", "slider[3]", 0 ],
-			"obj-2::obj-37::obj-114" : [ "slider[2]", "slider[2]", 0 ]
+			"obj-2::obj-37::obj-50" : [ "number[5]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-76" : [ "slider[10]", "slider[2]", 0 ],
+			"obj-2::obj-37::obj-25" : [ "number[10]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-126" : [ "live.text[63]", "live.text", 0 ],
+			"obj-2::obj-37::obj-28" : [ "live.text[42]", "live.text", 0 ],
+			"obj-2::obj-37::obj-20" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-37::obj-77" : [ "slider[11]", "slider[1]", 0 ],
+			"obj-2::obj-37::obj-49" : [ "live.text[43]", "live.text", 0 ],
+			"obj-2::obj-37::obj-78" : [ "slider[12]", "slider", 0 ],
+			"obj-2::obj-37::obj-111" : [ "slider[5]", "slider[5]", 0 ],
+			"obj-2::obj-37::obj-23" : [ "live.text[29]", "live.text", 0 ],
+			"obj-2::obj-37::obj-112" : [ "slider[4]", "slider[4]", 0 ],
+			"obj-1" : [ "live.text[30]", "live.text[30]", 0 ],
+			"obj-2::obj-37::obj-24" : [ "live.text[41]", "live.text", 0 ],
+			"obj-2::obj-37::obj-116" : [ "slider", "slider", 0 ],
+			"obj-2::obj-37::obj-59" : [ "live.text[15]", "live.text", 0 ],
+			"obj-2::obj-37::obj-113" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-2::obj-37::obj-54" : [ "live.text[44]", "live.text", 0 ],
+			"obj-2::obj-37::obj-114" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-2::obj-37::obj-56" : [ "live.text[45]", "live.text", 0 ],
+			"obj-2::obj-37::obj-44" : [ "number[3]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-115" : [ "slider[1]", "slider[1]", 0 ],
+			"obj-2::obj-37::obj-93" : [ "live.text[50]", "live.text", 0 ],
+			"obj-2::obj-37::obj-35" : [ "number[12]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-94" : [ "live.text[51]", "live.text", 0 ],
+			"obj-2::obj-37::obj-16" : [ "live.text[40]", "live.text", 0 ],
+			"obj-2::obj-37::obj-6" : [ "number[7]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-109" : [ "live.text[58]", "live.text", 0 ],
+			"obj-2::obj-37::obj-69" : [ "slider[6]", "slider[6]", 0 ],
+			"obj-2::obj-37::obj-110" : [ "live.text[59]", "live.text", 0 ],
+			"obj-2::obj-37::obj-89" : [ "live.text[48]", "live.text", 0 ],
+			"obj-2::obj-37::obj-18" : [ "number[9]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-90" : [ "live.text[49]", "live.text", 0 ],
+			"obj-2::obj-37::obj-105" : [ "live.text[56]", "live.text", 0 ],
+			"obj-2::obj-37::obj-133" : [ "live.text[64]", "live.text", 0 ],
+			"obj-2::obj-37::obj-106" : [ "live.text[57]", "live.text", 0 ],
+			"obj-2::obj-37::obj-41" : [ "number[2]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-85" : [ "live.text[46]", "live.text", 0 ],
+			"obj-2::obj-37::obj-121" : [ "live.text[60]", "live.text", 0 ],
+			"obj-2::obj-37::obj-86" : [ "live.text[47]", "live.text", 0 ],
+			"obj-2::obj-37::obj-30" : [ "number[1]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-53" : [ "number[6]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-32" : [ "number[11]", "number[1]", 0 ],
+			"obj-2::obj-37::obj-172" : [ "live.text[62]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
