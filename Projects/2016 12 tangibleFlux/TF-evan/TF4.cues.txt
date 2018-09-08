@@ -4107,42 +4107,42 @@
 /dmx/lfo_y/waveform 4
 # 
 /dmx/light1/data/active 1
-/dmx/light1/rate/max 53
+/dmx/light1/rate/max 41
 /dmx/light1/rate/min 10
 /dmx/light1/grain 25
-/dmx/light1/interpolate 25
-/dmx/light1/max 0.260000
-/dmx/light1/min 0.000000
+/dmx/light1/interpolate 0
+/dmx/light1/max 0.050000
+/dmx/light1/min -2.000000
 /dmx/light1/on 1
 /dmx/light1/step 1.000000
 # 
 /dmx/light2/data/active 1
-/dmx/light2/rate/max 112
-/dmx/light2/rate/min 40
+/dmx/light2/rate/max 38
+/dmx/light2/rate/min 8
 /dmx/light2/grain 25
-/dmx/light2/interpolate 51
-/dmx/light2/max 0.300000
-/dmx/light2/min 0.000000
+/dmx/light2/interpolate 0
+/dmx/light2/max 0.060000
+/dmx/light2/min -0.300000
 /dmx/light2/on 1
 /dmx/light2/step 1.000000
 # 
 /dmx/speed/data/active 1
 /dmx/speed/rate/max 2875
-/dmx/speed/rate/min 1899
+/dmx/speed/rate/min 600
 /dmx/speed/grain 25
-/dmx/speed/interpolate 2338
-/dmx/speed/max 0.810000
-/dmx/speed/min 0.370000
+/dmx/speed/interpolate 0
+/dmx/speed/max 1.000000
+/dmx/speed/min 0.090000
 /dmx/speed/on 1
 /dmx/speed/step 1.000000
 # 
 /dmx/tilt/data/active 1
-/dmx/tilt/rate/max 2368
+/dmx/tilt/rate/max 2129
 /dmx/tilt/rate/min 1056
 /dmx/tilt/grain 25
-/dmx/tilt/interpolate 247
-/dmx/tilt/max -0.200000
-/dmx/tilt/min -0.680000
+/dmx/tilt/interpolate 0
+/dmx/tilt/max 0.350000
+/dmx/tilt/min -0.290000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
 # 
@@ -4150,9 +4150,9 @@
 /dmx/tiltY/rate/max 4000
 /dmx/tiltY/rate/min 2000
 /dmx/tiltY/grain 25
-/dmx/tiltY/interpolate 353
-/dmx/tiltY/max 0.040000
-/dmx/tiltY/min -0.040000
+/dmx/tiltY/interpolate 0
+/dmx/tiltY/max 0.300000
+/dmx/tiltY/min -0.300000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
@@ -4162,11 +4162,11 @@
 /dmx/iscore_in/scorein4 0.000000
 /dmx/iscore_in/scorein5 0.000000
 # 
-/dmx/main/LED1 0.071000
-/dmx/main/LED2 0.065000
-/dmx/main/speed 0.732245
-/dmx/main/x -0.672000
-/dmx/main/y 0.034000
+/dmx/main/LED1 -1.354000
+/dmx/main/LED2 -0.280000
+/dmx/main/speed 0.914000
+/dmx/main/x -0.241000
+/dmx/main/y -0.001000
 # 
 # ###########################################
 
@@ -5831,8 +5831,8 @@
 /dmx/tilt/rate/min 1721
 /dmx/tilt/grain 25
 /dmx/tilt/interpolate 3097
-/dmx/tilt/max 0.030000
-/dmx/tilt/min -0.030000
+/dmx/tilt/max 0.100000
+/dmx/tilt/min -0.100000
 /dmx/tilt/on 1
 /dmx/tilt/step 1.000000
 # 
@@ -5841,8 +5841,8 @@
 /dmx/tiltY/rate/min 4000
 /dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 5000
-/dmx/tiltY/max 0.900000
-/dmx/tiltY/min -0.800000
+/dmx/tiltY/max 0.500000
+/dmx/tiltY/min -0.500000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
@@ -5852,11 +5852,11 @@
 /dmx/iscore_in/scorein4 0.000000
 /dmx/iscore_in/scorein5 0.000000
 # 
-/dmx/main/LED1 0.355363
-/dmx/main/LED2 0.558176
-/dmx/main/speed 0.907610
-/dmx/main/x 0.000334
-/dmx/main/y 0.340395
+/dmx/main/LED1 0.491691
+/dmx/main/LED2 0.527898
+/dmx/main/speed 0.941800
+/dmx/main/x 0.028362
+/dmx/main/y 0.209142
 # 
 # ###########################################
 
