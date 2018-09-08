@@ -46,7 +46,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 108.785706, 194.0, 127.0, 22.0 ],
 					"style" : "",
-					"text" : "insane1"
+					"text" : "Schizo"
 				}
 
 			}
@@ -1901,7 +1901,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 329.0, 237.0, 76.0, 375.0 ],
+										"rect" : [ 329.0, 237.0, 392.0, 375.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -10417,7 +10417,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 32.0, 351.0, 338.0, 509.0 ],
+						"rect" : [ 274.0, 442.0, 338.0, 509.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -10444,6 +10444,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-23",
@@ -13146,18 +13147,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-60::obj-4" : [ "multislider[3]", "multislider[3]", 0 ],
+			"obj-60::obj-9" : [ "multislider[4]", "multislider[4]", 0 ],
 			"obj-60::obj-30" : [ "multislider", "multislider", 0 ],
+			"obj-60::obj-6" : [ "number[1]", "number[1]", 0 ],
+			"obj-60::obj-39" : [ "multislider[2]", "multislider[2]", 0 ],
+			"obj-2::obj-42" : [ "live.text", "live.text", 0 ],
+			"obj-60::obj-7" : [ "number[2]", "number[2]", 0 ],
+			"obj-60::obj-4" : [ "multislider[3]", "multislider[3]", 0 ],
+			"obj-60::obj-27" : [ "number", "number", 0 ],
 			"obj-60::obj-56" : [ "multislider[5]", "multislider", 0 ],
 			"obj-60::obj-50" : [ "number[4]", "number[4]", 0 ],
 			"obj-60::obj-38" : [ "multislider[1]", "multislider[1]", 0 ],
-			"obj-60::obj-17" : [ "number[3]", "number[3]", 0 ],
-			"obj-60::obj-9" : [ "multislider[4]", "multislider[4]", 0 ],
-			"obj-60::obj-6" : [ "number[1]", "number[1]", 0 ],
-			"obj-60::obj-27" : [ "number", "number", 0 ],
-			"obj-60::obj-39" : [ "multislider[2]", "multislider[2]", 0 ],
-			"obj-2::obj-42" : [ "live.text", "live.text", 0 ],
-			"obj-60::obj-7" : [ "number[2]", "number[2]", 0 ]
+			"obj-60::obj-17" : [ "number[3]", "number[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
