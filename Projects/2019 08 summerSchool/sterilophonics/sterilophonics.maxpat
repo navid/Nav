@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 167.0, 230.0, 609.0, 450.0 ],
+		"rect" : [ 130.0, 45.0, 620.0, 461.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -754,7 +754,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 622.5, 280.982849, 100.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.0, 275.0, 287.0, 40.0 ],
+					"presentation_rect" : [ 313.0, 274.0, 287.0, 40.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "rvrb2",
@@ -1873,7 +1873,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 1053.0, 413.0, 498.0, 245.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1902,12 +1902,95 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 339.0, 114.0, 133.0, 22.0 ],
+									"presentation_rect" : [ 370.0, 191.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "file/open Bamboo-Is.aif"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 160.0, 90.0, 191.0, 22.0 ],
+									"presentation_rect" : [ 197.0, 238.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "file/open jamesportwindchimes.aif"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 36.0, 125.0, 186.0, 22.0 ],
+									"presentation_rect" : [ 185.0, 259.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "file/open Winder-simple-mono.aif"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 307.0, 172.0, 79.0, 22.0 ],
+									"presentation_rect" : [ 338.0, 168.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "j.send /rogs2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 307.0, 56.0, 73.0, 22.0 ],
+									"presentation_rect" : [ 338.0, 135.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "modAmt/* 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 307.0, 23.0, 129.0, 22.0 ],
+									"style" : "",
+									"text" : "j.initialized rogs3 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-38",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 166.0, 79.0, 22.0 ],
+									"patching_rect" : [ 154.0, 172.0, 79.0, 22.0 ],
 									"style" : "",
 									"text" : "j.send /rogs2"
 								}
@@ -1920,7 +2003,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 170.0, 79.0, 22.0 ],
+									"patching_rect" : [ 19.0, 172.0, 79.0, 22.0 ],
 									"style" : "",
 									"text" : "j.send /rogs1"
 								}
@@ -1933,7 +2016,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 133.0, 73.0, 22.0 ],
+									"patching_rect" : [ 154.0, 56.0, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "modAmt/* 0"
 								}
@@ -1946,7 +2029,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 100.0, 129.0, 22.0 ],
+									"patching_rect" : [ 154.0, 23.0, 129.0, 22.0 ],
 									"style" : "",
 									"text" : "j.initialized rogs2 1000"
 								}
@@ -1959,7 +2042,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 133.0, 73.0, 22.0 ],
+									"patching_rect" : [ 19.0, 56.0, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "modAmt/* 0"
 								}
@@ -1972,7 +2055,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 129.0, 22.0 ],
+									"patching_rect" : [ 19.0, 23.0, 129.0, 22.0 ],
 									"style" : "",
 									"text" : "j.initialized rogs1 1000"
 								}
@@ -1980,6 +2063,20 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"source" : [ "obj-31", 0 ]
@@ -1989,6 +2086,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
+									"order" : 1,
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"order" : 0,
 									"source" : [ "obj-34", 0 ]
 								}
 
@@ -2004,6 +2110,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
 									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
