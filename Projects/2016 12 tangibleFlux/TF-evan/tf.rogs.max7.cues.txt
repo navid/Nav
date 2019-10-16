@@ -701,7 +701,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain -7.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 37216.980469
+/rogs/Rogs1~/file/ms 37216.979167
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/Desktop/Rogs/Electricity/Electricity-tool-EQ.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -730,7 +730,7 @@
 /rogs/Rogs1~/pitch/variation 0.000000
 /rogs/Rogs1~/playback/direction 0
 /rogs/Rogs1~/playback/speed 0.049958
-/rogs/Rogs1~/playback/position 0.000000
+/rogs/Rogs1~/playback/position 0.679441
 /rogs/Rogs1~/selection/mode 0
 /rogs/Rogs1~/selection/range 0.000000 37216.957031
 /rogs/Rogs1~/waveform/normalize 1.000000
@@ -910,7 +910,7 @@
 /rogs/Rogs2~/mapTurn/scalebypass 1
 /rogs/Rogs2~/audio/gain -3.000000
 /rogs/Rogs2~/audio/mute 0
-/rogs/Rogs2~/file/ms 12306.145508
+/rogs/Rogs2~/file/ms 12306.145833
 /rogs/Rogs2~/file/open HD:/Users/tangibleflux/Desktop/Rogs/Voice/ShaylaSqueeks.aif
 /rogs/Rogs2~/mapperGate/gain 2
 /rogs/Rogs2~/mapperGate/onsetVar 2
@@ -949,8 +949,8 @@
 /rogs/mixer/in/rogs1/reverb 0.344522
 /rogs/mixer/in/rogs2/dry 0.550659
 /rogs/mixer/in/rogs2/reverb 0.375465
-/rogs/mixer/out/plinth/dry 0.141732
-/rogs/mixer/out/plinth/reverb 0.082677
+/rogs/mixer/out/plinth/dry 0.133858
+/rogs/mixer/out/plinth/reverb 0.070866
 /rogs/mixer/out/top/dry 0.559055
 /rogs/mixer/out/top/reverb 0.559055
 # 
@@ -1473,7 +1473,7 @@
 /rogs/mixer/in/rogs1/reverb 0.000000
 /rogs/mixer/in/rogs2/dry 0.186360
 /rogs/mixer/in/rogs2/reverb 0.408435
-/rogs/mixer/out/plinth/dry 0.794912
+/rogs/mixer/out/plinth/dry 0.890036
 /rogs/mixer/out/plinth/reverb 0.861296
 /rogs/mixer/out/top/dry 0.673683
 /rogs/mixer/out/top/reverb 0.129921
@@ -1749,7 +1749,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain 90.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 51822.355469
+/rogs/Rogs1~/file/ms 51822.354167
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/code/snd/MarbleOnDrum-OPCH.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -1958,7 +1958,7 @@
 /rogs/Rogs2~/mapTurn/scalebypass 1
 /rogs/Rogs2~/audio/gain 84.000000
 /rogs/Rogs2~/audio/mute 0
-/rogs/Rogs2~/file/ms 71235.335938
+/rogs/Rogs2~/file/ms 71235.333333
 /rogs/Rogs2~/file/open HD:/Users/tangibleflux/code/snd/improvised-voice-only.aif
 /rogs/Rogs2~/mapperGate/gain 2
 /rogs/Rogs2~/mapperGate/onsetVar 2
@@ -1997,7 +1997,7 @@
 /rogs/mixer/in/rogs1/reverb 0.042308
 /rogs/mixer/in/rogs2/dry 0.518283
 /rogs/mixer/in/rogs2/reverb 0.738641
-/rogs/mixer/out/plinth/dry 0.711236
+/rogs/mixer/out/plinth/dry 0.725045
 /rogs/mixer/out/plinth/reverb 0.142187
 /rogs/mixer/out/top/dry 0.527771
 /rogs/mixer/out/top/reverb 0.000000
@@ -2059,7 +2059,7 @@
 /rogs/sounds1/autoscale/audio/gain 0.000000
 /rogs/sounds1/autoscale/audio/mix 100.000000
 /rogs/sounds1/autoscale/audio/mute 0
-/rogs/sounds1/autoscale/input/max 0.012410
+/rogs/sounds1/autoscale/input/max 0.742454
 /rogs/sounds1/autoscale/input/min 0.000000
 /rogs/sounds1/autoscale/exp 1.000000
 /rogs/sounds1/autoscale/lock 0
@@ -2521,8 +2521,8 @@
 /rogs/mixer/in/rogs1/reverb 0.042308
 /rogs/mixer/in/rogs2/dry 0.518283
 /rogs/mixer/in/rogs2/reverb 0.738641
-/rogs/mixer/out/plinth/dry 0.711236
-/rogs/mixer/out/plinth/reverb 0.142187
+/rogs/mixer/out/plinth/dry 0.755906
+/rogs/mixer/out/plinth/reverb 0.220472
 /rogs/mixer/out/top/dry 0.527771
 /rogs/mixer/out/top/reverb 0.000000
 # 
@@ -2583,7 +2583,7 @@
 /rogs/sounds1/autoscale/audio/gain 0.000000
 /rogs/sounds1/autoscale/audio/mix 100.000000
 /rogs/sounds1/autoscale/audio/mute 0
-/rogs/sounds1/autoscale/input/max 0.012410
+/rogs/sounds1/autoscale/input/max 0.742454
 /rogs/sounds1/autoscale/input/min 0.000000
 /rogs/sounds1/autoscale/exp 1.000000
 /rogs/sounds1/autoscale/lock 0
@@ -2797,7 +2797,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain -17.000000
 /rogs/Rogs1~/audio/mute 1
-/rogs/Rogs1~/file/ms 93131.710938
+/rogs/Rogs1~/file/ms 93131.708333
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/code/snd/Glitch-pers.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -3045,8 +3045,8 @@
 /rogs/mixer/in/rogs1/reverb 0.042308
 /rogs/mixer/in/rogs2/dry 0.518283
 /rogs/mixer/in/rogs2/reverb 0.743494
-/rogs/mixer/out/plinth/dry 0.711236
-/rogs/mixer/out/plinth/reverb 0.142187
+/rogs/mixer/out/plinth/dry 0.768353
+/rogs/mixer/out/plinth/reverb 0.220472
 /rogs/mixer/out/top/dry 0.527771
 /rogs/mixer/out/top/reverb 0.000000
 # 
@@ -3107,7 +3107,7 @@
 /rogs/sounds1/autoscale/audio/gain 0.000000
 /rogs/sounds1/autoscale/audio/mix 100.000000
 /rogs/sounds1/autoscale/audio/mute 0
-/rogs/sounds1/autoscale/input/max 0.012410
+/rogs/sounds1/autoscale/input/max 0.742454
 /rogs/sounds1/autoscale/input/min 0.000000
 /rogs/sounds1/autoscale/exp 1.000000
 /rogs/sounds1/autoscale/lock 0
@@ -3321,7 +3321,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain -6.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 37216.980469
+/rogs/Rogs1~/file/ms 37216.979167
 /rogs/Rogs1~/file/open Electricity-tool-EQ.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -3569,8 +3569,8 @@
 /rogs/mixer/in/rogs1/reverb 0.569098
 /rogs/mixer/in/rogs2/dry 0.625833
 /rogs/mixer/in/rogs2/reverb 0.921284
-/rogs/mixer/out/plinth/dry 0.764234
-/rogs/mixer/out/plinth/reverb 0.398243
+/rogs/mixer/out/plinth/dry 0.826681
+/rogs/mixer/out/plinth/reverb 0.471805
 /rogs/mixer/out/top/dry 0.361114
 /rogs/mixer/out/top/reverb 0.000000
 # 
@@ -3631,7 +3631,7 @@
 /rogs/sounds1/autoscale/audio/gain 0.000000
 /rogs/sounds1/autoscale/audio/mix 100.000000
 /rogs/sounds1/autoscale/audio/mute 0
-/rogs/sounds1/autoscale/input/max 0.012410
+/rogs/sounds1/autoscale/input/max 0.742454
 /rogs/sounds1/autoscale/input/min 0.000000
 /rogs/sounds1/autoscale/exp 1.000000
 /rogs/sounds1/autoscale/lock 0
@@ -3956,7 +3956,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain -5.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 93574.218750
+/rogs/Rogs1~/file/ms 93574.217687
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/code/Rogs/Rhythmic/clickClip-snipped-mono.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -3973,7 +3973,7 @@
 /rogs/Rogs1~/mod/pitch 0.000000
 /rogs/Rogs1~/mod/pitchVar 0.000000
 /rogs/Rogs1~/mod/position 0.000000
-/rogs/Rogs1~/mod/size 80.000000
+/rogs/Rogs1~/mod/size 60.000000
 /rogs/Rogs1~/mod/speed 1.800000
 /rogs/Rogs1~/mod/spread 0.000000
 /rogs/Rogs1~/mod/trigger 46.000000
@@ -3985,7 +3985,7 @@
 /rogs/Rogs1~/pitch/variation 5.000000
 /rogs/Rogs1~/playback/direction 0
 /rogs/Rogs1~/playback/speed 0.000000
-/rogs/Rogs1~/playback/position 0.007387
+/rogs/Rogs1~/playback/position 0.068265
 /rogs/Rogs1~/selection/mode 0
 /rogs/Rogs1~/selection/range 690.498901 87359.093750
 /rogs/Rogs1~/waveform/normalize 1.140000
@@ -4165,7 +4165,7 @@
 /rogs/Rogs2~/mapTurn/scalebypass 1
 /rogs/Rogs2~/audio/gain 9.000000
 /rogs/Rogs2~/audio/mute 0
-/rogs/Rogs2~/file/ms 71235.335938
+/rogs/Rogs2~/file/ms 71235.333333
 /rogs/Rogs2~/file/open HD:/Users/tangibleflux/code/snd/improvised-voice-only.aif
 /rogs/Rogs2~/mapperGate/gain 2
 /rogs/Rogs2~/mapperGate/onsetVar 2
@@ -4177,19 +4177,19 @@
 /rogs/Rogs2~/mapperGate/spread 0
 /rogs/Rogs2~/mapperGate/trigger 2
 /rogs/Rogs2~/mapperGate/turn 0
-/rogs/Rogs2~/mod/gain 3.000000
+/rogs/Rogs2~/mod/gain 4.000000
 /rogs/Rogs2~/mod/onsetVar 3045.000000
 /rogs/Rogs2~/mod/pitch 595.000000
 /rogs/Rogs2~/mod/pitchVar 5.000000
 /rogs/Rogs2~/mod/position 0.000000
 /rogs/Rogs2~/mod/size 40.000000
-/rogs/Rogs2~/mod/speed 0.400000
+/rogs/Rogs2~/mod/speed 0.500000
 /rogs/Rogs2~/mod/spread 0.000000
 /rogs/Rogs2~/mod/trigger 50.000000
 /rogs/Rogs2~/mod/turn 0.000000
 /rogs/Rogs2~/pan/mode 1
-/rogs/Rogs2~/pan/rate 0.000000
-/rogs/Rogs2~/pan/spread 0.450000
+/rogs/Rogs2~/pan/rate 5.000000
+/rogs/Rogs2~/pan/spread 0.457000
 /rogs/Rogs2~/pitch/transpose 0.000000
 /rogs/Rogs2~/pitch/variation 0.000000
 /rogs/Rogs2~/playback/direction 0
@@ -4200,13 +4200,13 @@
 /rogs/Rogs2~/waveform/normalize 1.050000
 /rogs/Rogs2~/numChannels 2
 # 
-/rogs/mixer/in/rogs1/dry 0.684015
-/rogs/mixer/in/rogs1/reverb 0.509686
-/rogs/mixer/in/rogs2/dry 0.675039
+/rogs/mixer/in/rogs1/dry 0.642879
+/rogs/mixer/in/rogs1/reverb 0.258182
+/rogs/mixer/in/rogs2/dry 0.687489
 /rogs/mixer/in/rogs2/reverb 0.437621
-/rogs/mixer/out/plinth/dry 0.586978
+/rogs/mixer/out/plinth/dry 0.665082
 /rogs/mixer/out/plinth/reverb 0.322835
-/rogs/mixer/out/top/dry 0.527196
+/rogs/mixer/out/top/dry 0.523713
 /rogs/mixer/out/top/reverb 0.626711
 # 
 # 
@@ -4311,7 +4311,7 @@
 /rogs/Rogs1~/grain/trigger/variance/rateVar/randomnessRate 0.678949
 /rogs/Rogs1~/grain/trigger/variance/rateVar/spread 6.471518
 /rogs/Rogs1~/grain/trigger/variance/on 0
-/rogs/Rogs1~/grain/trigger/freq 4.000000
+/rogs/Rogs1~/grain/trigger/freq 5.000000
 /rogs/Rogs1~/grain/trigger/lock 0
 /rogs/Rogs1~/grain/trigger/mode 0
 /rogs/Rogs1~/grain/trigger/note 7
@@ -4480,7 +4480,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain 2.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 125051.703125
+/rogs/Rogs1~/file/ms 125051.700680
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/Desktop/Rogs/Pizzi-transients/pizzi-bouncy-ABAB.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -4497,8 +4497,8 @@
 /rogs/Rogs1~/mod/pitch -402.000000
 /rogs/Rogs1~/mod/pitchVar 0.000000
 /rogs/Rogs1~/mod/position 0.000000
-/rogs/Rogs1~/mod/size 70.000000
-/rogs/Rogs1~/mod/speed 2.200000
+/rogs/Rogs1~/mod/size 66.000000
+/rogs/Rogs1~/mod/speed 2.600000
 /rogs/Rogs1~/mod/spread 0.000000
 /rogs/Rogs1~/mod/trigger 60.000000
 /rogs/Rogs1~/mod/turn 0.000000
@@ -4509,7 +4509,7 @@
 /rogs/Rogs1~/pitch/variation 2.000000
 /rogs/Rogs1~/playback/direction 2
 /rogs/Rogs1~/playback/speed 0.038000
-/rogs/Rogs1~/playback/position 0.012918
+/rogs/Rogs1~/playback/position 0.068265
 /rogs/Rogs1~/selection/mode 0
 /rogs/Rogs1~/selection/range 1615.011353 119514.765625
 /rogs/Rogs1~/waveform/normalize 1.000000
@@ -4689,7 +4689,7 @@
 /rogs/Rogs2~/mapTurn/scalebypass 1
 /rogs/Rogs2~/audio/gain -8.000000
 /rogs/Rogs2~/audio/mute 0
-/rogs/Rogs2~/file/ms 46889.957031
+/rogs/Rogs2~/file/ms 46889.958333
 /rogs/Rogs2~/file/open HD:/Users/tangibleflux/Desktop/Rogs/Gamelan/bali-voice1.aif
 /rogs/Rogs2~/mapperGate/gain 2
 /rogs/Rogs2~/mapperGate/onsetVar 0
@@ -4701,15 +4701,15 @@
 /rogs/Rogs2~/mapperGate/spread 0
 /rogs/Rogs2~/mapperGate/trigger 2
 /rogs/Rogs2~/mapperGate/turn 0
-/rogs/Rogs2~/mod/gain 7.500000
+/rogs/Rogs2~/mod/gain 5.000000
 /rogs/Rogs2~/mod/onsetVar 0.000000
 /rogs/Rogs2~/mod/pitch 400.000000
 /rogs/Rogs2~/mod/pitchVar 0.000000
 /rogs/Rogs2~/mod/position 0.000000
-/rogs/Rogs2~/mod/size 40.000000
+/rogs/Rogs2~/mod/size 37.000000
 /rogs/Rogs2~/mod/speed 4.000000
 /rogs/Rogs2~/mod/spread 0.000000
-/rogs/Rogs2~/mod/trigger 92.000000
+/rogs/Rogs2~/mod/trigger 88.000000
 /rogs/Rogs2~/mod/turn 0.000000
 /rogs/Rogs2~/pan/mode 1
 /rogs/Rogs2~/pan/rate 2.600000
@@ -4725,11 +4725,11 @@
 /rogs/Rogs2~/numChannels 2
 # 
 /rogs/mixer/in/rogs1/dry 0.691450
-/rogs/mixer/in/rogs1/reverb 0.394052
+/rogs/mixer/in/rogs1/reverb 0.457249
 /rogs/mixer/in/rogs2/dry 0.553741
 /rogs/mixer/in/rogs2/reverb 0.405448
-/rogs/mixer/out/plinth/dry 0.449182
-/rogs/mixer/out/plinth/reverb 0.208661
+/rogs/mixer/out/plinth/dry 0.583222
+/rogs/mixer/out/plinth/reverb 0.377953
 /rogs/mixer/out/top/dry 0.559055
 /rogs/mixer/out/top/reverb 0.559055
 # 
@@ -4843,7 +4843,7 @@
 /rogs/Rogs1~/grain/trigger/lock 0
 /rogs/Rogs1~/grain/trigger/mode 0
 /rogs/Rogs1~/grain/trigger/note 7
-/rogs/Rogs1~/grain/duration 36.000000
+/rogs/Rogs1~/grain/duration 30.000000
 /rogs/Rogs1~/grain/onsetVar 700.000000
 /rogs/Rogs1~/grain/overlap 100
 # 
@@ -5008,7 +5008,7 @@
 /rogs/Rogs1~/mapTurn/scalebypass 1
 /rogs/Rogs1~/audio/gain 5.000000
 /rogs/Rogs1~/audio/mute 0
-/rogs/Rogs1~/file/ms 37216.979167
+/rogs/Rogs1~/file/ms 37216.980469
 /rogs/Rogs1~/file/open HD:/Users/tangibleflux/code/Rogs/Electricity/Electricity-tool-EQ.aif
 /rogs/Rogs1~/mapperGate/gain 2
 /rogs/Rogs1~/mapperGate/onsetVar 2
@@ -5022,19 +5022,19 @@
 /rogs/Rogs1~/mapperGate/turn 0
 /rogs/Rogs1~/mod/gain 3.000000
 /rogs/Rogs1~/mod/onsetVar -690.000000
-/rogs/Rogs1~/mod/pitch 160.000000
+/rogs/Rogs1~/mod/pitch 500.000000
 /rogs/Rogs1~/mod/pitchVar 0.000000
 /rogs/Rogs1~/mod/position 0.000000
-/rogs/Rogs1~/mod/size 92.000000
+/rogs/Rogs1~/mod/size 80.000000
 /rogs/Rogs1~/mod/speed 1.900000
 /rogs/Rogs1~/mod/spread 0.000000
-/rogs/Rogs1~/mod/trigger 51.000000
+/rogs/Rogs1~/mod/trigger 45.000000
 /rogs/Rogs1~/mod/turn 0.000000
 /rogs/Rogs1~/pan/mode 0
-/rogs/Rogs1~/pan/rate -5.000000
+/rogs/Rogs1~/pan/rate -6.000000
 /rogs/Rogs1~/pan/spread 0.700000
 /rogs/Rogs1~/pitch/transpose 0.000000
-/rogs/Rogs1~/pitch/variation 79.000000
+/rogs/Rogs1~/pitch/variation 20.000000
 /rogs/Rogs1~/playback/direction 2
 /rogs/Rogs1~/playback/speed 0.000000
 /rogs/Rogs1~/playback/position 0.068265
@@ -5052,7 +5052,7 @@
 /rogs/Rogs2~/grain/trigger/lock 0
 /rogs/Rogs2~/grain/trigger/mode 0
 /rogs/Rogs2~/grain/trigger/note 7
-/rogs/Rogs2~/grain/duration 32.000000
+/rogs/Rogs2~/grain/duration 20.000000
 /rogs/Rogs2~/grain/onsetVar 6.000000
 /rogs/Rogs2~/grain/overlap 100
 # 
@@ -5217,7 +5217,7 @@
 /rogs/Rogs2~/mapTurn/scalebypass 1
 /rogs/Rogs2~/audio/gain -7.000000
 /rogs/Rogs2~/audio/mute 0
-/rogs/Rogs2~/file/ms 107562.743764
+/rogs/Rogs2~/file/ms 107562.742188
 /rogs/Rogs2~/file/open HD:/Users/tangibleflux/code/Rogs/music/iranianReed.aiff
 /rogs/Rogs2~/mapperGate/gain 2
 /rogs/Rogs2~/mapperGate/onsetVar 2
@@ -5234,14 +5234,14 @@
 /rogs/Rogs2~/mod/pitch 0.000000
 /rogs/Rogs2~/mod/pitchVar 0.000000
 /rogs/Rogs2~/mod/position 0.000000
-/rogs/Rogs2~/mod/size 41.000000
+/rogs/Rogs2~/mod/size 45.000000
 /rogs/Rogs2~/mod/speed 10.000000
 /rogs/Rogs2~/mod/spread 0.000000
-/rogs/Rogs2~/mod/trigger 74.000000
+/rogs/Rogs2~/mod/trigger 70.000000
 /rogs/Rogs2~/mod/turn 0.000000
 /rogs/Rogs2~/pan/mode 1
-/rogs/Rogs2~/pan/rate 0.000000
-/rogs/Rogs2~/pan/spread 0.450000
+/rogs/Rogs2~/pan/rate 6.000000
+/rogs/Rogs2~/pan/spread 0.600000
 /rogs/Rogs2~/pitch/transpose 1800.000000
 /rogs/Rogs2~/pitch/variation 0.000000
 /rogs/Rogs2~/playback/direction 2
@@ -5252,12 +5252,12 @@
 /rogs/Rogs2~/waveform/normalize 1.050000
 /rogs/Rogs2~/numChannels 2
 # 
-/rogs/mixer/in/rogs1/dry 0.885407
-/rogs/mixer/in/rogs1/reverb 0.394052
+/rogs/mixer/in/rogs1/dry 0.635444
+/rogs/mixer/in/rogs1/reverb 0.650801
 /rogs/mixer/in/rogs2/dry 0.706320
 /rogs/mixer/in/rogs2/reverb 0.565624
 /rogs/mixer/out/plinth/dry 0.840854
-/rogs/mixer/out/plinth/reverb 0.346457
+/rogs/mixer/out/plinth/reverb 0.377953
 /rogs/mixer/out/top/dry 0.653907
 /rogs/mixer/out/top/reverb 0.642550
 # 
@@ -5344,11 +5344,11 @@
 /rogs/sounds1/ramp/up 0.000000
 /rogs/sounds1/slide/down 0.000000
 /rogs/sounds1/slide/up 0.000000
-/rogs/sounds1/snapshot/interval 25
+/rogs/sounds1/snapshot/interval 30
 /rogs/sounds1/snapshot/on 1
 /rogs/sounds1/cutoff 950
 /rogs/sounds1/mute 0
-/rogs/sounds1/offset 0.000000
+/rogs/sounds1/offset -0.000100
 /rogs/sounds1/preview 0
 # 
 # ###########################################
