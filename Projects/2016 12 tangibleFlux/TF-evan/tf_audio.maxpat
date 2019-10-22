@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 123.0, 93.0, 91.0, 174.0 ],
+		"rect" : [ 17.0, 45.0, 91.0, 174.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -690,1566 +690,1566 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-3::obj-3::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[25]", "live.text", 0 ],
-			"obj-3::obj-4::obj-3::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
-			"obj-4::obj-156::obj-1::obj-66::obj-10::obj-196" : [ "live.text[187]", "live.text", 0 ],
-			"obj-4::obj-154::obj-30" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-4::obj-6::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-4::obj-33::obj-6::obj-66::obj-10::obj-196" : [ "live.text[90]", "live.text", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[40]", "live.text", 0 ],
-			"obj-3::obj-40::obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-4::obj-156::obj-12" : [ "live.dial[28]", "index", 0 ],
-			"obj-4::obj-2::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-4::obj-421::obj-118" : [ "live.text[61]", "FILTER", 0 ],
-			"obj-4::obj-68" : [ "live.text[139]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[58]", "live.text", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[61]", "live.menu", 0 ],
-			"obj-4::obj-154::obj-12" : [ "live.dial[24]", "index", 0 ],
-			"obj-4::obj-6::obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-4::obj-33::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[33]", "live.menu", 0 ],
-			"obj-4::obj-11::obj-10" : [ "Pan[1]", "Pan", 0 ],
-			"obj-3::obj-3::obj-3::obj-68" : [ "DropFile[2]", "DropFile", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-45" : [ "live.text[8]", "live.text", 0 ],
-			"obj-3::obj-43::obj-1::obj-99" : [ "live.menu[4]", "live.menu[2]", 0 ],
-			"obj-4::obj-154::obj-1::obj-67::obj-10::obj-196" : [ "live.text[201]", "live.text", 0 ],
-			"obj-4::obj-6::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[42]", "live.menu", 0 ],
-			"obj-4::obj-34::obj-66" : [ "offset", "offset", 0 ],
-			"obj-4::obj-43::obj-25" : [ "live.dial[58]", "grain", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[23]", "live.menu", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-133::obj-182" : [ "live.text[18]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-1::obj-70::obj-182" : [ "live.text[180]", "live.text[4]", 0 ],
-			"obj-4::obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[48]", "live.menu", 0 ],
-			"obj-4::obj-33::obj-10" : [ "live.text[83]", "1", 2 ],
-			"obj-4::obj-90" : [ "live.text[144]", "live.text[2]", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-66::obj-182" : [ "live.text[36]", "live.text[4]", 0 ],
-			"obj-4::obj-154::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[53]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-1::obj-67::obj-182" : [ "live.text[153]", "live.text[4]", 0 ],
-			"obj-4::obj-34::obj-31" : [ "resonance", "reson", 0 ],
-			"obj-4::obj-43::obj-59" : [ "live.dial[52]", "centerX", 0 ],
-			"obj-4::obj-66" : [ "live.text[138]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-70::obj-182" : [ "live.text[51]", "live.text[4]", 0 ],
-			"obj-3::obj-40::obj-1::obj-107" : [ "live.dial[5]", "Preamp", 0 ],
-			"obj-4::obj-156::obj-1::obj-117::obj-10::obj-196" : [ "live.text[177]", "live.text", 0 ],
-			"obj-4::obj-2::obj-1::obj-68::obj-182" : [ "live.text[164]", "live.text[4]", 0 ],
-			"obj-4::obj-34::obj-6::obj-66::obj-10::obj-196" : [ "live.text[82]", "live.text", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[33]", "live.text", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-13" : [ "Release[1]", "Release", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-42" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-154::obj-1::obj-121::obj-182" : [ "live.text[169]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-1::obj-70::obj-10::obj-196" : [ "live.text[150]", "live.text", 0 ],
-			"obj-4::obj-44::obj-31" : [ "live.dial[67]", "speed", 0 ],
-			"obj-4::obj-363" : [ "live.numbox[8]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[48]", "live.text", 0 ],
-			"obj-4::obj-156::obj-51" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-4::obj-2::obj-1::obj-121::obj-10::obj-196" : [ "live.text[161]", "live.text", 0 ],
-			"obj-4::obj-34::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[30]", "live.menu", 0 ],
-			"obj-4::obj-113::obj-118" : [ "live.text[64]", "FILTER", 0 ],
-			"obj-4::obj-87" : [ "live.text[143]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
-			"obj-3::obj-4::obj-3::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
-			"obj-3::obj-43::obj-1::obj-98" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-3::obj-40::obj-1::obj-99" : [ "live.menu[2]", "live.menu[2]", 0 ],
-			"obj-4::obj-154::obj-1::obj-105::obj-10::obj-196" : [ "live.text[166]", "live.text", 0 ],
-			"obj-4::obj-2::obj-16" : [ "live.dial[18]", "noise", 0 ],
-			"obj-4::obj-6::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[37]", "live.menu", 0 ],
-			"obj-4::obj-44::obj-61" : [ "live.dial[64]", "extentY", 0 ],
-			"obj-4::obj-62" : [ "live.text[137]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[18]", "live.menu", 0 ],
-			"obj-3::obj-43::obj-1::obj-107" : [ "live.dial[7]", "Preamp", 0 ],
-			"obj-4::obj-156::obj-40" : [ "live.numbox[61]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[43]", "live.menu", 0 ],
-			"obj-4::obj-114::obj-88" : [ "Drive[1]", "Drive", 0 ],
-			"obj-3::obj-3::obj-3::obj-108::obj-103" : [ "Direction[12]", "Direction", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-117::obj-182" : [ "live.text[26]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-17" : [ "Master Gain[2]", "Master Gain", 0 ],
-			"obj-4::obj-154::obj-40" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-4::obj-6::obj-1::obj-105::obj-182" : [ "live.text[91]", "live.text[4]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-124::obj-182" : [ "live.text[41]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-90" : [ "live.text[14]", "live.text[1]", 0 ],
-			"obj-4::obj-156::obj-45" : [ "live.numbox[59]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-30" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-4::obj-114::obj-17" : [ "Gain[1]", "Gain", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[23]", "live.text", 0 ],
-			"obj-3::obj-40::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-4::obj-156::obj-1::obj-67::obj-10::obj-196" : [ "live.text[185]", "live.text", 0 ],
-			"obj-4::obj-154::obj-16" : [ "live.dial[23]", "noise", 0 ],
-			"obj-4::obj-33::obj-6::obj-67::obj-10::obj-196" : [ "live.text[88]", "live.text", 0 ],
-			"obj-3::obj-3::obj-3::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-45" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-154::obj-1::obj-66::obj-182" : [ "live.text[202]", "live.text[4]", 0 ],
-			"obj-4::obj-2::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-4::obj-336::obj-18" : [ "live.dial[10]", " ", 0 ],
-			"obj-1::obj-25" : [ "live.dial[4]", " ", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[56]", "live.text", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[60]", "live.menu", 0 ],
-			"obj-4::obj-2::obj-1::obj-66::obj-10::obj-196" : [ "live.text[198]", "live.text", 0 ],
-			"obj-4::obj-33::obj-9" : [ "live.text[84]", "1", 2 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[15]", "live.menu", 0 ],
-			"obj-4::obj-154::obj-1::obj-68::obj-10::obj-196" : [ "live.text[199]", "live.text", 0 ],
-			"obj-4::obj-6::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[41]", "live.menu", 0 ],
-			"obj-4::obj-336::obj-19" : [ "live.dial[11]", " ", 0 ],
-			"obj-4::obj-43::obj-58" : [ "live.dial[51]", "centerY", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[22]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-1::obj-121::obj-182" : [ "live.text[178]", "live.text[4]", 0 ],
-			"obj-4::obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[47]", "live.menu", 0 ],
-			"obj-4::obj-33::obj-66" : [ "offset[1]", "offset", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-67::obj-182" : [ "live.text[34]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-30" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-3::obj-40::obj-1::obj-98" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-3::obj-40::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
-			"obj-4::obj-154::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[52]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-1::obj-68::obj-182" : [ "live.text[151]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-9" : [ "live.dial[13]", "noise_filt", 0 ],
-			"obj-4::obj-43::obj-60" : [ "live.dial[53]", "extentZ", 0 ],
-			"obj-4::obj-404" : [ "live.numbox[41]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-121::obj-182" : [ "live.text[49]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-1::obj-105::obj-10::obj-196" : [ "live.text[175]", "live.text", 0 ],
-			"obj-4::obj-2::obj-1::obj-70::obj-182" : [ "live.text[162]", "live.text[4]", 0 ],
-			"obj-4::obj-34::obj-6::obj-67::obj-10::obj-196" : [ "live.text[80]", "live.text", 0 ],
-			"obj-4::obj-113::obj-88" : [ "Drive[2]", "Drive", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[31]", "live.text", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-12" : [ "Lookahead[1]", "Lookahead", 0 ],
-			"obj-4::obj-154::obj-1::obj-117::obj-182" : [ "live.text[167]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-1::obj-121::obj-10::obj-196" : [ "live.text[96]", "live.text", 0 ],
-			"obj-4::obj-44::obj-59" : [ "live.dial[62]", "centerX", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[46]", "live.text", 0 ],
-			"obj-4::obj-156::obj-31" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-4::obj-2::obj-1::obj-117::obj-10::obj-196" : [ "live.text[159]", "live.text", 0 ],
-			"obj-4::obj-34::obj-9" : [ "live.text[76]", "1", 2 ],
-			"obj-4::obj-114::obj-27" : [ "Compand[1]", "Comp", 0 ],
-			"obj-4::obj-121" : [ "live.text[74]", "live.text", 0 ],
-			"obj-3::obj-3::obj-3::obj-108::obj-32" : [ "live.text[59]", "live.text[3]", 0 ],
-			"obj-3::obj-4::obj-3::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
-			"obj-3::obj-43::obj-1::obj-110" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
-			"obj-3::obj-43::obj-1::obj-100" : [ "live.text[15]", "live.text[1]", 0 ],
-			"obj-3::obj-43::obj-1::obj-103" : [ "live.text[12]", "live.text", 0 ],
-			"obj-4::obj-154::obj-31" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-4::obj-6::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[36]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-12" : [ "live.dial[15]", "index", 0 ],
-			"obj-4::obj-44::obj-58" : [ "live.dial[61]", "centerY", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[17]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-48" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-4::obj-2::obj-43" : [ "live.numbox[56]", "live.numbox", 0 ],
-			"obj-4::obj-336::obj-20" : [ "live.dial[12]", " ", 0 ],
-			"obj-4::obj-114::obj-38" : [ "OutMax[1]", "Min", 0 ],
-			"obj-3::obj-3::obj-3::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-105::obj-182" : [ "live.text[24]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-1::obj-66::obj-182" : [ "live.text[186]", "live.text[4]", 0 ],
-			"obj-4::obj-154::obj-10" : [ "live.dial[25]", "morph", 0 ],
-			"obj-4::obj-33::obj-6::obj-66::obj-182" : [ "live.text[89]", "live.text[4]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-133::obj-182" : [ "live.text[39]", "live.text[4]", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-27" : [ "Threshold", "Threshold", 0 ],
-			"obj-3::obj-40::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
-			"obj-4::obj-154::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[56]", "live.menu", 0 ],
-			"obj-4::obj-2::obj-45" : [ "live.numbox[55]", "live.numbox", 0 ],
-			"obj-4::obj-421::obj-76" : [ "live.text[60]", "live.text", 0 ],
-			"obj-4::obj-406" : [ "live.numbox[43]", "live.numbox[8]", 4 ],
-			"obj-4::obj-123" : [ "live.text[149]", "live.text[2]", 0 ],
-			"obj-1::obj-21" : [ "live.dial", " ", 0 ],
-			"obj-1::obj-26" : [ "live.dial[3]", " ", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-66::obj-182" : [ "live.text[57]", "live.text[4]", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[21]", "live.text", 0 ],
-			"obj-4::obj-156::obj-1::obj-68::obj-10::obj-196" : [ "live.text[183]", "live.text", 0 ],
-			"obj-4::obj-154::obj-51" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-4::obj-33::obj-6::obj-68::obj-10::obj-196" : [ "live.text[86]", "live.text", 0 ],
-			"obj-4::obj-217::obj-21" : [ "live.menu[27]", "Shape", 0 ],
-			"obj-3::obj-3::obj-3::obj-51" : [ "Soundfile[2]", "Soundfile", 0 ],
-			"obj-3::obj-4::obj-3::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-3::obj-43::obj-1::obj-97" : [ "live.numbox[5]", "CPU", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
-			"obj-4::obj-154::obj-1::obj-67::obj-182" : [ "live.text[200]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-1::obj-66::obj-10::obj-196" : [ "live.text[155]", "live.text", 0 ],
-			"obj-4::obj-6::obj-10" : [ "live.dial[16]", "morph", 0 ],
-			"obj-4::obj-34::obj-1" : [ "vcaness", "vcaness", 0 ],
-			"obj-4::obj-43::obj-61" : [ "live.dial[54]", "extentY", 0 ],
-			"obj-4::obj-405" : [ "live.numbox[42]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[54]", "live.text", 0 ],
-			"obj-3::obj-4::obj-3::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-4::obj-156::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[59]", "live.menu", 0 ],
-			"obj-4::obj-2::obj-1::obj-67::obj-10::obj-196" : [ "live.text[196]", "live.text", 0 ],
-			"obj-4::obj-33::obj-1" : [ "vcaness[1]", "vcaness", 0 ],
-			"obj-4::obj-336::obj-17" : [ "live.dial[21]", " ", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[14]", "live.menu", 0 ],
-			"obj-3::obj-43::obj-1::obj-102" : [ "live.text[13]", "live.text", 0 ],
-			"obj-3::obj-43::obj-1::obj-111" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
-			"obj-3::obj-40::obj-1::obj-104" : [ "live.dial[1]", "Depth", 0 ],
-			"obj-4::obj-154::obj-1::obj-70::obj-10::obj-196" : [ "live.text[172]", "live.text", 0 ],
-			"obj-4::obj-2::obj-9" : [ "live.dial[17]", "noise_filt", 0 ],
-			"obj-4::obj-6::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[40]", "live.menu", 0 ],
-			"obj-4::obj-43::obj-62" : [ "live.dial[55]", "extentX", 0 ],
-			"obj-4::obj-4" : [ "live.text[135]", "live.text[135]", 0 ],
-			"obj-4::obj-48" : [ "live.text[65]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[21]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-1::obj-117::obj-182" : [ "live.text[176]", "live.text[4]", 0 ],
-			"obj-4::obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[46]", "live.menu", 0 ],
-			"obj-4::obj-34::obj-6::obj-66::obj-182" : [ "live.text[81]", "live.text[4]", 0 ],
-			"obj-4::obj-113::obj-17" : [ "Gain[2]", "Gain", 0 ],
-			"obj-3::obj-4::obj-3::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-68::obj-182" : [ "live.text[32]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-5" : [ "Preamp[1]", "Preamp", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-6" : [ "live.text", "live.text", 0 ],
-			"obj-3::obj-40::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-4::obj-154::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[51]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-1::obj-70::obj-182" : [ "live.text[147]", "live.text[4]", 0 ],
-			"obj-4::obj-44::obj-57" : [ "live.dial[60]", "centerZ", 0 ],
-			"obj-4::obj-425" : [ "live.text[193]", "live.text[192]", 0 ],
-			"obj-4::obj-95" : [ "live.text[146]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-117::obj-182" : [ "live.text[47]", "live.text[4]", 0 ],
-			"obj-3::obj-4::obj-3::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-3::obj-40::obj-1::obj-106" : [ "live.dial[6]", "Release", 0 ],
-			"obj-4::obj-2::obj-1::obj-121::obj-182" : [ "live.text[160]", "live.text[4]", 0 ],
-			"obj-4::obj-34::obj-6::obj-68::obj-10::obj-196" : [ "live.text[78]", "live.text", 0 ],
-			"obj-4::obj-113::obj-9" : [ "Invert[2]", "Invert", 0 ],
-			"obj-4::obj-411" : [ "live.numbox[48]", "live.numbox[8]", 4 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[29]", "live.text", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-5" : [ "Preamp", "Preamp", 0 ],
-			"obj-4::obj-154::obj-1::obj-105::obj-182" : [ "live.text[165]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-1::obj-117::obj-10::obj-196" : [ "live.text[94]", "live.text", 0 ],
-			"obj-4::obj-122::obj-9" : [ "Invert", "Invert", 0 ],
-			"obj-4::obj-44::obj-37" : [ "live.dial[66]", "radius", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[44]", "live.text", 0 ],
-			"obj-4::obj-156::obj-30" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-4::obj-2::obj-1::obj-105::obj-10::obj-196" : [ "live.text[157]", "live.text", 0 ],
-			"obj-4::obj-114::obj-72" : [ "Smooth[1]", "Smooth", 0 ],
-			"obj-4::obj-410" : [ "live.numbox[47]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-108::obj-87" : [ "Direction[11]", "Direction", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[63]", "live.menu", 0 ],
-			"obj-4::obj-154::obj-36" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-12" : [ "live.dial[19]", "index", 0 ],
-			"obj-4::obj-33::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[35]", "live.menu", 0 ],
-			"obj-4::obj-122::obj-72" : [ "Smooth", "Smooth", 0 ],
-			"obj-4::obj-92" : [ "live.text[145]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[16]", "live.menu", 0 ],
-			"obj-3::obj-43::obj-1::obj-104" : [ "live.dial[9]", "Depth", 0 ],
-			"obj-4::obj-156::obj-36" : [ "live.numbox[62]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-10" : [ "live.dial[20]", "morph", 0 ],
-			"obj-4::obj-122::obj-118" : [ "live.text[62]", "FILTER", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-123::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-1::obj-67::obj-182" : [ "live.text[184]", "live.text[4]", 0 ],
-			"obj-4::obj-154::obj-45" : [ "live.numbox[15]", "live.numbox", 0 ],
-			"obj-4::obj-6::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-4::obj-33::obj-6::obj-67::obj-182" : [ "live.text[87]", "live.text[4]", 0 ],
-			"obj-4::obj-11::obj-21" : [ "live.menu[29]", "Shape", 0 ],
-			"obj-4::obj-122::obj-17" : [ "Gain", "Gain", 0 ],
-			"obj-3::obj-3::obj-3::obj-69" : [ "SelectFile[2]", "SelectFile", 0 ],
-			"obj-4::obj-154::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[55]", "live.menu", 0 ],
-			"obj-4::obj-2::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-4::obj-6::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-4::obj-43::obj-37" : [ "live.dial[56]", "radius", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-67::obj-182" : [ "live.text[55]", "live.text[4]", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[19]", "live.text", 0 ],
-			"obj-4::obj-156::obj-1::obj-70::obj-10::obj-196" : [ "live.text[181]", "live.text", 0 ],
-			"obj-4::obj-2::obj-1::obj-66::obj-182" : [ "live.text[197]", "live.text[4]", 0 ],
-			"obj-4::obj-414" : [ "live.numbox[50]", "live.numbox[8]", 4 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[37]", "live.text", 0 ],
-			"obj-4::obj-154::obj-1::obj-68::obj-182" : [ "live.text[173]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-1::obj-67::obj-10::obj-196" : [ "live.text[148]", "live.text", 0 ],
-			"obj-4::obj-6::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-4::obj-43::obj-56" : [ "live.dial[38]", "scale", 0 ],
-			"obj-4::obj-418" : [ "live.numbox[54]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[52]", "live.text", 0 ],
-			"obj-4::obj-156::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[58]", "live.menu", 0 ],
-			"obj-4::obj-2::obj-1::obj-68::obj-10::obj-196" : [ "live.text[194]", "live.text", 0 ],
-			"obj-4::obj-6::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-4::obj-34::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[32]", "live.menu", 0 ],
-			"obj-4::obj-217::obj-10" : [ "Pan", "Pan", 0 ],
-			"obj-4::obj-113::obj-25" : [ "OutMin[2]", "Max", 0 ],
-			"obj-4::obj-413" : [ "live.numbox[49]", "live.numbox[8]", 4 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[13]", "live.menu", 0 ],
-			"obj-4::obj-154::obj-1::obj-121::obj-10::obj-196" : [ "live.text[170]", "live.text", 0 ],
-			"obj-4::obj-6::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[39]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-4::obj-44::obj-62" : [ "live.dial[65]", "extentX", 0 ],
 			"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[20]", "live.menu", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-42" : [ "live.text[9]", "live.text", 0 ],
-			"obj-3::obj-40::obj-1::obj-100" : [ "live.text[7]", "live.text[1]", 0 ],
-			"obj-4::obj-156::obj-1::obj-105::obj-182" : [ "live.text[174]", "live.text[4]", 0 ],
-			"obj-4::obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[45]", "live.menu", 0 ],
-			"obj-4::obj-34::obj-6::obj-67::obj-182" : [ "live.text[79]", "live.text[4]", 0 ],
-			"obj-4::obj-113::obj-72" : [ "Smooth[2]", "Smooth", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-70::obj-182" : [ "live.text[30]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-27" : [ "Threshold[1]", "Threshold", 0 ],
-			"obj-4::obj-154::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[50]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-1::obj-121::obj-182" : [ "live.text[95]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-4::obj-44::obj-56" : [ "live.dial[59]", "scale", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-105::obj-182" : [ "live.text[45]", "live.text[4]", 0 ],
-			"obj-3::obj-40::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
-			"obj-4::obj-156::obj-43" : [ "live.numbox[60]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-1::obj-117::obj-182" : [ "live.text[158]", "live.text[4]", 0 ],
-			"obj-4::obj-34::obj-10" : [ "live.text[75]", "1", 2 ],
-			"obj-4::obj-114::obj-118" : [ "live.text[63]", "FILTER", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[27]", "live.text", 0 ],
-			"obj-3::obj-43::obj-1::obj-82" : [ "pan[1]", "Pan", 0 ],
-			"obj-4::obj-154::obj-43" : [ "live.numbox[16]", "live.numbox", 0 ],
-			"obj-4::obj-6::obj-1::obj-105::obj-10::obj-196" : [ "live.text[92]", "live.text", 0 ],
-			"obj-4::obj-44::obj-60" : [ "live.dial[63]", "extentZ", 0 ],
-			"obj-4::obj-416" : [ "live.numbox[52]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[42]", "live.text", 0 ],
-			"obj-3::obj-40::obj-1::obj-108" : [ "live.text[6]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-16" : [ "live.dial[27]", "noise", 0 ],
-			"obj-4::obj-2::obj-40" : [ "live.numbox[57]", "live.numbox", 0 ],
-			"obj-4::obj-114::obj-25" : [ "OutMin[1]", "Max", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[25]", "live.menu", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[62]", "live.menu", 0 ],
-			"obj-4::obj-154::obj-48" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-4::obj-33::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[34]", "live.menu", 0 ],
-			"obj-4::obj-11::obj-22" : [ "live.menu[28]", "Shape", 0 ],
-			"obj-4::obj-415" : [ "live.numbox[51]", "live.numbox[8]", 4 ],
-			"obj-3::obj-3::obj-3::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-3::obj-4::obj-3::obj-89" : [ "lock[1]", "Lock", 0 ],
-			"obj-4::obj-154::obj-1::obj-66::obj-10::obj-196" : [ "live.text[203]", "live.text", 0 ],
-			"obj-4::obj-2::obj-36" : [ "live.numbox[58]", "live.numbox", 0 ],
-			"obj-4::obj-43::obj-57" : [ "live.dial[50]", "centerZ", 0 ],
-			"obj-4::obj-59" : [ "live.text[136]", "live.text[2]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[24]", "live.menu", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-124::obj-182" : [ "live.text[20]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-108" : [ "live.text[11]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-1::obj-68::obj-182" : [ "live.text[182]", "live.text[4]", 0 ],
-			"obj-4::obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[49]", "live.menu", 0 ],
-			"obj-4::obj-33::obj-6::obj-68::obj-182" : [ "live.text[85]", "live.text[4]", 0 ],
-			"obj-4::obj-217::obj-22" : [ "live.menu[26]", "Shape", 0 ],
-			"obj-1::obj-27" : [ "live.dial[2]", " ", 0 ],
-			"obj-3::obj-4::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
-			"obj-3::obj-4::obj-3::obj-108::obj-32" : [ "live.text[38]", "live.text[3]", 0 ],
-			"obj-3::obj-40::obj-1::obj-103" : [ "live.text[5]", "live.text", 0 ],
-			"obj-4::obj-154::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[54]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-1::obj-66::obj-182" : [ "live.text[154]", "live.text[4]", 0 ],
-			"obj-4::obj-43::obj-31" : [ "live.dial[57]", "speed", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-68::obj-182" : [ "live.text[53]", "live.text[4]", 0 ],
-			"obj-4::obj-156::obj-1::obj-121::obj-10::obj-196" : [ "live.text[179]", "live.text", 0 ],
-			"obj-4::obj-2::obj-1::obj-67::obj-182" : [ "live.text[195]", "live.text[4]", 0 ],
-			"obj-4::obj-33::obj-31" : [ "resonance[1]", "reson", 0 ],
-			"obj-4::obj-122::obj-25" : [ "OutMin", "Max", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[35]", "live.text", 0 ],
-			"obj-3::obj-27::obj-1::obj-76" : [ "live.text[16]", "live.text", 0 ],
-			"obj-3::obj-27::obj-1::obj-118" : [ "live.text[17]", "FILTER", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-13" : [ "Release", "Release", 0 ],
-			"obj-4::obj-154::obj-1::obj-70::obj-182" : [ "live.text[171]", "live.text[4]", 0 ],
-			"obj-4::obj-6::obj-1::obj-68::obj-10::obj-196" : [ "live.text[152]", "live.text", 0 ],
-			"obj-4::obj-43::obj-18" : [ "live.text[206]", "live.text", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[50]", "live.text", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-6" : [ "live.text[10]", "live.text", 0 ],
-			"obj-4::obj-156::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[57]", "live.menu", 0 ],
-			"obj-4::obj-2::obj-1::obj-70::obj-10::obj-196" : [ "live.text[163]", "live.text", 0 ],
-			"obj-4::obj-34::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[31]", "live.menu", 0 ],
-			"obj-4::obj-113::obj-27" : [ "Compand[2]", "Comp", 0 ],
-			"obj-4::obj-122::obj-38" : [ "OutMax", "Min", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
-			"obj-3::obj-43::obj-1::obj-12::obj-15" : [ "Postamp[1]", "Postamp", 0 ],
-			"obj-3::obj-40::obj-1::obj-12::obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-3::obj-40::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-4::obj-154::obj-1::obj-117::obj-10::obj-196" : [ "live.text[168]", "live.text", 0 ],
-			"obj-4::obj-6::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[38]", "live.menu", 0 ],
-			"obj-4::obj-6::obj-16" : [ "live.dial[14]", "noise", 0 ],
-			"obj-4::obj-44::obj-18" : [ "live.text[97]", "live.text", 0 ],
-			"obj-4::obj-417" : [ "live.numbox[53]", "live.numbox[8]", 4 ],
-			"obj-4::obj-424" : [ "live.text[192]", "live.text[192]", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[19]", "live.menu", 0 ],
-			"obj-4::obj-156::obj-9" : [ "live.dial[26]", "noise_filt", 0 ],
-			"obj-4::obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[44]", "live.menu", 0 ],
+			"obj-4::obj-6::obj-12" : [ "live.dial[15]", "index", 0 ],
 			"obj-4::obj-34::obj-6::obj-68::obj-182" : [ "live.text[77]", "live.text[4]", 0 ],
+			"obj-4::obj-44::obj-60" : [ "live.dial[63]", "extentZ", 0 ],
+			"obj-3::obj-3::obj-3::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-66::obj-182" : [ "live.text[36]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[19]", "live.text", 0 ],
+			"obj-4::obj-156::obj-12" : [ "live.dial[28]", "index", 0 ],
+			"obj-4::obj-2::obj-1::obj-67::obj-182" : [ "live.text[195]", "live.text[4]", 0 ],
+			"obj-4::obj-6::obj-1::obj-105::obj-182" : [ "live.text[91]", "live.text[4]", 0 ],
 			"obj-4::obj-113::obj-38" : [ "OutMax[2]", "Min", 0 ],
-			"obj-4::obj-122::obj-88" : [ "Drive", "Drive", 0 ],
-			"obj-4::obj-77" : [ "live.text[140]", "live.text[2]", 0 ],
-			"obj-3::obj-4::obj-3::obj-7::obj-121::obj-182" : [ "live.text[28]", "live.text[4]", 0 ],
-			"obj-3::obj-43::obj-1::obj-106" : [ "live.dial[8]", "Release", 0 ],
-			"obj-4::obj-154::obj-9" : [ "live.dial[22]", "noise_filt", 0 ],
-			"obj-4::obj-6::obj-1::obj-117::obj-182" : [ "live.text[93]", "live.text[4]", 0 ],
+			"obj-4::obj-404" : [ "live.numbox[41]", "live.numbox[8]", 4 ],
+			"obj-4::obj-123" : [ "live.text[149]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-105::obj-182" : [ "live.text[45]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-4::obj-156::obj-1::obj-66::obj-182" : [ "live.text[186]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-1::obj-117::obj-182" : [ "live.text[167]", "live.text[4]", 0 ],
+			"obj-3::obj-40::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
+			"obj-4::obj-156::obj-40" : [ "live.numbox[61]", "live.numbox", 0 ],
+			"obj-4::obj-33::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[34]", "live.menu", 0 ],
+			"obj-4::obj-114::obj-17" : [ "Gain[1]", "Gain", 0 ],
+			"obj-1::obj-26" : [ "live.dial[3]", " ", 0 ],
+			"obj-4::obj-156::obj-1::obj-68::obj-10::obj-196" : [ "live.text[183]", "live.text", 0 ],
+			"obj-4::obj-11::obj-10" : [ "Pan[1]", "Pan", 0 ],
 			"obj-4::obj-44::obj-25" : [ "live.dial[68]", "grain", 0 ],
-			"obj-3::obj-3::obj-3::obj-7::obj-123::obj-182" : [ "live.text[43]", "live.text[4]", 0 ],
-			"obj-3::obj-4::obj-3::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
-			"obj-4::obj-156::obj-10" : [ "live.dial[29]", "morph", 0 ],
-			"obj-4::obj-2::obj-1::obj-105::obj-182" : [ "live.text[156]", "live.text[4]", 0 ],
-			"obj-4::obj-114::obj-9" : [ "Invert[1]", "Invert", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[58]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[31]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
+			"obj-3::obj-43::obj-1::obj-103" : [ "live.text[12]", "live.text", 0 ],
+			"obj-4::obj-156::obj-48" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-4::obj-2::obj-1::obj-121::obj-182" : [ "live.text[160]", "live.text[4]", 0 ],
+			"obj-4::obj-6::obj-10" : [ "live.dial[16]", "morph", 0 ],
+			"obj-4::obj-33::obj-6::obj-68::obj-182" : [ "live.text[85]", "live.text[4]", 0 ],
+			"obj-4::obj-122::obj-118" : [ "live.text[62]", "FILTER", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-196" : [ "live.text[40]", "live.text", 0 ],
+			"obj-4::obj-156::obj-1::obj-70::obj-10::obj-196" : [ "live.text[181]", "live.text", 0 ],
+			"obj-4::obj-154::obj-30" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[40]", "live.menu", 0 ],
+			"obj-4::obj-217::obj-22" : [ "live.menu[26]", "Shape", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-45" : [ "live.text[8]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-5" : [ "Preamp[1]", "Preamp", 0 ],
+			"obj-4::obj-154::obj-1::obj-67::obj-10::obj-196" : [ "live.text[201]", "live.text", 0 ],
+			"obj-4::obj-2::obj-9" : [ "live.dial[17]", "noise_filt", 0 ],
+			"obj-3::obj-4::obj-3::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-4::obj-156::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[58]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-16" : [ "live.dial[23]", "noise", 0 ],
+			"obj-4::obj-6::obj-1::obj-70::obj-10::obj-196" : [ "live.text[150]", "live.text", 0 ],
+			"obj-4::obj-92" : [ "live.text[145]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-196" : [ "live.text[52]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[9]", "live.menu", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-27" : [ "Threshold[1]", "Threshold", 0 ],
+			"obj-4::obj-154::obj-1::obj-68::obj-10::obj-196" : [ "live.text[199]", "live.text", 0 ],
+			"obj-4::obj-2::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-4::obj-34::obj-6::obj-66::obj-10::obj-196" : [ "live.text[82]", "live.text", 0 ],
+			"obj-4::obj-43::obj-56" : [ "live.dial[38]", "scale", 0 ],
+			"obj-3::obj-3::obj-3::obj-69" : [ "SelectFile[2]", "SelectFile", 0 ],
+			"obj-3::obj-40::obj-1::obj-82" : [ "pan", "Pan", 0 ],
+			"obj-4::obj-156::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[57]", "live.menu", 0 ],
+			"obj-4::obj-6::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[37]", "live.menu", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[50]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-82" : [ "pan[1]", "Pan", 0 ],
+			"obj-4::obj-154::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[52]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-10" : [ "live.dial[20]", "morph", 0 ],
+			"obj-4::obj-34::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[30]", "live.menu", 0 ],
 			"obj-4::obj-122::obj-27" : [ "Compand", "Comp", 0 ],
+			"obj-4::obj-43::obj-37" : [ "live.dial[56]", "radius", 0 ],
+			"obj-3::obj-4::obj-3::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[15]", "live.menu", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-124::obj-182" : [ "live.text[20]", "live.text[4]", 0 ],
+			"obj-3::obj-40::obj-1::obj-106" : [ "live.dial[6]", "Release", 0 ],
+			"obj-3::obj-40::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
+			"obj-4::obj-156::obj-45" : [ "live.numbox[59]", "live.numbox", 0 ],
+			"obj-4::obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[48]", "live.menu", 0 ],
+			"obj-4::obj-6::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[36]", "live.menu", 0 ],
+			"obj-4::obj-113::obj-72" : [ "Smooth[2]", "Smooth", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[19]", "live.menu", 0 ],
+			"obj-4::obj-156::obj-1::obj-66::obj-10::obj-196" : [ "live.text[187]", "live.text", 0 ],
+			"obj-4::obj-154::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[51]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-12" : [ "live.dial[19]", "index", 0 ],
+			"obj-4::obj-6::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[42]", "live.menu", 0 ],
+			"obj-4::obj-44::obj-18" : [ "live.text[97]", "live.text", 0 ],
+			"obj-3::obj-3::obj-3::obj-108::obj-32" : [ "live.text[59]", "live.text[3]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-67::obj-182" : [ "live.text[34]", "live.text[4]", 0 ],
+			"obj-3::obj-40::obj-1::obj-99" : [ "live.menu[2]", "live.menu[2]", 0 ],
+			"obj-4::obj-156::obj-31" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-4::obj-2::obj-1::obj-68::obj-182" : [ "live.text[164]", "live.text[4]", 0 ],
+			"obj-4::obj-114::obj-38" : [ "OutMax[1]", "Min", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-123::obj-182" : [ "live.text[43]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
+			"obj-3::obj-40::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-4::obj-156::obj-1::obj-67::obj-182" : [ "live.text[184]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-1::obj-105::obj-182" : [ "live.text[165]", "live.text[4]", 0 ],
+			"obj-4::obj-44::obj-58" : [ "live.dial[61]", "centerY", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-68::obj-182" : [ "live.text[32]", "live.text[4]", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-13" : [ "Release", "Release", 0 ],
+			"obj-4::obj-156::obj-30" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-4::obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[45]", "live.menu", 0 ],
+			"obj-4::obj-33::obj-6::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[33]", "live.menu", 0 ],
+			"obj-4::obj-114::obj-118" : [ "live.text[63]", "FILTER", 0 ],
+			"obj-4::obj-418" : [ "live.numbox[54]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-124::obj-182" : [ "live.text[41]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-10" : [ "live.dial[25]", "morph", 0 ],
+			"obj-4::obj-6::obj-1::obj-67::obj-10::obj-196" : [ "live.text[148]", "live.text", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[56]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-196" : [ "live.text[29]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-30" : [ "live.menu[3]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-1::obj-66::obj-182" : [ "live.text[202]", "live.text[4]", 0 ],
+			"obj-4::obj-2::obj-1::obj-117::obj-182" : [ "live.text[158]", "live.text[4]", 0 ],
+			"obj-4::obj-6::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-4::obj-33::obj-9" : [ "live.text[84]", "1", 2 ],
+			"obj-4::obj-122::obj-38" : [ "OutMax", "Min", 0 ],
+			"obj-4::obj-43::obj-57" : [ "live.dial[50]", "centerZ", 0 ],
+			"obj-1::obj-25" : [ "live.dial[4]", " ", 0 ],
+			"obj-3::obj-3::obj-3::obj-51" : [ "Soundfile[2]", "Soundfile", 0 ],
+			"obj-3::obj-27::obj-1::obj-76" : [ "live.text[16]", "live.text", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-3::obj-40::obj-1::obj-104" : [ "live.dial[1]", "Depth", 0 ],
+			"obj-4::obj-156::obj-1::obj-121::obj-10::obj-196" : [ "live.text[179]", "live.text", 0 ],
+			"obj-4::obj-154::obj-36" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-4::obj-6::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[39]", "live.menu", 0 ],
+			"obj-4::obj-121" : [ "live.text[74]", "live.text", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-68::obj-182" : [ "live.text[53]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[27]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-12" : [ "Lookahead[1]", "Lookahead", 0 ],
+			"obj-3::obj-40::obj-1::obj-100" : [ "live.text[7]", "live.text[1]", 0 ],
+			"obj-3::obj-40::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
+			"obj-4::obj-154::obj-1::obj-67::obj-182" : [ "live.text[200]", "live.text[4]", 0 ],
+			"obj-4::obj-2::obj-45" : [ "live.numbox[55]", "live.numbox", 0 ],
+			"obj-4::obj-33::obj-66" : [ "offset[1]", "offset", 0 ],
+			"obj-4::obj-122::obj-88" : [ "Drive", "Drive", 0 ],
+			"obj-4::obj-43::obj-61" : [ "live.dial[54]", "extentY", 0 ],
+			"obj-3::obj-3::obj-3::obj-89" : [ "lock[2]", "Lock", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-3::obj-43::obj-1::obj-99" : [ "live.menu[4]", "live.menu[2]", 0 ],
+			"obj-4::obj-6::obj-1::obj-121::obj-10::obj-196" : [ "live.text[96]", "live.text", 0 ],
+			"obj-4::obj-217::obj-10" : [ "Pan", "Pan", 0 ],
+			"obj-4::obj-122::obj-72" : [ "Smooth", "Smooth", 0 ],
+			"obj-4::obj-424" : [ "live.text[192]", "live.text[192]", 0 ],
+			"obj-3::obj-43::obj-1::obj-106" : [ "live.dial[8]", "Release", 0 ],
+			"obj-4::obj-154::obj-1::obj-70::obj-10::obj-196" : [ "live.text[172]", "live.text", 0 ],
+			"obj-4::obj-2::obj-40" : [ "live.numbox[57]", "live.numbox", 0 ],
+			"obj-4::obj-34::obj-6::obj-67::obj-10::obj-196" : [ "live.text[80]", "live.text", 0 ],
+			"obj-4::obj-43::obj-62" : [ "live.dial[55]", "extentX", 0 ],
+			"obj-4::obj-59" : [ "live.text[136]", "live.text[2]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
+			"obj-3::obj-43::obj-1::obj-108" : [ "live.text[11]", "live.text[4]", 0 ],
+			"obj-4::obj-156::obj-16" : [ "live.dial[27]", "noise", 0 ],
+			"obj-4::obj-113::obj-118" : [ "live.text[64]", "FILTER", 0 ],
+			"obj-4::obj-122::obj-17" : [ "Gain", "Gain", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-196" : [ "live.text[48]", "live.text", 0 ],
+			"obj-3::obj-40::obj-1::obj-108" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-1::obj-121::obj-10::obj-196" : [ "live.text[170]", "live.text", 0 ],
+			"obj-4::obj-34::obj-9" : [ "live.text[76]", "1", 2 ],
+			"obj-4::obj-336::obj-18" : [ "live.dial[10]", " ", 0 ],
+			"obj-4::obj-44::obj-31" : [ "live.dial[67]", "speed", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[14]", "live.menu", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-133::obj-182" : [ "live.text[18]", "live.text[4]", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-4::obj-156::obj-9" : [ "live.dial[26]", "noise_filt", 0 ],
+			"obj-4::obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[47]", "live.menu", 0 ],
+			"obj-4::obj-33::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[35]", "live.menu", 0 ],
+			"obj-4::obj-114::obj-72" : [ "Smooth[1]", "Smooth", 0 ],
+			"obj-4::obj-95" : [ "live.text[146]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : [ "live.menu[18]", "live.menu", 0 ],
+			"obj-4::obj-156::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[62]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[50]", "live.menu", 0 ],
+			"obj-1::obj-21" : [ "live.dial", " ", 0 ],
+			"obj-3::obj-3::obj-3::obj-108::obj-87" : [ "Direction[11]", "Direction", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-6" : [ "live.text[10]", "live.text", 0 ],
+			"obj-4::obj-2::obj-1::obj-70::obj-10::obj-196" : [ "live.text[163]", "live.text", 0 ],
+			"obj-4::obj-33::obj-6::obj-67::obj-10::obj-196" : [ "live.text[88]", "live.text", 0 ],
+			"obj-4::obj-114::obj-27" : [ "Compand[1]", "Comp", 0 ],
+			"obj-4::obj-122::obj-25" : [ "OutMin", "Max", 0 ],
+			"obj-3::obj-40::obj-1::obj-103" : [ "live.text[5]", "live.text", 0 ],
+			"obj-4::obj-156::obj-1::obj-68::obj-182" : [ "live.text[182]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-43" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-4::obj-6::obj-1::obj-66::obj-182" : [ "live.text[154]", "live.text[4]", 0 ],
+			"obj-4::obj-44::obj-57" : [ "live.dial[60]", "centerZ", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-66::obj-182" : [ "live.text[57]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-70::obj-182" : [ "live.text[30]", "live.text[4]", 0 ],
+			"obj-3::obj-27::obj-1::obj-118" : [ "live.text[17]", "FILTER", 0 ],
+			"obj-4::obj-154::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[56]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[44]", "live.menu", 0 ],
+			"obj-4::obj-33::obj-1" : [ "vcaness[1]", "vcaness", 0 ],
+			"obj-4::obj-34::obj-66" : [ "offset", "offset", 0 ],
+			"obj-4::obj-421::obj-118" : [ "live.text[61]", "FILTER", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-133::obj-182" : [ "live.text[39]", "live.text[4]", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-42" : [ "live.text[9]", "live.text", 0 ],
+			"obj-4::obj-156::obj-1::obj-70::obj-182" : [ "live.text[180]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-31" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-1::obj-68::obj-10::obj-196" : [ "live.text[152]", "live.text", 0 ],
+			"obj-4::obj-217::obj-21" : [ "live.menu[27]", "Shape", 0 ],
+			"obj-4::obj-122::obj-9" : [ "Invert", "Invert", 0 ],
+			"obj-4::obj-48" : [ "live.text[65]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[23]", "live.menu", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-15" : [ "Postamp[1]", "Postamp", 0 ],
+			"obj-4::obj-2::obj-1::obj-105::obj-10::obj-196" : [ "live.text[157]", "live.text", 0 ],
+			"obj-3::obj-40::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-4::obj-156::obj-1::obj-117::obj-10::obj-196" : [ "live.text[177]", "live.text", 0 ],
+			"obj-4::obj-154::obj-9" : [ "live.dial[22]", "noise_filt", 0 ],
+			"obj-4::obj-6::obj-1::obj-70::obj-182" : [ "live.text[147]", "live.text[4]", 0 ],
+			"obj-4::obj-336::obj-17" : [ "live.dial[21]", " ", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-70::obj-182" : [ "live.text[51]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[25]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-98" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-3::obj-40::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-4::obj-154::obj-1::obj-68::obj-182" : [ "live.text[173]", "live.text[4]", 0 ],
+			"obj-4::obj-2::obj-31" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-16" : [ "live.dial[14]", "noise", 0 ],
+			"obj-4::obj-34::obj-6::obj-66::obj-182" : [ "live.text[81]", "live.text[4]", 0 ],
+			"obj-4::obj-43::obj-18" : [ "live.text[206]", "live.text", 0 ],
+			"obj-4::obj-77" : [ "live.text[140]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-68" : [ "DropFile[2]", "DropFile", 0 ],
+			"obj-3::obj-40::obj-1::obj-107" : [ "live.dial[5]", "Preamp", 0 ],
+			"obj-4::obj-156::obj-1::obj-105::obj-10::obj-196" : [ "live.text[175]", "live.text", 0 ],
+			"obj-4::obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[49]", "live.menu", 0 ],
+			"obj-4::obj-6::obj-1::obj-117::obj-10::obj-196" : [ "live.text[94]", "live.text", 0 ],
+			"obj-4::obj-113::obj-17" : [ "Gain[2]", "Gain", 0 ],
+			"obj-4::obj-62" : [ "live.text[137]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-121::obj-182" : [ "live.text[49]", "live.text[4]", 0 ],
+			"obj-3::obj-43::obj-1::obj-17" : [ "Master Gain[2]", "Master Gain", 0 ],
+			"obj-4::obj-2::obj-48" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-4::obj-34::obj-6::obj-68::obj-10::obj-196" : [ "live.text[78]", "live.text", 0 ],
+			"obj-4::obj-34::obj-31" : [ "resonance", "reson", 0 ],
+			"obj-4::obj-43::obj-25" : [ "live.dial[58]", "grain", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-196" : [ "live.text[37]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
+			"obj-3::obj-40::obj-1::obj-98" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-4::obj-156::obj-36" : [ "live.numbox[62]", "live.numbox", 0 ],
+			"obj-4::obj-2::obj-1::obj-67::obj-10::obj-196" : [ "live.text[196]", "live.text", 0 ],
+			"obj-4::obj-6::obj-1::obj-105::obj-10::obj-196" : [ "live.text[92]", "live.text", 0 ],
+			"obj-4::obj-113::obj-9" : [ "Invert[2]", "Invert", 0 ],
+			"obj-4::obj-90" : [ "live.text[144]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-196" : [ "live.text[46]", "live.text", 0 ],
+			"obj-3::obj-4::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-4::obj-154::obj-1::obj-117::obj-10::obj-196" : [ "live.text[168]", "live.text", 0 ],
+			"obj-4::obj-6::obj-1::obj-66::obj-10::obj-196" : [ "live.text[155]", "live.text", 0 ],
+			"obj-4::obj-44::obj-56" : [ "live.dial[59]", "scale", 0 ],
+			"obj-4::obj-68" : [ "live.text[139]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-108::obj-103" : [ "Direction[12]", "Direction", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-3::obj-43::obj-1::obj-107" : [ "live.dial[7]", "Preamp", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-4::obj-156::obj-43" : [ "live.numbox[60]", "live.numbox", 0 ],
+			"obj-4::obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[46]", "live.menu", 0 ],
+			"obj-4::obj-33::obj-6::obj-66::obj-182" : [ "live.text[89]", "live.text[4]", 0 ],
+			"obj-4::obj-114::obj-25" : [ "OutMin[1]", "Max", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : [ "live.menu[17]", "live.menu", 0 ],
+			"obj-4::obj-156::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[61]", "live.menu", 0 ],
+			"obj-4::obj-44::obj-62" : [ "live.dial[65]", "extentX", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
+			"obj-4::obj-156::obj-10" : [ "live.dial[29]", "morph", 0 ],
+			"obj-4::obj-2::obj-1::obj-121::obj-10::obj-196" : [ "live.text[161]", "live.text", 0 ],
+			"obj-4::obj-6::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-4::obj-33::obj-6::obj-68::obj-10::obj-196" : [ "live.text[86]", "live.text", 0 ],
+			"obj-4::obj-114::obj-88" : [ "Drive[1]", "Drive", 0 ],
+			"obj-4::obj-87" : [ "live.text[143]", "live.text[2]", 0 ],
+			"obj-1::obj-27" : [ "live.dial[2]", " ", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : [ "live.menu[16]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-48" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-1::obj-67::obj-182" : [ "live.text[153]", "live.text[4]", 0 ],
+			"obj-4::obj-11::obj-21" : [ "live.menu[29]", "Shape", 0 ],
+			"obj-4::obj-66" : [ "live.text[138]", "live.text[2]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-67::obj-182" : [ "live.text[55]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-121::obj-182" : [ "live.text[28]", "live.text[4]", 0 ],
+			"obj-3::obj-4::obj-3::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-3::obj-43::obj-1::obj-12::obj-13" : [ "Release[1]", "Release", 0 ],
+			"obj-4::obj-154::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[55]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[43]", "live.menu", 0 ],
+			"obj-4::obj-33::obj-10" : [ "live.text[83]", "1", 2 ],
+			"obj-4::obj-417" : [ "live.numbox[53]", "live.numbox[8]", 4 ],
+			"obj-3::obj-4::obj-3::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
+			"obj-3::obj-43::obj-1::obj-97" : [ "live.numbox[5]", "CPU", 0 ],
+			"obj-4::obj-156::obj-1::obj-121::obj-182" : [ "live.text[178]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-12" : [ "live.dial[24]", "index", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[22]", "live.menu", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-117::obj-182" : [ "live.text[26]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[54]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-36" : [ "live.numbox[58]", "live.numbox", 0 ],
+			"obj-4::obj-6::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-4::obj-34::obj-6::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[32]", "live.menu", 0 ],
+			"obj-4::obj-43::obj-58" : [ "live.dial[51]", "centerY", 0 ],
+			"obj-4::obj-416" : [ "live.numbox[52]", "live.numbox[8]", 4 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[23]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-111" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
+			"obj-4::obj-6::obj-1::obj-121::obj-182" : [ "live.text[95]", "live.text[4]", 0 ],
+			"obj-4::obj-113::obj-25" : [ "OutMin[2]", "Max", 0 ],
+			"obj-3::obj-43::obj-1::obj-110" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-4::obj-154::obj-1::obj-70::obj-182" : [ "live.text[171]", "live.text[4]", 0 ],
+			"obj-4::obj-2::obj-16" : [ "live.dial[18]", "noise", 0 ],
+			"obj-4::obj-2::obj-30" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-4::obj-34::obj-6::obj-67::obj-182" : [ "live.text[79]", "live.text[4]", 0 ],
+			"obj-4::obj-43::obj-60" : [ "live.dial[53]", "extentZ", 0 ],
+			"obj-4::obj-415" : [ "live.numbox[51]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-4::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[1]", "Mode", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[21]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-102" : [ "live.text[13]", "live.text", 0 ],
+			"obj-3::obj-43::obj-1::obj-90" : [ "live.text[14]", "live.text[1]", 0 ],
+			"obj-4::obj-2::obj-1::obj-66::obj-182" : [ "live.text[197]", "live.text[4]", 0 ],
+			"obj-4::obj-113::obj-88" : [ "Drive[2]", "Drive", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-117::obj-182" : [ "live.text[47]", "live.text[4]", 0 ],
+			"obj-4::obj-156::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[63]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-1::obj-121::obj-182" : [ "live.text[169]", "live.text[4]", 0 ],
+			"obj-4::obj-34::obj-10" : [ "live.text[75]", "1", 2 ],
+			"obj-4::obj-44::obj-37" : [ "live.dial[66]", "radius", 0 ],
+			"obj-4::obj-414" : [ "live.numbox[50]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-3::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-196" : [ "live.text[35]", "live.text", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-4::obj-156::obj-51" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-4::obj-2::obj-1::obj-68::obj-10::obj-196" : [ "live.text[194]", "live.text", 0 ],
+			"obj-4::obj-33::obj-6::obj-66::obj-10::obj-196" : [ "live.text[90]", "live.text", 0 ],
+			"obj-4::obj-114::obj-9" : [ "Invert[1]", "Invert", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-196" : [ "live.text[44]", "live.text", 0 ],
+			"obj-4::obj-156::obj-1::obj-67::obj-10::obj-196" : [ "live.text[185]", "live.text", 0 ],
+			"obj-4::obj-154::obj-1::obj-105::obj-10::obj-196" : [ "live.text[166]", "live.text", 0 ],
+			"obj-4::obj-44::obj-59" : [ "live.dial[62]", "centerX", 0 ],
+			"obj-4::obj-413" : [ "live.numbox[49]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[25]", "live.menu", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[33]", "live.text", 0 ],
+			"obj-4::obj-2::obj-1::obj-70::obj-182" : [ "live.text[162]", "live.text[4]", 0 ],
+			"obj-4::obj-33::obj-6::obj-67::obj-182" : [ "live.text[87]", "live.text[4]", 0 ],
+			"obj-4::obj-336::obj-20" : [ "live.dial[12]", " ", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-196" : [ "live.text[42]", "live.text", 0 ],
+			"obj-4::obj-156::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[60]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-40" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-4::obj-6::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[41]", "live.menu", 0 ],
+			"obj-4::obj-11::obj-22" : [ "live.menu[28]", "Shape", 0 ],
+			"obj-4::obj-44::obj-61" : [ "live.dial[64]", "extentY", 0 ],
+			"obj-4::obj-411" : [ "live.numbox[48]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[24]", "live.menu", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-1::obj-66::obj-10::obj-196" : [ "live.text[203]", "live.text", 0 ],
+			"obj-4::obj-2::obj-1::obj-117::obj-10::obj-196" : [ "live.text[159]", "live.text", 0 ],
+			"obj-4::obj-336::obj-19" : [ "live.dial[11]", " ", 0 ],
+			"obj-4::obj-421::obj-76" : [ "live.text[60]", "live.text", 0 ],
+			"obj-4::obj-363" : [ "live.numbox[8]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-3::obj-74" : [ "note[2]", "Note", 0 ],
+			"obj-3::obj-4::obj-3::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
+			"obj-4::obj-156::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[59]", "live.menu", 0 ],
+			"obj-4::obj-154::obj-45" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-4::obj-6::obj-1::obj-68::obj-182" : [ "live.text[151]", "live.text[4]", 0 ],
+			"obj-4::obj-6::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-4::obj-410" : [ "live.numbox[47]", "live.numbox[8]", 4 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-196" : [ "live.text[54]", "live.text", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[10]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-1::obj-105::obj-182" : [ "live.text[156]", "live.text[4]", 0 ],
+			"obj-4::obj-6::obj-9" : [ "live.dial[13]", "noise_filt", 0 ],
+			"obj-4::obj-6::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-4::obj-33::obj-31" : [ "resonance[1]", "reson", 0 ],
+			"obj-4::obj-43::obj-31" : [ "live.dial[57]", "speed", 0 ],
+			"obj-3::obj-40::obj-1::obj-12::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-4::obj-156::obj-1::obj-117::obj-182" : [ "live.text[176]", "live.text[4]", 0 ],
+			"obj-4::obj-154::obj-51" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-4::obj-6::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[38]", "live.menu", 0 ],
+			"obj-4::obj-6::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-4::obj-406" : [ "live.numbox[43]", "live.numbox[8]", 4 ],
+			"obj-4::obj-425" : [ "live.text[193]", "live.text[192]", 0 ],
+			"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[21]", "live.menu", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-105::obj-182" : [ "live.text[24]", "live.text[4]", 0 ],
+			"obj-3::obj-43::obj-1::obj-104" : [ "live.dial[9]", "Depth", 0 ],
+			"obj-4::obj-154::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[53]", "live.menu", 0 ],
+			"obj-4::obj-2::obj-43" : [ "live.numbox[56]", "live.numbox", 0 ],
+			"obj-4::obj-6::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-4::obj-34::obj-6::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[31]", "live.menu", 0 ],
+			"obj-4::obj-34::obj-1" : [ "vcaness", "vcaness", 0 ],
+			"obj-4::obj-43::obj-59" : [ "live.dial[52]", "centerX", 0 ],
+			"obj-4::obj-4" : [ "live.text[135]", "live.text[135]", 0 ],
+			"obj-3::obj-4::obj-3::obj-108::obj-32" : [ "live.text[38]", "live.text[3]", 0 ],
+			"obj-3::obj-4::obj-3::obj-7::obj-123::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
+			"obj-3::obj-43::obj-1::obj-100" : [ "live.text[15]", "live.text[1]", 0 ],
+			"obj-4::obj-156::obj-1::obj-105::obj-182" : [ "live.text[174]", "live.text[4]", 0 ],
+			"obj-4::obj-2::obj-1::obj-66::obj-10::obj-196" : [ "live.text[198]", "live.text", 0 ],
+			"obj-4::obj-6::obj-1::obj-117::obj-182" : [ "live.text[93]", "live.text[4]", 0 ],
+			"obj-4::obj-113::obj-27" : [ "Compand[2]", "Comp", 0 ],
+			"obj-4::obj-405" : [ "live.numbox[42]", "live.numbox[8]", 4 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-3::obj-3::obj-3::obj-108::obj-67" : 				{
-					"parameter_longname" : "SelectAll[1]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[25]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[187]"
-				}
-,
-				"obj-4::obj-154::obj-30" : 				{
-					"parameter_longname" : "live.toggle[9]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[90]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[40]"
-				}
-,
-				"obj-4::obj-156::obj-12" : 				{
-					"parameter_longname" : "live.dial[28]"
-				}
-,
-				"obj-4::obj-2::obj-48" : 				{
-					"parameter_longname" : "live.toggle[7]"
-				}
-,
-				"obj-4::obj-421::obj-118" : 				{
-					"parameter_longname" : "live.text[61]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[58]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[7]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[61]"
-				}
-,
-				"obj-4::obj-154::obj-12" : 				{
-					"parameter_longname" : "live.dial[24]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[33]"
-				}
-,
-				"obj-4::obj-11::obj-10" : 				{
-					"parameter_longname" : "Pan[1]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-68" : 				{
-					"parameter_longname" : "DropFile[2]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-45" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-99" : 				{
-					"parameter_longname" : "live.menu[4]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[201]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[42]"
-				}
-,
-				"obj-4::obj-43::obj-25" : 				{
-					"parameter_longname" : "live.dial[58]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[23]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-133::obj-182" : 				{
-					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-70::obj-182" : 				{
-					"parameter_longname" : "live.text[180]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[48]"
-				}
-,
-				"obj-4::obj-33::obj-10" : 				{
-					"parameter_longname" : "live.text[83]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[36]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[53]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[153]"
-				}
-,
-				"obj-4::obj-43::obj-59" : 				{
-					"parameter_longname" : "live.dial[52]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-70::obj-182" : 				{
-					"parameter_longname" : "live.text[51]"
-				}
-,
-				"obj-3::obj-40::obj-1::obj-107" : 				{
-					"parameter_longname" : "live.dial[5]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-117::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[177]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[164]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[82]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[33]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-13" : 				{
-					"parameter_longname" : "Release[1]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-121::obj-182" : 				{
-					"parameter_longname" : "live.text[169]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-70::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[150]"
-				}
-,
-				"obj-4::obj-44::obj-31" : 				{
-					"parameter_longname" : "live.dial[67]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[48]"
-				}
-,
-				"obj-4::obj-156::obj-51" : 				{
-					"parameter_longname" : "live.toggle[12]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-121::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[161]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[30]"
-				}
-,
-				"obj-4::obj-113::obj-118" : 				{
-					"parameter_longname" : "live.text[64]"
-				}
-,
-				"obj-3::obj-3::obj-4::obj-131::obj-54::obj-9::obj-61" : 				{
-					"parameter_longname" : "TriggersMode[1]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[11]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-98" : 				{
-					"parameter_longname" : "live.menu[5]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-105::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[166]"
-				}
-,
-				"obj-4::obj-2::obj-16" : 				{
-					"parameter_longname" : "live.dial[18]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[37]"
-				}
-,
-				"obj-4::obj-44::obj-61" : 				{
-					"parameter_longname" : "live.dial[64]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[18]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-107" : 				{
-					"parameter_longname" : "live.dial[7]"
-				}
-,
-				"obj-4::obj-156::obj-40" : 				{
-					"parameter_longname" : "live.numbox[61]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[43]"
-				}
-,
-				"obj-4::obj-114::obj-88" : 				{
-					"parameter_longname" : "Drive[1]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-108::obj-103" : 				{
-					"parameter_longname" : "Direction[12]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-117::obj-182" : 				{
-					"parameter_longname" : "live.text[26]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-17" : 				{
-					"parameter_longname" : "Master Gain[2]"
-				}
-,
-				"obj-4::obj-154::obj-40" : 				{
-					"parameter_longname" : "live.numbox[17]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-105::obj-182" : 				{
-					"parameter_longname" : "live.text[91]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-124::obj-182" : 				{
-					"parameter_longname" : "live.text[41]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-90" : 				{
-					"parameter_longname" : "live.text[14]"
-				}
-,
-				"obj-4::obj-156::obj-45" : 				{
-					"parameter_longname" : "live.numbox[59]"
-				}
-,
-				"obj-4::obj-2::obj-30" : 				{
-					"parameter_longname" : "live.toggle[5]"
-				}
-,
-				"obj-4::obj-114::obj-17" : 				{
-					"parameter_longname" : "Gain[1]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[23]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[185]"
-				}
-,
-				"obj-4::obj-154::obj-16" : 				{
-					"parameter_longname" : "live.dial[23]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[88]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-89" : 				{
-					"parameter_longname" : "lock[2]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[202]"
-				}
-,
-				"obj-4::obj-2::obj-51" : 				{
-					"parameter_longname" : "live.toggle[4]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[56]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[6]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[60]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[198]"
-				}
-,
-				"obj-4::obj-33::obj-9" : 				{
-					"parameter_longname" : "live.text[84]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[15]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[199]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[41]"
-				}
-,
-				"obj-4::obj-43::obj-58" : 				{
-					"parameter_longname" : "live.dial[51]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[22]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-121::obj-182" : 				{
-					"parameter_longname" : "live.text[178]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[47]"
-				}
-,
-				"obj-4::obj-33::obj-66" : 				{
-					"parameter_longname" : "offset[1]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[34]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-30" : 				{
-					"parameter_longname" : "live.menu[3]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[52]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[151]"
-				}
-,
-				"obj-4::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.dial[13]"
-				}
-,
-				"obj-4::obj-43::obj-60" : 				{
-					"parameter_longname" : "live.dial[53]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-121::obj-182" : 				{
-					"parameter_longname" : "live.text[49]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-105::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[175]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-70::obj-182" : 				{
-					"parameter_longname" : "live.text[162]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[80]"
-				}
-,
-				"obj-4::obj-113::obj-88" : 				{
-					"parameter_longname" : "Drive[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[31]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-12" : 				{
-					"parameter_longname" : "Lookahead[1]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-117::obj-182" : 				{
-					"parameter_longname" : "live.text[167]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-121::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[96]"
-				}
-,
-				"obj-4::obj-44::obj-59" : 				{
-					"parameter_longname" : "live.dial[62]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[46]"
-				}
-,
-				"obj-4::obj-156::obj-31" : 				{
-					"parameter_longname" : "live.toggle[14]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-117::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[159]"
-				}
-,
-				"obj-4::obj-34::obj-9" : 				{
-					"parameter_longname" : "live.text[76]"
-				}
-,
-				"obj-4::obj-114::obj-27" : 				{
-					"parameter_longname" : "Compand[1]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-108::obj-32" : 				{
-					"parameter_longname" : "live.text[59]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[10]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-110" : 				{
-					"parameter_longname" : "live.numbox[4]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-100" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-103" : 				{
-					"parameter_longname" : "live.text[12]"
-				}
-,
-				"obj-4::obj-154::obj-31" : 				{
-					"parameter_longname" : "live.toggle[10]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[36]"
+				"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[20]"
 				}
 ,
 				"obj-4::obj-6::obj-12" : 				{
 					"parameter_longname" : "live.dial[15]"
 				}
 ,
-				"obj-4::obj-44::obj-58" : 				{
-					"parameter_longname" : "live.dial[61]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[17]"
-				}
-,
-				"obj-4::obj-156::obj-48" : 				{
-					"parameter_longname" : "live.toggle[15]"
-				}
-,
-				"obj-4::obj-2::obj-43" : 				{
-					"parameter_longname" : "live.numbox[56]"
-				}
-,
-				"obj-4::obj-114::obj-38" : 				{
-					"parameter_longname" : "OutMax[1]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-108::obj-101" : 				{
-					"parameter_longname" : "Scrub[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-105::obj-182" : 				{
-					"parameter_longname" : "live.text[24]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[186]"
-				}
-,
-				"obj-4::obj-154::obj-10" : 				{
-					"parameter_longname" : "live.dial[25]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[89]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-133::obj-182" : 				{
-					"parameter_longname" : "live.text[39]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[56]"
-				}
-,
-				"obj-4::obj-2::obj-45" : 				{
-					"parameter_longname" : "live.numbox[55]"
-				}
-,
-				"obj-4::obj-421::obj-76" : 				{
-					"parameter_longname" : "live.text[60]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[57]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[183]"
-				}
-,
-				"obj-4::obj-154::obj-51" : 				{
-					"parameter_longname" : "live.toggle[8]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[86]"
-				}
-,
-				"obj-4::obj-217::obj-21" : 				{
-					"parameter_longname" : "live.menu[27]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-97" : 				{
-					"parameter_longname" : "live.numbox[5]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[200]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[155]"
-				}
-,
-				"obj-4::obj-6::obj-10" : 				{
-					"parameter_longname" : "live.dial[16]"
-				}
-,
-				"obj-4::obj-43::obj-61" : 				{
-					"parameter_longname" : "live.dial[54]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[54]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[59]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[196]"
-				}
-,
-				"obj-4::obj-33::obj-1" : 				{
-					"parameter_longname" : "vcaness[1]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[14]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-102" : 				{
-					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-111" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-70::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[172]"
-				}
-,
-				"obj-4::obj-2::obj-9" : 				{
-					"parameter_longname" : "live.dial[17]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[40]"
-				}
-,
-				"obj-4::obj-43::obj-62" : 				{
-					"parameter_longname" : "live.dial[55]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[21]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-117::obj-182" : 				{
-					"parameter_longname" : "live.text[176]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[46]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[81]"
-				}
-,
-				"obj-4::obj-113::obj-17" : 				{
-					"parameter_longname" : "Gain[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[32]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-5" : 				{
-					"parameter_longname" : "Preamp[1]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[51]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-70::obj-182" : 				{
-					"parameter_longname" : "live.text[147]"
-				}
-,
-				"obj-4::obj-44::obj-57" : 				{
-					"parameter_longname" : "live.dial[60]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-117::obj-182" : 				{
-					"parameter_longname" : "live.text[47]"
-				}
-,
-				"obj-3::obj-40::obj-1::obj-106" : 				{
-					"parameter_longname" : "live.dial[6]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-121::obj-182" : 				{
-					"parameter_longname" : "live.text[160]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[78]"
-				}
-,
-				"obj-4::obj-113::obj-9" : 				{
-					"parameter_longname" : "Invert[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[29]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-105::obj-182" : 				{
-					"parameter_longname" : "live.text[165]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-117::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[94]"
-				}
-,
-				"obj-4::obj-44::obj-37" : 				{
-					"parameter_longname" : "live.dial[66]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[44]"
-				}
-,
-				"obj-4::obj-156::obj-30" : 				{
-					"parameter_longname" : "live.toggle[13]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-105::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[157]"
-				}
-,
-				"obj-4::obj-114::obj-72" : 				{
-					"parameter_longname" : "Smooth[1]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-108::obj-87" : 				{
-					"parameter_longname" : "Direction[11]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[9]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[63]"
-				}
-,
-				"obj-4::obj-154::obj-36" : 				{
-					"parameter_longname" : "live.numbox[18]"
-				}
-,
-				"obj-4::obj-2::obj-12" : 				{
-					"parameter_longname" : "live.dial[19]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[35]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[16]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-104" : 				{
-					"parameter_longname" : "live.dial[9]"
-				}
-,
-				"obj-4::obj-156::obj-36" : 				{
-					"parameter_longname" : "live.numbox[62]"
-				}
-,
-				"obj-4::obj-2::obj-10" : 				{
-					"parameter_longname" : "live.dial[20]"
-				}
-,
-				"obj-4::obj-122::obj-118" : 				{
-					"parameter_longname" : "live.text[62]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-123::obj-182" : 				{
-					"parameter_longname" : "live.text[22]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[184]"
-				}
-,
-				"obj-4::obj-154::obj-45" : 				{
-					"parameter_longname" : "live.numbox[15]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[87]"
-				}
-,
-				"obj-4::obj-11::obj-21" : 				{
-					"parameter_longname" : "live.menu[29]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-69" : 				{
-					"parameter_longname" : "SelectFile[2]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[55]"
-				}
-,
-				"obj-4::obj-2::obj-31" : 				{
-					"parameter_longname" : "live.toggle[6]"
-				}
-,
-				"obj-4::obj-43::obj-37" : 				{
-					"parameter_longname" : "live.dial[56]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[55]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-70::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[181]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[197]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[37]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[173]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[148]"
-				}
-,
-				"obj-4::obj-43::obj-56" : 				{
-					"parameter_longname" : "live.dial[38]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[52]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[58]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[194]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[32]"
-				}
-,
-				"obj-4::obj-113::obj-25" : 				{
-					"parameter_longname" : "OutMin[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[13]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-121::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[170]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[39]"
-				}
-,
-				"obj-4::obj-44::obj-62" : 				{
-					"parameter_longname" : "live.dial[65]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[20]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-42" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-105::obj-182" : 				{
-					"parameter_longname" : "live.text[174]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[45]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-67::obj-182" : 				{
-					"parameter_longname" : "live.text[79]"
-				}
-,
-				"obj-4::obj-113::obj-72" : 				{
-					"parameter_longname" : "Smooth[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-70::obj-182" : 				{
-					"parameter_longname" : "live.text[30]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-27" : 				{
-					"parameter_longname" : "Threshold[1]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[50]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-121::obj-182" : 				{
-					"parameter_longname" : "live.text[95]"
-				}
-,
-				"obj-4::obj-44::obj-56" : 				{
-					"parameter_longname" : "live.dial[59]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-105::obj-182" : 				{
-					"parameter_longname" : "live.text[45]"
-				}
-,
-				"obj-4::obj-156::obj-43" : 				{
-					"parameter_longname" : "live.numbox[60]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-117::obj-182" : 				{
-					"parameter_longname" : "live.text[158]"
-				}
-,
-				"obj-4::obj-34::obj-10" : 				{
-					"parameter_longname" : "live.text[75]"
-				}
-,
-				"obj-4::obj-114::obj-118" : 				{
-					"parameter_longname" : "live.text[63]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[27]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-82" : 				{
-					"parameter_longname" : "pan[1]"
-				}
-,
-				"obj-4::obj-154::obj-43" : 				{
-					"parameter_longname" : "live.numbox[16]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-105::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[92]"
+				"obj-4::obj-34::obj-6::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[77]"
 				}
 ,
 				"obj-4::obj-44::obj-60" : 				{
 					"parameter_longname" : "live.dial[63]"
 				}
 ,
-				"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[42]"
+				"obj-3::obj-3::obj-3::obj-108::obj-67" : 				{
+					"parameter_longname" : "SelectAll[1]"
 				}
 ,
-				"obj-4::obj-156::obj-16" : 				{
-					"parameter_longname" : "live.dial[27]"
+				"obj-3::obj-4::obj-3::obj-7::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[36]"
 				}
 ,
-				"obj-4::obj-2::obj-40" : 				{
-					"parameter_longname" : "live.numbox[57]"
+				"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[19]"
 				}
 ,
-				"obj-4::obj-114::obj-25" : 				{
-					"parameter_longname" : "OutMin[1]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[25]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[8]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[62]"
-				}
-,
-				"obj-4::obj-154::obj-48" : 				{
-					"parameter_longname" : "live.toggle[11]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[34]"
-				}
-,
-				"obj-4::obj-11::obj-22" : 				{
-					"parameter_longname" : "live.menu[28]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-74" : 				{
-					"parameter_longname" : "note[2]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-66::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[203]"
-				}
-,
-				"obj-4::obj-2::obj-36" : 				{
-					"parameter_longname" : "live.numbox[58]"
-				}
-,
-				"obj-4::obj-43::obj-57" : 				{
-					"parameter_longname" : "live.dial[50]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[24]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-124::obj-182" : 				{
-					"parameter_longname" : "live.text[20]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-108" : 				{
-					"parameter_longname" : "live.text[11]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[182]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[49]"
-				}
-,
-				"obj-4::obj-33::obj-6::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[85]"
-				}
-,
-				"obj-4::obj-217::obj-22" : 				{
-					"parameter_longname" : "live.menu[26]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-108::obj-32" : 				{
-					"parameter_longname" : "live.text[38]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[54]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-66::obj-182" : 				{
-					"parameter_longname" : "live.text[154]"
-				}
-,
-				"obj-4::obj-43::obj-31" : 				{
-					"parameter_longname" : "live.dial[57]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[53]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-121::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[179]"
+				"obj-4::obj-156::obj-12" : 				{
+					"parameter_longname" : "live.dial[28]"
 				}
 ,
 				"obj-4::obj-2::obj-1::obj-67::obj-182" : 				{
 					"parameter_longname" : "live.text[195]"
 				}
 ,
-				"obj-4::obj-33::obj-31" : 				{
-					"parameter_longname" : "resonance[1]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[35]"
-				}
-,
-				"obj-3::obj-27::obj-1::obj-76" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-3::obj-27::obj-1::obj-118" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-70::obj-182" : 				{
-					"parameter_longname" : "live.text[171]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-68::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[152]"
-				}
-,
-				"obj-4::obj-43::obj-18" : 				{
-					"parameter_longname" : "live.text[206]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[50]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-6" : 				{
-					"parameter_longname" : "live.text[10]"
-				}
-,
-				"obj-4::obj-156::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[57]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-70::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[163]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-67::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[31]"
-				}
-,
-				"obj-4::obj-113::obj-27" : 				{
-					"parameter_longname" : "Compand[2]"
-				}
-,
-				"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[12]"
-				}
-,
-				"obj-3::obj-43::obj-1::obj-12::obj-15" : 				{
-					"parameter_longname" : "Postamp[1]"
-				}
-,
-				"obj-4::obj-154::obj-1::obj-117::obj-10::obj-196" : 				{
-					"parameter_longname" : "live.text[168]"
-				}
-,
-				"obj-4::obj-6::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[38]"
-				}
-,
-				"obj-4::obj-6::obj-16" : 				{
-					"parameter_longname" : "live.dial[14]"
-				}
-,
-				"obj-4::obj-44::obj-18" : 				{
-					"parameter_longname" : "live.text[97]"
-				}
-,
-				"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[19]"
-				}
-,
-				"obj-4::obj-156::obj-9" : 				{
-					"parameter_longname" : "live.dial[26]"
-				}
-,
-				"obj-4::obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
-					"parameter_longname" : "live.menu[44]"
-				}
-,
-				"obj-4::obj-34::obj-6::obj-68::obj-182" : 				{
-					"parameter_longname" : "live.text[77]"
+				"obj-4::obj-6::obj-1::obj-105::obj-182" : 				{
+					"parameter_longname" : "live.text[91]"
 				}
 ,
 				"obj-4::obj-113::obj-38" : 				{
 					"parameter_longname" : "OutMax[2]"
 				}
 ,
-				"obj-3::obj-4::obj-3::obj-7::obj-121::obj-182" : 				{
-					"parameter_longname" : "live.text[28]"
+				"obj-3::obj-3::obj-3::obj-7::obj-105::obj-182" : 				{
+					"parameter_longname" : "live.text[45]"
 				}
 ,
-				"obj-3::obj-43::obj-1::obj-106" : 				{
-					"parameter_longname" : "live.dial[8]"
+				"obj-4::obj-156::obj-1::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[186]"
 				}
 ,
-				"obj-4::obj-154::obj-9" : 				{
-					"parameter_longname" : "live.dial[22]"
+				"obj-4::obj-154::obj-1::obj-117::obj-182" : 				{
+					"parameter_longname" : "live.text[167]"
 				}
 ,
-				"obj-4::obj-6::obj-1::obj-117::obj-182" : 				{
-					"parameter_longname" : "live.text[93]"
+				"obj-4::obj-156::obj-40" : 				{
+					"parameter_longname" : "live.numbox[61]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[34]"
+				}
+,
+				"obj-4::obj-114::obj-17" : 				{
+					"parameter_longname" : "Gain[1]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[183]"
+				}
+,
+				"obj-4::obj-11::obj-10" : 				{
+					"parameter_longname" : "Pan[1]"
 				}
 ,
 				"obj-4::obj-44::obj-25" : 				{
 					"parameter_longname" : "live.dial[68]"
 				}
 ,
+				"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[58]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[31]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-103" : 				{
+					"parameter_longname" : "live.text[12]"
+				}
+,
+				"obj-4::obj-156::obj-48" : 				{
+					"parameter_longname" : "live.toggle[15]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-121::obj-182" : 				{
+					"parameter_longname" : "live.text[160]"
+				}
+,
+				"obj-4::obj-6::obj-10" : 				{
+					"parameter_longname" : "live.dial[16]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[85]"
+				}
+,
+				"obj-4::obj-122::obj-118" : 				{
+					"parameter_longname" : "live.text[62]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[40]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-70::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[181]"
+				}
+,
+				"obj-4::obj-154::obj-30" : 				{
+					"parameter_longname" : "live.toggle[9]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[40]"
+				}
+,
+				"obj-4::obj-217::obj-22" : 				{
+					"parameter_longname" : "live.menu[26]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-45" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-5" : 				{
+					"parameter_longname" : "Preamp[1]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[201]"
+				}
+,
+				"obj-4::obj-2::obj-9" : 				{
+					"parameter_longname" : "live.dial[17]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[58]"
+				}
+,
+				"obj-4::obj-154::obj-16" : 				{
+					"parameter_longname" : "live.dial[23]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-70::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[150]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[52]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[9]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-27" : 				{
+					"parameter_longname" : "Threshold[1]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[199]"
+				}
+,
+				"obj-4::obj-2::obj-51" : 				{
+					"parameter_longname" : "live.toggle[4]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[82]"
+				}
+,
+				"obj-4::obj-43::obj-56" : 				{
+					"parameter_longname" : "live.dial[38]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-69" : 				{
+					"parameter_longname" : "SelectFile[2]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[57]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[37]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[50]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-82" : 				{
+					"parameter_longname" : "pan[1]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[52]"
+				}
+,
+				"obj-4::obj-2::obj-10" : 				{
+					"parameter_longname" : "live.dial[20]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[30]"
+				}
+,
+				"obj-4::obj-43::obj-37" : 				{
+					"parameter_longname" : "live.dial[56]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[15]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-124::obj-182" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-3::obj-40::obj-1::obj-106" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-4::obj-156::obj-45" : 				{
+					"parameter_longname" : "live.numbox[59]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[48]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[36]"
+				}
+,
+				"obj-4::obj-113::obj-72" : 				{
+					"parameter_longname" : "Smooth[2]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[19]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[187]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[51]"
+				}
+,
+				"obj-4::obj-2::obj-12" : 				{
+					"parameter_longname" : "live.dial[19]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[42]"
+				}
+,
+				"obj-4::obj-44::obj-18" : 				{
+					"parameter_longname" : "live.text[97]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-108::obj-32" : 				{
+					"parameter_longname" : "live.text[59]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[34]"
+				}
+,
+				"obj-4::obj-156::obj-31" : 				{
+					"parameter_longname" : "live.toggle[14]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[164]"
+				}
+,
+				"obj-4::obj-114::obj-38" : 				{
+					"parameter_longname" : "OutMax[1]"
+				}
+,
 				"obj-3::obj-3::obj-3::obj-7::obj-123::obj-182" : 				{
 					"parameter_longname" : "live.text[43]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[184]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-105::obj-182" : 				{
+					"parameter_longname" : "live.text[165]"
+				}
+,
+				"obj-4::obj-44::obj-58" : 				{
+					"parameter_longname" : "live.dial[61]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[32]"
+				}
+,
+				"obj-4::obj-156::obj-30" : 				{
+					"parameter_longname" : "live.toggle[13]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[45]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[33]"
+				}
+,
+				"obj-4::obj-114::obj-118" : 				{
+					"parameter_longname" : "live.text[63]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-124::obj-182" : 				{
+					"parameter_longname" : "live.text[41]"
+				}
+,
+				"obj-4::obj-154::obj-10" : 				{
+					"parameter_longname" : "live.dial[25]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[148]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[56]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-30" : 				{
+					"parameter_longname" : "live.menu[3]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[202]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-117::obj-182" : 				{
+					"parameter_longname" : "live.text[158]"
+				}
+,
+				"obj-4::obj-33::obj-9" : 				{
+					"parameter_longname" : "live.text[84]"
+				}
+,
+				"obj-4::obj-43::obj-57" : 				{
+					"parameter_longname" : "live.dial[50]"
+				}
+,
+				"obj-3::obj-27::obj-1::obj-76" : 				{
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-121::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[179]"
+				}
+,
+				"obj-4::obj-154::obj-36" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[39]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[53]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[27]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-12" : 				{
+					"parameter_longname" : "Lookahead[1]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[200]"
+				}
+,
+				"obj-4::obj-2::obj-45" : 				{
+					"parameter_longname" : "live.numbox[55]"
+				}
+,
+				"obj-4::obj-33::obj-66" : 				{
+					"parameter_longname" : "offset[1]"
+				}
+,
+				"obj-4::obj-43::obj-61" : 				{
+					"parameter_longname" : "live.dial[54]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-89" : 				{
+					"parameter_longname" : "lock[2]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[8]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-99" : 				{
+					"parameter_longname" : "live.menu[4]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-121::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[96]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-106" : 				{
+					"parameter_longname" : "live.dial[8]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-70::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[172]"
+				}
+,
+				"obj-4::obj-2::obj-40" : 				{
+					"parameter_longname" : "live.numbox[57]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[80]"
+				}
+,
+				"obj-4::obj-43::obj-62" : 				{
+					"parameter_longname" : "live.dial[55]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[7]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-108" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-4::obj-156::obj-16" : 				{
+					"parameter_longname" : "live.dial[27]"
+				}
+,
+				"obj-4::obj-113::obj-118" : 				{
+					"parameter_longname" : "live.text[64]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-117::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[48]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-121::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[170]"
+				}
+,
+				"obj-4::obj-34::obj-9" : 				{
+					"parameter_longname" : "live.text[76]"
+				}
+,
+				"obj-4::obj-44::obj-31" : 				{
+					"parameter_longname" : "live.dial[67]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[14]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-133::obj-182" : 				{
+					"parameter_longname" : "live.text[18]"
+				}
+,
+				"obj-4::obj-156::obj-9" : 				{
+					"parameter_longname" : "live.dial[26]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[47]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[35]"
+				}
+,
+				"obj-4::obj-114::obj-72" : 				{
+					"parameter_longname" : "Smooth[1]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[18]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[62]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[50]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-108::obj-87" : 				{
+					"parameter_longname" : "Direction[11]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-6" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-70::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[163]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[88]"
+				}
+,
+				"obj-4::obj-114::obj-27" : 				{
+					"parameter_longname" : "Compand[1]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[182]"
+				}
+,
+				"obj-4::obj-154::obj-43" : 				{
+					"parameter_longname" : "live.numbox[16]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[154]"
+				}
+,
+				"obj-4::obj-44::obj-57" : 				{
+					"parameter_longname" : "live.dial[60]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[57]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-70::obj-182" : 				{
+					"parameter_longname" : "live.text[30]"
+				}
+,
+				"obj-3::obj-27::obj-1::obj-118" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[56]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[44]"
+				}
+,
+				"obj-4::obj-33::obj-1" : 				{
+					"parameter_longname" : "vcaness[1]"
+				}
+,
+				"obj-4::obj-421::obj-118" : 				{
+					"parameter_longname" : "live.text[61]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-133::obj-182" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-42" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-70::obj-182" : 				{
+					"parameter_longname" : "live.text[180]"
+				}
+,
+				"obj-4::obj-154::obj-31" : 				{
+					"parameter_longname" : "live.toggle[10]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[152]"
+				}
+,
+				"obj-4::obj-217::obj-21" : 				{
+					"parameter_longname" : "live.menu[27]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[23]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-15" : 				{
+					"parameter_longname" : "Postamp[1]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-105::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[157]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-117::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[177]"
+				}
+,
+				"obj-4::obj-154::obj-9" : 				{
+					"parameter_longname" : "live.dial[22]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-70::obj-182" : 				{
+					"parameter_longname" : "live.text[147]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-70::obj-182" : 				{
+					"parameter_longname" : "live.text[51]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-105::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[25]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-98" : 				{
+					"parameter_longname" : "live.menu[5]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[173]"
+				}
+,
+				"obj-4::obj-2::obj-31" : 				{
+					"parameter_longname" : "live.toggle[6]"
+				}
+,
+				"obj-4::obj-6::obj-16" : 				{
+					"parameter_longname" : "live.dial[14]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[81]"
+				}
+,
+				"obj-4::obj-43::obj-18" : 				{
+					"parameter_longname" : "live.text[206]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-68" : 				{
+					"parameter_longname" : "DropFile[2]"
+				}
+,
+				"obj-3::obj-40::obj-1::obj-107" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-105::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[175]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[49]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-117::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[94]"
+				}
+,
+				"obj-4::obj-113::obj-17" : 				{
+					"parameter_longname" : "Gain[2]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-121::obj-182" : 				{
+					"parameter_longname" : "live.text[49]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-17" : 				{
+					"parameter_longname" : "Master Gain[2]"
+				}
+,
+				"obj-4::obj-2::obj-48" : 				{
+					"parameter_longname" : "live.toggle[7]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[78]"
+				}
+,
+				"obj-4::obj-43::obj-25" : 				{
+					"parameter_longname" : "live.dial[58]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[37]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[6]"
+				}
+,
+				"obj-4::obj-156::obj-36" : 				{
+					"parameter_longname" : "live.numbox[62]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[196]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-105::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[92]"
+				}
+,
+				"obj-4::obj-113::obj-9" : 				{
+					"parameter_longname" : "Invert[2]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-105::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[46]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-117::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[168]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[155]"
+				}
+,
+				"obj-4::obj-44::obj-56" : 				{
+					"parameter_longname" : "live.dial[59]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-108::obj-103" : 				{
+					"parameter_longname" : "Direction[12]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[13]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-107" : 				{
+					"parameter_longname" : "live.dial[7]"
+				}
+,
+				"obj-4::obj-156::obj-43" : 				{
+					"parameter_longname" : "live.numbox[60]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[46]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[89]"
+				}
+,
+				"obj-4::obj-114::obj-25" : 				{
+					"parameter_longname" : "OutMin[1]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[17]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[61]"
+				}
+,
+				"obj-4::obj-44::obj-62" : 				{
+					"parameter_longname" : "live.dial[65]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[12]"
 				}
 ,
 				"obj-4::obj-156::obj-10" : 				{
 					"parameter_longname" : "live.dial[29]"
 				}
 ,
-				"obj-4::obj-2::obj-1::obj-105::obj-182" : 				{
-					"parameter_longname" : "live.text[156]"
+				"obj-4::obj-2::obj-1::obj-121::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[161]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[86]"
+				}
+,
+				"obj-4::obj-114::obj-88" : 				{
+					"parameter_longname" : "Drive[1]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-133::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[16]"
+				}
+,
+				"obj-4::obj-154::obj-48" : 				{
+					"parameter_longname" : "live.toggle[11]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[153]"
+				}
+,
+				"obj-4::obj-11::obj-21" : 				{
+					"parameter_longname" : "live.menu[29]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[55]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-121::obj-182" : 				{
+					"parameter_longname" : "live.text[28]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-12::obj-13" : 				{
+					"parameter_longname" : "Release[1]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[55]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[43]"
+				}
+,
+				"obj-4::obj-33::obj-10" : 				{
+					"parameter_longname" : "live.text[83]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-97" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-121::obj-182" : 				{
+					"parameter_longname" : "live.text[178]"
+				}
+,
+				"obj-4::obj-154::obj-12" : 				{
+					"parameter_longname" : "live.dial[24]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-70::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[22]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-117::obj-182" : 				{
+					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-68::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[54]"
+				}
+,
+				"obj-4::obj-2::obj-36" : 				{
+					"parameter_longname" : "live.numbox[58]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[32]"
+				}
+,
+				"obj-4::obj-43::obj-58" : 				{
+					"parameter_longname" : "live.dial[51]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-123::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-111" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-121::obj-182" : 				{
+					"parameter_longname" : "live.text[95]"
+				}
+,
+				"obj-4::obj-113::obj-25" : 				{
+					"parameter_longname" : "OutMin[2]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-110" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-70::obj-182" : 				{
+					"parameter_longname" : "live.text[171]"
+				}
+,
+				"obj-4::obj-2::obj-16" : 				{
+					"parameter_longname" : "live.dial[18]"
+				}
+,
+				"obj-4::obj-2::obj-30" : 				{
+					"parameter_longname" : "live.toggle[5]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[79]"
+				}
+,
+				"obj-4::obj-43::obj-60" : 				{
+					"parameter_longname" : "live.dial[53]"
+				}
+,
+				"obj-3::obj-3::obj-4::obj-131::obj-54::obj-9::obj-61" : 				{
+					"parameter_longname" : "TriggersMode[1]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-124::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[21]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-102" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-90" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-66::obj-182" : 				{
+					"parameter_longname" : "live.text[197]"
+				}
+,
+				"obj-4::obj-113::obj-88" : 				{
+					"parameter_longname" : "Drive[2]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-117::obj-182" : 				{
+					"parameter_longname" : "live.text[47]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[63]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-121::obj-182" : 				{
+					"parameter_longname" : "live.text[169]"
+				}
+,
+				"obj-4::obj-34::obj-10" : 				{
+					"parameter_longname" : "live.text[75]"
+				}
+,
+				"obj-4::obj-44::obj-37" : 				{
+					"parameter_longname" : "live.dial[66]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-108::obj-101" : 				{
+					"parameter_longname" : "Scrub[2]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[35]"
+				}
+,
+				"obj-4::obj-156::obj-51" : 				{
+					"parameter_longname" : "live.toggle[12]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[194]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[90]"
 				}
 ,
 				"obj-4::obj-114::obj-9" : 				{
 					"parameter_longname" : "Invert[1]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-123::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[44]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-67::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[185]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-105::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[166]"
+				}
+,
+				"obj-4::obj-44::obj-59" : 				{
+					"parameter_longname" : "live.dial[62]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-66::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[25]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[33]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-70::obj-182" : 				{
+					"parameter_longname" : "live.text[162]"
+				}
+,
+				"obj-4::obj-33::obj-6::obj-67::obj-182" : 				{
+					"parameter_longname" : "live.text[87]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-124::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[42]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[60]"
+				}
+,
+				"obj-4::obj-154::obj-40" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[41]"
+				}
+,
+				"obj-4::obj-11::obj-22" : 				{
+					"parameter_longname" : "live.menu[28]"
+				}
+,
+				"obj-4::obj-44::obj-61" : 				{
+					"parameter_longname" : "live.dial[64]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[24]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[11]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[203]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-117::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[159]"
+				}
+,
+				"obj-4::obj-421::obj-76" : 				{
+					"parameter_longname" : "live.text[60]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-74" : 				{
+					"parameter_longname" : "note[2]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[59]"
+				}
+,
+				"obj-4::obj-154::obj-45" : 				{
+					"parameter_longname" : "live.numbox[15]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-68::obj-182" : 				{
+					"parameter_longname" : "live.text[151]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-68::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[54]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-117::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[10]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-105::obj-182" : 				{
+					"parameter_longname" : "live.text[156]"
+				}
+,
+				"obj-4::obj-6::obj-9" : 				{
+					"parameter_longname" : "live.dial[13]"
+				}
+,
+				"obj-4::obj-33::obj-31" : 				{
+					"parameter_longname" : "resonance[1]"
+				}
+,
+				"obj-4::obj-43::obj-31" : 				{
+					"parameter_longname" : "live.dial[57]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-117::obj-182" : 				{
+					"parameter_longname" : "live.text[176]"
+				}
+,
+				"obj-4::obj-154::obj-51" : 				{
+					"parameter_longname" : "live.toggle[8]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-121::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[38]"
+				}
+,
+				"obj-3::obj-3::obj-3::obj-7::obj-121::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[21]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-105::obj-182" : 				{
+					"parameter_longname" : "live.text[24]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-104" : 				{
+					"parameter_longname" : "live.dial[9]"
+				}
+,
+				"obj-4::obj-154::obj-1::obj-70::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[53]"
+				}
+,
+				"obj-4::obj-2::obj-43" : 				{
+					"parameter_longname" : "live.numbox[56]"
+				}
+,
+				"obj-4::obj-34::obj-6::obj-67::obj-10::obj-10::obj-145" : 				{
+					"parameter_longname" : "live.menu[31]"
+				}
+,
+				"obj-4::obj-43::obj-59" : 				{
+					"parameter_longname" : "live.dial[52]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-108::obj-32" : 				{
+					"parameter_longname" : "live.text[38]"
+				}
+,
+				"obj-3::obj-4::obj-3::obj-7::obj-123::obj-182" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-3::obj-43::obj-1::obj-100" : 				{
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-4::obj-156::obj-1::obj-105::obj-182" : 				{
+					"parameter_longname" : "live.text[174]"
+				}
+,
+				"obj-4::obj-2::obj-1::obj-66::obj-10::obj-196" : 				{
+					"parameter_longname" : "live.text[198]"
+				}
+,
+				"obj-4::obj-6::obj-1::obj-117::obj-182" : 				{
+					"parameter_longname" : "live.text[93]"
+				}
+,
+				"obj-4::obj-113::obj-27" : 				{
+					"parameter_longname" : "Compand[2]"
 				}
 
 			}
