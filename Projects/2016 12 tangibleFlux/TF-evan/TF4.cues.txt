@@ -5841,8 +5841,8 @@
 /dmx/tiltY/rate/min 4000
 /dmx/tiltY/grain 25
 /dmx/tiltY/interpolate 5000
-/dmx/tiltY/max 0.500000
-/dmx/tiltY/min -0.500000
+/dmx/tiltY/max 0.350000
+/dmx/tiltY/min -0.350000
 /dmx/tiltY/on 1
 /dmx/tiltY/step 1.000000
 # 
@@ -5852,11 +5852,11 @@
 /dmx/iscore_in/scorein4 0.000000
 /dmx/iscore_in/scorein5 0.000000
 # 
-/dmx/main/LED1 0.491691
-/dmx/main/LED2 0.527898
-/dmx/main/speed 0.941800
-/dmx/main/x 0.028362
-/dmx/main/y 0.209142
+/dmx/main/LED1 0.329153
+/dmx/main/LED2 0.317595
+/dmx/main/speed 0.939648
+/dmx/main/x -0.060980
+/dmx/main/y 0.007932
 # 
 # ###########################################
 
