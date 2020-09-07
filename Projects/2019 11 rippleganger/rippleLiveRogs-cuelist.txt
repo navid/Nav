@@ -1,0 +1,819 @@
+- cue "init"
+- description "something about this cue"
+# ###########################################
+# 
+/liveRogs1/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/liveRogs1/grain/trigger/variance/gainVar/range 0.000000
+/liveRogs1/grain/trigger/variance/rateVar/randomnessRate 0.000000
+/liveRogs1/grain/trigger/variance/rateVar/spread 0.000000
+/liveRogs1/grain/trigger/variance/on 0
+/liveRogs1/grain/trigger/freq 0.000000
+/liveRogs1/grain/trigger/lock 0
+/liveRogs1/grain/trigger/mode 0
+/liveRogs1/grain/trigger/note 0
+/liveRogs1/grain/duration 3.000000
+/liveRogs1/grain/onsetVar 0.000000
+/liveRogs1/grain/overlap 80
+# 
+/liveRogs1/mapGain/data/active 1
+/liveRogs1/mapGain/function/parameters.1 0.000000
+/liveRogs1/mapGain/input/address none
+/liveRogs1/mapGain/input/max 1.000000
+/liveRogs1/mapGain/input/min 0.000000
+/liveRogs1/mapGain/output/max 1.000000
+/liveRogs1/mapGain/output/min 0.000000
+/liveRogs1/mapGain/process/function freehand
+/liveRogs1/mapGain/process/clipmode both
+/liveRogs1/mapGain/process/mode 0.000000
+/liveRogs1/mapGain/process/rampTime 0.000000
+/liveRogs1/mapGain/slide/down 0.000000
+/liveRogs1/mapGain/slide/up 0.000000
+/liveRogs1/mapGain/active 0
+/liveRogs1/mapGain/scalebypass 1
+# 
+/liveRogs1/mapOnsetVar/data/active 1
+/liveRogs1/mapOnsetVar/function/parameters.1 0.000000
+/liveRogs1/mapOnsetVar/input/address /GMAETRACK/left/x
+/liveRogs1/mapOnsetVar/input/max 1.000000
+/liveRogs1/mapOnsetVar/input/min 0.000000
+/liveRogs1/mapOnsetVar/output/max 1.000000
+/liveRogs1/mapOnsetVar/output/min 0.000000
+/liveRogs1/mapOnsetVar/process/function freehand
+/liveRogs1/mapOnsetVar/process/clipmode both
+/liveRogs1/mapOnsetVar/process/mode 0.000000
+/liveRogs1/mapOnsetVar/process/rampTime 0.000000
+/liveRogs1/mapOnsetVar/slide/down 0.000000
+/liveRogs1/mapOnsetVar/slide/up 0.000000
+/liveRogs1/mapOnsetVar/active 1
+/liveRogs1/mapOnsetVar/scalebypass 1
+# 
+/liveRogs1/mapPitch/data/active 1
+/liveRogs1/mapPitch/function/parameters.1 0.000000
+/liveRogs1/mapPitch/input/address /GMAETRACK/left/y
+/liveRogs1/mapPitch/input/max 1.000000
+/liveRogs1/mapPitch/input/min 0.000000
+/liveRogs1/mapPitch/output/max 1.000000
+/liveRogs1/mapPitch/output/min 0.000000
+/liveRogs1/mapPitch/process/function freehand
+/liveRogs1/mapPitch/process/clipmode both
+/liveRogs1/mapPitch/process/mode 0.000000
+/liveRogs1/mapPitch/process/rampTime 0.000000
+/liveRogs1/mapPitch/slide/down 0.000000
+/liveRogs1/mapPitch/slide/up 0.000000
+/liveRogs1/mapPitch/active 1
+/liveRogs1/mapPitch/scalebypass 1
+# 
+/liveRogs1/mapPosition/data/active 1
+/liveRogs1/mapPosition/function/parameters.1 0.000000
+/liveRogs1/mapPosition/input/address none
+/liveRogs1/mapPosition/input/max 1.000000
+/liveRogs1/mapPosition/input/min 0.000000
+/liveRogs1/mapPosition/output/max 1.000000
+/liveRogs1/mapPosition/output/min 0.000000
+/liveRogs1/mapPosition/process/function freehand
+/liveRogs1/mapPosition/process/clipmode both
+/liveRogs1/mapPosition/process/mode 0.000000
+/liveRogs1/mapPosition/process/rampTime 0.000000
+/liveRogs1/mapPosition/slide/down 0.000000
+/liveRogs1/mapPosition/slide/up 0.000000
+/liveRogs1/mapPosition/active 0
+/liveRogs1/mapPosition/scalebypass 1
+# 
+/liveRogs1/mapPvar/data/active 1
+/liveRogs1/mapPvar/function/parameters.1 0.000000
+/liveRogs1/mapPvar/input/address /GMAETRACK/left/x
+/liveRogs1/mapPvar/input/max 1.000000
+/liveRogs1/mapPvar/input/min 0.000000
+/liveRogs1/mapPvar/output/max 1.000000
+/liveRogs1/mapPvar/output/min 0.000000
+/liveRogs1/mapPvar/process/function freehand
+/liveRogs1/mapPvar/process/clipmode both
+/liveRogs1/mapPvar/process/mode 0.000000
+/liveRogs1/mapPvar/process/rampTime 0.000000
+/liveRogs1/mapPvar/slide/down 0.000000
+/liveRogs1/mapPvar/slide/up 0.000000
+/liveRogs1/mapPvar/active 1
+/liveRogs1/mapPvar/scalebypass 1
+# 
+/liveRogs1/mapSize/data/active 1
+/liveRogs1/mapSize/function/parameters.1 0.000000
+/liveRogs1/mapSize/input/address /GMAETRACK/right/x
+/liveRogs1/mapSize/input/max 1.000000
+/liveRogs1/mapSize/input/min 0.000000
+/liveRogs1/mapSize/output/max 1.000000
+/liveRogs1/mapSize/output/min 0.000000
+/liveRogs1/mapSize/process/function freehand
+/liveRogs1/mapSize/process/clipmode both
+/liveRogs1/mapSize/process/mode 0.000000
+/liveRogs1/mapSize/process/rampTime 0.000000
+/liveRogs1/mapSize/slide/down 0.000000
+/liveRogs1/mapSize/slide/up 0.000000
+/liveRogs1/mapSize/active 1
+/liveRogs1/mapSize/scalebypass 1
+# 
+/liveRogs1/mapSpeed/data/active 1
+/liveRogs1/mapSpeed/function/parameters.1 0.000000
+/liveRogs1/mapSpeed/input/address /GMAETRACK/left/z
+/liveRogs1/mapSpeed/input/max 1.000000
+/liveRogs1/mapSpeed/input/min 0.000000
+/liveRogs1/mapSpeed/output/max 1.000000
+/liveRogs1/mapSpeed/output/min 0.000000
+/liveRogs1/mapSpeed/process/function freehand
+/liveRogs1/mapSpeed/process/clipmode both
+/liveRogs1/mapSpeed/process/mode 0.000000
+/liveRogs1/mapSpeed/process/rampTime 0.000000
+/liveRogs1/mapSpeed/slide/down 0.000000
+/liveRogs1/mapSpeed/slide/up 0.000000
+/liveRogs1/mapSpeed/active 1
+/liveRogs1/mapSpeed/scalebypass 1
+# 
+/liveRogs1/mapSpread/data/active 1
+/liveRogs1/mapSpread/function/parameters.1 0.000000
+/liveRogs1/mapSpread/input/address none
+/liveRogs1/mapSpread/input/max 1.000000
+/liveRogs1/mapSpread/input/min 0.000000
+/liveRogs1/mapSpread/output/max 1.000000
+/liveRogs1/mapSpread/output/min 0.000000
+/liveRogs1/mapSpread/process/function freehand
+/liveRogs1/mapSpread/process/clipmode both
+/liveRogs1/mapSpread/process/mode 0.000000
+/liveRogs1/mapSpread/process/rampTime 0.000000
+/liveRogs1/mapSpread/slide/down 0.000000
+/liveRogs1/mapSpread/slide/up 0.000000
+/liveRogs1/mapSpread/active 0
+/liveRogs1/mapSpread/scalebypass 1
+# 
+/liveRogs1/mapTrigger/data/active 1
+/liveRogs1/mapTrigger/function/parameters.1 0.000000
+/liveRogs1/mapTrigger/input/address /GMAETRACK/right/z
+/liveRogs1/mapTrigger/input/max 1.000000
+/liveRogs1/mapTrigger/input/min 0.000000
+/liveRogs1/mapTrigger/output/max 1.000000
+/liveRogs1/mapTrigger/output/min 0.000000
+/liveRogs1/mapTrigger/process/function freehand
+/liveRogs1/mapTrigger/process/clipmode both
+/liveRogs1/mapTrigger/process/mode 0.000000
+/liveRogs1/mapTrigger/process/rampTime 0.000000
+/liveRogs1/mapTrigger/slide/down 0.000000
+/liveRogs1/mapTrigger/slide/up 0.000000
+/liveRogs1/mapTrigger/active 1
+/liveRogs1/mapTrigger/scalebypass 1
+# 
+/liveRogs1/mapTurn/data/active 1
+/liveRogs1/mapTurn/function/parameters.1 0.000000
+/liveRogs1/mapTurn/input/address none
+/liveRogs1/mapTurn/input/max 1.000000
+/liveRogs1/mapTurn/input/min 0.000000
+/liveRogs1/mapTurn/output/max 1.000000
+/liveRogs1/mapTurn/output/min 0.000000
+/liveRogs1/mapTurn/process/function freehand
+/liveRogs1/mapTurn/process/clipmode both
+/liveRogs1/mapTurn/process/mode 0.000000
+/liveRogs1/mapTurn/process/rampTime 0.000000
+/liveRogs1/mapTurn/slide/down 0.000000
+/liveRogs1/mapTurn/slide/up 0.000000
+/liveRogs1/mapTurn/active 0
+/liveRogs1/mapTurn/scalebypass 1
+/liveRogs1/audio/bypass 0
+/liveRogs1/audio/gain -96.000000
+/liveRogs1/audio/mix 100.000000
+/liveRogs1/audio/mute 1
+/liveRogs1/buffer/append 1
+/liveRogs1/buffer/rec 0
+/liveRogs1/buffer/size 12109.714844
+/liveRogs1/mapperGate/gain 0
+/liveRogs1/mapperGate/onsetVar 0
+/liveRogs1/mapperGate/pitch 0
+/liveRogs1/mapperGate/pitchVar 0
+/liveRogs1/mapperGate/position 0
+/liveRogs1/mapperGate/size 0
+/liveRogs1/mapperGate/speed 0
+/liveRogs1/mapperGate/spread 0
+/liveRogs1/mapperGate/trigger 0
+/liveRogs1/mapperGate/turn 0
+/liveRogs1/mod/gain 0.000000
+/liveRogs1/mod/onsetVar 800.000000
+/liveRogs1/mod/pitch 300.000000
+/liveRogs1/mod/pitchVar 30.000000
+/liveRogs1/mod/position 0.000000
+/liveRogs1/mod/size 200.000000
+/liveRogs1/mod/speed 0.410000
+/liveRogs1/mod/spread 0.000000
+/liveRogs1/mod/trigger 30.000000
+/liveRogs1/mod/turn 0.000000
+/liveRogs1/pan/mode 1
+/liveRogs1/pan/rate 3.000000
+/liveRogs1/pan/spread 0.500000
+/liveRogs1/pitch/transpose 0.000000
+/liveRogs1/pitch/variation 0.000000
+/liveRogs1/playback/direction 0
+/liveRogs1/playback/speed 0.000000
+/liveRogs1/playback/position 0.037284
+/liveRogs1/selection/mode 1
+/liveRogs1/selection/range 451.500000 11658.187500
+# 
+/GMAETRACK/left/x 0.338624
+/GMAETRACK/left/y -1.000000
+/GMAETRACK/left/z 0.000000
+/GMAETRACK/right/x 0.036091
+/GMAETRACK/right/y 0.835409
+/GMAETRACK/right/z 0.000000
+# 
+/rvb-scale/data/active 1
+/rvb-scale/function/parameters.1 0.000000
+/rvb-scale/input/address /GMAETRACK/right/y
+/rvb-scale/input/max 1.000000
+/rvb-scale/input/min 0.000000
+/rvb-scale/output/max 1.000000
+/rvb-scale/output/min 0.000000
+/rvb-scale/process/function freehand
+/rvb-scale/process/clipmode both
+/rvb-scale/process/mode 0.000000
+/rvb-scale/process/rampTime 0.000000
+/rvb-scale/slide/down 0.000000
+/rvb-scale/slide/up 0.000000
+/rvb-scale/active 1
+/rvb-scale/scalebypass 1
+# 
+/reverb/liveRogsSpat 0.000000
+# 
+# ###########################################
+
+- cue "low-droneButt"
+- description "something about this cue"
+# ###########################################
+# 
+/liveRogs1/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/liveRogs1/grain/trigger/variance/gainVar/range 90.215157 90.215157
+/liveRogs1/grain/trigger/variance/rateVar/randomnessRate 2.270256
+/liveRogs1/grain/trigger/variance/rateVar/spread 70.574181
+/liveRogs1/grain/trigger/variance/on 0
+/liveRogs1/grain/trigger/freq 82.000000
+/liveRogs1/grain/trigger/lock 0
+/liveRogs1/grain/trigger/mode 0
+/liveRogs1/grain/trigger/note 0
+/liveRogs1/grain/duration 174.000000
+/liveRogs1/grain/onsetVar 2.000000
+/liveRogs1/grain/overlap 80
+# 
+/liveRogs1/mapGain/data/active 1
+/liveRogs1/mapGain/function/parameters.1 0.000000
+/liveRogs1/mapGain/input/address none
+/liveRogs1/mapGain/input/max 1.000000
+/liveRogs1/mapGain/input/min 0.000000
+/liveRogs1/mapGain/output/max 1.000000
+/liveRogs1/mapGain/output/min 0.000000
+/liveRogs1/mapGain/process/function freehand
+/liveRogs1/mapGain/process/clipmode both
+/liveRogs1/mapGain/process/mode 0.000000
+/liveRogs1/mapGain/process/rampTime 0.000000
+/liveRogs1/mapGain/slide/down 0.000000
+/liveRogs1/mapGain/slide/up 0.000000
+/liveRogs1/mapGain/active 0
+/liveRogs1/mapGain/scalebypass 1
+# 
+/liveRogs1/mapOnsetVar/data/active 1
+/liveRogs1/mapOnsetVar/function/parameters.1 0.000000
+/liveRogs1/mapOnsetVar/input/address /GMAETRACK/left/x
+/liveRogs1/mapOnsetVar/input/max 1.000000
+/liveRogs1/mapOnsetVar/input/min 0.000000
+/liveRogs1/mapOnsetVar/output/max 1.000000
+/liveRogs1/mapOnsetVar/output/min 0.000000
+/liveRogs1/mapOnsetVar/process/function freehand
+/liveRogs1/mapOnsetVar/process/clipmode both
+/liveRogs1/mapOnsetVar/process/mode 0.000000
+/liveRogs1/mapOnsetVar/process/rampTime 0.000000
+/liveRogs1/mapOnsetVar/slide/down 0.000000
+/liveRogs1/mapOnsetVar/slide/up 0.000000
+/liveRogs1/mapOnsetVar/active 1
+/liveRogs1/mapOnsetVar/scalebypass 1
+# 
+/liveRogs1/mapPitch/data/active 1
+/liveRogs1/mapPitch/function/parameters.1 0.000000
+/liveRogs1/mapPitch/input/address /GMAETRACK/left/y
+/liveRogs1/mapPitch/input/max 1.000000
+/liveRogs1/mapPitch/input/min 0.000000
+/liveRogs1/mapPitch/output/max 1.000000
+/liveRogs1/mapPitch/output/min 0.000000
+/liveRogs1/mapPitch/process/function freehand
+/liveRogs1/mapPitch/process/clipmode both
+/liveRogs1/mapPitch/process/mode 0.000000
+/liveRogs1/mapPitch/process/rampTime 0.000000
+/liveRogs1/mapPitch/slide/down 0.000000
+/liveRogs1/mapPitch/slide/up 0.000000
+/liveRogs1/mapPitch/active 1
+/liveRogs1/mapPitch/scalebypass 1
+# 
+/liveRogs1/mapPosition/data/active 1
+/liveRogs1/mapPosition/function/parameters.1 0.000000
+/liveRogs1/mapPosition/input/address none
+/liveRogs1/mapPosition/input/max 1.000000
+/liveRogs1/mapPosition/input/min 0.000000
+/liveRogs1/mapPosition/output/max 1.000000
+/liveRogs1/mapPosition/output/min 0.000000
+/liveRogs1/mapPosition/process/function freehand
+/liveRogs1/mapPosition/process/clipmode both
+/liveRogs1/mapPosition/process/mode 0.000000
+/liveRogs1/mapPosition/process/rampTime 0.000000
+/liveRogs1/mapPosition/slide/down 0.000000
+/liveRogs1/mapPosition/slide/up 0.000000
+/liveRogs1/mapPosition/active 0
+/liveRogs1/mapPosition/scalebypass 1
+# 
+/liveRogs1/mapPvar/data/active 1
+/liveRogs1/mapPvar/function/parameters.1 0.000000
+/liveRogs1/mapPvar/input/address /GMAETRACK/left/x
+/liveRogs1/mapPvar/input/max 1.000000
+/liveRogs1/mapPvar/input/min 0.000000
+/liveRogs1/mapPvar/output/max 1.000000
+/liveRogs1/mapPvar/output/min 0.000000
+/liveRogs1/mapPvar/process/function freehand
+/liveRogs1/mapPvar/process/clipmode both
+/liveRogs1/mapPvar/process/mode 0.000000
+/liveRogs1/mapPvar/process/rampTime 0.000000
+/liveRogs1/mapPvar/slide/down 0.000000
+/liveRogs1/mapPvar/slide/up 0.000000
+/liveRogs1/mapPvar/active 1
+/liveRogs1/mapPvar/scalebypass 1
+# 
+/liveRogs1/mapSize/data/active 1
+/liveRogs1/mapSize/function/parameters.1 0.000000
+/liveRogs1/mapSize/input/address /GMAETRACK/right/x
+/liveRogs1/mapSize/input/max 1.000000
+/liveRogs1/mapSize/input/min 0.000000
+/liveRogs1/mapSize/output/max 1.000000
+/liveRogs1/mapSize/output/min 0.000000
+/liveRogs1/mapSize/process/function freehand
+/liveRogs1/mapSize/process/clipmode both
+/liveRogs1/mapSize/process/mode 0.000000
+/liveRogs1/mapSize/process/rampTime 0.000000
+/liveRogs1/mapSize/slide/down 0.000000
+/liveRogs1/mapSize/slide/up 0.000000
+/liveRogs1/mapSize/active 1
+/liveRogs1/mapSize/scalebypass 1
+# 
+/liveRogs1/mapSpeed/data/active 1
+/liveRogs1/mapSpeed/function/parameters.1 0.000000
+/liveRogs1/mapSpeed/input/address /GMAETRACK/left/z
+/liveRogs1/mapSpeed/input/max 1.000000
+/liveRogs1/mapSpeed/input/min 0.000000
+/liveRogs1/mapSpeed/output/max 1.000000
+/liveRogs1/mapSpeed/output/min 0.000000
+/liveRogs1/mapSpeed/process/function freehand
+/liveRogs1/mapSpeed/process/clipmode both
+/liveRogs1/mapSpeed/process/mode 0.000000
+/liveRogs1/mapSpeed/process/rampTime 0.000000
+/liveRogs1/mapSpeed/slide/down 0.000000
+/liveRogs1/mapSpeed/slide/up 0.000000
+/liveRogs1/mapSpeed/active 1
+/liveRogs1/mapSpeed/scalebypass 1
+# 
+/liveRogs1/mapSpread/data/active 1
+/liveRogs1/mapSpread/function/parameters.1 0.000000
+/liveRogs1/mapSpread/input/address none
+/liveRogs1/mapSpread/input/max 1.000000
+/liveRogs1/mapSpread/input/min 0.000000
+/liveRogs1/mapSpread/output/max 1.000000
+/liveRogs1/mapSpread/output/min 0.000000
+/liveRogs1/mapSpread/process/function freehand
+/liveRogs1/mapSpread/process/clipmode both
+/liveRogs1/mapSpread/process/mode 0.000000
+/liveRogs1/mapSpread/process/rampTime 0.000000
+/liveRogs1/mapSpread/slide/down 0.000000
+/liveRogs1/mapSpread/slide/up 0.000000
+/liveRogs1/mapSpread/active 0
+/liveRogs1/mapSpread/scalebypass 1
+# 
+/liveRogs1/mapTrigger/data/active 1
+/liveRogs1/mapTrigger/function/parameters.1 0.000000
+/liveRogs1/mapTrigger/input/address /GMAETRACK/right/z
+/liveRogs1/mapTrigger/input/max 1.000000
+/liveRogs1/mapTrigger/input/min 0.000000
+/liveRogs1/mapTrigger/output/max 1.000000
+/liveRogs1/mapTrigger/output/min 0.000000
+/liveRogs1/mapTrigger/process/function freehand
+/liveRogs1/mapTrigger/process/clipmode both
+/liveRogs1/mapTrigger/process/mode 0.000000
+/liveRogs1/mapTrigger/process/rampTime 0.000000
+/liveRogs1/mapTrigger/slide/down 0.000000
+/liveRogs1/mapTrigger/slide/up 0.000000
+/liveRogs1/mapTrigger/active 1
+/liveRogs1/mapTrigger/scalebypass 1
+# 
+/liveRogs1/mapTurn/data/active 1
+/liveRogs1/mapTurn/function/parameters.1 0.000000
+/liveRogs1/mapTurn/input/address none
+/liveRogs1/mapTurn/input/max 1.000000
+/liveRogs1/mapTurn/input/min 0.000000
+/liveRogs1/mapTurn/output/max 1.000000
+/liveRogs1/mapTurn/output/min 0.000000
+/liveRogs1/mapTurn/process/function freehand
+/liveRogs1/mapTurn/process/clipmode both
+/liveRogs1/mapTurn/process/mode 0.000000
+/liveRogs1/mapTurn/process/rampTime 0.000000
+/liveRogs1/mapTurn/slide/down 0.000000
+/liveRogs1/mapTurn/slide/up 0.000000
+/liveRogs1/mapTurn/active 0
+/liveRogs1/mapTurn/scalebypass 1
+/liveRogs1/audio/bypass 0
+/liveRogs1/audio/gain 12.000000
+/liveRogs1/audio/mix 100.000000
+/liveRogs1/audio/mute 0
+/liveRogs1/buffer/append 1
+/liveRogs1/buffer/rec 0
+/liveRogs1/buffer/size 17614.321608
+/liveRogs1/mapperGate/gain 0
+/liveRogs1/mapperGate/onsetVar 0
+/liveRogs1/mapperGate/pitch 0
+/liveRogs1/mapperGate/pitchVar 0
+/liveRogs1/mapperGate/position 0
+/liveRogs1/mapperGate/size 0
+/liveRogs1/mapperGate/speed 0
+/liveRogs1/mapperGate/spread 0
+/liveRogs1/mapperGate/trigger 0
+/liveRogs1/mapperGate/turn 0
+/liveRogs1/mod/gain 0.000000
+/liveRogs1/mod/onsetVar 800.000000
+/liveRogs1/mod/pitch 300.000000
+/liveRogs1/mod/pitchVar 30.000000
+/liveRogs1/mod/position 0.000000
+/liveRogs1/mod/size 200.000000
+/liveRogs1/mod/speed 0.410000
+/liveRogs1/mod/spread 0.000000
+/liveRogs1/mod/trigger 30.000000
+/liveRogs1/mod/turn 0.000000
+/liveRogs1/pan/mode 1
+/liveRogs1/pan/rate 3.000000
+/liveRogs1/pan/spread 0.400000
+/liveRogs1/pitch/transpose -2400.000000
+/liveRogs1/pitch/variation 0.000000
+/liveRogs1/playback/direction 0
+/liveRogs1/playback/speed 0.010000
+/liveRogs1/playback/position 0.645609
+/liveRogs1/selection/mode 0
+/liveRogs1/selection/range 6986.666667 11375.729167
+# 
+# 
+/live1Out/limiter/dcblocker/active 1
+/live1Out/limiter/active 1
+/live1Out/limiter/lookahead 64
+/live1Out/limiter/mode exponential
+/live1Out/limiter/postamp 0.000000
+/live1Out/limiter/preamp 0.000000
+/live1Out/limiter/release 300.000000
+/live1Out/limiter/threshold 0.000000
+# 
+/live1Out/record/file/type aiff
+/live1Out/record/samptype int24
+/live1Out/audio/gain -6.189360
+/live1Out/audio/mute 0
+/live1Out/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+# 
+/output=/limiter/dcblocker/active 1
+/output=/limiter/active 1
+/output=/limiter/lookahead 64
+/output=/limiter/mode exponential
+/output=/limiter/postamp 0.000000
+/output=/limiter/preamp 0.000000
+/output=/limiter/release 300.000000
+/output=/limiter/threshold 0.000000
+# 
+/output=/record/file/type aiff
+/output=/record/samptype int24
+/output=/audio/gain 0.000000
+/output=/audio/mute 0
+/output=/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+# 
+/vstOut/limiter/dcblocker/active 1
+/vstOut/limiter/active 1
+/vstOut/limiter/lookahead 64
+/vstOut/limiter/mode exponential
+/vstOut/limiter/postamp 0.000000
+/vstOut/limiter/preamp 0.000000
+/vstOut/limiter/release 347.244094
+/vstOut/limiter/threshold 0.000000
+# 
+/vstOut/record/file/type aiff
+/vstOut/record/samptype int24
+/vstOut/audio/gain -96.000000
+/vstOut/audio/mute 0
+/vstOut/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+/GMAETRACK/left/x 0.338624
+/GMAETRACK/left/y -1.000000
+/GMAETRACK/left/z 0.000000
+/GMAETRACK/right/x 0.036091
+/GMAETRACK/right/y 0.835409
+/GMAETRACK/right/z 0.000000
+# 
+/rvb-scale/data/active 1
+/rvb-scale/function/parameters.1 0.000000
+/rvb-scale/input/address /GMAETRACK/right/y
+/rvb-scale/input/max 1.000000
+/rvb-scale/input/min 0.000000
+/rvb-scale/output/max 1.000000
+/rvb-scale/output/min 0.000000
+/rvb-scale/process/function freehand
+/rvb-scale/process/clipmode both
+/rvb-scale/process/mode 0.000000
+/rvb-scale/process/rampTime 0.000000
+/rvb-scale/slide/down 0.000000
+/rvb-scale/slide/up 0.000000
+/rvb-scale/active 0
+/rvb-scale/scalebypass 1
+# 
+/reverb/liveRogsSpat 0.000000
+# 
+# ###########################################
+
+- cue "aurRRooOOrrRraa"
+- description "something about this cue"
+# ###########################################
+# 
+/liveRogs1/grain/trigger/variance/gainVar/randomnessRate 0.000000
+/liveRogs1/grain/trigger/variance/gainVar/range 90.215157 90.215157
+/liveRogs1/grain/trigger/variance/rateVar/randomnessRate 0.903233
+/liveRogs1/grain/trigger/variance/rateVar/spread 130.724564
+/liveRogs1/grain/trigger/variance/on 1
+/liveRogs1/grain/trigger/freq 38.000000
+/liveRogs1/grain/trigger/lock 0
+/liveRogs1/grain/trigger/mode 0
+/liveRogs1/grain/trigger/note 0
+/liveRogs1/grain/duration 10.000000
+/liveRogs1/grain/onsetVar 0.000000
+/liveRogs1/grain/overlap 80
+# 
+/liveRogs1/mapGain/data/active 1
+/liveRogs1/mapGain/function/parameters.1 0.000000
+/liveRogs1/mapGain/input/address none
+/liveRogs1/mapGain/input/max 1.000000
+/liveRogs1/mapGain/input/min 0.000000
+/liveRogs1/mapGain/output/max 1.000000
+/liveRogs1/mapGain/output/min 0.000000
+/liveRogs1/mapGain/process/function freehand
+/liveRogs1/mapGain/process/clipmode both
+/liveRogs1/mapGain/process/mode 0.000000
+/liveRogs1/mapGain/process/rampTime 0.000000
+/liveRogs1/mapGain/slide/down 0.000000
+/liveRogs1/mapGain/slide/up 0.000000
+/liveRogs1/mapGain/active 0
+/liveRogs1/mapGain/scalebypass 1
+# 
+/liveRogs1/mapOnsetVar/data/active 1
+/liveRogs1/mapOnsetVar/function/parameters.1 0.000000
+/liveRogs1/mapOnsetVar/input/address /GMAETRACK/left/x
+/liveRogs1/mapOnsetVar/input/max 1.000000
+/liveRogs1/mapOnsetVar/input/min 0.000000
+/liveRogs1/mapOnsetVar/output/max 1.000000
+/liveRogs1/mapOnsetVar/output/min 0.000000
+/liveRogs1/mapOnsetVar/process/function freehand
+/liveRogs1/mapOnsetVar/process/clipmode both
+/liveRogs1/mapOnsetVar/process/mode 0.000000
+/liveRogs1/mapOnsetVar/process/rampTime 0.000000
+/liveRogs1/mapOnsetVar/slide/down 0.000000
+/liveRogs1/mapOnsetVar/slide/up 0.000000
+/liveRogs1/mapOnsetVar/active 1
+/liveRogs1/mapOnsetVar/scalebypass 1
+# 
+/liveRogs1/mapPitch/data/active 1
+/liveRogs1/mapPitch/function/parameters.1 0.000000
+/liveRogs1/mapPitch/input/address /GMAETRACK/left/y
+/liveRogs1/mapPitch/input/max 1.000000
+/liveRogs1/mapPitch/input/min 0.000000
+/liveRogs1/mapPitch/output/max 1.000000
+/liveRogs1/mapPitch/output/min 0.000000
+/liveRogs1/mapPitch/process/function freehand
+/liveRogs1/mapPitch/process/clipmode both
+/liveRogs1/mapPitch/process/mode 0.000000
+/liveRogs1/mapPitch/process/rampTime 0.000000
+/liveRogs1/mapPitch/slide/down 0.000000
+/liveRogs1/mapPitch/slide/up 0.000000
+/liveRogs1/mapPitch/active 1
+/liveRogs1/mapPitch/scalebypass 1
+# 
+/liveRogs1/mapPosition/data/active 1
+/liveRogs1/mapPosition/function/parameters.1 0.000000
+/liveRogs1/mapPosition/input/address none
+/liveRogs1/mapPosition/input/max 1.000000
+/liveRogs1/mapPosition/input/min 0.000000
+/liveRogs1/mapPosition/output/max 1.000000
+/liveRogs1/mapPosition/output/min 0.000000
+/liveRogs1/mapPosition/process/function freehand
+/liveRogs1/mapPosition/process/clipmode both
+/liveRogs1/mapPosition/process/mode 0.000000
+/liveRogs1/mapPosition/process/rampTime 0.000000
+/liveRogs1/mapPosition/slide/down 0.000000
+/liveRogs1/mapPosition/slide/up 0.000000
+/liveRogs1/mapPosition/active 0
+/liveRogs1/mapPosition/scalebypass 1
+# 
+/liveRogs1/mapPvar/data/active 1
+/liveRogs1/mapPvar/function/parameters.1 0.000000
+/liveRogs1/mapPvar/input/address /GMAETRACK/left/x
+/liveRogs1/mapPvar/input/max 1.000000
+/liveRogs1/mapPvar/input/min 0.000000
+/liveRogs1/mapPvar/output/max 1.000000
+/liveRogs1/mapPvar/output/min 0.000000
+/liveRogs1/mapPvar/process/function freehand
+/liveRogs1/mapPvar/process/clipmode both
+/liveRogs1/mapPvar/process/mode 0.000000
+/liveRogs1/mapPvar/process/rampTime 0.000000
+/liveRogs1/mapPvar/slide/down 0.000000
+/liveRogs1/mapPvar/slide/up 0.000000
+/liveRogs1/mapPvar/active 1
+/liveRogs1/mapPvar/scalebypass 1
+# 
+/liveRogs1/mapSize/data/active 1
+/liveRogs1/mapSize/function/parameters.1 0.000000
+/liveRogs1/mapSize/input/address /GMAETRACK/right/x
+/liveRogs1/mapSize/input/max 1.000000
+/liveRogs1/mapSize/input/min 0.000000
+/liveRogs1/mapSize/output/max 1.000000
+/liveRogs1/mapSize/output/min 0.000000
+/liveRogs1/mapSize/process/function freehand
+/liveRogs1/mapSize/process/clipmode both
+/liveRogs1/mapSize/process/mode 0.000000
+/liveRogs1/mapSize/process/rampTime 0.000000
+/liveRogs1/mapSize/slide/down 0.000000
+/liveRogs1/mapSize/slide/up 0.000000
+/liveRogs1/mapSize/active 1
+/liveRogs1/mapSize/scalebypass 1
+# 
+/liveRogs1/mapSpeed/data/active 1
+/liveRogs1/mapSpeed/function/parameters.1 0.000000
+/liveRogs1/mapSpeed/input/address /GMAETRACK/left/z
+/liveRogs1/mapSpeed/input/max 1.000000
+/liveRogs1/mapSpeed/input/min 0.000000
+/liveRogs1/mapSpeed/output/max 1.000000
+/liveRogs1/mapSpeed/output/min 0.000000
+/liveRogs1/mapSpeed/process/function freehand
+/liveRogs1/mapSpeed/process/clipmode both
+/liveRogs1/mapSpeed/process/mode 0.000000
+/liveRogs1/mapSpeed/process/rampTime 0.000000
+/liveRogs1/mapSpeed/slide/down 0.000000
+/liveRogs1/mapSpeed/slide/up 0.000000
+/liveRogs1/mapSpeed/active 1
+/liveRogs1/mapSpeed/scalebypass 1
+# 
+/liveRogs1/mapSpread/data/active 1
+/liveRogs1/mapSpread/function/parameters.1 0.000000
+/liveRogs1/mapSpread/input/address none
+/liveRogs1/mapSpread/input/max 1.000000
+/liveRogs1/mapSpread/input/min 0.000000
+/liveRogs1/mapSpread/output/max 1.000000
+/liveRogs1/mapSpread/output/min 0.000000
+/liveRogs1/mapSpread/process/function freehand
+/liveRogs1/mapSpread/process/clipmode both
+/liveRogs1/mapSpread/process/mode 0.000000
+/liveRogs1/mapSpread/process/rampTime 0.000000
+/liveRogs1/mapSpread/slide/down 0.000000
+/liveRogs1/mapSpread/slide/up 0.000000
+/liveRogs1/mapSpread/active 0
+/liveRogs1/mapSpread/scalebypass 1
+# 
+/liveRogs1/mapTrigger/data/active 1
+/liveRogs1/mapTrigger/function/parameters.1 0.000000
+/liveRogs1/mapTrigger/input/address /GMAETRACK/right/z
+/liveRogs1/mapTrigger/input/max 1.000000
+/liveRogs1/mapTrigger/input/min 0.000000
+/liveRogs1/mapTrigger/output/max 1.000000
+/liveRogs1/mapTrigger/output/min 0.000000
+/liveRogs1/mapTrigger/process/function freehand
+/liveRogs1/mapTrigger/process/clipmode both
+/liveRogs1/mapTrigger/process/mode 0.000000
+/liveRogs1/mapTrigger/process/rampTime 0.000000
+/liveRogs1/mapTrigger/slide/down 0.000000
+/liveRogs1/mapTrigger/slide/up 0.000000
+/liveRogs1/mapTrigger/active 1
+/liveRogs1/mapTrigger/scalebypass 1
+# 
+/liveRogs1/mapTurn/data/active 1
+/liveRogs1/mapTurn/function/parameters.1 0.000000
+/liveRogs1/mapTurn/input/address none
+/liveRogs1/mapTurn/input/max 1.000000
+/liveRogs1/mapTurn/input/min 0.000000
+/liveRogs1/mapTurn/output/max 1.000000
+/liveRogs1/mapTurn/output/min 0.000000
+/liveRogs1/mapTurn/process/function freehand
+/liveRogs1/mapTurn/process/clipmode both
+/liveRogs1/mapTurn/process/mode 0.000000
+/liveRogs1/mapTurn/process/rampTime 0.000000
+/liveRogs1/mapTurn/slide/down 0.000000
+/liveRogs1/mapTurn/slide/up 0.000000
+/liveRogs1/mapTurn/active 0
+/liveRogs1/mapTurn/scalebypass 1
+/liveRogs1/audio/bypass 0
+/liveRogs1/audio/gain 4.000000
+/liveRogs1/audio/mix 100.000000
+/liveRogs1/audio/mute 0
+/liveRogs1/buffer/append 1
+/liveRogs1/buffer/rec 0
+/liveRogs1/buffer/size 17614.321608
+/liveRogs1/mapperGate/gain 0
+/liveRogs1/mapperGate/onsetVar 0
+/liveRogs1/mapperGate/pitch 0
+/liveRogs1/mapperGate/pitchVar 0
+/liveRogs1/mapperGate/position 0
+/liveRogs1/mapperGate/size 0
+/liveRogs1/mapperGate/speed 0
+/liveRogs1/mapperGate/spread 0
+/liveRogs1/mapperGate/trigger 0
+/liveRogs1/mapperGate/turn 0
+/liveRogs1/mod/gain 0.000000
+/liveRogs1/mod/onsetVar 800.000000
+/liveRogs1/mod/pitch 300.000000
+/liveRogs1/mod/pitchVar 30.000000
+/liveRogs1/mod/position 0.000000
+/liveRogs1/mod/size 200.000000
+/liveRogs1/mod/speed 0.410000
+/liveRogs1/mod/spread 0.000000
+/liveRogs1/mod/trigger 30.000000
+/liveRogs1/mod/turn 0.000000
+/liveRogs1/pan/mode 1
+/liveRogs1/pan/rate 0.100000
+/liveRogs1/pan/spread 0.500000
+/liveRogs1/pitch/transpose 0.000000
+/liveRogs1/pitch/variation 0.000000
+/liveRogs1/playback/direction 1
+/liveRogs1/playback/speed 0.200000
+/liveRogs1/playback/position 0.587155
+/liveRogs1/selection/mode 1
+/liveRogs1/selection/range 10342.333333 13969.125000
+# 
+# 
+/live1Out/limiter/dcblocker/active 1
+/live1Out/limiter/active 1
+/live1Out/limiter/lookahead 64
+/live1Out/limiter/mode exponential
+/live1Out/limiter/postamp 0.000000
+/live1Out/limiter/preamp 0.000000
+/live1Out/limiter/release 300.000000
+/live1Out/limiter/threshold 0.000000
+# 
+/live1Out/record/file/type aiff
+/live1Out/record/samptype int24
+/live1Out/audio/gain -7.123232
+/live1Out/audio/mute 0
+/live1Out/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+# 
+/output=/limiter/dcblocker/active 1
+/output=/limiter/active 1
+/output=/limiter/lookahead 64
+/output=/limiter/mode exponential
+/output=/limiter/postamp 0.000000
+/output=/limiter/preamp 0.000000
+/output=/limiter/release 300.000000
+/output=/limiter/threshold 0.000000
+# 
+/output=/record/file/type aiff
+/output=/record/samptype int24
+/output=/audio/gain 0.000000
+/output=/audio/mute 0
+/output=/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+# 
+/vstOut/limiter/dcblocker/active 1
+/vstOut/limiter/active 1
+/vstOut/limiter/lookahead 64
+/vstOut/limiter/mode exponential
+/vstOut/limiter/postamp 0.000000
+/vstOut/limiter/preamp 0.000000
+/vstOut/limiter/release 347.244094
+/vstOut/limiter/threshold 0.000000
+# 
+/vstOut/record/file/type aiff
+/vstOut/record/samptype int24
+/vstOut/audio/gain 3.799703
+/vstOut/audio/mute 0
+/vstOut/setup 1.000000 2.000000 3.000000 4.000000 5.000000 6.000000 7.000000 8.000000 9.000000 10.000000 11.000000 12.000000 13.000000 14.000000 15.000000 16.000000 17.000000 18.000000 19.000000 20.000000 21.000000 22.000000 23.000000 24.000000 25.000000 26.000000 27.000000 28.000000 29.000000 30.000000 31.000000 32.000000
+# 
+/GMAETRACK/left/x 0.338624
+/GMAETRACK/left/y -1.000000
+/GMAETRACK/left/z 0.000000
+/GMAETRACK/right/x 0.036091
+/GMAETRACK/right/y 0.835409
+/GMAETRACK/right/z 0.000000
+# 
+/rvb-scale/data/active 1
+/rvb-scale/function/parameters.1 0.000000
+/rvb-scale/input/address /GMAETRACK/right/y
+/rvb-scale/input/max 1.000000
+/rvb-scale/input/min 0.000000
+/rvb-scale/output/max 1.000000
+/rvb-scale/output/min 0.000000
+/rvb-scale/process/function freehand
+/rvb-scale/process/clipmode both
+/rvb-scale/process/mode 0.000000
+/rvb-scale/process/rampTime 0.000000
+/rvb-scale/slide/down 0.000000
+/rvb-scale/slide/up 0.000000
+/rvb-scale/active 0
+/rvb-scale/scalebypass 1
+# 
+/reverb/liveRogsSpat 0.000000
+# 
+# ###########################################
+
