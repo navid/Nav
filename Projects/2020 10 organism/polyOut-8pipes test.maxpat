@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 426.0, 85.0, 467.0, 480.0 ],
+		"rect" : [ 140.0, 147.0, 467.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 369.0, 222.0, 39.0, 20.0 ],
+					"text" : "no 24"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "notesPipe" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -54,7 +65,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 18.0, 150.0, 70.0 ],
+					"patching_rect" : [ 14.0, 5.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -89,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 370.0, 403.25, 17.0 ],
+					"patching_rect" : [ 37.0, 370.0, 323.0, 17.0 ],
 					"text" : "1    2  3   4    5       6   7   8  9  10 11 12 13    14 15 16  17 18 19 20 21 22 23 24"
 				}
 
@@ -122,7 +133,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 302.0, 140.0, 150.0, 70.0 ],
+					"patching_rect" : [ 294.0, 108.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -135,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 157.0, 50.0, 22.0 ]
+					"patching_rect" : [ 14.0, 156.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -147,7 +158,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 354.0, 28.5, 50.0, 22.0 ]
+					"patching_rect" : [ 407.0, 5.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -159,7 +170,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 21.5, 20.0, 20.0 ]
+					"patching_rect" : [ 355.0, 5.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -172,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 302.0, 52.0, 71.0, 23.0 ],
+					"patching_rect" : [ 355.0, 28.5, 71.0, 23.0 ],
 					"text" : "metro 180"
 				}
 
@@ -186,7 +197,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 302.0, 80.0, 72.0, 23.0 ],
+					"patching_rect" : [ 355.0, 56.5, 72.0, 23.0 ],
 					"text" : "random 40"
 				}
 
@@ -201,27 +212,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.0, 450.0, 175.0, 23.0 ],
 					"text" : "noteout 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "notesPipe" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-3",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "nav.rand.module.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 37.0, 33.0, 150.0, 70.0 ],
-					"viewvisibility" : 1
 				}
 
 			}
@@ -295,7 +285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 37.0, 193.5, 34.0, 23.0 ],
-					"text" : "+ 36"
+					"text" : "+ 23"
 				}
 
 			}
@@ -427,15 +417,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -463,14 +446,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "nav.rand.module.maxpat",
-				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.rand",
+				"bootpath" : "~/Documents/GitHub/Nav/Jamoma-v1/j.nav.rand",
 				"patcherrelativepath" : "../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.model.maxpat",
-				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.rand",
+				"bootpath" : "~/Documents/GitHub/Nav/Jamoma-v1/j.nav.rand",
 				"patcherrelativepath" : "../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
@@ -478,13 +461,13 @@
 , 			{
 				"name" : "j.absdiff.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/components/data/absdiff",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/patchers/components/data/absdiff",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Jamoma/patchers/components/data/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.rand.view.maxpat",
-				"bootpath" : "~/code/Nav/Jamoma-v1/j.nav.rand",
+				"bootpath" : "~/Documents/GitHub/Nav/Jamoma-v1/j.nav.rand",
 				"patcherrelativepath" : "../../Jamoma-v1/j.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
