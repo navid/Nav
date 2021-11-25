@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 840.0, 133.0, 614.0, 547.0 ],
+		"rect" : [ 1161.0, 542.0, 621.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -18,7 +18,7 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 774.0, 342.0, 77.0, 20.0 ],
+					"text" : "r muteGame"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -55,49 +69,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 18.0, 86.0, 18.0 ],
 					"text" : "/audio/gain 65"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-156",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.5, 436.0, 246.0, 38.0 ],
-					"text" : "/file/open Macintosh HD:/Users/NavNav/Desktop/2014 12 sounds of Montreal/CONCERT/TumbakLoop.aif"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-151",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.5, 366.0, 490.0, 15.0 ],
-					"text" : "/file/open Macintosh HD:/Users/NavNav/Desktop/2014 12 sounds of Montreal/CONCERT/smokedSignals-pure-dense.aif"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-153",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 391.0, 490.0, 15.0 ],
-					"text" : "/file/open Macintosh HD:/Users/NavNav/Desktop/2014 12 sounds of Montreal/CONCERT/smokedSignals-pure-dense.aif"
 				}
 
 			}
@@ -138,7 +109,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 27.0, 244.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 548.5, 430.0, 53.0, 53.0 ]
+					"presentation_rect" : [ 548.5, 420.0, 53.0, 53.0 ]
 				}
 
 			}
@@ -153,7 +124,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 151.0, 176.0, 150.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 404.0, 150.0, 105.0 ]
+					"presentation_rect" : [ 60.0, 394.0, 150.0, 105.0 ]
 				}
 
 			}
@@ -168,7 +139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 536.0, 667.0, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 514.0, 519.0, 29.0, 18.0 ],
+					"presentation_rect" : [ 514.0, 509.0, 29.0, 18.0 ],
 					"text" : "rvrb"
 				}
 
@@ -221,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 59.0, 501.0, 57.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 1.0, 107.0, 17.0 ],
+					"presentation_rect" : [ 271.0, 1.0, 72.0, 17.0 ],
 					"rounded" : 15.0,
 					"text" : "Off",
 					"texton" : "On",
@@ -660,7 +631,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 789.5, 691.5, 83.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.0, 234.0, 64.0, 31.0 ],
+					"presentation_rect" : [ 147.0, 228.0, 64.0, 23.0 ],
 					"rounded" : 15.0,
 					"text" : "Off",
 					"texton" : "On",
@@ -749,7 +720,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 430.0, 771.5, 225.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.0, 237.0, 220.0, 18.0 ]
+					"presentation_rect" : [ 321.0, 231.0, 220.0, 18.0 ]
 				}
 
 			}
@@ -792,14 +763,54 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 524.0, 371.0, 165.0, 21.0 ],
+									"text" : "udpsend 127.0.0.1 987659"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 539.5, 340.0, 95.0, 20.0 ],
+									"text" : "prepend /switch"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 433.0, 361.0, 79.0, 20.0 ],
+									"text" : "s muteGame"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-46",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 577.5, 322.0, 107.0, 20.0 ],
-									"text" : "dot.debounce 200"
+									"patching_rect" : [ 433.0, 311.0, 107.0, 20.0 ],
+									"text" : "dot.debounce 500"
 								}
 
 							}
@@ -812,8 +823,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 487.0, 256.0, 108.0, 20.0 ],
-									"presentation_rect" : [ 481.0, 253.0, 0.0, 0.0 ],
+									"patching_rect" : [ 433.0, 265.0, 108.0, 20.0 ],
 									"text" : "o.route /footswitch"
 								}
 
@@ -827,7 +837,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 594.0, 291.0, 50.0, 18.0 ],
+									"patching_rect" : [ 497.0, 291.0, 50.0, 18.0 ],
 									"text" : "0"
 								}
 
@@ -841,7 +851,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 487.0, 282.0, 52.0, 20.0 ],
+									"patching_rect" : [ 433.0, 291.0, 52.0, 20.0 ],
 									"text" : "select 1"
 								}
 
@@ -855,7 +865,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 487.0, 322.0, 73.0, 20.0 ],
+									"patching_rect" : [ 433.0, 331.0, 73.0, 20.0 ],
 									"text" : "counter 0 1"
 								}
 
@@ -904,7 +914,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 530.0, 328.0, 153.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -929,12 +939,12 @@
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-2",
-													"linecount" : 12,
+													"linecount" : 9,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 205.0, 133.0, 310.0, 167.0 ],
-													"text" : "left\n\nx - is broken- 0-1 > variations (p, onset, spread)\ny - pitch\nz - speed\n\n\nright\n\nx - size\ny- wet-dry\nz- trigger"
+													"patching_rect" : [ 5.0, 7.0, 310.0, 127.0 ],
+													"text" : "L\nx - is broken- 0-1 > variations (p, onset, spread)\ny - pitch\nz - speed\n\nR\nx - size\ny- wet-dry\nz- trigger"
 												}
 
 											}
@@ -2295,7 +2305,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 433.0, 129.0, 150.0, 127.0 ],
-									"text" : "/left/x 0.21514\n/left/y 0.696215\n/left/z 0.810745\n/right/x -0.194139\n/right/y 0.825153\n/right/z 0.791697\n/footswitch 0\n/vendor \"Madcatz\"\n/productname \"Gametrak\"",
+									"text" : "/left/x 0.647375\n/left/y -0.982906\n/left/z 0.990965\n/right/x 0.799267\n/right/y 0.10232\n/right/z 0.990476\n/footswitch 0\n/vendor \"Madcatz\"\n/productname \"Gametrak\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2317,6 +2327,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"int" : 1,
 									"maxclass" : "gswitch",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -2654,6 +2665,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2718,7 +2738,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
+									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-97", 0 ]
@@ -2727,7 +2747,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-41", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-97", 0 ]
@@ -2739,7 +2759,7 @@
 ,
 					"patching_rect" : [ 789.5, 748.0, 97.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.0, 237.0, 97.0, 20.0 ],
+					"presentation_rect" : [ 214.0, 231.0, 97.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3031,7 +3051,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 595.0, 489.0, 647.0, 394.0 ],
+						"rect" : [ 128.0, 199.0, 647.0, 394.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3053,13 +3073,28 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-15",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 180.333313, 230.0, 152.0, 33.0 ],
+									"text" : "midi has been connecte to poly pressure"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-12",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 257.5, 336.0, 95.0, 15.0 ],
+									"patching_rect" : [ 285.0, 336.0, 95.0, 15.0 ],
 									"text" : "/rogs2/audio/mute $1"
 								}
 
@@ -3073,7 +3108,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 257.5, 316.0, 32.5, 18.0 ],
+									"patching_rect" : [ 285.0, 316.0, 32.5, 18.0 ],
 									"text" : "< 5"
 								}
 
@@ -3243,19 +3278,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 382.0, 22.0, 48.0, 18.0 ],
 									"text" : "deferlow"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-62",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 102.5, 48.0, 30.0, 20.0 ],
-									"text" : "s III"
 								}
 
 							}
@@ -4600,20 +4622,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-68",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 425.333374, 180.0, 71.0, 20.0 ],
-									"text" : "route 36 38"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-65",
 									"maxclass" : "newobj",
 									"numinlets" : 14,
@@ -5258,16 +5266,7 @@
 									"destination" : [ "obj-59", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-58", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-62", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-58", 0 ]
+									"source" : [ "obj-58", 1 ]
 								}
 
 							}
@@ -5276,25 +5275,7 @@
 									"destination" : [ "obj-65", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-58", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-68", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-58", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-69", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-58", 0 ]
+									"source" : [ "obj-58", 1 ]
 								}
 
 							}
@@ -5466,7 +5447,7 @@
 ,
 					"patching_rect" : [ 906.5, 6.0, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 558.5, 384.0, 33.0, 20.0 ],
+					"presentation_rect" : [ 558.5, 374.0, 33.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -5493,8 +5474,8 @@
 					"numinlets" : 17,
 					"numoutlets" : 17,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 714.5, 36.0, 257.0, 20.0 ],
-					"text" : "route 18 1 2 18 3 5 4 7 8 9 10 11 12 40 100 80"
+					"patching_rect" : [ 714.5, 36.0, 250.0, 20.0 ],
+					"text" : "route 18 1 2 18 3 2 4 7 8 9 10 11 12 40 60 80"
 				}
 
 			}
@@ -5565,7 +5546,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 428.0, 205.5, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 311.0, 288.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 311.0, 278.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -5798,7 +5779,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 330.0, 262.0, 21.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 514.0, 381.5, 21.0, 144.0 ]
+					"presentation_rect" : [ 514.0, 371.5, 21.0, 144.0 ]
 				}
 
 			}
@@ -6028,7 +6009,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 784.0, 528.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 334.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 3.0, 324.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -6058,7 +6039,7 @@
 					"outlettype" : [ "", "audio.connect" ],
 					"patching_rect" : [ 784.0, 449.5, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 264.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 3.0, 254.0, 300.0, 70.0 ],
 					"varname" : "/reverb"
 				}
 
@@ -6108,7 +6089,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 306.0, 300.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.0, 404.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 214.0, 394.0, 300.0, 140.0 ],
 					"varname" : "jmod.output~[2]"
 				}
 
@@ -6215,37 +6196,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-151", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-153", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-156", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-159", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -6710,28 +6673,28 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
-			"obj-34::obj-108::obj-103" : [ "Direction[2]", "Direction", 0 ],
-			"obj-15::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-34::obj-74" : [ "note[2]", "Note", 0 ],
-			"obj-15::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
-			"obj-15::obj-74" : [ "note[1]", "Note", 0 ],
-			"obj-15::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
-			"obj-15::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
-			"obj-34::obj-108::obj-87" : [ "Direction[1]", "Direction", 0 ],
-			"obj-34::obj-51" : [ "Soundfile[2]", "Soundfile", 0 ],
-			"obj-34::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
-			"obj-34::obj-108::obj-32" : [ "live.text[8]", "live.text[3]", 0 ],
 			"obj-34::obj-68" : [ "DropFile[2]", "DropFile", 0 ],
-			"obj-34::obj-108::obj-67" : [ "SelectAll[1]", "SelectAll", 0 ],
-			"obj-15::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
-			"obj-34::obj-89" : [ "lock[2]", "Lock", 0 ],
-			"obj-15::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
-			"obj-15::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
+			"obj-34::obj-51" : [ "Soundfile[2]", "Soundfile", 0 ],
+			"obj-34::obj-108::obj-32" : [ "live.text[1]", "live.text[3]", 0 ],
+			"obj-15::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[3]", "Mode", 0 ],
 			"obj-15::obj-89" : [ "lock[1]", "Lock", 0 ],
+			"obj-34::obj-74" : [ "note[2]", "Note", 0 ],
 			"obj-34::obj-108::obj-101" : [ "Scrub[2]", "Scrub", 0 ],
+			"obj-34::obj-43::obj-131::obj-54::obj-9::obj-61" : [ "TriggersMode[4]", "Mode", 0 ],
+			"obj-34::obj-89" : [ "lock[2]", "Lock", 0 ],
+			"obj-15::obj-108::obj-32" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-15::obj-68" : [ "DropFile[1]", "DropFile", 0 ],
+			"obj-15::obj-108::obj-87" : [ "Direction[10]", "Direction", 0 ],
+			"obj-15::obj-69" : [ "SelectFile[1]", "SelectFile", 0 ],
 			"obj-15::obj-108::obj-103" : [ "Direction[9]", "Direction", 0 ],
-			"obj-34::obj-69" : [ "SelectFile[2]", "SelectFile", 0 ]
+			"obj-15::obj-74" : [ "note[1]", "Note", 0 ],
+			"obj-15::obj-108::obj-67" : [ "SelectAll[4]", "SelectAll", 0 ],
+			"obj-34::obj-108::obj-103" : [ "Direction[2]", "Direction", 0 ],
+			"obj-34::obj-69" : [ "SelectFile[2]", "SelectFile", 0 ],
+			"obj-15::obj-108::obj-101" : [ "Scrub[1]", "Scrub", 0 ],
+			"obj-15::obj-51" : [ "Soundfile[1]", "Soundfile", 0 ],
+			"obj-34::obj-108::obj-67" : [ "SelectAll[5]", "SelectAll", 0 ],
+			"obj-34::obj-108::obj-87" : [ "Direction[1]", "Direction", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
