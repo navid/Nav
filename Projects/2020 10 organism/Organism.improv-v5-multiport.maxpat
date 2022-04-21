@@ -524,7 +524,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 301.0, 45.0, 951.0, 76.0 ],
+						"rect" : [ 738.0, 104.0, 951.0, 76.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11102,7 +11102,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 285.0, 45.0, 68.0, 22.0 ],
-									"text" : "26 7 2"
+									"text" : "65 4 2"
 								}
 
 							}
@@ -11572,7 +11572,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 3.0, 484.0, 1759.0, 449.0 ],
+						"rect" : [ 765.0, 373.0, 1759.0, 449.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -21475,7 +21475,7 @@
 									"patching_rect" : [ 1839.0, 1577.0, 53.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 575.0, 360.0, 68.0, 22.0 ],
-									"text" : "40 127"
+									"text" : "46 127"
 								}
 
 							}
@@ -24211,7 +24211,7 @@
 									"patching_rect" : [ 1439.0, 1442.0, 68.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 575.0, 315.0, 68.0, 22.0 ],
-									"text" : "26 7 2"
+									"text" : "87 2 4"
 								}
 
 							}
@@ -27261,7 +27261,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 431.0, 112.0, 1541.0, 964.0 ],
+						"rect" : [ 992.0, 237.0, 1541.0, 964.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -27289,6 +27289,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-567",
@@ -27310,7 +27311,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 243.0, 84.0, 195.0, 22.0 ],
-									"text" : "/y2/7 6.146273"
+									"text" : "/y4/2 80.246719"
 								}
 
 							}
@@ -28492,7 +28493,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 213.0, 30.0, 195.0, 22.0 ],
-									"text" : "address servos/y2/7 15"
+									"text" : "address servos/y2/4 33"
 								}
 
 							}
@@ -30719,7 +30720,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 131.0, 783.0, 24.0, 24.0 ]
+									"patching_rect" : [ 138.0, 753.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -31208,7 +31209,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1226.75, 947.864864587783813, 50.0, 22.0 ],
-									"text" : "26 7 2"
+									"text" : "87 2 4"
 								}
 
 							}
@@ -34246,7 +34247,7 @@
 									"patching_rect" : [ 1338.25, 871.56756728887558, 55.5, 16.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-18", "number", "int", 1, 5, "obj-19", "number", "int", 85, 5, "obj-13", "number", "int", 10, 5, "obj-12", "number", "int", 98, 5, "obj-20", "number", "int", 5, 5, "obj-17", "number", "int", 93, 5, "obj-38", "number", "int", 0, 5, "obj-37", "number", "int", 83, 5, "obj-32", "number", "int", 24, 5, "obj-30", "number", "int", 102, 5, "obj-25", "number", "int", 46, 5, "obj-24", "number", "int", 127, 5, "obj-49", "number", "int", 9, 5, "obj-48", "number", "int", 93, 5, "obj-44", "number", "int", 46, 5, "obj-43", "number", "int", 127, 5, "obj-60", "number", "int", 13, 5, "obj-58", "number", "int", 111, 5, "obj-54", "number", "int", 6, 5, "obj-53", "number", "int", 107, 5, "obj-263", "flonum", "float", 0.0, 5, "obj-262", "flonum", "float", 100.0, 5, "obj-261", "flonum", "float", 0.0, 5, "obj-260", "flonum", "float", 100.0, 5, "obj-259", "flonum", "float", 0.0, 5, "obj-258", "flonum", "float", 100.0, 5, "obj-257", "flonum", "float", 0.0, 5, "obj-256", "flonum", "float", 100.0, 5, "obj-255", "flonum", "float", 0.0, 5, "obj-254", "flonum", "float", 100.0, 5, "obj-253", "flonum", "float", 0.0, 5, "obj-252", "flonum", "float", 100.0, 5, "obj-251", "flonum", "float", 0.0, 5, "obj-250", "flonum", "float", 100.0, 5, "obj-249", "flonum", "float", 0.0, 5, "obj-248", "flonum", "float", 100.0, 5, "obj-247", "flonum", "float", 0.0, 5, "obj-246", "flonum", "float", 100.0, 5, "obj-245", "flonum", "float", 0.0, 5, "obj-244", "flonum", "float", 100.0, 5, "obj-144", "number", "int", 18, 5, "obj-143", "number", "int", 94, 5, "obj-138", "number", "int", 15, 5, "obj-137", "number", "int", 84, 5, "obj-133", "number", "int", 14, 5, "obj-132", "number", "int", 83, 5, "obj-128", "number", "int", 9, 5, "obj-127", "number", "int", 77, 5, "obj-123", "number", "int", 10, 5, "obj-122", "number", "int", 80, 5, "obj-118", "number", "int", 13, 5, "obj-117", "number", "int", 85, 5, "obj-113", "number", "int", 22, 5, "obj-112", "number", "int", 88, 5, "obj-108", "number", "int", 37, 5, "obj-107", "number", "int", 105, 5, "obj-103", "number", "int", 33, 5, "obj-102", "number", "int", 127, 5, "obj-98", "number", "int", 36, 5, "obj-97", "number", "int", 118, 5, "obj-92", "flonum", "float", 0.0, 5, "obj-91", "flonum", "float", 100.0, 5, "obj-90", "flonum", "float", 0.0, 5, "obj-89", "flonum", "float", 100.0, 5, "obj-88", "flonum", "float", 0.0, 5, "obj-87", "flonum", "float", 100.0, 5, "obj-86", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 100.0, 5, "obj-83", "flonum", "float", 0.0, 5, "obj-82", "flonum", "float", 100.0, 5, "obj-81", "flonum", "float", 0.0, 5, "obj-80", "flonum", "float", 100.0, 5, "obj-78", "flonum", "float", 0.0, 5, "obj-75", "flonum", "float", 100.0, 5, "obj-74", "flonum", "float", 0.0, 5, "obj-73", "flonum", "float", 100.0, 5, "obj-72", "flonum", "float", 0.0, 5, "obj-63", "flonum", "float", 100.0, 5, "obj-62", "flonum", "float", 0.0, 5, "obj-10", "flonum", "float", 100.0, 5, "obj-217", "number", "int", 0, 5, "obj-216", "number", "int", 111, 5, "obj-211", "number", "int", 0, 5, "obj-210", "number", "int", 94, 5, "obj-206", "number", "int", 0, 5, "obj-205", "number", "int", 104, 5, "obj-201", "number", "int", 5, 5, "obj-200", "number", "int", 111, 5, "obj-196", "number", "int", 15, 5, "obj-195", "number", "int", 92, 5, "obj-191", "number", "int", 41, 5, "obj-190", "number", "int", 127, 5, "obj-186", "number", "int", 37, 5, "obj-185", "number", "int", 120, 5, "obj-181", "number", "int", 30, 5, "obj-180", "number", "int", 106, 5, "obj-176", "number", "int", 24, 5, "obj-175", "number", "int", 106, 5, "obj-171", "number", "int", 18, 5, "obj-170", "number", "int", 123, 5, "obj-165", "flonum", "float", 0.0, 5, "obj-164", "flonum", "float", 100.0, 5, "obj-163", "flonum", "float", 0.0, 5, "obj-162", "flonum", "float", 100.0, 5, "obj-161", "flonum", "float", 0.0, 5, "obj-160", "flonum", "float", 100.0, 5, "obj-159", "flonum", "float", 0.0, 5, "obj-158", "flonum", "float", 100.0, 5, "obj-157", "flonum", "float", 0.0, 5, "obj-156", "flonum", "float", 100.0, 5, "obj-155", "flonum", "float", 0.0, 5, "obj-154", "flonum", "float", 100.0, 5, "obj-153", "flonum", "float", 0.0, 5, "obj-152", "flonum", "float", 100.0, 5, "obj-151", "flonum", "float", 0.0, 5, "obj-150", "flonum", "float", 100.0, 5, "obj-149", "flonum", "float", 0.0, 5, "obj-148", "flonum", "float", 100.0, 5, "obj-147", "flonum", "float", 0.0, 5, "obj-146", "flonum", "float", 100.0, 5, "obj-311", "number", "int", 16, 5, "obj-310", "number", "int", 79, 5, "obj-305", "number", "int", 18, 5, "obj-304", "number", "int", 80, 5, "obj-300", "number", "int", 30, 5, "obj-299", "number", "int", 118, 5, "obj-295", "number", "int", 39, 5, "obj-294", "number", "int", 115, 5, "obj-238", "flonum", "float", 0.0, 5, "obj-237", "flonum", "float", 100.0, 5, "obj-236", "flonum", "float", 0.0, 5, "obj-235", "flonum", "float", 100.0, 5, "obj-234", "flonum", "float", 0.0, 5, "obj-233", "flonum", "float", 100.0, 5, "obj-232", "flonum", "float", 0.0, 5, "obj-231", "flonum", "float", 100.0, 5, "obj-329", "number", "int", 30, 5, "obj-328", "number", "int", 116, 5, "obj-325", "flonum", "float", 0.0, 5, "obj-324", "flonum", "float", 100.0, 5, "obj-357", "number", "int", 13, 5, "obj-356", "number", "int", 122, 5, "obj-351", "number", "int", 10, 5, "obj-350", "number", "int", 122, 5, "obj-346", "number", "int", 8, 5, "obj-345", "number", "int", 118, 5, "obj-341", "number", "int", 8, 5, "obj-340", "number", "int", 110, 5, "obj-336", "number", "int", 73, 5, "obj-335", "number", "int", 127, 5, "obj-331", "number", "int", 51, 5, "obj-319", "flonum", "float", 0.0, 5, "obj-271", "flonum", "float", 100.0, 5, "obj-269", "flonum", "float", 0.0, 5, "obj-266", "flonum", "float", 100.0, 5, "obj-264", "flonum", "float", 0.0, 5, "obj-242", "flonum", "float", 100.0, 5, "obj-230", "flonum", "float", 0.0, 5, "obj-228", "flonum", "float", 100.0, 5, "obj-226", "flonum", "float", 0.0, 5, "obj-224", "flonum", "float", 100.0, 5, "obj-222", "flonum", "float", 0.0, 5, "obj-220", "flonum", "float", 100.0, 5, "obj-367", "number", "int", 109, 5, "obj-374", "number", "int", 49, 5, "obj-373", "number", "int", 101, 5, "obj-369", "number", "int", 38, 5, "obj-365", "flonum", "float", 0.0, 5, "obj-363", "flonum", "float", 100.0, 5, "obj-362", "flonum", "float", 0.0, 5, "obj-361", "flonum", "float", 100.0, 5, "obj-359", "number", "int", 95, 5, "obj-480", "toggle", "int", 0, 5, "obj-512", "number", "int", 0, 5, "obj-511", "number", "int", 127, 5, "obj-506", "number", "int", 56, 5, "obj-505", "number", "int", 92, 5, "obj-501", "number", "int", 49, 5, "obj-500", "number", "int", 85, 5, "obj-492", "flonum", "float", 0.0, 5, "obj-491", "flonum", "float", 100.0, 5, "obj-490", "flonum", "float", 0.0, 5, "obj-489", "flonum", "float", 100.0, 5, "obj-488", "flonum", "float", 0.0, 5, "obj-487", "flonum", "float", 100.0, 5, "obj-564", "number", "int", 37, 5, "obj-563", "number", "int", 120, 5, "obj-559", "number", "int", 30, 5, "obj-558", "number", "int", 106, 5, "obj-554", "number", "int", 24, 5, "obj-553", "number", "int", 106, 5, "obj-549", "number", "int", 18, 5, "obj-548", "number", "int", 123, 5, "obj-544", "flonum", "float", 0.0, 5, "obj-543", "flonum", "float", 100.0, 5, "obj-542", "flonum", "float", 0.0, 5, "obj-541", "flonum", "float", 100.0, 5, "obj-540", "flonum", "float", 0.0, 5, "obj-539", "flonum", "float", 100.0, 5, "obj-538", "flonum", "float", 0.0, 5, "obj-537", "flonum", "float", 100.0, 5, "obj-535", "number", "int", 30, 5, "obj-532", "flonum", "float", 0.0, 5, "obj-531", "flonum", "float", 100.0, 5, "obj-567", "number", "int", 116 ]
+											"data" : [ 5, "obj-18", "number", "int", 1, 5, "obj-19", "number", "int", 85, 5, "obj-13", "number", "int", 10, 5, "obj-12", "number", "int", 98, 5, "obj-20", "number", "int", 5, 5, "obj-17", "number", "int", 93, 5, "obj-38", "number", "int", 0, 5, "obj-37", "number", "int", 83, 5, "obj-32", "number", "int", 24, 5, "obj-30", "number", "int", 102, 5, "obj-25", "number", "int", 46, 5, "obj-24", "number", "int", 127, 5, "obj-49", "number", "int", 9, 5, "obj-48", "number", "int", 93, 5, "obj-44", "number", "int", 46, 5, "obj-43", "number", "int", 127, 5, "obj-60", "number", "int", 13, 5, "obj-58", "number", "int", 111, 5, "obj-54", "number", "int", 6, 5, "obj-53", "number", "int", 107, 5, "obj-263", "flonum", "float", 0.0, 5, "obj-262", "flonum", "float", 100.0, 5, "obj-261", "flonum", "float", 0.0, 5, "obj-260", "flonum", "float", 100.0, 5, "obj-259", "flonum", "float", 0.0, 5, "obj-258", "flonum", "float", 100.0, 5, "obj-257", "flonum", "float", 0.0, 5, "obj-256", "flonum", "float", 100.0, 5, "obj-255", "flonum", "float", 0.0, 5, "obj-254", "flonum", "float", 100.0, 5, "obj-253", "flonum", "float", 0.0, 5, "obj-252", "flonum", "float", 100.0, 5, "obj-251", "flonum", "float", 0.0, 5, "obj-250", "flonum", "float", 100.0, 5, "obj-249", "flonum", "float", 0.0, 5, "obj-248", "flonum", "float", 100.0, 5, "obj-247", "flonum", "float", 0.0, 5, "obj-246", "flonum", "float", 100.0, 5, "obj-245", "flonum", "float", 0.0, 5, "obj-244", "flonum", "float", 100.0, 5, "obj-144", "number", "int", 18, 5, "obj-143", "number", "int", 94, 5, "obj-138", "number", "int", 15, 5, "obj-137", "number", "int", 84, 5, "obj-133", "number", "int", 14, 5, "obj-132", "number", "int", 83, 5, "obj-128", "number", "int", 9, 5, "obj-127", "number", "int", 77, 5, "obj-123", "number", "int", 10, 5, "obj-122", "number", "int", 80, 5, "obj-118", "number", "int", 13, 5, "obj-117", "number", "int", 85, 5, "obj-113", "number", "int", 22, 5, "obj-112", "number", "int", 88, 5, "obj-108", "number", "int", 37, 5, "obj-107", "number", "int", 105, 5, "obj-103", "number", "int", 33, 5, "obj-102", "number", "int", 127, 5, "obj-98", "number", "int", 36, 5, "obj-97", "number", "int", 118, 5, "obj-92", "flonum", "float", 0.0, 5, "obj-91", "flonum", "float", 100.0, 5, "obj-90", "flonum", "float", 0.0, 5, "obj-89", "flonum", "float", 100.0, 5, "obj-88", "flonum", "float", 0.0, 5, "obj-87", "flonum", "float", 100.0, 5, "obj-86", "flonum", "float", 0.0, 5, "obj-85", "flonum", "float", 100.0, 5, "obj-83", "flonum", "float", 0.0, 5, "obj-82", "flonum", "float", 100.0, 5, "obj-81", "flonum", "float", 0.0, 5, "obj-80", "flonum", "float", 100.0, 5, "obj-78", "flonum", "float", 0.0, 5, "obj-75", "flonum", "float", 100.0, 5, "obj-74", "flonum", "float", 0.0, 5, "obj-73", "flonum", "float", 100.0, 5, "obj-72", "flonum", "float", 0.0, 5, "obj-63", "flonum", "float", 100.0, 5, "obj-62", "flonum", "float", 0.0, 5, "obj-10", "flonum", "float", 100.0, 5, "obj-217", "number", "int", 0, 5, "obj-216", "number", "int", 111, 5, "obj-211", "number", "int", 0, 5, "obj-210", "number", "int", 94, 5, "obj-206", "number", "int", 0, 5, "obj-205", "number", "int", 104, 5, "obj-201", "number", "int", 5, 5, "obj-200", "number", "int", 111, 5, "obj-196", "number", "int", 15, 5, "obj-195", "number", "int", 92, 5, "obj-191", "number", "int", 41, 5, "obj-190", "number", "int", 127, 5, "obj-186", "number", "int", 37, 5, "obj-185", "number", "int", 120, 5, "obj-181", "number", "int", 30, 5, "obj-180", "number", "int", 106, 5, "obj-176", "number", "int", 24, 5, "obj-175", "number", "int", 106, 5, "obj-171", "number", "int", 18, 5, "obj-170", "number", "int", 123, 5, "obj-165", "flonum", "float", 0.0, 5, "obj-164", "flonum", "float", 100.0, 5, "obj-163", "flonum", "float", 0.0, 5, "obj-162", "flonum", "float", 100.0, 5, "obj-161", "flonum", "float", 0.0, 5, "obj-160", "flonum", "float", 100.0, 5, "obj-159", "flonum", "float", 0.0, 5, "obj-158", "flonum", "float", 100.0, 5, "obj-157", "flonum", "float", 0.0, 5, "obj-156", "flonum", "float", 100.0, 5, "obj-155", "flonum", "float", 0.0, 5, "obj-154", "flonum", "float", 100.0, 5, "obj-153", "flonum", "float", 0.0, 5, "obj-152", "flonum", "float", 100.0, 5, "obj-151", "flonum", "float", 0.0, 5, "obj-150", "flonum", "float", 100.0, 5, "obj-149", "flonum", "float", 0.0, 5, "obj-148", "flonum", "float", 100.0, 5, "obj-147", "flonum", "float", 0.0, 5, "obj-146", "flonum", "float", 100.0, 5, "obj-311", "number", "int", 107, 5, "obj-310", "number", "int", 49, 5, "obj-305", "number", "int", 39, 5, "obj-304", "number", "int", 99, 5, "obj-300", "number", "int", 30, 5, "obj-299", "number", "int", 118, 5, "obj-295", "number", "int", 39, 5, "obj-294", "number", "int", 115, 5, "obj-238", "flonum", "float", 0.0, 5, "obj-237", "flonum", "float", 100.0, 5, "obj-236", "flonum", "float", 0.0, 5, "obj-235", "flonum", "float", 100.0, 5, "obj-234", "flonum", "float", 0.0, 5, "obj-233", "flonum", "float", 100.0, 5, "obj-232", "flonum", "float", 0.0, 5, "obj-231", "flonum", "float", 100.0, 5, "obj-329", "number", "int", 30, 5, "obj-328", "number", "int", 116, 5, "obj-325", "flonum", "float", 0.0, 5, "obj-324", "flonum", "float", 100.0, 5, "obj-357", "number", "int", 13, 5, "obj-356", "number", "int", 122, 5, "obj-351", "number", "int", 10, 5, "obj-350", "number", "int", 122, 5, "obj-346", "number", "int", 8, 5, "obj-345", "number", "int", 118, 5, "obj-341", "number", "int", 8, 5, "obj-340", "number", "int", 110, 5, "obj-336", "number", "int", 73, 5, "obj-335", "number", "int", 127, 5, "obj-331", "number", "int", 51, 5, "obj-319", "flonum", "float", 0.0, 5, "obj-271", "flonum", "float", 100.0, 5, "obj-269", "flonum", "float", 0.0, 5, "obj-266", "flonum", "float", 100.0, 5, "obj-264", "flonum", "float", 0.0, 5, "obj-242", "flonum", "float", 100.0, 5, "obj-230", "flonum", "float", 0.0, 5, "obj-228", "flonum", "float", 100.0, 5, "obj-226", "flonum", "float", 0.0, 5, "obj-224", "flonum", "float", 100.0, 5, "obj-222", "flonum", "float", 0.0, 5, "obj-220", "flonum", "float", 100.0, 5, "obj-367", "number", "int", 109, 5, "obj-374", "number", "int", 49, 5, "obj-373", "number", "int", 101, 5, "obj-369", "number", "int", 38, 5, "obj-365", "flonum", "float", 0.0, 5, "obj-363", "flonum", "float", 100.0, 5, "obj-362", "flonum", "float", 0.0, 5, "obj-361", "flonum", "float", 100.0, 5, "obj-359", "number", "int", 95, 5, "obj-480", "toggle", "int", 0, 5, "obj-512", "number", "int", 0, 5, "obj-511", "number", "int", 127, 5, "obj-506", "number", "int", 56, 5, "obj-505", "number", "int", 92, 5, "obj-501", "number", "int", 49, 5, "obj-500", "number", "int", 85, 5, "obj-492", "flonum", "float", 0.0, 5, "obj-491", "flonum", "float", 100.0, 5, "obj-490", "flonum", "float", 0.0, 5, "obj-489", "flonum", "float", 100.0, 5, "obj-488", "flonum", "float", 0.0, 5, "obj-487", "flonum", "float", 100.0, 5, "obj-564", "number", "int", 37, 5, "obj-563", "number", "int", 120, 5, "obj-559", "number", "int", 30, 5, "obj-558", "number", "int", 106, 5, "obj-554", "number", "int", 24, 5, "obj-553", "number", "int", 106, 5, "obj-549", "number", "int", 18, 5, "obj-548", "number", "int", 123, 5, "obj-544", "flonum", "float", 0.0, 5, "obj-543", "flonum", "float", 100.0, 5, "obj-542", "flonum", "float", 0.0, 5, "obj-541", "flonum", "float", 100.0, 5, "obj-540", "flonum", "float", 0.0, 5, "obj-539", "flonum", "float", 100.0, 5, "obj-538", "flonum", "float", 0.0, 5, "obj-537", "flonum", "float", 100.0, 5, "obj-535", "number", "int", 30, 5, "obj-532", "flonum", "float", 0.0, 5, "obj-531", "flonum", "float", 100.0, 5, "obj-567", "number", "int", 116 ]
 										}
 , 										{
 											"number" : 2,
@@ -37565,15 +37566,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-309", 4 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-310", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-312", 2 ],
-									"order" : 1,
+									"destination" : [ "obj-312", 1 ],
+									"order" : 2,
 									"source" : [ "obj-310", 0 ]
 								}
 
@@ -37589,15 +37590,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-309", 3 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-311", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-312", 1 ],
-									"order" : 2,
+									"destination" : [ "obj-312", 2 ],
+									"order" : 1,
 									"source" : [ "obj-311", 0 ]
 								}
 
@@ -46691,8 +46692,8 @@
 			}
 , 			{
 				"name" : "ossia.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-3-JmFix-March2022/javascript",
-				"patcherrelativepath" : "../../../../Max 8/Packages/ossia-3-JmFix-March2022/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia_2022-04-20/javascript",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia_2022-04-20/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -46702,15 +46703,15 @@
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-3-JmFix-March2022/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Max 8/Packages/ossia-3-JmFix-March2022/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia_2022-04-20/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia_2022-04-20/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-3-JmFix-March2022/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Max 8/Packages/ossia-3-JmFix-March2022/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia_2022-04-20/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia_2022-04-20/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -47146,6 +47147,18 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
+				"slider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+				}
+,
 				"ezadc~" : 				{
 					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -47157,21 +47170,10 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"function" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"button" : 				{
+				"toggle" : 				{
 					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"ezdac~" : 				{
@@ -47185,10 +47187,9 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"toggle" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				"function" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
@@ -47239,6 +47240,18 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
+				"slider" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"button" : 				{
+					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
+					"color" : [ 1.0, 0.95051, 0.0, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+				}
+,
 				"ezadc~" : 				{
 					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -47250,21 +47263,10 @@
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"function" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"slider" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"button" : 				{
+				"toggle" : 				{
 					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 0.95051, 0.0, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"ezdac~" : 				{
@@ -47278,10 +47280,9 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
-				"toggle" : 				{
-					"bgcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				"function" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
