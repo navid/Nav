@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "LFOs">
+	<slot number = "1">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "6" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "6" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "6" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "4">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "4" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "9" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "5">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "7" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "4" />
+		<pattr name = "rate4" value = "0" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "9" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "6">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "3" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "12" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "7">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "6" />
+		<pattr name = "rate4" value = "8" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "8">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "2." />
+		<pattr name = "multiplier2" value = "3." />
+		<pattr name = "multiplier3" value = "2." />
+		<pattr name = "multiplier4" value = "3." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "5" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "8" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "9">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "10">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "5" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "8" />
+		<pattr name = "sample_on" value = "0" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "11">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "6" />
+		<pattr name = "rate4" value = "9" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "12">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "2." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "6" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "13">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "2." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "6" />
+		<pattr name = "rate2" value = "6" />
+		<pattr name = "rate3" value = "6" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "14">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "2." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "6" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "15">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "4" />
+		<pattr name = "rate3" value = "4" />
+		<pattr name = "rate4" value = "4" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "3" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "16">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1.5" />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "4" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "17">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "4" />
+		<pattr name = "rate3" value = "7" />
+		<pattr name = "rate4" value = "10" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "18">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "19">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "8" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "20">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "21">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "2." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "22">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "2." />
+		<pattr name = "multiplier3" value = "3." />
+		<pattr name = "multiplier4" value = "4." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "0" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "23">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1.33" />
+		<pattr name = "multiplier3" value = "1.66" />
+		<pattr name = "multiplier4" value = "3." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "0" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "24">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1.1" />
+		<pattr name = "multiplier3" value = "1.2" />
+		<pattr name = "multiplier4" value = "1.4" />
+		<pattr name = "rate1" value = "6" />
+		<pattr name = "rate2" value = "6" />
+		<pattr name = "rate3" value = "6" />
+		<pattr name = "rate4" value = "6" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "25">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "3." />
+		<pattr name = "multiplier3" value = "5." />
+		<pattr name = "multiplier4" value = "7." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "9" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "26">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "2" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "27">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "2" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "28">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "4." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "0" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "29">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "0.1" />
+		<pattr name = "multiplier2" value = "0.2" />
+		<pattr name = "multiplier3" value = "0.3" />
+		<pattr name = "multiplier4" value = "0.4" />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "30">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "4." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "4." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "31">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "4." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "4." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "5" />
+		<pattr name = "rate3" value = "8" />
+		<pattr name = "rate4" value = "11" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "32">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "4." />
+		<pattr name = "multiplier3" value = "4." />
+		<pattr name = "multiplier4" value = "4." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "2" />
+		<pattr name = "rate3" value = "5" />
+		<pattr name = "rate4" value = "11" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "33">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "6" />
+		<pattr name = "rate2" value = "6" />
+		<pattr name = "rate3" value = "4" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "34">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "35">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "4." />
+		<pattr name = "multiplier3" value = "4." />
+		<pattr name = "multiplier4" value = "4." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "2" />
+		<pattr name = "rate3" value = "5" />
+		<pattr name = "rate4" value = "11" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "36">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1.01" />
+		<pattr name = "multiplier3" value = "1.02" />
+		<pattr name = "multiplier4" value = "1.04" />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "37">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "5" />
+		<pattr name = "rate4" value = "5" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "38">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "3." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "3." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "5" />
+		<pattr name = "rate3" value = "6" />
+		<pattr name = "rate4" value = "8" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "39">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1.33" />
+		<pattr name = "multiplier3" value = "1.66" />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "3" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "40">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "0.2" />
+		<pattr name = "multiplier2" value = "0.125" />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "0" />
+		<pattr name = "rate2" value = "0" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "41">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "2." />
+		<pattr name = "multiplier3" value = "3." />
+		<pattr name = "multiplier4" value = "4." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "3" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "42">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1.25" />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "0" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "43">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "2.5" />
+		<pattr name = "multiplier2" value = "1.25" />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "3" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "3" />
+		<pattr name = "rate4" value = "12" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "44">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "3" />
+		<pattr name = "rate3" value = "8" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "8" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+	<slot number = "45">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "1" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "46">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1.25" />
+		<pattr name = "multiplier3" value = "1.375" />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "1" />
+		<pattr name = "rate4" value = "6" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "47">
+		<pattr name = "invertA" value = "0" />
+		<pattr name = "invertB" value = "0" />
+		<pattr name = "invertC" value = "0" />
+		<pattr name = "invertD" value = "0" />
+		<pattr name = "multiplier1" value = "1." />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "4" />
+		<pattr name = "rate3" value = "7" />
+		<pattr name = "rate4" value = "10" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "0" />
+		<pattr name = "waverampA" value = "0" />
+		<pattr name = "waverampB" value = "0" />
+		<pattr name = "waverampC" value = "0" />
+		<pattr name = "waverampD" value = "0" />
+	</slot>
+	<slot number = "48">
+		<pattr name = "invertA" value = "1" />
+		<pattr name = "invertB" value = "1" />
+		<pattr name = "invertC" value = "1" />
+		<pattr name = "invertD" value = "1" />
+		<pattr name = "multiplier1" value = "1.5" />
+		<pattr name = "multiplier2" value = "1." />
+		<pattr name = "multiplier3" value = "1." />
+		<pattr name = "multiplier4" value = "1." />
+		<pattr name = "rate1" value = "1" />
+		<pattr name = "rate2" value = "1" />
+		<pattr name = "rate3" value = "10" />
+		<pattr name = "rate4" value = "12" />
+		<pattr name = "sample_on" value = "1" />
+		<pattr name = "sample_rate1" value = "6" />
+		<pattr name = "waverampA" value = "1" />
+		<pattr name = "waverampB" value = "1" />
+		<pattr name = "waverampC" value = "1" />
+		<pattr name = "waverampD" value = "1" />
+	</slot>
+</pattrstorage>
+

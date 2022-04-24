@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "L4_outstuff">
+	<slot number = "1">
+		<pattr name = "bangsource1" value = "0" />
+		<pattr name = "bangsource2" value = "1" />
+		<pattr name = "bangsource3" value = "2" />
+		<pattr name = "bangsource4" value = "3" />
+		<pattr name = "notevaluesource1" value = "0" />
+		<pattr name = "notevaluesource2" value = "1" />
+		<pattr name = "notevaluesource3" value = "2" />
+		<pattr name = "notevaluesource4" value = "3" />
+		<pattr name = "sample_rate" value = "18" />
+		<pattr name = "samplesource1" value = "0" />
+		<pattr name = "samplesource2" value = "1" />
+		<pattr name = "samplesource3" value = "2" />
+		<pattr name = "samplesource4" value = "3" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "bangsource1" value = "3" />
+		<pattr name = "bangsource2" value = "3" />
+		<pattr name = "bangsource3" value = "3" />
+		<pattr name = "bangsource4" value = "3" />
+		<pattr name = "notevaluesource1" value = "3" />
+		<pattr name = "notevaluesource2" value = "3" />
+		<pattr name = "notevaluesource3" value = "3" />
+		<pattr name = "notevaluesource4" value = "3" />
+		<pattr name = "sample_rate" value = "6" />
+		<pattr name = "samplesource1" value = "0" />
+		<pattr name = "samplesource2" value = "1" />
+		<pattr name = "samplesource3" value = "2" />
+		<pattr name = "samplesource4" value = "3" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "bangsource1" value = "3" />
+		<pattr name = "bangsource2" value = "3" />
+		<pattr name = "bangsource3" value = "2" />
+		<pattr name = "bangsource4" value = "2" />
+		<pattr name = "notevaluesource1" value = "3" />
+		<pattr name = "notevaluesource2" value = "3" />
+		<pattr name = "notevaluesource3" value = "3" />
+		<pattr name = "notevaluesource4" value = "3" />
+		<pattr name = "sample_rate" value = "12" />
+		<pattr name = "samplesource1" value = "0" />
+		<pattr name = "samplesource2" value = "1" />
+		<pattr name = "samplesource3" value = "2" />
+		<pattr name = "samplesource4" value = "3" />
+	</slot>
+	<slot number = "4">
+		<pattr name = "bangsource1" value = "0" />
+		<pattr name = "bangsource2" value = "1" />
+		<pattr name = "bangsource3" value = "2" />
+		<pattr name = "bangsource4" value = "3" />
+		<pattr name = "notevaluesource1" value = "0" />
+		<pattr name = "notevaluesource2" value = "1" />
+		<pattr name = "notevaluesource3" value = "2" />
+		<pattr name = "notevaluesource4" value = "3" />
+		<pattr name = "sample_rate" value = "12" />
+		<pattr name = "samplesource1" value = "0" />
+		<pattr name = "samplesource2" value = "0" />
+		<pattr name = "samplesource3" value = "0" />
+		<pattr name = "samplesource4" value = "0" />
+	</slot>
+</pattrstorage>
+
