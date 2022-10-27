@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 554.0, 258.0, 1182.0, 637.0 ],
+		"rect" : [ 554.0, 258.0, 1182.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -73,8 +73,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 772.0, 493.0, 151.0, 22.0 ],
-					"text" : "ossia.parameter footswitch"
+					"patching_rect" : [ 795.0, 525.0, 235.0, 22.0 ],
+					"text" : "ossia.parameter footswitch @recall_safe 1"
 				}
 
 			}
@@ -224,7 +224,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -381,7 +381,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -568,7 +568,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -725,7 +725,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -941,7 +941,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1136,7 +1136,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1293,7 +1293,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1566,7 +1566,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1723,7 +1723,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2094,7 +2094,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2249,11 +2249,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 394.875, 160.0, 366.999999999999773, 22.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
 					"text" : "spat5.osc.route /x /y /z"
 				}
 
@@ -2268,11 +2263,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 18.0, 156.0, 280.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
 					"text" : "spat5.osc.route /x /y /z"
 				}
 
@@ -2287,8 +2277,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 575.875, 493.0, 131.0, 22.0 ],
-					"text" : "ossia.parameter right/z"
+					"patching_rect" : [ 575.875, 493.0, 214.0, 22.0 ],
+					"text" : "ossia.parameter right/z @recall_safe 1"
 				}
 
 			}
@@ -2302,8 +2292,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 440.875, 493.0, 131.0, 22.0 ],
-					"text" : "ossia.parameter right/y"
+					"patching_rect" : [ 435.0, 525.0, 214.0, 22.0 ],
+					"text" : "ossia.parameter right/y @recall_safe 1"
 				}
 
 			}
@@ -2317,8 +2307,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 293.0, 493.0, 131.0, 22.0 ],
-					"text" : "ossia.parameter right/x"
+					"patching_rect" : [ 293.0, 493.0, 214.0, 22.0 ],
+					"text" : "ossia.parameter right/x @recall_safe 1"
 				}
 
 			}
@@ -2332,8 +2322,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 555.0, 123.0, 22.0 ],
-					"text" : "ossia.parameter left/z"
+					"patching_rect" : [ 210.0, 555.0, 207.0, 22.0 ],
+					"text" : "ossia.parameter left/z @recall_safe 1"
 				}
 
 			}
@@ -2347,8 +2337,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 146.0, 525.0, 123.0, 22.0 ],
-					"text" : "ossia.parameter left/y"
+					"patching_rect" : [ 146.0, 525.0, 207.0, 22.0 ],
+					"text" : "ossia.parameter left/y @recall_safe 1"
 				}
 
 			}
@@ -2362,8 +2352,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 53.0, 493.0, 123.0, 22.0 ],
-					"text" : "ossia.parameter left/x"
+					"patching_rect" : [ 53.0, 493.0, 207.0, 22.0 ],
+					"text" : "ossia.parameter left/x @recall_safe 1"
 				}
 
 			}
@@ -2375,11 +2365,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 18.0, 115.0, 1152.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
 					"text" : "spat5.osc.route /left /right /footswitch"
 				}
 
