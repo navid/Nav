@@ -58445,5 +58445,13 @@
 		"/valves/p6/3" : 1.0,
 		"/valves/p6/4" : 0.0
 	}
+,
+	"XY-servoDriver" : 	{
+
+	}
+,
+	"XY-servoDriver2" : 	{
+
+	}
 
 }
