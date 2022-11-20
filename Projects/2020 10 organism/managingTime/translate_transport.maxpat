@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 887.0, 79.0, 741.0, 883.0 ],
+		"rect" : [ 902.0, 708.0, 741.0, 883.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -193,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.25, 295.0, 88.5, 23.0 ],
-					"text" : "0 0 7 7"
+					"text" : "0 0 0 192"
 				}
 
 			}
@@ -221,7 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.25, 231.0, 88.5, 23.0 ],
-					"text" : "3 2 7"
+					"text" : "0 0 184"
 				}
 
 			}
@@ -249,7 +249,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 231.0, 88.5, 23.0 ],
-					"text" : "0.142697"
+					"text" : "5.208333"
 				}
 
 			}
@@ -1337,7 +1337,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.75, 226.0, 88.500000000000028, 23.0 ],
-					"text" : "0."
+					"text" : "8n"
 				}
 
 			}
@@ -1381,7 +1381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 293.0, 88.5, 23.0 ],
-					"text" : "6727.559055"
+					"text" : "184.32"
 				}
 
 			}
