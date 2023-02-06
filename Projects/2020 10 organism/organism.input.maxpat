@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1203.0, 382.0, 223.0, 182.0 ],
+		"rect" : [ 181.0, 79.0, 223.0, 277.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 15.0, 127.0, 22.0 ],
+					"text" : "ossia.parameter value"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 138.0, 22.0 ],
+					"patching_rect" : [ 15.0, 45.0, 138.0, 22.0 ],
 					"text" : "ossia.sourcemixer mixer"
 				}
 
@@ -56,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "" ],
-					"patching_rect" : [ 15.0, 105.0, 172.0, 22.0 ],
+					"patching_rect" : [ 15.0, 135.0, 172.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range2"
 				}
 
@@ -68,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "" ],
-					"patching_rect" : [ 15.0, 75.0, 172.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 172.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range1"
 				}
 
@@ -80,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 45.0, 166.0, 22.0 ],
+					"patching_rect" : [ 15.0, 75.0, 166.0, 22.0 ],
 					"text" : "ossia.nav.rand.model random"
 				}
 
@@ -92,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 150.0, 102.0, 22.0 ],
+					"patching_rect" : [ 15.0, 180.0, 102.0, 22.0 ],
 					"text" : "ossia.model input"
 				}
 
