@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 592.0, 325.0, 658.0, 477.0 ],
+		"rect" : [ 111.0, 197.0, 658.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 120.0, 60.0, 251.0, 22.0 ],
-					"text" : "ossia.remote #1/random/out/final/float"
+					"patching_rect" : [ 120.0, 60.0, 193.0, 22.0 ],
+					"text" : "ossia.remote random/out/final/float"
 				}
 
 			}
@@ -242,8 +242,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 177.0, 178.0, 22.0 ],
-					"text" : "ossia.remote #1/value"
+					"patching_rect" : [ 15.0, 177.0, 109.0, 22.0 ],
+					"text" : "ossia.remote value"
 				}
 
 			}
@@ -254,8 +254,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 15.0, 218.0, 22.0 ],
-					"text" : "ossia.remote #1/mixer/source",
+					"patching_rect" : [ 15.0, 15.0, 149.0, 22.0 ],
+					"text" : "ossia.remote mixer/source",
 					"varname" : "live.tab[21]"
 				}
 
@@ -276,7 +276,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-281", 0 ],
-					"midpoints" : [ 124.0, 44.0, 24.5, 44.0 ],
+					"midpoints" : [ 89.5, 44.0, 24.5, 44.0 ],
 					"source" : [ "obj-280", 1 ]
 				}
 
@@ -299,7 +299,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-281", 2 ],
-					"midpoints" : [ 245.5, 99.0, 67.5, 99.0 ],
+					"midpoints" : [ 216.5, 99.0, 67.5, 99.0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
