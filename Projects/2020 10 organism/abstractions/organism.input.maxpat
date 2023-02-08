@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1111.0, 79.0, 223.0, 324.0 ],
+		"rect" : [ 1207.0, 221.0, 223.0, 298.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -239,13 +239,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 270.0, 102.0, 22.0 ],
+					"patching_rect" : [ 15.0, 255.0, 102.0, 22.0 ],
 					"text" : "ossia.model input"
 				}
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+ ]
 	}
 
 }
