@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 710.0, 228.0, 483.0, 199.0 ],
+		"rect" : [ 142.0, 265.0, 483.0, 199.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -324,11 +324,6 @@
 																					"numoutlets" : 4,
 																					"outlettype" : [ "", "", "", "" ],
 																					"patching_rect" : [ 235.0, 100.0, 129.0, 22.0 ],
-																					"saved_object_attributes" : 																					{
-																						"parameter_enable" : 0,
-																						"parameter_mappable" : 0
-																					}
-,
 																					"text" : "spat5.osc.route /x /y /z"
 																				}
 
@@ -664,11 +659,6 @@
 																					"numoutlets" : 4,
 																					"outlettype" : [ "", "", "", "" ],
 																					"patching_rect" : [ 50.0, 100.0, 129.0, 22.0 ],
-																					"saved_object_attributes" : 																					{
-																						"parameter_enable" : 0,
-																						"parameter_mappable" : 0
-																					}
-,
 																					"text" : "spat5.osc.route /x /y /z"
 																				}
 
@@ -1064,11 +1054,6 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 209.0, 117.966796875, 151.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /footswitch"
 																}
 
@@ -1081,11 +1066,6 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 50.0, 131.966796875, 143.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /left /right"
 																}
 
@@ -1967,11 +1947,6 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 13.0, 119.0, 416.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /x /y /z"
 																}
 
@@ -2715,11 +2690,6 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 653.0, 109.0, 416.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /x /y /z"
 																}
 
@@ -2756,11 +2726,6 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 45.0, 75.0, 1236.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /left /right"
 																}
 
@@ -3228,11 +3193,6 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 281.0, 145.0, 129.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /x /y /z"
 																}
 
@@ -3323,11 +3283,6 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 50.0, 145.0, 129.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /x /y /z"
 																}
 
@@ -3340,11 +3295,6 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 50.0, 100.0, 392.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /left /right"
 																}
 
@@ -3662,11 +3612,6 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 281.0, 145.0, 129.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /x /y /z"
 																}
 
@@ -3757,11 +3702,6 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 50.0, 145.0, 129.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /x /y /z"
 																}
 
@@ -3774,11 +3714,6 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 50.0, 100.0, 392.0, 22.0 ],
-																	"saved_object_attributes" : 																	{
-																		"parameter_enable" : 0,
-																		"parameter_mappable" : 0
-																	}
-,
 																	"text" : "spat5.osc.route /left /right"
 																}
 
@@ -35763,8 +35698,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 15.0, 103.0, 22.0 ],
-					"text" : "connect oscquery"
+					"patching_rect" : [ 225.0, 15.0, 136.0, 22.0 ],
+					"text" : "connect organism_main"
 				}
 
 			}
@@ -43847,7 +43782,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1623.0, 281.0, 1103.0, 799.0 ],
+						"rect" : [ 817.0, 537.0, 1103.0, 799.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -43875,6 +43810,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box2/valve7" ],
@@ -45325,7 +45261,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 128.0, 191.0, 757.0, 533.0 ],
+						"rect" : [ 225.0, 447.0, 757.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -45353,6 +45289,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box1" ],
@@ -47901,49 +47838,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "nav.ramp.maxpat",
-				"bootpath" : "~/Github/Nav/Archive/ut",
+				"bootpath" : "~/code/Nav/Archive/ut",
 				"patcherrelativepath" : "../../Archive/ut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.input_channel.maxpat",
-				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.servo_channel.maxpat",
-				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.servo_master.maxpat",
-				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.valve_channel.maxpat",
-				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.valve_master.maxpat",
-				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.midifader.maxpat",
-				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
