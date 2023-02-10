@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 57.0, 87.0, 483.0, 199.0 ],
+		"rect" : [ 0.0, 53.0, 313.0, 164.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -83,6 +83,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -12997,7 +12998,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 0.0, 405.0, 1440.0, 795.0 ],
+										"rect" : [ 873.0, 405.0, 1440.0, 795.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -15122,7 +15123,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 581.0, 976.0, 79.0, 49.0 ],
+													"patching_rect" : [ 581.0, 976.0, 81.0, 49.0 ],
 													"text" : "ossia.remote box2/valve7/value"
 												}
 
@@ -15135,7 +15136,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 488.0, 976.0, 79.0, 49.0 ],
+													"patching_rect" : [ 488.0, 976.0, 81.0, 49.0 ],
 													"text" : "ossia.remote box2/valve6/value"
 												}
 
@@ -15148,7 +15149,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 395.0, 976.0, 79.0, 49.0 ],
+													"patching_rect" : [ 395.0, 976.0, 81.0, 49.0 ],
 													"text" : "ossia.remote box2/valve5/value"
 												}
 
@@ -44368,7 +44369,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 225.0, 120.0, 69.0, 22.0 ],
+					"patching_rect" : [ 165.0, 120.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -44387,7 +44388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 15.0, 136.0, 22.0 ],
+					"patching_rect" : [ 165.0, 15.0, 136.0, 22.0 ],
 					"text" : "connect organism_main"
 				}
 
@@ -44399,7 +44400,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 45.0, 141.0, 22.0 ],
+					"patching_rect" : [ 165.0, 45.0, 141.0, 22.0 ],
 					"text" : "ossia.client organismHCI"
 				}
 
@@ -52471,7 +52472,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 944.0, 53.0, 970.0, 469.0 ],
+						"rect" : [ 130.0, 554.0, 970.0, 469.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -52499,6 +52500,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box2/valve7" ],
@@ -53949,7 +53951,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 125.0, 590.0, 780.0, 454.0 ],
+						"rect" : [ 101.0, 415.0, 780.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -53977,6 +53979,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box1" ],
