@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1034.0, -447.0, 255.0, 166.0 ],
+		"rect" : [ 2493.0, -23.0, 215.0, 200.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 120.0, 112.0, 22.0 ],
+					"patching_rect" : [ 15.0, 120.0, 111.0, 22.0 ],
 					"text" : "ossia.model #1"
 				}
 
