@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1579.0, 38.0, 1372.0, 727.0 ],
+		"rect" : [ 1171.0, -801.0, 117.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2146,13 +2146,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-897",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 870.0, 540.0, 160.0, 38.0 ],
-					"text" : "ossia.remote #1/range1/mode",
+					"patching_rect" : [ 870.0, 540.0, 261.0, 23.0 ],
+					"text" : "ossia.remote #1/range{1..2}/mode",
 					"varname" : "rate/max[1]"
 				}
 

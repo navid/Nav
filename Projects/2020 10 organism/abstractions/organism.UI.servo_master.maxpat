@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 209.0, 812.0, 418.0 ],
+		"rect" : [ 153.0, 209.0, 1123.0, 372.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -238,7 +238,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 690.0, 285.0, 195.0, 38.0 ],
-					"text" : "ossia.remote #1/servo*/range1/mode",
+					"text" : "ossia.remote #1/servo*/range{1..2}/mode",
 					"varname" : "rate/max[7]"
 				}
 
@@ -886,41 +886,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1312" : [ "live.text[440]", "live.text[401]", 0 ],
-			"obj-1319" : [ "RTmin[432]", "RTmin[10]", 0 ],
-			"obj-1322" : [ "RTmin[431]", "RTmin[10]", 0 ],
-			"obj-1326" : [ "live.text[450]", "live.text[401]", 0 ],
-			"obj-35" : [ "RTmin[422]", "RTmin[2]", 0 ],
-			"obj-37" : [ "RTmin[421]", "RTmin[2]", 0 ],
-			"obj-39" : [ "RTmin[420]", "RTmin[10]", 0 ],
-			"obj-41" : [ "RTmin[419]", "RTmin[10]", 0 ],
-			"obj-44" : [ "live.tab[56]", "live.tab[2]", 0 ],
-			"obj-50" : [ "number[481]", "number[96]", 0 ],
-			"obj-52" : [ "number[482]", "number[96]", 0 ],
-			"obj-54" : [ "dial[62]", "dial", 0 ],
-			"obj-56" : [ "number[483]", "number[96]", 0 ],
-			"obj-6" : [ "live.tab[55]", "live.tab", 0 ],
-			"obj-9" : [ "umenu[56]", "umenu", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
