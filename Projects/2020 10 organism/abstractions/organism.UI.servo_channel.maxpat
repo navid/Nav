@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1171.0, -801.0, 117.0, 694.0 ],
+		"rect" : [ 264.0, 162.0, 718.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -361,7 +361,7 @@
 					"presentation_rect" : [ 0.0, 495.0, 40.0, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
-					"varname" : "#1_notevalue_rate[1]"
+					"varname" : "#1_notevalue_rate[2]"
 				}
 
 			}
@@ -1015,7 +1015,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1028,7 +1028,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-92",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1162,14 +1162,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1333,14 +1333,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1473,14 +1473,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1710,7 +1710,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 255.0, 120.0, 34.0, 22.0 ],
+									"patching_rect" : [ 45.0, 150.0, 34.0, 22.0 ],
 									"text" : "sel 1"
 								}
 
@@ -1722,7 +1722,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 45.0, 165.0, 29.5, 22.0 ],
+									"patching_rect" : [ 45.0, 195.0, 29.5, 22.0 ],
 									"text" : "f"
 								}
 
@@ -1734,7 +1734,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 45.0, 120.0, 177.0, 22.0 ],
+									"patching_rect" : [ 105.0, 150.0, 177.0, 22.0 ],
 									"text" : "ossia.remote #1/fader"
 								}
 
@@ -1771,7 +1771,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 15.0, 15.0, 209.0, 35.0 ],
+									"patching_rect" : [ 15.0, 15.0, 165.0, 35.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
 
@@ -1792,7 +1792,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-927", 0 ],
-									"midpoints" : [ 119.5, 47.0, 24.5, 47.0 ],
+									"midpoints" : [ 97.5, 47.0, 24.5, 47.0 ],
 									"order" : 1,
 									"source" : [ "obj-926", 1 ]
 								}
@@ -1801,7 +1801,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-944", 0 ],
-									"midpoints" : [ 119.5, 80.799999833106995, 264.5, 80.799999833106995 ],
+									"midpoints" : [ 97.5, 75.0, 117.0, 75.0, 117.0, 135.0, 54.5, 135.0 ],
 									"order" : 0,
 									"source" : [ "obj-926", 1 ]
 								}
@@ -1823,7 +1823,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-941", 0 ],
+									"destination" : [ "obj-941", 1 ],
+									"midpoints" : [ 193.5, 183.0, 65.0, 183.0 ],
 									"source" : [ "obj-934", 1 ]
 								}
 
@@ -1839,7 +1840,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-941", 0 ],
-									"midpoints" : [ 264.5, 153.0, 54.5, 153.0 ],
+									"midpoints" : [ 54.5, 183.0, 54.5, 183.0 ],
 									"source" : [ "obj-944", 0 ]
 								}
 
@@ -1908,14 +1909,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -2280,7 +2281,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-99",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2293,7 +2294,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2318,7 +2319,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-92",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2564,7 +2565,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1290.0, 225.0, 104.66666841506958, 49.0 ],
+					"patching_rect" : [ 1290.0, 225.0, 92.66666841506958, 49.0 ],
 					"text" : "ossia.remote #1/mixer/source"
 				}
 
@@ -3043,7 +3044,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1202", 0 ],
-					"midpoints" : [ 1342.33333420753479, 276.0, 1275.0, 276.0, 1275.0, 39.0, 1299.5, 39.0 ],
+					"midpoints" : [ 1336.33333420753479, 276.0, 1275.0, 276.0, 1275.0, 39.0, 1299.5, 39.0 ],
 					"source" : [ "obj-78", 1 ]
 				}
 
@@ -3148,7 +3149,45 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1025" : [ "RTmin[485]", "RTmin[10]", 0 ],
+			"obj-1042" : [ "RTmin[487]", "RTmin[2]", 0 ],
+			"obj-1135" : [ "number[566]", "number[96]", 0 ],
+			"obj-1151" : [ "number[568]", "number[96]", 0 ],
+			"obj-1257" : [ "multislider[139]", "multislider", 0 ],
+			"obj-1345" : [ "RTmin[483]", "RTmin[10]", 0 ],
+			"obj-1363" : [ "RTmin[488]", "RTmin[10]", 0 ],
+			"obj-150" : [ "rslider[137]", "rslider[1]", 0 ],
+			"obj-151" : [ "number[565]", "number[96]", 0 ],
+			"obj-157" : [ "dial[77]", "dial", 0 ],
+			"obj-4" : [ "live.text[66]", "live.text", 0 ],
+			"obj-668" : [ "live.tab[236]", "live.tab", 0 ],
+			"obj-68" : [ "live.text", "live.text", 0 ],
+			"obj-76" : [ "live.tab[237]", "live.tab[2]", 0 ],
+			"obj-848" : [ "rslider[138]", "rslider[1]", 0 ],
+			"obj-898" : [ "umenu[81]", "umenu", 0 ],
+			"obj-922" : [ "multislider[140]", "multislider", 0 ],
+			"obj-951" : [ "RTmin[486]", "RTmin[2]", 0 ],
+			"obj-967" : [ "RTmin[484]", "RTmin[10]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
