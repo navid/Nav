@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 651.0, 433.0, 1137.0, 360.0 ],
+		"rect" : [ 269.0, 433.0, 1137.0, 360.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -238,18 +238,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 60.0, 50.0, 22.0 ],
-					"text" : "60.2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -360,14 +348,56 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "organism.lfo_random_mix.maxpat",
+				"bootpath" : "~/Github/Nav/Projects/2020 10 organism/abstractions",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
- ]
+, 			{
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.nav.lfo.model.maxpat",
+				"bootpath" : "~/Github/tml-ossia/nav/ossia.nav.lfo",
+				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.lfo",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.rand.model.maxpat",
+				"bootpath" : "~/Github/tml-ossia/nav/ossia.nav.rand",
+				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.rand",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.ranger.model.maxpat",
+				"bootpath" : "~/Github/tml-ossia/nav/ossia.nav.ranger",
+				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.ranger",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ossia.sourcemixer.maxpat",
+				"bootpath" : "~/Github/tml-ossia/utilities/sourcemixer",
+				"patcherrelativepath" : "../../../../tml-ossia/utilities/sourcemixer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
