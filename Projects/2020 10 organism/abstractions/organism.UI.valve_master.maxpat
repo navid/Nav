@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 325.0, 209.0, 695.0, 359.0 ],
+		"rect" : [ 861.0, 211.0, 1013.0, 405.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -83,8 +83,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 690.0, 495.0, 238.0, 23.0 ],
-					"text" : "ossia.remote  #1/valve*/banger/rate/min",
+					"patching_rect" : [ 690.0, 495.0, 252.0, 23.0 ],
+					"text" : "ossia.remote  #1/valve*/banger/rate/max",
 					"varname" : "rate/max[5]"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 345.0, 495.0, 238.0, 23.0 ],
+					"patching_rect" : [ 345.0, 495.0, 248.0, 23.0 ],
 					"text" : "ossia.remote  #1/valve*/banger/rate/min",
 					"varname" : "rate/max[9]"
 				}
@@ -163,7 +163,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[3]",
+							"parameter_longname" : "Interval[47]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
@@ -185,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 270.0, 30.0, 220.0, 23.0 ],
+					"patching_rect" : [ 300.0, 105.0, 234.0, 23.0 ],
 					"text" : "ossia.remote #1/valve*/banger/mode",
 					"varname" : "rate/max[1]"
 				}
@@ -205,7 +205,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 270.0, 56.0, 42.0, 16.0 ],
+					"patching_rect" : [ 300.0, 75.0, 42.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 3.0, 31.0, 13.0 ],
 					"saved_attribute_attributes" : 					{
@@ -219,7 +219,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "ms", "nt" ],
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "live.tab[90]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -257,7 +257,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[1]",
+							"parameter_longname" : "Interval[46]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
@@ -307,8 +307,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 60.0, 187.0, 22.0 ],
-					"text" : "ossia.remote #1/valve*/banger/on"
+					"patching_rect" : [ 45.0, 60.0, 175.0, 22.0 ],
+					"text" : "ossia.remote #1/valve*/value"
 				}
 
 			}
@@ -330,7 +330,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[456]",
+							"parameter_longname" : "live.text[93]",
 							"parameter_mmax" : 1,
 							"parameter_order" : 2,
 							"parameter_shortname" : "1",
@@ -359,7 +359,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "toggle[27]",
+							"parameter_longname" : "toggle[16]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle[7]",
 							"parameter_type" : 2
@@ -378,8 +378,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 180.0, 245.0, 22.0 ],
-					"text" : "ossia.remote #1/valve*/banger/on/banger/on"
+					"patching_rect" : [ 45.0, 180.0, 203.0, 22.0 ],
+					"text" : "ossia.remote #1/valve*/banger/on/"
 				}
 
 			}
@@ -401,7 +401,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[191]",
+							"parameter_longname" : "number[152]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -423,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 360.0, 221.0, 22.0 ],
+					"patching_rect" : [ 45.0, 360.0, 233.0, 22.0 ],
 					"text" : "ossia.remote #1/valve*/banger/rate/max"
 				}
 
@@ -446,7 +446,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[192]",
+							"parameter_longname" : "number[151]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -468,7 +468,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 45.0, 270.0, 217.0, 22.0 ],
+					"patching_rect" : [ 45.0, 270.0, 230.0, 22.0 ],
 					"text" : "ossia.remote #1/valve*/banger/rate/min"
 				}
 
@@ -499,16 +499,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
-					"midpoints" : [ 809.0, 528.0, 675.0, 528.0, 675.0, 339.0, 699.5, 339.0 ],
+					"midpoints" : [ 816.0, 528.0, 675.0, 528.0, 675.0, 339.0, 699.5, 339.0 ],
 					"source" : [ "obj-109", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1301", 0 ],
-					"midpoints" : [ 54.5, 96.0, 30.0, 96.0, 30.0, 24.0, 54.5, 24.0 ],
-					"source" : [ "obj-1293", 0 ]
 				}
 
 			}
@@ -524,14 +516,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-510", 0 ],
 					"source" : [ "obj-509", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-509", 0 ],
-					"midpoints" : [ 54.5, 216.0, 30.0, 216.0, 30.0, 144.0, 54.5, 144.0 ],
-					"source" : [ "obj-510", 0 ]
 				}
 
 			}
@@ -568,7 +552,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 279.5, 75.0, 262.5, 75.0, 262.5, 23.0, 279.5, 23.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -583,15 +566,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 464.0, 530.0, 330.0, 530.0, 330.0, 327.0, 354.5, 327.0 ],
+					"midpoints" : [ 469.0, 530.0, 330.0, 530.0, 330.0, 327.0, 354.5, 327.0 ],
 					"source" : [ "obj-71", 1 ]
 				}
 
@@ -625,33 +601,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1301" : [ "live.text[456]", "1", 2 ],
-			"obj-509" : [ "toggle[27]", "toggle[7]", 0 ],
-			"obj-511" : [ "number[191]", "number[96]", 0 ],
-			"obj-513" : [ "number[192]", "number[96]", 0 ],
-			"obj-6" : [ "live.tab", "live.tab", 0 ],
-			"obj-60" : [ "Interval[1]", "Interval", 2 ],
-			"obj-84" : [ "Interval[3]", "Interval", 2 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -53,26 +53,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 642.0, 716.0, 52.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 188.0, 27.0, 17.0 ],
+					"presentation_rect" : [ 30.0, 175.0, 27.0, 17.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Narrow",
-					"fontsize" : 9.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 597.0, 716.0, 39.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 188.0, 19.0, 17.0 ],
-					"text" : "scl",
-					"varname" : "var2[2]"
 				}
 
 			}
@@ -106,7 +90,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 641.0, 657.0, 36.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.666666656732559, 172.666666746139526, 27.0, 15.25 ],
+					"presentation_rect" : [ 30.0, 120.0, 27.0, 15.25 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_active_automation"
@@ -114,7 +98,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Hz", "Lock" ],
-							"parameter_longname" : "live.text[31]",
+							"parameter_longname" : "live.text[28]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -235,7 +219,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Hz", "Lock" ],
-							"parameter_longname" : "live.text[32]",
+							"parameter_longname" : "live.text[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -465,11 +449,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 435.0, 180.0, 48.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 243.0, 45.0, 19.0 ],
+					"presentation_rect" : [ 11.0, 230.0, 45.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[42]",
+							"parameter_longname" : "number[39]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -514,11 +498,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 435.0, 105.0, 66.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 224.0, 45.0, 19.0 ],
+					"presentation_rect" : [ 11.0, 211.0, 45.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[41]",
+							"parameter_longname" : "number[38]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -560,10 +544,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.0, 180.0, 23.599999904632568, 23.599999904632568 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.666666835546494, 284.666666716337204, 28.333333253860474, 28.333333253860474 ],
+					"presentation_rect" : [ 16.666666835546494, 271.666666716337204, 28.333333253860474, 28.333333253860474 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial[9]",
+							"parameter_longname" : "dial[8]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dial",
 							"parameter_type" : 0
@@ -606,11 +590,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 435.0, 255.0, 58.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 264.0, 45.0, 19.0 ],
+					"presentation_rect" : [ 11.0, 251.0, 45.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[43]",
+							"parameter_longname" : "number[40]",
 							"parameter_mmax" : 10000.0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
@@ -678,11 +662,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.0, 255.0, 100.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 207.0, 51.166665971279144, 16.0 ],
+					"presentation_rect" : [ 6.0, 194.0, 51.166665971279144, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bipolar", "unipolar", "additive" ],
-							"parameter_longname" : "umenu[9]",
+							"parameter_longname" : "umenu[8]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
@@ -720,7 +704,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 915.0, 180.0, 45.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 313.666666686534882, 50.5, 60.666666626930237 ],
+					"presentation_rect" : [ 5.0, 300.666666686534882, 50.5, 60.666666626930237 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_key_assignment"
@@ -728,7 +712,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Fader", "LFO", "Rand" ],
-							"parameter_longname" : "live.tab[26]",
+							"parameter_longname" : "live.tab[24]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -786,7 +770,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "'", "*", "+" ],
-							"parameter_longname" : "live.tab[27]",
+							"parameter_longname" : "live.tab[25]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab[2]",
 							"parameter_type" : 2,
@@ -820,7 +804,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[52]",
+							"parameter_longname" : "RTmin[45]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -872,7 +856,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[54]",
+							"parameter_longname" : "RTmin[46]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -923,7 +907,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "+ ramp", "– ramp", "triangle", "square", "s/hold" ],
-							"parameter_longname" : "RTmin[49]",
+							"parameter_longname" : "RTmin[48]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "RTmin[2]",
 							"parameter_type" : 2
@@ -973,7 +957,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "+ ramp", "– ramp", "triangle", "square", "s/hold" ],
-							"parameter_longname" : "RTmin[50]",
+							"parameter_longname" : "RTmin[43]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "RTmin[2]",
 							"parameter_type" : 2
@@ -1016,7 +1000,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[33]",
+							"parameter_longname" : "live.text[26]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[401]",
 							"parameter_type" : 2
@@ -1046,8 +1030,8 @@
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.101960784313725 ],
 					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 11.0,
 					"format" : 6,
 					"id" : "obj-1322",
 					"maxclass" : "flonum",
@@ -1057,13 +1041,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 210.0, 180.0, 51.0, 20.0 ],
+					"patching_rect" : [ 210.0, 180.0, 60.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 153.0, 37.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 153.0, 43.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[53]",
+							"parameter_longname" : "RTmin[44]",
 							"parameter_mmax" : 20.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -1095,8 +1079,8 @@
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.101960784313725 ],
 					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 11.0,
 					"format" : 6,
 					"id" : "obj-1319",
 					"maxclass" : "flonum",
@@ -1106,13 +1090,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 180.0, 53.0, 20.0 ],
+					"patching_rect" : [ 15.0, 180.0, 61.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 38.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 3.0, 38.0, 43.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[51]",
+							"parameter_longname" : "RTmin[47]",
 							"parameter_mmax" : 20.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -1143,7 +1127,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[30]",
+							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[401]",
 							"parameter_type" : 2
@@ -1179,6 +1163,22 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 15.0, 210.0, 150.0, 35.0 ],
 					"text" : "ossia.remote #1/servo*/lfo1/rate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Narrow",
+					"fontsize" : 9.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 597.0, 716.0, 39.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 181.0, 19.0, 17.0 ],
+					"text" : "scl",
+					"varname" : "var2[2]"
 				}
 
 			}
