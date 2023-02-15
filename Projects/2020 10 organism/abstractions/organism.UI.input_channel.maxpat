@@ -89,6 +89,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgoncolor" : [ 0.49803921568, 0.67450980392, 0.38823529411, 1.0 ],
 					"id" : "obj-1245",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 2,
@@ -99,11 +100,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.000001788139343, 1200.0, 45.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 289.0, 57.5, 75.0 ],
+					"presentation_rect" : [ 0.0, 289.0, 57.5, 56.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.maxwindow_successtext"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Fader", "Rand" ],
-							"parameter_longname" : "live.tab[61]",
+							"parameter_longname" : "live.tab[70]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -147,7 +152,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[491]",
+							"parameter_longname" : "number[91]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -196,7 +201,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[494]",
+							"parameter_longname" : "number[89]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -381,7 +386,7 @@
 					"presentation_rect" : [ 2.0, 70.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial[79]",
+							"parameter_longname" : "dial[18]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dial",
 							"parameter_type" : 0
@@ -428,7 +433,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[490]",
+							"parameter_longname" : "number[90]",
 							"parameter_mmax" : 10000.0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
@@ -618,7 +623,7 @@
 					"presentation_rect" : [ 0.0, 139.0, 54.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[147]",
+							"parameter_longname" : "multislider[33]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
@@ -834,7 +839,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bipolar", "unipolar", "additive" ],
-							"parameter_longname" : "umenu[84]",
+							"parameter_longname" : "umenu[18]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "umenu[7]",
 							"parameter_type" : 2
@@ -1110,7 +1115,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[139]",
+							"parameter_longname" : "rslider[32]",
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
 						}
@@ -1136,7 +1141,7 @@
 					"presentation_rect" : [ 50.0, 139.0, 10.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[146]",
+							"parameter_longname" : "multislider[34]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0

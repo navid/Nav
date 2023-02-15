@@ -144,6 +144,7 @@
 				"box" : 				{
 					"appearance" : 1,
 					"id" : "obj-84",
+					"lcdcolor" : [ 1.0, 0.392156862745098, 0.0, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -153,6 +154,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 24.0, 38.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : "themecolor.live_key_assignment"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "128n", "64n", "32nt", "64nd", "32n", "16nt", "32nd", "16n", "8nt", "16nd", "8n", "4nt", "8nd", "4n", "2nt", "4nd", "2n", "1nt", "2nd", "1n", "1nd" ],
 							"parameter_initial" : [ 13 ],
@@ -188,8 +193,10 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgoncolor" : [ 1.0, 0.392156862745098, 0.0, 1.0 ],
 					"fontsize" : 9.0,
 					"id" : "obj-6",
+					"lcdcolor" : [ 1.0, 0.392156862745098, 0.0, 1.0 ],
 					"maxclass" : "live.tab",
 					"mode" : 1,
 					"num_lines_patching" : 1,
@@ -202,6 +209,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 3.0, 31.0, 13.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_key_assignment"
+						}
+,
+						"lcdcolor" : 						{
+							"expression" : "themecolor.live_key_assignment"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "ms", "nt" ],
 							"parameter_longname" : "live.tab",
@@ -223,6 +238,7 @@
 				"box" : 				{
 					"appearance" : 1,
 					"id" : "obj-60",
+					"lcdcolor" : [ 1.0, 0.392156862745098, 0.0, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -232,6 +248,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 49.0, 38.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : "themecolor.live_key_assignment"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "128n", "64n", "32nt", "64nd", "32n", "16nt", "32nd", "16n", "8nt", "16nd", "8n", "4nt", "8nd", "4n", "2nt", "4nd", "2n", "1nt", "2nd", "1n", "1nd" ],
 							"parameter_initial" : [ 13 ],
@@ -319,8 +339,8 @@
 
 					}
 ,
-					"text" : "1",
-					"texton" : "1",
+					"text" : "all",
+					"texton" : "all",
 					"varname" : "live.text[456]"
 				}
 
