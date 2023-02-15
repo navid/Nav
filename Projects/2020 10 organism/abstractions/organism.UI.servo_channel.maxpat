@@ -84,7 +84,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 405.0, 810.0, 40.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 107.5, 22.5, 18.0 ],
+					"presentation_rect" : [ 29.666666567325592, 107.5, 32.833333432674408, 18.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "#1_notevalue_rate[3]"
@@ -114,7 +114,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Hz", "Lock" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[70]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -204,7 +204,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Hz", "Lock" ],
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.text[55]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -437,7 +437,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[488]",
+							"parameter_longname" : "RTmin[107]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -472,7 +472,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.545098039215686, 0.388235294117647, 0.611764705882353, 0.24 ],
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Medium",
+					"fontname" : "Ableton Sans Medium ",
 					"fontsize" : 9.0,
 					"format" : 6,
 					"id" : "obj-1345",
@@ -483,13 +483,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 255.0, 345.0, 56.0, 19.0 ],
+					"patching_rect" : [ 255.0, 345.0, 53.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 142.5, 33.0, 19.0 ],
+					"presentation_rect" : [ 22.0, 142.5, 32.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[483]",
+							"parameter_longname" : "RTmin[106]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -624,6 +624,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.250980392156863 ],
+					"fontname" : "Ableton Sans Medium ",
 					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-1151",
@@ -634,13 +635,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 630.0, 210.0, 48.0, 19.0 ],
+					"patching_rect" : [ 630.0, 210.0, 49.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 25.5, 37.0, 19.0 ],
+					"presentation_rect" : [ 0.5, 25.5, 37.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[568]",
+							"parameter_longname" : "number[93]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -674,6 +675,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.101960784313725 ],
+					"fontname" : "Ableton Sans Medium ",
 					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-1135",
@@ -684,13 +686,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 630.0, 105.0, 66.0, 19.0 ],
+					"patching_rect" : [ 630.0, 105.0, 67.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 7.5, 37.0, 19.0 ],
+					"presentation_rect" : [ 0.5, 7.5, 37.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[566]",
+							"parameter_longname" : "number[94]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -751,7 +753,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "'", "*", "+" ],
-							"parameter_longname" : "live.tab[237]",
+							"parameter_longname" : "live.tab[72]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab[2]",
 							"parameter_type" : 2,
@@ -770,8 +772,8 @@
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.101960784313725 ],
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.0,
+					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 10.0,
 					"format" : 6,
 					"id" : "obj-1025",
 					"maxclass" : "flonum",
@@ -781,13 +783,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 255.0, 225.0, 52.0, 19.0 ],
+					"patching_rect" : [ 255.0, 225.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.5, 106.5, 37.0, 19.0 ],
+					"presentation_rect" : [ -0.5, 106.5, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[485]",
+							"parameter_longname" : "RTmin[108]",
 							"parameter_mmax" : 20.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -838,7 +840,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "+ ramp", "– ramp", "triangle", "square", "s/hold" ],
-							"parameter_longname" : "RTmin[487]",
+							"parameter_longname" : "RTmin[103]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "RTmin[2]",
 							"parameter_type" : 2
@@ -927,7 +929,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -940,7 +942,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-92",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1074,14 +1076,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1184,7 +1186,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[138]",
+							"parameter_longname" : "rslider[140]",
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
 						}
@@ -1246,14 +1248,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1386,14 +1388,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1492,7 +1494,7 @@
 					"presentation_rect" : [ 12.0, 104.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial[77]",
+							"parameter_longname" : "dial[19]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dial",
 							"parameter_type" : 0
@@ -1540,7 +1542,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[565]",
+							"parameter_longname" : "number[92]",
 							"parameter_mmax" : 10000.0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
@@ -1822,14 +1824,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1934,7 +1936,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[484]",
+							"parameter_longname" : "RTmin[104]",
 							"parameter_mmax" : 20.0,
 							"parameter_shortname" : "RTmin[10]",
 							"parameter_type" : 3
@@ -1985,7 +1987,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "+ ramp", "– ramp", "triangle", "square", "s/hold" ],
-							"parameter_longname" : "RTmin[486]",
+							"parameter_longname" : "RTmin[105]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "RTmin[2]",
 							"parameter_type" : 2
@@ -2041,7 +2043,7 @@
 					"presentation_rect" : [ 1.0, 181.0, 54.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[140]",
+							"parameter_longname" : "multislider[36]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
@@ -2096,7 +2098,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bipolar", "unipolar", "additive" ],
-							"parameter_longname" : "umenu[81]",
+							"parameter_longname" : "umenu[19]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
@@ -2194,7 +2196,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-99",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2207,7 +2209,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2232,7 +2234,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-92",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2415,7 +2417,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Fader", "LFO", "Rand" ],
-							"parameter_longname" : "live.tab[236]",
+							"parameter_longname" : "live.tab[71]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -2462,7 +2464,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[137]",
+							"parameter_longname" : "rslider[33]",
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
 						}
@@ -2502,7 +2504,7 @@
 					"presentation_rect" : [ 54.0, 181.0, 8.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[139]",
+							"parameter_longname" : "multislider[35]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
@@ -3141,45 +3143,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1025" : [ "RTmin[485]", "RTmin[10]", 0 ],
-			"obj-1042" : [ "RTmin[487]", "RTmin[2]", 0 ],
-			"obj-1135" : [ "number[566]", "number[96]", 0 ],
-			"obj-1151" : [ "number[568]", "number[96]", 0 ],
-			"obj-1257" : [ "multislider[139]", "multislider", 0 ],
-			"obj-1345" : [ "RTmin[483]", "RTmin[10]", 0 ],
-			"obj-1363" : [ "RTmin[488]", "RTmin[10]", 0 ],
-			"obj-150" : [ "rslider[137]", "rslider[1]", 0 ],
-			"obj-151" : [ "number[565]", "number[96]", 0 ],
-			"obj-157" : [ "dial[77]", "dial", 0 ],
-			"obj-20" : [ "live.text[1]", "live.text", 0 ],
-			"obj-668" : [ "live.tab[236]", "live.tab", 0 ],
-			"obj-68" : [ "live.text", "live.text", 0 ],
-			"obj-76" : [ "live.tab[237]", "live.tab[2]", 0 ],
-			"obj-848" : [ "rslider[138]", "rslider[1]", 0 ],
-			"obj-898" : [ "umenu[81]", "umenu", 0 ],
-			"obj-922" : [ "multislider[140]", "multislider", 0 ],
-			"obj-951" : [ "RTmin[486]", "RTmin[2]", 0 ],
-			"obj-967" : [ "RTmin[484]", "RTmin[10]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

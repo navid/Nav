@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 465.0, 90.0, 181.0, 23.0 ],
+					"patching_rect" : [ 465.0, 90.0, 236.0, 23.0 ],
 					"text" : "ossia.remote #1/banger/mode",
 					"varname" : "rate/max[7]"
 				}
@@ -110,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 675.0, 480.0, 199.0, 23.0 ],
+					"patching_rect" : [ 675.0, 480.0, 251.0, 23.0 ],
 					"text" : "ossia.remote  #1/banger/rate/min",
 					"varname" : "rate/max[5]"
 				}
@@ -197,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 330.0, 480.0, 199.0, 23.0 ],
+					"patching_rect" : [ 330.0, 480.0, 251.0, 23.0 ],
 					"text" : "ossia.remote  #1/banger/rate/min",
 					"varname" : "rate/max[9]"
 				}
@@ -242,7 +242,9 @@
 , 			{
 				"box" : 				{
 					"appearance" : 1,
+					"fontsize" : 9.0,
 					"id" : "obj-84",
+					"lcdcolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -250,17 +252,22 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 330.0, 405.0, 38.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 22.0, 38.0, 15.0 ],
+					"presentation_rect" : [ 27.75, 19.5, 36.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : "themecolor.live_display_handle_two"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "128n", "64n", "32nt", "64nd", "32n", "16nt", "32nd", "16n", "8nt", "16nd", "8n", "4nt", "8nd", "4n", "2nt", "4nd", "2n", "1nt", "2nd", "1n", "1nd" ],
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[3]",
+							"parameter_longname" : "Interval[35]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
+							"parameter_speedlim" : 2.0,
 							"parameter_type" : 2
 						}
 
@@ -279,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 255.0, 15.0, 181.0, 23.0 ],
+					"patching_rect" : [ 255.0, 15.0, 236.0, 23.0 ],
 					"text" : "ossia.remote #1/banger/mode",
 					"varname" : "rate/max[1]"
 				}
@@ -287,8 +294,10 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgoncolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"fontsize" : 9.0,
 					"id" : "obj-6",
+					"lcdcolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"maxclass" : "live.tab",
 					"mode" : 1,
 					"num_lines_patching" : 1,
@@ -299,11 +308,19 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 255.0, 41.0, 42.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.0, 1.0, 31.0, 13.0 ],
+					"presentation_rect" : [ 35.0, 0.5, 28.25, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_display_handle_two"
+						}
+,
+						"lcdcolor" : 						{
+							"expression" : "themecolor.live_display_handle_two"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "ms", "nt" ],
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "live.tab[66]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -321,7 +338,9 @@
 , 			{
 				"box" : 				{
 					"appearance" : 1,
+					"fontsize" : 9.0,
 					"id" : "obj-60",
+					"lcdcolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -329,53 +348,28 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 675.0, 405.0, 38.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 47.0, 38.0, 15.0 ],
+					"presentation_rect" : [ 27.75, 41.25, 36.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : "themecolor.live_display_handle_two"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "128n", "64n", "32nt", "64nd", "32n", "16nt", "32nd", "16n", "8nt", "16nd", "8n", "4nt", "8nd", "4n", "2nt", "4nd", "2n", "1nt", "2nd", "1n", "1nd" ],
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[1]",
+							"parameter_longname" : "Interval[34]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
+							"parameter_speedlim" : 2.0,
 							"parameter_type" : 2
 						}
 
 					}
 ,
 					"varname" : "Interval[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 315.0, 19.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 36.0, 19.0, 17.0 ],
-					"text" : "+"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 225.0, 19.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 10.0, 19.0, 17.0 ],
-					"text" : "-"
 				}
 
 			}
@@ -403,13 +397,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 15.0, 27.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 0.0, 23.0, 16.0 ],
+					"presentation_rect" : [ 14.0, 0.25, 22.0, 15.5 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[456]",
+							"parameter_longname" : "live.text[52]",
 							"parameter_mmax" : 1,
 							"parameter_order" : 2,
 							"parameter_shortname" : "1",
@@ -434,11 +428,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 135.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 0.5, 0.5, 13.75, 13.75 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "toggle[27]",
+							"parameter_longname" : "toggle[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle[7]",
 							"parameter_type" : 2
@@ -476,11 +470,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 315.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 36.0, 36.600000023841858, 19.0 ],
+					"presentation_rect" : [ 0.0, 36.0, 35.850000023841858, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[191]",
+							"parameter_longname" : "number[80]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -521,11 +515,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 225.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 15.0, 36.600000023841858, 19.0 ],
+					"presentation_rect" : [ 0.0, 15.0, 36.350000023841858, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[192]",
+							"parameter_longname" : "number[81]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -549,6 +543,36 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 255.0, 232.0, 22.0 ],
 					"text" : "ossia.remote #1/banger/rate/min"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 315.0, 20.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 43.5, 16.0, 17.0 ],
+					"text" : "+"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 225.0, 20.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.25, 21.5, 16.0, 17.0 ],
+					"text" : "-"
 				}
 
 			}
@@ -578,7 +602,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
-					"midpoints" : [ 774.5, 513.0, 660.0, 513.0, 660.0, 324.0, 684.5, 324.0 ],
+					"midpoints" : [ 800.5, 513.0, 660.0, 513.0, 660.0, 324.0, 684.5, 324.0 ],
 					"source" : [ "obj-109", 1 ]
 				}
 
@@ -709,7 +733,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
-					"midpoints" : [ 555.5, 315.0, 894.5, 315.0 ],
+					"midpoints" : [ 583.0, 315.0, 894.5, 315.0 ],
 					"order" : 0,
 					"source" : [ "obj-67", 1 ]
 				}
@@ -718,7 +742,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
-					"midpoints" : [ 555.5, 315.0, 822.0, 315.0, 822.0, 354.0, 819.5, 354.0 ],
+					"midpoints" : [ 583.0, 315.0, 822.0, 315.0, 822.0, 354.0, 819.5, 354.0 ],
 					"order" : 1,
 					"source" : [ "obj-67", 1 ]
 				}
@@ -727,7 +751,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 555.5, 138.5, 339.5, 138.5 ],
+					"midpoints" : [ 583.0, 138.5, 339.5, 138.5 ],
 					"order" : 4,
 					"source" : [ "obj-67", 1 ]
 				}
@@ -736,7 +760,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
-					"midpoints" : [ 555.5, 315.0, 549.5, 315.0 ],
+					"midpoints" : [ 583.0, 315.0, 549.5, 315.0 ],
 					"order" : 2,
 					"source" : [ "obj-67", 1 ]
 				}
@@ -745,7 +769,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 555.5, 315.0, 477.0, 315.0, 477.0, 354.0, 474.5, 354.0 ],
+					"midpoints" : [ 583.0, 315.0, 477.0, 315.0, 477.0, 354.0, 474.5, 354.0 ],
 					"order" : 3,
 					"source" : [ "obj-67", 1 ]
 				}
@@ -777,7 +801,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 429.5, 515.0, 315.0, 515.0, 315.0, 312.0, 339.5, 312.0 ],
+					"midpoints" : [ 455.5, 515.0, 315.0, 515.0, 315.0, 312.0, 339.5, 312.0 ],
 					"source" : [ "obj-71", 1 ]
 				}
 
@@ -811,33 +835,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1301" : [ "live.text[456]", "1", 2 ],
-			"obj-509" : [ "toggle[27]", "toggle[7]", 0 ],
-			"obj-511" : [ "number[191]", "number[96]", 0 ],
-			"obj-513" : [ "number[192]", "number[96]", 0 ],
-			"obj-6" : [ "live.tab", "live.tab", 0 ],
-			"obj-60" : [ "Interval[1]", "Interval", 2 ],
-			"obj-84" : [ "Interval[3]", "Interval", 2 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
