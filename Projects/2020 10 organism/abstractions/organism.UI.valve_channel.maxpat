@@ -110,8 +110,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 675.0, 480.0, 251.0, 23.0 ],
-					"text" : "ossia.remote  #1/banger/rate/min",
+					"patching_rect" : [ 675.0, 480.0, 254.0, 23.0 ],
+					"text" : "ossia.remote  #1/banger/rate/max",
 					"varname" : "rate/max[5]"
 				}
 
@@ -244,6 +244,7 @@
 					"appearance" : 1,
 					"fontsize" : 9.0,
 					"id" : "obj-84",
+					"ignoreclick" : 1,
 					"lcdcolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -263,7 +264,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[35]",
+							"parameter_longname" : "Interval[25]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
@@ -320,7 +321,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "ms", "nt" ],
-							"parameter_longname" : "live.tab[66]",
+							"parameter_longname" : "live.tab[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -340,6 +341,7 @@
 					"appearance" : 1,
 					"fontsize" : 9.0,
 					"id" : "obj-60",
+					"ignoreclick" : 1,
 					"lcdcolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -359,7 +361,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[34]",
+							"parameter_longname" : "Interval[24]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
@@ -403,7 +405,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[52]",
+							"parameter_longname" : "live.text[35]",
 							"parameter_mmax" : 1,
 							"parameter_order" : 2,
 							"parameter_shortname" : "1",
@@ -432,7 +434,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "toggle[13]",
+							"parameter_longname" : "toggle[209]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle[7]",
 							"parameter_type" : 2
@@ -474,7 +476,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[80]",
+							"parameter_longname" : "number[46]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -519,7 +521,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[81]",
+							"parameter_longname" : "number[47]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -602,7 +604,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
-					"midpoints" : [ 800.5, 513.0, 660.0, 513.0, 660.0, 324.0, 684.5, 324.0 ],
+					"midpoints" : [ 802.0, 513.0, 660.0, 513.0, 660.0, 324.0, 684.5, 324.0 ],
 					"source" : [ "obj-109", 1 ]
 				}
 
