@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -108,7 +108,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Fader", "Rand" ],
-							"parameter_longname" : "live.tab[70]",
+							"parameter_longname" : "live.tab[61]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -138,6 +138,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.250980392156863 ],
 					"fontsize" : 9.0,
+					"hidden" : 1,
 					"id" : "obj-1155",
 					"maxclass" : "number",
 					"maximum" : 10000,
@@ -152,7 +153,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[91]",
+							"parameter_longname" : "number[491]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -187,6 +188,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.101960784313725 ],
 					"fontsize" : 9.0,
+					"hidden" : 1,
 					"id" : "obj-1157",
 					"maxclass" : "number",
 					"maximum" : 10000,
@@ -201,7 +203,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[89]",
+							"parameter_longname" : "number[494]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -244,7 +246,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -375,6 +377,7 @@
 , 			{
 				"box" : 				{
 					"floatoutput" : 1,
+					"hidden" : 1,
 					"id" : "obj-1172",
 					"maxclass" : "dial",
 					"numinlets" : 1,
@@ -386,7 +389,7 @@
 					"presentation_rect" : [ 2.0, 70.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial[18]",
+							"parameter_longname" : "dial[79]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "dial",
 							"parameter_type" : 0
@@ -419,6 +422,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.227450980392157, 0.219607843137255, 0.211764705882353, 0.101960784313725 ],
 					"fontsize" : 9.0,
+					"hidden" : 1,
 					"id" : "obj-1174",
 					"maxclass" : "number",
 					"maximum" : 10000,
@@ -433,7 +437,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[90]",
+							"parameter_longname" : "number[490]",
 							"parameter_mmax" : 10000.0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
@@ -475,7 +479,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -611,7 +615,6 @@
 , 			{
 				"box" : 				{
 					"contdata" : 1,
-					"hidden" : 1,
 					"id" : "obj-1178",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -623,7 +626,7 @@
 					"presentation_rect" : [ 0.0, 139.0, 54.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[33]",
+							"parameter_longname" : "multislider[147]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
@@ -649,7 +652,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -691,7 +694,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 90.0, 50.0, 22.0 ],
-									"text" : "2."
+									"text" : "1."
 								}
 
 							}
@@ -839,7 +842,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bipolar", "unipolar", "additive" ],
-							"parameter_longname" : "umenu[18]",
+							"parameter_longname" : "umenu[84]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "umenu[7]",
 							"parameter_type" : 2
@@ -863,7 +866,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1102,6 +1105,7 @@
 					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
 					"floatoutput" : 1,
+					"hidden" : 1,
 					"id" : "obj-1188",
 					"listmode" : 1,
 					"maxclass" : "rslider",
@@ -1115,7 +1119,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[32]",
+							"parameter_longname" : "rslider[14]",
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
 						}
@@ -1141,7 +1145,7 @@
 					"presentation_rect" : [ 50.0, 139.0, 10.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[34]",
+							"parameter_longname" : "multislider[146]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
@@ -1281,6 +1285,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1178", 0 ],
 					"source" : [ "obj-1176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1178", 0 ],
+					"midpoints" : [ 54.5, 962.0, 25.5, 962.0, 25.5, 769.0, 54.5, 769.0 ],
+					"source" : [ "obj-1177", 0 ]
 				}
 
 			}
