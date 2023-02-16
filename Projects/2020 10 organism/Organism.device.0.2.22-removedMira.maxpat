@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 371.0, 282.0, 460.0, 358.0 ],
+						"rect" : [ 371.0, 282.0, 860.0, 609.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -367,8 +367,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 588.0, 38.0, 221.0, 35.0 ],
-									"text" : "ossia.parameter counter1/min@type int @min 1 @max 7 @clip both @default 1"
+									"patching_rect" : [ 588.0, 38.0, 222.0, 35.0 ],
+									"text" : "ossia.parameter counter1/min @type int @min 1 @max 7 @clip both @default 1"
 								}
 
 							}
@@ -13465,7 +13465,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 394.5, 44.5, 19.0 ],
-									"text" : "87 8 6"
+									"text" : "13 1 4"
 								}
 
 							}
@@ -16401,7 +16401,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 405.0, 111.0, 60.0, 49.0 ],
-									"text" : "box7/servo8/value 91.8"
+									"text" : "box4/servo1/value 0."
 								}
 
 							}
@@ -18773,7 +18773,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "87 8 6"
+									"text" : "13 1 4"
 								}
 
 							}
@@ -20832,7 +20832,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 665.0, 55.0, 50.0, 22.0 ],
-									"text" : "87 8 6"
+									"text" : "13 1 4"
 								}
 
 							}
