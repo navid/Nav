@@ -11298,7 +11298,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 394.5, 44.5, 19.0 ],
-									"text" : "25 0"
+									"text" : "50 0"
 								}
 
 							}
@@ -13485,7 +13485,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 394.5, 44.5, 19.0 ],
-									"text" : "96 1 2"
+									"text" : "29 4 2"
 								}
 
 							}
@@ -16421,7 +16421,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 405.0, 111.0, 63.0, 49.0 ],
-									"text" : "box2/servo1/value 0."
+									"text" : "box4/servo2/value 96.1"
 								}
 
 							}
@@ -16481,8 +16481,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 741.0, 414.0, 20.0, 76.0 ],
-									"text" : "value 0."
+									"patching_rect" : [ 741.0, 414.0, 22.0, 76.0 ],
+									"text" : "value 100."
 								}
 
 							}
@@ -18793,7 +18793,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "96 1 2"
+									"text" : "29 4 2"
 								}
 
 							}
@@ -19004,7 +19004,7 @@
 									"patching_rect" : [ 786.75, 338.486486196517944, 55.5, 16.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-512", "number", "int", 45, 5, "obj-511", "number", "int", 7, 5, "obj-635", "number", "int", 89, 5, "obj-634", "number", "int", 50, 5, "obj-641", "number", "int", 76, 5, "obj-640", "number", "int", 32, 5, "obj-638", "number", "int", 73, 5, "obj-637", "number", "int", 34, 5, "obj-653", "number", "int", 68, 5, "obj-652", "number", "int", 30, 5, "obj-650", "number", "int", 63, 5, "obj-649", "number", "int", 25, 5, "obj-647", "number", "int", 58, 5, "obj-646", "number", "int", 11, 5, "obj-644", "number", "int", 127, 5, "obj-643", "number", "int", 35, 5, "obj-678", "number", "int", 40, 5, "obj-677", "number", "int", 107, 5, "obj-674", "number", "int", 104, 5, "obj-673", "number", "int", 38, 5, "obj-671", "number", "int", 34, 5, "obj-670", "number", "int", 101, 5, "obj-668", "number", "int", 18, 5, "obj-667", "number", "int", 123, 5, "obj-665", "number", "int", 30, 5, "obj-664", "number", "int", 116, 5, "obj-705", "number", "int", 13, 5, "obj-704", "number", "int", 122, 5, "obj-699", "number", "int", 10, 5, "obj-698", "number", "int", 122, 5, "obj-696", "number", "int", 1, 5, "obj-695", "number", "int", 118, 5, "obj-693", "number", "int", 2, 5, "obj-692", "number", "int", 110, 5, "obj-690", "number", "int", 73, 5, "obj-689", "number", "int", 127, 5, "obj-687", "number", "int", 51, 5, "obj-686", "number", "int", 109, 5, "obj-728", "number", "int", 111, 5, "obj-727", "number", "int", 32, 5, "obj-724", "number", "int", 22, 5, "obj-723", "number", "int", 101, 5, "obj-721", "number", "int", 0, 5, "obj-720", "number", "int", 127, 5, "obj-751", "number", "int", 96, 5, "obj-750", "number", "int", 13, 5, "obj-745", "number", "int", 122, 5, "obj-744", "number", "int", 39, 5, "obj-742", "number", "int", 119, 5, "obj-741", "number", "int", 34, 5, "obj-739", "number", "int", 102, 5, "obj-738", "number", "int", 21, 5, "obj-736", "number", "int", 127, 5, "obj-735", "number", "int", 25, 5, "obj-778", "number", "int", 18, 5, "obj-777", "number", "int", 94, 5, "obj-772", "number", "int", 15, 5, "obj-771", "number", "int", 84, 5, "obj-769", "number", "int", 15, 5, "obj-768", "number", "int", 83, 5, "obj-766", "number", "int", 9, 5, "obj-765", "number", "int", 77, 5, "obj-763", "number", "int", 10, 5, "obj-762", "number", "int", 80, 5, "obj-760", "number", "int", 13, 5, "obj-759", "number", "int", 85, 5, "obj-757", "number", "int", 22, 5, "obj-756", "number", "int", 88, 5, "obj-781", "number", "int", 33, 5, "obj-780", "number", "int", 127, 5, "obj-784", "number", "int", 36, 5, "obj-783", "number", "int", 118, 5, "obj-787", "number", "int", 37, 5, "obj-786", "number", "int", 105, 5, "obj-820", "number", "int", 1, 5, "obj-819", "number", "int", 85, 5, "obj-814", "number", "int", 10, 5, "obj-813", "number", "int", 98, 5, "obj-811", "number", "int", 5, 5, "obj-810", "number", "int", 93, 5, "obj-808", "number", "int", 0, 5, "obj-807", "number", "int", 83, 5, "obj-805", "number", "int", 24, 5, "obj-804", "number", "int", 102, 5, "obj-802", "number", "int", 46, 5, "obj-801", "number", "int", 127, 5, "obj-799", "number", "int", 9, 5, "obj-798", "number", "int", 93, 5, "obj-796", "number", "int", 13, 5, "obj-795", "number", "int", 111, 5, "obj-793", "number", "int", 6, 5, "obj-792", "number", "int", 107, 5, "obj-790", "number", "int", 46, 5, "obj-789", "number", "int", 127, 5, "obj-8", "number", "int", 84, 5, "obj-2", "number", "int", 16, 5, "obj-11", "number", "int", 93, 5, "obj-10", "number", "int", 14, 5, "obj-15", "number", "int", 96, 5, "obj-14", "number", "int", 16 ]
+											"data" : [ 5, "obj-512", "number", "int", 45, 5, "obj-511", "number", "int", 7, 5, "obj-635", "number", "int", 89, 5, "obj-634", "number", "int", 50, 5, "obj-641", "number", "int", 76, 5, "obj-640", "number", "int", 32, 5, "obj-638", "number", "int", 73, 5, "obj-637", "number", "int", 34, 5, "obj-653", "number", "int", 68, 5, "obj-652", "number", "int", 30, 5, "obj-650", "number", "int", 63, 5, "obj-649", "number", "int", 25, 5, "obj-647", "number", "int", 58, 5, "obj-646", "number", "int", 11, 5, "obj-644", "number", "int", 127, 5, "obj-643", "number", "int", 35, 5, "obj-678", "number", "int", 40, 5, "obj-677", "number", "int", 107, 5, "obj-674", "number", "int", 104, 5, "obj-673", "number", "int", 38, 5, "obj-671", "number", "int", 34, 5, "obj-670", "number", "int", 101, 5, "obj-668", "number", "int", 18, 5, "obj-667", "number", "int", 123, 5, "obj-665", "number", "int", 30, 5, "obj-664", "number", "int", 116, 5, "obj-705", "number", "int", 13, 5, "obj-704", "number", "int", 122, 5, "obj-699", "number", "int", 10, 5, "obj-698", "number", "int", 122, 5, "obj-696", "number", "int", 1, 5, "obj-695", "number", "int", 118, 5, "obj-693", "number", "int", 2, 5, "obj-692", "number", "int", 110, 5, "obj-690", "number", "int", 73, 5, "obj-689", "number", "int", 127, 5, "obj-687", "number", "int", 51, 5, "obj-686", "number", "int", 109, 5, "obj-728", "number", "int", 111, 5, "obj-727", "number", "int", 32, 5, "obj-724", "number", "int", 22, 5, "obj-723", "number", "int", 101, 5, "obj-721", "number", "int", 0, 5, "obj-720", "number", "int", 127, 5, "obj-751", "number", "int", 96, 5, "obj-750", "number", "int", 13, 5, "obj-745", "number", "int", 122, 5, "obj-744", "number", "int", 39, 5, "obj-742", "number", "int", 119, 5, "obj-741", "number", "int", 34, 5, "obj-739", "number", "int", 107, 5, "obj-738", "number", "int", 21, 5, "obj-736", "number", "int", 127, 5, "obj-735", "number", "int", 25, 5, "obj-778", "number", "int", 18, 5, "obj-777", "number", "int", 94, 5, "obj-772", "number", "int", 15, 5, "obj-771", "number", "int", 84, 5, "obj-769", "number", "int", 15, 5, "obj-768", "number", "int", 83, 5, "obj-766", "number", "int", 9, 5, "obj-765", "number", "int", 77, 5, "obj-763", "number", "int", 10, 5, "obj-762", "number", "int", 80, 5, "obj-760", "number", "int", 13, 5, "obj-759", "number", "int", 85, 5, "obj-757", "number", "int", 22, 5, "obj-756", "number", "int", 88, 5, "obj-781", "number", "int", 33, 5, "obj-780", "number", "int", 127, 5, "obj-784", "number", "int", 36, 5, "obj-783", "number", "int", 118, 5, "obj-787", "number", "int", 37, 5, "obj-786", "number", "int", 105, 5, "obj-820", "number", "int", 1, 5, "obj-819", "number", "int", 85, 5, "obj-814", "number", "int", 10, 5, "obj-813", "number", "int", 98, 5, "obj-811", "number", "int", 5, 5, "obj-810", "number", "int", 93, 5, "obj-808", "number", "int", 0, 5, "obj-807", "number", "int", 83, 5, "obj-805", "number", "int", 24, 5, "obj-804", "number", "int", 102, 5, "obj-802", "number", "int", 46, 5, "obj-801", "number", "int", 127, 5, "obj-799", "number", "int", 9, 5, "obj-798", "number", "int", 93, 5, "obj-796", "number", "int", 13, 5, "obj-795", "number", "int", 111, 5, "obj-793", "number", "int", 6, 5, "obj-792", "number", "int", 107, 5, "obj-790", "number", "int", 46, 5, "obj-789", "number", "int", 127, 5, "obj-8", "number", "int", 82, 5, "obj-2", "number", "int", 16, 5, "obj-11", "number", "int", 89, 5, "obj-10", "number", "int", 14, 5, "obj-15", "number", "int", 110, 5, "obj-14", "number", "int", 16 ]
 										}
 , 										{
 											"number" : 2,
@@ -20852,7 +20852,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 665.0, 55.0, 50.0, 22.0 ],
-									"text" : "96 1 2"
+									"text" : "29 4 2"
 								}
 
 							}
