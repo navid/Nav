@@ -6829,6 +6829,32 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-80",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 481.75, 259.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 484.0, 259.0, 19.0, 20.0 ],
+									"text" : "?"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 240.5, 127.064516129032199, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 237.75, 126.0, 19.0, 20.0 ],
+									"text" : "?"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -11298,7 +11324,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 394.5, 44.5, 19.0 ],
-									"text" : "50 0"
+									"text" : "70 0"
 								}
 
 							}
@@ -13485,7 +13511,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 394.5, 44.5, 19.0 ],
-									"text" : "29 4 2"
+									"text" : "95 3 2"
 								}
 
 							}
@@ -16421,7 +16447,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 405.0, 111.0, 63.0, 49.0 ],
-									"text" : "box4/servo2/value 96.1"
+									"text" : "box2/servo3/value 27.6"
 								}
 
 							}
@@ -16476,13 +16502,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-19",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 741.0, 414.0, 22.0, 76.0 ],
-									"text" : "value 100."
+									"text" : "value 0."
 								}
 
 							}
@@ -18793,7 +18819,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "29 4 2"
+									"text" : "95 3 2"
 								}
 
 							}
@@ -20852,7 +20878,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 665.0, 55.0, 50.0, 22.0 ],
-									"text" : "29 4 2"
+									"text" : "95 3 2"
 								}
 
 							}
