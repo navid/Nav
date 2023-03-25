@@ -2032,7 +2032,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 183 7 0"
+													"text" : "midievent 176 7 0"
 												}
 
 											}
@@ -3234,7 +3234,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 435.0, 45.0, 114.0, 20.0 ],
-									"text" : "port \"no6 Faderfox LV3\""
+									"text" : "port \"no1 Faderfox LV3\""
 								}
 
 							}
@@ -4954,7 +4954,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 45.0, 114.0, 20.0 ],
-									"text" : "port \"no1 Faderfox LV3\""
+									"text" : "port \"no6 Faderfox LV3\""
 								}
 
 							}
