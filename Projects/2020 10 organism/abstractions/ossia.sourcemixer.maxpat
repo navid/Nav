@@ -47,7 +47,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 60.0, 327.0, 35.0 ],
-					"text" : "ossia.parameter mix @type int @min 0 @max 2 @clip both @default 0"
+					"text" : "ossia.parameter mix @type int @min 0 @max 2 @clip both @default 0 @priority 10"
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 15.0, 345.0, 35.0 ],
-					"text" : "ossia.parameter source @type int @min 1 @max 3 @clip both @default 1"
+					"text" : "ossia.parameter source @type int @min 1 @max 3 @clip both @default 1 @priority 10"
 				}
 
 			}
@@ -71,23 +71,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 105.0, 89.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 105.0, 22.0 ],
 					"text" : "ossia.model #1"
 				}
 
 			}
  ],
-		"lines" : [  ],
-		"dependency_cache" : [ 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"lines" : [  ]
 	}
 
 }
