@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2493.0, -23.0, 215.0, 200.0 ],
+		"rect" : [ 1382.0, 343.0, 215.0, 200.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,8 +57,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 75.0, 127.0, 22.0 ],
-					"text" : "ossia.parameter value"
+					"patching_rect" : [ 15.0, 75.0, 191.0, 22.0 ],
+					"text" : "ossia.parameter value @type bool"
 				}
 
 			}

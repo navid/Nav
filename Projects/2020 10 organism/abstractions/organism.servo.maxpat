@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 298.0, 552.0, 496.0, 224.0 ],
+		"rect" : [ 1074.0, 389.0, 496.0, 224.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -675,8 +675,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 15.0, 189.0, 22.0 ],
-					"text" : "ossia.parameter value @priorty -1"
+					"patching_rect" : [ 15.0, 15.0, 192.0, 22.0 ],
+					"text" : "ossia.parameter value @priority -1"
 				}
 
 			}
