@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -60,7 +60,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 15.0, 345.0, 35.0 ],
-					"text" : "ossia.parameter source @type int @min 1 @max 3 @clip both @default 1 @priority 10"
+					"text" : "ossia.parameter source @type int @min 1 @max 3 @clip both @default 1 @priority 100"
 				}
 
 			}
