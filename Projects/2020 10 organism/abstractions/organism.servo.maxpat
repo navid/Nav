@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 15.0, 135.0, 74.0, 22.0 ],
+					"text" : "unpack 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-94",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -343,7 +355,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 137.0, 120.0, 22.0 ],
+					"patching_rect" : [ 15.0, 165.0, 120.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -604,9 +616,9 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "" ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 220.0, 135.0, 214.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range2"
 				}
@@ -616,9 +628,9 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "" ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 107.0, 172.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range1"
 				}
@@ -631,7 +643,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 14.0, 177.0, 166.0, 22.0 ],
+					"patching_rect" : [ 15.0, 210.0, 166.0, 22.0 ],
 					"text" : "ossia.nav.rand.model random"
 				}
 
@@ -652,13 +664,20 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-847", 1 ],
-					"source" : [ "obj-3", 1 ]
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-847", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -703,8 +722,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 225.5, 93.5, 75.5, 93.5 ],
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 225.5, 93.5, 24.5, 93.5 ],
 					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}

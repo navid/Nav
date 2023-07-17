@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 200.0, 282.0, 318.0, 283.0 ],
+		"rect" : [ 37.0, 53.0, 318.0, 283.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -6817,6 +6817,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-104",
@@ -11411,7 +11412,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 394.5, 44.5, 19.0 ],
-									"text" : "65 0"
+									"text" : "45 127"
 								}
 
 							}
@@ -13598,7 +13599,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 394.5, 44.5, 19.0 ],
-									"text" : "0 1 1"
+									"text" : "33 4 3"
 								}
 
 							}
@@ -16528,7 +16529,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 335.0, 53.0, 1028.0, 1039.0 ],
+						"rect" : [ 363.0, 53.0, 1028.0, 1027.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16556,14 +16557,97 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 658.5, 590.918918907642365, 76.0, 22.0 ],
+									"text" : "servo.calib 8"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"id" : "obj-19",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 715.5, 561.0, 31.0, 22.0 ],
+									"triangle" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"id" : "obj-25",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 681.0, 561.0, 31.0, 22.0 ],
+									"triangle" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 574.5, 590.918918907642365, 76.0, 22.0 ],
+									"text" : "servo.calib 7"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
+									"id" : "obj-27",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 631.5, 561.0, 31.0, 22.0 ],
+									"triangle" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
+									"id" : "obj-28",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 597.0, 561.0, 31.0, 22.0 ],
+									"triangle" : 0
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-43",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 624.0, 642.0, 85.0, 22.0 ],
+									"patching_rect" : [ 660.0, 672.0, 85.0, 22.0 ],
 									"text" : "prepend value"
 								}
 
@@ -16577,7 +16661,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 756.0, 639.0, 31.0, 22.0 ],
+									"patching_rect" : [ 792.0, 669.0, 31.0, 22.0 ],
 									"triangle" : 0
 								}
 
@@ -16591,7 +16675,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 720.0, 639.0, 31.0, 22.0 ],
+									"patching_rect" : [ 756.0, 669.0, 31.0, 22.0 ],
 									"triangle" : 0
 								}
 
@@ -16604,7 +16688,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 546.0, 675.0, 72.0, 19.0 ],
+									"patching_rect" : [ 582.0, 705.0, 72.0, 19.0 ],
 									"text" : "organism.svx33"
 								}
 
@@ -16616,7 +16700,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 624.0, 672.0, 153.0, 22.0 ],
+									"patching_rect" : [ 660.0, 702.0, 153.0, 22.0 ],
 									"text" : "savox.calib 1"
 								}
 
@@ -16629,7 +16713,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 624.0, 615.0, 50.0, 22.0 ]
+									"patching_rect" : [ 660.0, 645.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -16640,7 +16724,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 606.0, 699.0, 39.0, 22.0 ],
+									"patching_rect" : [ 642.0, 729.0, 39.0, 22.0 ],
 									"text" : "33 1"
 								}
 
@@ -16691,7 +16775,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 321.0, 123.0, 176.565213799476624, 22.0 ],
-									"text" : "box1/servo1/value 100."
+									"text" : "box3/input/value 0."
 								}
 
 							}
@@ -18103,82 +18187,82 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 									"id" : "obj-685",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 489.714285714285779, 591.918918907642365, 76.0, 22.0 ],
+									"patching_rect" : [ 484.5, 590.918918907642365, 76.0, 22.0 ],
 									"text" : "servo.calib 6"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 									"id" : "obj-686",
 									"maxclass" : "number",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 546.714285714285779, 562.0, 31.0, 22.0 ],
+									"patching_rect" : [ 541.5, 561.0, 31.0, 22.0 ],
 									"triangle" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 									"id" : "obj-687",
 									"maxclass" : "number",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 512.214285714285779, 562.0, 31.0, 22.0 ],
+									"patching_rect" : [ 507.0, 561.0, 31.0, 22.0 ],
 									"triangle" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 									"id" : "obj-688",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 405.714285714285779, 591.918918907642365, 76.0, 22.0 ],
+									"patching_rect" : [ 400.5, 590.918918907642365, 76.0, 22.0 ],
 									"text" : "servo.calib 5"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 									"id" : "obj-689",
 									"maxclass" : "number",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 462.714285714285779, 562.0, 31.0, 22.0 ],
+									"patching_rect" : [ 457.5, 561.0, 31.0, 22.0 ],
 									"triangle" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.407843137254902, 0.282352941176471, 0.282352941176471, 1.0 ],
+									"bgcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 									"id" : "obj-690",
 									"maxclass" : "number",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 428.214285714285779, 562.0, 31.0, 22.0 ],
+									"patching_rect" : [ 423.0, 561.0, 31.0, 22.0 ],
 									"triangle" : 0
 								}
 
@@ -18313,11 +18397,11 @@
 								"box" : 								{
 									"id" : "obj-701",
 									"maxclass" : "newobj",
-									"numinlets" : 7,
-									"numoutlets" : 7,
-									"outlettype" : [ "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 61.714285714285722, 534.0, 535.0, 22.0 ],
-									"text" : "ossia.router servo1 servo2 servo3 servo4 input servo6"
+									"numinlets" : 9,
+									"numoutlets" : 9,
+									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 61.714285714285722, 534.0, 697.0, 22.0 ],
+									"text" : "ossia.router servo1 servo2 servo3 servo4 servo5 servo6 servo7 input"
 								}
 
 							}
@@ -19002,7 +19086,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "0 1 1"
+									"text" : "33 4 3"
 								}
 
 							}
@@ -19298,6 +19382,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 2 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 2 ],
 									"source" : [ "obj-2", 0 ]
 								}
@@ -19357,8 +19448,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-79", 1 ],
 									"source" : [ "obj-268", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 2 ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 1 ],
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -19917,7 +20029,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-703", 0 ],
-									"midpoints" : [ 499.214285714285779, 622.418918907642365, 71.214285714285722, 622.418918907642365 ],
+									"midpoints" : [ 494.0, 622.418918907642365, 71.214285714285722, 622.418918907642365 ],
 									"source" : [ "obj-685", 0 ]
 								}
 
@@ -19939,7 +20051,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-703", 0 ],
-									"midpoints" : [ 415.214285714285779, 622.418918907642365, 71.214285714285722, 622.418918907642365 ],
+									"midpoints" : [ 410.0, 622.418918907642365, 71.214285714285722, 622.418918907642365 ],
 									"source" : [ "obj-688", 0 ]
 								}
 
@@ -20043,6 +20155,20 @@
 									"destination" : [ "obj-703", 0 ],
 									"midpoints" : [ 71.214285714285722, 622.418918907642365, 71.214285714285722, 622.418918907642365 ],
 									"source" : [ "obj-700", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-701", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-701", 7 ]
 								}
 
 							}
@@ -21093,7 +21219,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "0 1 1"
+									"text" : "33 4 3"
 								}
 
 							}
@@ -23069,7 +23195,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 643.0, 399.0, 753.0, 273.0 ],
+						"rect" : [ 1164.0, 87.0, 753.0, 273.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -23097,6 +23223,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -24707,97 +24834,97 @@
 , 			{
 				"name" : "dot.constrain.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.maximum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.mean.exponential.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.ramp.maxpat",
-				"bootpath" : "~/code/Nav/Archive/ut",
+				"bootpath" : "~/Documents/GitHub/Nav/Archive/ut",
 				"patcherrelativepath" : "../../Archive/ut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.input.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.input_mix.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.lfo_random_mix.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.output.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.servo.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.svx33.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.valve.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.count8.maxpat",
-				"bootpath" : "~/code/tml-ossia/timing/ossia.count8",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/timing/ossia.count8",
 				"patcherrelativepath" : "../../../tml-ossia/timing/ossia.count8",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24808,14 +24935,14 @@
 			}
 , 			{
 				"name" : "ossia.cue_manager_classic.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/cue_manager_classic",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager_classic",
 				"patcherrelativepath" : "../../../tml-ossia/utilities/cue_manager_classic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.cue_manager_classic.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/cue_manager_classic",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager_classic",
 				"patcherrelativepath" : "../../../tml-ossia/utilities/cue_manager_classic",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24834,8 +24961,8 @@
 			}
 , 			{
 				"name" : "ossia.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/javascript",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -24845,56 +24972,56 @@
 			}
 , 			{
 				"name" : "ossia.namespace_selector.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespace_selector",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespace_selector",
 				"patcherrelativepath" : "../../../tml-ossia/utilities/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.module.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.banger",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.banger",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.lfo.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.lfo",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.lfo",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.lfo",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.rand.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.ranger.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.ranger",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.ranger",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.ranger",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24913,7 +25040,7 @@
 			}
 , 			{
 				"name" : "ossia.sourcemixer.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24924,14 +25051,14 @@
 			}
 , 			{
 				"name" : "savox.calib.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "servo.calib.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/servo.calib/patchers",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/servo.calib/patchers",
 				"patcherrelativepath" : "./abstractions/servo.calib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24944,7 +25071,7 @@
 			}
 , 			{
 				"name" : "valve.send.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
