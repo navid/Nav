@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 188.0, 178.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -90,21 +90,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 75.0, 150.0, 47.0 ],
-									"presentation_linecount" : 3,
+									"patching_rect" : [ 15.0, 15.0, 150.0, 47.0 ],
 									"text" : "FIX:\ninlet on B7 doesn't modulate rand offset"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 15.0, 150.0, 33.0 ],
-									"text" : "Add phase to valve Bangers"
 								}
 
 							}
@@ -7032,6 +7019,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-134",
@@ -11880,7 +11868,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 389.5, 44.5, 19.0 ],
-									"text" : "27 127"
+									"text" : "60 0"
 								}
 
 							}
@@ -14067,7 +14055,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 389.5, 44.5, 19.0 ],
-									"text" : "81 1 5"
+									"text" : "0 1 1"
 								}
 
 							}
@@ -19632,7 +19620,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "22 3 1"
+									"text" : "0 1 1"
 								}
 
 							}
@@ -21781,7 +21769,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "22 3 1"
+									"text" : "0 1 1"
 								}
 
 							}
