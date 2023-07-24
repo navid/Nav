@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 861.0, 211.0, 634.0, 405.0 ],
+		"rect" : [ 34.0, 90.0, 636.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "all", "on" ],
-							"parameter_longname" : "live.tab[126]",
+							"parameter_longname" : "live.tab[130]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -206,7 +206,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[64]",
+							"parameter_longname" : "Interval[18]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
@@ -262,7 +262,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "ms", "nt" ],
-							"parameter_longname" : "live.tab[109]",
+							"parameter_longname" : "live.tab[22]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -300,7 +300,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[65]",
+							"parameter_longname" : "Interval[19]",
 							"parameter_mmax" : 20,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
@@ -369,7 +369,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "toggle[29]",
+							"parameter_longname" : "toggle[27]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "toggle[7]",
 							"parameter_type" : 2
@@ -411,7 +411,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[196]",
+							"parameter_longname" : "number[191]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
@@ -456,7 +456,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[197]",
+							"parameter_longname" : "number[192]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number[96]",
