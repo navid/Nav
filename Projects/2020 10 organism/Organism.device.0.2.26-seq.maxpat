@@ -40,6 +40,92 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "evan_template",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 75.0, 150.0, 47.0 ],
+									"presentation_linecount" : 3,
+									"text" : "FIX:\ninlet on B7 doesn't modulate rand offset"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 15.0, 150.0, 33.0 ],
+									"text" : "Add phase to valve Bangers"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 247.0, 92.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p toDo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.631372549019608, 0.27843137254902, 0.517647058823529, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-2",
@@ -50,7 +136,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 383.0, 22.0, 60.0, 31.0 ],
-					"text" : "organ.sequencer"
+					"text" : "organ.sequencer",
+					"varname" : "organ.sequencer"
 				}
 
 			}
@@ -6917,7 +7004,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1276.0, 174.0, 601.0, 428.0 ],
+						"rect" : [ 315.0, 53.0, 601.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -6945,7 +7032,6 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-134",
@@ -11794,7 +11880,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 389.5, 44.5, 19.0 ],
-									"text" : "35 0"
+									"text" : "27 127"
 								}
 
 							}
@@ -13981,7 +14067,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 389.5, 44.5, 19.0 ],
-									"text" : "30 3 3"
+									"text" : "81 1 5"
 								}
 
 							}
@@ -17235,7 +17321,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 321.0, 123.0, 176.565213799476624, 22.0 ],
-									"text" : "box3/servo3/value 0."
+									"text" : "box7/servo2/value 38.9"
 								}
 
 							}
@@ -19546,7 +19632,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "30 3 3"
+									"text" : "22 3 1"
 								}
 
 							}
@@ -21695,7 +21781,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 3 3"
+									"text" : "22 3 1"
 								}
 
 							}
@@ -25184,6 +25270,30 @@
 					"parameter_longname" : "live.text[200]"
 				}
 ,
+				"obj-2::obj-521::obj-33" : 				{
+					"parameter_longname" : "number[8]"
+				}
+,
+				"obj-2::obj-521::obj-69" : 				{
+					"parameter_longname" : "live.menu[5]"
+				}
+,
+				"obj-2::obj-521::obj-71" : 				{
+					"parameter_longname" : "live.button[3]"
+				}
+,
+				"obj-2::obj-521::obj-74" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
+				"obj-2::obj-521::obj-76" : 				{
+					"parameter_longname" : "number[7]"
+				}
+,
+				"obj-2::obj-521::obj-83" : 				{
+					"parameter_longname" : "live.menu[6]"
+				}
+,
 				"obj-2::obj-522::obj-33" : 				{
 					"parameter_longname" : "number[12]"
 				}
@@ -25446,6 +25556,13 @@
 				"name" : "organ.sequencer.maxpat",
 				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "./abstractions/organ.sequencer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "organDoubleSequencer.json",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
