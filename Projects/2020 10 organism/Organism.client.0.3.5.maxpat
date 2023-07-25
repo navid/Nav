@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 640.0, 829.0, 309.0, 371.0 ],
+						"rect" : [ 465.0, 829.0, 309.0, 371.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -821,7 +821,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 15.0, 114.0, 20.0 ],
-									"text" : "port \"no1 Faderfox LV3\""
+									"text" : "port \"no6 Faderfox LV3\""
 								}
 
 							}
@@ -843,7 +843,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 450.0, 15.0, 114.0, 20.0 ],
-									"text" : "port \"no6 Faderfox LV3\""
+									"text" : "port \"no1 Faderfox LV3\""
 								}
 
 							}
@@ -2217,7 +2217,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 176 7 0"
+													"text" : "midievent 181 7 127"
 												}
 
 											}
@@ -3419,7 +3419,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 435.0, 45.0, 114.0, 20.0 ],
-									"text" : "port \"no1 Faderfox LV3\""
+									"text" : "port \"no6 Faderfox LV3\""
 								}
 
 							}
@@ -5200,7 +5200,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 45.0, 114.0, 20.0 ],
-									"text" : "port \"no6 Faderfox LV3\""
+									"text" : "port \"no1 Faderfox LV3\""
 								}
 
 							}
@@ -5965,7 +5965,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 176 7 0"
+													"text" : "midievent 183 7 127"
 												}
 
 											}
@@ -19767,7 +19767,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 35.0, 158.0, 598.0, 224.0 ],
+										"rect" : [ 508.0, 410.0, 598.0, 224.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -20063,7 +20063,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 81.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -22765,7 +22765,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 310.0, 459.0, 111.0, 35.0 ],
+																	"patching_rect" : [ 310.0, 459.0, 114.0, 35.0 ],
 																	"text" : "organism.midifader box3/servo2"
 																}
 
@@ -29606,7 +29606,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1140.0, 497.0, 576.0, 724.0 ],
+						"rect" : [ 667.0, 482.0, 576.0, 724.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -36750,7 +36750,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 320.0, 830.0, 319.0, 370.0 ],
+						"rect" : [ 136.0, 830.0, 319.0, 370.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
