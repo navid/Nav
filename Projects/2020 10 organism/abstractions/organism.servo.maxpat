@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 783.0, 418.0, 513.0, 272.0 ],
+		"rect" : [ 99.0, 522.0, 557.0, 272.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
+					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 15.0, 135.0, 74.0, 22.0 ],
-					"text" : "unpack 0. 0."
+					"patching_rect" : [ 15.0, 135.0, 61.0, 22.0 ],
+					"text" : "unpack f f"
 				}
 
 			}
@@ -94,7 +94,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 327.0, 461.0, 464.0, 253.0 ],
+						"rect" : [ 328.0, 461.0, 464.0, 253.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -631,7 +631,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 107.0, 172.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 172.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range1"
 				}
 
@@ -664,20 +664,20 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-847", 1 ],
-					"source" : [ "obj-10", 1 ]
+					"source" : [ "obj-14", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-847", 0 ],
-					"source" : [ "obj-10", 0 ]
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

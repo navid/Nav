@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 314.0, 282.0 ],
+		"rect" : [ 0.0, 53.0, 314.0, 253.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,14 +85,38 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 255.0, 150.0, 47.0 ],
+									"presentation_linecount" : 3,
+									"text" : "check out range visualization upon preset recall"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-2",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 120.0, 150.0, 47.0 ],
-									"presentation_linecount" : 3,
-									"text" : "Faders don't cntrol inlet offsets... the mddel needds changing"
+									"patching_rect" : [ 15.0, 195.0, 150.0, 47.0 ],
+									"text" : "added a repetition filter to ranger min Max... check behaviour"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 120.0, 150.0, 60.0 ],
+									"text" : "servo \"fader\" param is on recall safe... check to see if this is wanted... check again offset"
 								}
 
 							}
@@ -104,7 +128,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 60.0, 150.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "synchronize metros and bangers... quantize... rest counters to 0/1"
 								}
 
@@ -125,7 +148,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 247.0, 92.0, 44.0, 22.0 ],
+					"patching_rect" : [ 189.0, 123.0, 44.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2866,7 +2889,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 257.0, 306.0, 22.0 ],
+					"patching_rect" : [ 4.166671999999949, 229.0, 306.0, 22.0 ],
 					"text" : "ossia.cue_manager_classic.model organ_cues"
 				}
 
@@ -4957,7 +4980,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.166671999999949, 108.0, 135.0, 20.0 ],
+					"patching_rect" : [ 4.166671999999949, 104.0, 135.0, 20.0 ],
 					"text" : "ossia.device organism_main"
 				}
 
@@ -5202,7 +5225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.666671999999949, 104.0, 39.0, 19.0 ],
+					"patching_rect" : [ 137.666671999999949, 100.0, 39.0, 19.0 ],
 					"text" : "register"
 				}
 
@@ -5215,7 +5238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.666671999999949, 104.0, 77.0, 19.0 ],
+					"patching_rect" : [ 178.666671999999949, 100.0, 77.0, 19.0 ],
 					"text" : "expose oscquery"
 				}
 
@@ -11893,7 +11916,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 389.5, 44.5, 19.0 ],
-									"text" : "40 0"
+									"text" : "52 127"
 								}
 
 							}
@@ -14080,7 +14103,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 389.5, 44.5, 19.0 ],
-									"text" : "30 3 3"
+									"text" : "30 4 2"
 								}
 
 							}
@@ -17334,7 +17357,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 321.0, 123.0, 176.565213799476624, 22.0 ],
-									"text" : "box5/servo3/value 0."
+									"text" : "box2/servo4/value 16.3"
 								}
 
 							}
@@ -19645,7 +19668,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "30 3 3"
+									"text" : "30 4 2"
 								}
 
 							}
@@ -21794,7 +21817,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 3 3"
+									"text" : "30 4 2"
 								}
 
 							}
@@ -25006,7 +25029,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4.166671999999949, 132.0, 306.0, 123.0 ],
+					"patching_rect" : [ 4.166671999999949, 104.0, 306.0, 123.0 ],
 					"viewvisibility" : 1
 				}
 
