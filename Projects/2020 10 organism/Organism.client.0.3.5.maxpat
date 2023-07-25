@@ -2217,7 +2217,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 181 7 127"
+													"text" : "midievent 177 7 65"
 												}
 
 											}
@@ -3854,7 +3854,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 551.229888999999957, 170.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 176 57 15"
+													"text" : "midievent 128 15 127"
 												}
 
 											}
@@ -5965,7 +5965,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 183 7 127"
+													"text" : "midievent 176 7 66"
 												}
 
 											}
@@ -29634,7 +29634,6 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box7/valve{25..28}" ],
@@ -35775,7 +35774,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.0, 150.0, 38.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 581.0, 91.0, 38.0, 47.0 ],
+									"presentation_rect" : [ 600.0, 15.0, 38.0, 47.0 ],
 									"text" : "6",
 									"textcolor" : [ 1.0, 0.0, 0.933333333333333, 1.0 ]
 								}
@@ -38316,7 +38315,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 28.0, 660.0, 442.0 ],
+						"rect" : [ 0.0, 28.0, 658.0, 442.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
