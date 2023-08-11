@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 188.0, 299.0 ],
+						"rect" : [ 59.0, 104.0, 188.0, 498.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,13 +85,24 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 315.0, 150.0, 33.0 ],
+									"text" : "box7 - secondary fadders ddont do nothing"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 255.0, 150.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "check out range visualization upon preset recall"
 								}
 
@@ -7040,7 +7051,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 315.0, 53.0, 601.0, 428.0 ],
+						"rect" : [ 0.0, 335.0, 601.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -11916,7 +11927,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 410.25, 389.5, 44.5, 19.0 ],
-									"text" : "52 127"
+									"text" : "82 127"
 								}
 
 							}
@@ -14103,7 +14114,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 326.25, 389.5, 44.5, 19.0 ],
-									"text" : "30 4 2"
+									"text" : "13 9 6"
 								}
 
 							}
@@ -17357,7 +17368,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 321.0, 123.0, 176.565213799476624, 22.0 ],
-									"text" : "box2/servo4/value 16.3"
+									"text" : "box6/input/value 0."
 								}
 
 							}
@@ -19668,7 +19679,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 420.714285714285722, 73.56756728887558, 50.0, 22.0 ],
-									"text" : "30 4 2"
+									"text" : "13 9 6"
 								}
 
 							}
@@ -21817,7 +21828,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 4 2"
+									"text" : "13 9 6"
 								}
 
 							}
