@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 596.0, 79.0, 596.0, 791.0 ],
+		"rect" : [ 981.0, 300.0, 596.0, 791.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -100,14 +100,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 596.0, 105.0, 596.0, 765.0 ],
+						"rect" : [ 981.0, 326.0, 596.0, 765.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,6 +137,30 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 390.0, 705.0, 49.0, 22.0 ],
+									"text" : "register"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 270.0, 705.0, 75.0, 22.0 ],
+									"text" : "ossia.device"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Lato Regular",
 									"fontsize" : 13.0,
@@ -225,14 +249,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 349.0, 218.0, 1415.0, 835.0 ],
+										"rect" : [ 273.0, 318.0, 1415.0, 835.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -262,6 +286,19 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-3",
+													"linecount" : 2,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 285.0, 120.0, 50.0, 35.0 ],
+													"text" : "-0.045303"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"candicane2" : [ 0.282353, 0.560784, 0.886275, 1.0 ],
 													"candicane3" : [ 0.298039, 0.380392, 0.658824, 1.0 ],
@@ -280,6 +317,8 @@
 														"valueof" : 														{
 															"parameter_invisible" : 1,
 															"parameter_longname" : "multislider[11]",
+															"parameter_mmax" : 1.0,
+															"parameter_mmin" : -1.0,
 															"parameter_shortname" : "multislider[1]",
 															"parameter_type" : 3
 														}
@@ -502,7 +541,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 15.0, 165.0, 285.0, 49.0 ],
+													"patching_rect" : [ 135.0, 195.0, 285.0, 49.0 ],
 													"text" : "jit.gl.gridshape default @shape cube @scale 0.3 0.2 0.01 @dim 20 20 @smooth_shading 0 @lighting_enable 1 @color 0.5 0.9 1. 1. @axes 1"
 												}
 
@@ -572,8 +611,17 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 1 ],
+													"order" : 0,
+													"source" : [ "obj-5", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-9", 1 ],
 													"midpoints" : [ 246.5, 62.0, 238.166666666666657, 62.0 ],
+													"order" : 1,
 													"source" : [ "obj-5", 1 ]
 												}
 
@@ -713,6 +761,13 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "Jamoma_highlighted_orange",
@@ -791,8 +846,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1150,6 +1205,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "ossia.device.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}

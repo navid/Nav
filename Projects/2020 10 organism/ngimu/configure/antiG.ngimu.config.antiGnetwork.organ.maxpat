@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 224.0, 133.0 ],
+		"rect" : [ 296.0, 755.0, 536.0, 168.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -40,12 +40,45 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 173.0, 132.0, 275.0, 20.0 ],
+					"text" : "factory mode... make sure n ethernet is connected"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.0, 132.0, 151.0, 22.0 ],
+					"text" : "udpsend 192.168.1.1 9000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.0, 100.0, 158.0, 22.0 ],
+					"text" : "udpsend 192.168.1.95 9000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 67.0, 158.0, 22.0 ],
-					"text" : "udpsend 192.168.1.95 9000"
+					"text" : "udpsend 192.168.1.90 9000"
 				}
 
 			}
@@ -58,7 +91,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 37.0, 110.0, 22.0 ],
-					"text" : "ngimu_config 8005"
+					"text" : "ngimu_config 8000"
 				}
 
 			}
@@ -95,7 +128,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "ngimu_config.maxpat",
 				"bootpath" : "~/code/tml-ossia/sensors/ngimu_config",
-				"patcherrelativepath" : "../../../../tml-ossia/sensors/ngimu_config",
+				"patcherrelativepath" : "../../../../../tml-ossia/sensors/ngimu_config",
 				"type" : "JSON",
 				"implicit" : 1
 			}
