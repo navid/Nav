@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 99.0, 522.0, 557.0, 272.0 ],
+		"rect" : [ 126.0, 564.0, 717.0, 240.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 495.0, 45.0, 61.0, 22.0 ],
+					"text" : "change 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 495.0, 15.0, 202.0, 22.0 ],
+					"text" : "ossia.nav.oscroute.model imu2servo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 15.0, 135.0, 61.0, 22.0 ],
+					"patching_rect" : [ 9.0, 135.0, 61.0, 22.0 ],
 					"text" : "unpack f f"
 				}
 
@@ -100,7 +124,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -367,7 +391,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 165.0, 120.0, 22.0 ],
+					"patching_rect" : [ 9.0, 165.0, 120.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -390,7 +414,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -542,7 +566,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 162.0, 47.0, 45.0, 22.0 ],
+					"patching_rect" : [ 156.0, 47.0, 45.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -560,7 +584,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 107.0, 147.0, 22.0 ],
+					"patching_rect" : [ 210.0, 107.0, 147.0, 22.0 ],
 					"text" : "organism.lfo_random_mix"
 				}
 
@@ -572,7 +596,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 216.0, 15.0, 209.0, 22.0 ],
+					"patching_rect" : [ 210.0, 15.0, 209.0, 22.0 ],
 					"text" : "ossia.parameter fader @recall_safe 1"
 				}
 
@@ -584,7 +608,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 10.0, 192.0, 22.0 ],
+					"patching_rect" : [ 495.0, 75.0, 192.0, 22.0 ],
 					"text" : "ossia.parameter value @priority -1"
 				}
 
@@ -595,7 +619,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 47.0, 143.0, 22.0 ],
+					"patching_rect" : [ 9.0, 47.0, 143.0, 22.0 ],
 					"text" : "ossia.sourcemixer mixer"
 				}
 
@@ -607,7 +631,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 345.0, 69.0, 133.0, 22.0 ],
+					"patching_rect" : [ 339.0, 69.0, 133.0, 22.0 ],
 					"text" : "ossia.nav.lfo.model lfo2"
 				}
 
@@ -619,7 +643,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 280.0, 43.0, 133.0, 22.0 ],
+					"patching_rect" : [ 274.0, 43.0, 133.0, 22.0 ],
 					"text" : "ossia.nav.lfo.model lfo1"
 				}
 
@@ -631,7 +655,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 220.0, 135.0, 214.0, 22.0 ],
+					"patching_rect" : [ 225.0, 135.0, 214.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range2"
 				}
 
@@ -643,7 +667,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 105.0, 172.0, 22.0 ],
+					"patching_rect" : [ 9.0, 105.0, 172.0, 22.0 ],
 					"text" : "ossia.nav.ranger.model range1"
 				}
 
@@ -655,7 +679,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 210.0, 166.0, 22.0 ],
+					"patching_rect" : [ 9.0, 210.0, 166.0, 22.0 ],
 					"text" : "ossia.nav.rand.model random"
 				}
 
@@ -667,13 +691,27 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.0, 236.0, 116.0, 22.0 ],
+					"patching_rect" : [ 525.0, 210.0, 161.0, 22.0 ],
 					"text" : "ossia.model #1"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"source" : [ "obj-12", 0 ]
@@ -718,7 +756,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
-					"midpoints" : [ 289.5, 93.0, 289.5, 93.0 ],
+					"midpoints" : [ 283.5, 93.0, 283.5, 93.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -726,7 +764,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 2 ],
-					"midpoints" : [ 354.5, 93.0, 353.5, 93.0 ],
+					"midpoints" : [ 348.5, 93.0, 347.5, 93.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -742,7 +780,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 225.5, 93.5, 24.5, 93.5 ],
+					"midpoints" : [ 219.5, 93.5, 18.5, 93.5 ],
 					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
