@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 62.0, 1631.0, 770.0 ],
+		"rect" : [ 255.0, 87.0, 1631.0, 770.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -793,8 +793,8 @@
 					"numinlets" : 12,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 6.0, 50.0, 1576.0, 22.0 ],
-					"text" : "ossia.router /gyro /freefall /shake /intensity /stillness /acc /matrix/list /quarternion/list /euler /earth /linear"
+					"patching_rect" : [ 6.0, 50.0, 1486.0, 22.0 ],
+					"text" : "ossia.router /gyro /freefall /shake /intensity /stillness /acc /matrix/list /quarternion/list /euler/normalized /earth /linear"
 				}
 
 			}

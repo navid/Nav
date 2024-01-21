@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,13 +49,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 341.0, 72.0, 1403.0, 729.0 ],
+						"rect" : [ 446.0, 199.0, 1403.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
 						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"toolbars_unpinned_last_save" : 2,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -83,6 +83,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box7/valve28/imu2valve" ],
@@ -100,7 +101,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1154.5, 692.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1157.5, 697.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -122,7 +123,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1154.5, 666.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1157.5, 671.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -144,7 +145,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1154.5, 641.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1157.5, 646.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -166,7 +167,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1154.5, 616.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1157.5, 621.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -188,7 +189,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 589.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 594.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -210,7 +211,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 564.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 569.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -232,7 +233,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 539.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 544.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -254,7 +255,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 514.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 519.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -276,7 +277,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 480.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 485.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -298,7 +299,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 455.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 460.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -320,7 +321,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 430.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 435.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -342,7 +343,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 405.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 410.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -364,7 +365,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 374.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 379.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -386,7 +387,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 349.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 354.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -408,7 +409,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 324.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 329.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -430,7 +431,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1233.5, 299.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1236.5, 304.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -452,7 +453,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 589.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 594.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -474,7 +475,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 564.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 569.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -496,7 +497,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 539.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 544.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -518,7 +519,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 514.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 519.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -540,7 +541,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 480.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 485.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -562,7 +563,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 455.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 460.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -584,7 +585,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 430.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 435.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -606,7 +607,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 405.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 410.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -628,7 +629,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 374.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 379.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -650,7 +651,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 349.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 354.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -672,7 +673,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 324.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 329.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -694,7 +695,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1061.5, 299.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1064.5, 304.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -716,7 +717,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 549.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 554.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -738,7 +739,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 524.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 529.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -760,7 +761,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 499.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 504.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -782,7 +783,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 474.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 479.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -804,7 +805,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 449.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 454.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -826,7 +827,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 424.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 429.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -848,7 +849,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 399.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 404.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -870,7 +871,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 374.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 379.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -892,7 +893,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 349.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 354.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -914,7 +915,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 324.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 329.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -936,7 +937,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 299.0, 162.0, 23.0 ],
+									"patching_rect" : [ 887.0, 304.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -958,7 +959,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 449.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 454.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -980,7 +981,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 424.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 429.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1002,7 +1003,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 399.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 404.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1024,7 +1025,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 374.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 379.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1046,7 +1047,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 349.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 354.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1068,7 +1069,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 324.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 329.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1090,7 +1091,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 299.0, 162.0, 23.0 ],
+									"patching_rect" : [ 538.0, 304.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1112,7 +1113,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 449.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 454.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1134,7 +1135,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 424.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 429.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1156,7 +1157,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 399.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 404.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1178,7 +1179,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 374.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 379.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1200,7 +1201,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 349.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 354.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1222,7 +1223,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 324.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 329.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1244,7 +1245,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 299.0, 162.0, 23.0 ],
+									"patching_rect" : [ 167.0, 304.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1266,7 +1267,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 549.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 554.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1288,7 +1289,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 524.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 529.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1310,7 +1311,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 499.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 504.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1332,7 +1333,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 474.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 479.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1354,7 +1355,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 449.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 454.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1376,7 +1377,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 424.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 429.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1398,7 +1399,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 399.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 404.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1420,7 +1421,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 374.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 379.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1442,7 +1443,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 349.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 354.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1464,7 +1465,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 324.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 329.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1486,7 +1487,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 299.0, 162.0, 23.0 ],
+									"patching_rect" : [ 3.0, 304.0, 162.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1508,7 +1509,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 144.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 149.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1530,7 +1531,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 120.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 125.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1552,7 +1553,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 96.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 101.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1574,7 +1575,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 72.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 77.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1596,7 +1597,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1618,7 +1619,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1640,7 +1641,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1150.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1153.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1662,7 +1663,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 240.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 245.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1684,7 +1685,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 216.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 221.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1706,7 +1707,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 192.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 197.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1728,7 +1729,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 168.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 173.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1750,7 +1751,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 144.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 149.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1772,7 +1773,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 120.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 125.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1794,7 +1795,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 96.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 101.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1816,7 +1817,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 72.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 77.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1838,7 +1839,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1860,7 +1861,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1882,7 +1883,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 884.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 887.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1904,7 +1905,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 711.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 714.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1926,7 +1927,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 711.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 714.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1948,7 +1949,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 711.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 714.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1970,7 +1971,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 144.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 149.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1992,7 +1993,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 120.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 125.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2014,7 +2015,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 96.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 101.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2036,7 +2037,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 72.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 77.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2058,7 +2059,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2080,7 +2081,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2102,7 +2103,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 538.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2124,7 +2125,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 356.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 359.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2146,7 +2147,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 356.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 359.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2168,7 +2169,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 356.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 359.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2190,7 +2191,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 144.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 149.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2212,7 +2213,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 120.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 125.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2234,7 +2235,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 96.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 101.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2256,7 +2257,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 72.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 77.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2278,7 +2279,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2300,7 +2301,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2322,7 +2323,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 180.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2344,7 +2345,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 240.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 245.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2366,7 +2367,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 216.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 221.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2388,7 +2389,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 192.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 197.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2410,7 +2411,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 168.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 173.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2432,7 +2433,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 144.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 149.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2454,7 +2455,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 120.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 125.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2476,7 +2477,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 96.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 101.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2498,7 +2499,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 72.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 77.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2520,7 +2521,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 48.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 53.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2542,7 +2543,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 24.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 29.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2564,7 +2565,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 0.0, 171.0, 22.0 ],
+									"patching_rect" : [ 3.0, 5.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2575,7 +2576,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 201.0, 202.0, 412.0, 20.0 ],
+									"patching_rect" : [ 204.0, 207.0, 412.0, 20.0 ],
 									"text" : "bpatcher @name ossia.nav.oscroute.module @args box1/servo1/imu2servo"
 								}
 
@@ -2608,13 +2609,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 81.0, 265.0, 106.0 ],
+						"rect" : [ 59.0, 87.0, 265.0, 106.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2642,6 +2643,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -2754,7 +2756,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2966,7 +2968,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3658,7 +3660,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5683,7 +5685,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5728,7 +5730,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5800,7 +5802,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5885,7 +5887,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6365,7 +6367,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6703,7 +6705,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6820,7 +6822,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7058,7 +7060,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7175,7 +7177,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7413,7 +7415,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7773,7 +7775,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7956,7 +7958,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8212,7 +8214,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8297,7 +8299,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8419,7 +8421,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10269,7 +10271,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15860,7 +15862,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "24 127"
+									"text" : "29 0"
 								}
 
 							}
@@ -18048,7 +18050,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 1 3"
+									"text" : "30 5 6"
 								}
 
 							}
@@ -21306,7 +21308,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -21787,7 +21789,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box3/servo1/value 9.30614"
+									"text" : "box2/servo4/value 22.176291"
 								}
 
 							}
@@ -24016,7 +24018,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 1 3"
+									"text" : "30 5 6"
 								}
 
 							}
@@ -26221,7 +26223,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -26288,7 +26290,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 1 3"
+									"text" : "30 5 6"
 								}
 
 							}
@@ -26461,7 +26463,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -27291,7 +27293,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -28245,7 +28247,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28292,7 +28294,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -32082,30 +32084,9 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "EC.pendy.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
 				"patcherrelativepath" : "./ngimu/Capture",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bartlett.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "blackman.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "blackmanHarris.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -32115,295 +32096,43 @@
 , 			{
 				"name" : "dot.constrain.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.maximum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.mean.exponential.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drunk_gate.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"patcherrelativepath" : "../sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInBack.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInBounce.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInCircular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInCubic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInElastic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInExponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutBack.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutBounce.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutCircular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutCubic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutElastic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutExponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutQuadratic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutQuartic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutQuintic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInOutSine.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInQuadratic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInQuartic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInQuintic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeInSine.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutBack.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutBounce.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutCircular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutCubic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutElastic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutExponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutQuadratic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutQuartic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutQuintic.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "easeOutSine.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "expodec.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "exponential.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freehand.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gauss.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hamming.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hanning.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -32415,134 +32144,99 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "kaiser.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linear.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logarithm.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lowpass.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "nav.ramp.maxpat",
-				"bootpath" : "~/code/Nav/Archive/ut",
+				"bootpath" : "~/Documents/GitHub/Nav/Archive/ut",
 				"patcherrelativepath" : "../../../Archive/ut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "nuttall.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "org.%_gate.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "../abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "org.N-against-N_metro_2.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "../abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ.count_by.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "../abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ.seq.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "../abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ.sequencer.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "../abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organDoubleSequencer-aug2024.json",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.input.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.input_mix.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.lfo_random_mix.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.servo.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.svx33.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.valve.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.count8.maxpat",
-				"bootpath" : "~/code/tml-ossia/timing/ossia.count8",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/timing/ossia.count8",
 				"patcherrelativepath" : "../../../../tml-ossia/timing/ossia.count8",
 				"type" : "JSON",
 				"implicit" : 1
@@ -32553,14 +32247,14 @@
 			}
 , 			{
 				"name" : "ossia.cue_manager_classic.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/cue_manager_classic",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager_classic",
 				"patcherrelativepath" : "../../../../tml-ossia/utilities/cue_manager_classic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.cue_manager_classic.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/cue_manager_classic",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager_classic",
 				"patcherrelativepath" : "../../../../tml-ossia/utilities/cue_manager_classic",
 				"type" : "JSON",
 				"implicit" : 1
@@ -32579,8 +32273,8 @@
 			}
 , 			{
 				"name" : "ossia.get_onscreen_position.js",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/javascript",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -32590,91 +32284,91 @@
 			}
 , 			{
 				"name" : "ossia.namespace_selector.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespace_selector",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespace_selector",
 				"patcherrelativepath" : "../../../../tml-ossia/utilities/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.module.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/ossia-Jm-Agora-2023-03-23/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ossia2023-04-23-JM-routerImproved-Agora/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.banger",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.banger",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.comment.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav",
 				"patcherrelativepath" : "../../../../tml-ossia/nav",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.lfo.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.lfo",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.lfo",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.lfo",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.mini.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute.mini",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.mini",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute.mini",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.mini.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute.mini",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.mini",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute.mini",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.rand.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.ranger.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.ranger",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.ranger",
 				"patcherrelativepath" : "../../../../tml-ossia/nav/ossia.nav.ranger",
 				"type" : "JSON",
 				"implicit" : 1
@@ -32693,7 +32387,7 @@
 			}
 , 			{
 				"name" : "ossia.sourcemixer.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -32703,52 +32397,17 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "power.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rectangular.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rosenbergGlottalPulse.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "savox.calib.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "servo.calib.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/servo.calib/patchers",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/servo.calib/patchers",
 				"patcherrelativepath" : "../abstractions/servo.calib/patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smoothPolynomial.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tanh.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -32758,31 +32417,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "trapezoid.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tukey.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "valve.send.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "welch.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

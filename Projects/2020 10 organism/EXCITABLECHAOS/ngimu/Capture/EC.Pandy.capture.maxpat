@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1245.0, 898.0, 290.0, 273.0 ],
+		"rect" : [ 1558.0, 53.0, 290.0, 273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -173,7 +173,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -377,7 +377,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 7,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1542,7 +1542,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1852,7 +1852,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2049,7 +2049,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2374,7 +2374,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2631,7 +2631,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2940,7 +2940,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3111,7 +3111,7 @@
 									"patching_rect" : [ 1020.0, 510.0, 45.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 75.0, 45.0, 20.0 ],
-									"text" : "125.53"
+									"text" : "39.47"
 								}
 
 							}
@@ -3149,7 +3149,7 @@
 									"patching_rect" : [ 930.0, 510.0, 45.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 30.0, 75.0, 45.0, 20.0 ],
-									"text" : "69.26"
+									"text" : "21.86"
 								}
 
 							}
@@ -3302,7 +3302,7 @@
 									"patching_rect" : [ 390.0, 645.0, 45.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 45.0, 45.0, 20.0 ],
-									"text" : "160.03"
+									"text" : "67.88"
 								}
 
 							}
@@ -3340,7 +3340,7 @@
 									"patching_rect" : [ 300.0, 645.0, 45.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 30.0, 45.0, 45.0, 20.0 ],
-									"text" : "74.32"
+									"text" : "34.24"
 								}
 
 							}
@@ -3493,7 +3493,7 @@
 									"patching_rect" : [ 390.0, 315.0, 45.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 105.0, 15.0, 45.0, 20.0 ],
-									"text" : "152.72"
+									"text" : "68.06"
 								}
 
 							}
@@ -3531,7 +3531,7 @@
 									"patching_rect" : [ 300.0, 315.0, 45.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 30.0, 15.0, 45.0, 20.0 ],
-									"text" : "73.41"
+									"text" : "33.01"
 								}
 
 							}
@@ -4856,7 +4856,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5007,7 +5007,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5964,21 +5964,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "EC.ngimu.dataFarm.neat.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale.maxpat",
-				"bootpath" : "~/code/tml-ossia/data/autoscale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/data/autoscale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/data/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intensity.maxpat",
-				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5993,7 +5993,7 @@
 			}
 , 			{
 				"name" : "kick.maxpat",
-				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6008,21 +6008,21 @@
 			}
 , 			{
 				"name" : "ossia.nav.scale.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.module.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6049,28 +6049,28 @@
 			}
 , 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensor_speed_tester.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shake.maxpat",
-				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple_cues.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/simple_cues",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/simple_cues",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities/simple_cues",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6081,14 +6081,14 @@
 			}
 , 			{
 				"name" : "spin.maxpat",
-				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "still.maxpat",
-				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6101,7 +6101,7 @@
 			}
 , 			{
 				"name" : "tml.delta.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities",
 				"type" : "JSON",
 				"implicit" : 1
