@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 380.0, 702.0, 525.0, 150.0 ],
+		"rect" : [ 753.0, 87.0, 447.0, 150.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,25 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 285.0, 45.0, 15.0, 15.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 285.0, 15.0, 226.0, 22.0 ],
-					"text" : "ossia.nav.oscroute.mini.model imu2valve"
+					"outlettype" : [ "int", "" ],
+					"patching_rect" : [ 210.0, 15.0, 227.0, 22.0 ],
+					"text" : "ossia.nav.oscroute.bool.model imu2valve"
 				}
 
 			}
@@ -120,7 +108,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 219.5, 72.5, 24.5, 72.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -129,13 +118,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}

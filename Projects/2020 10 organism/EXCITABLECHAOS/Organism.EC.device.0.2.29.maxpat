@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 320.0, 286.0 ],
+		"rect" : [ 2.0, 53.0, 320.0, 286.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 446.0, 199.0, 1403.0, 721.0 ],
+						"rect" : [ 446.0, 53.0, 1403.0, 534.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -86,6 +86,17 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 437.0, 401.0, 150.0, 20.0 ],
+									"text" : "need: slow changes "
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"args" : [ "box7/valve28/imu2valve" ],
 									"bgmode" : 0,
 									"border" : 0,
@@ -96,12 +107,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1157.5, 697.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1401.5, 362.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -118,12 +129,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1157.5, 671.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1401.5, 336.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -140,12 +151,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1157.5, 646.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1401.5, 311.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -162,12 +173,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1157.5, 621.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1401.5, 286.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -184,12 +195,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 594.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 233.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -206,12 +217,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 569.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 208.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -228,12 +239,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 544.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 183.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -250,12 +261,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 519.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 158.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -272,12 +283,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 485.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 104.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -294,12 +305,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 460.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 79.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -316,12 +327,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 435.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 54.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -338,12 +349,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 410.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1397.5, 29.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -360,12 +371,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 379.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 491.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -382,12 +393,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 354.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 466.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -404,12 +415,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 329.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 441.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -426,12 +437,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1236.5, 304.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 416.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -448,12 +459,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 594.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 362.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -470,12 +481,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 569.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 337.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -492,12 +503,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 544.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 312.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -514,12 +525,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 519.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 287.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -536,12 +547,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 485.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 233.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -558,12 +569,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 460.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 208.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -580,12 +591,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 435.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 183.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -602,12 +613,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 410.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 158.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -624,12 +635,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 379.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 104.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -646,12 +657,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 354.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 79.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -668,12 +679,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 329.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 54.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -690,12 +701,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1064.5, 304.0, 162.0, 23.0 ],
+									"patching_rect" : [ 1165.5, 31.0, 220.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -712,12 +723,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 554.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 507.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -734,12 +745,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 529.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 458.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -756,12 +767,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 504.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 408.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -778,12 +789,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 479.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 359.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -800,12 +811,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 454.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 311.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -822,12 +833,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 429.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 262.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -844,12 +855,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 404.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 214.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -866,12 +877,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 379.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 167.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -888,12 +899,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 354.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 118.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -910,12 +921,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 329.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 71.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -932,12 +943,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 304.0, 162.0, 23.0 ],
+									"patching_rect" : [ 899.0, 26.0, 221.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -954,12 +965,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 454.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 311.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -976,12 +987,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 429.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 262.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -998,12 +1009,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 404.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 214.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1020,12 +1031,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 379.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 167.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1042,12 +1053,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 354.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 119.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1064,12 +1075,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 329.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 71.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1086,12 +1097,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 304.0, 162.0, 23.0 ],
+									"patching_rect" : [ 665.0, 26.0, 220.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1108,12 +1119,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 454.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 311.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1130,12 +1141,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 429.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 262.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1152,12 +1163,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 404.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 215.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1174,12 +1185,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 379.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 167.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1196,12 +1207,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 354.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 119.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1218,12 +1229,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 329.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 71.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1240,12 +1251,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 304.0, 162.0, 23.0 ],
+									"patching_rect" : [ 248.0, 26.0, 225.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1262,12 +1273,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 554.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 506.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1284,12 +1295,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 529.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 457.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1306,12 +1317,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 504.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 408.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1328,12 +1339,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 479.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 359.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1350,12 +1361,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 454.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 311.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1372,12 +1383,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 429.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 262.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1394,12 +1405,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 404.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 215.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1416,12 +1427,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 379.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 167.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1438,12 +1449,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 354.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 119.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1460,12 +1471,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 329.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 71.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1482,12 +1493,12 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ossia.nav.oscroute.mini.view.maxpat",
+									"name" : "ossia.nav.oscroute.bool.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 304.0, 162.0, 23.0 ],
+									"patching_rect" : [ 0.0, 26.0, 228.0, 23.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1509,7 +1520,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 149.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1426.0, 262.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1531,7 +1542,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 125.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1422.0, 134.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1553,7 +1564,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 101.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1422.0, 7.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1575,7 +1586,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 77.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1190.0, 392.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1597,7 +1608,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1190.0, 262.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1619,7 +1630,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1190.0, 134.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1641,7 +1652,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 1190.0, 7.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1663,7 +1674,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 245.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 483.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1685,7 +1696,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 221.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 433.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1707,7 +1718,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 197.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 384.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1729,7 +1740,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 173.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 335.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1751,7 +1762,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 149.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 287.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1773,7 +1784,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 125.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 239.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1795,7 +1806,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 101.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 191.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1817,7 +1828,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 77.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 143.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1839,7 +1850,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 95.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1861,7 +1872,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 50.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1883,7 +1894,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 899.0, 2.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1905,7 +1916,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 714.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 487.0, 148.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1927,7 +1938,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 714.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 487.0, 124.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1949,7 +1960,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 714.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 487.0, 100.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1971,7 +1982,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 149.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 287.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1993,7 +2004,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 125.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 239.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2015,7 +2026,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 101.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 191.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2037,7 +2048,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 77.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 143.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2059,7 +2070,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 95.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2081,7 +2092,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 50.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2103,7 +2114,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 538.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 665.0, 2.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2125,7 +2136,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 359.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 487.0, 50.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2147,7 +2158,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 359.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 487.0, 26.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2169,7 +2180,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 359.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 487.0, 2.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2191,7 +2202,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 149.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 287.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2213,7 +2224,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 125.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 240.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2235,7 +2246,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 101.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 191.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2257,7 +2268,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 77.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 143.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2279,7 +2290,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 95.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2301,7 +2312,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 47.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2323,7 +2334,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 248.0, 2.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2345,7 +2356,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 245.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 482.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2367,7 +2378,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 221.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 433.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2389,7 +2400,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 197.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 384.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2411,7 +2422,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 173.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 335.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2433,7 +2444,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 149.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 287.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2455,7 +2466,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 125.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 240.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2477,7 +2488,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 101.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 191.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2499,7 +2510,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 77.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 143.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2521,7 +2532,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 53.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 95.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2543,7 +2554,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 29.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 47.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2565,19 +2576,8 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 5.0, 171.0, 22.0 ],
+									"patching_rect" : [ 0.0, 2.0, 171.0, 22.0 ],
 									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-294",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 204.0, 207.0, 412.0, 20.0 ],
-									"text" : "bpatcher @name ossia.nav.oscroute.module @args box1/servo1/imu2servo"
 								}
 
 							}
@@ -2615,7 +2615,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 87.0, 265.0, 106.0 ],
+						"rect" : [ 357.0, 92.0, 265.0, 106.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15862,7 +15862,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "29 0"
+									"text" : "25 127"
 								}
 
 							}
@@ -18050,7 +18050,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 5 6"
+									"text" : "76 1 2"
 								}
 
 							}
@@ -21789,7 +21789,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box2/servo4/value 22.176291"
+									"text" : "box5/servo1/value -0.576354"
 								}
 
 							}
@@ -24018,7 +24018,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 5 6"
+									"text" : "112 2 5"
 								}
 
 							}
@@ -26290,7 +26290,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 5 6"
+									"text" : "56 3 2"
 								}
 
 							}
@@ -32083,6 +32083,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "EC.euler2discrete.maxpat",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
+				"patcherrelativepath" : "./ngimu/Capture",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "EC.pendy.maxpat",
 				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
 				"patcherrelativepath" : "./ngimu/Capture",
@@ -32332,16 +32339,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.nav.oscroute.mini.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.mini",
-				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute.mini",
+				"name" : "ossia.nav.oscroute.bool.model.maxpat",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.bool",
+				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute.bool",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.nav.oscroute.mini.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.mini",
-				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute.mini",
+				"name" : "ossia.nav.oscroute.bool.view.maxpat",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.bool",
+				"patcherrelativepath" : "../../../../tml-ossia/nav/nav.oscroute.bool",
 				"type" : "JSON",
 				"implicit" : 1
 			}
