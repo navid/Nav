@@ -580,6 +580,7 @@
 			}
 , 			{
 				"box" : 				{
+					"contdata" : 1,
 					"id" : "obj-218",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -587,7 +588,8 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.833333373069763, 8.666665077209473, 1220.0, 67.0 ]
+					"patching_rect" : [ 3.833333373069763, 8.666665077209473, 1220.0, 67.0 ],
+					"varname" : "multislider"
 				}
 
 			}
