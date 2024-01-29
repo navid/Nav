@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 704.0, 524.0, 337.0, 341.0 ],
+		"rect" : [ 704.0, 524.0, 453.0, 285.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 240.0, 45.0, 61.0, 22.0 ],
+					"text" : "change 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 240.0, 15.0, 202.0, 22.0 ],
+					"text" : "ossia.nav.oscroute.model imu2servo"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -441,7 +465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 15.0, 192.0, 22.0 ],
+					"patching_rect" : [ 240.0, 75.0, 192.0, 22.0 ],
 					"text" : "ossia.parameter value @priority -1"
 				}
 
@@ -507,6 +531,20 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-3", 0 ]
