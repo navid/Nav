@@ -7570,7 +7570,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 275.0, 53.0, 607.0, 434.0 ],
+						"rect" : [ 0.0, 336.0, 607.0, 434.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7598,6 +7598,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-283",
@@ -8590,7 +8591,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 10.0,
 									"id" : "obj-104",
-									"linecount" : 5,
+									"linecount" : 6,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -8598,10 +8599,10 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 117.0, 147.0, 106.0, 36.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 151.148366928100586, 355.064516129032199, 140.217032790184021, 51.5 ],
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 151.148366928100586, 355.064516129032199, 140.217032790184021, 71.5 ],
 									"rounded" : 1.0,
-									"text" : "text Box3-5 : frst perform then add the lfo depth Box6-7: improv then add lfo Box7: add lfo2",
+									"text" : "text text Pipe solo: Nef melody: box 1: 3-4-5... then assign to sequencer #90 then box 7 and box 7... add bangers Air: 133",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -8626,7 +8627,7 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 10.0,
 									"id" : "obj-101",
-									"linecount" : 4,
+									"linecount" : 6,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -8634,10 +8635,10 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 117.0, 99.0, 106.0, 36.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 12.25, 355.064516129032199, 135.115399718284607, 51.5 ],
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 12.25, 355.064516129032199, 135.115399718284607, 56.435483870967801 ],
 									"rounded" : 1.0,
-									"text" : "text text fade in air and stablaize box 4.1's tone... Box1: pay with metro",
+									"text" : "text text Feb4 pic: start with 4.5-4.7 then add the rest of box 4. then plat with bass rosonances: 3.3 3.1 5.1 5.3",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -13154,7 +13155,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "27 0"
+									"text" : "53 0"
 								}
 
 							}
@@ -15342,7 +15343,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "127 4 3"
+									"text" : "64 2 6"
 								}
 
 							}
@@ -19081,7 +19082,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box3/input/value 0."
+									"text" : "box6/servo2/value 11.2"
 								}
 
 							}
@@ -21310,7 +21311,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "127 4 3"
+									"text" : "64 2 6"
 								}
 
 							}
@@ -23582,7 +23583,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "127 4 3"
+									"text" : "64 2 6"
 								}
 
 							}
@@ -27319,6 +27320,14 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "nav.ramp.maxpat",
 				"bootpath" : "~/Documents/GitHub/Nav/Archive/ut",
 				"patcherrelativepath" : "../../Archive/ut",
@@ -27503,6 +27512,20 @@
 				"name" : "ossia.nav.lfo.model.maxpat",
 				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.lfo",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.lfo",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.oscroute.bool.model.maxpat",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.bool",
+				"patcherrelativepath" : "../../../tml-ossia/nav/nav.oscroute.bool",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.nav.oscroute.model.maxpat",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute",
+				"patcherrelativepath" : "../../../tml-ossia/nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
