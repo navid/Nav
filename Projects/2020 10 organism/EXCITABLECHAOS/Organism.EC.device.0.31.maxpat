@@ -102,8 +102,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 240.0, 165.0, 22.0 ],
-									"text" : "2-5-2024-MoisMulti-newArms"
+									"patching_rect" : [ 30.0, 240.0, 101.0, 22.0 ],
+									"text" : "02-08-MoisMulti2"
 								}
 
 							}
@@ -400,7 +400,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 111.0, 332.0, 1723.0, 657.0 ],
+						"rect" : [ 0.0, 365.0, 1723.0, 657.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -436,7 +436,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 376.0, 489.0, 24.0, 24.0 ]
+									"patching_rect" : [ 295.0, 482.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -485,7 +485,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 295.0, 450.0, 32.0, 22.0 ],
-									"text" : "> 97"
+									"text" : "> 87"
 								}
 
 							}
@@ -551,18 +551,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-83",
-									"maxclass" : "toggle",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 295.0, 476.0, 24.0, 24.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontsize" : 10.0,
 									"id" : "obj-75",
 									"maxclass" : "newobj",
@@ -582,7 +570,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 856.0, 582.0, 73.0, 22.0 ],
-									"text" : "speedlim 10"
+									"text" : "speedlim 20"
 								}
 
 							}
@@ -594,7 +582,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1111.5, 582.0, 73.0, 22.0 ],
-									"text" : "speedlim 15"
+									"text" : "speedlim 20"
 								}
 
 							}
@@ -606,7 +594,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1468.5, 451.0, 73.0, 22.0 ],
-									"text" : "speedlim 20"
+									"text" : "speedlim 25"
 								}
 
 							}
@@ -618,7 +606,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -1.0, 586.0, 73.0, 22.0 ],
-									"text" : "speedlim 10"
+									"text" : "speedlim 20"
 								}
 
 							}
@@ -4082,7 +4070,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-83", 0 ],
+									"destination" : [ "obj-86", 0 ],
 									"source" : [ "obj-105", 0 ]
 								}
 
@@ -4154,13 +4142,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
 									"source" : [ "obj-81", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-86", 0 ],
-									"source" : [ "obj-83", 0 ]
 								}
 
 							}
@@ -14369,7 +14350,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "97 0"
+									"text" : "94 0"
 								}
 
 							}
@@ -16557,7 +16538,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 1 3"
+									"text" : "30 4 6"
 								}
 
 							}
@@ -20296,7 +20277,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box3/servo1/value 0."
+									"text" : "box7/input/value 84.94"
 								}
 
 							}
@@ -22525,7 +22506,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 1 3"
+									"text" : "30 4 6"
 								}
 
 							}
@@ -24798,7 +24779,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 1 3"
+									"text" : "30 4 6"
 								}
 
 							}
