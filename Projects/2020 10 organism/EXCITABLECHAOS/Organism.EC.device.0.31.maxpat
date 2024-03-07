@@ -400,7 +400,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 365.0, 1723.0, 657.0 ],
+						"rect" : [ 53.0, 339.0, 1723.0, 657.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -429,6 +429,18 @@
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-82",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 413.0, 480.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-86",
 									"maxclass" : "toggle",
@@ -485,7 +497,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 295.0, 450.0, 32.0, 22.0 ],
-									"text" : "> 87"
+									"text" : "> 97"
 								}
 
 							}
@@ -4171,6 +4183,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-105", 0 ],
+									"order" : 1,
+									"source" : [ "obj-91", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-82", 0 ],
+									"order" : 0,
 									"source" : [ "obj-91", 0 ]
 								}
 
@@ -14350,7 +14371,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "94 0"
+									"text" : "25 0"
 								}
 
 							}
@@ -16538,7 +16559,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 4 6"
+									"text" : "30 5 6"
 								}
 
 							}
@@ -20277,7 +20298,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box7/input/value 84.94"
+									"text" : "box6/servo7/value 76.041039"
 								}
 
 							}
@@ -22506,7 +22527,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 4 6"
+									"text" : "30 5 6"
 								}
 
 							}
@@ -24779,7 +24800,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 4 6"
+									"text" : "30 5 6"
 								}
 
 							}
