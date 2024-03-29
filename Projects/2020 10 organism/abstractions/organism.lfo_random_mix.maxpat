@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 226.0, 224.0, 58.0, 22.0 ],
+					"text" : "change 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 390.0, 180.0, 141.0, 60.0 ],
+					"presentation_linecount" : 23,
+					"text" : "added these change objects to avoide flodding ossia remotes udp; 2024"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 315.0, 210.0, 58.0, 22.0 ],
+					"text" : "change 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "comment",
@@ -133,8 +170,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -305,8 +342,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -415,7 +452,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 315.0, 195.0, 76.0, 22.0 ],
+					"patching_rect" : [ 315.0, 180.0, 76.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -458,7 +495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 315.0, 225.0, 185.0, 22.0 ],
+					"patching_rect" : [ 315.0, 240.0, 185.0, 22.0 ],
 					"text" : "ossia.remote lfo2/on"
 				}
 
@@ -486,8 +523,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -792,8 +829,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -917,6 +954,21 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 2 ],
+					"midpoints" : [ 235.5, 255.0, 141.833333333333314, 255.0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 2 ],
 					"midpoints" : [ 414.5, 139.5, 255.5, 139.5 ],
 					"source" : [ "obj-2", 0 ]
@@ -926,7 +978,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-301", 0 ],
-					"midpoints" : [ 255.5, 183.0, 324.5, 183.0 ],
+					"midpoints" : [ 255.5, 170.0, 324.5, 170.0 ],
 					"source" : [ "obj-26", 1 ]
 				}
 
@@ -964,8 +1016,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 324.5, 213.0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-301", 0 ]
 				}
 
@@ -1001,8 +1052,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 2 ],
-					"midpoints" : [ 234.5, 255.0, 141.833333333333314, 255.0 ],
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
 
