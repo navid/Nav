@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 226.0, 224.0, 58.0, 22.0 ],
-					"text" : "change 0"
+					"patching_rect" : [ 226.0, 224.0, 61.0, 22.0 ],
+					"text" : "change 0."
 				}
 
 			}
@@ -58,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.0, 180.0, 141.0, 60.0 ],
-					"presentation_linecount" : 23,
 					"text" : "added these change objects to avoide flodding ossia remotes udp; 2024"
 				}
 
@@ -70,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 315.0, 210.0, 58.0, 22.0 ],
-					"text" : "change 0"
+					"patching_rect" : [ 315.0, 210.0, 61.0, 22.0 ],
+					"text" : "change 0."
 				}
 
 			}
