@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 325.0, 209.0, 1218.0, 568.0 ],
+		"rect" : [ 325.0, 209.0, 710.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 75.0, 73.0, 22.0 ],
+					"text" : "speedlim 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"appearance" : 1,
 					"id" : "obj-15",
 					"ignoreclick" : 1,
@@ -57,8 +69,9 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[108]",
+							"parameter_longname" : "Interval[97]",
 							"parameter_mmax" : 21,
+							"parameter_modmode" : 0,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
 							"parameter_type" : 2
@@ -415,8 +428,9 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[8]",
+							"parameter_longname" : "Interval[49]",
 							"parameter_mmax" : 20,
+							"parameter_modmode" : 0,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
 							"parameter_speedlim" : 2.0,
@@ -472,8 +486,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "ms", "nt" ],
-							"parameter_longname" : "live.tab[15]",
+							"parameter_longname" : "live.tab[102]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -512,8 +527,9 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[9]",
+							"parameter_longname" : "Interval[48]",
 							"parameter_mmax" : 20,
+							"parameter_modmode" : 0,
 							"parameter_order" : 2,
 							"parameter_shortname" : "Interval",
 							"parameter_speedlim" : 2.0,
@@ -556,8 +572,9 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "live.text[457]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_order" : 2,
 							"parameter_shortname" : "1",
 							"parameter_type" : 2
@@ -585,8 +602,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "toggle[3]",
+							"parameter_longname" : "toggle[20]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle[7]",
 							"parameter_type" : 2
 						}
@@ -628,9 +646,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[23]",
+							"parameter_longname" : "number[177]",
 							"parameter_mmax" : 50000.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
 						}
@@ -674,9 +693,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[24]",
+							"parameter_longname" : "number[178]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
 						}
@@ -796,8 +816,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1301", 0 ],
-					"midpoints" : [ 39.5, 81.0, 15.0, 81.0, 15.0, 9.0, 39.5, 9.0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-1293", 0 ]
 				}
 
@@ -880,6 +899,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1301", 0 ],
+					"midpoints" : [ 39.5, 97.0, 15.0, 97.0, 15.0, 9.0, 39.5, 9.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
