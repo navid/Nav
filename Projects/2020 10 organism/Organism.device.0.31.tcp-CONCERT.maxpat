@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.5, 104.0, 124.0, 17.0 ],
+					"patching_rect" : [ 213.5, 87.0, 124.0, 17.0 ],
 					"text" : "expose oscquery_tcp 1234 5678"
 				}
 
@@ -7618,7 +7618,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 348.0, 607.0, 434.0 ],
+						"rect" : [ 39.0, 53.0, 607.0, 434.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7646,7 +7646,6 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-287",
@@ -13312,7 +13311,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "71 127"
+									"text" : "88 0"
 								}
 
 							}
@@ -15552,7 +15551,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 3 2"
+									"text" : "74 10 6"
 								}
 
 							}
@@ -19291,7 +19290,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box2/servo3/value 54.291336"
+									"text" : "box2/servo3/value 90."
 								}
 
 							}
@@ -21520,7 +21519,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 3 2"
+									"text" : "74 10 6"
 								}
 
 							}
@@ -23783,7 +23782,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 3 2"
+									"text" : "74 10 6"
 								}
 
 							}
