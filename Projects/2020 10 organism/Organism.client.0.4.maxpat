@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 332.0, 353.0, 304.0, 104.0 ],
+		"rect" : [ 0.0, 1547.0, 304.0, 104.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,9 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 60.0, 137.0, 35.0 ],
-					"presentation_linecount" : 3,
-					"text" : "connect oscquery ws://192.168.1.254:5678"
+					"patching_rect" : [ 135.0, 60.0, 131.0, 35.0 ],
+					"text" : "connect oscquery ws://192.168.1.77:5678"
 				}
 
 			}
@@ -83,7 +82,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 465.0, 829.0, 309.0, 371.0 ],
+						"rect" : [ 643.0, 1254.0, 309.0, 371.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -332,7 +331,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 601.0, 499.0, 577.0, 441.0 ],
+						"rect" : [ 601.0, 784.0, 577.0, 441.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -843,12 +842,13 @@
 									"fontsize" : 10.0,
 									"gradient" : 1,
 									"id" : "obj-31",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 840.0, 150.0, 182.0, 20.0 ],
-									"text" : "port \"nanoKONTROL2 SLIDER/KNOB\""
+									"patching_rect" : [ 840.0, 150.0, 135.0, 31.0 ],
+									"text" : "port \"nanoKONTROL2 SLIDER/KNOB #2\""
 								}
 
 							}
@@ -865,12 +865,13 @@
 									"fontsize" : 10.0,
 									"gradient" : 1,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 990.0, 135.0, 196.0, 20.0 ],
-									"text" : "port \"nanoKONTROL2 SLIDER/KNOB #2\""
+									"patching_rect" : [ 990.0, 135.0, 121.0, 31.0 ],
+									"text" : "port \"nanoKONTROL2 SLIDER/KNOB\""
 								}
 
 							}
@@ -10071,8 +10072,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 45.0, 114.0, 20.0 ],
-									"text" : "port \"no1 Faderfox LV3\""
+									"patching_rect" : [ 150.0, 45.0, 109.0, 20.0 ],
+									"text" : "port \"Faderfox LV3 #2\""
 								}
 
 							}
@@ -10218,8 +10219,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1095.0, 15.0, 89.0, 20.0 ],
-									"text" : "port \"MIDI Mix #2\""
+									"patching_rect" : [ 1095.0, 15.0, 75.0, 20.0 ],
+									"text" : "port \"MIDI Mix\""
 								}
 
 							}
@@ -10240,8 +10241,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 705.0, 15.0, 75.0, 20.0 ],
-									"text" : "port \"MIDI Mix\""
+									"patching_rect" : [ 705.0, 15.0, 89.0, 20.0 ],
+									"text" : "port \"MIDI Mix #2\""
 								}
 
 							}
@@ -10262,8 +10263,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1110.0, 43.0, 75.0, 20.0 ],
-									"text" : "port \"MIDI Mix\""
+									"patching_rect" : [ 1110.0, 43.0, 89.0, 20.0 ],
+									"text" : "port \"MIDI Mix #2\""
 								}
 
 							}
@@ -10693,7 +10694,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 553.229888999999957, 170.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 176 57 0"
+													"text" : "midievent 176 27 43"
 												}
 
 											}
@@ -11477,8 +11478,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 717.0, 49.0, 89.0, 20.0 ],
-									"text" : "port \"MIDI Mix #2\""
+									"patching_rect" : [ 717.0, 49.0, 75.0, 20.0 ],
+									"text" : "port \"MIDI Mix\""
 								}
 
 							}
@@ -14320,7 +14321,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 551.229888999999957, 170.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 176 61 112"
+													"text" : "midievent 176 23 48"
 												}
 
 											}
@@ -15168,8 +15169,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 840.0, 45.0, 135.0, 31.0 ],
-									"text" : "port \"nanoKONTROL2 SLIDER/KNOB #2\""
+									"patching_rect" : [ 840.0, 45.0, 121.0, 31.0 ],
+									"text" : "port \"nanoKONTROL2 SLIDER/KNOB\""
 								}
 
 							}
@@ -15323,8 +15324,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 987.0, 49.0, 111.0, 31.0 ],
-									"text" : "port \"nanoKONTROL2 SLIDER/KNOB\""
+									"patching_rect" : [ 987.0, 49.0, 135.0, 31.0 ],
+									"text" : "port \"nanoKONTROL2 SLIDER/KNOB #2\""
 								}
 
 							}
@@ -15665,8 +15666,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 45.0, 114.0, 20.0 ],
-									"text" : "port \"no6 Faderfox LV3\""
+									"patching_rect" : [ 15.0, 45.0, 95.0, 20.0 ],
+									"text" : "port \"Faderfox LV3\""
 								}
 
 							}
@@ -17062,7 +17063,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1272.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 176 7 127"
+													"text" : "midievent 179 7 0"
 												}
 
 											}
@@ -17790,7 +17791,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.229888999999957, 168.0, 140.770111000000014, 23.0 ],
-													"text" : "midievent 181 7 127"
+													"text" : "midievent 182 7 27"
 												}
 
 											}
@@ -21916,6 +21917,18 @@
 														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
+																	"id" : "obj-3",
+																	"maxclass" : "message",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 720.0, 180.0, 50.0, 22.0 ],
+																	"text" : "-1."
+																}
+
+															}
+, 															{
+																"box" : 																{
 																	"id" : "obj-53",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
@@ -22726,8 +22739,8 @@
 																	"numinlets" : 6,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 792.0, 352.0, 90.0, 22.0 ],
-																	"text" : "scale 0. 1. 0 10"
+																	"patching_rect" : [ 792.0, 352.0, 89.0, 22.0 ],
+																	"text" : "scale 0. 1. 0 11"
 																}
 
 															}
@@ -22782,7 +22795,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"parameter_enable" : 1,
-																	"patching_rect" : [ 905.0, 356.0, 93.0, 23.0 ],
+																	"patching_rect" : [ 1065.0, 360.0, 93.0, 23.0 ],
 																	"presentation" : 1,
 																	"presentation_rect" : [ 134.0, 234.0, 27.5, 144.0 ],
 																	"saved_attribute_attributes" : 																	{
@@ -23326,8 +23339,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 1116.0, 179.0, 36.0, 22.0 ],
-																	"text" : "> 0.1"
+																	"patching_rect" : [ 1116.0, 179.0, 42.0, 22.0 ],
+																	"text" : "> 0.27"
 																}
 
 															}
@@ -23386,8 +23399,8 @@
 																	"numinlets" : 6,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 925.0, 179.0, 90.0, 22.0 ],
-																	"text" : "scale 0.1 2. 1 6"
+																	"patching_rect" : [ 925.0, 179.0, 97.0, 22.0 ],
+																	"text" : "scale 0.27 2. 1 6"
 																}
 
 															}
@@ -23612,8 +23625,15 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-77", 0 ],
+																	"destination" : [ "obj-75", 0 ],
 																	"source" : [ "obj-68", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-77", 0 ],
+																	"source" : [ "obj-68", 1 ]
 																}
 
 															}
@@ -23706,6 +23726,14 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-3", 1 ],
+																	"order" : 1,
+																	"source" : [ "obj-77", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-76", 0 ],
 																	"source" : [ "obj-77", 0 ]
 																}
@@ -23714,6 +23742,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-78", 0 ],
+																	"order" : 0,
 																	"source" : [ "obj-77", 1 ]
 																}
 
@@ -38503,7 +38532,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1179.0, 447.0, 576.0, 753.0 ],
+						"rect" : [ 1179.0, 784.0, 576.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -38531,6 +38560,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "box7/valve{25..28}" ],
@@ -44717,7 +44747,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 861.0, 53.0, 852.0, 444.0 ],
+						"rect" : [ 861.0, 305.0, 852.0, 444.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -44745,6 +44775,7 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
@@ -45973,7 +46004,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 136.0, 830.0, 319.0, 370.0 ],
+						"rect" : [ 323.0, 1257.0, 319.0, 370.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -46397,7 +46428,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 499.0, 600.0, 444.0 ],
+						"rect" : [ 0.0, 784.0, 600.0, 444.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -47541,7 +47572,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 53.0, 860.0, 450.0 ],
+						"rect" : [ 0.0, 305.0, 860.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -53035,84 +53066,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "korgValve.map.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.gametrak.maxpat",
-				"bootpath" : "~/code/Nav/IO/GameTrak",
+				"bootpath" : "~/CODE/Nav/IO/GameTrak",
 				"patcherrelativepath" : "../../IO/GameTrak",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.LV3.map.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.LV3.valve.map.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.input_channel.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.servo_channel.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.servo_master.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.valve_channel.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.UI.valve_master.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.midiMix.servo.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.midiMix.valve.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.midifader.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/CODE/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
