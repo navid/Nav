@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -74,7 +74,7 @@
 					"patching_rect" : [ 808.0, 639.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.551744163036346, 156.5, 29.5, 22.0 ],
-					"text" : "212"
+					"text" : "255"
 				}
 
 			}
@@ -149,8 +149,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -649,8 +649,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -926,8 +926,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2035,8 +2035,8 @@
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.0, 171.0, 140.0, 22.0 ],
 					"text" : "spat5.osc.prepend /imu1"
 				}
@@ -2047,8 +2047,8 @@
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 508.5, 171.0, 140.0, 22.0 ],
 					"text" : "spat5.osc.prepend /imu3"
 				}
@@ -2059,8 +2059,8 @@
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 254.0, 171.0, 140.0, 22.0 ],
 					"text" : "spat5.osc.prepend /imu2"
 				}
@@ -2120,8 +2120,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2407,6 +2407,7 @@
 							"parameter_enum" : [ "8001", "8002", "8003", "8000" ],
 							"parameter_longname" : "live.tab[20]",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -2430,8 +2431,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2627,8 +2628,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2914,6 +2915,7 @@
 							"parameter_enum" : [ "8001", "8002", "8003", "8000" ],
 							"parameter_longname" : "live.tab[19]",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -2952,8 +2954,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3176,8 +3178,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3463,6 +3465,7 @@
 							"parameter_enum" : [ "8001", "8002", "8003", "8000" ],
 							"parameter_longname" : "live.tab[16]",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -3485,8 +3488,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5401,8 +5404,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5552,8 +5555,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6504,6 +6507,7 @@
 			"obj-1::obj-514::obj-1::obj-39" : [ "live.text", "live.text", 0 ],
 			"obj-1::obj-514::obj-1::obj-41" : [ "live.text[85]", "live.text", 0 ],
 			"obj-1::obj-514::obj-1::obj-69" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-1::obj-514::obj-1::obj-99" : [ "live.text[12]", "live.text", 0 ],
 			"obj-2::obj-314" : [ "live.toggle[61]", "live.toggle", 0 ],
 			"obj-2::obj-315" : [ "live.toggle[65]", "live.toggle", 0 ],
 			"obj-2::obj-317" : [ "live.toggle[64]", "live.toggle", 0 ],
@@ -6530,12 +6534,13 @@
 			"obj-2::obj-492" : [ "live.tab[30]", "live.tab", 0 ],
 			"obj-2::obj-506" : [ "live.tab[23]", "live.tab", 0 ],
 			"obj-2::obj-509" : [ "live.toggle[57]", "live.toggle", 0 ],
-			"obj-2::obj-514::obj-1::obj-100" : [ "live.text[11]", "live.text", 0 ],
+			"obj-2::obj-514::obj-1::obj-100" : [ "live.text[14]", "live.text", 0 ],
 			"obj-2::obj-514::obj-1::obj-126" : [ "live.text[9]", "live.text", 0 ],
 			"obj-2::obj-514::obj-1::obj-32" : [ "live.text[10]", "live.text", 0 ],
-			"obj-2::obj-514::obj-1::obj-39" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-514::obj-1::obj-39" : [ "live.text[11]", "live.text", 0 ],
 			"obj-2::obj-514::obj-1::obj-41" : [ "live.text[8]", "live.text", 0 ],
 			"obj-2::obj-514::obj-1::obj-69" : [ "live.tab[22]", "live.tab", 0 ],
+			"obj-2::obj-514::obj-1::obj-99" : [ "live.text[7]", "live.text", 0 ],
 			"obj-33" : [ "live.tab[16]", "live.tab", 0 ],
 			"obj-3::obj-314" : [ "live.toggle[41]", "live.toggle", 0 ],
 			"obj-3::obj-315" : [ "live.toggle[45]", "live.toggle", 0 ],
@@ -6569,6 +6574,7 @@
 			"obj-3::obj-514::obj-1::obj-39" : [ "live.text[5]", "live.text", 0 ],
 			"obj-3::obj-514::obj-1::obj-41" : [ "live.text[1]", "live.text", 0 ],
 			"obj-3::obj-514::obj-1::obj-69" : [ "live.tab[21]", "live.tab", 0 ],
+			"obj-3::obj-514::obj-1::obj-99" : [ "live.text[13]", "live.text", 0 ],
 			"obj-6" : [ "live.tab[19]", "live.tab", 0 ],
 			"obj-94::obj-15" : [ "live.text[172]", "live.text[44]", 0 ],
 			"obj-94::obj-24" : [ "live.text[173]", "live.text[44]", 0 ],
@@ -6586,6 +6592,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-514::obj-1::obj-99" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[12]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
 				"obj-2::obj-314" : 				{
 					"parameter_longname" : "live.toggle[61]"
 				}
@@ -6691,7 +6705,7 @@
 				}
 ,
 				"obj-2::obj-514::obj-1::obj-100" : 				{
-					"parameter_longname" : "live.text[11]"
+					"parameter_longname" : "live.text[14]"
 				}
 ,
 				"obj-2::obj-514::obj-1::obj-126" : 				{
@@ -6703,7 +6717,7 @@
 				}
 ,
 				"obj-2::obj-514::obj-1::obj-39" : 				{
-					"parameter_longname" : "live.text[7]"
+					"parameter_longname" : "live.text[11]"
 				}
 ,
 				"obj-2::obj-514::obj-1::obj-41" : 				{
@@ -6712,6 +6726,10 @@
 ,
 				"obj-2::obj-514::obj-1::obj-69" : 				{
 					"parameter_longname" : "live.tab[22]"
+				}
+,
+				"obj-2::obj-514::obj-1::obj-99" : 				{
+					"parameter_longname" : "live.text[7]"
 				}
 ,
 				"obj-3::obj-314" : 				{
@@ -6841,6 +6859,10 @@
 				"obj-3::obj-514::obj-1::obj-69" : 				{
 					"parameter_longname" : "live.tab[21]"
 				}
+,
+				"obj-3::obj-514::obj-1::obj-99" : 				{
+					"parameter_longname" : "live.text[13]"
+				}
 
 			}
 ,
@@ -6849,37 +6871,89 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "EC.ngimu.dataFarm.neat.maxpat",
-				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/EXCITABLECHAOS/ngimu/Capture",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autoscale.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/data/autoscale",
-				"patcherrelativepath" : "../../../../../../tml-ossia/data/autoscale",
+				"name" : "dot.constrain.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.deviation.exponential.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.deviation.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.inf.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.sanitize.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.maximum.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.mean.exponential.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.window.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "intensity.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "kick.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nav.autoscale.maxpat",
+				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"patcherrelativepath" : "../../../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6893,42 +6967,42 @@
 			}
 , 			{
 				"name" : "ossia.nav.rand.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/ossia.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.rand.module.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/ossia.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.rand.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand",
+				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/ossia.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.model.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.module.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.scale.view.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.scale",
+				"bootpath" : "~/code/tml-ossia/nav/nav.scale",
 				"patcherrelativepath" : "../../../../../../tml-ossia/nav/nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6955,46 +7029,42 @@
 			}
 , 			{
 				"name" : "qom.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
+				"bootpath" : "~/code/tml-ossia/utilities",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensor_speed_tester.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
+				"bootpath" : "~/code/tml-ossia/utilities",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shake.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple_cues.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/simple_cues",
+				"bootpath" : "~/code/tml-ossia/utilities/simple_cues",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities/simple_cues",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.osc.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "spin.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "still.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
+				"bootpath" : "~/code/tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"patcherrelativepath" : "../../../../../../tml-ossia/antiGravity/Sensor Handling/max-bitalino-riot2",
 				"type" : "JSON",
 				"implicit" : 1
@@ -7007,7 +7077,7 @@
 			}
 , 			{
 				"name" : "tml.delta.maxpat",
-				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities",
+				"bootpath" : "~/code/tml-ossia/utilities",
 				"patcherrelativepath" : "../../../../../../tml-ossia/utilities",
 				"type" : "JSON",
 				"implicit" : 1
