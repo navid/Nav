@@ -7618,7 +7618,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 334.0, 601.0, 429.0 ],
+						"rect" : [ 0.0, 338.0, 612.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7648,6 +7648,57 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-295",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 440.0, 280.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 440.0, 280.0, 22.0, 20.0 ],
+									"text" : "30"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-294",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 25.0, 169.0, 24.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 422.0, 280.5, 19.0, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_longname" : "button[1]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "button[1]",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"varname" : "button[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-288",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 25.0, 201.5, 105.0, 22.0 ],
+									"text" : "s org-30-srv-noise"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-286",
 									"maxclass" : "newobj",
@@ -13363,7 +13414,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "45 0"
+									"text" : "48 0"
 								}
 
 							}
@@ -15603,7 +15654,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 2 3"
+									"text" : "30 2 5"
 								}
 
 							}
@@ -17145,6 +17196,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-290", 0 ],
 									"source" : [ "obj-292", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-288", 0 ],
+									"source" : [ "obj-294", 0 ]
 								}
 
 							}
@@ -19314,7 +19372,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 633.0, 717.0, 39.0, 22.0 ],
-									"text" : "33 1"
+									"text" : "30 1"
 								}
 
 							}
@@ -19364,7 +19422,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box3/servo2/value 28.3"
+									"text" : "box5/servo2/value 45.7"
 								}
 
 							}
@@ -21593,7 +21651,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 2 3"
+									"text" : "30 2 5"
 								}
 
 							}
@@ -23856,7 +23914,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 2 3"
+									"text" : "30 2 5"
 								}
 
 							}
@@ -27188,6 +27246,7 @@
 			"obj-1::obj-278" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-1::obj-29" : [ "live.text[396]", "1", 2 ],
 			"obj-1::obj-292" : [ "toggle[5]", "toggle[5]", 0 ],
+			"obj-1::obj-294" : [ "button[1]", "button[1]", 0 ],
 			"obj-1::obj-3" : [ "live.numbox[43]", "live.numbox[8]", 4 ],
 			"obj-1::obj-30" : [ "live.text[397]", "1", 2 ],
 			"obj-1::obj-304" : [ "live.text[314]", "1", 2 ],
@@ -27560,6 +27619,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dot.deviation.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.float.inf.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
@@ -27588,11 +27654,22 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dot.window.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "drunk_gate.maxpat",
 				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"patcherrelativepath" : "./sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "nav.ramp.maxpat",
