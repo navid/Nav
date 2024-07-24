@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 549.0, 158.0, 661.0, 434.0 ],
+		"rect" : [ 310.0, 159.0, 661.0, 434.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -154,7 +154,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -417,13 +417,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 865.0, 151.0, 582.0, 321.0 ],
+						"rect" : [ 1075.0, 570.0, 796.0, 321.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -452,6 +452,73 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 653.357146999999941, 209.5, 29.5, 22.0 ],
+									"text" : "< 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 652.357146999999941, 242.0, 159.0, 22.0 ],
+									"text" : "j.send liveRogs2/audio/mute"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.989256, 0.417462, 0.031845, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 471.0, 201.5, 164.0, 35.0 ],
+									"presentation_linecount" : 2,
+									"text" : "j.unit @dataspace gain @input midigain @output db"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 471.0, 242.0, 155.0, 22.0 ],
+									"text" : "j.send liveRogs2/audio/gain"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 471.0, 175.0, 62.0, 22.0 ],
+									"text" : "clip 0 100"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-15",
 									"linecount" : 2,
@@ -1007,6 +1074,27 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"source" : [ "obj-23", 0 ]
 								}
@@ -1086,6 +1174,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
 									"midpoints" : [ 241.642857142857139, 72.0, 179.833313000000004, 72.0 ],
+									"order" : 1,
 									"source" : [ "obj-58", 2 ]
 								}
 
@@ -1143,7 +1232,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-65", 0 ],
 									"order" : 0,
-									"source" : [ "obj-58", 1 ]
+									"source" : [ "obj-58", 2 ]
 								}
 
 							}
@@ -1151,7 +1240,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"midpoints" : [ 230.071428571428555, 72.0, 105.666625999999994, 72.0 ],
-									"order" : 1,
 									"source" : [ "obj-58", 1 ]
 								}
 
@@ -1176,6 +1264,22 @@
 									"midpoints" : [ 241.642853000000002, 216.25, 424.0, 216.25 ],
 									"order" : 0,
 									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"order" : 1,
+									"source" : [ "obj-65", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"order" : 0,
+									"source" : [ "obj-65", 1 ]
 								}
 
 							}
@@ -1441,7 +1545,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1527,7 +1631,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1806,7 +1910,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1841,6 +1945,19 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 308.0, 322.0, 50.0, 35.0 ],
+									"text" : "0.91453"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "button",
@@ -1912,7 +2029,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2111,7 +2228,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
+													"outlettype" : [ "float" ],
 													"patching_rect" : [ 626.875, 381.0, 29.0, 22.0 ],
 													"text" : "thru"
 												}
@@ -2155,7 +2272,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2312,7 +2429,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2499,7 +2616,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2656,7 +2773,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2872,7 +2989,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3023,7 +3140,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "float" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 192.0, 373.0, 29.0, 22.0 ],
 													"text" : "thru"
 												}
@@ -3067,7 +3184,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3224,7 +3341,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3497,7 +3614,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3654,7 +3771,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3984,7 +4101,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 4,
+															"revision" : 7,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4801,8 +4918,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.333313000000004, 283.0, 119.0, 22.0 ],
-									"text" : "scale 0.97 0.85 0. 1."
+									"patching_rect" : [ 208.333313000000004, 283.0, 110.0, 22.0 ],
+									"text" : "scale 0.9 0.85 0. 1."
 								}
 
 							}
@@ -4820,7 +4937,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4979,7 +5096,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5138,7 +5255,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5297,7 +5414,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5456,7 +5573,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5615,7 +5732,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5913,7 +6030,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6031,8 +6148,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"order" : 0,
+									"source" : [ "obj-14", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-14", 2 ]
 								}
 
@@ -6054,7 +6179,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-14", 2 ]
 								}
 
@@ -6342,7 +6467,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6502,7 +6627,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7296,7 +7421,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8464,6 +8589,27 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "bartlett.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blackman.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blackmanHarris.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cue_manager.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/data/cue_manager",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/patchers/models/data/cue_manager",
@@ -8482,6 +8628,258 @@
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/data/cue_manager",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/patchers/models/data/cue_manager",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInBack.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInBounce.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInCircular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInCubic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInElastic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInExponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutBack.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutBounce.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutCircular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutCubic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutElastic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutExponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutQuadratic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutQuartic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutQuintic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInOutSine.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInQuadratic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInQuartic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInQuintic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeInSine.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutBack.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutBounce.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutCircular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutCubic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutElastic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutExponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutQuadratic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutQuartic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutQuintic.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "easeOutSine.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "expodec.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "exponential.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "freehand.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gauss.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hamming.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hanning.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -8688,6 +9086,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "kaiser.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "limiter.parametersAndMessages.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/patchers/models/audio/stereo/dynamics/limiter",
@@ -8709,6 +9114,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "linear.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "logarithm.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lowpass.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "nav.gametrak.maxpat",
 				"bootpath" : "~/code/Nav/IO/GameTrak",
 				"patcherrelativepath" : "../../IO/GameTrak",
@@ -8720,6 +9146,13 @@
 				"bootpath" : "~/code/Nav/snd/ADC-DAC~",
 				"patcherrelativepath" : "../../snd/ADC-DAC~",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nuttall.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -8748,6 +9181,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "power.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "record.parametersAndMessages.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/patchers/models/audio/stereo/output/record",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/patchers/models/audio/stereo/output/record",
@@ -8755,8 +9195,29 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "rectangular.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rogs~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rosenbergGlottalPulse.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smoothPolynomial.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.gui.control.maxpat",
@@ -8805,9 +9266,37 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "tanh.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "trapezoid.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tukey.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "welch.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Jamoma/media/easing_functions",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
