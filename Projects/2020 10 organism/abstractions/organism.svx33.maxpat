@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.0, 62.0, 80.0, 22.0 ],
-					"text" : "speedlim 999"
+					"text" : "speedlim 300"
 				}
 
 			}
@@ -105,8 +105,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 31.0, 149.0, 70.0, 22.0 ],
-					"text" : "select 1200"
+					"patching_rect" : [ 31.0, 149.0, 63.0, 22.0 ],
+					"text" : "select 400"
 				}
 
 			}
@@ -117,8 +117,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 31.0, 121.0, 77.0, 22.0 ],
-					"text" : "clocker 1200"
+					"patching_rect" : [ 31.0, 121.0, 70.0, 22.0 ],
+					"text" : "clocker 400"
 				}
 
 			}
