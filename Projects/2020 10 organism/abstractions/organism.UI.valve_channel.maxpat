@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 15.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.0, 0.0, 17.0, 17.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -69,7 +83,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[97]",
+							"parameter_longname" : "Interval[82]",
 							"parameter_mmax" : 21,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -428,7 +442,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[49]",
+							"parameter_longname" : "Interval[3]",
 							"parameter_mmax" : 20,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -474,7 +488,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 255.0, 41.0, 42.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, -0.5, 28.25, 15.0 ],
+					"presentation_rect" : [ 15.0, -1.0, 28.25, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_display_handle_two"
@@ -527,7 +541,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[48]",
+							"parameter_longname" : "Interval[1]",
 							"parameter_mmax" : 20,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -564,15 +578,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 30.0, 15.0, 27.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 0.25, 22.0, 14.5 ],
+					"patching_rect" : [ 120.0, 15.0, 27.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[457]",
+							"parameter_longname" : "live.text[456]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -762,6 +774,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1293", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"midpoints" : [ 684.5, 382.0, 684.5, 382.0 ],
 					"source" : [ "obj-105", 0 ]
@@ -826,14 +845,6 @@
 					"destination" : [ "obj-40", 0 ],
 					"midpoints" : [ 1077.5, 540.0, 1200.0, 540.0, 1200.0, 300.0, 960.5, 300.0 ],
 					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1293", 0 ],
-					"midpoints" : [ 39.5, 33.0, 39.5, 33.0 ],
-					"source" : [ "obj-1301", 0 ]
 				}
 
 			}
@@ -904,7 +915,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1301", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"midpoints" : [ 39.5, 97.0, 15.0, 97.0, 15.0, 9.0, 39.5, 9.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -1117,7 +1128,34 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1301" : [ "live.text[456]", "1", 2 ],
+			"obj-15" : [ "Interval[82]", "Interval", 2 ],
+			"obj-509" : [ "toggle[20]", "toggle[7]", 0 ],
+			"obj-511" : [ "number[177]", "number[96]", 0 ],
+			"obj-513" : [ "number[178]", "number[96]", 0 ],
+			"obj-6" : [ "live.tab[102]", "live.tab", 0 ],
+			"obj-60" : [ "Interval[1]", "Interval", 2 ],
+			"obj-84" : [ "Interval[3]", "Interval", 2 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
