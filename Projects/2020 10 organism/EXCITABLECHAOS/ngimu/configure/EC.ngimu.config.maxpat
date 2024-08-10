@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,53 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 802.0, 95.200000107288361, 139.0, 20.0 ],
+					"text" : "backup"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 774.0, 7.200000107288361, 50.0, 22.0 ],
+					"text" : "/identify"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 774.0, 62.200000107288361, 158.0, 22.0 ],
+					"text" : "udpsend 192.168.1.94 9000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.4, 0.87843137254902, 0.890196078431372, 1.0 ],
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 774.0, 32.200000107288361, 110.0, 22.0 ],
+					"text" : "ngimu_config 8004"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 818.599997341632843, 229.200000107288361, 198.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "old backup of 1 is stuck on udpsend 192.168.1.2 9000"
 				}
 
@@ -106,7 +152,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.200005292892456, 10.0, 50.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/identify"
 				}
 
@@ -165,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.599997341632843, 82.200000107288361, 198.0, 114.0 ],
+					"patching_rect" : [ 795.599997341632843, 216.0, 198.0, 114.0 ],
 					"text" : "Ngimu noted values\n\t◦\tMagnitude of Accelrometer\n\t▪\tmore divergence than gyroscope\n\t◦\tMagnitude of Gyroscpe\n\t▪\tmore is it moving fast or moving slow\n\t◦\tEarth Accelerometer... need to calc magnitude and check"
 				}
 
@@ -272,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 783.799997389316559, 9.400000035762787, 139.0, 20.0 ],
+					"patching_rect" : [ 601.0, 4.0, 139.0, 20.0 ],
 					"text" : "set to 8001-7 repectively"
 				}
 
@@ -284,7 +329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.599997341632843, 95.200000107288361, 426.0, 33.0 ],
+					"patching_rect" : [ 169.599997341632843, 95.200000107288361, 429.0, 33.0 ],
 					"text" : "set the /wifi/client/ip to 192.168.1.91-7 respectvely and recieve port 9000 for all ; wifi/send/port to 8000-8007"
 				}
 
@@ -318,6 +363,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -381,6 +440,15 @@
 			"obj-10::obj-141" : [ "live.text[44]", "live.text", 0 ],
 			"obj-10::obj-344" : [ "live.text[45]", "live.text[1]", 0 ],
 			"obj-10::obj-55" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-19::obj-135" : [ "live.text[22]", "live.text", 0 ],
+			"obj-19::obj-136" : [ "live.text[23]", "live.text", 0 ],
+			"obj-19::obj-137" : [ "live.text[47]", "live.text", 0 ],
+			"obj-19::obj-138" : [ "live.text[50]", "live.text", 0 ],
+			"obj-19::obj-139" : [ "live.text[51]", "live.text", 0 ],
+			"obj-19::obj-140" : [ "live.text[46]", "live.text", 0 ],
+			"obj-19::obj-141" : [ "live.text[48]", "live.text", 0 ],
+			"obj-19::obj-344" : [ "live.text[49]", "live.text[1]", 0 ],
+			"obj-19::obj-55" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-2::obj-135" : [ "live.text[35]", "live.text", 0 ],
 			"obj-2::obj-136" : [ "live.text[36]", "live.text", 0 ],
 			"obj-2::obj-137" : [ "live.text[37]", "live.text", 0 ],
@@ -452,6 +520,42 @@
 ,
 				"obj-10::obj-55" : 				{
 					"parameter_longname" : "live.menu[2]"
+				}
+,
+				"obj-19::obj-135" : 				{
+					"parameter_longname" : "live.text[22]"
+				}
+,
+				"obj-19::obj-136" : 				{
+					"parameter_longname" : "live.text[23]"
+				}
+,
+				"obj-19::obj-137" : 				{
+					"parameter_longname" : "live.text[47]"
+				}
+,
+				"obj-19::obj-138" : 				{
+					"parameter_longname" : "live.text[50]"
+				}
+,
+				"obj-19::obj-139" : 				{
+					"parameter_longname" : "live.text[51]"
+				}
+,
+				"obj-19::obj-140" : 				{
+					"parameter_longname" : "live.text[46]"
+				}
+,
+				"obj-19::obj-141" : 				{
+					"parameter_longname" : "live.text[48]"
+				}
+,
+				"obj-19::obj-344" : 				{
+					"parameter_longname" : "live.text[49]"
+				}
+,
+				"obj-19::obj-55" : 				{
+					"parameter_longname" : "live.menu[4]"
 				}
 ,
 				"obj-2::obj-55" : 				{
@@ -543,8 +647,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ngimu_config.maxpat",
-				"bootpath" : "~/code/tml-ossia/sensors/ngimu_config",
-				"patcherrelativepath" : "../../../../../tml-ossia/sensors/ngimu_config",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/sensors/ngimu_config",
+				"patcherrelativepath" : "../../../../../../tml-ossia/sensors/ngimu_config",
 				"type" : "JSON",
 				"implicit" : 1
 			}
