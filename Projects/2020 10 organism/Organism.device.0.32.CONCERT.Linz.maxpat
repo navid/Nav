@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 340.0, 252.0 ],
+		"rect" : [ 0.0, 53.0, 315.0, 252.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,11 +54,12 @@
 				"box" : 				{
 					"fontsize" : 8.0,
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.5, 87.0, 124.0, 17.0 ],
+					"patching_rect" : [ 213.5, 87.0, 96.666671999999949, 26.0 ],
 					"text" : "expose oscquery_tcp 1234 5678"
 				}
 
@@ -7682,7 +7683,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 334.0, 612.0, 429.0 ],
+						"rect" : [ 0.0, 334.0, 604.0, 432.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7712,19 +7713,6 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-300",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 293.0, 135.0, 150.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 327.909332931041718, 267.064516129032199, 19.0, 20.0 ],
-									"text" : "?"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-298",
 									"maxclass" : "comment",
@@ -13503,7 +13491,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "92 0"
+									"text" : "54 127"
 								}
 
 							}
@@ -15743,7 +15731,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 4 1"
+									"text" : "100 2 4"
 								}
 
 							}
@@ -19036,7 +19024,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 385.0, 1000.0, 1022.0 ],
+						"rect" : [ 652.0, 53.0, 1102.0, 1022.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -19535,7 +19523,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box1/servo4/value 34.645668"
+									"text" : "box4/servo2/value 28.1"
 								}
 
 							}
@@ -21764,7 +21752,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 4 1"
+									"text" : "101 2 4"
 								}
 
 							}
@@ -21978,7 +21966,7 @@
 									"patching_rect" : [ 777.75, 326.486486196517944, 55.5, 16.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-512", "number", "int", 67, 5, "obj-511", "number", "int", 41, 5, "obj-635", "number", "int", 92, 5, "obj-634", "number", "int", 68, 5, "obj-641", "number", "int", 86, 5, "obj-640", "number", "int", 56, 5, "obj-638", "number", "int", 88, 5, "obj-637", "number", "int", 60, 5, "obj-653", "number", "int", 81, 5, "obj-652", "number", "int", 55, 5, "obj-650", "number", "int", 83, 5, "obj-649", "number", "int", 53, 5, "obj-647", "number", "int", 74, 5, "obj-646", "number", "int", 45, 5, "obj-644", "number", "int", 127, 5, "obj-643", "number", "int", 60, 5, "obj-678", "number", "int", 107, 5, "obj-677", "number", "int", 68, 5, "obj-674", "number", "int", 114, 5, "obj-673", "number", "int", 72, 5, "obj-671", "number", "int", 99, 5, "obj-670", "number", "int", 62, 5, "obj-668", "number", "int", 52, 5, "obj-667", "number", "int", 112, 5, "obj-705", "number", "int", 107, 5, "obj-704", "number", "int", 70, 5, "obj-699", "number", "int", 108, 5, "obj-698", "number", "int", 68, 5, "obj-696", "number", "int", 111, 5, "obj-695", "number", "int", 64, 5, "obj-693", "number", "int", 92, 5, "obj-692", "number", "int", 54, 5, "obj-690", "number", "int", 113, 5, "obj-689", "number", "int", 73, 5, "obj-687", "number", "int", 103, 5, "obj-686", "number", "int", 67, 5, "obj-728", "number", "int", 64, 5, "obj-727", "number", "int", 102, 5, "obj-724", "number", "int", 83, 5, "obj-723", "number", "int", 122, 5, "obj-721", "number", "int", 127, 5, "obj-720", "number", "int", 63, 5, "obj-751", "number", "int", 96, 5, "obj-750", "number", "int", 44, 5, "obj-745", "number", "int", 107, 5, "obj-744", "number", "int", 58, 5, "obj-742", "number", "int", 108, 5, "obj-741", "number", "int", 55, 5, "obj-739", "number", "int", 100, 5, "obj-738", "number", "int", 49, 5, "obj-736", "number", "int", 104, 5, "obj-735", "number", "int", 49, 5, "obj-778", "number", "int", 94, 5, "obj-777", "number", "int", 70, 5, "obj-772", "number", "int", 81, 5, "obj-771", "number", "int", 59, 5, "obj-769", "number", "int", 86, 5, "obj-768", "number", "int", 68, 5, "obj-766", "number", "int", 91, 5, "obj-765", "number", "int", 63, 5, "obj-763", "number", "int", 102, 5, "obj-762", "number", "int", 75, 5, "obj-760", "number", "int", 87, 5, "obj-759", "number", "int", 63, 5, "obj-757", "number", "int", 92, 5, "obj-756", "number", "int", 64, 5, "obj-781", "number", "int", 122, 5, "obj-780", "number", "int", 58, 5, "obj-787", "number", "int", 106, 5, "obj-786", "number", "int", 73, 5, "obj-820", "number", "int", 58, 5, "obj-819", "number", "int", 81, 5, "obj-814", "number", "int", 62, 5, "obj-813", "number", "int", 82, 5, "obj-811", "number", "int", 57, 5, "obj-810", "number", "int", 80, 5, "obj-808", "number", "int", 56, 5, "obj-807", "number", "int", 82, 5, "obj-805", "number", "int", 50, 5, "obj-804", "number", "int", 79, 5, "obj-802", "number", "int", 56, 5, "obj-801", "number", "int", 80, 5, "obj-799", "number", "int", 56, 5, "obj-798", "number", "int", 80, 5, "obj-793", "number", "int", 117, 5, "obj-792", "number", "int", 47, 5, "obj-790", "number", "int", 61, 5, "obj-789", "number", "int", 83, 5, "obj-8", "number", "int", 108, 5, "obj-2", "number", "int", 59, 5, "obj-11", "number", "int", 94, 5, "obj-10", "number", "int", 44, 5, "obj-15", "number", "int", 94, 5, "obj-14", "number", "int", 47, 5, "obj-24", "number", "int", 56, 5, "obj-18", "number", "int", 93, 5, "obj-106", "number", "int", 0, 5, "obj-42", "number", "int", 0, 5, "obj-41", "number", "int", 0, 5, "obj-28", "number", "int", 103, 5, "obj-27", "number", "int", 63, 5, "obj-25", "number", "int", 107, 5, "obj-19", "number", "int", 51, 5, "obj-31", "number", "int", 59, 5, "obj-30", "number", "int", 83, 5, "obj-34", "number", "int", 57, 5, "obj-33", "number", "int", 85, 5, "obj-37", "number", "int", 70, 5, "obj-36", "number", "int", 90, 5, "obj-52", "number", "int", 95, 5, "obj-51", "number", "int", 70, 5, "obj-49", "number", "int", 102, 5, "obj-48", "number", "int", 76, 5, "obj-46", "number", "int", 97, 5, "obj-45", "number", "int", 79 ]
+											"data" : [ 5, "obj-512", "number", "int", 67, 5, "obj-511", "number", "int", 41, 5, "obj-635", "number", "int", 92, 5, "obj-634", "number", "int", 68, 5, "obj-641", "number", "int", 86, 5, "obj-640", "number", "int", 56, 5, "obj-638", "number", "int", 88, 5, "obj-637", "number", "int", 60, 5, "obj-653", "number", "int", 81, 5, "obj-652", "number", "int", 55, 5, "obj-650", "number", "int", 83, 5, "obj-649", "number", "int", 53, 5, "obj-647", "number", "int", 74, 5, "obj-646", "number", "int", 45, 5, "obj-644", "number", "int", 127, 5, "obj-643", "number", "int", 60, 5, "obj-678", "number", "int", 107, 5, "obj-677", "number", "int", 68, 5, "obj-674", "number", "int", 114, 5, "obj-673", "number", "int", 72, 5, "obj-671", "number", "int", 99, 5, "obj-670", "number", "int", 62, 5, "obj-668", "number", "int", 52, 5, "obj-667", "number", "int", 112, 5, "obj-705", "number", "int", 107, 5, "obj-704", "number", "int", 70, 5, "obj-699", "number", "int", 113, 5, "obj-698", "number", "int", 68, 5, "obj-696", "number", "int", 111, 5, "obj-695", "number", "int", 64, 5, "obj-693", "number", "int", 92, 5, "obj-692", "number", "int", 54, 5, "obj-690", "number", "int", 113, 5, "obj-689", "number", "int", 73, 5, "obj-687", "number", "int", 103, 5, "obj-686", "number", "int", 67, 5, "obj-728", "number", "int", 64, 5, "obj-727", "number", "int", 102, 5, "obj-724", "number", "int", 83, 5, "obj-723", "number", "int", 122, 5, "obj-721", "number", "int", 127, 5, "obj-720", "number", "int", 63, 5, "obj-751", "number", "int", 96, 5, "obj-750", "number", "int", 44, 5, "obj-745", "number", "int", 107, 5, "obj-744", "number", "int", 58, 5, "obj-742", "number", "int", 108, 5, "obj-741", "number", "int", 55, 5, "obj-739", "number", "int", 100, 5, "obj-738", "number", "int", 49, 5, "obj-736", "number", "int", 104, 5, "obj-735", "number", "int", 49, 5, "obj-778", "number", "int", 94, 5, "obj-777", "number", "int", 70, 5, "obj-772", "number", "int", 81, 5, "obj-771", "number", "int", 59, 5, "obj-769", "number", "int", 86, 5, "obj-768", "number", "int", 68, 5, "obj-766", "number", "int", 91, 5, "obj-765", "number", "int", 63, 5, "obj-763", "number", "int", 102, 5, "obj-762", "number", "int", 75, 5, "obj-760", "number", "int", 87, 5, "obj-759", "number", "int", 63, 5, "obj-757", "number", "int", 92, 5, "obj-756", "number", "int", 64, 5, "obj-781", "number", "int", 122, 5, "obj-780", "number", "int", 58, 5, "obj-787", "number", "int", 106, 5, "obj-786", "number", "int", 73, 5, "obj-820", "number", "int", 58, 5, "obj-819", "number", "int", 81, 5, "obj-814", "number", "int", 62, 5, "obj-813", "number", "int", 82, 5, "obj-811", "number", "int", 57, 5, "obj-810", "number", "int", 80, 5, "obj-808", "number", "int", 56, 5, "obj-807", "number", "int", 82, 5, "obj-805", "number", "int", 50, 5, "obj-804", "number", "int", 79, 5, "obj-802", "number", "int", 56, 5, "obj-801", "number", "int", 80, 5, "obj-799", "number", "int", 56, 5, "obj-798", "number", "int", 80, 5, "obj-793", "number", "int", 117, 5, "obj-792", "number", "int", 47, 5, "obj-790", "number", "int", 61, 5, "obj-789", "number", "int", 83, 5, "obj-8", "number", "int", 108, 5, "obj-2", "number", "int", 59, 5, "obj-11", "number", "int", 94, 5, "obj-10", "number", "int", 44, 5, "obj-15", "number", "int", 94, 5, "obj-14", "number", "int", 47, 5, "obj-24", "number", "int", 56, 5, "obj-18", "number", "int", 93, 5, "obj-106", "number", "int", 0, 5, "obj-42", "number", "int", 0, 5, "obj-41", "number", "int", 0, 5, "obj-28", "number", "int", 103, 5, "obj-27", "number", "int", 63, 5, "obj-25", "number", "int", 107, 5, "obj-19", "number", "int", 51, 5, "obj-31", "number", "int", 59, 5, "obj-30", "number", "int", 83, 5, "obj-34", "number", "int", 60, 5, "obj-33", "number", "int", 85, 5, "obj-37", "number", "int", 70, 5, "obj-36", "number", "int", 90, 5, "obj-52", "number", "int", 95, 5, "obj-51", "number", "int", 70, 5, "obj-49", "number", "int", 102, 5, "obj-48", "number", "int", 76, 5, "obj-46", "number", "int", 97, 5, "obj-45", "number", "int", 79 ]
 										}
 , 										{
 											"number" : 2,
@@ -24041,7 +24029,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 4 1"
+									"text" : "101 2 4"
 								}
 
 							}

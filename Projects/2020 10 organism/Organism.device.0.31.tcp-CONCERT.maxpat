@@ -7682,7 +7682,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 334.0, 612.0, 429.0 ],
+						"rect" : [ 0.0, 334.0, 606.0, 431.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7712,6 +7712,20 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-299",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 155.0, 249.0, 116.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 435.0, 406.564516129032199, 115.0, 17.0 ],
+									"text" : "1.2 ethernet crimp fucked"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-295",
 									"maxclass" : "comment",
@@ -13478,7 +13492,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "67 0"
+									"text" : "42 0"
 								}
 
 							}
@@ -15718,7 +15732,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "0 1 1"
+									"text" : "30 7 2"
 								}
 
 							}
@@ -19498,7 +19512,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box7/servo6/value 38.188976"
+									"text" : "box2/servo7/value 81.8"
 								}
 
 							}
@@ -21727,7 +21741,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "0 1 1"
+									"text" : "30 7 2"
 								}
 
 							}
@@ -23990,7 +24004,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "0 1 1"
+									"text" : "30 7 2"
 								}
 
 							}
@@ -27746,6 +27760,13 @@
 , 			{
 				"name" : "ease.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "intk.enc.maxpat",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/SURF/abstraction",
+				"patcherrelativepath" : "./SURF/abstraction",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.ramp.maxpat",
