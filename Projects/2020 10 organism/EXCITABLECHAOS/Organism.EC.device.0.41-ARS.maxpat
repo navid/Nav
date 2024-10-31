@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 5.0, 53.0, 316.0, 261.0 ],
+		"rect" : [ 4.0, 53.0, 316.0, 261.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -663,7 +663,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 65.0, 106.0, 634.0, 480.0 ],
+						"rect" : [ 1289.0, 159.0, 634.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -821,7 +821,6 @@
 						"style" : "",
 						"subpatcher_template" : "evan_template",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-83",
@@ -9417,7 +9416,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 323.0, 53.0, 603.0, 429.0 ],
+						"rect" : [ 20.0, 525.0, 603.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -15296,7 +15295,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "92 0"
+									"text" : "32 0"
 								}
 
 							}
@@ -17536,7 +17535,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "30 1 5"
+									"text" : "30 7 7"
 								}
 
 							}
@@ -21317,7 +21316,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box5/servo3/value -11.343408"
+									"text" : "box7/servo3/value 58.928577"
 								}
 
 							}
@@ -23535,7 +23534,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "30 1 5"
+									"text" : "30 7 7"
 								}
 
 							}
@@ -25620,7 +25619,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "30 1 5"
+									"text" : "30 7 7"
 								}
 
 							}
