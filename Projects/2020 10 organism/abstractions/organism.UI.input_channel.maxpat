@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,36 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"contdata" : 1,
+					"id" : "obj-1104",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 45.000001788139343, 1455.0, 15.0, 135.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.0, 137.0, 8.0, 146.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "multislider[85]",
+							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "multislider",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"setminmax" : [ 0.0, 100.0 ],
+					"setstyle" : 1,
+					"slidercolor" : [ 0.070588235294118, 0.647058823529412, 0.2, 1.0 ],
+					"varname" : "live.numbox[52]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1272",
 					"linecount" : 2,
@@ -100,7 +130,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.000001788139343, 1200.0, 45.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 289.0, 57.5, 56.0 ],
+					"presentation_rect" : [ 0.0, 286.0, 54.0, 59.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.maxwindow_successtext"
@@ -108,8 +138,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Fader", "Rand" ],
-							"parameter_longname" : "live.tab[61]",
+							"parameter_longname" : "live.tab[125]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -153,9 +184,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[491]",
+							"parameter_longname" : "number[214]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
 						}
@@ -203,9 +235,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[494]",
+							"parameter_longname" : "number[213]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
 						}
@@ -245,8 +278,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -389,8 +422,9 @@
 					"presentation_rect" : [ 2.0, 70.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial[79]",
+							"parameter_longname" : "dial[43]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "dial",
 							"parameter_type" : 0
 						}
@@ -437,8 +471,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[490]",
+							"parameter_longname" : "number[215]",
 							"parameter_mmax" : 10000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[96]",
 							"parameter_type" : 3
 						}
@@ -478,8 +513,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -623,11 +658,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.0, 780.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 139.0, 54.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 137.0, 45.0, 146.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[147]",
+							"parameter_longname" : "multislider[86]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
 						}
@@ -651,8 +687,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -694,7 +730,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 90.0, 50.0, 22.0 ],
-									"text" : "1."
+									"text" : "1"
 								}
 
 							}
@@ -838,12 +874,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.000001788139343, 987.5, 100.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 119.0, 57.166665971279144, 16.0 ],
+					"presentation_rect" : [ 0.0, 119.0, 55.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bipolar", "unipolar", "additive" ],
-							"parameter_longname" : "umenu[84]",
+							"parameter_longname" : "umenu[44]",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu[7]",
 							"parameter_type" : 2
 						}
@@ -865,8 +902,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1115,11 +1152,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 45.0, 555.0, 41.0, 114.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 139.0, 57.5, 144.0 ],
+					"presentation_rect" : [ 0.0, 137.0, 49.0, 146.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[14]",
+							"parameter_longname" : "rslider[143]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
 						}
@@ -1128,35 +1166,6 @@
 ,
 					"size" : 1.0,
 					"varname" : "rslider[18]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"contdata" : 1,
-					"id" : "obj-1104",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 45.000001788139343, 1455.0, 15.0, 135.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 139.0, 10.0, 144.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "multislider[146]",
-							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "multislider",
-							"parameter_type" : 0
-						}
-
-					}
-,
-					"setminmax" : [ 0.0, 100.0 ],
-					"setstyle" : 1,
-					"slidercolor" : [ 0.070588235294118, 0.647058823529412, 0.2, 1.0 ],
-					"varname" : "live.numbox[52]"
 				}
 
 			}
