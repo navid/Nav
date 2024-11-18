@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 102.0, 548.0, 432.0, 741.0 ],
+		"rect" : [ 118.0, 399.0, 428.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "no_top",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 240.0, 138.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 606.0, 64.5, 50.0, 22.0 ],
+					"text" : "bang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
@@ -105,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.0, 46.0, 69.0, 22.0 ],
+					"patching_rect" : [ 759.0, 46.0, 69.0, 22.0 ],
 					"text" : "up duration"
 				}
 
@@ -117,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 609.0, 46.0, 84.0, 22.0 ],
+					"patching_rect" : [ 668.0, 46.0, 84.0, 22.0 ],
 					"text" : "down duration"
 				}
 
@@ -129,7 +153,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 609.0, 15.0, 110.0, 22.0 ],
+					"patching_rect" : [ 668.0, 15.0, 110.0, 22.0 ],
 					"text" : "split 60 63"
 				}
 
@@ -587,11 +611,11 @@
 				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 207.0, 45.0, 375.0, 22.0 ],
-					"text" : "ossia.router gate1 gate2 loopMin loopMax jumpBy wrapFold duration"
+					"numinlets" : 9,
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 207.0, 46.0, 405.0, 22.0 ],
+					"text" : "ossia.router gate1 gate2 loopMin loopMax jumpBy wrapFold duration reset"
 				}
 
 			}
@@ -916,7 +940,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.0, 169.0, 66.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -937,7 +961,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 554.0, 691.0, 100.0, 22.0 ],
-					"restore" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
+					"restore" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -958,7 +982,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 357.0, 110.0, 90.0, 22.0 ],
-					"restore" : [ 30.0 ],
+					"restore" : [ 16.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1000,7 +1024,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 178.0, 110.0, 79.0, 22.0 ],
-					"restore" : [ 4.0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1021,7 +1045,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.0, 248.0, 76.0, 22.0 ],
-					"restore" : [ 1, 30, 0, 1, 12, 0, 10, 1.0, 71.0, 0, 0, 63, 80, 4, 127, 127, 2, 89, 4, 127, 127, 61, 92, 4, 127, 127, 4, 98, 4, 127, 127, 64, 103, 4, 127, 127, 60, 56, 4, 127, 127, 59, 105, 4, 127, 127, 9, 75, 4, 127, 127, 61, 59, 4, 127, 127, 11, 80, 4, 127, 127, 23, 100, 4, 127, 127, 26, 84, 4, 127, 127, 23, 114, 4, 127, 127, 22, 98, 4, 127, 127, 12, 97, 4, 127, 127, 12, 103, 4, 127, 127, 31, 47, 4, 83, 33, 28, 55, 4, 115, 112, 8, 40, 4, 74, 76, 59, 98, 4, 13, 19, 60, 4, 4, 86, 44, 64, 0, 4, 18, 12, 61, 45, 4, 59, 48, 62, 123, 4, 79, 28, 63, 92, 4, 70, 61, 12, 3, 4, 52, 117, 61, 52, 4, 111, 51, 61, 122, 4, 53, 89, 58, 63, 4, 125, 104, 11, 56, 4, 74, 114 ],
+					"restore" : [ 1, 16, 0, 1, 12, 0, 8, 1.0, 71.0, 0, 0, 69, 126, 4, 127, 127, 2, 89, 5, 127, 127, 1, 92, 4, 127, 127, 1, 98, 5, 127, 127, 69, 99, 4, 127, 127, 3, 56, 5, 127, 127, 69, 126, 4, 127, 127, 1, 75, 5, 127, 127, 69, 59, 5, 127, 127, 2, 80, 4, 127, 127, 4, 100, 3, 127, 127, 66, 84, 7, 127, 127, 6, 114, 4, 127, 127, 5, 98, 4, 127, 127, 4, 97, 4, 127, 127, 3, 103, 4, 127, 127 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1455,7 +1479,7 @@
 					"setminmax" : [ 0.0, 100.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 30,
+					"size" : 16,
 					"spacing" : 2,
 					"thickness" : 8,
 					"varname" : "probabilities"
@@ -2284,6 +2308,7 @@
 					"fontname" : "Arial",
 					"id" : "obj-87",
 					"maxclass" : "live.step",
+					"mode" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
@@ -2450,6 +2475,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -2516,6 +2548,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"order" : 0,
+					"source" : [ "obj-35", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"order" : 1,
+					"source" : [ "obj-35", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-35", 6 ]
 				}
@@ -2560,7 +2608,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"midpoints" : [ 267.357142857142833, 68.5, 131.5, 68.5 ],
+					"midpoints" : [ 264.75, 68.5, 131.5, 68.5 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -2681,7 +2729,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 618.5, 246.5, 131.5, 246.5 ],
+					"midpoints" : [ 677.5, 246.5, 131.5, 246.5 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -2689,7 +2737,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 709.5, 248.5, 131.5, 248.5 ],
+					"midpoints" : [ 768.5, 248.5, 131.5, 248.5 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
