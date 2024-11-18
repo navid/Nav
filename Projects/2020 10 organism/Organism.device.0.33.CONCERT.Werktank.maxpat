@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 72.0, 315.0, 252.0 ],
+		"rect" : [ 0.0, 72.0, 313.0, 252.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 283.166671999999949, 86.5, 27.0, 27.0 ]
+					"patching_rect" : [ 282.5, 72.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.5, 87.0, 96.666671999999949, 26.0 ],
+					"patching_rect" : [ 213.5, 72.0, 96.666671999999949, 26.0 ],
 					"text" : "expose oscquery_tcp 1234 5678"
 				}
 
@@ -76,7 +76,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -266,7 +266,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 64.0, 84.0, 20.0 ],
+					"patching_rect" : [ 186.166671999999949, 31.0, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 383.0, 22.0, 60.0, 31.0 ],
@@ -301,7 +301,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -346,7 +346,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -418,7 +418,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -503,7 +503,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1011,7 +1011,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1360,7 +1360,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1477,7 +1477,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1722,7 +1722,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1839,7 +1839,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2084,7 +2084,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2455,7 +2455,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2638,7 +2638,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2894,7 +2894,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2979,7 +2979,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3101,7 +3101,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4951,13 +4951,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 373.0, 604.0, 432.0 ],
+						"rect" : [ 1.0, 359.0, 604.0, 432.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -10765,7 +10765,7 @@
 									"patching_rect" : [ 1344.0, 788.0, 43.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.5, 381.5, 44.5, 19.0 ],
-									"text" : "26 127"
+									"text" : "32 127"
 								}
 
 							}
@@ -13005,7 +13005,7 @@
 									"patching_rect" : [ 1031.5, 116.0, 56.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 309.0, 381.5, 44.5, 19.0 ],
-									"text" : "64 8 7"
+									"text" : "30 1 2"
 								}
 
 							}
@@ -16292,7 +16292,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16337,7 +16337,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16384,7 +16384,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 5,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -18032,7 +18032,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 312.0, 111.0, 176.565213799476624, 22.0 ],
-									"text" : "box7/input/value 92.6"
+									"text" : "box2/servo1/value 39.9"
 								}
 
 							}
@@ -20261,7 +20261,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.714285714285722, 61.56756728887558, 50.0, 22.0 ],
-									"text" : "64 8 7"
+									"text" : "30 1 2"
 								}
 
 							}
@@ -22483,7 +22483,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22538,7 +22538,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 570.5, 30.0, 68.666667222976685, 22.0 ],
-									"text" : "64 8 7"
+									"text" : "30 1 2"
 								}
 
 							}
@@ -22714,7 +22714,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -23544,7 +23544,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -24792,57 +24792,61 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "dmxusbpro.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "dot.constrain.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.deviation.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.inf.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.maximum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.mean.exponential.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.window.sliding.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drunk_gate.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"patcherrelativepath" : "./sequencers/StepbyStep_Patches/08_To_Play_Or_Not_Play_2",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24853,105 +24857,105 @@
 			}
 , 			{
 				"name" : "intk.enc.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/SURF/abstraction",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/SURF/abstraction",
 				"patcherrelativepath" : "./SURF/abstraction",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.ramp.maxpat",
-				"bootpath" : "~/code/Nav/Archive/ut",
+				"bootpath" : "~/Documents/GitHub/Nav/Archive/ut",
 				"patcherrelativepath" : "../../Archive/ut",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "org.%_gate.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "./abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "org.N-against-N_metro_2.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "./abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ.count_by.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "./abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ.seq.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "./abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organ.sequencer.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/organ.sequencer",
 				"patcherrelativepath" : "./abstractions/organ.sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organDoubleSequencer-aug2024.json",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.input.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.input_mix.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.lfo_random_mix.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.servo.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.svx33.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "organism.valve.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.count8.maxpat",
-				"bootpath" : "~/code/tml-ossia/timing/ossia.count8",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/timing/ossia.count8",
 				"patcherrelativepath" : "../../../tml-ossia/timing/ossia.count8",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24962,14 +24966,14 @@
 			}
 , 			{
 				"name" : "ossia.cue_manager_classic.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/cue_manager_classic",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager_classic",
 				"patcherrelativepath" : "../../../tml-ossia/utilities/cue_manager_classic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.cue_manager_classic.view.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/cue_manager_classic",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/cue_manager_classic",
 				"patcherrelativepath" : "../../../tml-ossia/utilities/cue_manager_classic",
 				"type" : "JSON",
 				"implicit" : 1
@@ -24984,63 +24988,63 @@
 			}
 , 			{
 				"name" : "ossia.namespace_selector.maxpat",
-				"bootpath" : "~/code/tml-ossia/utilities/namespace_selector",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/utilities/namespace_selector",
 				"patcherrelativepath" : "../../../tml-ossia/utilities/namespace_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.namespacebrowser.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers/namespacebrowser",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia/patchers/namespacebrowser",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia-udptcp-2024-08-31/patchers/namespacebrowser",
+				"patcherrelativepath" : "../../../../Max 8/Packages/ossia-udptcp-2024-08-31/patchers/namespacebrowser",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.banger.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.banger",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.banger",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.banger",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.comment.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav",
 				"patcherrelativepath" : "../../../tml-ossia/nav",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.lfo.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.lfo",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.lfo",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.lfo",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.bool.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute.bool",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute.bool",
 				"patcherrelativepath" : "../../../tml-ossia/nav/nav.oscroute.bool",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.oscroute.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/nav.oscroute",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/nav.oscroute",
 				"patcherrelativepath" : "../../../tml-ossia/nav/nav.oscroute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.rand.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.rand",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.rand",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.rand",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.nav.ranger.model.maxpat",
-				"bootpath" : "~/code/tml-ossia/nav/ossia.nav.ranger",
+				"bootpath" : "~/Documents/GitHub/tml-ossia/nav/ossia.nav.ranger",
 				"patcherrelativepath" : "../../../tml-ossia/nav/ossia.nav.ranger",
 				"type" : "JSON",
 				"implicit" : 1
@@ -25059,7 +25063,7 @@
 			}
 , 			{
 				"name" : "ossia.sourcemixer.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -25070,14 +25074,14 @@
 			}
 , 			{
 				"name" : "savox.calib.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "servo.calib.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions/servo.calib/patchers",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions/servo.calib/patchers",
 				"patcherrelativepath" : "./abstractions/servo.calib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -25090,7 +25094,7 @@
 			}
 , 			{
 				"name" : "valve.send.maxpat",
-				"bootpath" : "~/code/Nav/Projects/2020 10 organism/abstractions",
+				"bootpath" : "~/Documents/GitHub/Nav/Projects/2020 10 organism/abstractions",
 				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
