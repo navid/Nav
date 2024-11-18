@@ -40,13 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 98.0, 315.0, 76.0, 20.0 ],
+					"text" : "filter out 0Hz"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 48.0, 314.0, 49.0, 22.0 ],
+					"text" : "route 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-61",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1081.0, 54.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "uodate minMax accrddingly"
 				}
 
@@ -203,7 +225,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 862.0, 213.0, 161.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "ossia.remote #1/range1/minmax"
 				}
 
@@ -307,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 320.0, 72.0, 22.0 ],
+					"patching_rect" : [ 48.0, 339.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -388,7 +409,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Hz", "Lock" ],
-							"parameter_longname" : "live.text[84]",
+							"parameter_longname" : "live.text[234]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -479,7 +500,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Hz", "Lock" ],
-							"parameter_longname" : "live.text[83]",
+							"parameter_longname" : "live.text[184]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
@@ -716,7 +737,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[137]",
+							"parameter_longname" : "RTmin[300]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "RTmin[10]",
@@ -769,7 +790,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[136]",
+							"parameter_longname" : "RTmin[301]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "RTmin[10]",
@@ -922,7 +943,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[118]",
+							"parameter_longname" : "number[262]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -974,7 +995,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[119]",
+							"parameter_longname" : "number[263]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -1036,7 +1057,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "'", "*", "+" ],
-							"parameter_longname" : "live.tab[85]",
+							"parameter_longname" : "live.tab[158]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[2]",
@@ -1073,7 +1094,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[138]",
+							"parameter_longname" : "RTmin[303]",
 							"parameter_mmax" : 20.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "RTmin[10]",
@@ -1125,7 +1146,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "+ ramp", "– ramp", "triangle", "square", "s/hold" ],
-							"parameter_longname" : "RTmin[134]",
+							"parameter_longname" : "RTmin[299]",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "RTmin[2]",
@@ -1327,7 +1348,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[36]",
+							"parameter_longname" : "rslider[93]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
@@ -1636,7 +1657,7 @@
 					"presentation_rect" : [ 12.0, 104.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "dial[22]",
+							"parameter_longname" : "dial[96]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "dial",
@@ -1685,7 +1706,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[117]",
+							"parameter_longname" : "number[264]",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[96]",
@@ -2023,7 +2044,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "RTmin[133]",
+							"parameter_longname" : "RTmin[302]",
 							"parameter_mmax" : 50.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "RTmin[10]",
@@ -2074,7 +2095,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "sine", "+ ramp", "– ramp", "triangle", "square", "s/hold" ],
-							"parameter_longname" : "RTmin[135]",
+							"parameter_longname" : "RTmin[304]",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "RTmin[2]",
@@ -2131,7 +2152,7 @@
 					"presentation_rect" : [ 1.0, 181.0, 54.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[40]",
+							"parameter_longname" : "multislider[108]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "multislider",
@@ -2187,7 +2208,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bipolar", "unipolar", "additive" ],
-							"parameter_longname" : "umenu[24]",
+							"parameter_longname" : "umenu[52]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu",
@@ -2231,7 +2252,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Fader", "LFO", "Rand" ],
-							"parameter_longname" : "live.tab[84]",
+							"parameter_longname" : "live.tab[157]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
@@ -2266,7 +2287,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "rslider[37]",
+							"parameter_longname" : "rslider[101]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "rslider[1]",
 							"parameter_type" : 3
@@ -2307,7 +2328,7 @@
 					"presentation_rect" : [ 54.0, 181.0, 8.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "multislider[39]",
+							"parameter_longname" : "multislider[107]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "multislider",
@@ -2415,7 +2436,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 56.5, 347.0, 29.5, 347.0, 29.5, 193.0, 46.5, 193.0 ],
+					"midpoints" : [ 57.5, 369.0, 29.5, 369.0, 29.5, 193.0, 46.5, 193.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -2714,6 +2735,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1135", 0 ],
 					"midpoints" : [ 630.5, 63.0, 630.5, 63.0 ],
 					"order" : 3,
@@ -2852,7 +2880,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
