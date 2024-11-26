@@ -1,0 +1,26 @@
+- router setup  
+	- admin page  
+		- 192.168.1.1  
+			- username: admin  
+			- password: antigravity1986!  
+	- wifi info  
+		- ssid: NGIMU Network  
+		- password: xiotechnologies  
+
+- # NGIMU Config  
+	- naming sensors 1-5, 6 & 7 backup  
+	- mode is client  
+	- dhcp mode false  
+	- ssid = NGIMU Network  
+	- key = xiotechnologies  
+	- ip of mac mini: 192.168.1.77  
+	- ip of sensors: 192.168.1.91 thru 97  
+	- ngimu sends port 8001 thru 8007  
+	- mgimu receives on port 9000  
+
+- # Ngimu noted values  
+	- Magnitude of Accelrometer  
+		- more divergence than gyroscope  
+	- Magnitude of Gyroscpe  
+		- more is it moving fast or moving slow  
+	- Earth Accelerometer... need to calc magnitude and check  

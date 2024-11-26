@@ -1,0 +1,357 @@
+- cue "cue1_working"
+- description "something about this cue"
+# ###########################################
+# 
+/0-messy.1/translatedinput 0.000000 1.000000
+/0-messy.1/val01 0
+/0-messy.1/val03 0
+/0-messy.1/val06 0
+/0-messy.1/val08 0
+/0-messy.1/val09 0
+/0-messy.1/val10 0
+/0-messy.1/val04 0
+/0-messy.1/val07 0
+/0-messy.1/val12 0
+/0-messy.1/val02 0
+/0-messy.1/val05 0
+/0-messy.1/val11 0
+/0-messy.1/val13 0
+/0-messy.1/val14 0
+/0-messy.1/val15 0
+/0-messy.1/val16 0
+/0-messy.1/valout 0.000000
+# 
+/0-messy.2/val12 0
+/0-messy.2/val03 0
+/0-messy.2/val04 0
+/0-messy.2/val08 0
+/0-messy.2/translatedinput 0.000000 1.000000
+/0-messy.2/val01 0
+/0-messy.2/val02 0
+/0-messy.2/val05 0
+/0-messy.2/val06 0
+/0-messy.2/val07 0
+/0-messy.2/val09 0
+/0-messy.2/val10 0
+/0-messy.2/val11 0
+/0-messy.2/val13 0
+/0-messy.2/val14 0
+/0-messy.2/val15 0
+/0-messy.2/val16 0
+/0-messy.2/valout 0.000000
+# 
+/0-messy/val05 0
+/0-messy/val13 0
+/0-messy/val16 0
+/0-messy/translatedinput 0.000000 1.000000
+/0-messy/val01 0
+/0-messy/val02 1
+/0-messy/val03 2
+/0-messy/val04 0
+/0-messy/val06 0
+/0-messy/val07 0
+/0-messy/val08 0
+/0-messy/val09 0
+/0-messy/val10 0
+/0-messy/val11 0
+/0-messy/val12 0
+/0-messy/val14 0
+/0-messy/val15 0
+/0-messy/valout 2.000000
+# 
+/baton1-jackson/origin 10013
+/baton1-jackson/seq0 1003
+/baton1-jackson/seq1 113
+/baton1-jackson/seq2 0
+/baton1-jackson/seq3 330
+/baton1-jackson/seq4 0
+/baton1-jackson/seq5 0
+/baton1-jackson/seq6 0
+/baton1-jackson/seq7 0
+# 
+/baton1-johnson2/origin 112
+/baton1-johnson2/seq0 10
+/baton1-johnson2/seq1 112
+/baton1-johnson2/seq2 2220
+/baton1-johnson2/seq3 0
+/baton1-johnson2/seq4 0
+/baton1-johnson2/seq5 0
+/baton1-johnson2/seq6 0
+/baton1-johnson2/seq7 0
+# 
+/baton1-scale/degree 1
+/baton1-scale/scale 3
+# 
+/baton2-jackson/origin 0
+/baton2-jackson/seq0 0
+/baton2-jackson/seq1 0
+/baton2-jackson/seq2 0
+/baton2-jackson/seq3 0
+/baton2-jackson/seq4 0
+/baton2-jackson/seq5 0
+/baton2-jackson/seq6 0
+/baton2-jackson/seq7 0
+# 
+/baton2-johnson2/origin 0
+/baton2-johnson2/seq0 0
+/baton2-johnson2/seq1 0
+/baton2-johnson2/seq2 0
+/baton2-johnson2/seq3 0
+/baton2-johnson2/seq4 0
+/baton2-johnson2/seq5 0
+/baton2-johnson2/seq6 0
+/baton2-johnson2/seq7 0
+# 
+/baton2-scale/degree 1
+/baton2-scale/scale 0
+# 
+/baton3-jackson/origin 0
+/baton3-jackson/seq0 0
+/baton3-jackson/seq1 0
+/baton3-jackson/seq2 0
+/baton3-jackson/seq3 0
+/baton3-jackson/seq4 0
+/baton3-jackson/seq5 0
+/baton3-jackson/seq6 0
+/baton3-jackson/seq7 0
+# 
+/baton3-johnson2/origin 0
+/baton3-johnson2/seq0 0
+/baton3-johnson2/seq1 0
+/baton3-johnson2/seq2 0
+/baton3-johnson2/seq3 0
+/baton3-johnson2/seq4 0
+/baton3-johnson2/seq5 0
+/baton3-johnson2/seq6 0
+/baton3-johnson2/seq7 0
+# 
+/baton3-scale/degree 1
+/baton3-scale/scale 0
+# 
+# ###########################################
+
+- cue "cue2_nice"
+- description "something about this cue"
+# ###########################################
+# 
+/baton1-jackson/origin 1013
+/baton1-jackson/seq0 1001
+/baton1-jackson/seq1 3301
+/baton1-jackson/seq2 0
+/baton1-jackson/seq3 030
+/baton1-jackson/seq4 0
+/baton1-jackson/seq5 0
+/baton1-jackson/seq6 0
+/baton1-jackson/seq7 0
+# 
+/baton1-johnson2/origin 112
+/baton1-johnson2/seq0 102
+/baton1-johnson2/seq1 1002
+/baton1-johnson2/seq2 001
+/baton1-johnson2/seq3 0
+/baton1-johnson2/seq4 0
+/baton1-johnson2/seq5 0
+/baton1-johnson2/seq6 0
+/baton1-johnson2/seq7 0
+# 
+/baton1-scale/degree 3
+/baton1-scale/scale 3
+# 
+/baton2-jackson/origin 0
+/baton2-jackson/seq0 0
+/baton2-jackson/seq1 0
+/baton2-jackson/seq2 0
+/baton2-jackson/seq3 0
+/baton2-jackson/seq4 0
+/baton2-jackson/seq5 0
+/baton2-jackson/seq6 0
+/baton2-jackson/seq7 0
+# 
+/baton2-johnson2/origin 0
+/baton2-johnson2/seq0 0
+/baton2-johnson2/seq1 0
+/baton2-johnson2/seq2 0
+/baton2-johnson2/seq3 0
+/baton2-johnson2/seq4 0
+/baton2-johnson2/seq5 0
+/baton2-johnson2/seq6 0
+/baton2-johnson2/seq7 0
+# 
+/baton2-scale/degree 1
+/baton2-scale/scale 0
+# 
+/baton3-jackson/origin 0
+/baton3-jackson/seq0 0
+/baton3-jackson/seq1 0
+/baton3-jackson/seq2 0
+/baton3-jackson/seq3 0
+/baton3-jackson/seq4 0
+/baton3-jackson/seq5 0
+/baton3-jackson/seq6 0
+/baton3-jackson/seq7 0
+# 
+/baton3-johnson2/origin 0
+/baton3-johnson2/seq0 0
+/baton3-johnson2/seq1 0
+/baton3-johnson2/seq2 0
+/baton3-johnson2/seq3 0
+/baton3-johnson2/seq4 0
+/baton3-johnson2/seq5 0
+/baton3-johnson2/seq6 0
+/baton3-johnson2/seq7 0
+# 
+/baton3-scale/degree 1
+/baton3-scale/scale 0
+# 
+# ###########################################
+
+- cue "cue3_starting2"
+- description "something about this cue"
+# ###########################################
+# 
+/baton1-jackson/origin 1013
+/baton1-jackson/seq0 1001
+/baton1-jackson/seq1 3301
+/baton1-jackson/seq2 0
+/baton1-jackson/seq3 030
+/baton1-jackson/seq4 0
+/baton1-jackson/seq5 0
+/baton1-jackson/seq6 0
+/baton1-jackson/seq7 0
+# 
+/baton1-johnson2/origin 112
+/baton1-johnson2/seq0 102
+/baton1-johnson2/seq1 1002
+/baton1-johnson2/seq2 001
+/baton1-johnson2/seq3 0
+/baton1-johnson2/seq4 0
+/baton1-johnson2/seq5 0
+/baton1-johnson2/seq6 0
+/baton1-johnson2/seq7 0
+# 
+/baton1-scale/degree 4
+/baton1-scale/scale 3
+# 
+/baton2-jackson/origin 03055
+/baton2-jackson/seq0 00305
+/baton2-jackson/seq1 0
+/baton2-jackson/seq2 0
+/baton2-jackson/seq3 33005
+/baton2-jackson/seq4 0
+/baton2-jackson/seq5 503
+/baton2-jackson/seq6 0
+/baton2-jackson/seq7 0
+# 
+/baton2-johnson2/origin 02201
+/baton2-johnson2/seq0 00201
+/baton2-johnson2/seq1 2201
+/baton2-johnson2/seq2 2220
+/baton2-johnson2/seq3 0
+/baton2-johnson2/seq4 0
+/baton2-johnson2/seq5 0
+/baton2-johnson2/seq6 0
+/baton2-johnson2/seq7 0
+# 
+/baton2-scale/degree 1
+/baton2-scale/scale 3
+# 
+/baton3-jackson/origin 00506
+/baton3-jackson/seq0 00506
+/baton3-jackson/seq1 0
+/baton3-jackson/seq2 0
+/baton3-jackson/seq3 0
+/baton3-jackson/seq4 0
+/baton3-jackson/seq5 5506
+/baton3-jackson/seq6 660
+/baton3-jackson/seq7 0
+# 
+/baton3-johnson2/origin 003021
+/baton3-johnson2/seq0 02031
+/baton3-johnson2/seq1 31
+/baton3-johnson2/seq2 210
+/baton3-johnson2/seq3 30021
+/baton3-johnson2/seq4 0
+/baton3-johnson2/seq5 0
+/baton3-johnson2/seq6 0
+/baton3-johnson2/seq7 0
+# 
+/baton3-scale/degree 1
+/baton3-scale/scale 3
+# 
+# ###########################################
+
+- cue "cue4_strating3"
+- description "something about this cue"
+# ###########################################
+# 
+/baton1-jackson/origin 1013
+/baton1-jackson/seq0 1001
+/baton1-jackson/seq1 3301
+/baton1-jackson/seq2 0
+/baton1-jackson/seq3 030
+/baton1-jackson/seq4 0
+/baton1-jackson/seq5 0
+/baton1-jackson/seq6 0
+/baton1-jackson/seq7 0
+# 
+/baton1-johnson2/origin 112
+/baton1-johnson2/seq0 102
+/baton1-johnson2/seq1 1002
+/baton1-johnson2/seq2 001
+/baton1-johnson2/seq3 0
+/baton1-johnson2/seq4 0
+/baton1-johnson2/seq5 0
+/baton1-johnson2/seq6 0
+/baton1-johnson2/seq7 0
+# 
+/baton1-scale/degree 4
+/baton1-scale/scale 3
+# 
+/baton2-jackson/origin 03055
+/baton2-jackson/seq0 00305
+/baton2-jackson/seq1 0
+/baton2-jackson/seq2 0
+/baton2-jackson/seq3 33005
+/baton2-jackson/seq4 0
+/baton2-jackson/seq5 503
+/baton2-jackson/seq6 0
+/baton2-jackson/seq7 0
+# 
+/baton2-johnson2/origin 02201
+/baton2-johnson2/seq0 00201
+/baton2-johnson2/seq1 2201
+/baton2-johnson2/seq2 2220
+/baton2-johnson2/seq3 0
+/baton2-johnson2/seq4 0
+/baton2-johnson2/seq5 0
+/baton2-johnson2/seq6 0
+/baton2-johnson2/seq7 0
+# 
+/baton2-scale/degree 1
+/baton2-scale/scale 3
+# 
+/baton3-jackson/origin 00506
+/baton3-jackson/seq0 00506
+/baton3-jackson/seq1 0
+/baton3-jackson/seq2 0
+/baton3-jackson/seq3 0
+/baton3-jackson/seq4 0
+/baton3-jackson/seq5 5506
+/baton3-jackson/seq6 660
+/baton3-jackson/seq7 0
+# 
+/baton3-johnson2/origin 003021
+/baton3-johnson2/seq0 02031
+/baton3-johnson2/seq1 31
+/baton3-johnson2/seq2 210
+/baton3-johnson2/seq3 30021
+/baton3-johnson2/seq4 0
+/baton3-johnson2/seq5 0
+/baton3-johnson2/seq6 0
+/baton3-johnson2/seq7 0
+# 
+/baton3-scale/degree 6
+/baton3-scale/scale 3
+# 
+# ###########################################
+
