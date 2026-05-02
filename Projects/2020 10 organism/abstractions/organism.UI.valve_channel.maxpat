@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1244.0, 287.0, 76.0, 80.0 ],
+		"rect" : [ 1244.0, 287.0, 106.0, 84.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 75.0, 95.0, 22.0 ],
+					"text" : "r valve.speedlim"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"checkedcolor" : [ 0.996078431372549, 0.054901960784314, 1.0, 1.0 ],
 					"id" : "obj-10",
@@ -84,7 +96,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[217]",
+							"parameter_longname" : "Interval[82]",
 							"parameter_mmax" : 21,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -443,7 +455,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[218]",
+							"parameter_longname" : "Interval[3]",
 							"parameter_mmax" : 20,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -542,7 +554,7 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Interval[219]",
+							"parameter_longname" : "Interval[1]",
 							"parameter_mmax" : 20,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -585,7 +597,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.text[253]",
+							"parameter_longname" : "live.text[456]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_order" : 2,
@@ -888,6 +900,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -1129,7 +1148,34 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1301" : [ "live.text[456]", "1", 2 ],
+			"obj-15" : [ "Interval[82]", "Interval", 2 ],
+			"obj-509" : [ "toggle[240]", "toggle[7]", 0 ],
+			"obj-511" : [ "number[828]", "number[96]", 0 ],
+			"obj-513" : [ "number[837]", "number[96]", 0 ],
+			"obj-6" : [ "live.tab[196]", "live.tab", 0 ],
+			"obj-60" : [ "Interval[1]", "Interval", 2 ],
+			"obj-84" : [ "Interval[3]", "Interval", 2 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

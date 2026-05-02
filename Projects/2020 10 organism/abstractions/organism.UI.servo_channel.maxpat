@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 157.0, 226.0, 1682.0, 898.0 ],
+		"rect" : [ 157.0, 226.0, 68.0, 395.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "evan_template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1533.0, 337.0, 95.0, 22.0 ],
+					"text" : "r slider.speedlim"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "comment",
@@ -882,7 +894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1527.0, 293.0, 106.0, 35.0 ],
+					"patching_rect" : [ 1440.0, 285.0, 106.0, 35.0 ],
 					"text" : "ossia.remote #1/value"
 				}
 
@@ -894,7 +906,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1527.0, 338.0, 73.0, 22.0 ],
+					"patching_rect" : [ 1440.0, 330.0, 73.0, 22.0 ],
 					"text" : "speedlim 50"
 				}
 
@@ -1238,14 +1250,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 35.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 35.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1411,14 +1423,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -1551,14 +1563,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-983",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 105.0, 49.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5070.0, 1335.0, 105.0, 49.0 ],
 									"text" : "ossia.remote #1/mixer/source"
 								}
@@ -2323,7 +2335,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1527.0, 368.0, 15.0, 135.0 ],
+					"patching_rect" : [ 1440.0, 360.0, 15.0, 135.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 54.0, 181.0, 8.0, 138.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2560,7 +2572,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1257", 0 ],
-					"midpoints" : [ 1536.5, 363.5, 1536.0, 363.5 ],
+					"midpoints" : [ 1449.5, 355.5, 1449.0, 355.5 ],
 					"source" : [ "obj-1258", 0 ]
 				}
 
@@ -2737,6 +2749,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1258", 1 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -3269,7 +3288,45 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1025" : [ "RTmin[303]", "RTmin[10]", 0 ],
+			"obj-1042" : [ "RTmin[299]", "RTmin[2]", 0 ],
+			"obj-1135" : [ "number[263]", "number[96]", 0 ],
+			"obj-1151" : [ "number[262]", "number[96]", 0 ],
+			"obj-1257" : [ "multislider[107]", "multislider", 0 ],
+			"obj-1345" : [ "RTmin[301]", "RTmin[10]", 0 ],
+			"obj-1363" : [ "RTmin[300]", "RTmin[10]", 0 ],
+			"obj-150" : [ "rslider[101]", "rslider[1]", 0 ],
+			"obj-151" : [ "number[264]", "number[96]", 0 ],
+			"obj-157" : [ "dial[96]", "dial", 0 ],
+			"obj-20" : [ "live.text[234]", "live.text", 0 ],
+			"obj-668" : [ "live.tab[157]", "live.tab", 0 ],
+			"obj-68" : [ "live.text[184]", "live.text", 0 ],
+			"obj-76" : [ "live.tab[158]", "live.tab[2]", 0 ],
+			"obj-848" : [ "rslider[93]", "rslider[1]", 0 ],
+			"obj-898" : [ "umenu[52]", "umenu", 0 ],
+			"obj-922" : [ "multislider[108]", "multislider", 0 ],
+			"obj-951" : [ "RTmin[304]", "RTmin[2]", 0 ],
+			"obj-967" : [ "RTmin[302]", "RTmin[10]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
