@@ -1,0 +1,3081 @@
+{
+    "cues": [
+        {
+            "name": "ripple-init",
+            "preset": [
+                {
+                    "address": "/rvb-scale/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/rvb-scale/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/rvb-scale/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/rvb-scale/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rvb-scale/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/rvb-scale/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rvb-scale/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/rogs_cues/editor/closed",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/read/done",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/read",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/rogs_cues/saveas",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/rogs_cues/clear",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/rogs_cues/autosave",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/file/path",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/rogs_cues/save",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/cuelist/refresh",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/rogs_cues/ramp/set",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/description/set",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/new",
+                    "type": "string",
+                    "value": "ripple-init"
+                },
+                {
+                    "address": "/rogs_cues/input",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "string",
+                            "value": "display_model"
+                        },
+                        {
+                            "type": "string",
+                            "value": "/gametrak"
+                        }
+                    ]
+                },
+                {
+                    "address": "/rogs_cues/output",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "string",
+                            "value": "parameters"
+                        },
+                        {
+                            "type": "string",
+                            "value": "cell"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "int",
+                            "value": 11
+                        },
+                        {
+                            "type": "string",
+                            "value": "brgb"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "address": "/Rvrb-output/limiter/clear",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/Rvrb-output/limiter/threshold",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/limiter/preamp",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/audio/gain/interpolation",
+                    "type": "float",
+                    "value": 100.0
+                },
+                {
+                    "address": "/Rvrb-output/audio/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/audio/mute",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapOnsetVar/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live2/mapOnsetVar/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live2/mapOnsetVar/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapOnsetVar/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapOnsetVar/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapOnsetVar/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapOnsetVar/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapOnsetVar/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapOnsetVar/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSize/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 2
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live2/mapSize/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSize/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapSize/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSize/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSize/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapSize/input/min",
+                    "type": "float",
+                    "value": -1.0
+                },
+                {
+                    "address": "/live2/mapSize/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapPitch/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/left/y"
+                },
+                {
+                    "address": "/live2/mapPitch/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapPitch/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPitch/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapPitch/input/min",
+                    "type": "float",
+                    "value": -1.0
+                },
+                {
+                    "address": "/live2/mapTurn/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapTurn/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTurn/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/numChannels",
+                    "type": "int",
+                    "value": 2
+                },
+                {
+                    "address": "/rvb-scale/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpeed/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/left/z"
+                },
+                {
+                    "address": "/live2/mapSpeed/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapSpeed/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapSpeed/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSpeed/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpeed/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpeed/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapSpeed/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapGain/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live2/mapGain/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapGain/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapGain/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapGain/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpread/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSpread/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapSpread/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapSpread/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/bufferName",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "string",
+                            "value": "1055-Audio"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live2/mapPvar/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 2
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live2/mapPvar/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/left/x"
+                },
+                {
+                    "address": "/live2/mapPvar/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapPvar/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapPvar/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPvar/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapPvar/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPvar/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapPvar/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPvar/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapPosition/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live2/mapPosition/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live2/mapPosition/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapPosition/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapPosition/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapPosition/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapperGate/gain",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapperGate/pitchVar",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "address": "/live2/mapperGate/pitch",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapperGate/trigger",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapperGate/size",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapperGate/speed",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapperGate/position",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/scrubUI",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/selection/mode",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapTrigger/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/right/z"
+                },
+                {
+                    "address": "/live2/mapTrigger/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapTrigger/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rvb-scale/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapTrigger/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapGain/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapTrigger/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapTrigger/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTrigger/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapGain/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapTrigger/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTrigger/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapGain/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapTrigger/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapperGate/turn",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/record/position",
+                    "type": "float",
+                    "value": 0.9057840704917908
+                },
+                {
+                    "address": "/live2/playback/position",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/playback/direction",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/playback/speed",
+                    "type": "float",
+                    "value": 0.004999999888241291
+                },
+                {
+                    "address": "/live2/mapPvar/input/min",
+                    "type": "float",
+                    "value": -1.0
+                },
+                {
+                    "address": "/live2/waveform/normalize.1",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/waveform/normalize",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rvb-scale/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapSpeed/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/buffer/clear",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/buffer/append",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/limiter/active",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/pitch/transpose",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/modAmt/size",
+                    "type": "float",
+                    "value": 0.17704451084136963
+                },
+                {
+                    "address": "/live2/modAmt/spread",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/modAmt/pitchVar",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/modAmt/position",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpeed/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/modAmt/turn",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/grain/trigger/variance/gainVar/range",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live2/mod/size",
+                    "type": "float",
+                    "value": 333.0
+                },
+                {
+                    "address": "/live2/mod/spread",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mod/position",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mod/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mod/trigger",
+                    "type": "float",
+                    "value": 80.0
+                },
+                {
+                    "address": "/live2/mapSpeed/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapSpeed/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/pan/mode",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapPosition/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/grain/trigger/freq",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/modAmt/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/grain/trigger/variance/on",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSpread/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live2/grain/trigger/variance/rateVar/randomnessRate",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpread/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live1/mapSpread/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/grain/trigger/variance/rateVar/spread",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpread/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/grain/trigger/variance/gainVar/randomnessRate",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpread/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapPosition/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/buffer/rec",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/audio/gain",
+                    "type": "float",
+                    "value": -70.0
+                },
+                {
+                    "address": "/live2/audio/mute",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapPosition/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq-in/filter.5/type",
+                    "type": "string",
+                    "value": "lowpass"
+                },
+                {
+                    "address": "/live2/mapSize/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/right/x"
+                },
+                {
+                    "address": "/live1/mapTrigger/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq-in/filter.4/type",
+                    "type": "string",
+                    "value": "highpass"
+                },
+                {
+                    "address": "/live2/mapSize/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq-in/filter.4/frequency",
+                    "type": "float",
+                    "value": 85.0
+                },
+                {
+                    "address": "/eq-in/filter.3/frequency",
+                    "type": "float",
+                    "value": 85.0
+                },
+                {
+                    "address": "/live2/pitch/variation",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapTrigger/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/eq-in/filter.2/frequency",
+                    "type": "float",
+                    "value": 85.0
+                },
+                {
+                    "address": "/eq-in/filter.2/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq-in/filter.1/frequency",
+                    "type": "float",
+                    "value": 89.0
+                },
+                {
+                    "address": "/eq-in/filter.1/octave_bandwidth",
+                    "type": "float",
+                    "value": 2.331416130065918
+                },
+                {
+                    "address": "/Rvrb-output/limiter/mode",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "address": "/live2/mod/pitch",
+                    "type": "float",
+                    "value": 300.0
+                },
+                {
+                    "address": "/eq-in/audio/bypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/waveform/normalize.1",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/grain/overlap",
+                    "type": "int",
+                    "value": 100
+                },
+                {
+                    "address": "/eq-in/audio/mute",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mod/onsetVar",
+                    "type": "float",
+                    "value": 2000.0
+                },
+                {
+                    "address": "/live2/mapTurn/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/eq/audio/bypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/eq/filter.1/frequency",
+                    "type": "float",
+                    "value": 50.0
+                },
+                {
+                    "address": "/Dry-output/limiter/active",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapperGate/onsetVar",
+                    "type": "int",
+                    "value": 2
+                },
+                {
+                    "address": "/live2/grain/trigger/note",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapperGate/spread",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq/filter.1/type",
+                    "type": "string",
+                    "value": "highpass"
+                },
+                {
+                    "address": "/live1/mapSize/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Dry-output/limiter/mode",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "address": "/Dry-output/limiter/postamp",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Dry-output/limiter/preamp",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.5/frequency",
+                    "type": "float",
+                    "value": 1629.2911376953125
+                },
+                {
+                    "address": "/live2/mapPosition/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.5/gain",
+                    "type": "float",
+                    "value": -1.5118099451065063
+                },
+                {
+                    "address": "/live1/mapTrigger/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.5/octave_bandwidth",
+                    "type": "float",
+                    "value": 0.1860940158367157
+                },
+                {
+                    "address": "/live1/audio/mute",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/eq/filter.4/frequency",
+                    "type": "float",
+                    "value": 1000.0
+                },
+                {
+                    "address": "/live2/mapSpread/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.4/octave_bandwidth",
+                    "type": "float",
+                    "value": 0.9588802456855774
+                },
+                {
+                    "address": "/eq/filter.3/type",
+                    "type": "string",
+                    "value": "peaknotch"
+                },
+                {
+                    "address": "/live2/mapPosition/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/eq/filter.2/type",
+                    "type": "string",
+                    "value": "peaknotch"
+                },
+                {
+                    "address": "/eq/filter.2/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpread/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mod/size",
+                    "type": "float",
+                    "value": 350.0
+                },
+                {
+                    "address": "/Dry-output/limiter/lookahead",
+                    "type": "int",
+                    "value": 100
+                },
+                {
+                    "address": "/eq/filter.1/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.1/octave_bandwidth",
+                    "type": "float",
+                    "value": 1.9036437273025513
+                },
+                {
+                    "address": "/eq/audio/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/buffer/rec",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/audio/mute",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/eq-in/audio/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapTurn/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapTurn/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/Dry-output/limiter/release",
+                    "type": "float",
+                    "value": 700.0
+                },
+                {
+                    "address": "/live1/mapperGate/turn",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapTurn/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapOnsetVar/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapOnsetVar/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/rvb-scale/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapOnsetVar/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTrigger/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live1/mapOnsetVar/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapOnsetVar/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/pan/spread",
+                    "type": "float",
+                    "value": 0.3499999940395355
+                },
+                {
+                    "address": "/live2/mapOnsetVar/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapSpread/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/grain/trigger/variance/gainVar/range",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live2/mapTurn/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTurn/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/Dry-output/audio/mute",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapSpread/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTurn/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapSpread/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapTurn/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapTurn/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/Dry-output/audio/gain",
+                    "type": "float",
+                    "value": -0.5350318551063538
+                },
+                {
+                    "address": "/live1/mapSpread/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapTurn/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapSpread/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/numChannels",
+                    "type": "int",
+                    "value": 2
+                },
+                {
+                    "address": "/live1/mapGain/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live2/mapGain/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapGain/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapGain/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/grain/trigger/mode",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mod/pitch",
+                    "type": "float",
+                    "value": 100.0
+                },
+                {
+                    "address": "/live1/mapGain/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapGain/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapGain/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/eq-in/filter.2/type",
+                    "type": "string",
+                    "value": "highpass"
+                },
+                {
+                    "address": "/live2/mapGain/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapOnsetVar/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapOnsetVar/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSize/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 2
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live2/mapOnsetVar/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapSize/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/right/x"
+                },
+                {
+                    "address": "/live1/waveform/line",
+                    "type": "float",
+                    "value": 10000.0
+                },
+                {
+                    "address": "/live1/bufferName",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "string",
+                            "value": "1160-Audio"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapSize/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapSize/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.3/octave_bandwidth",
+                    "type": "float",
+                    "value": 0.9588802456855774
+                },
+                {
+                    "address": "/eq/filter.2/octave_bandwidth",
+                    "type": "float",
+                    "value": 0.9588802456855774
+                },
+                {
+                    "address": "/live1/mapSize/scalebypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSpread/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/eq-in/filter.3/type",
+                    "type": "string",
+                    "value": "highpass"
+                },
+                {
+                    "address": "/rogs_cues/cuelist",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "string",
+                            "value": " "
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapPitch/scalebypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapTrigger/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapOnsetVar/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapSize/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/buffer/clear",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq-in/filter.1/type",
+                    "type": "string",
+                    "value": "highpass"
+                },
+                {
+                    "address": "/live1/mapTrigger/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapTrigger/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Dry-output/limiter/threshold",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTrigger/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live2/mapPitch/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq-in/filter.2/octave_bandwidth",
+                    "type": "float",
+                    "value": 1.6517069339752197
+                },
+                {
+                    "address": "/live2/mapPitch/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPitch/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 2
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapTurn/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapSpeed/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapGain/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapPitch/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapTurn/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapPitch/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapTurn/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPitch/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mod/pitchVar",
+                    "type": "float",
+                    "value": 10.0
+                },
+                {
+                    "address": "/live1/mapTurn/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mod/spread",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPitch/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPitch/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mod/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapTurn/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapPitch/input/min",
+                    "type": "float",
+                    "value": -1.0
+                },
+                {
+                    "address": "/Dry-output/limiter/dcblocker/active",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/mapTurn/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live2/mapPitch/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPitch/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/eq-in/filter.3/octave_bandwidth",
+                    "type": "float",
+                    "value": 1.6517069339752197
+                },
+                {
+                    "address": "/live1/mapPitch/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/left/y"
+                },
+                {
+                    "address": "/live2/mapSpeed/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapPitch/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapPitch/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.3/frequency",
+                    "type": "float",
+                    "value": 1000.0
+                },
+                {
+                    "address": "/Dry-output/limiter/clear",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/live1/mapperGate/gain",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapSpeed/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/left/z"
+                },
+                {
+                    "address": "/live2/mod/speed",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapPosition/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live1/mapSize/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapTrigger/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/rogs_cues/selection",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapSize/input/min",
+                    "type": "float",
+                    "value": -1.0
+                },
+                {
+                    "address": "/live1/mapTrigger/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq-in/filter.5/frequency",
+                    "type": "float",
+                    "value": 12670.833984375
+                },
+                {
+                    "address": "/live1/mapTrigger/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/rogs_cues/update",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/live1/mapPosition/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/rogs_cues/rename",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapPosition/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapTrigger/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/rogs_cues/recall",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "address": "/live1/mapPosition/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPosition/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPosition/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq-in/filter.4/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPosition/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/mapPosition/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapTrigger/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapTrigger/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/right/z"
+                },
+                {
+                    "address": "/live1/mapPosition/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/buffer/size",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPosition/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpeed/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapSpeed/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapTurn/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpeed/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/modAmt/pitch",
+                    "type": "float",
+                    "value": 0.476401150226593
+                },
+                {
+                    "address": "/live1/mapTurn/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapSpeed/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/Rvrb-output/limiter/dcblocker/active",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapSpeed/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/limiter/release",
+                    "type": "float",
+                    "value": 700.0
+                },
+                {
+                    "address": "/live1/mapPvar/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 2
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/mapSpeed/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapPosition/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapPvar/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPvar/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapPvar/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapSize/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mod/turn",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/limiter/lookahead",
+                    "type": "int",
+                    "value": 100
+                },
+                {
+                    "address": "/live2/mapPvar/scalebypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/modAmt/speed",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/buffer/append",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/scrubUI",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTrigger/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/modAmt/position",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/filter.5/type",
+                    "type": "string",
+                    "value": "highshelf"
+                },
+                {
+                    "address": "/live1/mapPosition/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live2/grain/onsetVar",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/playback/position",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mod/speed",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapperGate/position",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapSize/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/playback/speed",
+                    "type": "float",
+                    "value": 0.004999999888241291
+                },
+                {
+                    "address": "/live1/pan/rate",
+                    "type": "float",
+                    "value": 2.0
+                },
+                {
+                    "address": "/live1/mapTurn/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/grain/trigger/variance/rateVar/randomnessRate",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTurn/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/pan/spread",
+                    "type": "float",
+                    "value": 0.38999998569488525
+                },
+                {
+                    "address": "/live1/mapSize/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/pan/rate",
+                    "type": "float",
+                    "value": 2.0
+                },
+                {
+                    "address": "/live1/mapPvar/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/waveform/normalize",
+                    "type": "float",
+                    "value": 0.5
+                },
+                {
+                    "address": "/live1/record/position",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/rvb-scale/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/right/y"
+                },
+                {
+                    "address": "/live1/mapPvar/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapperGate/speed",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/waveform/line",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapperGate/spread",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq/filter.2/frequency",
+                    "type": "float",
+                    "value": 1000.0
+                },
+                {
+                    "address": "/live1/selection/mode",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/eq-in/filter.5/octave_bandwidth",
+                    "type": "float",
+                    "value": 3.1003458499908447
+                },
+                {
+                    "address": "/live1/mapSpeed/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapPvar/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/eq/audio/mix",
+                    "type": "float",
+                    "value": 100.0
+                },
+                {
+                    "address": "/live1/mapperGate/onsetVar",
+                    "type": "int",
+                    "value": 2
+                },
+                {
+                    "address": "/live2/grain/trigger/lock",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/buffer/size",
+                    "type": "float",
+                    "value": 10408.291015625
+                },
+                {
+                    "address": "/live1/mapperGate/pitch",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq-in/filter.4/octave_bandwidth",
+                    "type": "float",
+                    "value": 1.6517069339752197
+                },
+                {
+                    "address": "/live1/mapTurn/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/pan/mode",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/live1/mapSpeed/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPvar/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapperGate/trigger",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapSpeed/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapGain/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapPvar/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapperGate/size",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live2/mapPvar/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live2/mapSize/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq-in/audio/mix",
+                    "type": "float",
+                    "value": 100.0
+                },
+                {
+                    "address": "/live1/mapTrigger/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapTurn/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapPitch/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/modAmt/onsetVar",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/grain/trigger/freq",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/selection/range",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "float",
+                            "value": 10000.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 10000.0
+                        }
+                    ]
+                },
+                {
+                    "address": "/eq/filter.4/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPvar/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "/gametrak/left/x"
+                },
+                {
+                    "address": "/live2/modAmt/trigger",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/grain/onsetVar",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/grain/trigger/lock",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/grain/overlap",
+                    "type": "int",
+                    "value": 100
+                },
+                {
+                    "address": "/rogs_cues/delete",
+                    "type": "impulse"
+                },
+                {
+                    "address": "/live1/mapPosition/output/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/grain/duration",
+                    "type": "float",
+                    "value": 3.0
+                },
+                {
+                    "address": "/live1/mapGain/abs",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mod/trigger",
+                    "type": "float",
+                    "value": 80.0
+                },
+                {
+                    "address": "/eq-in/filter.3/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSize/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/grain/trigger/note",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapGain/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live2/modAmt/onsetVar",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/eq-in/filter.1/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/grain/trigger/mode",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapSpread/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/pitch/variation",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPitch/settingList",
+                    "type": "list",
+                    "value": [
+                        {
+                            "type": "int",
+                            "value": 1
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "int",
+                            "value": 2
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "float",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        },
+                        {
+                            "type": "string",
+                            "value": "s"
+                        }
+                    ]
+                },
+                {
+                    "address": "/live1/grain/trigger/variance/gainVar/randomnessRate",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPitch/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/modAmt/turn",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/modAmt/spread",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPosition/offset",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapSpread/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/modAmt/size",
+                    "type": "float",
+                    "value": 0.17704451084136963
+                },
+                {
+                    "address": "/live1/audio/gain",
+                    "type": "float",
+                    "value": -70.0
+                },
+                {
+                    "address": "/live1/modAmt/pitch",
+                    "type": "float",
+                    "value": 0.476401150226593
+                },
+                {
+                    "address": "/live2/selection/range",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapGain/input/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mod/onsetVar",
+                    "type": "float",
+                    "value": 1000.0
+                },
+                {
+                    "address": "/live1/mapperGate/pitchVar",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "address": "/live1/mapSpeed/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/grain/trigger/variance/on",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPvar/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpeed/scalebypass",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "address": "/rvb-scale/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/pitch/transpose",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live1/mapGain/offset2",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapGain/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSpread/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/live1/mapGain/abs2",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPosition/settingList",
+                    "type": "list",
+                    "value": []
+                },
+                {
+                    "address": "/Dry-output/audio/gain/interpolation",
+                    "type": "float",
+                    "value": 100.0
+                },
+                {
+                    "address": "/live1/mod/turn",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapGain/zl-nth",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/eq-in/filter.5/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/grain/trigger/variance/rateVar/spread",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPitch/function",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "address": "/live1/mapPvar/scalebypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mod/position",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapPvar/input/min",
+                    "type": "float",
+                    "value": -1.0
+                },
+                {
+                    "address": "/live2/mapSize/scalebypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/modAmt/trigger",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/Rvrb-output/limiter/postamp",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapOnsetVar/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapPitch/scalebypass",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "address": "/live1/mapPitch/input/max",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mod/pitchVar",
+                    "type": "float",
+                    "value": 20.0
+                },
+                {
+                    "address": "/eq/filter.4/type",
+                    "type": "string",
+                    "value": "peaknotch"
+                },
+                {
+                    "address": "/live1/playback/direction",
+                    "type": "int",
+                    "value": 2
+                },
+                {
+                    "address": "/live1/modAmt/pitchVar",
+                    "type": "float",
+                    "value": 1.0
+                },
+                {
+                    "address": "/live1/mapGain/output/min",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/mapTurn/namespacebrowser/nodeAddress",
+                    "type": "string",
+                    "value": "none"
+                },
+                {
+                    "address": "/live1/modAmt/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live2/grain/duration",
+                    "type": "float",
+                    "value": 3.0
+                },
+                {
+                    "address": "/eq/filter.3/gain",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/modAmt/speed",
+                    "type": "float",
+                    "value": 0.0
+                },
+                {
+                    "address": "/live1/mapSize/zl-nth",
+                    "type": "int",
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+# ==============================================================================
+# File: "/Users/navid/code/Nav/Projects/2026 05 RippleGanger/rvrb-rogslive-snapshot.txt"
+# Exported by: Navid Navab
+# navid@Mac - macOS 26.4.1
+# 07-may-2026 22:05:34
+# Content: 235 OSC messages
+# ==============================================================================
+/source/number 2
+/source/1/visible 1
+/source/1/editable 1
+/source/1/select 0
+/source/1/hidewhenmute 0
+/source/1/aed -47.2115 0.0 1.00617
+/source/1/constraint/circular 0
+/source/1/coordinates/visible 1
+/source/1/orientation/mode "default"
+/source/1/orientation 0.0 0.0 0.0 1.0
+/source/1/orientation/visible 1
+/source/1/lookat/xyz 0.0 0.0 0.0
+/source/1/proportion 100.0
+/source/1/color 0.490196 1.0 0.0 1.0
+/source/1/label "1"
+/source/1/label/visible 1
+/source/1/label/color 0.0 0.0 0.0 1.0
+/source/1/label/justification "centred"
+/source/1/vumeter/visible 0
+/source/1/vumeter/level -60.0
+/source/1/aperture 80.0
+/source/1/aperture/color 1.0 1.0 1.0 1.0
+/source/1/radius/visible 0
+/source/1/history/visible 0
+/source/1/history/size 100
+/source/1/history/color 0.490196 1.0 0.0 1.0
+/source/1/history/thickness 1.0
+/source/2/visible 1
+/source/2/editable 1
+/source/2/select 1
+/source/2/hidewhenmute 0
+/source/2/aed 46.336 0.0 1.01239
+/source/2/constraint/circular 0
+/source/2/coordinates/visible 1
+/source/2/orientation/mode "default"
+/source/2/orientation 0.0 0.0 0.0 1.0
+/source/2/orientation/visible 1
+/source/2/lookat/xyz 0.0 0.0 0.0
+/source/2/proportion 100.0
+/source/2/color 0.490196 1.0 0.0 1.0
+/source/2/label "2"
+/source/2/label/visible 1
+/source/2/label/color 0.0 0.0 0.0 1.0
+/source/2/label/justification "centred"
+/source/2/vumeter/visible 0
+/source/2/vumeter/level -60.0
+/source/2/aperture 80.0
+/source/2/aperture/color 1.0 1.0 1.0 1.0
+/source/2/radius/visible 0
+/source/2/history/visible 0
+/source/2/history/size 100
+/source/2/history/color 0.490196 1.0 0.0 1.0
+/source/2/history/thickness 1.0
+/speaker/number 0
+/stereo/number 0
+/subwoofer/number 0
+/listener/visible 1
+/listener/editable 0
+/listener/select 0
+/listener/aed 90.0 0.0 0.0
+/listener/constraint/circular 0
+/listener/coordinates/visible 1
+/listener/orientation/mode "default"
+/listener/orientation 0.0 0.0 0.0 1.0
+/listener/orientation/visible 0
+/listener/lookat/xyz 0.0 1.0 0.0
+/listener/proportion 100.0
+/listener/color 0.0 0.0 0.0 0.0
+/listener/label "listener"
+/listener/label/visible 0
+/listener/label/color 1.0 1.0 1.0 1.0
+/listener/label/justification "centred"
+/listener/headphones/visible 0
+/multi/number 0
+/microphone/number 0
+/eigenmike/number 0
+/format "aed"
+/background/color 0.709804 0.709804 0.709804 1.0
+/backgroundimage/file "none"
+/backgroundimage/visible 1
+/backgroundimage/opacity 100.0
+/backgroundimage/scale 100.0
+/backgroundimage/angle 0.0
+/backgroundimage/offset/xy 0.0 0.0
+/backgroundimage/quality "medium"
+/display/zoom 100.0
+/display/offset/xyz 0.0 0.0 0.0
+/display/zoom/lock 0
+/axis/visible 1
+/axis/label/visible 1
+/axis/origin/visible 1
+/axis/color 1.0 1.0 1.0 1.0
+/axis/thickness 2.0
+/grid/visible 1
+/grid/mode "circular"
+/grid/spacing 1.0
+/grid/line/number 30
+/grid/angulardivisions/number 8
+/grid/angulardivisions/visible 1
+/grid/dashed 0
+/grid/color 1.0 1.0 1.0 0.501961
+/grid/thickness 1.0
+/grid/unitcircle/visible 1
+/grid/unitcircle/color 0.501961 0.501961 0.501961 0.239216
+/grid/unitcircle/radius 1.0
+/legend/visible 1
+/legend/color 1.0 1.0 1.0 1.0
+/legend/unit "meters"
+/emphasis/source 1
+/emphasis/stereo 1
+/emphasis/speaker 0
+/emphasis/microphone 0
+/ruler/visible 0
+/ruler/color 1.0 1.0 1.0 1.0
+/ruler/unit "meters"
+/hoa/number 0
+/anchor/number 0
+/phone/number 0
+/area/number 0
+/path/number 0
+/speakerhull/visible 0
+/speakerhull/color 0.0 0.0 0.0 1.0
+/speakerhull/fill 0
+/speakerhull/fill/color 0.0 0.0 0.0 0.298039
+/settings/visible 0
+/settings/editable 1
+/layout "single"
+/source/1/pres 22.1
+/source/1/warm 30.0
+/source/1/bril 30.0
+/source/1/prer 120.0
+/source/1/revp 36.7
+/source/1/env 24.0
+/source/1/axis/params 0.0 0.0 0.0 0.0 177.0 5657.0
+/source/1/axis/mute 0
+/source/1/axis/bypass 0
+/source/1/omni/params 0.0 1.7 -1.0 -3.8 177.0 5657.0
+/source/1/omni/mute 0
+/source/1/omni/bypass 0
+/source/1/color 0.490196 1.0 0.0 1.0
+/source/1/doppler 0
+/source/1/air 1
+/source/1/air/freq 10000.0
+/source/1/drop 6.0
+/source/1/drop/mode "log2"
+/source/1/radius 1.0
+/source/1/room/destination 1
+/source/1/mute 0
+/source/1/solo 0
+/source/1/direct/mute 0
+/source/1/early/mute 0
+/source/1/cluster/mute 0
+/source/1/reverb/mute 0
+/source/1/early/width 30.0
+/source/1/early/shape 50.0
+/source/1/spread 0.0
+/source/1/panrev 0.0
+/source/1/lock 0
+/source/2/pres 22.0
+/source/2/warm 30.0
+/source/2/bril 30.0
+/source/2/prer 120.0
+/source/2/revp 36.6
+/source/2/env 24.0
+/source/2/axis/params 0.0 0.0 0.0 0.0 177.0 5657.0
+/source/2/axis/mute 0
+/source/2/axis/bypass 0
+/source/2/omni/params 0.0 1.7 -1.6 -3.8 177.0 5657.0
+/source/2/omni/mute 0
+/source/2/omni/bypass 0
+/source/2/color 0.490196 1.0 0.0 1.0
+/source/2/doppler 0
+/source/2/air 1
+/source/2/air/freq 10000.0
+/source/2/drop 6.0
+/source/2/drop/mode "log2"
+/source/2/radius 1.0
+/source/2/room/destination 1
+/source/2/mute 0
+/source/2/solo 0
+/source/2/direct/mute 0
+/source/2/early/mute 0
+/source/2/cluster/mute 0
+/source/2/reverb/mute 0
+/source/2/early/width 30.0
+/source/2/early/shape 50.0
+/source/2/spread 0.0
+/source/2/panrev 0.0
+/source/2/lock 0
+/room/number 1
+/room/1/reverberance 70.5
+/room/1/heaviness 25.0
+/room/1/liveness 35.0
+/room/1/reverb/fl 250.0
+/room/1/reverb/fh 8000.0
+/room/1/reverb/air 1
+/room/1/reverb/air/freq 10000.0
+/room/1/reverb/infinite 0
+/room/1/reverb/roomsize 2380.0
+/room/1/early/min 22.51
+/room/1/early/max 43.32
+/room/1/early/distr 0.49
+/room/1/cluster/min 46.36
+/room/1/cluster/max 120.74
+/room/1/cluster/distr 0.53
+/room/1/reverb/min 109.7
+/room/1/reverb/density 1.1
+/room/1/reverb/roomoffset 0.0
+/room/1/reverb/panrev 0.0
+/room/1/reverb/panrev/aed 0.0 0.0 1.0
+/room/1/mute 0
+/internals 8
+/viewer/visible 1
+/viewer/only 0
+/style "factors"
+/usurp 0
+/window/title "Spat Oper"
+/window/visible 0
+/window/moveable 1
+/window/resizable 1
+/window/enable 1
+/window/bounds 503 464 1050 440
+/window/background/color 0.827451 0.827451 0.827451 1.0
+/window/opaque 1
+/window/titlebar 1
+/window/fullscreen 0
+/window/minimise 0
+/window/scale 100.0
+/window/rendering/engine ""
+/window/rendering/fps/visible 0
+/window/floating 0
+/window/hidesondeactivate 0
+/window/buttons/close 1
+/window/buttons/minimise 1
+/window/buttons/maximise 1
